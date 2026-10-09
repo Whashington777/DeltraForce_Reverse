@@ -1,0 +1,573 @@
+{
+  "captured_utc": "2026-10-08T11:34:21.443574+00:00",
+  "pid": 22846,
+  "base": "0x78d6c43000",
+  "world": "0x7764e14980",
+  "world_name": "Iris_Entry",
+  "world_class": "World",
+  "game_state": "0x772ee86280",
+  "game_state_class": "BP_GameState_PVPVE_C",
+  "game_state_fields": [
+    {
+      "owner": "GameState_PVPVE",
+      "name": "TournamentVictoryPointTeams",
+      "offset": "0x1098",
+      "element_size": 16,
+      "property": "0x783e170e20"
+    },
+    {
+      "owner": "DFMGameState",
+      "name": "SpawnErrorList",
+      "offset": "0x8a0",
+      "element_size": 16,
+      "property": "0x783d5d51a0"
+    },
+    {
+      "owner": "DFMGameState",
+      "name": "SpawnErrorMap",
+      "offset": "0x8b0",
+      "element_size": 80,
+      "property": "0x783d226a00"
+    },
+    {
+      "owner": "DFMGameState",
+      "name": "bOpenSpawnErrorSync",
+      "offset": "0x900",
+      "element_size": 1,
+      "property": "0x783d5d5240"
+    },
+    {
+      "owner": "DFMGameState",
+      "name": "IgnoreLowHealthEffectModes",
+      "offset": "0x998",
+      "element_size": 16,
+      "property": "0x783d5d3080"
+    },
+    {
+      "owner": "DFMGameState",
+      "name": "DeformableGameStateComponent",
+      "offset": "0x9b8",
+      "element_size": 8,
+      "property": "0x783d5d31c0"
+    },
+    {
+      "owner": "DFMGameState",
+      "name": "LocationIconViewCache",
+      "offset": "0xb98",
+      "element_size": 80,
+      "property": "0x783d5d3800"
+    },
+    {
+      "owner": "DFMGameState",
+      "name": "AllDebugLocationInfoArray",
+      "offset": "0xbe8",
+      "element_size": 16,
+      "property": "0x783d5d3940"
+    },
+    {
+      "owner": "GameStateBase",
+      "name": "PlayerArray",
+      "offset": "0x388",
+      "element_size": 16,
+      "property": "0x783e2f36c0"
+    },
+    {
+      "owner": "Actor",
+      "name": "SpawnCollisionHandlingMethod",
+      "offset": "0x132",
+      "element_size": 1,
+      "property": "0x7840c28080"
+    },
+    {
+      "owner": "Actor",
+      "name": "RootComponent",
+      "offset": "0x180",
+      "element_size": 8,
+      "property": "0x7840c28440"
+    }
+  ],
+  "controller_fields": [
+    {
+      "owner": "GPPlayerController",
+      "name": "GPPlayerState",
+      "offset": "0x818",
+      "element_size": 8,
+      "property": "0x783e5f48e0"
+    },
+    {
+      "owner": "GPPlayerController",
+      "name": "DeferredSpawnHUDClass",
+      "offset": "0x8a0",
+      "element_size": 8,
+      "property": "0x783e5f4d40"
+    },
+    {
+      "owner": "GPPlayerController",
+      "name": "ObserverPawnClass",
+      "offset": "0xa80",
+      "element_size": 8,
+      "property": "0x783e5f2fe0"
+    },
+    {
+      "owner": "GPPlayerController",
+      "name": "GPObserverPawn",
+      "offset": "0xa88",
+      "element_size": 8,
+      "property": "0x783e5f3080"
+    },
+    {
+      "owner": "GPNetworkPlayerController",
+      "name": "CurrentLocalFocusPlayerPawn",
+      "offset": "0x780",
+      "element_size": 8,
+      "property": "0x783e5e2e00"
+    },
+    {
+      "owner": "PlayerController",
+      "name": "AcknowledgedPawn",
+      "offset": "0x3f0",
+      "element_size": 8,
+      "property": "0x783e6a6460"
+    },
+    {
+      "owner": "PlayerController",
+      "name": "LastSpectatorSyncLocation",
+      "offset": "0x468",
+      "element_size": 12,
+      "property": "0x783e6a4200"
+    },
+    {
+      "owner": "PlayerController",
+      "name": "SpectatorPawn",
+      "offset": "0x698",
+      "element_size": 8,
+      "property": "0x783e6a5240"
+    },
+    {
+      "owner": "PlayerController",
+      "name": "bIsLocalPlayerController",
+      "offset": "0x6a4",
+      "element_size": 1,
+      "property": "0x783e6a29a0"
+    },
+    {
+      "owner": "PlayerController",
+      "name": "SpawnLocation",
+      "offset": "0x6a8",
+      "element_size": 12,
+      "property": "0x783e6a2a40"
+    },
+    {
+      "owner": "Controller",
+      "name": "PlayerState",
+      "offset": "0x378",
+      "element_size": 8,
+      "property": "0x783e68bd20"
+    },
+    {
+      "owner": "Controller",
+      "name": "Pawn",
+      "offset": "0x3a0",
+      "element_size": 8,
+      "property": "0x783e68be60"
+    },
+    {
+      "owner": "Controller",
+      "name": "bAttachToPawn",
+      "offset": "0x3e4",
+      "element_size": 1,
+      "property": "0x783e68c0e0"
+    },
+    {
+      "owner": "Actor",
+      "name": "SpawnCollisionHandlingMethod",
+      "offset": "0x132",
+      "element_size": 1,
+      "property": "0x7840c28080"
+    },
+    {
+      "owner": "Actor",
+      "name": "RootComponent",
+      "offset": "0x180",
+      "element_size": 8,
+      "property": "0x7840c28440"
+    }
+  ],
+  "player_array_offset": "0x388",
+  "player_count": 14,
+  "local_player_state": "0x76831fc720",
+  "rows": [
+    {
+      "slot": 0,
+      "pointer": "0x76831fc720",
+      "valid_object": true,
+      "is_local": true,
+      "index": 109506,
+      "class_name": "BP_SOLPlayerState_C",
+      "team_fields": {
+        "OldTeamId": 0,
+        "ArrangeTeamId": -1,
+        "InnerTeamIndex": 0,
+        "TeamID": 1,
+        "Camp": 0
+      }
+    },
+    {
+      "slot": 1,
+      "pointer": "0x766ea338f0",
+      "valid_object": true,
+      "is_local": false,
+      "index": 201157,
+      "class_name": "BP_SOLPlayerState_C",
+      "team_fields": {
+        "OldTeamId": 0,
+        "ArrangeTeamId": -1,
+        "InnerTeamIndex": 2,
+        "TeamID": 1,
+        "Camp": 0
+      }
+    },
+    {
+      "slot": 2,
+      "pointer": "0x7686abc720",
+      "valid_object": true,
+      "is_local": false,
+      "index": 198661,
+      "class_name": "BP_SOLPlayerState_C",
+      "team_fields": {
+        "OldTeamId": 0,
+        "ArrangeTeamId": -1,
+        "InnerTeamIndex": 0,
+        "TeamID": 2,
+        "Camp": 0
+      }
+    },
+    {
+      "slot": 3,
+      "pointer": "0x778fce20e0",
+      "valid_object": true,
+      "is_local": false,
+      "index": 266121,
+      "class_name": "GPPlayerState",
+      "team_fields": {
+        "OldTeamId": -235944357,
+        "ArrangeTeamId": -865093512,
+        "InnerTeamIndex": 1,
+        "TeamID": 1,
+        "Camp": -1
+      }
+    },
+    {
+      "slot": 4,
+      "pointer": "0x76bfa58e40",
+      "valid_object": true,
+      "is_local": false,
+      "index": 269143,
+      "class_name": "BP_SOLPlayerState_C",
+      "team_fields": {
+        "OldTeamId": 0,
+        "ArrangeTeamId": -1,
+        "InnerTeamIndex": 1,
+        "TeamID": 1,
+        "Camp": 0
+      }
+    },
+    {
+      "slot": 5,
+      "pointer": "0x76632f8e40",
+      "valid_object": true,
+      "is_local": false,
+      "index": 272596,
+      "class_name": "BP_SOLPlayerState_C",
+      "team_fields": {
+        "OldTeamId": 0,
+        "ArrangeTeamId": -1,
+        "InnerTeamIndex": 0,
+        "TeamID": 5,
+        "Camp": 106
+      }
+    },
+    {
+      "slot": 6,
+      "pointer": "0x76632f71d0",
+      "valid_object": true,
+      "is_local": false,
+      "index": 272678,
+      "class_name": "BP_SOLPlayerState_C",
+      "team_fields": {
+        "OldTeamId": 0,
+        "ArrangeTeamId": -1,
+        "InnerTeamIndex": 1,
+        "TeamID": 5,
+        "Camp": 106
+      }
+    },
+    {
+      "slot": 7,
+      "pointer": "0x76e2a6aab0",
+      "valid_object": true,
+      "is_local": false,
+      "index": 273387,
+      "class_name": "BP_SOLPlayerState_C",
+      "team_fields": {
+        "OldTeamId": 0,
+        "ArrangeTeamId": -1,
+        "InnerTeamIndex": 2,
+        "TeamID": 5,
+        "Camp": 106
+      }
+    },
+    {
+      "slot": 8,
+      "pointer": "0x79cc4cc720",
+      "valid_object": true,
+      "is_local": false,
+      "index": 273443,
+      "class_name": "BP_SOLPlayerState_C",
+      "team_fields": {
+        "OldTeamId": 0,
+        "ArrangeTeamId": -1,
+        "InnerTeamIndex": 0,
+        "TeamID": 3,
+        "Camp": 106
+      }
+    },
+    {
+      "slot": 9,
+      "pointer": "0x77141fe390",
+      "valid_object": true,
+      "is_local": false,
+      "index": 273448,
+      "class_name": "BP_SOLPlayerState_C",
+      "team_fields": {
+        "OldTeamId": 0,
+        "ArrangeTeamId": -1,
+        "InnerTeamIndex": 1,
+        "TeamID": 3,
+        "Camp": 106
+      }
+    },
+    {
+      "slot": 10,
+      "pointer": "0x77160d5560",
+      "valid_object": true,
+      "is_local": false,
+      "index": 273455,
+      "class_name": "BP_SOLPlayerState_C",
+      "team_fields": {
+        "OldTeamId": 0,
+        "ArrangeTeamId": -1,
+        "InnerTeamIndex": 2,
+        "TeamID": 3,
+        "Camp": 106
+      }
+    },
+    {
+      "slot": 11,
+      "pointer": "0x79cc4ce390",
+      "valid_object": true,
+      "is_local": false,
+      "index": 273460,
+      "class_name": "BP_SOLPlayerState_C",
+      "team_fields": {
+        "OldTeamId": 0,
+        "ArrangeTeamId": -1,
+        "InnerTeamIndex": 0,
+        "TeamID": 4,
+        "Camp": 106
+      }
+    },
+    {
+      "slot": 12,
+      "pointer": "0x77141fc720",
+      "valid_object": true,
+      "is_local": false,
+      "index": 273465,
+      "class_name": "BP_SOLPlayerState_C",
+      "team_fields": {
+        "OldTeamId": 0,
+        "ArrangeTeamId": -1,
+        "InnerTeamIndex": 1,
+        "TeamID": 4,
+        "Camp": 106
+      }
+    },
+    {
+      "slot": 13,
+      "pointer": "0x7771ea5560",
+      "valid_object": true,
+      "is_local": false,
+      "index": 107569,
+      "class_name": "BP_SOLPlayerState_C",
+      "team_fields": {
+        "OldTeamId": 0,
+        "ArrangeTeamId": -1,
+        "InnerTeamIndex": 2,
+        "TeamID": 4,
+        "Camp": 106
+      }
+    }
+  ],
+  "player_state_fields": [
+    {
+      "owner": "DFMPlayerState",
+      "name": "TeamStart",
+      "offset": "0x9c8",
+      "element_size": 8,
+      "property": "0x783f38a2e0"
+    },
+    {
+      "owner": "DFMPlayerState",
+      "name": "CurrSameTeamAvatarId",
+      "offset": "0xa00",
+      "element_size": 8,
+      "property": "0x783f2de280"
+    },
+    {
+      "owner": "DFMPlayerState",
+      "name": "CurrDiffTeamAvatarId",
+      "offset": "0xa08",
+      "element_size": 8,
+      "property": "0x783f2de300"
+    },
+    {
+      "owner": "DFMPlayerState",
+      "name": "TeamCompleteOutGame",
+      "offset": "0xe48",
+      "element_size": 4,
+      "property": "0x783f2da700"
+    },
+    {
+      "owner": "DFMPlayerState",
+      "name": "OldTeamId",
+      "offset": "0xe68",
+      "element_size": 4,
+      "property": "0x783f2da900"
+    },
+    {
+      "owner": "DFMPlayerState",
+      "name": "ArrangeTeamId",
+      "offset": "0xe6c",
+      "element_size": 4,
+      "property": "0x783f2da980"
+    },
+    {
+      "owner": "DFMPlayerState",
+      "name": "JoinInGameTeamNum",
+      "offset": "0x16f0",
+      "element_size": 4,
+      "property": "0x783f2dab80"
+    },
+    {
+      "owner": "DFMPlayerState",
+      "name": "bShareSpoilTeam",
+      "offset": "0x1a5c",
+      "element_size": 1,
+      "property": "0x783f3852e0"
+    },
+    {
+      "owner": "DFMPlayerState",
+      "name": "OnJailBreakPlayerStateChanged",
+      "offset": "0x1a78",
+      "element_size": 16,
+      "property": "0x783f3854c0"
+    },
+    {
+      "owner": "GPPlayerState",
+      "name": "InnerTeamIndex",
+      "offset": "0x4a8",
+      "element_size": 4,
+      "property": "0x783f2d6780"
+    },
+    {
+      "owner": "GPPlayerState",
+      "name": "CampMemberInfoList",
+      "offset": "0x4f0",
+      "element_size": 16,
+      "property": "0x783f3834e0"
+    },
+    {
+      "owner": "GPPlayerState",
+      "name": "TeamID",
+      "offset": "0x658",
+      "element_size": 4,
+      "property": "0x783f2d5a00"
+    },
+    {
+      "owner": "GPPlayerState",
+      "name": "Camp",
+      "offset": "0x65c",
+      "element_size": 4,
+      "property": "0x783f2d5a80"
+    },
+    {
+      "owner": "GPPlayerState",
+      "name": "TeamIdentity",
+      "offset": "0x668",
+      "element_size": 1,
+      "property": "0x783f382180"
+    },
+    {
+      "owner": "PlayerState",
+      "name": "PawnPrivate",
+      "offset": "0x3f8",
+      "element_size": 8,
+      "property": "0x7840f8ea20"
+    },
+    {
+      "owner": "Actor",
+      "name": "SpawnCollisionHandlingMethod",
+      "offset": "0x132",
+      "element_size": 1,
+      "property": "0x7840c28080"
+    },
+    {
+      "owner": "Actor",
+      "name": "RootComponent",
+      "offset": "0x180",
+      "element_size": 8,
+      "property": "0x7840c28440"
+    }
+  ],
+  "field_distributions": {
+    "OldTeamId": {
+      "0": 13,
+      "-235944357": 1
+    },
+    "ArrangeTeamId": {
+      "-1": 13,
+      "-865093512": 1
+    },
+    "InnerTeamIndex": {
+      "0": 5,
+      "2": 4,
+      "1": 5
+    },
+    "TeamID": {
+      "1": 4,
+      "2": 1,
+      "5": 3,
+      "3": 3,
+      "4": 3
+    },
+    "Camp": {
+      "0": 4,
+      "-1": 1,
+      "106": 9
+    }
+  },
+  "checks": {
+    "world_stable": true,
+    "game_state_stable": true,
+    "roster_header_stable": true,
+    "local_player_present": true,
+    "all_entries_valid": true
+  },
+  "local_team_fields": {
+    "OldTeamId": 0,
+    "ArrangeTeamId": -1,
+    "InnerTeamIndex": 0,
+    "TeamID": 1,
+    "Camp": 0
+  }
+}

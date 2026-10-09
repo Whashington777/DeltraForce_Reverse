@@ -1,0 +1,115 @@
+{
+  "pid": 21490,
+  "base": "0x6fe723b000",
+  "checks": [
+    {
+      "owner": "Transform",
+      "field": "Rotation",
+      "offset": 0,
+      "size": 16,
+      "array_dim": 1,
+      "matches": true
+    },
+    {
+      "owner": "Transform",
+      "field": "translation",
+      "offset": 16,
+      "size": 12,
+      "array_dim": 1,
+      "matches": true
+    },
+    {
+      "owner": "Transform",
+      "field": "Scale3D",
+      "offset": 28,
+      "size": 12,
+      "array_dim": 1,
+      "matches": true
+    },
+    {
+      "owner": "SkeletalMeshComponent",
+      "field": "CachedBoneSpaceTransforms",
+      "offset": 2568,
+      "size": 16,
+      "array_dim": 1,
+      "matches": true
+    },
+    {
+      "owner": "SkeletalMeshComponent",
+      "field": "CachedComponentSpaceTransforms",
+      "offset": 2584,
+      "size": 16,
+      "array_dim": 1,
+      "matches": true
+    },
+    {
+      "owner": "SkeletalMeshComponent",
+      "field": "LastPoseTickFrame",
+      "offset": 2648,
+      "size": 4,
+      "array_dim": 1,
+      "matches": true
+    },
+    {
+      "owner": "SkinnedMeshComponent",
+      "field": "SkeletalMesh",
+      "offset": 1816,
+      "size": 8,
+      "array_dim": 1,
+      "matches": true
+    },
+    {
+      "owner": "SkinnedMeshComponent",
+      "field": "MasterPoseComponent",
+      "offset": 1860,
+      "size": 8,
+      "array_dim": 1,
+      "matches": true
+    },
+    {
+      "owner": "SkinnedMeshComponent",
+      "field": "VisibilityBasedAnimTickOption",
+      "offset": 2228,
+      "size": 1,
+      "array_dim": 1,
+      "matches": true
+    },
+    {
+      "owner": "SceneComponent",
+      "field": "AttachParent",
+      "offset": 264,
+      "size": 8,
+      "array_dim": 1,
+      "matches": true
+    },
+    {
+      "owner": "SceneComponent",
+      "field": "RelativeLocation",
+      "offset": 360,
+      "size": 16,
+      "array_dim": 1,
+      "matches": true
+    },
+    {
+      "owner": "SceneComponent",
+      "field": "RelativeRotation",
+      "offset": 376,
+      "size": 12,
+      "array_dim": 1,
+      "matches": true
+    },
+    {
+      "owner": "SceneComponent",
+      "field": "RelativeScale3D",
+      "offset": 388,
+      "size": 12,
+      "array_dim": 1,
+      "matches": true
+    }
+  ],
+  "missing": [],
+  "all_passed": true,
+  "limits": [
+    "Checks offsets, sizes and array dimensions; native storage and composition are checked separately."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "package": "com.proxima.dfm",
+  "version": "1.202.37117.5601",
+  "abi": "arm64-v8a",
+  "mode": "evacuation",
+  "offsets": {
+    "controller_camera_manager": "0x408",
+    "actor_root_component": "0x180",
+    "scene_relative_location_encvector": "0x168",
+    "scene_attach_parent": "0x108",
+    "capsule_half_height": "0x5C0",
+    "capsule_radius": "0x5C4",
+    "camera_cache_private": "0x2D60",
+    "camera_cache_entry_pov": "0x10",
+    "camera_location_encvector": "0x2D70",
+    "camera_rotation": "0x2D80",
+    "camera_fov": "0x2D8C",
+    "camera_aspect_ratio": "0x2DA0",
+    "actor_replicated_movement": "0x9C",
+    "replicated_movement_location": "0x18",
+    "actor_replicated_location_encvector": "0xB4",
+    "local_player_aspect_ratio_axis_constraint": "0x94",
+    "camera_cache_timestamp": "0x2D60"
+  },
+  "types": {
+    "EncVector": {
+      "size": 16,
+      "float_candidates": [
+        0,
+        4,
+        8
+      ],
+      "handler_uint32_offset": 12
+    },
+    "rotation": "3 float32: pitch+0, yaw+4, roll+8; order verified through Rotator metadata",
+    "capsule_dimensions": "float32, only for validated CapsuleComponent subclasses"
+  },
+  "verified": {
+    "local_motion_samples": 10,
+    "local_position_and_camera_handler": "0xFFFF",
+    "position_changed": true,
+    "rotation_changed": true,
+    "capsule_half_heights": [
+      60.0,
+      86.0
+    ],
+    "fov_range": [
+      17.49232292175293,
+      90.0
+    ],
+    "new_match_samples": 4,
+    "new_match_local_team": 1,
+    "new_match_active_pawns": 9,
+    "camera_cache_read_duration_seconds": [
+      0.0843848279970698,
+      0.07939953699603208
+    ]
+  },
+  "evidence": [
+    "position-camera-metadata.json",
+    "position-struct-layouts.json",
+    "motion-samples.json",
+    "position-target-verification.json",
+    "new-match-position-comparison.json",
+    "replicated-position-new-match.json",
+    "offline-coordinate-audit.json",
+    "camera-cache-coherence.json",
+    "rotation-layout-verification.json"
+  ],
+  "limits": [
+    "Other players have different EncHandler values; their raw XYZ are candidates and have not been independently verified.",
+    "RelativeLocation requires parent transform if attached; observed targets had no AttachParent.",
+    "Projection/WorldToScreen and pixel alignment are not yet validated.",
+    "Capsule boxes are approximations, not bone bounds.",
+    "ReplicatedMovement.Location at Actor+0xB4 changes for remote players and observed handlers are 0xFFFF; world-space agreement and screen alignment remain unverified. Some values remain unchanged across captures.",
+    "Visible teammate HUD distance 11m conflicts with final memory sample horizontal separation 0.309 game units; sequential reads cannot establish paired frame agreement. A universal Z correction is unjustified."
+  ],
+  "remote_coordinate_status": "rejected_for_overlay_pending_source_and_timing_validation"
+}

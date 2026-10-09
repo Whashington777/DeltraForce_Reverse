@@ -1,0 +1,38 @@
+{
+  "package": "com.proxima.dfm",
+  "version": "1.202.37117.5601",
+  "source": "live native GetBoneTransform code",
+  "native_rva": "0x10E1628C",
+  "mesh_pointer_from_character": "0x3D0",
+  "active_buffer_index_int32": "0x794",
+  "bone_array_header_formula": "mesh + 0x750 + active_buffer_index * 0x10",
+  "array_count_relative": "0x8",
+  "bone_transform_stride": "0x30",
+  "bone_translation_relative": "0x10",
+  "master_pose_weak_object_index": "0x744",
+  "master_pose_weak_object_serial": "0x748",
+  "master_bone_map_array": "0x7B0",
+  "space": "component; world composition still uses component transform",
+  "screen_alignment_verified": false,
+  "player_coordinate_solution_verified": false,
+  "limits": [
+    "Offsets supported by native code and populated arrays in the lobby scan; no independent player world-coordinate validation.",
+    "Bone array alone does not supply actor world translation.",
+    "Master pose may redirect bone arrays to another component.",
+    "Lobby arrays changed/cleared in a subsequent capture; a populated capture alone does not prove continuous/current match data."
+  ],
+  "live_lobby_checks": {
+    "loaded_levels": 47,
+    "actors": 475,
+    "scene_components": 782,
+    "skeletal_mesh_components": 28,
+    "character_mesh_bone_counts": [
+      80,
+      75
+    ],
+    "cached_bone_arrays_empty": true,
+    "evidence": "lobby-all-level-active-bones.json",
+    "later_capture": "lobby-bone-geometry.json",
+    "later_character_mesh_arrays_empty": true
+  }
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "label": "continuation",
+    "pointer": "0x77d505ce54",
+    "instructions": [
+      "0x77d505ce54: ldp x16, x17, [sp, #-0x90]",
+      "0x77d505ce58: nop ",
+      "0x77d505ce5c: nop ",
+      "0x77d505ce60: nop ",
+      "0x77d505ce64: nop ",
+      "0x77d505ce68: ldr x16, #0x77d505ce70",
+      "0x77d505ce6c: br x16"
+    ]
+  },
+  {
+    "label": "original",
+    "pointer": "0x78e89cbc20",
+    "instructions": [
+      "0x78e89cbc20: ldr x16, #0x78e89cbc28",
+      "0x78e89cbc24: br x16",
+      "0x78e89cbc28: msr s0_5_c13_c7_0, x8",
+      "0x78e89cbc2c: cbz x23, #0x78e89cbc38",
+      "0x78e89cbc30: stp x20, x19, [sp, #0x60]",
+      "0x78e89cbc34: stp x29, x30, [sp, #0x70]",
+      "0x78e89cbc38: add x29, sp, #0x70",
+      "0x78e89cbc3c: mrs x23, tpidr_el0",
+      "0x78e89cbc40: mov w22, w1",
+      "0x78e89cbc44: mov x21, x0",
+      "0x78e89cbc48: ldr x8, [x23, #0x28]",
+      "0x78e89cbc4c: add x1, sp, #0x10",
+      "0x78e89cbc50: mov w0, #1",
+      "0x78e89cbc54: mov x20, x3",
+      "0x78e89cbc58: mov w19, w2",
+      "0x78e89cbc5c: str x8, [sp, #0x28]",
+      "0x78e89cbc60: bl #0x78e6e7b684",
+      "0x78e89cbc64: ldr x8, [sp, #0x18]",
+      "0x78e89cbc68: mov x25, #0xf7cf",
+      "0x78e89cbc6c: ldr w9, [sp, #0x10]",
+      "0x78e89cbc70: movk x25, #0xe353, lsl #16",
+      "0x78e89cbc74: mov w10, #0xbdc0",
+      "0x78e89cbc78: add x26, x21, #0x14",
+      "0x78e89cbc7c: lsr x8, x8, #3",
+      "0x78e89cbc80: movk x25, #0x9ba5, lsl #32",
+      "0x78e89cbc84: movk w10, #0xfff0, lsl #16",
+      "0x78e89cbc88: movk x25, #0x20c4, lsl #48",
+      "0x78e89cbc8c: umulh x8, x8, x25",
+      "0x78e89cbc90: lsr x8, x8, #4",
+      "0x78e89cbc94: neg w8, w8",
+      "0x78e89cbc98: madd w24, w9, w10, w8",
+      "0x78e89cbc9c: ldxr w8, [x26]"
+    ]
+  }
+]

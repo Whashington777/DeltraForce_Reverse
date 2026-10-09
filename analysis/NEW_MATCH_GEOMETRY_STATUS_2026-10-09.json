@@ -1,0 +1,28 @@
+{
+  "recorded_at_ns": 1791562823513541314,
+  "pid": 10651,
+  "process_start": "2455946",
+  "collection_report": "analysis/match-burst-captures/latest-new-match/collection-verification.json",
+  "current_match_specific_asset_maps_captured": true,
+  "current_match_full_projection_parameters_captured": true,
+  "native_bone_composition_cases": 640,
+  "native_bone_composition_passed": true,
+  "replication_rotation_candidate_near_equal": {
+    "matched": 23,
+    "total": 24,
+    "outlier_deg": 4.218742370605469
+  },
+  "replication_rotation_layout_current_process_verified": true,
+  "replicated_position_accepted_as_independent_world_source": false,
+  "full_remote_component_to_world_verified": false,
+  "world_bones_verified": false,
+  "live_tool_blocker": null,
+  "pending_checks": [
+    "Distinguish the observed rotation discrepancy from interpolation and non-atomic capture.",
+    "Independent remote world-transform and rendered skeletal-pose verification."
+  ],
+  "scope": "Current-match collection completeness and arithmetic are confirmed; full world transform readiness is not.",
+  "adb_reconnected": true,
+  "actor_replication_layout": "analysis/actor-layout-audits/1791563381956487941/manifest.json",
+  "collection_diagnostics_added": "Actor replicated Location/Rotation before and after raw bytes; not yet exercised in a live match"
+}

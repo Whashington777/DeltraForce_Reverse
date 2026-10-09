@@ -1,0 +1,45 @@
+{
+  "package": "com.proxima.dfm",
+  "version": "1.202.37117.5601",
+  "version_code": 2217,
+  "abi": "arm64-v8a",
+  "pid_at_capture": 18233,
+  "first_mapping_at_capture": "78d4626000-78dc8ef000 r-xp 00000000 fe:4e 253091                         /data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so",
+  "build_id": "0165b78b19f52f4ee20357ff54eb93da19b44407",
+  "sha256": "ae72b80e2993589558fd642e8f0697613f9b8af2b20a421ef079244e5f0b8639",
+  "root_verified": true,
+  "confirmed_structure_offsets": {
+    "object_chunks_pointer_slot": "0x2076B918",
+    "object_count_slot": "0x2076B90C",
+    "object_internal_index": "0x24",
+    "object_item_stride": "0x18",
+    "objects_per_chunk": 65536,
+    "world_global_pointer_slot": "0x20AA87A0",
+    "world_game_state": "0x140",
+    "game_state_player_array": "0x388",
+    "game_state_player_count": "0x390",
+    "object_class_pointer": "0x8",
+    "object_fname": "0x1C",
+    "player_state_team_id": "0x658",
+    "player_state_camp": "0x65C",
+    "game_instance_local_players": "0x38",
+    "local_player_controller": "0x30",
+    "controller_player_state": "0x378",
+    "player_state_pawn_private": "0x3F8"
+  },
+  "notes": [
+    "Runtime addresses are session-specific.",
+    "No requested global names in exported symbols or ASCII/UTF-16LE string scan.",
+    "String file offsets are not structure offsets.",
+    "No process memory writes performed."
+  ],
+  "candidates": {
+    "world_pointer_slot": {
+      "offset": "0x20AA87A0",
+      "status": "World class validated in live Breakthrough match"
+    }
+  },
+  "engine_runtime_marker": "++UE4+Release-4.24",
+  "player_roster_verification": "player-roster-verification.json",
+  "team_partition_verification": "team-partition-verification.json"
+}

@@ -1,0 +1,47 @@
+{
+  "capture": "analysis/combined-vector-captures/1791561658670379980",
+  "hierarchy_audit": "analysis/scene-hierarchy-audits/1791555625931943747/manifest.json",
+  "pid": 10651,
+  "process_start": "2455946",
+  "world": "0x6d50345bc0",
+  "candidates": [],
+  "rejected": [
+    {
+      "mesh": "0x6dcc924600",
+      "reason": "Dead, changed inputs/identity/header, unsupported master pose, or invalid bone payload"
+    },
+    {
+      "mesh": "0x6fb1015d40",
+      "reason": "Dead, changed inputs/identity/header, unsupported master pose, or invalid bone payload"
+    },
+    {
+      "mesh": "0x6fb1011780",
+      "reason": "Dead, changed inputs/identity/header, unsupported master pose, or invalid bone payload"
+    },
+    {
+      "mesh": "0x6e9d06e8c0",
+      "reason": "Mesh identity in the frozen payload does not match discovery"
+    },
+    {
+      "mesh": "0x6e8d93ba40",
+      "reason": "Dead, changed inputs/identity/header, unsupported master pose, or invalid bone payload"
+    },
+    {
+      "mesh": "0x6d2e19ba40",
+      "reason": "Dead, changed inputs/identity/header, unsupported master pose, or invalid bone payload"
+    },
+    {
+      "mesh": "0x6de80eba40",
+      "reason": "Dead, changed inputs/identity/header, unsupported master pose, or invalid bone payload"
+    }
+  ],
+  "remote_world_transform_verified": false,
+  "world_bones_verified": false,
+  "limits": [
+    "Yaw-only, unit scale, root without parent, Mesh directly attached without socket.",
+    "Captured pages are not frame-atomic; selector equality cannot exclude a flip and return.",
+    "Protected root coordinates use the supplied candidate key.",
+    "Native composition and attachment checks do not independently prove a remote world transform.",
+    "This builder does not perform independent comparison to a rendered pose; consult separate visual evidence."
+  ]
+}

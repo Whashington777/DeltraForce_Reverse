@@ -1,0 +1,18 @@
+{
+  "pid": 21490,
+  "base": "0x6fe723b000",
+  "world": "0x6effcc4060",
+  "game_state_class": "BP_GameState_IrisSafeHouse_C",
+  "roster_count": 1,
+  "players": [],
+  "coordinate_solution_verified": false,
+  "camera_cache_hex": "0662ae42000000000000000000000000801987c7ad001f4637fa8042ffff00008c3be74066442bc3b3940b3f00005c420000b4420000803f0000204100409c453b8ee33f020000000000803f0000000000000000000000000000000000000000",
+  "world_stable": true,
+  "roster_header_stable": true,
+  "duration_seconds": 1.517808814000091,
+  "limits": [
+    "Sequential memory reads, not a frame-atomic capture.",
+    "Component-space bones require world transform composition.",
+    "Master pose may redirect bones; no world verification inferred from plausible numbers."
+  ]
+}

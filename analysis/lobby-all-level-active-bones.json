@@ -1,0 +1,1271 @@
+{
+  "pid": 22846,
+  "world": "0x7582d8a4c0",
+  "actor_count": 475,
+  "level_counts": [
+    93,
+    4,
+    6,
+    4,
+    1,
+    6,
+    7,
+    6,
+    3,
+    22,
+    5,
+    42,
+    13,
+    2,
+    7,
+    7,
+    28,
+    3,
+    12,
+    20,
+    5,
+    12,
+    14,
+    9,
+    3,
+    9,
+    3,
+    4,
+    5,
+    9,
+    4,
+    6,
+    8,
+    6,
+    4,
+    9,
+    10,
+    4,
+    17,
+    2,
+    4,
+    5,
+    7,
+    3,
+    8,
+    9,
+    5
+  ],
+  "scene_components": 782,
+  "meshes": [
+    {
+      "component": "0x7704bac040",
+      "actor": "0x76941f2770",
+      "class": "SkeletalMeshComponent",
+      "active_index": 0,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x78128640c0",
+          "num": 6,
+          "cap": 6,
+          "first_bone": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f7400650072006e00",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x78128625c0",
+          "num": 6,
+          "cap": 6,
+          "first_bone": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f7400650072006e00",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "0000000000000080e8d5123ff3b3513f00409cc60088904600401c460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x77befc1780",
+      "actor": "0x76c158af80",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x75c21f5800",
+          "num": 15,
+          "cap": 16,
+          "first_bone": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f4400650066006100",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x75c21f8800",
+          "num": 15,
+          "cap": 16,
+          "first_bone": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f4400650066006100",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "dc219c3d22bb623df123763f2733843e000cc5c600a83e4600803b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x770bf74600",
+      "actor": "0x76c158af80",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x75d53d62e0",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x75d53ddde0",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "d9219cbd20bb62bdf02376bf2f3384bef204c5c61bb93e460b9d3b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x770bf7e8c0",
+      "actor": "0x76c158af80",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x77328a5f80",
+          "num": 4,
+          "cap": 4,
+          "first_bone": "0480e834ceff6f320208e2b30000803f0000000000000000000000000000803f0000803f0000803f43006f006e007400",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x77328a1480",
+          "num": 4,
+          "cap": 4,
+          "first_bone": "0480e834ceff6f320208e2b30000803f0000000000000000000000000000803f0000803f0000803f43006f006e007400",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "dc219cbd22bb62bdf12376bf273384be1d0ac5c61ca43e46ffab3b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x76440ed180",
+      "actor": "0x76c158af80",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x75d53dbec0",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "57c1e63309743a33000000350000803f0000000000000000000000000000803f0000803f0000803f0d00000013000000",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x77c3d49e20",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "57c1e63309743a33000000350000803f0000000000000000000000000000803f0000803f0000803f0d00000013000000",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "dc219cbd22bb62bdf12376bf273384befe18c5c64a723e4690a93b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x770bf75d40",
+      "actor": "0x76c158af80",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x779de84700",
+          "num": 3,
+          "cap": 3,
+          "first_bone": "e2c16a349360f9a8aef807b40000803f40c11fb400000000000000000000803f0000803f0000803f80207e7677000000",
+          "translation": [
+            -1.4878332876833156e-07,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x76d9929200",
+          "num": 3,
+          "cap": 3,
+          "first_bone": "e2c16a349360f9a8aef807b40000803f40c11fb400000000000000000000803f0000803f0000803f80207e7677000000",
+          "translation": [
+            -1.4878332876833156e-07,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "e0219c3d18bb623df323763f1833843e0830c5c65b1e3e46d0c23b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x780c51a300",
+      "actor": "0x76c158af80",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x75d53d9520",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "0000a035300000b1fe3f17b20000803fd882273600000000000000000000803f0000803f0000803f0b0000000f000000",
+          "translation": [
+            2.496110028005205e-06,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x75d53d1a80",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "0000a035300000b1fe3f17b20000803fd882273600000000000000000000803f0000803f0000803f0b0000000f000000",
+          "translation": [
+            2.496110028005205e-06,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "05229cbd57bc62bdf02376bf243384befc18c5c659723e4665a93b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x79c56aa300",
+      "actor": "0x76c158af80",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x7668e222c0",
+          "num": 3,
+          "cap": 3,
+          "first_bone": "2d4434353cbd3bb36521a2b30000803f0000000000000000000000000000803f0000803f0000803f7265616d4c657665",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x7668e27180",
+          "num": 3,
+          "cap": 3,
+          "first_bone": "2d4434353cbd3bb36521a2b30000803f0000000000000000000000000000803f0000803f0000803f7265616d4c657665",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "2e229c3d8bbd623def23763f2133843e3a3ac5c628fd3d4627bd3b468ec2953fffff7f3f8ec2953fffff000000000000"
+    },
+    {
+      "component": "0x777693ba40",
+      "actor": "0x76c158af80",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x76886ecd60",
+          "num": 6,
+          "cap": 6,
+          "first_bone": "32310da400000000000000000000803f4f4dec3500000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            1.760586997079372e-06,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x76886e4ae0",
+          "num": 6,
+          "cap": 6,
+          "first_bone": "32310da400000000000000000000803f4f4dec3500000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            1.760586997079372e-06,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "dc219c3d22bb623df123763f2733843e9915c5c642813e46b79a3b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x76dee60040",
+      "actor": "0x76c158af80",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x75d53d67c0",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "feffffb2a332a02a000080b40000803fe46a2c3500000000000000000000803f0000803f0000803f0c0000000e000000",
+          "translation": [
+            6.423053946491564e-07,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x75d53d4f60",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "feffffb2a332a02a000080b40000803fe46a2c3500000000000000000000803f0000803f0000803f0c0000000e000000",
+          "translation": [
+            6.423053946491564e-07,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "d9219cbd20bb62bdf02376bf2f3384beceffc4c63acb3e46f9993b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x759900ba40",
+      "actor": "0x76c158af80",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x75d53d3940",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "e2ac8526fbfd0132aef807b40000803fa8270c3600c5acb640b840370000803f0000803f0000803fffffffff09000000",
+          "translation": [
+            2.0884708646917716e-06,
+            -5.1489332690835e-06,
+            1.1486990842968225e-05
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x771e221780",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "e2ac8526fbfd0132aef807b40000803fa8270c3600c5acb640b840370000803f0000803f0000803fffffffff09000000",
+          "translation": [
+            2.0884708646917716e-06,
+            -5.1489332690835e-06,
+            1.1486990842968225e-05
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "dc219cbd22bb62bdf12376bf273384be320dc5c6b1a03e46f28d3b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x77266ed180",
+      "actor": "0x78ad7ee080",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x76f2368b00",
+          "num": 15,
+          "cap": 16,
+          "first_bone": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f2000700065007500",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x76f2367c00",
+          "num": 15,
+          "cap": 16,
+          "first_bone": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f2000700065007500",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "0000000000000000000000000000803f0060eac600a83e4600803b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x780c514600",
+      "actor": "0x78ad7ee080",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x7768c9d000",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x775ee22aa0",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "4ce2e032663edea795fe7c34000080bf0060eac6a1963e4625a03b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x77c6ff1780",
+      "actor": "0x78ad7ee080",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x7710427b40",
+          "num": 4,
+          "cap": 4,
+          "first_bone": "0480e834ceff6f320208e2b30000803f0000000000000000000000000000803f0000803f0000803f43006f006e007400",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x77104270c0",
+          "num": 4,
+          "cap": 4,
+          "first_bone": "0480e834ceff6f320208e2b30000803f0000000000000000000000000000803f0000803f0000803f43006f006e007400",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "000000000000000000000000000080bf0060eac6ecaf3e469eab3b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x765df65d40",
+      "actor": "0x78ad7ee080",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x76b76a5b00",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "57c1e63309743a33000000350000803f0000000000000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x77c3d4b200",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "57c1e63309743a33000000350000803f0000000000000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "000000000000000000000000000080bf0060eac6f7e83e46aca03b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x765df62ec0",
+      "actor": "0x78ad7ee080",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x76d992c400",
+          "num": 3,
+          "cap": 3,
+          "first_bone": "e2c16a349360f9a8aef807b40000803f40c11fb400000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            -1.4878332876833156e-07,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x78b90abbe0",
+          "num": 3,
+          "cap": 3,
+          "first_bone": "e2c16a349360f9a8aef807b40000803f40c11fb400000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            -1.4878332876833156e-07,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "a08031a6402bd8a6000000350000803f0060eac65d4b3f46c5ab3b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x771bff2ec0",
+      "actor": "0x78ad7ee080",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x7747a48380",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "0000a035300000b1fe3f17b20000803fd882273600000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            2.496110028005205e-06,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x76bde07d80",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "0000a035300000b1fe3f17b20000803fd882273600000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            2.496110028005205e-06,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "cd76a0b564f23ba832ec15b2000080bf0060eac6e2e83e4683a03b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x77266c8bc0",
+      "actor": "0x78ad7ee080",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x77c6ab4020",
+          "num": 3,
+          "cap": 3,
+          "first_bone": "2d4434353cbd3bb36521a2b30000803f0000000000000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x77e5baf740",
+          "num": 3,
+          "cap": 3,
+          "first_bone": "2d4434353cbd3bb36521a2b30000803f0000000000000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "073b2036a80c802f88e5ae300000803f0060eac60f713f4669a03b468ec2953fffff7f3f8ec2953fffff000000000000"
+    },
+    {
+      "component": "0x76f1e51780",
+      "actor": "0x78ad7ee080",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x76bf9fb6e0",
+          "num": 6,
+          "cap": 6,
+          "first_bone": "32310da400000000000000000000803f4f4dec3500000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            1.760586997079372e-06,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x76bf9f3460",
+          "num": 6,
+          "cap": 6,
+          "first_bone": "32310da400000000000000000000803f4f4dec3500000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            1.760586997079372e-06,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "0000000000000000000000000000803f0060eac69ad63e4648943b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x772e6e5d40",
+      "actor": "0x78ad7ee080",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x77649c5200",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "feffffb2a332a02a000080b40000803fe46a2c3500000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            6.423053946491564e-07,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x77649c6e20",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "feffffb2a332a02a000080b40000803fe46a2c3500000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            6.423053946491564e-07,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "4ce2e032663edea795fe7c34000080bf0060eac692813e4625a03b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x7643a90040",
+      "actor": "0x78ad7ee080",
+      "class": "ModularWeaponDynamicSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x77881dee60",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "e2ac8526fbfd0132aef807b40000803fa8270c3600c5acb640b840370000803f0000803f0000803fffffffff0e000000",
+          "translation": [
+            2.0884708646917716e-06,
+            -5.1489332690835e-06,
+            1.1486990842968225e-05
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x776883d0c0",
+          "num": 2,
+          "cap": 2,
+          "first_bone": "e2ac8526fbfd0132aef807b40000803fa8270c3600c5acb640b840370000803f0000803f0000803fffffffff0e000000",
+          "translation": [
+            2.0884708646917716e-06,
+            -5.1489332690835e-06,
+            1.1486990842968225e-05
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "000000000000000000000000000080bf0060eac67eb13e46ca8c3b460000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x775540d560",
+      "actor": "0x7746b55bc0",
+      "class": "GPSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x771924d030",
+          "num": 80,
+          "cap": 85,
+          "first_bone": "f20435bf0ea56fafeba76aaff504353f0000000000000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x771924e020",
+          "num": 80,
+          "cap": 85,
+          "first_bone": "f20435bf0ea56fafeba76aaff504353f0000000000000000000000000000803f0000803f0000803f0000000000000000",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "0000000000000000167916bfbe1b4f3f806f87c700c01e4600004cc20000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x774a796ad0",
+      "actor": "0x7746b55bc0",
+      "class": "GPSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x7667dc4ae0",
+          "num": 6,
+          "cap": 6,
+          "first_bone": "32310da400000000000000000000803f0000000000000000000000000000803f0000803f0000803fecba3e3f7d7d7d3e",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x7667dcc460",
+          "num": 6,
+          "cap": 6,
+          "first_bone": "32310da400000000000000000000803f0000000000000000000000000000803f0000803f0000803fecba3e3f7d7d7d3e",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "2a399c3e2003fbbed6056cbe8f8048bf1d6687c715461e46de974e420000803fefff7f3f0800803fffff000000000000"
+    },
+    {
+      "component": "0x774a799570",
+      "actor": "0x7746b55bc0",
+      "class": "GPSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "0000000000000000167916bfbe1b4f3f806f87c700c01e4600004cc20000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x776ba42ae0",
+      "actor": "0x7746b55bc0",
+      "class": "GPSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "0000000000000000167916bfbe1b4f3f806f87c700c01e4600004cc20000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x76dee1eab0",
+      "actor": "0x7746b55bc0",
+      "class": "GPSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "0000000000000000167916bfbe1b4f3f806f87c700c01e4600004cc20000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x775540eab0",
+      "actor": "0x7746b55bc0",
+      "class": "GPSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x778983a060",
+          "num": 75,
+          "cap": 85,
+          "first_bone": "f20435bf0ea56fafeba76aaff504353f0000000000000000000000000000803f0000803f0000803f000000009a9999be",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x778983f010",
+          "num": 75,
+          "cap": 85,
+          "first_bone": "f20435bf0ea56fafeba76aaff504353f0000000000000000000000000000803f0000803f0000803f000000009a9999be",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "0000000000000000167916bfbe1b4f3f806f87c700c01e4600004cc20000803f0000803f0000803fffff000000000000"
+    },
+    {
+      "component": "0x775540aac0",
+      "actor": "0x7746b55bc0",
+      "class": "GPSkeletalMeshComponent",
+      "active_index": 1,
+      "arrays": [
+        {
+          "offset": "0x750",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0x760",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa08",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        },
+        {
+          "offset": "0xa18",
+          "ptr": "0x0",
+          "num": 0,
+          "cap": 0
+        }
+      ],
+      "transform": "0000000000000000167916bfbe1b4f3f806f87c700c01e4600004cc20000803f0000803f0000803fffff000000000000"
+    }
+  ],
+  "world_stable": true,
+  "coordinate_solution_verified": false
+}

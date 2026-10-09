@@ -1,0 +1,19 @@
+{
+  "pid": 10651,
+  "game_fd": 486,
+  "gpu_object_id": 249,
+  "adb_returncode": 0,
+  "output_bytes": 48,
+  "query": "IOCTL_KGSL_GPUOBJ_INFO on pidfd_getfd duplicate of original KGSL descriptor",
+  "success": true,
+  "fields": [
+    275678564352,
+    786432,
+    4096,
+    4096,
+    0,
+    249,
+    0
+  ],
+  "raw_hex": "0010b92f4000000000000c0000000000001000000000000000100000000000000000000000000000f900000000000000"
+}

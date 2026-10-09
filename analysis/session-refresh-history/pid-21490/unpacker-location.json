@@ -1,0 +1,29 @@
+{
+  "pid": 21490,
+  "dispatch": "0x7034249140",
+  "region_start": "0x70341bd000",
+  "region_end": "0x70342a8000",
+  "exact_unpacker_hits": [
+    "0x70341ca330",
+    "0x70341ce32c",
+    "0x70341df31c",
+    "0x70341e94a0",
+    "0x70341eb324",
+    "0x70341ff368",
+    "0x7034202374",
+    "0x7034208928",
+    "0x703421d4a0",
+    "0x7034249a80",
+    "0x703424e31c",
+    "0x703424f334",
+    "0x7034251388",
+    "0x703425332c",
+    "0x7034254328",
+    "0x70342555ac",
+    "0x70342574a0",
+    "0x703425d4b4",
+    "0x7034260744",
+    "0x70342a6e40"
+  ],
+  "search": "Exact previously verified ARM64 function, within current dispatch mapping only."
+}

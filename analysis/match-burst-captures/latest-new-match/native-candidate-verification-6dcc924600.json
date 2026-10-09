@@ -1,0 +1,598 @@
+{
+  "case_count": 80,
+  "all_passed": true,
+  "max_abs_error": 0.0009764793758222368,
+  "cases": [
+    {
+      "capture_index": 2,
+      "bone_index": 0,
+      "max_abs_error": 4.656929208923799e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 1,
+      "max_abs_error": 0.0005185811751289293,
+      "translation_error_cm": 0.0005185811751289293,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 2,
+      "max_abs_error": 0.0002241325710201636,
+      "translation_error_cm": 0.0002241325710201636,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 3,
+      "max_abs_error": 0.00011477948555693729,
+      "translation_error_cm": 0.00011477948555693729,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 4,
+      "max_abs_error": 0.0003018923925992567,
+      "translation_error_cm": 0.0003018923925992567,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 5,
+      "max_abs_error": 0.0006129123976279516,
+      "translation_error_cm": 0.0006129123976279516,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 6,
+      "max_abs_error": 0.0007503008855564985,
+      "translation_error_cm": 0.0007503008855564985,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 7,
+      "max_abs_error": 0.00018438798451825278,
+      "translation_error_cm": 0.00018438798451825278,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 8,
+      "max_abs_error": 0.0008053250421653502,
+      "translation_error_cm": 0.0008053250421653502,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 9,
+      "max_abs_error": 0.0005796610712422989,
+      "translation_error_cm": 0.0005796610712422989,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 10,
+      "max_abs_error": 0.00018139051371690584,
+      "translation_error_cm": 0.00018139051371690584,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 11,
+      "max_abs_error": 0.0003692659083753824,
+      "translation_error_cm": 0.0003692659083753824,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 12,
+      "max_abs_error": 0.0005716048799513374,
+      "translation_error_cm": 0.0005716048799513374,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 13,
+      "max_abs_error": 0.0006094391501392238,
+      "translation_error_cm": 0.0006094391501392238,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 14,
+      "max_abs_error": 0.00023490092280553654,
+      "translation_error_cm": 0.00023490092280553654,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 15,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 16,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 17,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 18,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 19,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 20,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 21,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 22,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 23,
+      "max_abs_error": 0.0002017867718677735,
+      "translation_error_cm": 0.0002017867718677735,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 24,
+      "max_abs_error": 0.0009594972689228598,
+      "translation_error_cm": 0.0009594972689228598,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 25,
+      "max_abs_error": 0.000530712084582774,
+      "translation_error_cm": 0.000530712084582774,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 26,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 27,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 28,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 29,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 30,
+      "max_abs_error": 0.0004207762722217012,
+      "translation_error_cm": 0.0004207762722217012,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 31,
+      "max_abs_error": 0.0006519760318042245,
+      "translation_error_cm": 0.0006519760318042245,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 32,
+      "max_abs_error": 0.0005621223099296913,
+      "translation_error_cm": 0.0005621223099296913,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 33,
+      "max_abs_error": 0.000866079113620799,
+      "translation_error_cm": 0.000866079113620799,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 34,
+      "max_abs_error": 0.000926669490581844,
+      "translation_error_cm": 0.000926669490581844,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 35,
+      "max_abs_error": 0.0004322565146139823,
+      "translation_error_cm": 0.0004322565146139823,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 36,
+      "max_abs_error": 0.0002957233737106435,
+      "translation_error_cm": 0.0002957233737106435,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 37,
+      "max_abs_error": 4.947631532559171e-05,
+      "translation_error_cm": 4.947631532559171e-05,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 38,
+      "max_abs_error": 0.00031896827567834407,
+      "translation_error_cm": 0.00031896827567834407,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 39,
+      "max_abs_error": 0.00030815126228844747,
+      "translation_error_cm": 0.00030815126228844747,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 40,
+      "max_abs_error": 0.00017409934025636176,
+      "translation_error_cm": 0.00017409934025636176,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 41,
+      "max_abs_error": 0.000774471765907947,
+      "translation_error_cm": 0.000774471765907947,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 42,
+      "max_abs_error": 0.0009218017839884851,
+      "translation_error_cm": 0.0009218017839884851,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 43,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 44,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 45,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 46,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 47,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 48,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 49,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 50,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 51,
+      "max_abs_error": 0.00010581724200164899,
+      "translation_error_cm": 0.00010581724200164899,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 52,
+      "max_abs_error": 0.00038728603976778686,
+      "translation_error_cm": 0.00038728603976778686,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 53,
+      "max_abs_error": 0.0004396034091769252,
+      "translation_error_cm": 0.0004396034091769252,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 54,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 55,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 56,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 57,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 58,
+      "max_abs_error": 0.00016464073269162327,
+      "translation_error_cm": 0.00016464073269162327,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 59,
+      "max_abs_error": 0.0009764793758222368,
+      "translation_error_cm": 0.0009764793758222368,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 60,
+      "max_abs_error": 0.0002337574951525312,
+      "translation_error_cm": 0.0002337574951525312,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 61,
+      "max_abs_error": 0.0007122677197912708,
+      "translation_error_cm": 0.0007122677197912708,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 62,
+      "max_abs_error": 0.0001112156996896374,
+      "translation_error_cm": 0.0001112156996896374,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 63,
+      "max_abs_error": 0.0008943969041865785,
+      "translation_error_cm": 0.0008943969041865785,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 64,
+      "max_abs_error": 0.0008627920578874182,
+      "translation_error_cm": 0.0008627920578874182,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 65,
+      "max_abs_error": 0.0005983698974887375,
+      "translation_error_cm": 0.0005983698974887375,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 66,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 67,
+      "max_abs_error": 0.0006610934506170452,
+      "translation_error_cm": 0.0006610934506170452,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 68,
+      "max_abs_error": 0.00022903761055204086,
+      "translation_error_cm": 0.00022903761055204086,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 69,
+      "max_abs_error": 0.0005094494808872696,
+      "translation_error_cm": 0.0005094494808872696,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 70,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 71,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 72,
+      "max_abs_error": 2.68686510818128e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 73,
+      "max_abs_error": 0.0003961998845625203,
+      "translation_error_cm": 0.0003961998845625203,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 74,
+      "max_abs_error": 0.00040957211604109034,
+      "translation_error_cm": 0.00040957211604109034,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 75,
+      "max_abs_error": 0.00047103449469432235,
+      "translation_error_cm": 0.00047103449469432235,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 76,
+      "max_abs_error": 0.0005314680929586757,
+      "translation_error_cm": 0.0005314680929586757,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 77,
+      "max_abs_error": 0.0002221660261056968,
+      "translation_error_cm": 0.0002221660261056968,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 78,
+      "max_abs_error": 0.00043285870196996257,
+      "translation_error_cm": 0.00043285870196996257,
+      "passed": true
+    },
+    {
+      "capture_index": 2,
+      "bone_index": 79,
+      "max_abs_error": 0.0004604051027854439,
+      "translation_error_cm": 0.0004604051027854439,
+      "passed": true
+    }
+  ],
+  "native_pages": [
+    {
+      "address": "0x6fe8f90000",
+      "sha256": "050f80b430ac709df35b82c06b173237f14363349d88f3b9ab4a40af92689486",
+      "path": "analysis/bone-lifecycle-captures/1791554604417351703/native-6fe8f90000.bin"
+    },
+    {
+      "address": "0x6ff8647000",
+      "sha256": "2e3e0cc292112f2bc7f96dd8f5693e93b37700e5dd14fd5e5ead5ac24d4a3837",
+      "path": "analysis/bone-lifecycle-captures/1791554604417351703/native-6ff8647000.bin"
+    },
+    {
+      "address": "0x7007f3c000",
+      "sha256": "855b476cdc44ea79779d1283fdd3b80d406b0e0e5e803266e09bb1c2dbb46560",
+      "path": "analysis/bone-lifecycle-captures/1791554604417351703/native-7007f3c000.bin"
+    },
+    {
+      "address": "0x7008291000",
+      "sha256": "e28da544ce8aaeaced79226a0790201a45d79d90772bed16a498d1169cb80eb1",
+      "path": "analysis/bone-lifecycle-captures/1791554604417351703/native-7008291000.bin"
+    }
+  ],
+  "stationary_pair": null,
+  "remote_world_transform_verified": false,
+  "world_bones_verified": false,
+  "limits": [
+    "Native replay validates composition of supplied candidate transform, not its correctness as remote ComponentToWorld.",
+    "Stationary-pair consistency uses the same recovery method; not independent world-position truth.",
+    "Names for this asset not verified; bone indices are numeric.",
+    "Only yaw, unit scale, direct attachment and no master pose represented here."
+  ]
+}

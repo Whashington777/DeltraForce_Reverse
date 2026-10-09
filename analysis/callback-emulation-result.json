@@ -1,0 +1,14 @@
+{
+  "pawn": "0x768a5f0040",
+  "component": "0x766b6dcd00",
+  "callback": "0x7a66dc4000",
+  "descriptor": "0x78cc16dcd0",
+  "instructions": 416,
+  "loaded_pages": 13,
+  "stopped_at_return": true,
+  "error": null,
+  "pc": "0x300001f000",
+  "context_x0_before": "0x766b6dcf10",
+  "context_x0_after": "0x766b6dcf10",
+  "events": []
+}

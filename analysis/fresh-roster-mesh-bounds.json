@@ -1,0 +1,171 @@
+{
+  "world": "0x77402c12c0",
+  "roster_count": 15,
+  "rows": [
+    {
+      "pawn": "0x768a5f0040",
+      "team": 2,
+      "mesh": "0x7726a15d40",
+      "class": "DFMSkeletalMeshComponent",
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pawn": "0x760de80040",
+      "team": 1,
+      "mesh": "0x7637105d40",
+      "class": "DFMSkeletalMeshComponent",
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pawn": "0x77317a8020",
+      "team": 4,
+      "mesh": "0x771e332ec0",
+      "class": "DFMSkeletalMeshComponent",
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pawn": "0x75ed69c010",
+      "team": 4,
+      "mesh": "0x76ff842ec0",
+      "class": "DFMSkeletalMeshComponent",
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pawn": "0x7600838020",
+      "team": 4,
+      "mesh": "0x770b714600",
+      "class": "DFMSkeletalMeshComponent",
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pawn": "0x7619ab8020",
+      "team": 5,
+      "mesh": "0x75c207a300",
+      "class": "DFMSkeletalMeshComponent",
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pawn": "0x75ecd44030",
+      "team": 5,
+      "mesh": "0x76fad5e8c0",
+      "class": "DFMSkeletalMeshComponent",
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pawn": "0x776c088020",
+      "team": 5,
+      "mesh": "0x775614e8c0",
+      "class": "DFMSkeletalMeshComponent",
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pawn": "0x7663aec010",
+      "team": 3,
+      "mesh": "0x7711b6e8c0",
+      "class": "DFMSkeletalMeshComponent",
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pawn": "0x76dde00040",
+      "team": 3,
+      "mesh": "0x76440e0040",
+      "class": "DFMSkeletalMeshComponent",
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "pawn": "0x7931a78020",
+      "team": 3,
+      "mesh": "0x771e385d40",
+      "class": "DFMSkeletalMeshComponent",
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

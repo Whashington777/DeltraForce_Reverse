@@ -1,0 +1,1048 @@
+{
+  "pid": 22846,
+  "world": "0x7582d8a4c0",
+  "game_state_class": "BP_GameState_PVPVE_C",
+  "page_count": 24,
+  "players": [
+    {
+      "ps": "0x79cf5771d0",
+      "pawn": "0x762bbf8020",
+      "root": "0x766bffc040",
+      "mesh": "0x7652e9ba40",
+      "self": true,
+      "team": 1,
+      "inner_team_index": 0
+    },
+    {
+      "ps": "0x76e66cc720",
+      "pawn": "0x7710850040",
+      "root": "0x77749360a0",
+      "mesh": "0x76c0720040",
+      "self": false,
+      "team": 4,
+      "inner_team_index": 0
+    },
+    {
+      "ps": "0x76cd95c720",
+      "pawn": "0x75f91ac010",
+      "root": "0x7a65926d60",
+      "mesh": "0x758d9dba40",
+      "self": false,
+      "team": 4,
+      "inner_team_index": 2
+    },
+    {
+      "ps": "0x765b0cc720",
+      "pawn": "0x757a8dc010",
+      "root": "0x75bb161420",
+      "mesh": "0x771e38a300",
+      "self": false,
+      "team": 4,
+      "inner_team_index": 1
+    },
+    {
+      "ps": "0x768d848e40",
+      "pawn": "0x75c03ac010",
+      "root": "0x75c14f4720",
+      "mesh": "0x767d7c7480",
+      "self": false,
+      "team": 1,
+      "inner_team_index": 1
+    }
+  ],
+  "samples": [
+    {
+      "seq": 0,
+      "time": 44921.578320473,
+      "duration": 0.4471520959996269,
+      "world_matches": true,
+      "roster_header_matches": true,
+      "camera": {
+        "location": [
+          -29343.662109375,
+          4688.36572265625,
+          -120.81269836425781
+        ],
+        "handler": "0xffff",
+        "rotation": [
+          -0.8292051553726196,
+          100.6665267944336,
+          0.10990631580352783
+        ],
+        "fov": 90.0
+      },
+      "rows": [
+        {
+          "pawn": "0x762bbf8020",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead_info_is_dead": 0,
+          "last_is_dead": 0,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              -29335.3203125,
+              4661.3125,
+              -166.53993225097656
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 0.5378143127626
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -29332.927734375,
+              4717.2392578125,
+              -166.4932861328125
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 0.5509649660314581
+          },
+          "root_relative": {
+            "xyz": [
+              -29335.3203125,
+              4661.3125,
+              -166.53993225097656
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 0.5378143127626
+          },
+          "replicated": {
+            "xyz": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 297.1608781193504
+          }
+        },
+        {
+          "pawn": "0x7710850040",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead_info_is_dead": 1,
+          "last_is_dead": 1,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              6332.77197265625,
+              4945.13525390625,
+              -1165.41259765625
+            ],
+            "handler": "0x3010100",
+            "camera_distance_m": 356.9264725894256
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -20938.09375,
+              -7088.875,
+              -168.80078125
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 144.6925296411732
+          },
+          "root_relative": {
+            "xyz": [
+              -20938.09375,
+              -7088.875,
+              -168.80078125
+            ],
+            "handler": "0x30100ff",
+            "camera_distance_m": 144.6925296411732
+          },
+          "replicated": {
+            "xyz": [
+              336446.3125,
+              -776977.375,
+              -16965.80078125
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 8631.84446898656
+          }
+        },
+        {
+          "pawn": "0x75f91ac010",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead_info_is_dead": 1,
+          "last_is_dead": 1,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              5865.76708984375,
+              5148.56201171875,
+              -1200.51171875
+            ],
+            "handler": "0x301010f",
+            "camera_distance_m": 352.28985723887746
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -20439.40625,
+              -8897.5,
+              -189.80078125
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 162.43961314865297
+          },
+          "root_relative": {
+            "xyz": [
+              -20439.40625,
+              -8897.5,
+              -189.80078125
+            ],
+            "handler": "0x301010e",
+            "camera_distance_m": 162.43961314865297
+          },
+          "replicated": {
+            "xyz": [
+              336945.5,
+              -778785.3125,
+              -16986.810546875
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 8650.336505766421
+          }
+        },
+        {
+          "pawn": "0x757a8dc010",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 1,
+          "dead_info_is_dead": 1,
+          "last_is_dead": 1,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              7681.51220703125,
+              4311.69482421875,
+              -1000.2001953125
+            ],
+            "handler": "0x30100f1",
+            "camera_distance_m": 370.3753145791155
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -20268.59375,
+              -6143.0,
+              -178.69921875
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 141.3077138710072
+          },
+          "root_relative": {
+            "xyz": [
+              -20268.59375,
+              -6143.0,
+              -178.69921875
+            ],
+            "handler": "0x30100f0",
+            "camera_distance_m": 141.3077138710072
+          },
+          "replicated": {
+            "xyz": [
+              337115.90625,
+              -776031.1875,
+              -16975.208984375
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 8626.121415216048
+          }
+        },
+        {
+          "pawn": "0x75c03ac010",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead_info_is_dead": 0,
+          "last_is_dead": 0,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              -32131.9375,
+              -166.410888671875,
+              -1047.5848388671875
+            ],
+            "handler": "0x3010079",
+            "camera_distance_m": 56.74701948144587
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -32163.125,
+              3.687042236328125,
+              -1129.2265625
+            ],
+            "handler": "0x301100a",
+            "camera_distance_m": 55.59899626052039
+          },
+          "root_relative": {
+            "xyz": [
+              -32425.85546875,
+              -794.0112915039062,
+              -965.2281494140625
+            ],
+            "handler": "0x3010078",
+            "camera_distance_m": 63.458183935516644
+          },
+          "replicated": {
+            "xyz": [
+              -32665.79296875,
+              -554.0737915039062,
+              -1205.1656494140625
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 63.0044020913538
+          }
+        }
+      ]
+    },
+    {
+      "seq": 1,
+      "time": 44922.574658975,
+      "duration": 0.47461643000133336,
+      "world_matches": true,
+      "roster_header_matches": true,
+      "camera": {
+        "location": [
+          -29495.150390625,
+          5282.57275390625,
+          -88.55928039550781
+        ],
+        "handler": "0xffff",
+        "rotation": [
+          -4.997552871704102,
+          111.58368682861328,
+          -0.11719733476638794
+        ],
+        "fov": 90.0
+      },
+      "rows": [
+        {
+          "pawn": "0x762bbf8020",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead_info_is_dead": 0,
+          "last_is_dead": 0,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              -29480.939453125,
+              5256.96435546875,
+              -152.53640747070312
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 0.7036201819133919
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -29468.830078125,
+              5226.44580078125,
+              -153.26766967773438
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 0.8961121224876816
+          },
+          "root_relative": {
+            "xyz": [
+              -29480.939453125,
+              5256.96435546875,
+              -152.53640747070312
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 0.7036201819133919
+          },
+          "replicated": {
+            "xyz": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 299.6460101873614
+          }
+        },
+        {
+          "pawn": "0x7710850040",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead_info_is_dead": 1,
+          "last_is_dead": 1,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              6332.77197265625,
+              4945.13525390625,
+              -1165.41259765625
+            ],
+            "handler": "0x3010100",
+            "camera_distance_m": 358.4569008964133
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -20938.09375,
+              -7088.875,
+              -168.80078125
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 150.42685151825646
+          },
+          "root_relative": {
+            "xyz": [
+              -20938.09375,
+              -7088.875,
+              -168.80078125
+            ],
+            "handler": "0x30100ff",
+            "camera_distance_m": 150.42685151825646
+          },
+          "replicated": {
+            "xyz": [
+              336446.3125,
+              -776977.375,
+              -16965.80078125
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 8637.873704813894
+          }
+        },
+        {
+          "pawn": "0x75f91ac010",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead_info_is_dead": 1,
+          "last_is_dead": 1,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              5865.76708984375,
+              5148.56201171875,
+              -1200.51171875
+            ],
+            "handler": "0x301010f",
+            "camera_distance_m": 353.7865008963322
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -20439.40625,
+              -8897.5,
+              -189.80078125
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 168.2531470992545
+          },
+          "root_relative": {
+            "xyz": [
+              -20439.40625,
+              -8897.5,
+              -189.80078125
+            ],
+            "handler": "0x301010e",
+            "camera_distance_m": 168.2531470992545
+          },
+          "replicated": {
+            "xyz": [
+              336945.5,
+              -778785.3125,
+              -16986.810546875
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 8656.366153537534
+          }
+        },
+        {
+          "pawn": "0x757a8dc010",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 1,
+          "dead_info_is_dead": 1,
+          "last_is_dead": 1,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              7681.51220703125,
+              4311.69482421875,
+              -1000.2001953125
+            ],
+            "handler": "0x30100f1",
+            "camera_distance_m": 372.00509875700334
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -20268.59375,
+              -6143.0,
+              -178.69921875
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 146.86088158728745
+          },
+          "root_relative": {
+            "xyz": [
+              -20268.59375,
+              -6143.0,
+              -178.69921875
+            ],
+            "handler": "0x30100f0",
+            "camera_distance_m": 146.86088158728745
+          },
+          "replicated": {
+            "xyz": [
+              337115.90625,
+              -776031.1875,
+              -16975.208984375
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 8632.14931376583
+          }
+        },
+        {
+          "pawn": "0x75c03ac010",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead_info_is_dead": 0,
+          "last_is_dead": 0,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              -32131.9375,
+              -166.410888671875,
+              -1047.5848388671875
+            ],
+            "handler": "0x3010079",
+            "camera_distance_m": 61.28931311334143
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -32163.125,
+              3.687042236328125,
+              -1129.2265625
+            ],
+            "handler": "0x301100a",
+            "camera_distance_m": 60.05639954674714
+          },
+          "root_relative": {
+            "xyz": [
+              -32425.85546875,
+              -794.0112915039062,
+              -965.2281494140625
+            ],
+            "handler": "0x3010078",
+            "camera_distance_m": 68.03120917769078
+          },
+          "replicated": {
+            "xyz": [
+              -32665.79296875,
+              -554.0737915039062,
+              -1205.1656494140625
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 67.3544557082902
+          }
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "time": 44923.557101056,
+      "duration": 0.4613076230016304,
+      "world_matches": true,
+      "roster_header_matches": true,
+      "camera": {
+        "location": [
+          -29462.65625,
+          5350.6240234375,
+          -86.01641845703125
+        ],
+        "handler": "0xffff",
+        "rotation": [
+          0.453216552734375,
+          -115.88191223144531,
+          3.353186173171707e-07
+        ],
+        "fov": 90.0
+      },
+      "rows": [
+        {
+          "pawn": "0x762bbf8020",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead_info_is_dead": 0,
+          "last_is_dead": 0,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              -29478.619140625,
+              5358.18798828125,
+              -150.2508544921875
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 0.6661899289255113
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -29489.111328125,
+              5363.41796875,
+              -150.1005859375
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 0.7050061501096188
+          },
+          "root_relative": {
+            "xyz": [
+              -29478.619140625,
+              5358.18798828125,
+              -150.2508544921875
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 0.6661899289255113
+          },
+          "replicated": {
+            "xyz": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 299.4469384665829
+          }
+        },
+        {
+          "pawn": "0x7710850040",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead_info_is_dead": 1,
+          "last_is_dead": 1,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              6332.77197265625,
+              4945.13525390625,
+              -1165.41259765625
+            ],
+            "handler": "0x3010100",
+            "camera_distance_m": 358.13994456039404
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -20938.09375,
+              -7088.875,
+              -168.80078125
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 150.80323438879944
+          },
+          "root_relative": {
+            "xyz": [
+              -20938.09375,
+              -7088.875,
+              -168.80078125
+            ],
+            "handler": "0x30100ff",
+            "camera_distance_m": 150.80323438879944
+          },
+          "replicated": {
+            "xyz": [
+              336446.3125,
+              -776977.375,
+              -16965.80078125
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 8638.352844077617
+          }
+        },
+        {
+          "pawn": "0x75f91ac010",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead_info_is_dead": 1,
+          "last_is_dead": 1,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              5865.76708984375,
+              5148.56201171875,
+              -1200.51171875
+            ],
+            "handler": "0x301010f",
+            "camera_distance_m": 353.4657585269288
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -20439.40625,
+              -8897.5,
+              -189.80078125
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 168.65314996872047
+          },
+          "root_relative": {
+            "xyz": [
+              -20439.40625,
+              -8897.5,
+              -189.80078125
+            ],
+            "handler": "0x301010e",
+            "camera_distance_m": 168.65314996872047
+          },
+          "replicated": {
+            "xyz": [
+              336945.5,
+              -778785.3125,
+              -16986.810546875
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 8656.845503739707
+          }
+        },
+        {
+          "pawn": "0x757a8dc010",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 1,
+          "dead_info_is_dead": 1,
+          "last_is_dead": 1,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              7681.51220703125,
+              4311.69482421875,
+              -1000.2001953125
+            ],
+            "handler": "0x30100f1",
+            "camera_distance_m": 371.6993887838895
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -20268.59375,
+              -6143.0,
+              -178.69921875
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 147.18789642749707
+          },
+          "root_relative": {
+            "xyz": [
+              -20268.59375,
+              -6143.0,
+              -178.69921875
+            ],
+            "handler": "0x30100f0",
+            "camera_distance_m": 147.18789642749707
+          },
+          "replicated": {
+            "xyz": [
+              337115.90625,
+              -776031.1875,
+              -16975.208984375
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 8632.627773104456
+          }
+        },
+        {
+          "pawn": "0x75c03ac010",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead_info_is_dead": 0,
+          "last_is_dead": 0,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              -32131.9375,
+              -166.410888671875,
+              -1047.5848388671875
+            ],
+            "handler": "0x3010079",
+            "camera_distance_m": 62.038174086739
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -32163.125,
+              3.687042236328125,
+              -1129.2265625
+            ],
+            "handler": "0x301100a",
+            "camera_distance_m": 60.80341598569723
+          },
+          "root_relative": {
+            "xyz": [
+              -32425.85546875,
+              -794.0112915039062,
+              -965.2281494140625
+            ],
+            "handler": "0x3010078",
+            "camera_distance_m": 68.78234223365627
+          },
+          "replicated": {
+            "xyz": [
+              -32665.79296875,
+              -554.0737915039062,
+              -1205.1656494140625
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 68.10142151668352
+          }
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "time": 44924.523799622,
+      "duration": 0.44500000300467946,
+      "world_matches": true,
+      "roster_header_matches": true,
+      "camera": {
+        "location": [
+          -29307.38671875,
+          4813.0830078125,
+          -97.74526977539062
+        ],
+        "handler": "0xffff",
+        "rotation": [
+          -4.167656421661377,
+          -90.93006134033203,
+          0.14949999749660492
+        ],
+        "fov": 90.0
+      },
+      "rows": [
+        {
+          "pawn": "0x762bbf8020",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead_info_is_dead": 0,
+          "last_is_dead": 0,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              -29306.884765625,
+              4845.41943359375,
+              -162.60557556152344
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 0.7247589706872651
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -29306.572265625,
+              4866.53271484375,
+              -162.13914489746094
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 0.8369053512109994
+          },
+          "root_relative": {
+            "xyz": [
+              -29306.884765625,
+              4845.41943359375,
+              -162.60557556152344
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 0.7247589706872651
+          },
+          "replicated": {
+            "xyz": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 297.00138694292673
+          }
+        },
+        {
+          "pawn": "0x7710850040",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead_info_is_dead": 1,
+          "last_is_dead": 1,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              6332.77197265625,
+              4945.13525390625,
+              -1165.41259765625
+            ],
+            "handler": "0x3010100",
+            "camera_distance_m": 356.5639161310835
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -20938.09375,
+              -7088.875,
+              -168.80078125
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 145.50144951244
+          },
+          "root_relative": {
+            "xyz": [
+              -20938.09375,
+              -7088.875,
+              -168.80078125
+            ],
+            "handler": "0x30100ff",
+            "camera_distance_m": 145.50144951244
+          },
+          "replicated": {
+            "xyz": [
+              336446.3125,
+              -776977.375,
+              -16965.80078125
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 8632.824682692237
+          }
+        },
+        {
+          "pawn": "0x75f91ac010",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead_info_is_dead": 1,
+          "last_is_dead": 1,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              5865.76708984375,
+              5148.56201171875,
+              -1200.51171875
+            ],
+            "handler": "0x301010f",
+            "camera_distance_m": 351.92035872424873
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -20439.40625,
+              -8897.5,
+              -189.80078125
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 163.287978193571
+          },
+          "root_relative": {
+            "xyz": [
+              -20439.40625,
+              -8897.5,
+              -189.80078125
+            ],
+            "handler": "0x301010e",
+            "camera_distance_m": 163.287978193571
+          },
+          "replicated": {
+            "xyz": [
+              336945.5,
+              -778785.3125,
+              -16986.810546875
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 8651.317026893477
+          }
+        },
+        {
+          "pawn": "0x757a8dc010",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 1,
+          "dead_info_is_dead": 1,
+          "last_is_dead": 1,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              7681.51220703125,
+              4311.69482421875,
+              -1000.2001953125
+            ],
+            "handler": "0x30100f1",
+            "camera_distance_m": 370.0330334909216
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -20268.59375,
+              -6143.0,
+              -178.69921875
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 142.0359414894191
+          },
+          "root_relative": {
+            "xyz": [
+              -20268.59375,
+              -6143.0,
+              -178.69921875
+            ],
+            "handler": "0x30100f0",
+            "camera_distance_m": 142.0359414894191
+          },
+          "replicated": {
+            "xyz": [
+              337115.90625,
+              -776031.1875,
+              -16975.208984375
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 8627.100632288799
+          }
+        },
+        {
+          "pawn": "0x75c03ac010",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead_info_is_dead": 0,
+          "last_is_dead": 0,
+          "identity_matches": true,
+          "root_bounds": {
+            "xyz": [
+              -32131.9375,
+              -166.410888671875,
+              -1047.5848388671875
+            ],
+            "handler": "0x3010079",
+            "camera_distance_m": 58.03071754510504
+          },
+          "mesh_bounds": {
+            "xyz": [
+              -32163.125,
+              3.687042236328125,
+              -1129.2265625
+            ],
+            "handler": "0x301100a",
+            "camera_distance_m": 56.876607091086136
+          },
+          "root_relative": {
+            "xyz": [
+              -32425.85546875,
+              -794.0112915039062,
+              -965.2281494140625
+            ],
+            "handler": "0x3010078",
+            "camera_distance_m": 64.74324703984139
+          },
+          "replicated": {
+            "xyz": [
+              -32665.79296875,
+              -554.0737915039062,
+              -1205.1656494140625
+            ],
+            "handler": "0xffff",
+            "camera_distance_m": 64.27413519116881
+          }
+        }
+      ]
+    }
+  ],
+  "world_positions_verified": false
+}

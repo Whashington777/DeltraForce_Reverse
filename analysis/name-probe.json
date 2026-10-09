@@ -1,0 +1,912 @@
+{
+  "pid": 22846,
+  "base": "0x78d6c43000",
+  "world": {
+    "pointer": "0x7764e89ba0",
+    "object": {
+      "pointer": "0x7764e89ba0",
+      "index": 187220,
+      "header": "883f12f67800000080d5f69378000000c0cc814d780000000b0028002c1539000000000054db0200384212f67800000040c0896977000000a093a16f77000000c0d9a4c078000000e0ec84cf77000000000000000000000000e5d09177000000",
+      "vtable": "0x78f6123f88",
+      "class_candidate": "0x784d81ccc0"
+    },
+    "name": {
+      "id": "0x39152c",
+      "number": 0,
+      "header": "0x502",
+      "raw": "3c0d1e1c141a1b203d0d1a1e140b170d100a1817",
+      "candidates": [
+        {
+          "key": "0x7f",
+          "text": "Cracked_Breakthrough"
+        }
+      ]
+    },
+    "class_name": {
+      "id": "0x10f272",
+      "number": 0,
+      "header": "0x148",
+      "raw": "a8908d939b",
+      "candidates": [
+        {
+          "key": "0xff",
+          "text": "World"
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "offset": "0x30",
+      "info": {
+        "pointer": "0x776989c040",
+        "object": {
+          "pointer": "0x776989c040",
+          "index": 199781,
+          "header": "e04b11f37800000000790c9478000000c0bd6d637800000040000000d60817002fdbff7f650c0300605011f378000000506ad391770000002300000028000000a06ad391770000002800000028000000c0a950a2770000005100000060000000",
+          "vtable": "0x78f3114be0",
+          "class_candidate": "0x78636dbdc0"
+        },
+        "name": {
+          "id": "0x1708d6",
+          "number": 2147474223,
+          "header": "0x2ea",
+          "raw": "382f311a0b3b0d16091a0d",
+          "candidates": [
+            {
+              "key": "0x7f",
+              "text": "GPNetDriver"
+            }
+          ]
+        },
+        "class_name": {
+          "id": "0x1708d6",
+          "number": 0,
+          "header": "0x2ea",
+          "raw": "382f311a0b3b0d16091a0d",
+          "candidates": [
+            {
+              "key": "0x7f",
+              "text": "GPNetDriver"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "offset": "0x38",
+      "info": {
+        "pointer": "0x776fa193a0",
+        "object": {
+          "pointer": "0x776fa193a0",
+          "index": 160379,
+          "header": "2006cff578000000808f3f7e78000000c0bd6d63780000000000000093761d008cd6ff7f7b7202002810cff578000000f036cef578000000020006010001000000000000000000000000000000000000808f3f7e780000001000075d78000000",
+          "vtable": "0x78f5cf0620",
+          "class_candidate": "0x78636dbdc0"
+        },
+        "name": {
+          "id": "0x1d7693",
+          "number": 2147473036,
+          "header": "0x488",
+          "raw": "b396919abd9e8b9c97bc90928f90919a918b",
+          "candidates": [
+            {
+              "key": "0xff",
+              "text": "LineBatchComponent"
+            }
+          ]
+        },
+        "class_name": {
+          "id": "0x1d7693",
+          "number": 0,
+          "header": "0x488",
+          "raw": "b396919abd9e8b9c97bc90928f90919a918b",
+          "candidates": [
+            {
+              "key": "0xff",
+              "text": "LineBatchComponent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "offset": "0x40",
+      "info": {
+        "pointer": "0x78c0a4d9c0",
+        "object": {
+          "pointer": "0x78c0a4d9c0",
+          "index": 160378,
+          "header": "2006cff578000000808f3f7e78000000c0bd6d63780000000000000093761d008bd6ff7f7a7202002810cff578000000f036cef578000000020006010001000000000000000000000000000000000000808f3f7e780000001000075d78000000",
+          "vtable": "0x78f5cf0620",
+          "class_candidate": "0x78636dbdc0"
+        },
+        "name": {
+          "id": "0x1d7693",
+          "number": 2147473035,
+          "header": "0x488",
+          "raw": "b396919abd9e8b9c97bc90928f90919a918b",
+          "candidates": [
+            {
+              "key": "0xff",
+              "text": "LineBatchComponent"
+            }
+          ]
+        },
+        "class_name": {
+          "id": "0x1d7693",
+          "number": 0,
+          "header": "0x488",
+          "raw": "b396919abd9e8b9c97bc90928f90919a918b",
+          "candidates": [
+            {
+              "key": "0xff",
+              "text": "LineBatchComponent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "offset": "0x48",
+      "info": {
+        "pointer": "0x77cf84ece0",
+        "object": {
+          "pointer": "0x77cf84ece0",
+          "index": 160377,
+          "header": "2006cff578000000808f3f7e78000000c0bd6d63780000000000000093761d008ad6ff7f797202002810cff578000000f036cef578000000020006010001000000000000000000000000000000000000808f3f7e780000001000075d78000000",
+          "vtable": "0x78f5cf0620",
+          "class_candidate": "0x78636dbdc0"
+        },
+        "name": {
+          "id": "0x1d7693",
+          "number": 2147473034,
+          "header": "0x488",
+          "raw": "b396919abd9e8b9c97bc90928f90919a918b",
+          "candidates": [
+            {
+              "key": "0xff",
+              "text": "LineBatchComponent"
+            }
+          ]
+        },
+        "class_name": {
+          "id": "0x1d7693",
+          "number": 0,
+          "header": "0x488",
+          "raw": "b396919abd9e8b9c97bc90928f90919a918b",
+          "candidates": [
+            {
+              "key": "0xff",
+              "text": "LineBatchComponent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "offset": "0x58",
+      "info": {
+        "pointer": "0x7791d0e500",
+        "object": {
+          "pointer": "0x7791d0e500",
+          "index": 160380,
+          "header": "9893d9f578000000807b80d278000000a09be8647700000000000000f4911d008dd6ff7f7c72020000000000cdcccc3d0000000000000000000000000000000003000000ffffffff02000000ffffffffffffffffffffffffffffffffffffffff",
+          "vtable": "0x78f5d99398",
+          "class_candidate": "0x7764e89ba0"
+        },
+        "name": {
+          "id": "0x1d91f4",
+          "number": 2147473037,
+          "header": "0x5d8",
+          "raw": "af97868c969c8cbc909393968c969091b79e919b939a8d",
+          "candidates": [
+            {
+              "key": "0xff",
+              "text": "PhysicsCollisionHandler"
+            }
+          ]
+        },
+        "class_name": {
+          "id": "0x1d91f4",
+          "number": 0,
+          "header": "0x5d8",
+          "raw": "af97868c969c8cbc909393968c969091b79e919b939a8d",
+          "candidates": [
+            {
+              "key": "0xff",
+              "text": "PhysicsCollisionHandler"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "offset": "0xf0",
+      "info": {
+        "pointer": "0x77a6863c00",
+        "object": {
+          "pointer": "0x77a6863c00",
+          "index": 160363,
+          "header": "18a8d7f578000000802b70d2780000001000075d7800000048000000cc891d007dd6ff7f6b720200d077ccf57800000000000c010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "vtable": "0x78f5d7a818",
+          "class_candidate": "0x785d070010"
+        },
+        "name": {
+          "id": "0x1d89cc",
+          "number": 2147473021,
+          "header": "0x52a",
+          "raw": "2f1e0d0b161c131a3a091a110b321e111e181a0d",
+          "candidates": [
+            {
+              "key": "0x7f",
+              "text": "ParticleEventManager"
+            }
+          ]
+        },
+        "class_name": {
+          "id": "0x1d89cc",
+          "number": 0,
+          "header": "0x52a",
+          "raw": "2f1e0d0b161c131a3a091a110b321e111e181a0d",
+          "candidates": [
+            {
+              "key": "0x7f",
+              "text": "ParticleEventManager"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "offset": "0xf8",
+      "info": {
+        "pointer": "0x785d070010",
+        "object": {
+          "pointer": "0x785d070010",
+          "index": 162800,
+          "header": "109102f67800000080173f7e78000000a09be8647700000008002800e001000000000000f07b0200a09302f6780000005030eee577000000070000000800000000000000000000000000000000000000611e0000010000001039bf6e77000000",
+          "vtable": "0x78f6029110",
+          "class_candidate": "0x7764e89ba0"
+        },
+        "name": {
+          "id": "0x1e0",
+          "number": 0,
+          "header": "0x3ca",
+          "raw": "af9a8d8c968c8b9a918bb39a899a93",
+          "candidates": [
+            {
+              "key": "0xff",
+              "text": "PersistentLevel"
+            }
+          ]
+        },
+        "class_name": {
+          "id": "0x1d75b9",
+          "number": 0,
+          "header": "0x168",
+          "raw": "b39a899a93",
+          "candidates": [
+            {
+              "key": "0xff",
+              "text": "Level"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "offset": "0x100",
+      "info": {
+        "pointer": "0x77a0b6bd10",
+        "object": {
+          "pointer": "0x77a0b6bd10",
+          "index": 160382,
+          "header": "58edd0f578000000805d7fd2780000001000075d7800000048000000ec3a1d008ed6ff7f7e720200d077ccf57800000000000c010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "vtable": "0x78f5d0ed58",
+          "class_candidate": "0x785d070010"
+        },
+        "name": {
+          "id": "0x1d3aec",
+          "number": 2147473038,
+          "header": "0x52e",
+          "raw": "3b1a191e0a130b2f17060c161c0c2910130a121a",
+          "candidates": [
+            {
+              "key": "0x7f",
+              "text": "DefaultPhysicsVolume"
+            }
+          ]
+        },
+        "class_name": {
+          "id": "0x1d3aec",
+          "number": 0,
+          "header": "0x52e",
+          "raw": "3b1a191e0a130b2f17060c161c0c2910130a121a",
+          "candidates": [
+            {
+              "key": "0x7f",
+              "text": "DefaultPhysicsVolume"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "offset": "0x140",
+      "info": {
+        "pointer": "0x783c0b6670",
+        "object": {
+          "pointer": "0x783c0b6670",
+          "index": 151077,
+          "header": "f0333df57800000080c4806d770000001000075d78000000080000002f0e2e014f010000254e0200d077ccf57800000002000e01000100000000c03f000000000000c03f0000000080a3227e780000001000075d780000000000000000000000",
+          "vtable": "0x78f53d33f0",
+          "class_candidate": "0x785d070010"
+        },
+        "name": {
+          "id": "0x12e0e2f",
+          "number": 335,
+          "header": "0x78c",
+          "raw": "313c203d2f20381e121a2c0b1e0b1a203d0d1a1e140b170d100a1817203c",
+          "candidates": [
+            {
+              "key": "0x7f",
+              "text": "NC_BP_GameState_Breakthrough_C"
+            }
+          ]
+        },
+        "class_name": {
+          "id": "0x125c2b7",
+          "number": 0,
+          "header": "0x6f0",
+          "raw": "bdafa0b89e929aac8b9e8b9aa0bd8d9a9e948b978d908a9897a0bc",
+          "candidates": [
+            {
+              "key": "0xff",
+              "text": "BP_GameState_Breakthrough_C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "offset": "0x150",
+      "info": {
+        "pointer": "0x77c2f5db40",
+        "object": {
+          "pointer": "0x77c2f5db40",
+          "index": 168245,
+          "header": "30ecccf57800000000ab76d278000000a09be86477000000000000002b331d0095d6ff7f35910200a8eeccf5780000000000c03fcdcc4c3e6f12833a0000003f0000c03f0000fa43000020410000000000000000000000000000000000000000",
+          "vtable": "0x78f5ccec30",
+          "class_candidate": "0x7764e89ba0"
+        },
+        "name": {
+          "id": "0x1d332b",
+          "number": 2147473045,
+          "header": "0x416",
+          "raw": "be8990969b9e919c9ab29e919e989a8d",
+          "candidates": [
+            {
+              "key": "0xff",
+              "text": "AvoidanceManager"
+            }
+          ]
+        },
+        "class_name": {
+          "id": "0x1d332b",
+          "number": 0,
+          "header": "0x416",
+          "raw": "be8990969b9e919c9ab29e919e989a8d",
+          "candidates": [
+            {
+              "key": "0xff",
+              "text": "AvoidanceManager"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "offset": "0x190",
+      "info": {
+        "pointer": "0x781fc2d260",
+        "object": {
+          "pointer": "0x781fc2d260",
+          "index": 100781,
+          "header": "40c7fdf27800000080fcdd117800000000b754207800000040000000bbf73c0049fbff7fad89010020cbfdf27800000000e2392078000000204def0e780000000100000004000000001518127800000000000000000000000000000000000000",
+          "vtable": "0x78f2fdc740",
+          "class_candidate": "0x782054b700"
+        },
+        "name": {
+          "id": "0x3cf7bb",
+          "number": 2147482441,
+          "header": "0x51a",
+          "raw": "3d2f203b3932381e121a36110c0b1e111c1a203c",
+          "candidates": [
+            {
+              "key": "0x7f",
+              "text": "BP_DFMGameInstance_C"
+            }
+          ]
+        },
+        "class_name": {
+          "id": "0x3cf7bb",
+          "number": 0,
+          "header": "0x51a",
+          "raw": "3d2f203b3932381e121a36110c0b1e111c1a203c",
+          "candidates": [
+            {
+              "key": "0x7f",
+              "text": "BP_DFMGameInstance_C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "offset": "0x1a8",
+      "info": {
+        "pointer": "0x78b12e4f00",
+        "object": {
+          "pointer": "0x78b12e4f00",
+          "index": 109794,
+          "header": "38aedcf57800000080127fd278000000c0bd6d63780000004000000050381d0096c8ff7fe2ac0100000000000000000000008044000080447f7f7fff00000000000400000004000000000000000000000000803f0000803f0000803f0000803f",
+          "vtable": "0x78f5dcae38",
+          "class_candidate": "0x78636dbdc0"
+        },
+        "name": {
+          "id": "0x1d3850",
+          "number": 2147469462,
+          "header": "0x1ac",
+          "raw": "bc9e91899e8c",
+          "candidates": [
+            {
+              "key": "0xff",
+              "text": "Canvas"
+            }
+          ]
+        },
+        "class_name": {
+          "id": "0x1d3850",
+          "number": 0,
+          "header": "0x1ac",
+          "raw": "bc9e91899e8c",
+          "candidates": [
+            {
+              "key": "0xff",
+              "text": "Canvas"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "arrays": [
+    {
+      "offset": "0x90",
+      "count": 481,
+      "first": [
+        {
+          "pointer": "0x77a1906940",
+          "object": {
+            "pointer": "0x77a1906940",
+            "index": 187041,
+            "header": "2016c9f27800000000ddf69378000000a09be86477000000400000003c9c15001adbff7fa1da0200ffffffff000000000000000000000000a06a290100000000000000000000000000000000000000003ac0270100000000005318c177000000",
+            "vtable": "0x78f2c91620",
+            "class_candidate": "0x7764e89ba0"
+          },
+          "name": {
+            "id": "0x159c3c",
+            "number": 2147474202,
+            "header": "0x5f2",
+            "raw": "b08f9a91a8908d939bac8b8d9a9e92969198b39a899a93",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "OpenWorldStreamingLevel"
+              }
+            ]
+          },
+          "class_name": {
+            "id": "0x159c3c",
+            "number": 0,
+            "header": "0x5f2",
+            "raw": "b08f9a91a8908d939bac8b8d9a9e92969198b39a899a93",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "OpenWorldStreamingLevel"
+              }
+            ]
+          }
+        },
+        {
+          "pointer": "0x77a1902380",
+          "object": {
+            "pointer": "0x77a1902380",
+            "index": 187040,
+            "header": "2016c9f27800000000ddf69378000000a09be86477000000400000003c9c150019dbff7fa0da0200ffffffff000000000000000000000000e26a29010000000000000000000000000000000000000000a1c0270100000000f05218c177000000",
+            "vtable": "0x78f2c91620",
+            "class_candidate": "0x7764e89ba0"
+          },
+          "name": {
+            "id": "0x159c3c",
+            "number": 2147474201,
+            "header": "0x5f2",
+            "raw": "b08f9a91a8908d939bac8b8d9a9e92969198b39a899a93",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "OpenWorldStreamingLevel"
+              }
+            ]
+          },
+          "class_name": {
+            "id": "0x159c3c",
+            "number": 0,
+            "header": "0x5f2",
+            "raw": "b08f9a91a8908d939bac8b8d9a9e92969198b39a899a93",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "OpenWorldStreamingLevel"
+              }
+            ]
+          }
+        },
+        {
+          "pointer": "0x77a1904540",
+          "object": {
+            "pointer": "0x77a1904540",
+            "index": 187039,
+            "header": "2016c9f27800000000ddf69378000000a09be86477000000400000003c9c150018dbff7f9fda0200ffffffff000000000000000000000000226b29010000000000000000000000000000000000000000d3c0270100000000d05218c177000000",
+            "vtable": "0x78f2c91620",
+            "class_candidate": "0x7764e89ba0"
+          },
+          "name": {
+            "id": "0x159c3c",
+            "number": 2147474200,
+            "header": "0x5f2",
+            "raw": "b08f9a91a8908d939bac8b8d9a9e92969198b39a899a93",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "OpenWorldStreamingLevel"
+              }
+            ]
+          },
+          "class_name": {
+            "id": "0x159c3c",
+            "number": 0,
+            "header": "0x5f2",
+            "raw": "b08f9a91a8908d939bac8b8d9a9e92969198b39a899a93",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "OpenWorldStreamingLevel"
+              }
+            ]
+          }
+        },
+        {
+          "pointer": "0x77a19025c0",
+          "object": {
+            "pointer": "0x77a19025c0",
+            "index": 187038,
+            "header": "2016c9f27800000000ddf69378000000a09be86477000000400000003c9c150017dbff7f9eda0200ffffffff000000000000000000000000626b2901000000000000000000000000000000000000000005c1270100000000505118c177000000",
+            "vtable": "0x78f2c91620",
+            "class_candidate": "0x7764e89ba0"
+          },
+          "name": {
+            "id": "0x159c3c",
+            "number": 2147474199,
+            "header": "0x5f2",
+            "raw": "b08f9a91a8908d939bac8b8d9a9e92969198b39a899a93",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "OpenWorldStreamingLevel"
+              }
+            ]
+          },
+          "class_name": {
+            "id": "0x159c3c",
+            "number": 0,
+            "header": "0x5f2",
+            "raw": "b08f9a91a8908d939bac8b8d9a9e92969198b39a899a93",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "OpenWorldStreamingLevel"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "offset": "0x158",
+      "count": 182,
+      "first": [
+        {
+          "pointer": "0x785d070010",
+          "object": {
+            "pointer": "0x785d070010",
+            "index": 162800,
+            "header": "109102f67800000080173f7e78000000a09be8647700000008002800e001000000000000f07b0200a09302f6780000005030eee577000000070000000800000000000000000000000000000000000000611e0000010000001039bf6e77000000",
+            "vtable": "0x78f6029110",
+            "class_candidate": "0x7764e89ba0"
+          },
+          "name": {
+            "id": "0x1e0",
+            "number": 0,
+            "header": "0x3ca",
+            "raw": "af9a8d8c968c8b9a918bb39a899a93",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "PersistentLevel"
+              }
+            ]
+          },
+          "class_name": {
+            "id": "0x1d75b9",
+            "number": 0,
+            "header": "0x168",
+            "raw": "b39a899a93",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "Level"
+              }
+            ]
+          }
+        },
+        {
+          "pointer": "0x7774796280",
+          "object": {
+            "pointer": "0x7774796280",
+            "index": 168634,
+            "header": "109102f67800000080173f7e7800000000b725aa7800000008002800e001000000000000ba920200a09302f678000000e0e822b777000000070000000800000000000000000000000000000000000000611e000001000000506ebf6e77000000",
+            "vtable": "0x78f6029110",
+            "class_candidate": "0x78aa25b700"
+          },
+          "name": {
+            "id": "0x1e0",
+            "number": 0,
+            "header": "0x3ca",
+            "raw": "af9a8d8c968c8b9a918bb39a899a93",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "PersistentLevel"
+              }
+            ]
+          },
+          "class_name": {
+            "id": "0x1d75b9",
+            "number": 0,
+            "header": "0x168",
+            "raw": "b39a899a93",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "Level"
+              }
+            ]
+          }
+        },
+        {
+          "pointer": "0x77747956b0",
+          "object": {
+            "pointer": "0x77747956b0",
+            "index": 168644,
+            "header": "109102f67800000080173f7e78000000202e51a27700000008002800e001000000000000c4920200a09302f67800000000f022b777000000070000000800000000000000000000000000000000000000611e0000010000007009bf6e77000000",
+            "vtable": "0x78f6029110",
+            "class_candidate": "0x77a2512e20"
+          },
+          "name": {
+            "id": "0x1e0",
+            "number": 0,
+            "header": "0x3ca",
+            "raw": "af9a8d8c968c8b9a918bb39a899a93",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "PersistentLevel"
+              }
+            ]
+          },
+          "class_name": {
+            "id": "0x1d75b9",
+            "number": 0,
+            "header": "0x168",
+            "raw": "b39a899a93",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "Level"
+              }
+            ]
+          }
+        },
+        {
+          "pointer": "0x7774794ae0",
+          "object": {
+            "pointer": "0x7774794ae0",
+            "index": 168650,
+            "header": "109102f67800000080173f7e78000000e06451a27700000008002800e001000000000000ca920200a09302f67800000050fa22b777000000070000000800000000000000000000000000000000000000611e000001000000505cbf6e77000000",
+            "vtable": "0x78f6029110",
+            "class_candidate": "0x77a25164e0"
+          },
+          "name": {
+            "id": "0x1e0",
+            "number": 0,
+            "header": "0x3ca",
+            "raw": "af9a8d8c968c8b9a918bb39a899a93",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "PersistentLevel"
+              }
+            ]
+          },
+          "class_name": {
+            "id": "0x1d75b9",
+            "number": 0,
+            "header": "0x168",
+            "raw": "b39a899a93",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "Level"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "offset": "0x198",
+      "count": 17,
+      "first": [
+        {
+          "pointer": "0x778a1d8a80",
+          "object": {
+            "pointer": "0x778a1d8a80",
+            "index": 168244,
+            "header": "10f7d6f57800000000dd72d278000000c0bd6d63780000000000000089871d0094d6ff7f349102000000000000000000c0cd40bc7700000054db0200639900000000000000000000000000000000000000000000000000000000000000000000",
+            "vtable": "0x78f5d6f710",
+            "class_candidate": "0x78636dbdc0"
+          },
+          "name": {
+            "id": "0x1d8789",
+            "number": 2147473044,
+            "header": "0x8f2",
+            "raw": "b29e8b9a8d969e93af9e8d9e929a8b9a8dbc9093939a9c8b969091b6918c8b9e919c9a",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "MaterialParameterCollectionInstance"
+              }
+            ]
+          },
+          "class_name": {
+            "id": "0x1d8789",
+            "number": 0,
+            "header": "0x8f2",
+            "raw": "b29e8b9a8d969e93af9e8d9e929a8b9a8dbc9093939a9c8b969091b6918c8b9e919c9a",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "MaterialParameterCollectionInstance"
+              }
+            ]
+          }
+        },
+        {
+          "pointer": "0x778a1d8e40",
+          "object": {
+            "pointer": "0x778a1d8e40",
+            "index": 160387,
+            "header": "10f7d6f57800000000dd72d278000000c0bd6d63780000000000000089871d0093d6ff7f837202000000000000000000408713747700000054db0200639900000000000000000000000000000000000000000000000000000000000000000000",
+            "vtable": "0x78f5d6f710",
+            "class_candidate": "0x78636dbdc0"
+          },
+          "name": {
+            "id": "0x1d8789",
+            "number": 2147473043,
+            "header": "0x8f2",
+            "raw": "b29e8b9a8d969e93af9e8d9e929a8b9a8dbc9093939a9c8b969091b6918c8b9e919c9a",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "MaterialParameterCollectionInstance"
+              }
+            ]
+          },
+          "class_name": {
+            "id": "0x1d8789",
+            "number": 0,
+            "header": "0x8f2",
+            "raw": "b29e8b9a8d969e93af9e8d9e929a8b9a8dbc9093939a9c8b969091b6918c8b9e919c9a",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "MaterialParameterCollectionInstance"
+              }
+            ]
+          }
+        },
+        {
+          "pointer": "0x778a1d8d00",
+          "object": {
+            "pointer": "0x778a1d8d00",
+            "index": 160386,
+            "header": "10f7d6f57800000000dd72d278000000c0bd6d63780000000000000089871d0092d6ff7f827202000000000000000000c0c1bcc27700000054db0200639900000000000000000000000000000000000000000000000000000000000000000000",
+            "vtable": "0x78f5d6f710",
+            "class_candidate": "0x78636dbdc0"
+          },
+          "name": {
+            "id": "0x1d8789",
+            "number": 2147473042,
+            "header": "0x8f2",
+            "raw": "b29e8b9a8d969e93af9e8d9e929a8b9a8dbc9093939a9c8b969091b6918c8b9e919c9a",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "MaterialParameterCollectionInstance"
+              }
+            ]
+          },
+          "class_name": {
+            "id": "0x1d8789",
+            "number": 0,
+            "header": "0x8f2",
+            "raw": "b29e8b9a8d969e93af9e8d9e929a8b9a8dbc9093939a9c8b969091b6918c8b9e919c9a",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "MaterialParameterCollectionInstance"
+              }
+            ]
+          }
+        },
+        {
+          "pointer": "0x77371d8580",
+          "object": {
+            "pointer": "0x77371d8580",
+            "index": 160385,
+            "header": "10f7d6f57800000000dd72d278000000c0bd6d63780000000000000089871d0091d6ff7f817202000000000000000000c0f4086e7700000054db02006399000000896788770000000900000016000000ff010000000000000000000000000000",
+            "vtable": "0x78f5d6f710",
+            "class_candidate": "0x78636dbdc0"
+          },
+          "name": {
+            "id": "0x1d8789",
+            "number": 2147473041,
+            "header": "0x8f2",
+            "raw": "b29e8b9a8d969e93af9e8d9e929a8b9a8dbc9093939a9c8b969091b6918c8b9e919c9a",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "MaterialParameterCollectionInstance"
+              }
+            ]
+          },
+          "class_name": {
+            "id": "0x1d8789",
+            "number": 0,
+            "header": "0x8f2",
+            "raw": "b29e8b9a8d969e93af9e8d9e929a8b9a8dbc9093939a9c8b969091b6918c8b9e919c9a",
+            "candidates": [
+              {
+                "key": "0xff",
+                "text": "MaterialParameterCollectionInstance"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

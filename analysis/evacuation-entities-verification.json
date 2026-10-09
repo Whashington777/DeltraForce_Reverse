@@ -1,0 +1,207 @@
+{
+  "pid": 22846,
+  "base": "0x78d6c43000",
+  "world": "0x7764e14980",
+  "local_team_id": 1,
+  "player_roster_count": 14,
+  "player_relations": {
+    "self": 1,
+    "ally": 2,
+    "other_team": 10
+  },
+  "players": [
+    {
+      "player_state": "0x76831fc720",
+      "team_id": 1,
+      "camp": 0,
+      "pawn": "0x771085c010",
+      "valid_pawn": true,
+      "relation": "self",
+      "pawn_class": "BP_DFMCharacter_C",
+      "reverse_player_state": "0x76831fc720",
+      "reverse_matches": true
+    },
+    {
+      "player_state": "0x766ea338f0",
+      "team_id": 1,
+      "camp": 0,
+      "pawn": "0x0",
+      "valid_pawn": false,
+      "relation": "ally"
+    },
+    {
+      "player_state": "0x7686abc720",
+      "team_id": 2,
+      "camp": 0,
+      "pawn": "0x0",
+      "valid_pawn": false,
+      "relation": "other_team"
+    },
+    {
+      "player_state": "0x76bfa58e40",
+      "team_id": 1,
+      "camp": 0,
+      "pawn": "0x0",
+      "valid_pawn": false,
+      "relation": "ally"
+    },
+    {
+      "player_state": "0x76632f8e40",
+      "team_id": 5,
+      "camp": 106,
+      "pawn": "0x0",
+      "valid_pawn": false,
+      "relation": "other_team"
+    },
+    {
+      "player_state": "0x76632f71d0",
+      "team_id": 5,
+      "camp": 106,
+      "pawn": "0x0",
+      "valid_pawn": false,
+      "relation": "other_team"
+    },
+    {
+      "player_state": "0x76e2a6aab0",
+      "team_id": 5,
+      "camp": 106,
+      "pawn": "0x0",
+      "valid_pawn": false,
+      "relation": "other_team"
+    },
+    {
+      "player_state": "0x79cc4cc720",
+      "team_id": 3,
+      "camp": 106,
+      "pawn": "0x0",
+      "valid_pawn": false,
+      "relation": "other_team"
+    },
+    {
+      "player_state": "0x77141fe390",
+      "team_id": 3,
+      "camp": 106,
+      "pawn": "0x0",
+      "valid_pawn": false,
+      "relation": "other_team"
+    },
+    {
+      "player_state": "0x77160d5560",
+      "team_id": 3,
+      "camp": 106,
+      "pawn": "0x0",
+      "valid_pawn": false,
+      "relation": "other_team"
+    },
+    {
+      "player_state": "0x79cc4ce390",
+      "team_id": 4,
+      "camp": 106,
+      "pawn": "0x76d0c9c010",
+      "valid_pawn": true,
+      "relation": "other_team",
+      "pawn_class": "BP_DFMCharacter_C",
+      "reverse_player_state": "0x79cc4ce390",
+      "reverse_matches": true
+    },
+    {
+      "player_state": "0x77141fc720",
+      "team_id": 4,
+      "camp": 106,
+      "pawn": "0x768a5fc010",
+      "valid_pawn": true,
+      "relation": "other_team",
+      "pawn_class": "BP_DFMCharacter_C",
+      "reverse_player_state": "0x77141fc720",
+      "reverse_matches": true
+    },
+    {
+      "player_state": "0x7771ea5560",
+      "team_id": 4,
+      "camp": 106,
+      "pawn": "0x76ceb08020",
+      "valid_pawn": true,
+      "relation": "other_team",
+      "pawn_class": "BP_DFMCharacter_C",
+      "reverse_player_state": "0x7771ea5560",
+      "reverse_matches": true
+    }
+  ],
+  "npc_count": 4,
+  "npc_class_counts": {
+    "BP_DFMCharacter_AI_DT_C": 3,
+    "BP_DFMCharacter_AI_Crocodile_C": 1
+  },
+  "npcs": [
+    {
+      "actor": "0x766a905560",
+      "index": 158574,
+      "class": "BP_DFMCharacter_AI_DT_C",
+      "verified_ancestor": "DFMAICharacter",
+      "controller": "0x0",
+      "controller_class": null
+    },
+    {
+      "actor": "0x77bff30010",
+      "index": 141041,
+      "class": "BP_DFMCharacter_AI_DT_C",
+      "verified_ancestor": "DFMAICharacter",
+      "controller": "0x0",
+      "controller_class": null
+    },
+    {
+      "actor": "0x7675b1aab0",
+      "index": 257063,
+      "class": "BP_DFMCharacter_AI_DT_C",
+      "verified_ancestor": "DFMAICharacter",
+      "controller": "0x0",
+      "controller_class": null
+    },
+    {
+      "actor": "0x76859c5560",
+      "index": 203720,
+      "class": "BP_DFMCharacter_AI_Crocodile_C",
+      "verified_ancestor": "DFMAICharacter",
+      "controller": "0x0",
+      "controller_class": null
+    }
+  ],
+  "stale_npc_candidates": [
+    "0x768d085560",
+    "0x7679a30010",
+    "0x77158f0010",
+    "0x7769e65560",
+    "0x7811bc0010",
+    "0x7669c25560",
+    "0x778a335560",
+    "0x7718f05560",
+    "0x776f245560",
+    "0x77189d0010",
+    "0x77c72d5560",
+    "0x7673405560",
+    "0x764c365560",
+    "0x764f1c5560",
+    "0x764db4aab0",
+    "0x764c360010",
+    "0x7715ad0010",
+    "0x764db15560",
+    "0x768a575560",
+    "0x7685b95560",
+    "0x7672e25560",
+    "0x76543faab0",
+    "0x76667e0010"
+  ],
+  "checks": {
+    "world_stable": true,
+    "roster_header_stable": true,
+    "all_roster_pawns_valid": false,
+    "all_reverse_player_state_links_match": false,
+    "actor_array_header_stable": true
+  },
+  "scope": "PlayerState roster and verified AI-character candidates from the current PersistentLevel; not a full scan of streamed levels.",
+  "limitations": [
+    "Presence is not proof of being alive or currently visible.",
+    "NPC samples were revalidated from earlier scan; newly spawned NPCs after that scan can be missed.",
+    "Other-team relation follows reflected TeamID, without independent screen validation."
+  ]
+}

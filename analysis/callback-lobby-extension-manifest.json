@@ -1,0 +1,23 @@
+{
+  "pid": 22846,
+  "base": "0x78d6c43000",
+  "pages": [
+    {
+      "page": "0x7afeea3000",
+      "time_start": 35828.00737157,
+      "time_end": 35828.0920897
+    },
+    {
+      "page": "0x7b1ea2e000",
+      "time_start": 35828.208904003,
+      "time_end": 35828.325652473
+    },
+    {
+      "page": "0x7b229d4000",
+      "time_start": 35828.454751377,
+      "time_end": 35828.558365102
+    }
+  ],
+  "inferred_ctr": true,
+  "synthetic_context": true
+}

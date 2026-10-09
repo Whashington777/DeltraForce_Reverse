@@ -1,0 +1,25 @@
+{
+  "pid": 22846,
+  "argument": "0xb4000077ec77a220",
+  "state": "0x7afee77000",
+  "guard_cpu_upper": "0x94440000",
+  "disable_flag": 0,
+  "pac_branch_flag": 1,
+  "thread_context": "0xb4000077ec77a220",
+  "resource": "0x7b22a4b000",
+  "table": "0x78d6c43000",
+  "table_headers": [
+    {
+      "bank": 0,
+      "header": "0x78f6c4eca8",
+      "data": "0x7843980000",
+      "count": 4094
+    },
+    {
+      "bank": 1,
+      "header": "0x78f6c4ecd0",
+      "data": "0x781fcf0000",
+      "count": 4094
+    }
+  ]
+}

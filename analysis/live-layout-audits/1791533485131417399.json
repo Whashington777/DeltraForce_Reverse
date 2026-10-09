@@ -1,0 +1,4706 @@
+{
+  "pid": 24536,
+  "base": "0x6feb64c000",
+  "world_class": "World",
+  "game_state_class": "BP_GameState_IrisSafeHouse_C",
+  "roster_count": 1,
+  "world_unchanged": true,
+  "types": [
+    "Pawn",
+    "Vector",
+    "Actor",
+    "RepMovement",
+    "Rotator",
+    "EncVector",
+    "Object",
+    "BP_TestPlayerCameraManager_C",
+    "DFMPlayerCameraManager",
+    "GPPlayerCameraManager",
+    "PlayerCameraManager",
+    "CameraCacheEntry",
+    "MinimalViewInfo",
+    "BP_SafeHousePlayerController_C",
+    "SafeHousePlayerController",
+    "DFMPlayerController",
+    "GPPlayerController",
+    "GPNetworkPlayerController",
+    "BasePlayerController",
+    "PlayerController",
+    "Controller",
+    "BP_GameState_IrisSafeHouse_C",
+    "IrisWorldGameState",
+    "DFMGameState",
+    "GPGameState",
+    "BaseGameState",
+    "GameState",
+    "GameStateBase",
+    "Info",
+    "World"
+  ],
+  "checks": [
+    {
+      "owner": "Pawn",
+      "field": "bUseControllerRotationPitch",
+      "offset": 888,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Pawn",
+      "field": "bUseControllerRotationYaw",
+      "offset": 888,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Pawn",
+      "field": "bUseControllerRotationRoll",
+      "offset": 888,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Pawn",
+      "field": "bCanAffectNavigationGeneration",
+      "offset": 888,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Pawn",
+      "field": "BaseEyeHeight",
+      "offset": 892,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Pawn",
+      "field": "AutoPossessPlayer",
+      "offset": 896,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EAutoReceiveInput",
+      "matches_saved": true
+    },
+    {
+      "owner": "Pawn",
+      "field": "AutoPossessAI",
+      "offset": 897,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EAutoPossessAI",
+      "matches_saved": true
+    },
+    {
+      "owner": "Pawn",
+      "field": "RemoteViewPitch",
+      "offset": 898,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Pawn",
+      "field": "AIControllerClass",
+      "offset": 904,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Class",
+      "matches_saved": true
+    },
+    {
+      "owner": "Pawn",
+      "field": "PlayerState",
+      "offset": 912,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "PlayerState",
+      "matches_saved": true
+    },
+    {
+      "owner": "Pawn",
+      "field": "LastHitBy",
+      "offset": 928,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Controller",
+      "matches_saved": true
+    },
+    {
+      "owner": "Pawn",
+      "field": "Controller",
+      "offset": 936,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Controller",
+      "matches_saved": true
+    },
+    {
+      "owner": "Pawn",
+      "field": "ControlInputVector",
+      "offset": 948,
+      "size": 12,
+      "array_dim": 1,
+      "referenced_type": "Vector",
+      "matches_saved": true
+    },
+    {
+      "owner": "Pawn",
+      "field": "LastControlInputVector",
+      "offset": 960,
+      "size": 12,
+      "array_dim": 1,
+      "referenced_type": "Vector",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "PrimaryActorTick",
+      "offset": 40,
+      "size": 104,
+      "array_dim": 1,
+      "referenced_type": "ActorTickFunction",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bHidden",
+      "offset": 144,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bEnableNetActive",
+      "offset": 144,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bNetActive",
+      "offset": 144,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bNetTemporary",
+      "offset": 144,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bNetStartup",
+      "offset": 144,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bOnlyRelevantToOwner",
+      "offset": 144,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bAlwaysRelevant",
+      "offset": 144,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bReplicateMovement",
+      "offset": 144,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bShouldCallPreReplication",
+      "offset": 145,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bTearOff",
+      "offset": 145,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bExchangedRoles",
+      "offset": 145,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bNetLoadOnClient",
+      "offset": 145,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bNetUseOwnerRelevancy",
+      "offset": 145,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bRelevantForNetworkReplays",
+      "offset": 145,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bRelevantForLevelBounds",
+      "offset": 145,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bReplayRewindable",
+      "offset": 146,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bAllowTickBeforeBeginPlay",
+      "offset": 146,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bAllowBluePrintTick",
+      "offset": 146,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bAutoDestroyWhenFinished",
+      "offset": 146,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bBlockInput",
+      "offset": 146,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bCanBeDamaged",
+      "offset": 146,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bCollideWhenPlacing",
+      "offset": 146,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bFindCameraComponentWhenViewTarget",
+      "offset": 146,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bGenerateOverlapEventsDuringLevelStreaming",
+      "offset": 147,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bIgnoresOriginShifting",
+      "offset": 147,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bEnableAutoLODGeneration",
+      "offset": 147,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bIsEditorOnlyActor",
+      "offset": 147,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bActorSeamlessTraveled",
+      "offset": 147,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bReplicates",
+      "offset": 147,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bCanBeInCluster",
+      "offset": 147,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bAllowReceiveTickEventOnDedicatedServer",
+      "offset": 147,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bActorEnableCollision",
+      "offset": 149,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "bActorIsBeingDestroyed",
+      "offset": 149,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "UpdateOverlapsMethodDuringLevelStreaming",
+      "offset": 150,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EActorUpdateOverlapsMethod",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "DefaultUpdateOverlapsMethodDuringLevelStreaming",
+      "offset": 151,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EActorUpdateOverlapsMethod",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "RemoteRole",
+      "offset": 152,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "ENetRole",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "ReplicatedMovement",
+      "offset": 156,
+      "size": 56,
+      "array_dim": 1,
+      "referenced_type": "RepMovement",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "InitialLifeSpan",
+      "offset": 212,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "Actor",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "CustomTimeDilation",
+      "offset": 216,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "RepAttachment",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "AttachmentReplication",
+      "offset": 224,
+      "size": 64,
+      "array_dim": 1,
+      "referenced_type": "RepAttachment",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "Owner",
+      "offset": 288,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Actor",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "NetDriverName",
+      "offset": 296,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Actor",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "Role",
+      "offset": 304,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "ENetRole",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "NetDormancy",
+      "offset": 305,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "ENetDormancy",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "SpawnCollisionHandlingMethod",
+      "offset": 306,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "ESpawnActorCollisionHandlingMethod",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "AutoReceiveInput",
+      "offset": 307,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EAutoReceiveInput",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "InputPriority",
+      "offset": 308,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPSequenceMultiStageActor",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "InputComponent",
+      "offset": 312,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "InputComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "NetCullDistanceSquared",
+      "offset": 320,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "Actor",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "NetCullDistanceSquared_HD",
+      "offset": 324,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "Actor",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "NetCullDistanceSquared_M",
+      "offset": 328,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "Actor",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "NetTag",
+      "offset": 332,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "Actor",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "NetUpdateFrequency",
+      "offset": 336,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "Actor",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "MinNetUpdateFrequency",
+      "offset": 340,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "Actor",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "NetPriority",
+      "offset": 344,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "Instigator",
+      "offset": 360,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Pawn",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "Children",
+      "offset": 368,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "RootComponent",
+      "offset": 384,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "SceneComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "ControllingMatineeActors",
+      "offset": 392,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "Layers",
+      "offset": 416,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "ParentComponent",
+      "offset": 432,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "ChildActorComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "Tags",
+      "offset": 440,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "OnTakeAnyDamage",
+      "offset": 456,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "OnTakePointDamage",
+      "offset": 457,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "OnTakeRadialDamage",
+      "offset": 458,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "OnActorBeginOverlap",
+      "offset": 459,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "OnActorEndOverlap",
+      "offset": 460,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "OnBeginCursorOver",
+      "offset": 461,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "OnEndCursorOver",
+      "offset": 462,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "OnClicked",
+      "offset": 463,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "OnReleased",
+      "offset": 464,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "OnInputTouchBegin",
+      "offset": 465,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "OnInputTouchEnd",
+      "offset": 466,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "OnInputTouchEnter",
+      "offset": 467,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "OnInputTouchLeave",
+      "offset": 468,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "OnActorHit",
+      "offset": 469,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "OnDestroyed",
+      "offset": 504,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "OnEndPlay",
+      "offset": 505,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "InstanceComponents",
+      "offset": 624,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Actor",
+      "field": "BlueprintCreatedComponents",
+      "offset": 640,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "RepMovement",
+      "field": "LinearVelocity",
+      "offset": 0,
+      "size": 12,
+      "array_dim": 1,
+      "referenced_type": "Vector",
+      "matches_saved": true
+    },
+    {
+      "owner": "RepMovement",
+      "field": "AngularVelocity",
+      "offset": 12,
+      "size": 12,
+      "array_dim": 1,
+      "referenced_type": "Vector",
+      "matches_saved": true
+    },
+    {
+      "owner": "RepMovement",
+      "field": "Location",
+      "offset": 24,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": "EncVector",
+      "matches_saved": true
+    },
+    {
+      "owner": "RepMovement",
+      "field": "Rotation",
+      "offset": 40,
+      "size": 12,
+      "array_dim": 1,
+      "referenced_type": "Rotator",
+      "matches_saved": true
+    },
+    {
+      "owner": "RepMovement",
+      "field": "bSimulatedPhysicSleep",
+      "offset": 52,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "RepMovement",
+      "field": "bRepPhysics",
+      "offset": 52,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "RepMovement",
+      "field": "LocationQuantizationLevel",
+      "offset": 53,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EVectorQuantization",
+      "matches_saved": true
+    },
+    {
+      "owner": "RepMovement",
+      "field": "VelocityQuantizationLevel",
+      "offset": 54,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EVectorQuantization",
+      "matches_saved": true
+    },
+    {
+      "owner": "RepMovement",
+      "field": "RotationQuantizationLevel",
+      "offset": 55,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "ERotatorQuantization",
+      "matches_saved": true
+    },
+    {
+      "owner": "Rotator",
+      "field": "pitch",
+      "offset": 0,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "Rotator",
+      "matches_saved": true
+    },
+    {
+      "owner": "Rotator",
+      "field": "Yaw",
+      "offset": 4,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "Rotator",
+      "matches_saved": true
+    },
+    {
+      "owner": "Rotator",
+      "field": "Roll",
+      "offset": 8,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "Plane",
+      "matches_saved": true
+    },
+    {
+      "owner": "BP_TestPlayerCameraManager_C",
+      "field": "CameraTrans",
+      "offset": 21904,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "CameraTransComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "BP_TestPlayerCameraManager_C",
+      "field": "bDebugPPS",
+      "offset": 21912,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerCameraManager",
+      "field": "bSeamlessEntryTransition",
+      "offset": 21856,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerCameraManager",
+      "field": "ProbeChannel",
+      "offset": 21857,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "ECollisionChannel",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerCameraManager",
+      "field": "ProbeSize",
+      "offset": 21860,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerCameraManager",
+      "field": "LogicAudioModeConfig",
+      "offset": 21864,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerCameraManager",
+      "field": "LogicAudioManager",
+      "offset": 21880,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "LogicAudioManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerCameraManager",
+      "field": "EnableLogicAudio",
+      "offset": 21888,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerCameraManager",
+      "field": "CustomLogicAudioTickInterval",
+      "offset": 21892,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerCameraManager",
+      "field": "DebugAssassinateCamera",
+      "offset": 21896,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerCameraManager",
+      "field": "DebugBeAssassinateCamera",
+      "offset": 21897,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerCameraManager",
+      "field": "CheckSelfCapsuleRadius",
+      "offset": 21900,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "ZoomInDofConfig",
+      "offset": 17184,
+      "size": 36,
+      "array_dim": 1,
+      "referenced_type": "MobileDOFConfigs",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "DesktopDOFConfigs",
+      "offset": 17220,
+      "size": 40,
+      "array_dim": 1,
+      "referenced_type": "DesktopDOFConfigs",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "DefaultMotionBlur",
+      "offset": 17260,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "DefaultPPSettings",
+      "offset": 17264,
+      "size": 2480,
+      "array_dim": 1,
+      "referenced_type": "PostProcessSettings",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "bForceAddDefaultPP",
+      "offset": 19744,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "LastThirdPersonTarget",
+      "offset": 19760,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Actor",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "CurrentCamBonus",
+      "offset": 19768,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "FlagCamBonus",
+      "offset": 19772,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "PowerupBonus",
+      "offset": 19776,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "HigherScoreBonus",
+      "offset": 19780,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "CurrentActionBonus",
+      "offset": 19784,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "FPPCameraLerpToAddTimeConfig",
+      "offset": 19788,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "SwitchViewTargetCurve",
+      "offset": 19800,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "CurveFloat",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "SwitchViewTargetFovCurve",
+      "offset": 19808,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "CurveFloat",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "ProneViewPitchMin",
+      "offset": 19904,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "ProneViewPitchMax",
+      "offset": 19908,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "SupineViewPitchMin",
+      "offset": 19912,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "SupineViewPitchMax",
+      "offset": 19916,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "FishingViewPitchMin",
+      "offset": 19920,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "FishingViewPitchMax",
+      "offset": 19924,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "FreeLookModeCameraViewPitchLimit",
+      "offset": 19928,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Vector2D",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "FreeLookModeCameraViewYawLimit",
+      "offset": 19936,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Vector2D",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "FPPCameraRootName",
+      "offset": 19964,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "FPPCameraJointName",
+      "offset": 19972,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "FPPCameraBoneName",
+      "offset": 19980,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "DragRescueViewPitchMin",
+      "offset": 19988,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "DragRescueViewPitchMax",
+      "offset": 19992,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "CameraSmoothTime_Crouch",
+      "offset": 20048,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "CameraSmoothTime_Prone",
+      "offset": 20052,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "CameraSmoothTime_QuickCrouch",
+      "offset": 20056,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "CameraSmoothTime_Parachute",
+      "offset": 20060,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "CameraSmoothTime_Climb",
+      "offset": 20064,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "CameraSmoothSpeed_Crouch",
+      "offset": 20068,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "CameraSmoothSpeed_Prone",
+      "offset": 20072,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "CameraSmoothSpeed_Climb",
+      "offset": 20076,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "TargetSocket",
+      "offset": 20128,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "SkeletalMeshSocket",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "FOVDeltaBySpeedCurve",
+      "offset": 20144,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "CurveFloat",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "AttributeSetSpeed",
+      "offset": 20160,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPAttributeSetSpeed",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "GPPlayerController",
+      "offset": 20168,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerController",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "ClientBaseSetting",
+      "offset": 20176,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "ClientBaseSetting",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "ClientCameraSettingHD",
+      "offset": 20192,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "ClientCameraSettingHD",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "AimingTarget",
+      "offset": 20248,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPCharacterBase",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "FPPCameraFOV",
+      "offset": 20432,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "ReferenceFPPCameraFov",
+      "offset": 20436,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "ReferenceAspectForFixedVerticalFov",
+      "offset": 20440,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "bUsingExplosionRadialParams",
+      "offset": 20745,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "ActorsToIgnore",
+      "offset": 20752,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "CompsToIgnore",
+      "offset": 20768,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "GlobalCameraAnimTransformScale",
+      "offset": 20784,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "GlobalPCAnimCameraRotScale",
+      "offset": 20788,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "GlobalMobileAnimCameraRotScale",
+      "offset": 20792,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "GlobalPCAnimCameraLocScale",
+      "offset": 20796,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "GlobalMobileAnimCameraLocScale",
+      "offset": 20800,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "bForceUseDefualtCameraStyle",
+      "offset": 20804,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "FovAdjustMode",
+      "offset": 20832,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EFovAdjustMode",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "FovAdjustMode_Mobile",
+      "offset": 20833,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EFovAdjustMode",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "DesignAspect",
+      "offset": 20836,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Vector2D",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "DefaultInteractFOV",
+      "offset": 20896,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "BasicFovForScale",
+      "offset": 20900,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "ChangeSceneFovData",
+      "offset": 20904,
+      "size": 32,
+      "array_dim": 1,
+      "referenced_type": "GPSceneFOVChangeDataInfo",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "CameraModeConfig",
+      "offset": 21288,
+      "size": 80,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "CameraXppChangeConfig",
+      "offset": 21368,
+      "size": 80,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "field": "CameraModifierMapping",
+      "offset": 21456,
+      "size": 80,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "PCOwner",
+      "offset": 880,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "PlayerController",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "TransformComponent",
+      "offset": 888,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "SceneComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "DefaultFOV",
+      "offset": 904,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "DefaultOrthoWidth",
+      "offset": 912,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "DefaultAspectRatio",
+      "offset": 920,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "CameraCache",
+      "offset": 992,
+      "size": 2640,
+      "array_dim": 1,
+      "referenced_type": "CameraCacheEntry",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "LastFrameCameraCache",
+      "offset": 3632,
+      "size": 2640,
+      "array_dim": 1,
+      "referenced_type": "CameraCacheEntry",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "ViewTarget",
+      "offset": 6272,
+      "size": 2656,
+      "array_dim": 1,
+      "referenced_type": "TViewTarget",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "PendingViewTarget",
+      "offset": 8928,
+      "size": 2656,
+      "array_dim": 1,
+      "referenced_type": "TViewTarget",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "CameraCachePrivate",
+      "offset": 11616,
+      "size": 2640,
+      "array_dim": 1,
+      "referenced_type": "CameraCacheEntry",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "LastFrameCameraCachePrivate",
+      "offset": 14256,
+      "size": 2640,
+      "array_dim": 1,
+      "referenced_type": "CameraCacheEntry",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "ModifierList",
+      "offset": 16896,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "DefaultModifiers",
+      "offset": 16912,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "FreeCamDistance",
+      "offset": 16928,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPSequenceNetSyncActor",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "FreeCamOffset",
+      "offset": 16932,
+      "size": 12,
+      "array_dim": 1,
+      "referenced_type": "Vector",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "ViewTargetOffset",
+      "offset": 16944,
+      "size": 12,
+      "array_dim": 1,
+      "referenced_type": "Vector",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "CameraLensEffects",
+      "offset": 16976,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "CachedCameraShakeMod",
+      "offset": 16992,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "CameraModifier_CameraShake",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "AnimInstPool",
+      "offset": 17000,
+      "size": 8,
+      "array_dim": 8,
+      "referenced_type": "CameraAnimInst",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "PostProcessBlendCache",
+      "offset": 17064,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "ActiveAnims",
+      "offset": 17096,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "FreeAnims",
+      "offset": 17112,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "AnimCameraActor",
+      "offset": 17128,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "CameraActor",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "bIsOrthographic",
+      "offset": 17136,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "bDefaultConstrainAspectRatio",
+      "offset": 17136,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "bClientSimulatingViewTarget",
+      "offset": 17136,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "bUseClientSideCameraUpdates",
+      "offset": 17136,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "bGameCameraCutThisFrame",
+      "offset": 17137,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "ViewPitchMin",
+      "offset": 17140,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "ViewPitchMax",
+      "offset": 17144,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "ViewYawMin",
+      "offset": 17148,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "ViewYawMax",
+      "offset": 17152,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "ViewRollMin",
+      "offset": 17156,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "ViewRollMax",
+      "offset": 17160,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "field": "ServerUpdateCameraTimeout",
+      "offset": 17168,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "CameraCacheEntry",
+      "field": "Timestamp",
+      "offset": 0,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PhysicalSurfaceName",
+      "matches_saved": true
+    },
+    {
+      "owner": "CameraCacheEntry",
+      "field": "POV",
+      "offset": 16,
+      "size": 2624,
+      "array_dim": 1,
+      "referenced_type": "MinimalViewInfo",
+      "matches_saved": true
+    },
+    {
+      "owner": "MinimalViewInfo",
+      "field": "Location",
+      "offset": 0,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": "EncVector",
+      "matches_saved": true
+    },
+    {
+      "owner": "MinimalViewInfo",
+      "field": "Rotation",
+      "offset": 16,
+      "size": 12,
+      "array_dim": 1,
+      "referenced_type": "Rotator",
+      "matches_saved": true
+    },
+    {
+      "owner": "MinimalViewInfo",
+      "field": "FOV",
+      "offset": 28,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "RawDistributionVector",
+      "matches_saved": true
+    },
+    {
+      "owner": "MinimalViewInfo",
+      "field": "DesiredFOV",
+      "offset": 32,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "MinimalViewInfo",
+      "matches_saved": true
+    },
+    {
+      "owner": "MinimalViewInfo",
+      "field": "OrthoWidth",
+      "offset": 36,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "MinimalViewInfo",
+      "matches_saved": true
+    },
+    {
+      "owner": "MinimalViewInfo",
+      "field": "OrthoNearClipPlane",
+      "offset": 40,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "MinimalViewInfo",
+      "matches_saved": true
+    },
+    {
+      "owner": "MinimalViewInfo",
+      "field": "OrthoFarClipPlane",
+      "offset": 44,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "MinimalViewInfo",
+      "matches_saved": true
+    },
+    {
+      "owner": "MinimalViewInfo",
+      "field": "AspectRatio",
+      "offset": 48,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "MinimalViewInfo",
+      "matches_saved": true
+    },
+    {
+      "owner": "MinimalViewInfo",
+      "field": "bConstrainAspectRatio",
+      "offset": 52,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "MinimalViewInfo",
+      "field": "bUseFieldOfViewForLOD",
+      "offset": 52,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "MinimalViewInfo",
+      "field": "ProjectionMode",
+      "offset": 53,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "ECameraProjectionMode",
+      "matches_saved": true
+    },
+    {
+      "owner": "MinimalViewInfo",
+      "field": "PostProcessBlendWeight",
+      "offset": 56,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PostProcessSettings",
+      "matches_saved": true
+    },
+    {
+      "owner": "MinimalViewInfo",
+      "field": "PostProcessSettings",
+      "offset": 64,
+      "size": 2480,
+      "array_dim": 1,
+      "referenced_type": "PostProcessSettings",
+      "matches_saved": true
+    },
+    {
+      "owner": "MinimalViewInfo",
+      "field": "OffCenterProjectionOffset",
+      "offset": 2544,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Vector2D",
+      "matches_saved": true
+    },
+    {
+      "owner": "BP_SafeHousePlayerController_C",
+      "field": "UberGraphFrame",
+      "offset": 3712,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "PointerToUberGraphFrame",
+      "matches_saved": true
+    },
+    {
+      "owner": "BP_SafeHousePlayerController_C",
+      "field": "DFMControllerAudio",
+      "offset": 3720,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMControllerAudioComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "BP_SafeHousePlayerController_C",
+      "field": "DFMQuestGamingAreaPlayer",
+      "offset": 3728,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMQuestGamingAreaPlayerComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "BP_SafeHousePlayerController_C",
+      "field": "SimulationLODPerception",
+      "offset": 3736,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "SimulationLODPerceptionComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "BP_SafeHousePlayerController_C",
+      "field": "MiniManTransform",
+      "offset": 3744,
+      "size": 48,
+      "array_dim": 1,
+      "referenced_type": "Transform",
+      "matches_saved": true
+    },
+    {
+      "owner": "BP_SafeHousePlayerController_C",
+      "field": "MiniManActor",
+      "offset": 3792,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Object",
+      "matches_saved": true
+    },
+    {
+      "owner": "BP_SafeHousePlayerController_C",
+      "field": "bOpenAIDebug",
+      "offset": 3800,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "SafeHousePlayerController",
+      "field": "DefaultCharacterClass",
+      "offset": 3472,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Class",
+      "matches_saved": true
+    },
+    {
+      "owner": "SafeHousePlayerController",
+      "field": "DefaultRangeCharacterClass",
+      "offset": 3480,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Class",
+      "matches_saved": true
+    },
+    {
+      "owner": "SafeHousePlayerController",
+      "field": "HUDModeMapping",
+      "offset": 3488,
+      "size": 80,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "SafeHousePlayerController",
+      "field": "bKeepLastHUD",
+      "offset": 3568,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "SafeHousePlayerController",
+      "field": "CurrentHUDMode",
+      "offset": 3569,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "ESafeHouseHUDMode",
+      "matches_saved": true
+    },
+    {
+      "owner": "SafeHousePlayerController",
+      "field": "OnPreload3DSafeHouseDone",
+      "offset": 3572,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "SafeHousePlayerController",
+      "field": "OnSafeHouseHUDAutoReleased",
+      "offset": 3592,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "SafeHousePlayerController",
+      "field": "bHasSpawnCharacter",
+      "offset": 3612,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "SafeHousePlayerController",
+      "field": "SafeHouseCharacter",
+      "offset": 3624,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMCharacter",
+      "matches_saved": true
+    },
+    {
+      "owner": "SafeHousePlayerController",
+      "field": "RangeCharacter",
+      "offset": 3632,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMCharacter",
+      "matches_saved": true
+    },
+    {
+      "owner": "SafeHousePlayerController",
+      "field": "OnLoadOrUnloadCollectionRoomDone",
+      "offset": 3684,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "PlayerStartSpot",
+      "offset": 2856,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "PlayerStart",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "PlayerSettlementComponent",
+      "offset": 2864,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "BasePlayerSettlementComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "PlayerDataCenterComponent",
+      "offset": 2872,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMPlayerDataCenterComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "PlayerReplayComponent",
+      "offset": 2880,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "ActorComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "PlayerGMComponent",
+      "offset": 2888,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "PlayerGMComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "GMWeaponComponent",
+      "offset": 2896,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GMWeaponComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "DFMPlayerActivityComponent",
+      "offset": 2904,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMPlayerActivityComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "DFMInGameUpgradeComponent",
+      "offset": 2912,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMInGameUpgradeComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "HighlightMomentComponent",
+      "offset": 2920,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "HighlightMomentComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "DFMTGPAInfoComponent",
+      "offset": 2928,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMTGPAInfoComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "CacheC2SAceEnemyInfoPackages",
+      "offset": 2944,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "ServerCacheEnemyInfoPackages",
+      "offset": 2976,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "CacheFOV",
+      "offset": 2996,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMPlayerController",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "RuleInvalidCharacterComponentArray",
+      "offset": 3120,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "ReplayClass",
+      "offset": 3136,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Class",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "DFMBattleSpectateModeLogic",
+      "offset": 3144,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMBattleSpectateModeLogicComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "MotionActionReplicator",
+      "offset": 3152,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "MotionActionReplicateComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "OnPossessTickNum",
+      "offset": 3160,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "SOLPlayerQuestComponent",
+      "offset": 3168,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "SOLPlayerQuestComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "HudDataReplicator",
+      "offset": 3176,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMHudDataReplicator",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "AbilityTestActorBPClass",
+      "offset": 3192,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Class",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "PickupDeadBodyUinArr",
+      "offset": 3200,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "bIsSOL",
+      "offset": 3320,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "WaterStreamer",
+      "offset": 3324,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "WaterDataAssetsStreamer",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "UnderWaterPostProcess",
+      "offset": 3340,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "PostProcessComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "bWaitLogin",
+      "offset": 3349,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMPlayerController",
+      "field": "OBInventoryManager",
+      "offset": 3464,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "OBInventoryManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "LastPingUpdateTime",
+      "offset": 2012,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "ProjectileReplicateComponent",
+      "offset": 2024,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPProjectileReplicateComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "ClientDataRecordComponent",
+      "offset": 2032,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "ClientDataRecordComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "GPTPRC_General",
+      "offset": 2040,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPTRPCComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "GPTPRC_Quest",
+      "offset": 2048,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPTRPCQuestComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "GPPlayerInput",
+      "offset": 2056,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerInput",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "ClientGameData",
+      "offset": 2064,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "ClientGameSetting",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "GPPlayerState",
+      "offset": 2072,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerState",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "CheckPlayerLoadLevelCompletedMap",
+      "offset": 2080,
+      "size": 80,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "GPCharacter",
+      "offset": 2160,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPCharacter",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "GPCharacterMovementComponent",
+      "offset": 2168,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPCharacterMovementComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "ImGuiProxy",
+      "offset": 2176,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "ImGuiNetworkProxyComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "GlobalEventProxy",
+      "offset": 2184,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GlobalEventNetworkProxyComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "MarkingChargeCooldownComponent",
+      "offset": 2192,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPMarkingChargeCooldownComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "SprintFiringInterval",
+      "offset": 2200,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerController",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "DeferredSpawnHUDClass",
+      "offset": 2208,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Class",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "AimedActorCache",
+      "offset": 2216,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Actor",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "RTT",
+      "offset": 2228,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerController",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "SRTT",
+      "offset": 2232,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerController",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "CurrentTimeGap",
+      "offset": 2236,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPPlayerController",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "BulletSystem",
+      "offset": 2336,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPWeaponBulletSystem",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "bIsInObserverMode",
+      "offset": 2368,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "GPSoundVisualizationComponent",
+      "offset": 2376,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPSoundVisualizationComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "ReLoginCount",
+      "offset": 2384,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "ReplicatedGamePlayMode",
+      "offset": 2388,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EDFMGamePlayMode",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "MyBaseHUD",
+      "offset": 2392,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "BaseHUD",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "GPInputManager",
+      "offset": 2400,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPInputManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "GPMarkerController",
+      "offset": 2408,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPMarkerControllerComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "PlayerControllerAudioComp",
+      "offset": 2416,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPControllerAudioComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "PlayerInputClass",
+      "offset": 2432,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Class",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "PlayerInputClassHD",
+      "offset": 2440,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Class",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "InputComponentClass",
+      "offset": 2448,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Class",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "bServerEnableProcessPlayerInput",
+      "offset": 2456,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "ClientDisableProcessPlayerInputReasons",
+      "offset": 2464,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "bUseDefaultInputTouch",
+      "offset": 2600,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "bDebugTick",
+      "offset": 2658,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "bShowRecordPanel",
+      "offset": 2660,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "ObserverPawnClass",
+      "offset": 2688,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Class",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "GPObserverPawn",
+      "offset": 2696,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPObserverPawn",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "ObserverLastGPCharacter",
+      "offset": 2704,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPCharacter",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "bOBCameraPanelShow",
+      "offset": 2712,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPPlayerController",
+      "field": "InGameConsoleCrossplayType",
+      "offset": 2732,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPNetworkPlayerController",
+      "field": "DelayCachedViewTarget",
+      "offset": 1744,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Actor",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPNetworkPlayerController",
+      "field": "LocalFocusActor",
+      "offset": 1768,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Actor",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPNetworkPlayerController",
+      "field": "EnableLiveSpectatingFeature",
+      "offset": 1776,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPNetworkPlayerController",
+      "field": "bIsLiveSpectating",
+      "offset": 1779,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPNetworkPlayerController",
+      "field": "bIsSpectatingAI",
+      "offset": 1780,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPNetworkPlayerController",
+      "field": "bBeingSpectatingCount",
+      "offset": 1784,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPNetworkPlayerController",
+      "field": "bIsLiveSpectatingForReset",
+      "offset": 1788,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPNetworkPlayerController",
+      "field": "bServerAILabInDeathWatchFight",
+      "offset": 1789,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPNetworkPlayerController",
+      "field": "CurrentLocalFocusFromServer",
+      "offset": 1912,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Actor",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPNetworkPlayerController",
+      "field": "CurrentLocalFocusPlayerPawn",
+      "offset": 1920,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPCharacterBase",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPNetworkPlayerController",
+      "field": "CurrentSpectatingLocalFocusFromServer",
+      "offset": 1928,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Actor",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPNetworkPlayerController",
+      "field": "CurrentViewTargetCache",
+      "offset": 1960,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Actor",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPNetworkPlayerController",
+      "field": "CurrentReplay",
+      "offset": 1976,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Object",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "Player",
+      "offset": 1000,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Player",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "AcknowledgedPawn",
+      "offset": 1008,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Pawn",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "ControllingDirTrackInst",
+      "offset": 1016,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "InterpTrackInstDirector",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "MyHUD",
+      "offset": 1024,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "HUD",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "PlayerCameraManager",
+      "offset": 1032,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "PlayerCameraManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "PlayerCameraManagerClass",
+      "offset": 1040,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Class",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "bAutoManageActiveCameraTarget",
+      "offset": 1048,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "TargetViewRotation",
+      "offset": 1052,
+      "size": 12,
+      "array_dim": 1,
+      "referenced_type": "Rotator",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "SmoothTargetViewRotationSpeed",
+      "offset": 1076,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerController",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "HiddenActors",
+      "offset": 1088,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "HiddenPrimitiveComponents",
+      "offset": 1104,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "LastSpectatorStateSynchTime",
+      "offset": 1124,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerController",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "LastSpectatorSyncLocation",
+      "offset": 1128,
+      "size": 12,
+      "array_dim": 1,
+      "referenced_type": "Vector",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "LastSpectatorSyncRotation",
+      "offset": 1140,
+      "size": 12,
+      "array_dim": 1,
+      "referenced_type": "Rotator",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "ClientCap",
+      "offset": 1152,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerController",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "CheatManager",
+      "offset": 1160,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "CheatManager",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "CheatClass",
+      "offset": 1168,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Class",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "PlayerInput",
+      "offset": 1176,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "PlayerInput",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "ActiveForceFeedbackEffects",
+      "offset": 1184,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "bPlayerIsWaiting",
+      "offset": 1312,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "NetPlayerIndex",
+      "offset": 1313,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "PendingSwapConnection",
+      "offset": 1376,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "NetConnection",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "NetConnection",
+      "offset": 1384,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "NetConnection",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "InputYawScale",
+      "offset": 1404,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerController",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "InputPitchScale",
+      "offset": 1408,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerController",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "InputRollScale",
+      "offset": 1412,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerController",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "bShowMouseCursor",
+      "offset": 1416,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "bEnableClickEvents",
+      "offset": 1416,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "bEnableTouchEvents",
+      "offset": 1416,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "bEnableMouseOverEvents",
+      "offset": 1416,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "bEnableTouchOverEvents",
+      "offset": 1416,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "bForceFeedbackEnabled",
+      "offset": 1416,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "ForceFeedbackScale",
+      "offset": 1420,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerController",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "ClickEventKeys",
+      "offset": 1424,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "DefaultMouseCursor",
+      "offset": 1440,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EMouseCursor",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "CurrentMouseCursor",
+      "offset": 1441,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EMouseCursor",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "DefaultClickTraceChannel",
+      "offset": 1442,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "ECollisionChannel",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "CurrentClickTraceChannel",
+      "offset": 1443,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "ECollisionChannel",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "HitResultTraceDistance",
+      "offset": 1444,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "PlayerController",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "SeamlessTravelCount",
+      "offset": 1448,
+      "size": 2,
+      "array_dim": 1,
+      "referenced_type": "PlayerController",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "LastCompletedSeamlessTravelCount",
+      "offset": 1450,
+      "size": 2,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "InactiveStateInputComponent",
+      "offset": 1568,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "InputComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "bShouldPerformFullTickWhenPaused",
+      "offset": 1576,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "CurrentTouchInterface",
+      "offset": 1600,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "TouchInterface",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "SpectatorPawn",
+      "offset": 1688,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "SpectatorPawn",
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "bIsLocalPlayerController",
+      "offset": 1700,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "PlayerController",
+      "field": "SpawnLocation",
+      "offset": 1704,
+      "size": 12,
+      "array_dim": 1,
+      "referenced_type": "Vector",
+      "matches_saved": true
+    },
+    {
+      "owner": "Controller",
+      "field": "PlayerState",
+      "offset": 888,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "PlayerState",
+      "matches_saved": true
+    },
+    {
+      "owner": "Controller",
+      "field": "OnInstigatedAnyDamage",
+      "offset": 904,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Controller",
+      "field": "StateName",
+      "offset": 920,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "Controller",
+      "field": "Pawn",
+      "offset": 928,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Pawn",
+      "matches_saved": true
+    },
+    {
+      "owner": "Controller",
+      "field": "CHARACTER",
+      "offset": 944,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "CHARACTER",
+      "matches_saved": true
+    },
+    {
+      "owner": "Controller",
+      "field": "TransformComponent",
+      "offset": 952,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "SceneComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "Controller",
+      "field": "ControlRotation",
+      "offset": 984,
+      "size": 12,
+      "array_dim": 1,
+      "referenced_type": "Rotator",
+      "matches_saved": true
+    },
+    {
+      "owner": "Controller",
+      "field": "bAttachToPawn",
+      "offset": 996,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "BP_GameState_IrisSafeHouse_C",
+      "field": "BP_SOLInteractSystemBase",
+      "offset": 4240,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "BP_SOLInteractSystemBase_C",
+      "matches_saved": true
+    },
+    {
+      "owner": "BP_GameState_IrisSafeHouse_C",
+      "field": "BP_InteractSystemComponent_IrisSafeHouse",
+      "offset": 4248,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "BP_InteractSystemComponent_IrisSafeHouse_C",
+      "matches_saved": true
+    },
+    {
+      "owner": "BP_GameState_IrisSafeHouse_C",
+      "field": "DefaultSceneRoot",
+      "offset": 4256,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "SceneComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "IrisWorldGameState",
+      "field": "TeamLeaderID",
+      "offset": 4024,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "IrisWorldGameState",
+      "field": "m_ResStates",
+      "offset": 4032,
+      "size": 80,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "IrisWorldGameState",
+      "field": "ResPlayerID",
+      "offset": 4112,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "IrisWorldGameState",
+      "field": "RaidMatchPlayerIDs",
+      "offset": 4120,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "IrisWorldGameState",
+      "field": "IsTeammateAllDied",
+      "offset": 4136,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "IrisWorldGameState",
+      "field": "CurGameFlowState",
+      "offset": 4144,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "IrisWorldGameState",
+      "field": "CurGameRuleType",
+      "offset": 4160,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EGameRuleType",
+      "matches_saved": true
+    },
+    {
+      "owner": "IrisWorldGameState",
+      "field": "ClientIrisWorldTeamAllDiedStatusChangedEvent",
+      "offset": 4168,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "IrisWorldGameState",
+      "field": "TimeLineEventComponent",
+      "offset": 4184,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "SOLTimeLineComponnet",
+      "matches_saved": true
+    },
+    {
+      "owner": "IrisWorldGameState",
+      "field": "IrisRaidDataStatisticsComponent",
+      "offset": 4192,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "IrisRaidDataStatisticsComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "IrisWorldGameState",
+      "field": "ContractManagerComponent",
+      "offset": 4200,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMContractManagerComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "IrisWorldGameState",
+      "field": "PerfGroupName",
+      "offset": 4208,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EGPPrefGroupName",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "MatchStartTime",
+      "offset": 1432,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMGameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "MaxMatchDuration",
+      "offset": 1456,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMGameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "ScavConnectJumpTime",
+      "offset": 1460,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMGameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "MatchInfo",
+      "offset": 1464,
+      "size": 296,
+      "array_dim": 1,
+      "referenced_type": "MatchInfo",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "DsBeginMatchReqReceived",
+      "offset": 1760,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "DFMGamePlayerMode",
+      "offset": 1761,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EDFMGamePlayMode",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "DFMGamePlayerSubMode",
+      "offset": 1762,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EDFMGamePlaySubMode",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "DifficultLevel",
+      "offset": 1763,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EGameDifficultLevel",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "bServerStartRecording",
+      "offset": 1764,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "MapConfig",
+      "offset": 1768,
+      "size": 144,
+      "array_dim": 1,
+      "referenced_type": "MapConfig",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "FirstLoadTime",
+      "offset": 2084,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMGameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "KillStreakTime",
+      "offset": 2088,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMGameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "AntiCheatDetectionBroadcastMaxTimes",
+      "offset": 2092,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMGameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "InteractExecutorUseScene",
+      "offset": 2096,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EDataTableUseScene",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "DSRoomId",
+      "offset": 2104,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMGameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "SettlementComponent",
+      "offset": 2112,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMSettlementComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "InteractSystemComponent",
+      "offset": 2120,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "InteractSystem",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "SOLInteractSystemBaseComp",
+      "offset": 2128,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "SOLInteractSystemBase",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "MapInfoSystemComponent",
+      "offset": 2136,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "MapInfoSystem",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "WeaponDataAnalysisComponent",
+      "offset": 2144,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMWeaponDataAnalysisComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "MaxTLogPkgPerFrame",
+      "offset": 2152,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMGameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "MaxSecTLogPkgPerFrame",
+      "offset": 2156,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMGameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "MaxTLogPkgSize",
+      "offset": 2160,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMGameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "MinWaittingTLogNumThreshold",
+      "offset": 2164,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMGameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "MaxTLogWaitFrameCount",
+      "offset": 2168,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMGameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "DefaultTLogWaitSendNum",
+      "offset": 2172,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMGameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "DefaultTLogTotalSendNum",
+      "offset": 2176,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMHealthDataComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "DefaultClientTLogWaitSendNum",
+      "offset": 2180,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMGameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "DefaultClientTLogTotalSendNum",
+      "offset": 2184,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "GemSettings",
+      "offset": 2192,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "SpawnErrorList",
+      "offset": 2208,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "SpawnErrorMap",
+      "offset": 2224,
+      "size": 80,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "bOpenSpawnErrorSync",
+      "offset": 2304,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "WeaponMysticalSkinPlayerIdMapStruct",
+      "offset": 2312,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "WeaponMysticalSkinPlayerIdMap",
+      "offset": 2328,
+      "size": 80,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "bVehicleAutoDestroy",
+      "offset": 2436,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "VehicleAutoDestroyTime",
+      "offset": 2440,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "bVehicleCanGetOff",
+      "offset": 2444,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "bVehicleCanAccommodateOtherMembers",
+      "offset": 2445,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "bVehicleCanSwap",
+      "offset": 2446,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "bVehicleGetOffTip",
+      "offset": 2447,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "bDisableDeploy",
+      "offset": 2448,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "bDisableDeployHome",
+      "offset": 2449,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "IgnoreLowHealthEffectModes",
+      "offset": 2456,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "GSAbilityComponent",
+      "offset": 2480,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPAbilityGameStateComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "DeformableGameStateComponent",
+      "offset": 2488,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPDeformableGameStateComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "FreezeZoneManager",
+      "offset": 2496,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPFreezeZoneManagerComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "AbilityLockerComponent",
+      "offset": 2504,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMAbilityLockerComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "BroadcastComponent",
+      "offset": 2512,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMBroadcastComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "GameDataCenterComponent",
+      "offset": 2520,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMGameDataCenterComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "ScoreStaticsComponent",
+      "offset": 2528,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMScoreStatisticsComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "AILabCharacterDebugInfoBunch",
+      "offset": 2840,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": "AILabCharacterDebugInfoBunch",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "AILabIconViewCache",
+      "offset": 2856,
+      "size": 80,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "AILabCharacters",
+      "offset": 2936,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "bEnableAILabDebug",
+      "offset": 2952,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "DFMGameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "bEnableAIDebug",
+      "offset": 2956,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "LocationIconViewCache",
+      "offset": 2968,
+      "size": 80,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "AllDebugLocationInfoArray",
+      "offset": 3048,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "DRLGroupIDs",
+      "offset": 3064,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "SmokeVisibleDistanceCurve",
+      "offset": 3096,
+      "size": 160,
+      "array_dim": 1,
+      "referenced_type": "RuntimeFloatCurve",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "IgnoreMoveCollisionCharacterList",
+      "offset": 3344,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "OBStatInfoComponent",
+      "offset": 3360,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DFMOBStatInfoComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "bIsHumanMachineMatch",
+      "offset": 3368,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "OfflineItemSpaceMap",
+      "offset": 3376,
+      "size": 80,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "UseFastRedeploySkillTime",
+      "offset": 3456,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "FastRedeployStatus",
+      "offset": 3472,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "UseAttackReformSkillTime",
+      "offset": 3480,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "UpdateGemLogRate",
+      "offset": 3496,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "NetPlayerMicChannels",
+      "offset": 3504,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "NetPlayerSpeakerChannels",
+      "offset": 3520,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "PlayerMicChannels",
+      "offset": 3536,
+      "size": 80,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "PlayerSpeakerChannels",
+      "offset": 3616,
+      "size": 80,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "GSBattleFieldMapFutureTags",
+      "offset": 3864,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "FinalOffensiveStage",
+      "offset": 3880,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "MapPlayerUin2Index",
+      "offset": 3888,
+      "size": 80,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "PlayerAnmNameIndexNum",
+      "offset": 3968,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "DFMGameState",
+      "field": "bIsExtremeIsolateMatch",
+      "offset": 4016,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "bStartMathWithAllPlayerReady",
+      "offset": 1000,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "DamageMode",
+      "offset": 1001,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "DamageFeature",
+      "offset": 1002,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "WeaponAmmoLogic",
+      "offset": 1003,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": "EWeaponAmmoLogicType",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "bEnableDamageValidate",
+      "offset": 1004,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "AllWaterVolumes",
+      "offset": 1008,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "GameLastTime",
+      "offset": 1024,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GPGameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "OnPlayerRebornEvent",
+      "offset": 1032,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "FadeStateInfo",
+      "offset": 1048,
+      "size": 36,
+      "array_dim": 1,
+      "referenced_type": "FadeInfo",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "IsInFade",
+      "offset": 1084,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "ServerFadeOutEvent",
+      "offset": 1088,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "HasFinished3CGuide",
+      "offset": 1136,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "bIsLowPerformanceMode",
+      "offset": 1152,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "KillInfoArray",
+      "offset": 1160,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "MaxBufferRange",
+      "offset": 1176,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "ItemInfoBaseProvider",
+      "offset": 1184,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "ItemInfoBaseProvider",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "ReconnectSys",
+      "offset": 1192,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "ReconnectionSystemBase",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "AllPlayerLoadLevelCompletedInfoArray",
+      "offset": 1200,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "GPMarkerSystem",
+      "offset": 1216,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPMarkerEffectComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "GPAudioControllerComponent",
+      "offset": 1224,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPAudioControllerComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "ProjectileGameComponent",
+      "offset": 1232,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPProjectileGameComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "AudioListenerManagerComponent",
+      "offset": 1240,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GPAudioListenerManagerComponent",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "DSTickInfo",
+      "offset": 1248,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "DSTickInfo",
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "bServerEnableKnockDownInfo",
+      "offset": 1256,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GPGameState",
+      "field": "KnockDownInfoArrayBuffer",
+      "offset": 1264,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "BaseGameState",
+      "field": "GameStartTime",
+      "offset": 976,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "GameState",
+      "field": "MatchState",
+      "offset": 944,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "GameState",
+      "field": "PreviousMatchState",
+      "offset": 952,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GameState",
+      "matches_saved": true
+    },
+    {
+      "owner": "GameState",
+      "field": "ElapsedTime",
+      "offset": 960,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GameStateBase",
+      "matches_saved": true
+    },
+    {
+      "owner": "GameStateBase",
+      "field": "GameModeClass",
+      "offset": 880,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Class",
+      "matches_saved": true
+    },
+    {
+      "owner": "GameStateBase",
+      "field": "AuthorityGameMode",
+      "offset": 888,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "GameModeBase",
+      "matches_saved": true
+    },
+    {
+      "owner": "GameStateBase",
+      "field": "SpectatorClass",
+      "offset": 896,
+      "size": 8,
+      "array_dim": 1,
+      "referenced_type": "Class",
+      "matches_saved": true
+    },
+    {
+      "owner": "GameStateBase",
+      "field": "PlayerArray",
+      "offset": 904,
+      "size": 16,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GameStateBase",
+      "field": "bReplicatedHasBegunPlay",
+      "offset": 920,
+      "size": 1,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    },
+    {
+      "owner": "GameStateBase",
+      "field": "ReplicatedWorldTimeSeconds",
+      "offset": 924,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GameStateBase",
+      "matches_saved": true
+    },
+    {
+      "owner": "GameStateBase",
+      "field": "ServerWorldTimeSecondsDelta",
+      "offset": 928,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": "GameStateBase",
+      "matches_saved": true
+    },
+    {
+      "owner": "GameStateBase",
+      "field": "ServerWorldTimeSecondsUpdateFrequency",
+      "offset": 932,
+      "size": 4,
+      "array_dim": 1,
+      "referenced_type": null,
+      "matches_saved": true
+    }
+  ],
+  "errors": [
+    {
+      "type_pointer": "0x6f8637c230",
+      "error": "ambiguous reflected name"
+    },
+    {
+      "type_pointer": "0x6f8637c3b0",
+      "error": "ambiguous reflected name"
+    }
+  ],
+  "coordinates_verified": false
+}

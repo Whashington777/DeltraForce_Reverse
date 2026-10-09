@@ -1,0 +1,2715 @@
+[
+  {
+    "class": "BP_BattleFieldPlayerState_C",
+    "pointer": "0x776d80eb00",
+    "fields": [
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7789c88580",
+        "name": "DefaultSceneRoot",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x2178",
+        "raw": "886facf57800000000eb806d7700000001e83af778000000000000000000000058b73af77800000020cd12000000000001002000010000000100000008000000040208401400080000000000782100000001000000000000"
+      }
+    ]
+  },
+  {
+    "class": "BattleFieldPlayerState",
+    "pointer": "0x787e113d00",
+    "fields": [
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b370380",
+        "name": "ArmedForceWeaponLists",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1c38",
+        "raw": "00f9abf578000000003d117e780000000100000000000000c004373b78000000b8ac3af7780000003bad35000000000045000000010000000100000010000000200200000100100072000000381c000000000000cd6b1b00"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b3704c0",
+        "name": "HeroItemPosInfoArr",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1c48",
+        "raw": "00f9abf578000000003d117e7800000001000000000000000006373b78000000b8ac3af77800000031ad35000000000045000000010000000100000010000000200200000000100073000000481c00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b370600",
+        "name": "TDMArmArray",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1c58",
+        "raw": "00f9abf578000000003d117e780000000100000000000000a006373b78000000b8ac3af7780000002aad35000000000045000000010000000100000010000000200200000100100074000000581c0000000000009c6c1b00"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b3706a0",
+        "name": "WeaponStore",
+        "array_dim": 1,
+        "element_size": 160,
+        "offset_candidate": "0x1c68",
+        "raw": "b081acf578000000003d117e7800000001000000000000004007373b7800000090c13af77800000023ad350000000000450000000100000001000000a0000000000000000000100000000000681c00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b370740",
+        "name": "WeaponPresetStore",
+        "array_dim": 1,
+        "element_size": 80,
+        "offset_candidate": "0x1d08",
+        "raw": "b081acf578000000003d117e780000000100000000000000e007373b7800000090c13af77800000019ad35000000000045000000010000000100000050000000000000000000100000000000081d00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b3707e0",
+        "name": "SoldierPropsStore",
+        "array_dim": 1,
+        "element_size": 160,
+        "offset_candidate": "0x1d58",
+        "raw": "b081acf578000000003d117e7800000001000000000000008008373b7800000090c13af7780000000fad350000000000450000000100000001000000a0000000000000000000100000000000581d00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b370880",
+        "name": "WeaponStoreItemIDs",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1df8",
+        "raw": "00f9abf578000000003d117e7800000001000000000000002009373b78000000b8ac3af77800000005ad35000000000045000000010000000100000010000000200200000000100075000000f81d00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b370920",
+        "name": "DisableWeaponItemIDs",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1e08",
+        "raw": "00f9abf578000000003d117e780000000100000000000000c009373b78000000b8ac3af778000000faac35000000000045000000010000000100000010000000200200000000100076000000081e00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b3709c0",
+        "name": "AllowWeaponItemIDs",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1e18",
+        "raw": "00f9abf578000000003d117e780000000100000000000000600a373b78000000b8ac3af778000000f0ac35000000000045000000010000000100000010000000200200000000100077000000181e00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b370a60",
+        "name": "bIsPresetDisabled",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1e28",
+        "raw": "406eacf578000000003d117e780000000100000000000000000b373b7800000008b13af778000000e6ac35000000000045000000010000000100000001000000200200401000180078000000281e00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b370b00",
+        "name": "CurrentArmedPreset",
+        "array_dim": 1,
+        "element_size": 24,
+        "offset_candidate": "0x1e30",
+        "raw": "b081acf578000000003d117e7800000001000000000000004090603b7800000090c13af778000000dcac35000000000045000000010000000100000018000000200000001100100079000000301e000000000000916c1b00"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b609040",
+        "name": "DirtyWeaponItemIDs",
+        "array_dim": 1,
+        "element_size": 80,
+        "offset_candidate": "0x1e48",
+        "raw": "207facf578000000003d117e780000000100000000000000a00b373b7800000010b33af778000000c6ac35000000000045000000010000000100000050000000000200000000100000000000481e00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b370ba0",
+        "name": "NeedShowRedDotNewUnlockWeaponItemIDs",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1ee8",
+        "raw": "00f9abf578000000003d117e780000000100000000000000400c373b78000000b8ac3af778000000b3ac3500000000004500000001000000010000001000000020020000010010007a000000e81e0000000000003a6c1b00"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b370c40",
+        "name": "bSimulateDisableWeaponItem",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1ef8",
+        "raw": "406eacf578000000003d117e780000000100000000000000e00c373b7800000008b13af778000000a5ac35000000000045000000010000000100000001000000050200401000180000000000f81e00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b370ce0",
+        "name": "bSimulateAllowWeaponItem",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1ef9",
+        "raw": "406eacf578000000003d117e780000000100000000000000800d373b7800000008b13af77800000098ac35000000000045000000010000000100000001000000050200401000180000000000f91e00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b370d80",
+        "name": "bSimulateLockedWeaponItem",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1efa",
+        "raw": "406eacf578000000003d117e780000000100000000000000200e373b7800000008b13af7780000008aac35000000000045000000010000000100000001000000050200401000180000000000fa1e00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b370e20",
+        "name": "SimulateOnlyDefaultPresetWeaponItemIDs",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1f00",
+        "raw": "00f9abf578000000003d117e780000000100000000000000c00e373b78000000b8ac3af77800000076ac35000000000045000000010000000100000010000000010200000000100000000000001f00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b370ec0",
+        "name": "SimulateAllowWeaponItemIDs",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1f10",
+        "raw": "00f9abf578000000003d117e780000000100000000000000600f373b78000000b8ac3af77800000068ac35000000000045000000010000000100000010000000010200000000100000000000101f00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b370f60",
+        "name": "SimulateDisableWeaponItemIDs",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1f20",
+        "raw": "00f9abf578000000003d117e7800000001000000000000000010373b78000000b8ac3af77800000059ac35000000000045000000010000000100000010000000010200000000100000000000201f00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b371000",
+        "name": "SimulateLockedWeaponItemIDs",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1f30",
+        "raw": "00f9abf578000000003d117e780000000100000000000000a010373b78000000b8ac3af7780000004aac35000000000045000000010000000100000010000000010200000000100000000000301f00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b3710a0",
+        "name": "SupportAbilityInfo",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x1f40",
+        "raw": "b081acf578000000003d117e7800000001000000000000000084363b7800000090c13af77800000038730e00000000004500000001000000010000000800000020000000110010007b000000401f000000000000826c1b00"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b368400",
+        "name": "BattleLevel",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x1f48",
+        "raw": "9081eef278000000003d117e7800000001000000000000004011373b7800000060b53af7780000007ff92400000000004500000001000000010000000400000020020040110018007c000000481f000001000000dc6b1b00"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b371140",
+        "name": "SimulateNotModificationVehicleItemIDs",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1f50",
+        "raw": "00f9abf578000000003d117e780000000100000000000000e011373b78000000b8ac3af77800000036ac35000000000045000000010000000100000010000000010200000000100000000000501f00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b3711e0",
+        "name": "AllowModificationVehicleItemIDs",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1f60",
+        "raw": "00f9abf578000000003d117e7800000001000000000000002013373b78000000b8ac3af77800000025ac3500000000004500000001000000010000001000000020020000000010007d000000601f00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b371320",
+        "name": "VehicleModificationRules",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1f70",
+        "raw": "00f9abf578000000003d117e780000000100000000000000c013373b78000000b8ac3af77800000018ac35000000000045000000010000000100000010000000000200000000100000000000701f00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b3713c0",
+        "name": "UnlockedVehiclePartIDs",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1f80",
+        "raw": "00f9abf578000000003d117e7800000001000000000000006014373b78000000b8ac3af7780000000cac35000000000045000000010000000100000010000000000200000000100000000000801f00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b371460",
+        "name": "DirtyVehicleItemIDs",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1f90",
+        "raw": "00f9abf578000000003d117e780000000100000000000000e0f7353b78000000b8ac3af77800000001ac35000000000045000000010000000100000010000000000200000000100000000000901f00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b35f7e0",
+        "name": "NeedShowRedDotNewUnlockVehiclePartItemIDs",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1fa0",
+        "raw": "00f9abf578000000003d117e7800000001000000000000000091603b78000000b8ac3af778000000ebab3500000000004500000001000000010000001000000020020000010010007e000000a01f000000000000216c1b00"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b609100",
+        "name": "DirtyWeaponItemIDsForKillNumChangeMap",
+        "array_dim": 1,
+        "element_size": 80,
+        "offset_candidate": "0x1fb0",
+        "raw": "207facf578000000003d117e78000000010000000000000080f8353b7800000010b33af778000000c1ab35000000000045000000010000000100000050000000000200000000100000000000b01f00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b35f880",
+        "name": "InitedHeroWeaponInfoHeroIds",
+        "array_dim": 1,
+        "element_size": 80,
+        "offset_candidate": "0x2000",
+        "raw": "6880acf578000000003d117e7800000001000000000000008067363b7800000020c03af778000000b2ab35000000000045000000010000000100000050000000000200000000100000000000002000000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b366780",
+        "name": "CombatSwitchVehiclePartsDefaultPrice",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x2050",
+        "raw": "9081eef278000000003d117e78000000010000000000000020f9353b7800000060b53af7780000009fab35000000000045000000010000000100000004000000010200401000180000000000502000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b35f920",
+        "name": "SupportAbilityScores",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x2058",
+        "raw": "00f9abf578000000003d117e7800000001000000000000008068363b78000000b8ac3af77800000094ab35000000000045000000010000000100000010000000010200000000100000000000582000000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b366880",
+        "name": "RedEnvelopeCount",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x2068",
+        "raw": "9081eef278000000003d117e78000000010000000000000060fa353b7800000060b53af7780000008bab3500000000004500000001000000010000000400000020020040110048007f0000006820000001000000686c1b00"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b35fa60",
+        "name": "LootAppearsBuffCountArray",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x2070",
+        "raw": "00f9abf578000000003d117e78000000010000000000000000fb353b78000000b8ac3af7780000007dab350000000000450000000100000001000000100000002002000001001000800000007020000000000000106c1b00"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b35fb00",
+        "name": "CreateWeaponFromPresetIDS",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x2080",
+        "raw": "00f9abf578000000003d117e78000000010000000000000040fc353b78000000b8ac3af7780000006fab35000000000045000000010000000100000010000000200200000000100081000000802000000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b35fc40",
+        "name": "LocalLootAppearsBuffCountArray",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x2090",
+        "raw": "00f9abf578000000003d117e780000000100000000000000e0fc353b78000000b8ac3af7780000005fab35000000000045000000010000000100000010000000000200000000100000000000902000000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b35fce0",
+        "name": "bIsHVT",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x20a0",
+        "raw": "406eacf578000000003d117e78000000010000000000000080fd353b7800000008b13af778000000b62728000000000045000000010000000100000001000000200200401100180082000000a020000001000000e66b1b00"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b35fd80",
+        "name": "bIsVIP",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x20a1",
+        "raw": "406eacf578000000003d117e780000000100000000000000c091603b7800000008b13af778000000cc2728000000000045000000010000000100000001000000200200401100180083000000a120000001000000096c1b00"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b6091c0",
+        "name": "LootWeaponQualityMap",
+        "array_dim": 1,
+        "element_size": 80,
+        "offset_candidate": "0x20a8",
+        "raw": "207facf578000000003d117e7800000001000000000000008092603b7800000010b33af77800000047ab35000000000045000000010000000100000050000000000200000000100000000000a82000000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b609280",
+        "name": "LootSoldierPropsQualityMap",
+        "array_dim": 1,
+        "element_size": 80,
+        "offset_candidate": "0x20f8",
+        "raw": "207facf578000000003d117e780000000100000000000000806a363b7800000010b33af77800000029ab35000000000045000000010000000100000050000000000200000000100000000000f82000000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b366a80",
+        "name": "OverloadPoint",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x2148",
+        "raw": "9081eef278000000003d117e78000000010000000000000020e5353b7800000060b53af7780000003f5a2e00000000004500000001000000010000000400000020020040110018008400000048210000010000005d6c1b00"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b35e520",
+        "name": "bIsOverloadState",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x214c",
+        "raw": "406eacf578000000003d117e78000000010000000000000060e6353b7800000008b13af77800000020ab350000000000450000000100000001000000010000002002004011001800850000004c21000001000000ed6b1b00"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b35e660",
+        "name": "OverloadBuffLevel",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x214d",
+        "raw": "a8b8abf578000000003d117e780000000100000000000000a0e7353b7800000068e839f77800000016ab350000000000450000000100000001000000010000002002004011001800860000004d21000000000000506c1b00"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b35e7a0",
+        "name": "AirdropTicketInfo",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x2158",
+        "raw": "00f9abf578000000003d117e78000000010000000000000040e8353b78000000b8ac3af7780000000cab350000000000450000000100000001000000100000002002000001001000870000005821000000000000746c1b00"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b35e840",
+        "name": "bInAnchor",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x2168",
+        "raw": "406eacf578000000003d117e780000000100000000000000e0e8353b7800000008b13af77800000006ab35000000000045000000010000000100000001000000000200401000180000000000682100000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b35e8e0",
+        "name": "IsPlayerOccupyingAnchor",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x2169",
+        "raw": "406eacf578000000003d117e780000000100000000000000006b363b7800000008b13af778000000f9aa350000000000450000000100000001000000010000002002004011001800880000006921000001000000f96b1b00"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b366b00",
+        "name": "KillNum",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x216c",
+        "raw": "1869acf578000000003d117e78000000010000000000000080e9353b7800000038b63af7780000007edb2a0000000000450000000100000001000000040000000002004010001800000000006c2100000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783b35e980",
+        "name": "DisplayAchievement",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x2174",
+        "raw": "3862acf578000000003d117e780000000100000000000000000000000000000050b13af778000000b4f824000000000045000000010000000100000001000000200200401000180089000000742100000100000000000000"
+      }
+    ]
+  },
+  {
+    "class": "BattleFieldPlayerStateBase",
+    "pointer": "0x787e65ad80",
+    "fields": [
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783d254300",
+        "name": "AirDropCount",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x1c2c",
+        "raw": "9081eef27800000080ad657e7800000001000000000000008043253d7800000060b53af7780000007698330000000000450000000100000001000000040000002002004010001800700000002c1c00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783d254380",
+        "name": "MaxHealthInThisLife",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x1c30",
+        "raw": "48faabf57800000080ad657e7800000001000000000000000000000000000000c8b63af7780000006b9833000000000045000000010000000100000004000000200200401000180071000000301c00000100000000000000"
+      }
+    ]
+  },
+  {
+    "class": "DFMPlayerState",
+    "pointer": "0x787e65ab00",
+    "fields": [
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f38a2e0",
+        "name": "TeamStart",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x9c8",
+        "raw": "886facf57800000000ab657e78000000010000000000000020a4383f7800000058b73af778000000fca31a000000000045000000010000000100000008000000210202401000180042000000c80900000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f38a420",
+        "name": "RoleType",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x9d0",
+        "raw": "a8b8abf57800000000ab657e78000000010000000000000000e02d3f7800000068e839f778000000345d28000000000045000000010000000100000001000000200200401000180043000000d00900000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2de000",
+        "name": "Level",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x9d4",
+        "raw": "9081eef27800000000ab657e78000000010000000000000080e02d3f7800000060b53af778000000b9751d000000000045000000010000000100000004000000200200401000180044000000d40900000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2de080",
+        "name": "PicUrl",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x9d8",
+        "raw": "d87dacf57800000000ab657e78000000010000000000000000e12d3f7800000048c13af778000000305d28000000000045000000010000000100000010000000200200000000180045000000d80900000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2de100",
+        "name": "Exp",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x9e8",
+        "raw": "9081eef27800000000ab657e78000000010000000000000080e12d3f7800000060b53af77800000014531d000000000045000000010000000100000004000000200200401000180046000000e80900000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2de180",
+        "name": "HeroId",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x9f0",
+        "raw": "4883eef27800000000ab657e78000000010000000000000000e22d3f78000000a8b53af778000000053524000000000045000000010000000100000008000000340200401100180047000000f009000001000000174b1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2de200",
+        "name": "ExpertId",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x9f8",
+        "raw": "4883eef27800000000ab657e78000000010000000000000080e22d3f78000000a8b53af7780000008a8121000000000045000000010000000100000008000000340200401000180048000000f80900000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2de280",
+        "name": "CurrSameTeamAvatarId",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0xa00",
+        "raw": "d06aacf57800000000ab657e78000000010000000000000000e32d3f7800000080b63af778000000255d28000000000045000000010000000100000008000000200200401100180049000000000a000001000000ad4a1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2de300",
+        "name": "CurrDiffTeamAvatarId",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0xa08",
+        "raw": "d06aacf57800000000ab657e780000000100000000000000207c383f7800000080b63af7780000001a5d2800000000004500000001000000010000000800000020020040110018004a000000080a000001000000ad4a1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f387c20",
+        "name": "AssassinateSkinIDInfos",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0xa10",
+        "raw": "00f9abf57800000000ab657e780000000100000000000000407f383f78000000b8ac3af7780000000e5d2800000000004500000001000000010000001000000034020000010010004b000000100a000000000000954a1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f387f40",
+        "name": "UnlockedVehicles",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0xa20",
+        "raw": "00f9abf57800000000ab657e780000000100000000000000e07f383f78000000b8ac3af778000000d45c28000000000045000000010000000100000010000000000200000000100000000000200a00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f387fe0",
+        "name": "IngameUnlockedVehiclePartIDs",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0xa30",
+        "raw": "00f9abf57800000000ab657e7800000001000000000000008080383f78000000b8ac3af778000000c55c28000000000045000000010000000100000010000000000200000000100000000000300a00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f388080",
+        "name": "PlayerMatchStatus",
+        "array_dim": 1,
+        "element_size": 144,
+        "offset_candidate": "0xa40",
+        "raw": "b081acf57800000000ab657e7800000001000000000000002081383f7800000090c13af778000000028b0a000000000045000000010000000100000090000000000000000000100000000000400a00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f388120",
+        "name": "PlayerSneakingStatus",
+        "array_dim": 1,
+        "element_size": 12,
+        "offset_candidate": "0xad0",
+        "raw": "b081acf57800000000ab657e78000000010000000000000080c72d3f7800000090c13af778000000e38a0a00000000004500000001000000010000000c000000000000001000100000000000d00a00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dc780",
+        "name": "MatchTactics",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xadc",
+        "raw": "1869acf57800000000ab657e78000000010000000000000000c82d3f7800000038b63af778000000be5c28000000000045000000010000000100000004000000000200401000180000000000dc0a00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dc800",
+        "name": "SkillScore",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0xae0",
+        "raw": "4883eef27800000000ab657e78000000010000000000000080c82d3f78000000a8b53af778000000b85c28000000000045000000010000000100000008000000000200401000180000000000e00a00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dc880",
+        "name": "GlickoRating",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xae8",
+        "raw": "48faabf57800000000ab657e78000000010000000000000000c92d3f78000000c8b63af778000000b15c28000000000045000000010000000100000004000000000200401000180000000000e80a00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dc900",
+        "name": "GlickoRatingDev",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xaec",
+        "raw": "48faabf57800000000ab657e78000000010000000000000080c92d3f78000000c8b63af778000000a85c28000000000045000000010000000100000004000000000200401000180000000000ec0a00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dc980",
+        "name": "OldGlickoRating",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xaf0",
+        "raw": "48faabf57800000000ab657e78000000010000000000000000ca2d3f78000000c8b63af7780000009f5c28000000000045000000010000000100000004000000000200401000180000000000f00a00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dca00",
+        "name": "OldGlickoRatingDev",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xaf4",
+        "raw": "48faabf57800000000ab657e78000000010000000000000080ca2d3f78000000c8b63af778000000955c28000000000045000000010000000100000004000000000200401000180000000000f40a00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dca80",
+        "name": "RankMatchScore",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0xaf8",
+        "raw": "4883eef27800000000ab657e780000000100000000000000c081383f78000000a8b53af7780000008d5c2800000000004500000001000000010000000800000020020040100018004c000000f80a00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3881c0",
+        "name": "IsRankedMatch",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0xb00",
+        "raw": "406eacf57800000000ab657e78000000010000000000000000cb2d3f7800000008b13af778000000855c2800000000004500000001000000010000000100000020020040100018004d000000000b00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dcb00",
+        "name": "PeakRankScore",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0xb08",
+        "raw": "4883eef27800000000ab657e78000000010000000000000080cb2d3f78000000a8b53af7780000007d5c28000000000045000000010000000100000008000000000200401000180000000000080b00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dcb80",
+        "name": "RandSeed",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xb10",
+        "raw": "9081eef27800000000ab657e78000000010000000000000000cc2d3f7800000060b53af778000000785c28000000000045000000010000000100000004000000000200401000180000000000100b00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dcc00",
+        "name": "HiddenScore",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0xb18",
+        "raw": "d06aacf57800000000ab657e78000000010000000000000080cc2d3f7800000080b63af778000000715c28000000000045000000010000000100000008000000000200401000180000000000180b00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dcc80",
+        "name": "BeginMatchTime",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xb20",
+        "raw": "48faabf57800000000ab657e7800000001000000000000006082383f78000000c8b63af778000000695c28000000000045000000010000000100000004000000000200401000180000000000200b00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f388260",
+        "name": "MapInfoComp",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0xb28",
+        "raw": "886facf57800000000ab657e7800000001000000000000004084383f7800000058b73af778000000625c280000000000450000000100000001000000080000001d020a401000180000000000280b00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f388440",
+        "name": "TrialsPlayerServerInfo",
+        "array_dim": 1,
+        "element_size": 72,
+        "offset_candidate": "0xb30",
+        "raw": "b081acf57800000000ab657e78000000010000000000000080d42d3f7800000090c13af77800000074e00c00000000004500000001000000010000004800000020000000100010004e000000300b00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dd480",
+        "name": "PlayerTrialsKillNum",
+        "array_dim": 1,
+        "element_size": 2,
+        "offset_candidate": "0xb78",
+        "raw": "6067acf57800000000ab657e78000000010000000000000000d52d3f78000000f0b53af778000000d35b2800000000004500000001000000010000000200000020020040100018004f000000780b00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dd500",
+        "name": "PlayerTrialsAssistNum",
+        "array_dim": 1,
+        "element_size": 2,
+        "offset_candidate": "0xb7a",
+        "raw": "6067acf57800000000ab657e780000000100000000000000e084383f78000000f0b53af778000000c75b280000000000450000000100000001000000020000002002004010001800500000007a0b00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3884e0",
+        "name": "bPlayerTrialsGetMandelBrickSuc",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0xb7c",
+        "raw": "406eacf57800000000ab657e7800000001000000000000008085383f7800000008b13af778000000b75b280000000000450000000100000001000000010000002002004010001800510000007c0b00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f388580",
+        "name": "bPlayerTrialsCopyMandelBrickSuc",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0xb7d",
+        "raw": "406eacf57800000000ab657e7800000001000000000000002086383f7800000008b13af778000000a65b280000000000450000000100000001000000010000002002004010001800520000007d0b00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f388620",
+        "name": "bPlayerTrialsPutMandelBrickSuc",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0xb7e",
+        "raw": "406eacf57800000000ab657e78000000010000000000000080d52d3f7800000008b13af778000000965b280000000000450000000100000001000000010000002002004010001800530000007e0b00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dd580",
+        "name": "PlayerTrialsSnatchMandelBrickTime",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xb80",
+        "raw": "9081eef27800000000ab657e780000000100000000000000c086383f7800000060b53af778000000845b28000000000045000000010000000100000004000000200200401000180054000000800b00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3886c0",
+        "name": "bPlayerTrialsFailedEscape",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0xb84",
+        "raw": "406eacf57800000000ab657e7800000001000000000000006087383f7800000008b13af778000000765b28000000000045000000010000000100000001000000200200401000180055000000840b00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f388760",
+        "name": "PlayerMatchInfo",
+        "array_dim": 1,
+        "element_size": 32,
+        "offset_candidate": "0xba0",
+        "raw": "b081acf57800000000ab657e780000000100000000000000408e383f7800000090c13af778000000618b0a000000000045000000010000000100000020000000210002001108200056000000a00b000000000000314b1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f388e40",
+        "name": "PlayerFrontEndMatchInfo",
+        "array_dim": 1,
+        "element_size": 120,
+        "offset_candidate": "0xbc0",
+        "raw": "b081acf57800000000ab657e780000000100000000000000006a383f7800000090c13af778000000238b0a000000000045000000010000000100000078000000010002000008200000000000c00b00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f386a00",
+        "name": "PlayerCombatStatics",
+        "array_dim": 1,
+        "element_size": 488,
+        "offset_candidate": "0xc40",
+        "raw": "b081acf57800000000ab657e780000000100000000000000e06b383f7800000090c13af778000000a9890a0000000000450000000100000001000000e8010000000000000000100000000000400c00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f386be0",
+        "name": "POIRecords",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0xe28",
+        "raw": "00f9abf57800000000ab657e78000000010000000000000000c62d3f78000000b8ac3af778000000375a28000000000045000000010000000100000010000000000200000000100000000000280e00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dc600",
+        "name": "LivingSeconds",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xe38",
+        "raw": "48faabf57800000000ab657e78000000010000000000000080a52d3f78000000c8b63af7780000002f5a28000000000045000000010000000100000004000000000200401000180000000000380e00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2da580",
+        "name": "LivingTimeStamp",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xe3c",
+        "raw": "48faabf57800000000ab657e78000000010000000000000000a62d3f78000000c8b63af778000000265a280000000000450000000100000001000000040000000002004010001800000000003c0e00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2da600",
+        "name": "ElectionItemIndex",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xe40",
+        "raw": "9081eef27800000000ab657e78000000010000000000000080a62d3f7800000060b53af778000000c95728000000000045000000010000000100000004000000210202401100180057000000400e000001000000e04a1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2da680",
+        "name": "ElectionType",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xe44",
+        "raw": "9081eef27800000000ab657e78000000010000000000000000a72d3f7800000060b53af7780000001f5a28000000000045000000010000000100000004000000210202401100180058000000440e000001000000ed4a1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2da700",
+        "name": "TeamCompleteOutGame",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xe48",
+        "raw": "9081eef27800000000ab657e78000000010000000000000080a72d3f7800000060b53af778000000145a28000000000045000000010000000100000004000000210202401000180059000000480e00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2da780",
+        "name": "CurrentWorkRank",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xe4c",
+        "raw": "9081eef27800000000ab657e78000000010000000000000000a82d3f7800000060b53af7780000000b5a2800000000004500000001000000010000000400000020020040110018005a0000004c0e000001000000b74a1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2da800",
+        "name": "WorkRankTable",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xe50",
+        "raw": "9081eef27800000000ab657e780000000100000000000000806c383f7800000060b53af778000000035a2800000000004500000001000000010000000400000020020040110018005b000000500e000001000000494b1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f386c80",
+        "name": "StatsDataFloat",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0xe58",
+        "raw": "00f9abf57800000000ab657e78000000010000000000000000a92d3f78000000b8ac3af778000000fb592800000000004500000001000000010000001000000020020000000010005c000000580e00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2da900",
+        "name": "OldTeamId",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xe68",
+        "raw": "9081eef27800000000ab657e78000000010000000000000080a92d3f7800000060b53af778000000f55928000000000045000000010000000100000004000000000200401000180000000000680e00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2da980",
+        "name": "ArrangeTeamId",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xe6c",
+        "raw": "9081eef27800000000ab657e780000000100000000000000206d383f7800000060b53af778000000ed59280000000000450000000100000001000000040000000002004010001800000000006c0e00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f386d20",
+        "name": "bAttackReformFreeVote",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0xe70",
+        "raw": "406eacf57800000000ab657e78000000010000000000000000aa2d3f7800000008b13af778000000e15928000000000045000000010000000100000001000000000200401000180000000000700e00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2daa00",
+        "name": "GoldBadgeRequireTableName",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0xe74",
+        "raw": "907cacf57800000000ab657e78000000010000000000000080aa2d3f7800000040b43af778000000d35928000000000045000000010000000100000008000000050200401000180000000000740e00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2daa80",
+        "name": "LootingTimes",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xe94",
+        "raw": "9081eef27800000000ab657e780000000100000000000000c06d383f7800000060b53af778000000cc592800000000004500000001000000010000000400000020020040100018005d000000940e00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f386dc0",
+        "name": "CurUsingExit",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0xf00",
+        "raw": "886facf57800000000ab657e780000000100000000000000006f383f7800000058b73af778000000c55928000000000045000000010000000100000008000000002200401000180000000000000f00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f386f00",
+        "name": "ExitState",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0xf08",
+        "raw": "a8b8abf57800000000ab657e7800000001000000000000004070383f7800000068e839f778000000bf592800000000004500000001000000010000000100000020020040110018005e000000080f000000000000f74a1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f387040",
+        "name": "AllocatedExits",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0xf10",
+        "raw": "00f9abf57800000000ab657e78000000010000000000000000ab2d3f78000000b8ac3af778000000b7592800000000004500000001000000010000001000000020020000010010005f000000100f0000000000008a4a1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dab00",
+        "name": "PlayerExitId",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xf20",
+        "raw": "1869acf57800000000ab657e7800000001000000000000008071383f7800000038b63af778000000b05928000000000045000000010000000100000004000000000200401000180000000000200f00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f387180",
+        "name": "AllDamageInfos",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1118",
+        "raw": "00f9abf57800000000ab657e7800000001000000000000002072383f78000000b8ac3af778000000a859280000000000450000000100000001000000100000002002000001001000600000001811000000000000224b1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f387220",
+        "name": "LastDeadthDamageInfos",
+        "array_dim": 1,
+        "element_size": 480,
+        "offset_candidate": "0x1128",
+        "raw": "b081acf57800000000ab657e780000000100000000000000c072383f7800000090c13af7780000009c59280000000000450000000100000001000000e00100002000000001001000610000002811000000000000224b1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3872c0",
+        "name": "DeadthDamageInfos",
+        "array_dim": 1,
+        "element_size": 480,
+        "offset_candidate": "0x1308",
+        "raw": "b081acf57800000000ab657e7800000001000000000000006073383f7800000090c13af7780000009259280000000000450000000100000001000000e00100002000000001001000620000000813000000000000c34a1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f387360",
+        "name": "FirstDeathDamageInfos",
+        "array_dim": 1,
+        "element_size": 480,
+        "offset_candidate": "0x14e8",
+        "raw": "b081acf57800000000ab657e7800000001000000000000000074383f7800000090c13af7780000008659280000000000450000000100000001000000e0010000000000000000100000000000e81400000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f387400",
+        "name": "bHalfJoin",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x16e8",
+        "raw": "406eacf57800000000ab657e78000000010000000000000080ab2d3f7800000008b13af778000000805928000000000045000000010000000100000001000000200200401100180063000000e816000001000000004b1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dab80",
+        "name": "JoinInGameTeamNum",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x16f0",
+        "raw": "1869acf57800000000ab657e780000000100000000000000a074383f7800000038b63af778000000765928000000000045000000010000000100000004000000000200401000180000000000f01600000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3874a0",
+        "name": "CurClientQuestObjectionName",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x16f8",
+        "raw": "00f9abf57800000000ab657e7800000001000000000000004075383f78000000b8ac3af778000000675928000000000045000000010000000100000010000000002200000000100000000000f81600000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f387540",
+        "name": "DebugAssassinateData",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1708",
+        "raw": "406eacf57800000000ab657e780000000100000000000000e075383f7800000008b13af7780000005c5928000000000045000000010000000100000001000000010200401000180000000000081700000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3875e0",
+        "name": "HeroAccessoryInfoSimp",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1710",
+        "raw": "b081acf57800000000ab657e780000000100000000000000c077383f7800000090c13af7780000005059280000000000450000000100000001000000100000002000000001001000640000001017000000000000084b1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3877c0",
+        "name": "HeroAccessoryInfo",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1720",
+        "raw": "b081acf57800000000ab657e7800000001000000000000006078383f7800000090c13af7780000003c5928000000000045000000010000000100000010000000000000000000100000000000201700000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f387860",
+        "name": "PlayerTitleInfo",
+        "array_dim": 1,
+        "element_size": 40,
+        "offset_candidate": "0x1730",
+        "raw": "b081acf57800000000ab657e78000000010000000000000080ac2d3f7800000090c13af778000000558a0a00000000004500000001000000010000002800000020000000110010006500000030170000000000003d4b1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dac80",
+        "name": "DFMPlayerName",
+        "array_dim": 1,
+        "element_size": 24,
+        "offset_candidate": "0x1758",
+        "raw": "8089acf57800000000ab657e78000000010000000000000000ad2d3f7800000028d93af778000000345928000000000045000000010000000100000018000000140000000000100000000000581700000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dad00",
+        "name": "DFMPlayerAnonymousIndex",
+        "array_dim": 1,
+        "element_size": 2,
+        "offset_candidate": "0x1770",
+        "raw": "6067acf57800000000ab657e78000000010000000000000040fcb7c078000000f0b53af7780000002759280000000000450000000100000001000000020000002002004011001800660000007017000001000000d04a1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x78c0b7fc40",
+        "name": "ItemSpaceMap",
+        "array_dim": 1,
+        "element_size": 80,
+        "offset_candidate": "0x17d0",
+        "raw": "207facf57800000000ab657e78000000010000000000000000fdb7c07800000010b33af778000000175928000000000045000000010041000100000050000000002200000000100000000000d01700000000570000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x78c0b7fd00",
+        "name": "SpecialSpaceMap",
+        "array_dim": 1,
+        "element_size": 80,
+        "offset_candidate": "0x1820",
+        "raw": "207facf57800000000ab657e780000000100000000000000807b383f7800000010b33af778000000035928000000000045000000010041000100000050000000002200000000100000000000201800000000570000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f387b80",
+        "name": "CurrentInteractFlag",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x1870",
+        "raw": "886facf57800000000ab657e780000000100000000000000e052383f7800000058b73af778000000f85828000000000045000000010000000100000008000000200200401000180067000000701800000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3852e0",
+        "name": "bShareSpoilTeam",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1a5c",
+        "raw": "406eacf57800000000ab657e7800000001000000000000008053383f7800000008b13af778000000ef58280000000000450000000100000001000000010000000102004010082800000000005c1a00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f385380",
+        "name": "bShareSpoilAll",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1a5d",
+        "raw": "406eacf57800000000ab657e78000000010000000000000080ae2d3f7800000008b13af778000000e758280000000000450000000100000001000000010000000102004010082800000000005d1a00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2dae80",
+        "name": "SettlementBlueprintPlunderType",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x1a70",
+        "raw": "9081eef27800000000ab657e7800000001000000000000002054383f7800000060b53af778000000d75828000000000045000000010000000100000004000000340200401000180068000000701a00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f385420",
+        "name": "bJailBreak",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1a74",
+        "raw": "406eacf57800000000ab657e780000000100000000000000c054383f7800000008b13af778000000d15828000000000045000000010000000100000001000000340200401100180069000000741a000001000000a44a1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3854c0",
+        "name": "OnJailBreakPlayerStateChanged",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1a78",
+        "raw": "8885acf57800000000ab657e78000000010000000000000000af2d3f78000000b0b33af778000000120b19000000000045000000010000000100000010000000000208000000100000000000781a00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2daf00",
+        "name": "MaxCoinQuantity",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x1a88",
+        "raw": "1869acf57800000000ab657e78000000010000000000000080af2d3f7800000038b63af778000000c8582800000000004500000001000000010000000400000020020040100018006a000000881a00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2daf80",
+        "name": "SafeBoxSkinID",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x1a90",
+        "raw": "d06aacf57800000000ab657e7800000001000000000000006055383f7800000080b63af778000000c0582800000000004500000001000000010000000800000020020040100018006b000000901a00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f385560",
+        "name": "ClientbReportedByLocal",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1a98",
+        "raw": "406eacf57800000000ab657e78000000010000000000000000b02d3f7800000008b13af778000000b45828000000000045000000010000000100000001000000000200401000180000000000981a00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2db000",
+        "name": "ClientMadeAppointmentByLocalTimeStamp",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x1a9c",
+        "raw": "48faabf57800000000ab657e78000000010000000000000080b02d3f78000000c8b63af778000000a058280000000000450000000100000001000000040000000002004010001800000000009c1a00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2db080",
+        "name": "ServerInteractorAltarInteractCount",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x1aa0",
+        "raw": "9081eef27800000000ab657e7800000001000000000000000056383f7800000060b53af7780000008e5828000000000045000000010000000100000004000000000200401000180000000000a01a00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f385600",
+        "name": "InteractPureContractNPC",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x1aa8",
+        "raw": "886facf57800000000ab657e780000000100000000000000e057383f7800000058b73af778000000815828000000000045000000010000000100000008000000000200401000180000000000a81a00000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3857e0",
+        "name": "ItemCarryOutRemainNumInfo",
+        "array_dim": 1,
+        "element_size": 96,
+        "offset_candidate": "0x1ab0",
+        "raw": "b081acf57800000000ab657e7800000001000000000000008058383f7800000090c13af77800000070880a00000000004500000001000000010000006000000020000000010010006c000000b01a000000000000654b1900"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f385880",
+        "name": "bNextIsMusicFest",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1b80",
+        "raw": "406eacf57800000000ab657e7800000001000000000000002059383f7800000008b13af7780000006d582800000000004500000001000000010000000100000020020040100018006d000000801b00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f385920",
+        "name": "bMusicFestSettlementAuthorized",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1b81",
+        "raw": "406eacf57800000000ab657e780000000100000000000000c059383f7800000008b13af7780000005d5828000000000045000000010000000100000001000000000200401000180000000000811b00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3859c0",
+        "name": "bWeaponRackUnlocked",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1c28",
+        "raw": "406eacf57800000000ab657e780000000100000000000000605a383f7800000008b13af77800000052582800000000004500000001000000010000000100000020020040100018006e000000281c00000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f385a60",
+        "name": "bSpecialItemSlotsUnlocked",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1c29",
+        "raw": "406eacf57800000000ab657e780000000100000000000000000000000000000008b13af77800000044582800000000004500000001000000010000000100000020020040100018006f000000291c00000100000000000000"
+      }
+    ]
+  },
+  {
+    "class": "GPPlayerState",
+    "pointer": "0x78940cc180",
+    "fields": [
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d6780",
+        "name": "InnerTeamIndex",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x4a8",
+        "raw": "9081eef27800000080c10c94780000000100000000000000e02f383f7800000060b53af778000000125528000000000045000000010000000100000004000000350202401100180018000000a80400000100000082141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f382fe0",
+        "name": "bDead",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x4ac",
+        "raw": "406eacf57800000080c10c9478000000010000000000000000682d3f7800000008b13af778000000725528000000000045000000010000000100000001000000350202401100180019000000ac0400000100000017141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d6800",
+        "name": "DeadTickNum",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x4b0",
+        "raw": "9081eef27800000080c10c9478000000010000000000000080682d3f7800000060b53af7780000006b552800000000004500000001000000010000000400000035020240110018001a000000b00400000100000064141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d6880",
+        "name": "DeathWaitRescueTime",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x4b4",
+        "raw": "48faabf57800000080c10c9478000000010000000000000000692d3f78000000c8b63af778000000f4ad1600000000004500000001000000010000000400000034020040100018001b000000b40400000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d6900",
+        "name": "DeathWaitRescueStartTime",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x4b8",
+        "raw": "48faabf57800000080c10c9478000000010000000000000080692d3f78000000c8b63af7780000005e552800000000004500000001000000010000000400000034020040100018001c000000b80400000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d6980",
+        "name": "DeathWaitRescueEndTime",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x4bc",
+        "raw": "48faabf57800000080c10c947800000001000000000000008030383f78000000c8b63af77800000052552800000000004500000001000000010000000400000034020040100018001d000000bc0400000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f383080",
+        "name": "bFinishGame",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x4c0",
+        "raw": "406eacf57800000080c10c947800000001000000000000002031383f7800000008b13af7780000004b552800000000004500000001000000010000000100000035020240110018001e000000c0040000010000002d141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f383120",
+        "name": "bDeathWaitingRescueEnd",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x4c2",
+        "raw": "406eacf57800000080c10c94780000000100000000000000c031383f7800000008b13af7780000003f552800000000004500000001000000010000000100000035020240110018001f000000c2040000010000001e141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3831c0",
+        "name": "PlayerGender",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x4c3",
+        "raw": "3862acf57800000080c10c94780000000100000000000000006a2d3f7800000050b13af778000000385528000000000045000000010000000100000001000000200200401000180020000000c30400000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d6a00",
+        "name": "CurrentDeathStartTime",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x4c4",
+        "raw": "48faabf57800000080c10c947800000001000000000000006032383f78000000c8b63af7780000002c5528000000000045000000010000000100000004000000340200401000180021000000c40400000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f383260",
+        "name": "bSinglePlayer",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x4d8",
+        "raw": "406eacf57800000080c10c94780000000100000000000000a033383f7800000008b13af778000000245528000000000045000000010000000100000001000000350202401000180022000000d80400000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3833a0",
+        "name": "MemberInfoList",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x4e0",
+        "raw": "00f9abf57800000080c10c94780000000100000000000000e034383f78000000b8ac3af778000000b25428000000000045000000010000000100000010000000350202000100100023000000e00400000000000096141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3834e0",
+        "name": "CampMemberInfoList",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x4f0",
+        "raw": "00f9abf57800000080c10c947800000001000000000000000038383f78000000b8ac3af7780000001a5528000000000045000000010000000100000010000000350202000100100024000000f00400000000000046141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f383800",
+        "name": "FakeMemberInfoList",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x500",
+        "raw": "00f9abf57800000080c10c94780000000100000000000000a038383f78000000b8ac3af778000000005528000000000045000000010000000100000010000000000200000000100000000000000500000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3838a0",
+        "name": "bIsPlayerAI",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x510",
+        "raw": "406eacf57800000080c10c947800000001000000000000004039383f7800000008b13af778000000983224000000000045000000010000000100000001000000010202401000180000000000100500000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f383940",
+        "name": "bIsAILabAI",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x511",
+        "raw": "406eacf57800000080c10c94780000000100000000000000006d2d3f7800000008b13af778000000fa5428000000000045000000010000000100000001000000010202401000180000000000110500000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d6d00",
+        "name": "NeedLogImpendingDeathToDeathTime",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x514",
+        "raw": "48faabf57800000080c10c94780000000100000000000000e039383f78000000c8b63af778000000e95428000000000045000000010000000100000004000000150200401000180000000000140500000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3839e0",
+        "name": "bIsObserverPlayer",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x518",
+        "raw": "406eacf57800000080c10c94780000000100000000000000c03b383f7800000008b13af778000000df5428000000000045000000010000000100000001000000200200401000180025000000180500000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f383bc0",
+        "name": "SpectInfo",
+        "array_dim": 1,
+        "element_size": 32,
+        "offset_candidate": "0x520",
+        "raw": "b081acf57800000080c10c94780000000100000000000000a03d383f7800000090c13af778000000c11b04000000000045000000010000000100000020000000350002000100100026000000200500000000000034151700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f383da0",
+        "name": "bNiceInfo",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x540",
+        "raw": "00f9abf57800000080c10c947800000001000000000000000015383f78000000b8ac3af7780000009654280000000000450000000100000001000000100000003502020001001000270000004005000000000000a1141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f381500",
+        "name": "SpectWeaponInfo",
+        "array_dim": 1,
+        "element_size": 12,
+        "offset_candidate": "0x550",
+        "raw": "b081acf57800000080c10c94780000000100000000000000a015383f7800000090c13af778000000081c0400000000004500000001000000010000000c000000350202401100100028000000500500000000000059151700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3815a0",
+        "name": "SpectSafeBoxInfo",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x568",
+        "raw": "b081acf57800000080c10c947800000001000000000000004016383f7800000090c13af778000000421c04000000000045000000010000000100000010000000350202401100100029000000680500000000000040151700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f381640",
+        "name": "SpectTelescopeInfo",
+        "array_dim": 1,
+        "element_size": 12,
+        "offset_candidate": "0x578",
+        "raw": "b081acf57800000080c10c947800000001000000000000008017383f7800000090c13af778000000251c0400000000004500000001000000010000000c00000035020240110010002a00000078050000000000004c151700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f381780",
+        "name": "SpectFashionMesh",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x588",
+        "raw": "b081acf57800000080c10c94780000000100000000000000c018383f7800000090c13af7780000005e1c0400000000004500000001000000010000001000000035000200010010002b000000880500000000000028151700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3818c0",
+        "name": "AllSpectMeGPS",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x5b8",
+        "raw": "00f9abf57800000080c10c947800000001000000000000006019383f78000000b8ac3af7780000008e5428000000000045000000010000000100000010000000000200000000100000000000b80500000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f381960",
+        "name": "bReplicateSpectWeaponInfo",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x5c8",
+        "raw": "406eacf57800000080c10c94780000000100000000000000001a383f7800000008b13af778000000805428000000000045000000010000000100000001000000000200401000180000000000c80500000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f381a00",
+        "name": "PlayerDeathAndCarryDataInfo",
+        "array_dim": 1,
+        "element_size": 48,
+        "offset_candidate": "0x5cc",
+        "raw": "b081acf57800000080c10c94780000000100000000000000401b383f7800000090c13af778000000b15804000000000045000000010000000100000030000000000000001000100000000000cc0500000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f381b40",
+        "name": "BeKillInfoHitstorys",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x600",
+        "raw": "00f9abf57800000080c10c94780000000100000000000000801c383f78000000b8ac3af778000000e15328000000000045000000010000000100000010000000000200000000100000000000000600000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f381c80",
+        "name": "KillInfoHitstorys",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x610",
+        "raw": "00f9abf57800000080c10c94780000000100000000000000c01d383f78000000b8ac3af778000000d75328000000000045000000010000000100000010000000000200000000100000000000100600000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f381dc0",
+        "name": "RescueRecords",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x620",
+        "raw": "00f9abf57800000080c10c94780000000100000000000000001f383f78000000b8ac3af778000000cf5328000000000045000000010000000100000010000000000200000000100000000000200600000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f381f00",
+        "name": "AssistRecords",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x630",
+        "raw": "00f9abf57800000080c10c9478000000010000000000000080582d3f78000000b8ac3af778000000c75328000000000045000000010000000100000010000000000200000000100000000000300600000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d5880",
+        "name": "TotalHpDamage",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x640",
+        "raw": "48faabf57800000080c10c9478000000010000000000000000592d3f78000000c8b63af778000000bf5328000000000045000000010000000100000004000000000200401000180000000000400600000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d5900",
+        "name": "PlatformID",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x650",
+        "raw": "9081eef27800000080c10c9478000000010000000000000080592d3f7800000060b53af778000000b9532800000000004500000001000000010000000400000021020240110018002c0000005006000001000000a9141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d5980",
+        "name": "AccountType",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x654",
+        "raw": "9081eef27800000080c10c94780000000100000000000000005a2d3f7800000060b53af778000000b2532800000000004500000001000000010000000400000021020240110018002d00000054060000010000000d141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d5a00",
+        "name": "TeamID",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x658",
+        "raw": "9081eef27800000080c10c94780000000100000000000000805a2d3f7800000060b53af77800000039681f00000000004500000001000000010000000400000021020240110828002e000000580600000100000065151700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d5a80",
+        "name": "Camp",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x65c",
+        "raw": "9081eef27800000080c10c947800000001000000000000004020383f7800000060b53af778000000d3a02100000000004500000001000000010000000400000021020240110828002f0000005c0600000100000040141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f382040",
+        "name": "ForcesType",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x660",
+        "raw": "a8b8abf57800000080c10c94780000000100000000000000005b2d3f7800000068e839f778000000ac532800000000004500000001000000010000000100000021020240110828003000000060060000000000006e141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d5b00",
+        "name": "ArmForceID",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x664",
+        "raw": "9081eef27800000080c10c947800000001000000000000008021383f7800000060b53af778000000a65328000000000045000000010000000100000004000000210202401008280031000000640600000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f382180",
+        "name": "TeamIdentity",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x668",
+        "raw": "a8b8abf57800000080c10c947800000001000000000000002022383f7800000068e839f7780000009f532800000000004500000001000000010000000100000020020040110828003200000068060000000000006c151700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f382220",
+        "name": "LoginInfo",
+        "array_dim": 1,
+        "element_size": 24,
+        "offset_candidate": "0x670",
+        "raw": "b081acf57800000080c10c94780000000100000000000000005d2d3f7800000090c13af77800000086590400000000004500000001000000010000001800000021000200010820003300000070060000000000008d141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d5d00",
+        "name": "CharacterModeId",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x688",
+        "raw": "1869acf57800000080c10c94780000000100000000000000c022383f7800000038b63af7780000007f5328000000000045000000010000000100000004000000200200401008280034000000880600000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3822c0",
+        "name": "bIsWanted",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x68c",
+        "raw": "406eacf57800000080c10c947800000001000000000000006023383f7800000008b13af7780000004ea5210000000000450000000100000001000000010000002102024011082800350000008c06000001000000c0141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f382360",
+        "name": "RevengeKillInfo",
+        "array_dim": 1,
+        "element_size": 432,
+        "offset_candidate": "0x690",
+        "raw": "b081acf57800000080c10c94780000000100000000000000a024383f7800000090c13af7780000007653280000000000450000000100000001000000b0010000210002000008200036000000900600000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3824a0",
+        "name": "CountDownArray",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x840",
+        "raw": "00f9abf57800000080c10c94780000000100000000000000e025383f78000000b8ac3af7780000006e5328000000000045000000010000000100000010000000002200000008200000000000400800000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3825e0",
+        "name": "ServerCountDownArray",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x850",
+        "raw": "00f9abf57800000080c10c947800000001000000000000002027383f78000000b8ac3af77800000063532800000000004500000001000000010000001000000020220000010820003700000050080000000000001a151700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f382720",
+        "name": "PlayerWeaponSkinSetups",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x860",
+        "raw": "00f9abf57800000080c10c947800000001000000000000000029383f78000000b8ac3af778000000575328000000000045000000010000000100000010000000200200000100100038000000600800000000000001151700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f382900",
+        "name": "PlayerWeaponSkinInfos",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x870",
+        "raw": "00f9abf57800000080c10c947800000001000000000000000001383f78000000b8ac3af7780000004653280000000000450000000100000001000000100000002002000001001000390000007008000000000000f2141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f380100",
+        "name": "PlayerWeaponMysticalSkinInfos",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x880",
+        "raw": "00f9abf57800000080c10c947800000001000000000000002004383f78000000b8ac3af7780000002e532800000000004500000001000000010000001000000020020000010010003a0000008008000000000000df141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f380420",
+        "name": "PlayerPendantMysticalSkinInfos",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x890",
+        "raw": "00f9abf57800000080c10c947800000001000000000000006005383f78000000b8ac3af778000000175328000000000045000000010000000100000010000000000200000000100000000000900800000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f380560",
+        "name": "PlayerWatchSkinInfos",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x8a0",
+        "raw": "00f9abf57800000080c10c94780000000100000000000000a006383f78000000b8ac3af778000000075328000000000045000000010000000100000010000000000200000000100000000000a00800000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3806a0",
+        "name": "PlayerPendantInGameStaticsInfos",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x8b0",
+        "raw": "00f9abf57800000080c10c94780000000100000000000000004c2d3f78000000b8ac3af778000000c1522800000000004500000001000000010000001000000020020000010010003b000000b008000000000000cb141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d4c00",
+        "name": "PlayerGamePlayState",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x940",
+        "raw": "9081eef27800000080c10c94780000000100000000000000804c2d3f7800000060b53af778000000b6522800000000004500000001000000010000000400000020020040110048003c0000004009000001000000b2141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d4c80",
+        "name": "CurrentCharacterLiveStatus",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x944",
+        "raw": "9081eef27800000080c10c947800000001000000000000004007383f7800000060b53af778000000a8522800000000004500000001000000010000000400000020020040110048003d000000440900000100000053141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f380740",
+        "name": "bInGlitchVolume",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x960",
+        "raw": "406eacf57800000080c10c94780000000100000000000000e007383f7800000008b13af7780000009f522800000000004500000001000000010000000100000020000000110018003e000000600900000100000077141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f3807e0",
+        "name": "bIsDeadBox",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x994",
+        "raw": "406eacf57800000080c10c94780000000100000000000000004d2d3f7800000008b13af77800000099522800000000004500000001000000010000000100000020000000110018003f000000940900000100000037141700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d4d00",
+        "name": "RTTReplayMs",
+        "array_dim": 1,
+        "element_size": 2,
+        "offset_candidate": "0x998",
+        "raw": "6067acf57800000080c10c947800000001000000000000008008383f78000000f0b53af778000000925228000000000045000000010000000100000002000000200200401100180040000000980900000100000010151700"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f380880",
+        "name": "bAllowEnterParachute",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x9c0",
+        "raw": "406eacf57800000080c10c94780000000100000000000000000000000000000008b13af778000000875228000000000045000000010000000100000001000000200200401000180041000000c00900000100000000000000"
+      }
+    ]
+  },
+  {
+    "class": "BasePlayerState",
+    "pointer": "0x789404ad80",
+    "fields": [
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d3780",
+        "name": "Uin",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x490",
+        "raw": "d06aacf57800000080ad049478000000010000000000000060fff8407800000080b63af7780000009e4f21000000000045000000010000000100000008000000200200401100180016000000900400000100000057701600"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840f8ff60",
+        "name": "bOffline",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x498",
+        "raw": "406eacf57800000080ad0494780000000100000000000000000000000000000008b13af778000000205228000000000045000000010000000100000001000000200200401000180017000000980400000100000000000000"
+      }
+    ]
+  },
+  {
+    "class": "PlayerState",
+    "pointer": "0x789404ab00",
+    "fields": [
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d3800",
+        "name": "Score",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x370",
+        "raw": "48faabf57800000000ab049478000000010000000000000080382d3f78000000c8b63af778000000b1a02100000000004500000001000000010000000400000034020040110018000b000000700300000100000048701600"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d3880",
+        "name": "PlayerName",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x378",
+        "raw": "d87dacf57800000000ab049478000000010000000000000000392d3f7800000048c13af77800000008311e000000000045000000010000000100000010000000140200000000180000000000780300000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d3900",
+        "name": "PlayerId",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x398",
+        "raw": "9081eef27800000000ab049478000000010000000000000040e3f8407800000060b53af77800000003311e00000000004500000001000000010000000400000034020040110018000c000000980300000100000037701600"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840f8e340",
+        "name": "Ping",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x39c",
+        "raw": "3862acf57800000000ab0494780000000100000000000000e0e3f8407800000050b13af7780000001d522800000000004500000001000000010000000100000034020040100018000d0000009c0300000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840f8e3e0",
+        "name": "bShouldUpdateReplicatedPing",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x39e",
+        "raw": "406eacf57800000000ab049478000000010000000000000080e4f8407800000008b13af7780000000e52280000000000450000000100000001000000010000000100010010004800000000009e0300000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840f8e480",
+        "name": "bIsSpectator",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x39e",
+        "raw": "406eacf57800000000ab049478000000010000000000000020e5f8407800000008b13af7780000000752280000000000450000000100000001000000010000003400000010001800110000009e0300000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840f8e520",
+        "name": "bOnlySpectator",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x39e",
+        "raw": "406eacf57800000000ab0494780000000100000000000000c0e5f8407800000008b13af778000000ff51280000000000450000000100000001000000010000002000000010001800120000009e0300000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840f8e5c0",
+        "name": "bIsABot",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x39e",
+        "raw": "406eacf57800000000ab049478000000010000000000000060e6f8407800000008b13af778000000fa512800000000004500000001000000010000000100000034000000100018000f0000009e0300000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840f8e660",
+        "name": "bIsInactive",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x39e",
+        "raw": "406eacf57800000000ab049478000000010000000000000000e7f8407800000008b13af778000000f351280000000000450000000100000001000000010000002000000011001800100000009e030000010000002d701600"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840f8e700",
+        "name": "bFromPreviousLevel",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x39e",
+        "raw": "406eacf57800000000ab049478000000010000000000000080392d3f7800000008b13af778000000e9512800000000004500000001000000010000000100000020000000100018000e0000009e0300000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d3980",
+        "name": "StartTime",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x3a0",
+        "raw": "9081eef27800000000ab0494780000000100000000000000a0e7f8407800000060b53af778000000250521000000000045000000010000000100000004000000200200401000180013000000a00300000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840f8e7a0",
+        "name": "EngineMessageClass",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x3a8",
+        "raw": "5878acf57800000000ab0494780000000100000000000000003a2d3f7800000098b13af778000000df51280000000000450000000100000001000000080000000002004010001c0000000000a80300000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d3a00",
+        "name": "SavedNetworkAddress",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x3b8",
+        "raw": "d87dacf57800000000ab049478000000010000000000000080e9f8407800000048c13af778000000d45128000000000045000000010000000100000010000000000200000000180000000000b80300000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840f8e980",
+        "name": "UniqueId",
+        "array_dim": 1,
+        "element_size": 40,
+        "offset_candidate": "0x3c8",
+        "raw": "b081acf57800000000ab049478000000010000000000000020eaf8407800000090c13af778000000f85503000000000045000000010000000100000028000000200000000100180014000000c8030000000000004f701600"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840f8ea20",
+        "name": "PawnPrivate",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x3f8",
+        "raw": "886facf57800000000ab0494780000000100000000000000803a2d3f7800000058b73af778000000c45128000000000045000000010000000100000008000000140200401000480000000000f80300000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x783f2d3a80",
+        "name": "PlayerNamePrivate",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x470",
+        "raw": "d87dacf57800000000ab0494780000000100000000000000000000000000000048c13af778000000ba512800000000004500000001000000010000001000000020020000010048001500000070040000010000003f701600"
+      }
+    ]
+  },
+  {
+    "class": "Info",
+    "pointer": "0x7893eb1c80",
+    "fields": []
+  },
+  {
+    "class": "Actor",
+    "pointer": "0x7893eb3300",
+    "fields": [
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2aba0",
+        "name": "PrimaryActorTick",
+        "array_dim": 1,
+        "element_size": 104,
+        "offset_candidate": "0x28",
+        "raw": "b081acf5780000000033eb9378000000010000000000000040acc2407800000090c13af77800000094fb20000000000045000000010000000100000068000000010001000000100000000000280000000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2ac40",
+        "name": "bHidden",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x90",
+        "raw": "406eacf5780000000033eb93780000000100000000000000e0acc2407800000008b13af7780000008ffb20000000000045000000010000000100000001000000350000001200180000000000900000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2ace0",
+        "name": "bEnableNetActive",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x90",
+        "raw": "406eacf5780000000033eb9378000000010000000000000080adc2407800000008b13af77800000086fb20000000000045000000010000000100000001000000150001001000180000000000900000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2ad80",
+        "name": "bNetActive",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x90",
+        "raw": "406eacf5780000000033eb9378000000010000000000000020aec2407800000008b13af778000000fdda120000000000450000000100000001000000010000002000000011001800010000009000000001000000c5ff1400"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2ae20",
+        "name": "bNetTemporary",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x90",
+        "raw": "406eacf5780000000033eb93780000000100000000000000c0aec2407800000008b13af7780000007efb20000000000045000000010000000100000001000000000000001000180000000000900000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2aec0",
+        "name": "bNetStartup",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x90",
+        "raw": "406eacf5780000000033eb9378000000010000000000000060afc2407800000008b13af77800000077fb20000000000045000000010000000100000001000000000000001000180000000000900000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2af60",
+        "name": "bOnlyRelevantToOwner",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x90",
+        "raw": "406eacf5780000000033eb9378000000010000000000000000b0c2407800000008b13af7780000006cfb20000000000045000000010000000100000001000000150001001000180000000000900000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2b000",
+        "name": "bAlwaysRelevant",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x90",
+        "raw": "406eacf5780000000033eb93780000000100000000000000a0b0c2407800000008b13af77800000063fb20000000000045000000010000000100000001000000050001001000180000000000900000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2b0a0",
+        "name": "bReplicateMovement",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x90",
+        "raw": "406eacf5780000000033eb9378000000010000000000000040b1c2407800000008b13af77800000059fb200000000000450000000100000001000000010000002100010011001800020000009000000001000000e2ff1400"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2b140",
+        "name": "bShouldCallPreReplication",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x91",
+        "raw": "406eacf5780000000033eb93780000000100000000000000e0b1c2407800000008b13af7780000003d091f000000000045000000010000000100000001000000010001001000180000000000910000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2b1e0",
+        "name": "bTearOff",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x91",
+        "raw": "406eacf5780000000033eb9378000000010000000000000080b2c2407800000008b13af77800000054fb20000000000045000000010000000100000001000000200000001000480003000000910000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2b280",
+        "name": "bExchangedRoles",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x91",
+        "raw": "406eacf5780000000033eb9378000000010000000000000020b3c2407800000008b13af7780000004bfb20000000000045000000010000000100000001000000002000001000180000000000910000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2b320",
+        "name": "bNetLoadOnClient",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x91",
+        "raw": "406eacf5780000000033eb93780000000100000000000000c0b3c2407800000008b13af77800000042fb20000000000045000000010000000100000001000000010000001000180000000000910000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2b3c0",
+        "name": "bNetUseOwnerRelevancy",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x91",
+        "raw": "406eacf5780000000033eb9378000000010000000000000060b4c2407800000008b13af77800000036fb20000000000045000000010000000100000001000000050001001000180000000000910000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2b460",
+        "name": "bRelevantForNetworkReplays",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x91",
+        "raw": "406eacf5780000000033eb9378000000010000000000000000b5c2407800000008b13af77800000028fb20000000000045000000010000000100000001000000000000001000180000000000910000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2b500",
+        "name": "bRelevantForLevelBounds",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x91",
+        "raw": "406eacf5780000000033eb93780000000100000000000000a0b5c2407800000008b13af7780000001bfb20000000000045000000010000000100000001000000010000001004180000000000910000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2b5a0",
+        "name": "bReplayRewindable",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x92",
+        "raw": "406eacf5780000000033eb9378000000010000000000000040b6c2407800000008b13af77800000011fb20000000000045000000010000000100000001000000010001001000180000000000920000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2b640",
+        "name": "bAllowTickBeforeBeginPlay",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x92",
+        "raw": "406eacf5780000000033eb93780000000100000000000000e0b6c2407800000008b13af77800000003fb20000000000045000000010000000100000001000000010001001000180000000000920000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2b6e0",
+        "name": "bAllowBluePrintTick",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x92",
+        "raw": "406eacf5780000000033eb9378000000010000000000000080b7c2407800000008b13af77800000052091f000000000045000000010000000100000001000000050001001000180000000000920000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2b780",
+        "name": "bAutoDestroyWhenFinished",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x92",
+        "raw": "406eacf5780000000033eb9378000000010000000000000020b8c2407800000008b13af778000000f6fa20000000000045000000010000000100000001000000040000001000180000000000920000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2b820",
+        "name": "bBlockInput",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x92",
+        "raw": "406eacf5780000000033eb93780000000100000000000000c0b8c2407800000008b13af778000000effa20000000000045000000010000000100000001000000010001001000180000000000920000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2b8c0",
+        "name": "bCanBeDamaged",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x92",
+        "raw": "406eacf5780000000033eb9378000000010000000000000060b9c2407800000008b13af778000000e7fa20000000000045000000010000000100000001000000250000011000180004000000920000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2b960",
+        "name": "bCollideWhenPlacing",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x92",
+        "raw": "406eacf5780000000033eb93780000000100000000000000c090c2407800000008b13af778000000dcfa20000000000045000000010000000100000001000000000000001000180000000000920000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c290c0",
+        "name": "bFindCameraComponentWhenViewTarget",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x92",
+        "raw": "406eacf5780000000033eb937800000001000000000000006091c2407800000008b13af778000000cafa20000000000045000000010000000100000001000000050000001004180000000000920000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c29160",
+        "name": "bGenerateOverlapEventsDuringLevelStreaming",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x93",
+        "raw": "406eacf5780000000033eb937800000001000000000000000092c2407800000008b13af778000000b4fa20000000000045000000010000000100000001000000050000001000180000000000930000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c29200",
+        "name": "bIgnoresOriginShifting",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x93",
+        "raw": "406eacf5780000000033eb93780000000100000000000000a092c2407800000008b13af778000000a8fa20000000000045000000010000000100000001000000010000001004180000000000930000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c292a0",
+        "name": "bEnableAutoLODGeneration",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x93",
+        "raw": "406eacf5780000000033eb937800000001000000000000004093c2407800000008b13af7780000009bfa20000000000045000000010000000100000001000000050000001004180000000000930000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c29340",
+        "name": "bIsEditorOnlyActor",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x93",
+        "raw": "406eacf5780000000033eb93780000000100000000000000e093c2407800000008b13af77800000091fa20000000000045000000010000000100000001000000010000001004180000000000930000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c293e0",
+        "name": "bActorSeamlessTraveled",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x93",
+        "raw": "406eacf5780000000033eb937800000001000000000000008094c2407800000008b13af77800000085fa20000000000045000000010000000100000001000000000000001000180000000000930000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c29480",
+        "name": "bReplicates",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x93",
+        "raw": "406eacf5780000000033eb937800000001000000000000002095c2407800000008b13af7780000004b091f000000000045000000010000000100000001000000150001001008280000000000930000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c29520",
+        "name": "bCanBeInCluster",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x93",
+        "raw": "406eacf5780000000033eb93780000000100000000000000c095c2407800000008b13af7780000007cfa2000000000004500000001000000010000000100000001000000100c280000000000930000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c295c0",
+        "name": "bAllowReceiveTickEventOnDedicatedServer",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x93",
+        "raw": "406eacf5780000000033eb937800000001000000000000006096c2407800000008b13af77800000067fa20000000000045000000010000000100000001000000000000001008280000000000930000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c29660",
+        "name": "bActorEnableCollision",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x95",
+        "raw": "406eacf5780000000033eb937800000001000000000000000097c2407800000008b13af7780000005bfa20000000000045000000010000000100000001000000000000001000480000000000950000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c29700",
+        "name": "bActorIsBeingDestroyed",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x95",
+        "raw": "406eacf5780000000033eb937800000001000000000000004098c2407800000008b13af7780000004ffa20000000000045000000010000000100000001000000002020001000480000000000950000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c29840",
+        "name": "UpdateOverlapsMethodDuringLevelStreaming",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x96",
+        "raw": "a8b8abf5780000000033eb937800000001000000000000008099c2407800000068e839f7780000003afa20000000000045000000010000000100000001000000010200401008280000000000960000000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c29980",
+        "name": "DefaultUpdateOverlapsMethodDuringLevelStreaming",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x97",
+        "raw": "a8b8abf5780000000033eb93780000000100000000000000209ac2407800000068e839f778000000dfe51d000000000045000000010000000100000001000000014202401000480000000000970000000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c29a20",
+        "name": "RemoteRole",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x98",
+        "raw": "3862acf5780000000033eb9378000000010000000000000040a2c2407800000050b13af778000000da0100000000000045000000010000000100000001000000202200401000480005000000980000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c2a240",
+        "name": "ReplicatedMovement",
+        "array_dim": 1,
+        "element_size": 56,
+        "offset_candidate": "0x9c",
+        "raw": "b081acf5780000000033eb9378000000010000000000000000e52d437800000090c13af77800000060f8200000000000450000000100000001000000380000002100010001041000060000009c00000000000000d5ff1400"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x78432de500",
+        "name": "InitialLifeSpan",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xd4",
+        "raw": "48faabf5780000000033eb9378000000010000000000000080e52d4378000000c8b63af778000000f0651e000000000045000000010000000100000004000000150200401000180000000000d40000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x78432de580",
+        "name": "CustomTimeDilation",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0xd8",
+        "raw": "48faabf5780000000033eb93780000000100000000000000c07cc24078000000c8b63af77800000056f820000000000045000000010000000100000004000000040200401004180000000000d80000000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c27cc0",
+        "name": "AttachmentReplication",
+        "array_dim": 1,
+        "element_size": 64,
+        "offset_candidate": "0xe0",
+        "raw": "b081acf5780000000033eb93780000000100000000000000607dc2407800000090c13af77800000023f820000000000045000000010000000100000040000000202000009100400007000000e000000000000000adff1400"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c27d60",
+        "name": "Owner",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x120",
+        "raw": "886facf5780000000033eb9378000000010000000000000080e62d437800000058b73af778000000e70d200000000000450000000100000001000000080000002002004011004800080000002001000000000000ceff1400"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x78432de680",
+        "name": "NetDriverName",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x128",
+        "raw": "907cacf5780000000033eb93780000000100000000000000a07ec2407800000040b43af7780000001bf820000000000045000000010067000100000008000000000200401008280000000000280100000100700000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c27ea0",
+        "name": "Role",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x130",
+        "raw": "3862acf5780000000033eb93780000000100000000000000007ec2407800000050b13af778000000d701000000000000450000000100670001000000010000002002004010001800090000003001000001006e0000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c27e00",
+        "name": "NetDormancy",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x131",
+        "raw": "3862acf5780000000033eb937800000001000000000000008080c2407800000050b13af77800000014f8200000000000450000000100670001000000010000001502014010001800000000003101000001006e0000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28080",
+        "name": "SpawnCollisionHandlingMethod",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x132",
+        "raw": "a8b8abf5780000000033eb937800000001000000000000002081c2407800000068e839f7780000000df7200000000000450000000100000001000000010000000502004010001800000000003201000000f6200000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28120",
+        "name": "AutoReceiveInput",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x133",
+        "raw": "3862acf5780000000033eb9378000000010000000000000000e72d437800000050b13af7780000004ef620000000000045000000010000000100000001000000010200401000180000000000330100000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x78432de700",
+        "name": "InputPriority",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x134",
+        "raw": "9081eef2780000000033eb93780000000100000000000000c081c2407800000060b53af77800000046f620000000000045000000010000000100000004000000010200401000180000000000340100000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c281c0",
+        "name": "InputComponent",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x138",
+        "raw": "886facf5780000000033eb9378000000010000000000000080c62d437800000058b73af7780000005c2219000000000045000000010000000100000008000000080228401000180000000000380100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x78432dc680",
+        "name": "NetCullDistanceSquared",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x140",
+        "raw": "48faabf5780000000033eb9378000000010000000000000000c72d4378000000c8b63af7780000003af620000000000045000000010000000100000004000000150202401000180000000000400100000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x78432dc700",
+        "name": "NetCullDistanceSquared_HD",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x144",
+        "raw": "48faabf5780000000033eb9378000000010000000000000080c72d4378000000c8b63af7780000002cf620000000000045000000010000000100000004000000150202401000180000000000440100000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x78432dc780",
+        "name": "NetCullDistanceSquared_M",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x148",
+        "raw": "48faabf5780000000033eb9378000000010000000000000000c82d4378000000c8b63af7780000001ff620000000000045000000010000000100000004000000150202401000180000000000480100000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x78432dc800",
+        "name": "NetTag",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x14c",
+        "raw": "9081eef2780000000033eb9378000000010000000000000080c82d437800000060b53af7780000001bf6200000000000450000000100000001000000040000000022004010001800000000004c0100000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x78432dc880",
+        "name": "NetUpdateFrequency",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x150",
+        "raw": "48faabf5780000000033eb9378000000010000000000000000c92d4378000000c8b63af77800000011f620000000000045000000010000000100000004000000050201401000180000000000500100000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x78432dc900",
+        "name": "MinNetUpdateFrequency",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x154",
+        "raw": "48faabf5780000000033eb9378000000010000000000000080c92d4378000000c8b63af77800000005f620000000000045000000010000000100000004000000050201401000180000000000540100000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x78432dc980",
+        "name": "NetPriority",
+        "array_dim": 1,
+        "element_size": 4,
+        "offset_candidate": "0x158",
+        "raw": "48faabf5780000000033eb937800000001000000000000006082c24078000000c8b63af778000000fef520000000000045000000010000000100000004000000050201401000180000000000580100000100000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28260",
+        "name": "Instigator",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x168",
+        "raw": "886facf5780000000033eb93780000000100000000000000a083c2407800000058b73af778000000cd052000000000004500000001000000010000000800000024020040110019000a0000006801000000000000bcff1400"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c283a0",
+        "name": "Children",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x170",
+        "raw": "00f9abf5780000000033eb937800000001000000000000004084c24078000000b8ac3af77800000023b612000000000045000000010000000100000010000000002200000000100000000000700100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28440",
+        "name": "RootComponent",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x180",
+        "raw": "886facf5780000000033eb937800000001000000000000008085c2407800000058b73af778000000f6f5200000000000450000000100000001000000080000001c0208401008280000000000800100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28580",
+        "name": "ControllingMatineeActors",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x188",
+        "raw": "00f9abf5780000000033eb937800000001000000000000002086c24078000000b8ac3af778000000e9f520000000000045000000010000000100000010000000002200000008200000000000880100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28620",
+        "name": "Layers",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1a0",
+        "raw": "00f9abf5780000000033eb93780000000100000000000000c086c24078000000b8ac3af778000000e5f520000000000045000000010000000100000010000000000200000000100000000000a00100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c286c0",
+        "name": "ParentComponent",
+        "array_dim": 1,
+        "element_size": 8,
+        "offset_candidate": "0x1b0",
+        "raw": "0071acf5780000000033eb937800000001000000000000006087c2407800000030c23af778000000dcf5200000000000450000000100000001000000080000000802084010004c0000000000b00100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28760",
+        "name": "Tags",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x1b8",
+        "raw": "00f9abf5780000000033eb937800000001000000000000000088c24078000000b8ac3af778000000550c20000000000045000000010000000100000010000000050200000004100000000000b80100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28800",
+        "name": "OnTakeAnyDamage",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1c8",
+        "raw": "0087acf5780000000033eb93780000000100000000000000a088c24078000000f8b33af7780000007e001f000000000045000000010000000100000001000000000008101000100000000000c80100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c288a0",
+        "name": "OnTakePointDamage",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1c9",
+        "raw": "0087acf5780000000033eb937800000001000000000000004089c24078000000f8b33af778000000035619000000000045000000010000000100000001000000000008101000100000000000c90100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28940",
+        "name": "OnTakeRadialDamage",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1ca",
+        "raw": "0087acf5780000000033eb93780000000100000000000000e089c24078000000f8b33af7780000000d5619000000000045000000010000000100000001000000000008101000100000000000ca0100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c289e0",
+        "name": "OnActorBeginOverlap",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1cb",
+        "raw": "0087acf5780000000033eb93780000000100000000000000808ac24078000000f8b33af77800000000661e000000000045000000010000000100000001000000000008101000100000000000cb0100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28a80",
+        "name": "OnActorEndOverlap",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1cc",
+        "raw": "0087acf5780000000033eb93780000000100000000000000208bc24078000000f8b33af77800000013661e000000000045000000010000000100000001000000000008101000100000000000cc0100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28b20",
+        "name": "OnBeginCursorOver",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1cd",
+        "raw": "0087acf5780000000033eb93780000000100000000000000c08bc24078000000f8b33af7780000009c011f000000000045000000010000000100000001000000000008101000100000000000cd0100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28bc0",
+        "name": "OnEndCursorOver",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1ce",
+        "raw": "0087acf5780000000033eb93780000000100000000000000608cc24078000000f8b33af778000000c5011f000000000045000000010000000100000001000000000008101000100000000000ce0100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28c60",
+        "name": "OnClicked",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1cf",
+        "raw": "0087acf5780000000033eb93780000000100000000000000008dc24078000000f8b33af778000000dcc905000000000045000000010000000100000001000000000008101000100000000000cf0100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28d00",
+        "name": "OnReleased",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1d0",
+        "raw": "0087acf5780000000033eb93780000000100000000000000a08dc24078000000f8b33af778000000fed31a000000000045000000010000000100000001000000000008101000100000000000d00100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28da0",
+        "name": "OnInputTouchBegin",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1d1",
+        "raw": "0087acf5780000000033eb93780000000100000000000000408ec24078000000f8b33af7780000002a021f000000000045000000010000000100000001000000000008101000100000000000d10100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28e40",
+        "name": "OnInputTouchEnd",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1d2",
+        "raw": "0087acf5780000000033eb93780000000100000000000000e08ec24078000000f8b33af77800000008031f000000000045000000010000000100000001000000000008101000100000000000d20100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28ee0",
+        "name": "OnInputTouchEnter",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1d3",
+        "raw": "0087acf5780000000033eb93780000000100000000000000808fc24078000000f8b33af7780000002a031f000000000045000000010000000100000001000000000008101000100000000000d30100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c28f80",
+        "name": "OnInputTouchLeave",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1d4",
+        "raw": "0087acf5780000000033eb937800000001000000000000002090c24078000000f8b33af7780000004c031f000000000045000000010000000100000001000000000008101000100000000000d40100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c29020",
+        "name": "OnActorHit",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1d5",
+        "raw": "0087acf5780000000033eb937800000001000000000000008067c24078000000f8b33af778000000c62c1b000000000045000000010000000100000001000000000008101000100000000000d50100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c26780",
+        "name": "OnDestroyed",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1f8",
+        "raw": "0087acf5780000000033eb937800000001000000000000002068c24078000000f8b33af7780000006c031f000000000045000000010000000100000001000000000008101000100000000000f80100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c26820",
+        "name": "OnEndPlay",
+        "array_dim": 1,
+        "element_size": 1,
+        "offset_candidate": "0x1f9",
+        "raw": "0087acf5780000000033eb937800000001000000000000006069c24078000000f8b33af778000000a61710000000000045000000010000000100000001000000000008101000100000000000f90100000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c26960",
+        "name": "InstanceComponents",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x270",
+        "raw": "00f9abf5780000000033eb93780000000100000000000000a06ac24078000000b8ac3af778000000d2f520000000000045000000010000000100000010000000080200008000400000000000700200000000000000000000"
+      },
+      {
+        "head_offset": "0x68",
+        "pointer": "0x7840c26aa0",
+        "name": "BlueprintCreatedComponents",
+        "array_dim": 1,
+        "element_size": 16,
+        "offset_candidate": "0x280",
+        "raw": "00f9abf5780000000033eb937800000001000000000000000000000000000000b8ac3af778000000c4f520000000000045000000010000000100000010000000080200008440100000000000800200000000000000000000"
+      }
+    ]
+  },
+  {
+    "class": "Object",
+    "pointer": "0x78d3210100",
+    "fields": []
+  }
+]

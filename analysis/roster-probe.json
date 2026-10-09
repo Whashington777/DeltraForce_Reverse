@@ -1,0 +1,2153 @@
+{
+  "pid": 22846,
+  "base": "0x78d6c43000",
+  "world": "0x7764e89ba0",
+  "world_class": "World",
+  "level": "0x785d070010",
+  "level_class": "Level",
+  "game_state": "0x783c0b6670",
+  "game_state_class": "BP_GameState_Breakthrough_C",
+  "arrays": [
+    {
+      "owner": "GameState",
+      "offset": "0x200",
+      "count": 18,
+      "capacity": 36,
+      "data": "0x77c9d514e0",
+      "samples": [
+        {
+          "slot": 0,
+          "pointer": "0x77a230f100",
+          "index": 151076,
+          "class": "GPAudioControllerComponent"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x77b6b5e3e0",
+          "index": 151075,
+          "class": "DFMBroadcastComponent"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x7771f97f00",
+          "index": 151074,
+          "class": "DFMGameDataCenterComponent"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x776d634d80",
+          "index": 151071,
+          "class": "MapInfoSystem"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x777cd8c100",
+          "index": 151070,
+          "class": "DFMAbilityLockerComponent"
+        },
+        {
+          "slot": 5,
+          "pointer": "0x785efb1e00",
+          "index": 151067,
+          "class": "DFMDeformSmokeGameStateComponent"
+        },
+        {
+          "slot": 6,
+          "pointer": "0x7767fba060",
+          "index": 151066,
+          "class": "BreakthroughNotifySubSystem"
+        },
+        {
+          "slot": 7,
+          "pointer": "0x7866abce00",
+          "index": 151063,
+          "class": "BreakthroughNotifyReceiveComponent"
+        },
+        {
+          "slot": 8,
+          "pointer": "0x776fc56600",
+          "index": 151062,
+          "class": "FortificationSystem"
+        },
+        {
+          "slot": 9,
+          "pointer": "0x777cd80940",
+          "index": 151058,
+          "class": "BattleFieldDynamicLayoutComponent"
+        },
+        {
+          "slot": 10,
+          "pointer": "0x780c2f8b00",
+          "index": 151042,
+          "class": "BattleFieldCommanderOrdersComponent"
+        },
+        {
+          "slot": 11,
+          "pointer": "0x77673a6100",
+          "index": 151039,
+          "class": "BattleFieldCommanderDataComponent"
+        },
+        {
+          "slot": 12,
+          "pointer": "0x776eaf1120",
+          "index": 151038,
+          "class": "BP_InteractSystemComponent_Breakthrough_C"
+        },
+        {
+          "slot": 13,
+          "pointer": "0x78574f6200",
+          "index": 151027,
+          "class": "DFMMarkerEffectComponent"
+        },
+        {
+          "slot": 14,
+          "pointer": "0x77665de4a0",
+          "index": 151026,
+          "class": "DFMAbilityGameStateComponent"
+        },
+        {
+          "slot": 15,
+          "pointer": "0x7768a4c590",
+          "index": 151023,
+          "class": "FreezeZoneManagerComponent"
+        },
+        {
+          "slot": 16,
+          "pointer": "0x780c46f810",
+          "index": 151022,
+          "class": "DFMSettlementComponent"
+        },
+        {
+          "slot": 17,
+          "pointer": "0x77a7bb5400",
+          "index": 114277,
+          "class": "DFMMarkerEffectComponent"
+        }
+      ],
+      "class_counts": {
+        "GPAudioControllerComponent": 1,
+        "DFMBroadcastComponent": 1,
+        "DFMGameDataCenterComponent": 1,
+        "MapInfoSystem": 1,
+        "DFMAbilityLockerComponent": 1,
+        "DFMDeformSmokeGameStateComponent": 1,
+        "BreakthroughNotifySubSystem": 1,
+        "BreakthroughNotifyReceiveComponent": 1,
+        "FortificationSystem": 1,
+        "BattleFieldDynamicLayoutComponent": 1,
+        "BattleFieldCommanderOrdersComponent": 1,
+        "BattleFieldCommanderDataComponent": 1,
+        "BP_InteractSystemComponent_Breakthrough_C": 1,
+        "DFMMarkerEffectComponent": 2,
+        "DFMAbilityGameStateComponent": 1,
+        "FreezeZoneManagerComponent": 1,
+        "DFMSettlementComponent": 1
+      }
+    },
+    {
+      "owner": "GameState",
+      "offset": "0x210",
+      "count": 6,
+      "capacity": 24,
+      "data": "0x7772851000",
+      "samples": [
+        {
+          "slot": 0,
+          "pointer": "0x7771f97f00",
+          "index": 151074,
+          "class": "DFMGameDataCenterComponent"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x776fc56600",
+          "index": 151062,
+          "class": "FortificationSystem"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x777cd80940",
+          "index": 151058,
+          "class": "BattleFieldDynamicLayoutComponent"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x780c2f8b00",
+          "index": 151042,
+          "class": "BattleFieldCommanderOrdersComponent"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x77673a6100",
+          "index": 151039,
+          "class": "BattleFieldCommanderDataComponent"
+        },
+        {
+          "slot": 5,
+          "pointer": "0x7768a4c590",
+          "index": 151023,
+          "class": "FreezeZoneManagerComponent"
+        }
+      ],
+      "class_counts": {
+        "DFMGameDataCenterComponent": 1,
+        "FortificationSystem": 1,
+        "BattleFieldDynamicLayoutComponent": 1,
+        "BattleFieldCommanderOrdersComponent": 1,
+        "BattleFieldCommanderDataComponent": 1,
+        "FreezeZoneManagerComponent": 1
+      }
+    },
+    {
+      "owner": "GameState",
+      "offset": "0x220",
+      "count": 31,
+      "capacity": 56,
+      "data": "0x776fc57400",
+      "samples": [
+        {
+          "slot": 0,
+          "pointer": "0x77a230f100",
+          "index": 151076,
+          "class": "GPAudioControllerComponent"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x77b6b5e3e0",
+          "index": 151075,
+          "class": "DFMBroadcastComponent"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x7771f97f00",
+          "index": 151074,
+          "class": "DFMGameDataCenterComponent"
+        },
+        {
+          "slot": 6,
+          "pointer": "0x776d634d80",
+          "index": 151071,
+          "class": "MapInfoSystem"
+        },
+        {
+          "slot": 8,
+          "pointer": "0x777cd8c100",
+          "index": 151070,
+          "class": "DFMAbilityLockerComponent"
+        },
+        {
+          "slot": 10,
+          "pointer": "0x785efb1e00",
+          "index": 151067,
+          "class": "DFMDeformSmokeGameStateComponent"
+        },
+        {
+          "slot": 12,
+          "pointer": "0x7767fba060",
+          "index": 151066,
+          "class": "BreakthroughNotifySubSystem"
+        },
+        {
+          "slot": 14,
+          "pointer": "0x7866abce00",
+          "index": 151063,
+          "class": "BreakthroughNotifyReceiveComponent"
+        },
+        {
+          "slot": 16,
+          "pointer": "0x776fc56600",
+          "index": 151062,
+          "class": "FortificationSystem"
+        },
+        {
+          "slot": 18,
+          "pointer": "0x779eb3ee00",
+          "index": 151059,
+          "class": "ChangeableStatusComponent"
+        },
+        {
+          "slot": 20,
+          "pointer": "0x777cd80940",
+          "index": 151058,
+          "class": "BattleFieldDynamicLayoutComponent"
+        },
+        {
+          "slot": 22,
+          "pointer": "0x77a28a52c0",
+          "index": 151055,
+          "class": "HVTManagerComponent"
+        },
+        {
+          "slot": 24,
+          "pointer": "0x7771f9fb80",
+          "index": 151054,
+          "class": "VIPManagerComponent"
+        },
+        {
+          "slot": 26,
+          "pointer": "0x778f850880",
+          "index": 151051,
+          "class": "SceneComponent"
+        },
+        {
+          "slot": 28,
+          "pointer": "0x777a850080",
+          "index": 151050,
+          "class": "BreakthroughDataComponent"
+        },
+        {
+          "slot": 30,
+          "pointer": "0x778f85f040",
+          "index": 151047,
+          "class": "BreakthroughDynamicMusic"
+        }
+      ],
+      "class_counts": {
+        "GPAudioControllerComponent": 1,
+        "DFMBroadcastComponent": 1,
+        "DFMGameDataCenterComponent": 1,
+        "MapInfoSystem": 1,
+        "DFMAbilityLockerComponent": 1,
+        "DFMDeformSmokeGameStateComponent": 1,
+        "BreakthroughNotifySubSystem": 1,
+        "BreakthroughNotifyReceiveComponent": 1,
+        "FortificationSystem": 1,
+        "ChangeableStatusComponent": 1,
+        "BattleFieldDynamicLayoutComponent": 1,
+        "HVTManagerComponent": 1,
+        "VIPManagerComponent": 1,
+        "SceneComponent": 1,
+        "BreakthroughDataComponent": 1,
+        "BreakthroughDynamicMusic": 1
+      }
+    },
+    {
+      "owner": "GameState",
+      "offset": "0x280",
+      "count": 9,
+      "capacity": 24,
+      "data": "0x7772853100",
+      "samples": [
+        {
+          "slot": 0,
+          "pointer": "0x778f850880",
+          "index": 151051,
+          "class": "SceneComponent"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x777a850080",
+          "index": 151050,
+          "class": "BreakthroughDataComponent"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x778f85f040",
+          "index": 151047,
+          "class": "BreakthroughDynamicMusic"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x7736a560a0",
+          "index": 151046,
+          "class": "BreakthroughStatisticsComponent"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x775bcb3600",
+          "index": 151043,
+          "class": "BattleFieldOrdersComponent"
+        },
+        {
+          "slot": 5,
+          "pointer": "0x780c2f8b00",
+          "index": 151042,
+          "class": "BattleFieldCommanderOrdersComponent"
+        },
+        {
+          "slot": 6,
+          "pointer": "0x77673a6100",
+          "index": 151039,
+          "class": "BattleFieldCommanderDataComponent"
+        },
+        {
+          "slot": 7,
+          "pointer": "0x776eaf1120",
+          "index": 151038,
+          "class": "BP_InteractSystemComponent_Breakthrough_C"
+        },
+        {
+          "slot": 8,
+          "pointer": "0x7774c9d900",
+          "index": 151035,
+          "class": "BP_SOLInteractSystemBase_C"
+        }
+      ],
+      "class_counts": {
+        "SceneComponent": 1,
+        "BreakthroughDataComponent": 1,
+        "BreakthroughDynamicMusic": 1,
+        "BreakthroughStatisticsComponent": 1,
+        "BattleFieldOrdersComponent": 1,
+        "BattleFieldCommanderOrdersComponent": 1,
+        "BattleFieldCommanderDataComponent": 1,
+        "BP_InteractSystemComponent_Breakthrough_C": 1,
+        "BP_SOLInteractSystemBase_C": 1
+      }
+    },
+    {
+      "owner": "GameState",
+      "offset": "0x320",
+      "count": 2,
+      "capacity": 4,
+      "data": "0x7859265b80",
+      "samples": [
+        {
+          "slot": 0,
+          "pointer": "0x78940c9480",
+          "index": 2654,
+          "class": "Class"
+        }
+      ],
+      "class_counts": {
+        "Class": 1
+      }
+    },
+    {
+      "owner": "GameState",
+      "offset": "0x388",
+      "count": 48,
+      "capacity": 56,
+      "data": "0x780c47d440",
+      "samples": [
+        {
+          "slot": 0,
+          "pointer": "0x77c0ba24a0",
+          "index": 152552,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x77c9fc6dc0",
+          "index": 124912,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x77c0f024a0",
+          "index": 124883,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x77c0ba9250",
+          "index": 118833,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x789f659250",
+          "index": 118815,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 5,
+          "pointer": "0x776dab0010",
+          "index": 118812,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 6,
+          "pointer": "0x789f65db70",
+          "index": 118139,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 7,
+          "pointer": "0x783a3cb6e0",
+          "index": 118135,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 8,
+          "pointer": "0x776dab9250",
+          "index": 118046,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 9,
+          "pointer": "0x77a0fe6dc0",
+          "index": 118043,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 10,
+          "pointer": "0x77964b6dc0",
+          "index": 117214,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 11,
+          "pointer": "0x7792de0010",
+          "index": 117205,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 12,
+          "pointer": "0x776e360010",
+          "index": 116520,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 13,
+          "pointer": "0x77a37d24a0",
+          "index": 115108,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 14,
+          "pointer": "0x77a51524a0",
+          "index": 111458,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 15,
+          "pointer": "0x77c9fc9250",
+          "index": 111454,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 16,
+          "pointer": "0x77c1910010",
+          "index": 110073,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 17,
+          "pointer": "0x789f65b6e0",
+          "index": 108142,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 18,
+          "pointer": "0x77c1914930",
+          "index": 160085,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 19,
+          "pointer": "0x78a051db70",
+          "index": 137408,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 20,
+          "pointer": "0x77c0ba4930",
+          "index": 153089,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 21,
+          "pointer": "0x7755c50010",
+          "index": 194804,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 22,
+          "pointer": "0x7718294930",
+          "index": 180329,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 23,
+          "pointer": "0x77146c24a0",
+          "index": 203503,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 24,
+          "pointer": "0x77146c4930",
+          "index": 203500,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 25,
+          "pointer": "0x77146c9250",
+          "index": 203110,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 26,
+          "pointer": "0x77179f9250",
+          "index": 201352,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 27,
+          "pointer": "0x77557b4930",
+          "index": 200507,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 28,
+          "pointer": "0x7716aab6e0",
+          "index": 175080,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 29,
+          "pointer": "0x7716aa24a0",
+          "index": 171147,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 30,
+          "pointer": "0x7716aa0010",
+          "index": 171122,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 31,
+          "pointer": "0x7717dcdb70",
+          "index": 171117,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 32,
+          "pointer": "0x7717dc9250",
+          "index": 169064,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 33,
+          "pointer": "0x778f404930",
+          "index": 164612,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 34,
+          "pointer": "0x7717dc24a0",
+          "index": 164587,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 35,
+          "pointer": "0x7717dc0010",
+          "index": 164580,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 36,
+          "pointer": "0x77111e4930",
+          "index": 161293,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 37,
+          "pointer": "0x77111e24a0",
+          "index": 161286,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 38,
+          "pointer": "0x7718296dc0",
+          "index": 158580,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 39,
+          "pointer": "0x7712b89250",
+          "index": 158573,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 40,
+          "pointer": "0x7712b84930",
+          "index": 136887,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 41,
+          "pointer": "0x7712b80010",
+          "index": 133832,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 42,
+          "pointer": "0x771079b6e0",
+          "index": 129949,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 43,
+          "pointer": "0x77107924a0",
+          "index": 150336,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 44,
+          "pointer": "0x7710790010",
+          "index": 150307,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 45,
+          "pointer": "0x770f45db70",
+          "index": 140224,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 46,
+          "pointer": "0x770f459250",
+          "index": 140207,
+          "class": "BP_BattleFieldPlayerState_C"
+        },
+        {
+          "slot": 47,
+          "pointer": "0x770f456dc0",
+          "index": 139786,
+          "class": "BP_BattleFieldPlayerState_C"
+        }
+      ],
+      "class_counts": {
+        "BP_BattleFieldPlayerState_C": 48
+      }
+    },
+    {
+      "owner": "Level",
+      "offset": "0x98",
+      "count": 1136,
+      "capacity": 1364,
+      "data": "0x7712b95580",
+      "samples": [
+        {
+          "slot": 0,
+          "pointer": "0x7771bdb530",
+          "index": 161036,
+          "class": "BP_PropertyReplicationActor_C"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x77a0b61f90",
+          "index": 161028,
+          "class": "BP_PropertyReplicationCharacterHealth_C"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x77a0b6bd10",
+          "index": 160382,
+          "class": "DefaultPhysicsVolume"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x77686a95c0",
+          "index": 161774,
+          "class": "BP_HumveeMachineGun_C"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x77a686c100",
+          "index": 161853,
+          "class": "BP_CampSectorOwnerSceneActor_C"
+        },
+        {
+          "slot": 5,
+          "pointer": "0x78201d9e00",
+          "index": 161849,
+          "class": "BP_CampSectorOwnerSceneActor_C"
+        },
+        {
+          "slot": 6,
+          "pointer": "0x77a6c82380",
+          "index": 161735,
+          "class": "BP_SectorOwnerSceneActor_C"
+        },
+        {
+          "slot": 7,
+          "pointer": "0x780baf6280",
+          "index": 161739,
+          "class": "BP_SectorOwnerSceneActor_C"
+        },
+        {
+          "slot": 8,
+          "pointer": "0x776928f580",
+          "index": 161731,
+          "class": "BP_SectorOwnerSceneActor_C"
+        },
+        {
+          "slot": 9,
+          "pointer": "0x77bc84d280",
+          "index": 161723,
+          "class": "BP_SectorTextSceneActor_C"
+        },
+        {
+          "slot": 10,
+          "pointer": "0x776d801200",
+          "index": 161727,
+          "class": "BP_SectorTextSceneActor_C"
+        },
+        {
+          "slot": 11,
+          "pointer": "0x77c6b05b80",
+          "index": 161719,
+          "class": "BP_SectorTextSceneActor_C"
+        },
+        {
+          "slot": 12,
+          "pointer": "0x776a5e5730",
+          "index": 161506,
+          "class": "GPPathWayPoint"
+        },
+        {
+          "slot": 13,
+          "pointer": "0x776a5e5bc0",
+          "index": 161502,
+          "class": "GPPathWayPoint"
+        },
+        {
+          "slot": 14,
+          "pointer": "0x77a0b6bd10",
+          "index": 160382,
+          "class": "DefaultPhysicsVolume"
+        },
+        {
+          "slot": 15,
+          "pointer": "0x77a0b61f90",
+          "index": 161028,
+          "class": "BP_PropertyReplicationCharacterHealth_C"
+        },
+        {
+          "slot": 16,
+          "pointer": "0x7771bdb530",
+          "index": 161036,
+          "class": "BP_PropertyReplicationActor_C"
+        },
+        {
+          "slot": 17,
+          "pointer": "0x77686ac590",
+          "index": 161703,
+          "class": "BP_SpawnAreaHub_C"
+        },
+        {
+          "slot": 18,
+          "pointer": "0x77686adad0",
+          "index": 161687,
+          "class": "BP_SpawnAreaHub_C"
+        },
+        {
+          "slot": 19,
+          "pointer": "0x77686ab5a0",
+          "index": 161715,
+          "class": "BP_SpawnAreaHub_C"
+        },
+        {
+          "slot": 20,
+          "pointer": "0x78aa988b20",
+          "index": 161547,
+          "class": "DesReplicationActor"
+        },
+        {
+          "slot": 21,
+          "pointer": "0x77686aeac0",
+          "index": 161679,
+          "class": "BP_SpawnAreaHub_C"
+        },
+        {
+          "slot": 22,
+          "pointer": "0x77686af010",
+          "index": 161675,
+          "class": "BP_SpawnAreaHub_C"
+        },
+        {
+          "slot": 23,
+          "pointer": "0x77686a0100",
+          "index": 161663,
+          "class": "BP_SpawnAreaHub_C"
+        },
+        {
+          "slot": 24,
+          "pointer": "0x785d585600",
+          "index": 161989,
+          "class": "BP_BattleSectorAnchor_C"
+        },
+        {
+          "slot": 25,
+          "pointer": "0x77c7858080",
+          "index": 161997,
+          "class": "BP_BattleSectorAnchor_C"
+        },
+        {
+          "slot": 26,
+          "pointer": "0x77c1a6cae0",
+          "index": 162005,
+          "class": "BP_BattleSectorAnchor_C"
+        },
+        {
+          "slot": 27,
+          "pointer": "0x778987a060",
+          "index": 162013,
+          "class": "BP_BattleSectorAnchor_C"
+        },
+        {
+          "slot": 28,
+          "pointer": "0x7731024b60",
+          "index": 162021,
+          "class": "BP_BattleSectorAnchor_C"
+        },
+        {
+          "slot": 29,
+          "pointer": "0x77686a10f0",
+          "index": 161101,
+          "class": "TeamStart"
+        },
+        {
+          "slot": 30,
+          "pointer": "0x77686a0ba0",
+          "index": 161106,
+          "class": "TeamStart"
+        },
+        {
+          "slot": 31,
+          "pointer": "0x77686ac040",
+          "index": 161707,
+          "class": "BP_SpawnAreaHub_C"
+        },
+        {
+          "slot": 32,
+          "pointer": "0x77686a9b10",
+          "index": 161759,
+          "class": "BP_SectorAnchorFlag_Breakthrough_C"
+        },
+        {
+          "slot": 33,
+          "pointer": "0x77686abaf0",
+          "index": 161711,
+          "class": "BP_SpawnAreaHub_C"
+        },
+        {
+          "slot": 34,
+          "pointer": "0x7767fbd580",
+          "index": 162078,
+          "class": "BP_BattleCampSector_C"
+        },
+        {
+          "slot": 35,
+          "pointer": "0x7769b08040",
+          "index": 161826,
+          "class": "BP_Humvee_Cracked_C"
+        },
+        {
+          "slot": 36,
+          "pointer": "0x77686ad580",
+          "index": 161691,
+          "class": "BP_SpawnAreaHub_C"
+        },
+        {
+          "slot": 37,
+          "pointer": "0x77686ae020",
+          "index": 161683,
+          "class": "BP_SpawnAreaHub_C"
+        },
+        {
+          "slot": 38,
+          "pointer": "0x77686aab00",
+          "index": 161747,
+          "class": "BP_SectorAnchorFlag_Breakthrough_C"
+        },
+        {
+          "slot": 39,
+          "pointer": "0x77686ab050",
+          "index": 161743,
+          "class": "BP_SectorAnchorFlag_Breakthrough_C"
+        },
+        {
+          "slot": 40,
+          "pointer": "0x77686aa5b0",
+          "index": 161751,
+          "class": "BP_SectorAnchorFlag_Breakthrough_C"
+        },
+        {
+          "slot": 41,
+          "pointer": "0x77686aa060",
+          "index": 161755,
+          "class": "BP_SectorAnchorFlag_Breakthrough_C"
+        },
+        {
+          "slot": 42,
+          "pointer": "0x779046e860",
+          "index": 161658,
+          "class": "BP_VehicleRefreshRule_C"
+        },
+        {
+          "slot": 43,
+          "pointer": "0x77904646f0",
+          "index": 161655,
+          "class": "BP_VehicleRefreshRule_C"
+        },
+        {
+          "slot": 44,
+          "pointer": "0x7790461f90",
+          "index": 161659,
+          "class": "BP_VehicleRefreshRule_C"
+        },
+        {
+          "slot": 45,
+          "pointer": "0x77686acae0",
+          "index": 161699,
+          "class": "BP_SpawnAreaHub_C"
+        },
+        {
+          "slot": 46,
+          "pointer": "0x77686afab0",
+          "index": 161667,
+          "class": "BP_SpawnAreaHub_C"
+        },
+        {
+          "slot": 47,
+          "pointer": "0x77686af560",
+          "index": 161671,
+          "class": "BP_SpawnAreaHub_C"
+        },
+        {
+          "slot": 48,
+          "pointer": "0x77686ad030",
+          "index": 161695,
+          "class": "BP_SpawnAreaHub_C"
+        },
+        {
+          "slot": 49,
+          "pointer": "0x7772060760",
+          "index": 162032,
+          "class": "BP_BattleSector_C"
+        },
+        {
+          "slot": 50,
+          "pointer": "0x77686a8b20",
+          "index": 162048,
+          "class": "BP_BattleCampSector_C"
+        },
+        {
+          "slot": 51,
+          "pointer": "0x77c6e0eac0",
+          "index": 162054,
+          "class": "BP_BattleCampSector_C"
+        },
+        {
+          "slot": 52,
+          "pointer": "0x7767fb1b90",
+          "index": 162072,
+          "class": "BP_BattleCampSector_C"
+        },
+        {
+          "slot": 53,
+          "pointer": "0x7767fb10f0",
+          "index": 162066,
+          "class": "BP_BattleCampSector_C"
+        },
+        {
+          "slot": 54,
+          "pointer": "0x777206cd00",
+          "index": 162042,
+          "class": "BP_BattleSector_C"
+        },
+        {
+          "slot": 55,
+          "pointer": "0x785d060100",
+          "index": 162060,
+          "class": "BP_BattleCampSector_C"
+        },
+        {
+          "slot": 56,
+          "pointer": "0x777206f9a0",
+          "index": 162037,
+          "class": "BP_BattleSector_C"
+        },
+        {
+          "slot": 57,
+          "pointer": "0x776a5e52a0",
+          "index": 161647,
+          "class": "BP_VehicleSector_C"
+        },
+        {
+          "slot": 58,
+          "pointer": "0x776a5e4e10",
+          "index": 161654,
+          "class": "BP_VehicleSector_C"
+        },
+        {
+          "slot": 60,
+          "pointer": "0x77680e4180",
+          "index": 161839,
+          "class": "BP_CampVehicleSpawner_Breakthrough_C"
+        },
+        {
+          "slot": 61,
+          "pointer": "0x785774c080",
+          "index": 161630,
+          "class": "BP_VehicleSpawner_Breakthrough_C"
+        },
+        {
+          "slot": 62,
+          "pointer": "0x78577419d0",
+          "index": 161634,
+          "class": "BP_VehicleSpawner_Breakthrough_C"
+        },
+        {
+          "slot": 63,
+          "pointer": "0x78577411e0",
+          "index": 161638,
+          "class": "BP_VehicleSpawner_Breakthrough_C"
+        },
+        {
+          "slot": 64,
+          "pointer": "0x7857744180",
+          "index": 161642,
+          "class": "BP_VehicleSpawner_Breakthrough_C"
+        },
+        {
+          "slot": 75,
+          "pointer": "0x77680e3990",
+          "index": 161841,
+          "class": "BP_CampVehicleSpawner_Breakthrough_C"
+        },
+        {
+          "slot": 76,
+          "pointer": "0x77680ea8b0",
+          "index": 161845,
+          "class": "BP_CampVehicleSpawner_Breakthrough_C"
+        },
+        {
+          "slot": 77,
+          "pointer": "0x78577429b0",
+          "index": 161622,
+          "class": "BP_VehicleSpawner_Breakthrough_C"
+        },
+        {
+          "slot": 78,
+          "pointer": "0x785774f810",
+          "index": 161626,
+          "class": "BP_VehicleSpawner_Breakthrough_C"
+        },
+        {
+          "slot": 79,
+          "pointer": "0x783a516700",
+          "index": 161830,
+          "class": "BP_DemarcationLine_Style01_C"
+        },
+        {
+          "slot": 80,
+          "pointer": "0x783a512da0",
+          "index": 161831,
+          "class": "BP_DemarcationLine_Style01_C"
+        },
+        {
+          "slot": 81,
+          "pointer": "0x783a5173c0",
+          "index": 161834,
+          "class": "BP_DemarcationLine_Style01_C"
+        },
+        {
+          "slot": 82,
+          "pointer": "0x783a518d40",
+          "index": 161835,
+          "class": "BP_DemarcationLine_Style01_C"
+        },
+        {
+          "slot": 83,
+          "pointer": "0x783a51c040",
+          "index": 161827,
+          "class": "BP_DemarcationLine_Style01_C"
+        },
+        {
+          "slot": 84,
+          "pointer": "0x77686a0650",
+          "index": 161554,
+          "class": "DamageEventVolume"
+        },
+        {
+          "slot": 85,
+          "pointer": "0x776d804d80",
+          "index": 162789,
+          "class": "Actor"
+        },
+        {
+          "slot": 86,
+          "pointer": "0x77e5303990",
+          "index": 161559,
+          "class": "DamageEventTriggerVolume"
+        },
+        {
+          "slot": 87,
+          "pointer": "0x78aa1f6980",
+          "index": 162797,
+          "class": "Actor"
+        },
+        {
+          "slot": 88,
+          "pointer": "0x77a6d60080",
+          "index": 162799,
+          "class": "Actor"
+        },
+        {
+          "slot": 89,
+          "pointer": "0x77cfd16980",
+          "index": 162791,
+          "class": "Actor"
+        },
+        {
+          "slot": 90,
+          "pointer": "0x78afd89380",
+          "index": 162793,
+          "class": "Actor"
+        },
+        {
+          "slot": 91,
+          "pointer": "0x779db88580",
+          "index": 162795,
+          "class": "Actor"
+        },
+        {
+          "slot": 92,
+          "pointer": "0x775c446d00",
+          "index": 162790,
+          "class": "Actor"
+        },
+        {
+          "slot": 93,
+          "pointer": "0x7a65913f80",
+          "index": 162792,
+          "class": "Actor"
+        },
+        {
+          "slot": 94,
+          "pointer": "0x792a6ebd80",
+          "index": 162794,
+          "class": "Actor"
+        },
+        {
+          "slot": 95,
+          "pointer": "0x77e53098d0",
+          "index": 161579,
+          "class": "CreakedEnd_C"
+        },
+        {
+          "slot": 96,
+          "pointer": "0x77e53019d0",
+          "index": 161590,
+          "class": "CreakedEnd_C"
+        },
+        {
+          "slot": 97,
+          "pointer": "0x78ad870080",
+          "index": 161514,
+          "class": "GamePlayValidAreaActor"
+        },
+        {
+          "slot": 98,
+          "pointer": "0x785d0550b0",
+          "index": 161618,
+          "class": "CameraActor"
+        },
+        {
+          "slot": 99,
+          "pointer": "0x780f4b40c0",
+          "index": 161599,
+          "class": "CameraActor"
+        },
+        {
+          "slot": 100,
+          "pointer": "0x77c05340c0",
+          "index": 161606,
+          "class": "CameraActor"
+        },
+        {
+          "slot": 101,
+          "pointer": "0x77b51620e0",
+          "index": 161611,
+          "class": "CameraActor"
+        },
+        {
+          "slot": 102,
+          "pointer": "0x77e530a0c0",
+          "index": 161570,
+          "class": "CreakedEnd_C"
+        },
+        {
+          "slot": 103,
+          "pointer": "0x776a5e6050",
+          "index": 161457,
+          "class": "NavExtendAgentDebug"
+        },
+        {
+          "slot": 104,
+          "pointer": "0x789f5b2380",
+          "index": 162796,
+          "class": "Actor"
+        },
+        {
+          "slot": 105,
+          "pointer": "0x779046f040",
+          "index": 161885,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 106,
+          "pointer": "0x779046f430",
+          "index": 161889,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 107,
+          "pointer": "0x779046d8a0",
+          "index": 161893,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 108,
+          "pointer": "0x7790465e90",
+          "index": 161901,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 109,
+          "pointer": "0x7790462380",
+          "index": 161905,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 110,
+          "pointer": "0x7790462f50",
+          "index": 161909,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 111,
+          "pointer": "0x77962a0010",
+          "index": 161913,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 112,
+          "pointer": "0x77962a6280",
+          "index": 161917,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 113,
+          "pointer": "0x77962a0be0",
+          "index": 161921,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 114,
+          "pointer": "0x77962a95b0",
+          "index": 161925,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 115,
+          "pointer": "0x77962a3f10",
+          "index": 161929,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 116,
+          "pointer": "0x77962aa570",
+          "index": 161933,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 117,
+          "pointer": "0x77962a2b60",
+          "index": 161937,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 118,
+          "pointer": "0x77962a89e0",
+          "index": 161945,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 119,
+          "pointer": "0x77962a3340",
+          "index": 161949,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        }
+      ],
+      "class_counts": {
+        "BP_PropertyReplicationActor_C": 2,
+        "BP_PropertyReplicationCharacterHealth_C": 2,
+        "DefaultPhysicsVolume": 2,
+        "BP_HumveeMachineGun_C": 1,
+        "BP_CampSectorOwnerSceneActor_C": 2,
+        "BP_SectorOwnerSceneActor_C": 3,
+        "BP_SectorTextSceneActor_C": 3,
+        "GPPathWayPoint": 2,
+        "BP_SpawnAreaHub_C": 14,
+        "DesReplicationActor": 1,
+        "BP_BattleSectorAnchor_C": 5,
+        "TeamStart": 2,
+        "BP_SectorAnchorFlag_Breakthrough_C": 5,
+        "BP_BattleCampSector_C": 6,
+        "BP_Humvee_Cracked_C": 1,
+        "BP_VehicleRefreshRule_C": 3,
+        "BP_BattleSector_C": 3,
+        "BP_VehicleSector_C": 2,
+        "BP_CampVehicleSpawner_Breakthrough_C": 3,
+        "BP_VehicleSpawner_Breakthrough_C": 6,
+        "BP_DemarcationLine_Style01_C": 5,
+        "DamageEventVolume": 1,
+        "Actor": 10,
+        "DamageEventTriggerVolume": 1,
+        "CreakedEnd_C": 3,
+        "GamePlayValidAreaActor": 1,
+        "CameraActor": 4,
+        "NavExtendAgentDebug": 1,
+        "BP_Breakthrough_PlayerStart_C": 15
+      }
+    },
+    {
+      "owner": "Level",
+      "offset": "0x1f0",
+      "count": 931,
+      "capacity": 1364,
+      "data": "0x791d30d560",
+      "samples": [
+        {
+          "slot": 0,
+          "pointer": "0x7773f28040",
+          "index": 161518,
+          "class": "DFMWorldSettings"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x777aeb6600",
+          "index": 161510,
+          "class": "GamePlayValidAreaActor"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x7790466a60",
+          "index": 161472,
+          "class": "LandscapeGizmoActiveActor"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x776a5e6970",
+          "index": 161094,
+          "class": "VCRManager"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x7790464ed0",
+          "index": 161489,
+          "class": "GPSplinePath"
+        },
+        {
+          "slot": 5,
+          "pointer": "0x783c3f1ba0",
+          "index": 161194,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 6,
+          "pointer": "0x783c3f7a20",
+          "index": 161371,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 7,
+          "pointer": "0x783c3ffc10",
+          "index": 161320,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 8,
+          "pointer": "0x783c3f07f0",
+          "index": 161276,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 9,
+          "pointer": "0x783c3f6e50",
+          "index": 161232,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 10,
+          "pointer": "0x783c3f5e90",
+          "index": 161210,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 11,
+          "pointer": "0x783c3f1f90",
+          "index": 161206,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 12,
+          "pointer": "0x783c3fd8a0",
+          "index": 161202,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 13,
+          "pointer": "0x783c3f13c0",
+          "index": 161198,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 14,
+          "pointer": "0x779046f820",
+          "index": 161449,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 15,
+          "pointer": "0x7790464ae0",
+          "index": 161445,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 16,
+          "pointer": "0x77904613c0",
+          "index": 161441,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 17,
+          "pointer": "0x7790464300",
+          "index": 161437,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 18,
+          "pointer": "0x77904617b0",
+          "index": 161433,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 19,
+          "pointer": "0x7790460be0",
+          "index": 161429,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 20,
+          "pointer": "0x7790460010",
+          "index": 161425,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 21,
+          "pointer": "0x779046fc10",
+          "index": 161421,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 22,
+          "pointer": "0x77904607f0",
+          "index": 161417,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 23,
+          "pointer": "0x7790463730",
+          "index": 161413,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 24,
+          "pointer": "0x783c3f3730",
+          "index": 161409,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 25,
+          "pointer": "0x783c3f4300",
+          "index": 161405,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 26,
+          "pointer": "0x783c3ff040",
+          "index": 161401,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 27,
+          "pointer": "0x783c3ff820",
+          "index": 161397,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 28,
+          "pointer": "0x783c3f46f0",
+          "index": 161393,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 29,
+          "pointer": "0x783c3f2380",
+          "index": 161389,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 30,
+          "pointer": "0x783c3f6280",
+          "index": 161385,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 31,
+          "pointer": "0x783c3f3f10",
+          "index": 161381,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 32,
+          "pointer": "0x783c3f7630",
+          "index": 161379,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 33,
+          "pointer": "0x783c3fc8e0",
+          "index": 161375,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 34,
+          "pointer": "0x783c3fa960",
+          "index": 161367,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 35,
+          "pointer": "0x783c3fe080",
+          "index": 161363,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 36,
+          "pointer": "0x783c3fc4f0",
+          "index": 161359,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 37,
+          "pointer": "0x783c3f8dd0",
+          "index": 161355,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 38,
+          "pointer": "0x783c3f0010",
+          "index": 161344,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 39,
+          "pointer": "0x783c3f56b0",
+          "index": 161340,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 40,
+          "pointer": "0x783c3f4ed0",
+          "index": 161336,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 41,
+          "pointer": "0x783c3fdc90",
+          "index": 161332,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 42,
+          "pointer": "0x783c3fec50",
+          "index": 161328,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 43,
+          "pointer": "0x783c3fe470",
+          "index": 161324,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 44,
+          "pointer": "0x783c3f8200",
+          "index": 161316,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 45,
+          "pointer": "0x783c3f6a60",
+          "index": 161312,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 46,
+          "pointer": "0x783c3fe860",
+          "index": 161308,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 47,
+          "pointer": "0x783c3fa180",
+          "index": 161304,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 48,
+          "pointer": "0x783c3fb920",
+          "index": 161300,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 49,
+          "pointer": "0x783c3f91c0",
+          "index": 161296,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 50,
+          "pointer": "0x783c3f95b0",
+          "index": 161292,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 51,
+          "pointer": "0x783c3f3b20",
+          "index": 161288,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 52,
+          "pointer": "0x783c3f2770",
+          "index": 161284,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 53,
+          "pointer": "0x783c3fbd10",
+          "index": 161280,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 54,
+          "pointer": "0x783c3fb530",
+          "index": 161272,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 55,
+          "pointer": "0x783c3fd0c0",
+          "index": 161268,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 56,
+          "pointer": "0x783c3f9d90",
+          "index": 161264,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 57,
+          "pointer": "0x783c3f85f0",
+          "index": 161260,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 58,
+          "pointer": "0x783c3fb140",
+          "index": 161256,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 59,
+          "pointer": "0x783c3f5aa0",
+          "index": 161252,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 60,
+          "pointer": "0x783c3fccd0",
+          "index": 161248,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 61,
+          "pointer": "0x783c3f89e0",
+          "index": 161244,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 62,
+          "pointer": "0x783c3f4ae0",
+          "index": 161240,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 63,
+          "pointer": "0x783c3f52c0",
+          "index": 161236,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 64,
+          "pointer": "0x783c3f7240",
+          "index": 161228,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 65,
+          "pointer": "0x783c3fad50",
+          "index": 161226,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 66,
+          "pointer": "0x779046d0c0",
+          "index": 161222,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 67,
+          "pointer": "0x783c3f7e10",
+          "index": 161218,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 68,
+          "pointer": "0x783c3f0fd0",
+          "index": 161214,
+          "class": "PlayerStart"
+        },
+        {
+          "slot": 69,
+          "pointer": "0x776d807b00",
+          "index": 162798,
+          "class": "Actor"
+        },
+        {
+          "slot": 70,
+          "pointer": "0x779046ec50",
+          "index": 161857,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 71,
+          "pointer": "0x77962a2f50",
+          "index": 161941,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 72,
+          "pointer": "0x7790466280",
+          "index": 161897,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 73,
+          "pointer": "0x77904656b0",
+          "index": 161881,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 74,
+          "pointer": "0x7790462770",
+          "index": 161877,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 75,
+          "pointer": "0x7790467a20",
+          "index": 161873,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 76,
+          "pointer": "0x779046e080",
+          "index": 161869,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 77,
+          "pointer": "0x7790463f10",
+          "index": 161865,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 78,
+          "pointer": "0x7790461ba0",
+          "index": 161861,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 79,
+          "pointer": "0x78577b56b0",
+          "index": 161981,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 80,
+          "pointer": "0x78577bec50",
+          "index": 161977,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 81,
+          "pointer": "0x78577b99a0",
+          "index": 161973,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 82,
+          "pointer": "0x78577b95b0",
+          "index": 161969,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 83,
+          "pointer": "0x7771cb9d90",
+          "index": 161965,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 84,
+          "pointer": "0x77962ac8e0",
+          "index": 161961,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 85,
+          "pointer": "0x77962a46f0",
+          "index": 161957,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 86,
+          "pointer": "0x77962ae860",
+          "index": 161953,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 87,
+          "pointer": "0x77962a3340",
+          "index": 161949,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 88,
+          "pointer": "0x77962a89e0",
+          "index": 161945,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 89,
+          "pointer": "0x77962a2b60",
+          "index": 161937,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 90,
+          "pointer": "0x77962aa570",
+          "index": 161933,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 91,
+          "pointer": "0x77962a3f10",
+          "index": 161929,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 92,
+          "pointer": "0x77962a95b0",
+          "index": 161925,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 93,
+          "pointer": "0x77962a0be0",
+          "index": 161921,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 94,
+          "pointer": "0x77962a6280",
+          "index": 161917,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 95,
+          "pointer": "0x77962a0010",
+          "index": 161913,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 96,
+          "pointer": "0x7790462f50",
+          "index": 161909,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 97,
+          "pointer": "0x7790462380",
+          "index": 161905,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 98,
+          "pointer": "0x7790465e90",
+          "index": 161901,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 99,
+          "pointer": "0x779046d8a0",
+          "index": 161893,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 100,
+          "pointer": "0x779046f430",
+          "index": 161889,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 101,
+          "pointer": "0x779046f040",
+          "index": 161885,
+          "class": "BP_Breakthrough_PlayerStart_C"
+        },
+        {
+          "slot": 102,
+          "pointer": "0x789f5b2380",
+          "index": 162796,
+          "class": "Actor"
+        },
+        {
+          "slot": 103,
+          "pointer": "0x776a5e6050",
+          "index": 161457,
+          "class": "NavExtendAgentDebug"
+        },
+        {
+          "slot": 104,
+          "pointer": "0x77e530a0c0",
+          "index": 161570,
+          "class": "CreakedEnd_C"
+        },
+        {
+          "slot": 105,
+          "pointer": "0x7790462b60",
+          "index": 161465,
+          "class": "LevelBounds"
+        },
+        {
+          "slot": 106,
+          "pointer": "0x77b51620e0",
+          "index": 161611,
+          "class": "CameraActor"
+        },
+        {
+          "slot": 107,
+          "pointer": "0x77c05340c0",
+          "index": 161606,
+          "class": "CameraActor"
+        },
+        {
+          "slot": 108,
+          "pointer": "0x780f4b40c0",
+          "index": 161599,
+          "class": "CameraActor"
+        },
+        {
+          "slot": 109,
+          "pointer": "0x785d0550b0",
+          "index": 161618,
+          "class": "CameraActor"
+        },
+        {
+          "slot": 110,
+          "pointer": "0x78ad870080",
+          "index": 161514,
+          "class": "GamePlayValidAreaActor"
+        },
+        {
+          "slot": 111,
+          "pointer": "0x77e53019d0",
+          "index": 161590,
+          "class": "CreakedEnd_C"
+        },
+        {
+          "slot": 112,
+          "pointer": "0x77e53098d0",
+          "index": 161579,
+          "class": "CreakedEnd_C"
+        },
+        {
+          "slot": 113,
+          "pointer": "0x792a6ebd80",
+          "index": 162794,
+          "class": "Actor"
+        },
+        {
+          "slot": 114,
+          "pointer": "0x7a65913f80",
+          "index": 162792,
+          "class": "Actor"
+        },
+        {
+          "slot": 115,
+          "pointer": "0x775c446d00",
+          "index": 162790,
+          "class": "Actor"
+        },
+        {
+          "slot": 116,
+          "pointer": "0x779db88580",
+          "index": 162795,
+          "class": "Actor"
+        },
+        {
+          "slot": 117,
+          "pointer": "0x78afd89380",
+          "index": 162793,
+          "class": "Actor"
+        },
+        {
+          "slot": 118,
+          "pointer": "0x77cfd16980",
+          "index": 162791,
+          "class": "Actor"
+        },
+        {
+          "slot": 119,
+          "pointer": "0x77a6d60080",
+          "index": 162799,
+          "class": "Actor"
+        }
+      ],
+      "class_counts": {
+        "DFMWorldSettings": 1,
+        "GamePlayValidAreaActor": 2,
+        "LandscapeGizmoActiveActor": 1,
+        "VCRManager": 1,
+        "GPSplinePath": 1,
+        "PlayerStart": 64,
+        "Actor": 9,
+        "BP_Breakthrough_PlayerStart_C": 32,
+        "NavExtendAgentDebug": 1,
+        "CreakedEnd_C": 3,
+        "LevelBounds": 1,
+        "CameraActor": 4
+      }
+    }
+  ]
+}

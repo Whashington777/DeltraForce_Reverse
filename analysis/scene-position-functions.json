@@ -1,0 +1,20 @@
+[
+  {
+    "name": "K2_GetComponentToWorld",
+    "native": "0x78ea04e508",
+    "rva": "0x1340b508",
+    "function": "0x78638a7210"
+  },
+  {
+    "name": "K2_GetComponentRotation",
+    "native": "0x78f23cb2a4",
+    "rva": "0x1b7882a4",
+    "function": "0x78638a7050"
+  },
+  {
+    "name": "K2_GetComponentLocation",
+    "native": "0x78e89367d8",
+    "rva": "0x11cf37d8",
+    "function": "0x78638a6f70"
+  }
+]

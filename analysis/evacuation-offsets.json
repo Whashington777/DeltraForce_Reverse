@@ -1,0 +1,61 @@
+{
+  "package": "com.proxima.dfm",
+  "version": "1.202.37117.5601",
+  "version_code": 2217,
+  "abi": "arm64-v8a",
+  "engine_build_id": "0165b78b19f52f4ee20357ff54eb93da19b44407",
+  "mode": "evacuation",
+  "observed_game_state_class": "BP_GameState_PVPVE_C",
+  "observed_player_state_class": "BP_SOLPlayerState_C",
+  "offsets": {
+    "world_global_pointer_slot": "0x20AA87A0",
+    "world_game_state": "0x140",
+    "world_game_instance": "0x190",
+    "game_state_player_array": "0x388",
+    "game_state_player_count": "0x390",
+    "game_instance_local_players": "0x38",
+    "game_instance_local_player_count": "0x40",
+    "local_player_controller": "0x30",
+    "controller_player_state": "0x378",
+    "player_state_team_id": "0x658",
+    "player_state_camp": "0x65C",
+    "player_state_inner_team_index": "0x4A8",
+    "player_state_pawn_private": "0x3F8",
+    "object_class": "0x8",
+    "object_fname": "0x1C",
+    "object_internal_index": "0x24",
+    "world_persistent_level": "0xF8",
+    "level_actor_array": "0x98",
+    "level_actor_count": "0xA0",
+    "pawn_player_state": "0x390",
+    "pawn_controller": "0x3A8",
+    "actor_root_component": "0x180"
+  },
+  "strides": {
+    "player_state_pointer": 8,
+    "global_object_item": 24,
+    "global_objects_per_chunk": 65536
+  },
+  "relation_rule": {
+    "self": "same PlayerState pointer as local",
+    "ally_candidate": "BP_SOLPlayerState_C with nonnegative TeamID/Camp and matching local TeamID",
+    "other_team": "BP_SOLPlayerState_C with nonnegative TeamID/Camp and different local TeamID",
+    "unknown": "unvalidated class, invalid object, or negative TeamID/Camp"
+  },
+  "verification": "evacuation-team-verification.json",
+  "limits": [
+    "Camp alone does not identify allies in evacuation.",
+    "TeamID classification verified through reflected fields and squad grouping, not independent screen labels.",
+    "PlayerState roster does not prove active Pawn or living player.",
+    "Only current extraction instance verified.",
+    "Active actors checked only in current PersistentLevel.",
+    "Pawn existence does not determine alive/dead or visibility.",
+    "Actor pointers change and must be revalidated; absent Pawn is not classified as dead."
+  ],
+  "entity_classification": {
+    "npc": "Reflected class ancestry contains DFMAICharacter, including DFMAIAnimalCharacter subclasses.",
+    "participant": "Reflected class ancestry contains DFMPlayerCharacter; use Pawn.PlayerState +0x390 and verified roster TeamID.",
+    "unknown": "Other/invalid pointers or unvalidated types are not assumed hostile."
+  },
+  "entity_verification": "evacuation-entity-snapshot.json"
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-09",
+  "pid": 24536,
+  "process_start": "493421",
+  "state": "0x7210d32000",
+  "key": "0x53d1d34b",
+  "mask": "0xffffffff",
+  "scope": "Observed process; two evacuation matches, movement and ally HUD comparisons.",
+  "world_coordinate_path_verified": true,
+  "automatic_restart_recovery_verified": true,
+  "native_payload_cases": 54,
+  "native_all_passed": true,
+  "matches": [
+    {
+      "world": "0x6f0a34db80",
+      "capture": "combined-vector-captures/1791534049770020749",
+      "hud_series": "projection-captures/1791534232607375628",
+      "sample": 0,
+      "ally_distances_m": [
+        67.98459249267052,
+        71.97166643954942
+      ],
+      "hud_distances_m": [
+        68,
+        72
+      ],
+      "identity_checks_passed": true,
+      "compass_degrees": 274.8216857910156
+    },
+    {
+      "world": "0x6e5bd04060",
+      "mode": "BP_GameState_PVPVE_C",
+      "capture": "combined-vector-captures/1791534605513373454",
+      "hud_series": "projection-captures/1791534611270537948",
+      "sample": 0,
+      "ally_distances_m": [
+        93.3279439436555,
+        88.72944167277892
+      ],
+      "hud_distances_m": [
+        94,
+        89
+      ],
+      "identity_checks_passed": true,
+      "compass_degrees": 88.54394030570984
+    }
+  ],
+  "additional_stable_capture": "combined-vector-captures/1791534847496343100",
+  "key_resolution": "combined-vector-captures/1791534605513373454/key-resolution.json",
+  "previous_verified_process": {
+    "pid": 22846,
+    "key": "0x765d0871"
+  },
+  "limits": [
+    "New match kept the same PID/start; it does not constitute another process restart.",
+    "Unpacker and Python arithmetic agree; the key was reconstructed by search/constraints, not extracted from PAC registers.",
+    "Screenshot exposure and memory samples are not atomic; body boxes and pixel-exact projection are not validated.",
+    "Ally identities in both HUD comparisons were current, living and bidirectionally linked. Not every other-team player was independently matched to HUD.",
+    "Live recovery procedure has not completed on a new process; final attempt rejected unstable headers and lacked enough living remote players.",
+    "Android loader session configuration remains unchanged."
+  ],
+  "restart_verification": "RESTART_COORDINATES_VERIFIED.json",
+  "automatic_restart_recovery_scope": "Host research procedure succeeded once; not installed overlay integration."
+}

@@ -1,0 +1,116 @@
+{
+  "world_before": "0x77402c12c0",
+  "world_after": "0x77402c12c0",
+  "roster_before": 15,
+  "roster_after": 15,
+  "local_player_state": "0x7650671c80",
+  "rows": [
+    {
+      "self": true,
+      "pawn": "0x768a5f0040",
+      "mesh": "0x7726a15d40",
+      "reverse_matches": true,
+      "arrays": [
+        {
+          "offset": "0xa08",
+          "pointer": "0x0",
+          "count": 0,
+          "capacity": 0
+        },
+        {
+          "offset": "0xa18",
+          "pointer": "0x0",
+          "count": 0,
+          "capacity": 0
+        }
+      ],
+      "custom_bounds_raw": "8000d0887600000006000000160000003f00000000000000000000000000000000000000000000000600000080000000ffffffff000000000200000000000000007564c7760000001000000000000000"
+    },
+    {
+      "self": false,
+      "pawn": "0x7619ab8020",
+      "mesh": "0x75c207a300",
+      "reverse_matches": true,
+      "arrays": [
+        {
+          "offset": "0xa08",
+          "pointer": "0x0",
+          "count": 0,
+          "capacity": 0
+        },
+        {
+          "offset": "0xa18",
+          "pointer": "0x0",
+          "count": 0,
+          "capacity": 0
+        }
+      ],
+      "custom_bounds_raw": "8015b3187600000006000000160000003f00000000000000000000000000000000000000000000000600000080000000ffffffff00000000020000000000000080060da2780000001000000000000000"
+    },
+    {
+      "self": false,
+      "pawn": "0x75ecd44030",
+      "mesh": "0x76fad5e8c0",
+      "reverse_matches": true,
+      "arrays": [
+        {
+          "offset": "0xa08",
+          "pointer": "0x0",
+          "count": 0,
+          "capacity": 0
+        },
+        {
+          "offset": "0xa18",
+          "pointer": "0x0",
+          "count": 0,
+          "capacity": 0
+        }
+      ],
+      "custom_bounds_raw": "8000af0b7800000006000000160000003f00000000000000000000000000000000000000000000000600000080000000ffffffff00000000020000000000000000625ba8780000001000000000000000"
+    },
+    {
+      "self": false,
+      "pawn": "0x776c088020",
+      "mesh": "0x775614e8c0",
+      "reverse_matches": true,
+      "arrays": [
+        {
+          "offset": "0xa08",
+          "pointer": "0x770c4bb050",
+          "count": 0,
+          "capacity": 85
+        },
+        {
+          "offset": "0xa18",
+          "pointer": "0x77723c60a0",
+          "count": 0,
+          "capacity": 85
+        }
+      ],
+      "custom_bounds_raw": "80ee2a157700000006000000160000003f00000000000000000000000000000000000000000000000600000080000000ffffffff00000000020000000000000040a53065770000001000000000000000"
+    },
+    {
+      "self": false,
+      "pawn": "0x75ecde8020",
+      "mesh": "0x75b6c3d180",
+      "reverse_matches": true,
+      "arrays": [
+        {
+          "offset": "0xa08",
+          "pointer": "0x0",
+          "count": 0,
+          "capacity": 0
+        },
+        {
+          "offset": "0xa18",
+          "pointer": "0x0",
+          "count": 0,
+          "capacity": 0
+        }
+      ],
+      "custom_bounds_raw": "00b336a57800000006000000160000003f00000000000000000000000000000000000000000000000600000080000000ffffffff000000000200000000000000408aa847770000001000000000000000"
+    }
+  ],
+  "epoch_stability_verified": false,
+  "end_checks_used_cached_reads": true
+}

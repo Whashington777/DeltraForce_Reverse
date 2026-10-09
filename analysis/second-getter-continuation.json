@@ -1,0 +1,29 @@
+{
+  "continuation": "0x78e73febb4",
+  "code": [
+    "0x78e73febb4: stp x29, x30, [sp, #-0x10]!",
+    "0x78e73febb8: mov x29, sp",
+    "0x78e73febbc: bl #0x78e73feb8c",
+    "0x78e73febc0: movi v0.2s, #0x80, lsl #24",
+    "0x78e73febc4: ldp s1, s4, [x0, #8]",
+    "0x78e73febc8: ldp s2, s6, [x0]",
+    "0x78e73febcc: movi d3, #0000000000000000",
+    "0x78e73febd0: fmov s19, #1.00000000",
+    "0x78e73febd4: fmul s5, s1, s0",
+    "0x78e73febd8: fmul s0, s2, s0",
+    "0x78e73febdc: fnmsub s7, s2, s3, s6",
+    "0x78e73febe0: fmadd s5, s6, s3, s5",
+    "0x78e73febe4: fadd s0, s1, s0",
+    "0x78e73febe8: fadd s7, s7, s7",
+    "0x78e73febec: fadd s5, s5, s5",
+    "0x78e73febf0: fadd s0, s0, s0",
+    "0x78e73febf4: fmul s16, s7, s4",
+    "0x78e73febf8: fnmul s20, s2, s7",
+    "0x78e73febfc: fmul s17, s4, s5",
+    "0x78e73fec00: fmul s4, s4, s0",
+    "0x78e73fec04: fnmul s21, s6, s5",
+    "0x78e73fec08: fnmul s18, s1, s0",
+    "0x78e73fec0c: fmadd s1, s1, s5, s20",
+    "0x78e73fec10: fadd s4, s4, s3"
+  ]
+}

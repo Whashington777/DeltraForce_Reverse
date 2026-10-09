@@ -1,0 +1,94 @@
+{
+  "pid": 22846,
+  "base": "0x78d6c43000",
+  "prior_pid": 18233,
+  "prior_base": "0x78d4626000",
+  "offsets": {
+    "chunks": "0x2076B918",
+    "count": "0x2076B90C",
+    "world_candidate": "0x20AA87A0"
+  },
+  "checks": {
+    "count_consistent": true,
+    "all_nonempty_sample_indices_match": true,
+    "world_candidate_in_table": true
+  },
+  "chunks_pointer": "0x786c601d00",
+  "object_count": 180176,
+  "num_chunks": 3,
+  "max_elements": 458752,
+  "samples": [
+    {
+      "slot": 0,
+      "pointer": "0x78636d0000",
+      "internal_index": 0,
+      "matches": true
+    },
+    {
+      "slot": 1,
+      "pointer": "0x78d3210100",
+      "internal_index": 1,
+      "matches": true
+    },
+    {
+      "slot": 2,
+      "pointer": "0x78636d0090",
+      "internal_index": 2,
+      "matches": true
+    },
+    {
+      "slot": 3,
+      "pointer": "0x78d321d080",
+      "internal_index": 3,
+      "matches": true
+    },
+    {
+      "slot": 4,
+      "pointer": "0x78636d0120",
+      "internal_index": 4,
+      "matches": true
+    },
+    {
+      "slot": 5,
+      "pointer": "0x78d321d300",
+      "internal_index": 5,
+      "matches": true
+    },
+    {
+      "slot": 6,
+      "pointer": "0x78d321ce00",
+      "internal_index": 6,
+      "matches": true
+    },
+    {
+      "slot": 7,
+      "pointer": "0x78d321cb80",
+      "internal_index": 7,
+      "matches": true
+    },
+    {
+      "slot": 65536,
+      "pointer": "0x7864171ed0",
+      "internal_index": 65536,
+      "matches": true
+    },
+    {
+      "slot": 131072,
+      "pointer": "0x776fd13040",
+      "internal_index": 131072,
+      "matches": true
+    },
+    {
+      "slot": 180175,
+      "pointer": "0x777a8c3650",
+      "internal_index": 180175,
+      "matches": true
+    }
+  ],
+  "world_candidate": {
+    "pointer": "0x7866841be0",
+    "type_validated": false,
+    "index": 113081,
+    "table_pointer": "0x7866841be0"
+  }
+}

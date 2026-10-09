@@ -1,0 +1,1229 @@
+{
+  "pid": 21490,
+  "world": "0x6f1b999280",
+  "state": "0x7210d32000",
+  "capture": "analysis/combined-vector-captures/1791536175697747088",
+  "protected_live_vectors": 21,
+  "unique_payloads": 7,
+  "searched_candidates": 240,
+  "accepted_candidates": [
+    "0x53d1d34b"
+  ],
+  "unique_key_candidate": "0x53d1d34b",
+  "additional_evidence": [
+    {
+      "capture": "analysis/combined-vector-captures/1791536182626381105",
+      "live_vectors": 21,
+      "surviving_keys": [
+        "0x53d1d34b"
+      ]
+    }
+  ],
+  "coordinate_verification": false,
+  "ranked": [
+    {
+      "key": "0x43560108",
+      "valid_vectors": 21,
+      "error_count": 0
+    },
+    {
+      "key": "0x53d1d34b",
+      "valid_vectors": 21,
+      "error_count": 0
+    },
+    {
+      "key": "0x5cd96471",
+      "valid_vectors": 21,
+      "error_count": 0
+    },
+    {
+      "key": "0xb167c382",
+      "valid_vectors": 21,
+      "error_count": 0
+    },
+    {
+      "key": "0x30c8795c",
+      "valid_vectors": 20,
+      "error_count": 1
+    },
+    {
+      "key": "0xeb49e577",
+      "valid_vectors": 20,
+      "error_count": 1
+    },
+    {
+      "key": "0x3cdddb55",
+      "valid_vectors": 19,
+      "error_count": 2
+    },
+    {
+      "key": "0x709deef0",
+      "valid_vectors": 19,
+      "error_count": 2
+    },
+    {
+      "key": "0x89fa026c",
+      "valid_vectors": 19,
+      "error_count": 2
+    },
+    {
+      "key": "0x23af011f",
+      "valid_vectors": 18,
+      "error_count": 3
+    },
+    {
+      "key": "0x5fc03789",
+      "valid_vectors": 18,
+      "error_count": 3
+    },
+    {
+      "key": "0x2797a0a9",
+      "valid_vectors": 17,
+      "error_count": 4
+    },
+    {
+      "key": "0x7d661f2d",
+      "valid_vectors": 17,
+      "error_count": 4
+    },
+    {
+      "key": "0xeb75e5f0",
+      "valid_vectors": 17,
+      "error_count": 4
+    },
+    {
+      "key": "0x922a7925",
+      "valid_vectors": 15,
+      "error_count": 6
+    },
+    {
+      "key": "0xf5d34b4d",
+      "valid_vectors": 15,
+      "error_count": 6
+    },
+    {
+      "key": "0x34f9b0a7",
+      "valid_vectors": 14,
+      "error_count": 7
+    },
+    {
+      "key": "0x46f3fda7",
+      "valid_vectors": 14,
+      "error_count": 7
+    },
+    {
+      "key": "0x6e3561c4",
+      "valid_vectors": 14,
+      "error_count": 7
+    },
+    {
+      "key": "0x9d050936",
+      "valid_vectors": 13,
+      "error_count": 8
+    },
+    {
+      "key": "0xbb32b04d",
+      "valid_vectors": 13,
+      "error_count": 8
+    },
+    {
+      "key": "0xcc349d0d",
+      "valid_vectors": 13,
+      "error_count": 8
+    },
+    {
+      "key": "0xa07ca99c",
+      "valid_vectors": 12,
+      "error_count": 9
+    },
+    {
+      "key": "0xb74a1f6b",
+      "valid_vectors": 12,
+      "error_count": 9
+    },
+    {
+      "key": "0xc5d16e18",
+      "valid_vectors": 12,
+      "error_count": 9
+    },
+    {
+      "key": "0x3f871ebb",
+      "valid_vectors": 11,
+      "error_count": 10
+    },
+    {
+      "key": "0x6a5f20f3",
+      "valid_vectors": 11,
+      "error_count": 10
+    },
+    {
+      "key": "0x73b64e6e",
+      "valid_vectors": 11,
+      "error_count": 10
+    },
+    {
+      "key": "0x76cd44bb",
+      "valid_vectors": 11,
+      "error_count": 10
+    },
+    {
+      "key": "0x7d4cce79",
+      "valid_vectors": 11,
+      "error_count": 10
+    },
+    {
+      "key": "0x86fba1a7",
+      "valid_vectors": 11,
+      "error_count": 10
+    },
+    {
+      "key": "0x974f0f65",
+      "valid_vectors": 11,
+      "error_count": 10
+    },
+    {
+      "key": "0xbf38ac5e",
+      "valid_vectors": 11,
+      "error_count": 10
+    },
+    {
+      "key": "0xd058e640",
+      "valid_vectors": 11,
+      "error_count": 10
+    },
+    {
+      "key": "0xd3776e40",
+      "valid_vectors": 11,
+      "error_count": 10
+    },
+    {
+      "key": "0xf0a9af89",
+      "valid_vectors": 11,
+      "error_count": 10
+    },
+    {
+      "key": "0x1141f044",
+      "valid_vectors": 10,
+      "error_count": 11
+    },
+    {
+      "key": "0x20fa785f",
+      "valid_vectors": 10,
+      "error_count": 11
+    },
+    {
+      "key": "0x2fe59c19",
+      "valid_vectors": 10,
+      "error_count": 11
+    },
+    {
+      "key": "0x89478f92",
+      "valid_vectors": 10,
+      "error_count": 11
+    },
+    {
+      "key": "0xb4fa4c29",
+      "valid_vectors": 10,
+      "error_count": 11
+    },
+    {
+      "key": "0xbaf8d672",
+      "valid_vectors": 10,
+      "error_count": 11
+    },
+    {
+      "key": "0xcafaf104",
+      "valid_vectors": 10,
+      "error_count": 11
+    },
+    {
+      "key": "0x3aae015d",
+      "valid_vectors": 9,
+      "error_count": 12
+    },
+    {
+      "key": "0xbc78c663",
+      "valid_vectors": 9,
+      "error_count": 12
+    },
+    {
+      "key": "0xc64ab8dd",
+      "valid_vectors": 9,
+      "error_count": 12
+    },
+    {
+      "key": "0xe582b15c",
+      "valid_vectors": 9,
+      "error_count": 12
+    },
+    {
+      "key": "0xe670221d",
+      "valid_vectors": 9,
+      "error_count": 12
+    },
+    {
+      "key": "0x3a0815a8",
+      "valid_vectors": 8,
+      "error_count": 13
+    },
+    {
+      "key": "0x50a9f9d4",
+      "valid_vectors": 8,
+      "error_count": 13
+    },
+    {
+      "key": "0x5e509467",
+      "valid_vectors": 8,
+      "error_count": 13
+    },
+    {
+      "key": "0x74313941",
+      "valid_vectors": 8,
+      "error_count": 13
+    },
+    {
+      "key": "0xcdac5dcd",
+      "valid_vectors": 8,
+      "error_count": 13
+    },
+    {
+      "key": "0xde589467",
+      "valid_vectors": 8,
+      "error_count": 13
+    },
+    {
+      "key": "0x1109d244",
+      "valid_vectors": 7,
+      "error_count": 14
+    },
+    {
+      "key": "0x44878d95",
+      "valid_vectors": 7,
+      "error_count": 14
+    },
+    {
+      "key": "0x27d7949a",
+      "valid_vectors": 6,
+      "error_count": 15
+    },
+    {
+      "key": "0x4936126b",
+      "valid_vectors": 4,
+      "error_count": 17
+    },
+    {
+      "key": "0x9f5c872d",
+      "valid_vectors": 4,
+      "error_count": 17
+    },
+    {
+      "key": "0xc11fa3f3",
+      "valid_vectors": 4,
+      "error_count": 17
+    },
+    {
+      "key": "0xe2c92f35",
+      "valid_vectors": 4,
+      "error_count": 17
+    },
+    {
+      "key": "0x72f0fa34",
+      "valid_vectors": 3,
+      "error_count": 18
+    },
+    {
+      "key": "0x7f4d938a",
+      "valid_vectors": 3,
+      "error_count": 18
+    },
+    {
+      "key": "0xca0a5663",
+      "valid_vectors": 3,
+      "error_count": 18
+    },
+    {
+      "key": "0xe297629d",
+      "valid_vectors": 3,
+      "error_count": 18
+    },
+    {
+      "key": "0x107570b5",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x1278d1f0",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x14abfa2c",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x1766301a",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x180856fa",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x1887c795",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x193a7d3d",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x1a9e8331",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x1ba9276f",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x1c11c0e",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x1e6d5bcd",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x1f8dab77",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x22010b82",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x230305fb",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x241e2a5",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x26da6a7",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x294f5852",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x2a213711",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x2a4c86ab",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x2b5cec69",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x2c4a5350",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x2d5b1745",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x2d89c3ca",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x2ed4d2fc",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x2eda91ab",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x30f0fa24",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x31bad23b",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x32d10fe",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x332fa592",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x35a46bb7",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x36bf4bc0",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x393a941f",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x39d99bff",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x3ad4f816",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x3cd2654d",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x3d3f49ce",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x3ee1e08f",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x3f11118a",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x405e4356",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x40fba27e",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x42c81d83",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x445c8dad",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x4693c8b",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x47554572",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x4a191fdb",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x4a3cf6cc",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x4ba0159",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x4bcad5",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x4e688eb",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x525116f6",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x531587bd",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x535ff33",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x55881484",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x58bf8ac7",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x592da667",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x5a89669a",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x5b3d5b19",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x5d93505d",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x623701a7",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x63af819f",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x64952671",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x654ef14",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x689cd519",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x6c9dd717",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x6e5cde9e",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x6ecc6669",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x6ed94bfd",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x6f42613b",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x6f547591",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x732bb4a3",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x7372d05f",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x737ad05f",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x7511eb56",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x75b707ca",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x75f218d5",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x76dc884f",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x7723f6e1",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x77648772",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x77a9d273",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x79e8de7a",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x7a281f29",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x7c153551",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x7d391000",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x7d792432",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x7e7aca8b",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x80d1bfcb",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x824c6320",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x8306810d",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x84405e72",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x84c70157",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x86254082",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x87f380f6",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x89eac129",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x90911025",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x9156111e",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x9278d1f0",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x9288f2d",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x931541ec",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x93fdb54d",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x948b389f",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x95f2c35a",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x992f3c8c",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x99769250",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x99b849b5",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x9aa41c5e",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x9d2d551f",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0x9f75c2af",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xa115d902",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xa34371da",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xa3afefef",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xa58dfd5b",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xa7027d29",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xa87ccfed",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xa968f03d",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xab5cec69",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xab692420",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xac1454aa",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xacdab556",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xb27a1002",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xb282c152",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xb4f7eb85",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xb6bf4bc0",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xb8ec13b",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xb93f7bef",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xbad4f816",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xc1edd4bf",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xc3b586e8",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xc4e1da8b",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xc6edf78f",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xc952981d",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xca41c2a5",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xca760a61",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xca8bc56c",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xcd3e0479",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xcec86d91",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xcfe2062e",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xd06eca9f",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xd0d9dae6",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xd1011efa",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xd16c53c1",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xd1d6b24",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xd42da5f",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xd4b8cb60",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xd6bd08fd",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xd6d489fa",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xda065927",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xda89669a",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xdb6b1d37",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xdc11e8b3",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xdc125863",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xdd2548f8",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xdec1bf9b",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xdf3b5777",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xe3c9b7de",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xe51a8224",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xe7e01cd4",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xe7f95a1c",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xe9c92d3f",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xea818982",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xef547591",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xf0b12ae9",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xf2274e7e",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xf22e03f9",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xf58f5423",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xf70bea86",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xf739330b",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xf7648772",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xf80829ea",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xf8327c52",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xfb1eb21f",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xfb2f8592",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xfd5a544",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xfd792432",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xfed6feca",
+      "valid_vectors": 0,
+      "error_count": 21
+    },
+    {
+      "key": "0xff553d6f",
+      "valid_vectors": 0,
+      "error_count": 21
+    }
+  ],
+  "limits": [
+    "Bounded XYZ and populated selected slots are candidate constraints, not independent world-position validation.",
+    "A process key is not a permanent game offset."
+  ]
+}

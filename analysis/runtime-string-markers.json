@@ -1,0 +1,287 @@
+{
+  "GWorld": [
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x3457088",
+      "sample_offset": "0x1d0d088"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x3763750",
+      "sample_offset": "0x2019750"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x3763798",
+      "sample_offset": "0x2019798"
+    }
+  ],
+  "GUObjectArray": [],
+  "GNames": [],
+  "NamePoolData": [],
+  "ByteProperty": [
+    {
+      "encoding": "ascii",
+      "relative_address": "0x1b352d8",
+      "sample_offset": "0x3eb2d8"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x1c5e04e",
+      "sample_offset": "0x51404e"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x279e868",
+      "sample_offset": "0x1054868"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x2e18b7c",
+      "sample_offset": "0x16ceb7c"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x34b9224",
+      "sample_offset": "0x1d6f224"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x37ede50",
+      "sample_offset": "0x20a3e50"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x385bcb8",
+      "sample_offset": "0x2111cb8"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x395f014",
+      "sample_offset": "0x2215014"
+    }
+  ],
+  "None": [
+    {
+      "encoding": "ascii",
+      "relative_address": "0x17aa311",
+      "sample_offset": "0x60311"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x17aab3c",
+      "sample_offset": "0x60b3c"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x17ac0c0",
+      "sample_offset": "0x620c0"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x17ac814",
+      "sample_offset": "0x62814"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x17b12c1",
+      "sample_offset": "0x672c1"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x17b3b30",
+      "sample_offset": "0x69b30"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x17b73cb",
+      "sample_offset": "0x6d3cb"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x17cdf8a",
+      "sample_offset": "0x83f8a"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x174b120",
+      "sample_offset": "0x1120"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x175b438",
+      "sample_offset": "0x11438"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x1786226",
+      "sample_offset": "0x3c226"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x178b930",
+      "sample_offset": "0x41930"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x179df68",
+      "sample_offset": "0x53f68"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x2b2c8de",
+      "sample_offset": "0x13e28de"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x2b2e0b0",
+      "sample_offset": "0x13e40b0"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x2b3e18a",
+      "sample_offset": "0x13f418a"
+    }
+  ],
+  "PersistentLevel": [
+    {
+      "encoding": "ascii",
+      "relative_address": "0x1aa38dc",
+      "sample_offset": "0x3598dc"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x1e3422a",
+      "sample_offset": "0x6ea22a"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x208d851",
+      "sample_offset": "0x943851"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x22532ff",
+      "sample_offset": "0xb092ff"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x24a895a",
+      "sample_offset": "0xd5e95a"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x25d3cc7",
+      "sample_offset": "0xe89cc7"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x266ef03",
+      "sample_offset": "0xf24f03"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x2969ec2",
+      "sample_offset": "0x121fec2"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x2f0ed74",
+      "sample_offset": "0x17c4d74"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x3550cd4",
+      "sample_offset": "0x1e06cd4"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x35e343a",
+      "sample_offset": "0x1e9943a"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x386e364",
+      "sample_offset": "0x2124364"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x39765fa",
+      "sample_offset": "0x222c5fa"
+    }
+  ],
+  "LocalPlayers": [
+    {
+      "encoding": "ascii",
+      "relative_address": "0x1feb2de",
+      "sample_offset": "0x8a12de"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x24a83cb",
+      "sample_offset": "0xd5e3cb"
+    },
+    {
+      "encoding": "ascii",
+      "relative_address": "0x27a3621",
+      "sample_offset": "0x1059621"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x2fa9486",
+      "sample_offset": "0x185f486"
+    }
+  ],
+  "FNamePool": [],
+  "Max UObject count is invalid": [
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x353b410",
+      "sample_offset": "0x1df1410"
+    }
+  ],
+  "Unreal Engine": [
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x2c92e1e",
+      "sample_offset": "0x1548e1e"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x2e09630",
+      "sample_offset": "0x16bf630"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x2f0e82a",
+      "sample_offset": "0x17c482a"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x31b46b4",
+      "sample_offset": "0x1a6a6b4"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x32385d8",
+      "sample_offset": "0x1aee5d8"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x39df4b4",
+      "sample_offset": "0x22954b4"
+    },
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x3a61a1a",
+      "sample_offset": "0x2317a1a"
+    }
+  ],
+  "++UE4": [
+    {
+      "encoding": "utf-16le",
+      "relative_address": "0x2c7f3d4",
+      "sample_offset": "0x15353d4"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "pid": 21490,
+  "key": "0x53d1d34b",
+  "real_payload_cases": 9,
+  "all_passed": true,
+  "code_source": "analysis/session-refresh-history/pid-21490/unpacker.bin",
+  "checks": [
+    {
+      "vector": "0x6eb5255ba8",
+      "slot": 5,
+      "matches": true,
+      "xyz": [
+        -18472.0,
+        -1503.8125,
+        314.390625
+      ]
+    },
+    {
+      "vector": "0x6eb5255b88",
+      "slot": 5,
+      "matches": true,
+      "xyz": [
+        -18472.0,
+        -1503.8125,
+        314.390625
+      ]
+    },
+    {
+      "vector": "0x6ebef58d08",
+      "slot": 4,
+      "matches": true,
+      "xyz": [
+        -18472.0,
+        -1503.8125,
+        314.390625
+      ]
+    },
+    {
+      "vector": "0x6ebe586208",
+      "slot": 4,
+      "matches": true,
+      "xyz": [
+        -18009.3125,
+        -1046.125,
+        115.78125
+      ]
+    },
+    {
+      "vector": "0x6ebe5861e8",
+      "slot": 4,
+      "matches": true,
+      "xyz": [
+        -18009.3125,
+        -1046.125,
+        115.78125
+      ]
+    },
+    {
+      "vector": "0x6e299c5e88",
+      "slot": 1,
+      "matches": true,
+      "xyz": [
+        -18009.3125,
+        -1046.125,
+        115.78125
+      ]
+    },
+    {
+      "vector": "0x6f15b6ae88",
+      "slot": 4,
+      "matches": true,
+      "xyz": [
+        -19292.8125,
+        -21941.125,
+        947.7900390625
+      ]
+    },
+    {
+      "vector": "0x6f15b6ae68",
+      "slot": 3,
+      "matches": true,
+      "xyz": [
+        -19292.8125,
+        -21941.125,
+        947.7900390625
+      ]
+    },
+    {
+      "vector": "0x6e2a3075c8",
+      "slot": 4,
+      "matches": true,
+      "xyz": [
+        -19292.8125,
+        -21941.125,
+        947.7900390625
+      ]
+    }
+  ],
+  "limits": [
+    "Offline arithmetic equivalence does not independently establish world coordinates."
+  ]
+}

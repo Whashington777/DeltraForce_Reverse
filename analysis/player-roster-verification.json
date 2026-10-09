@@ -1,0 +1,317 @@
+{
+  "pid": 22846,
+  "base": "0x78d6c43000",
+  "chain": {
+    "world_global": "0x20AA87A0",
+    "world_to_game_state": "0x140",
+    "game_state_to_player_array": "0x388",
+    "player_array_count": "0x390",
+    "entry_stride": 8
+  },
+  "world": "0x7764e89ba0",
+  "world_class": "World",
+  "game_state": "0x783c0b6670",
+  "game_state_class": "BP_GameState_Breakthrough_C",
+  "array_data": "0x780c47d440",
+  "count": 48,
+  "samples": [
+    {
+      "slot": 0,
+      "pointer": "0x77c0ba24a0",
+      "object_index": 152552,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 1,
+      "pointer": "0x77c9fc6dc0",
+      "object_index": 124912,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 2,
+      "pointer": "0x77c0f024a0",
+      "object_index": 124883,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 3,
+      "pointer": "0x77c0ba9250",
+      "object_index": 118833,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 4,
+      "pointer": "0x789f659250",
+      "object_index": 118815,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 5,
+      "pointer": "0x776dab0010",
+      "object_index": 118812,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 6,
+      "pointer": "0x789f65db70",
+      "object_index": 118139,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 7,
+      "pointer": "0x783a3cb6e0",
+      "object_index": 118135,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 8,
+      "pointer": "0x776dab9250",
+      "object_index": 118046,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 9,
+      "pointer": "0x77a0fe6dc0",
+      "object_index": 118043,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 10,
+      "pointer": "0x77964b6dc0",
+      "object_index": 117214,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 11,
+      "pointer": "0x7792de0010",
+      "object_index": 117205,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 12,
+      "pointer": "0x776e360010",
+      "object_index": 116520,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 13,
+      "pointer": "0x77a37d24a0",
+      "object_index": 115108,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 14,
+      "pointer": "0x77a51524a0",
+      "object_index": 111458,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 15,
+      "pointer": "0x77c9fc9250",
+      "object_index": 111454,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 16,
+      "pointer": "0x77c1910010",
+      "object_index": 110073,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 17,
+      "pointer": "0x789f65b6e0",
+      "object_index": 108142,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 18,
+      "pointer": "0x77c1914930",
+      "object_index": 160085,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 19,
+      "pointer": "0x78a051db70",
+      "object_index": 137408,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 20,
+      "pointer": "0x77c0ba4930",
+      "object_index": 153089,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 21,
+      "pointer": "0x7755c50010",
+      "object_index": 194804,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 22,
+      "pointer": "0x7718294930",
+      "object_index": 180329,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 23,
+      "pointer": "0x77146c24a0",
+      "object_index": 203503,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 24,
+      "pointer": "0x77146c4930",
+      "object_index": 203500,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 25,
+      "pointer": "0x77146c9250",
+      "object_index": 203110,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 26,
+      "pointer": "0x77179f9250",
+      "object_index": 201352,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 27,
+      "pointer": "0x77557b4930",
+      "object_index": 200507,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 28,
+      "pointer": "0x7716aab6e0",
+      "object_index": 175080,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 29,
+      "pointer": "0x7716aa24a0",
+      "object_index": 171147,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 30,
+      "pointer": "0x7716aa0010",
+      "object_index": 171122,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 31,
+      "pointer": "0x7717dcdb70",
+      "object_index": 171117,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 32,
+      "pointer": "0x7717dc9250",
+      "object_index": 169064,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 33,
+      "pointer": "0x778f404930",
+      "object_index": 164612,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 34,
+      "pointer": "0x7717dc24a0",
+      "object_index": 164587,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 35,
+      "pointer": "0x7717dc0010",
+      "object_index": 164580,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 36,
+      "pointer": "0x77111e4930",
+      "object_index": 161293,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 37,
+      "pointer": "0x77111e24a0",
+      "object_index": 161286,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 38,
+      "pointer": "0x7718296dc0",
+      "object_index": 158580,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 39,
+      "pointer": "0x7712b89250",
+      "object_index": 158573,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 40,
+      "pointer": "0x7712b84930",
+      "object_index": 136887,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 41,
+      "pointer": "0x7712b80010",
+      "object_index": 133832,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 42,
+      "pointer": "0x771079b6e0",
+      "object_index": 129949,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 43,
+      "pointer": "0x77107924a0",
+      "object_index": 150336,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 44,
+      "pointer": "0x7710790010",
+      "object_index": 150307,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 45,
+      "pointer": "0x770f45db70",
+      "object_index": 140224,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 46,
+      "pointer": "0x770f459250",
+      "object_index": 140207,
+      "class": "BP_BattleFieldPlayerState_C"
+    },
+    {
+      "slot": 47,
+      "pointer": "0x770f456dc0",
+      "object_index": 139786,
+      "class": "BP_BattleFieldPlayerState_C"
+    }
+  ],
+  "checks": {
+    "world_type": true,
+    "all_entries_valid_player_states": true,
+    "headers_stable_during_read": true
+  },
+  "limitations": [
+    "Verified in current Breakthrough match; other modes and restart not checked for this chain.",
+    "PlayerState roster does not establish which players have an active Pawn.",
+    "Names decoding used observed printable ASCII candidates; no general decoder verified."
+  ]
+}

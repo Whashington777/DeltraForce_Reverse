@@ -1,0 +1,49 @@
+{
+  "reports": [
+    {
+      "mesh": "0x6dcc924600",
+      "cases": 80,
+      "passed": true,
+      "max_error_cm": 0.0009764793758222368,
+      "report": "analysis/match-burst-captures/latest-new-match/native-candidate-verification-6dcc924600.json"
+    },
+    {
+      "mesh": "0x6de80eba40",
+      "cases": 80,
+      "passed": true,
+      "max_error_cm": 0.0009763604575709905,
+      "report": "analysis/match-burst-captures/latest-new-match/native-candidate-verification-6de80eba40.json"
+    },
+    {
+      "mesh": "0x6e0fd05d40",
+      "cases": 160,
+      "passed": true,
+      "max_error_cm": 0.0009706707714940421,
+      "report": "analysis/match-burst-captures/latest-new-match/native-candidate-verification-6e0fd05d40.json"
+    },
+    {
+      "mesh": "0x6ee934ba40",
+      "cases": 80,
+      "passed": true,
+      "max_error_cm": 0.0004882659159193281,
+      "report": "analysis/match-burst-captures/latest-new-match/native-candidate-verification-6ee934ba40.json"
+    },
+    {
+      "mesh": "0x6f02f85d40",
+      "cases": 160,
+      "passed": true,
+      "max_error_cm": 0.0009745497736730613,
+      "report": "analysis/match-burst-captures/latest-new-match/native-candidate-verification-6f02f85d40.json"
+    },
+    {
+      "mesh": "0x6fb1011780",
+      "cases": 80,
+      "passed": true,
+      "max_error_cm": 0.0009665061770647299,
+      "report": "analysis/match-burst-captures/latest-new-match/native-candidate-verification-6fb1011780.json"
+    }
+  ],
+  "total_cases": 640,
+  "all_passed": true,
+  "world_bones_verified": false
+}

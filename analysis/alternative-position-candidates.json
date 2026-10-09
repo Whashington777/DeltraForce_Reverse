@@ -1,0 +1,92 @@
+[
+  {
+    "self": true,
+    "pawn": "0x768a5f0040",
+    "last_frame_world_position": [
+      -9182.72265625,
+      -27839.818359375,
+      -692.722900390625,
+      65535
+    ],
+    "movement_pointers": [
+      {
+        "offset": "0x3d8",
+        "raw": "0x7679e62ec0",
+        "untagged": "0x7679e62ec0",
+        "valid": true
+      },
+      {
+        "offset": "0x1b38",
+        "raw": "0x7679e62ec0",
+        "untagged": "0x7679e62ec0",
+        "valid": true
+      },
+      {
+        "offset": "0x2680",
+        "raw": "0x7679e62ec0",
+        "untagged": "0x7679e62ec0",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "self": false,
+    "pawn": "0x761cfe4030",
+    "last_frame_world_position": [
+      -9310.84765625,
+      -27711.693359375,
+      -820.847900390625,
+      65535
+    ],
+    "movement_pointers": [
+      {
+        "offset": "0x3d8",
+        "raw": "0x774a775d40",
+        "untagged": "0x774a775d40",
+        "valid": true
+      },
+      {
+        "offset": "0x1b38",
+        "raw": "0x774a775d40",
+        "untagged": "0x774a775d40",
+        "valid": true
+      },
+      {
+        "offset": "0x2680",
+        "raw": "0x774a775d40",
+        "untagged": "0x774a775d40",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "self": false,
+    "pawn": "0x783c100040",
+    "last_frame_world_position": [
+      -9182.72265625,
+      -27839.818359375,
+      -692.722900390625,
+      65535
+    ],
+    "movement_pointers": [
+      {
+        "offset": "0x3d8",
+        "raw": "0x764f8e4600",
+        "untagged": "0x764f8e4600",
+        "valid": true
+      },
+      {
+        "offset": "0x1b38",
+        "raw": "0x764f8e4600",
+        "untagged": "0x764f8e4600",
+        "valid": true
+      },
+      {
+        "offset": "0x2680",
+        "raw": "0x764f8e4600",
+        "untagged": "0x764f8e4600",
+        "valid": true
+      }
+    ]
+  }
+]

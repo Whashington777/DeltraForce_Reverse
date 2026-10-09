@@ -1,0 +1,32 @@
+{
+  "reference_package": "com.garena.game.df",
+  "reference_version": "1.203.37102.1401",
+  "current_package": "com.proxima.dfm",
+  "current_version": "1.202.37117.5601",
+  "matching": {
+    "Actor.RootComponent": "0x180",
+    "Character.Mesh": "0x3D0",
+    "GameState.PlayerArray": "0x388",
+    "PlayerState.PawnPrivate": "0x3F8",
+    "PlayerController.PlayerCameraManager": "0x408"
+  },
+  "different": {
+    "SceneComponent.RelativeLocation": {
+      "reference": "0x164 / FVector12",
+      "current": "0x168 / EncVector16"
+    },
+    "PlayerCameraManager.CameraCachePrivate": {
+      "reference": "0x2B60",
+      "current": "0x2D60"
+    },
+    "CapsuleComponent.CapsuleHalfHeight": {
+      "reference": "0x580",
+      "current": "0x5C0"
+    }
+  },
+  "candidate_links": {
+    "Character.CapsuleComponent": "0x3E0"
+  },
+  "previous_attempts": "Two existing attempts failed to resolve GObjects; not repeated",
+  "policy": "Reference layouts guide field selection; current offsets require current-process validation"
+}

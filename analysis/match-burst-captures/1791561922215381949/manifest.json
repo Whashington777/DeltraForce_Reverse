@@ -1,0 +1,29 @@
+{
+  "captures": [
+    {
+      "index": 0,
+      "folder": "analysis/combined-vector-captures/1791561929589597203",
+      "header_stable": true,
+      "usable_bone_samples": 2,
+      "verified_asset_maps": 5,
+      "camera_projection_inputs_stable": false
+    },
+    {
+      "index": 1,
+      "folder": "analysis/combined-vector-captures/1791561939784095224",
+      "header_stable": true,
+      "usable_bone_samples": 1,
+      "verified_asset_maps": 3,
+      "camera_projection_inputs_stable": false
+    },
+    {
+      "index": 2,
+      "folder": "analysis/combined-vector-captures/1791561949348175665",
+      "header_stable": true,
+      "usable_bone_samples": 1,
+      "verified_asset_maps": 3,
+      "camera_projection_inputs_stable": false
+    }
+  ],
+  "pid": 10651
+}

@@ -1,0 +1,398 @@
+[
+  {
+    "actor_class": "BP_DFMCharacter_C",
+    "actor": "0x771085c010",
+    "ancestry": [
+      {
+        "class": "BP_DFMCharacter_C",
+        "pointer": "0x77a1c4c480"
+      },
+      {
+        "class": "SOLCharacter",
+        "pointer": "0x787e285880"
+      },
+      {
+        "class": "SOLCharacterBase",
+        "pointer": "0x787e02b000"
+      },
+      {
+        "class": "DFMPlayerCharacter",
+        "pointer": "0x787e774200"
+      },
+      {
+        "class": "DFMCharacter",
+        "pointer": "0x78941d9e80"
+      },
+      {
+        "class": "GPCharacter",
+        "pointer": "0x7894099e80"
+      },
+      {
+        "class": "GPCharacterBase",
+        "pointer": "0x7894099c00"
+      },
+      {
+        "class": "CharacterBase",
+        "pointer": "0x7894052680"
+      },
+      {
+        "class": "IntCharacter",
+        "pointer": "0x7894052400"
+      },
+      {
+        "class": "CHARACTER",
+        "pointer": "0x7893ed6780"
+      },
+      {
+        "class": "Pawn",
+        "pointer": "0x7893ed6c80"
+      },
+      {
+        "class": "Actor",
+        "pointer": "0x7893eb3300"
+      },
+      {
+        "class": "Object",
+        "pointer": "0x78d3210100"
+      }
+    ],
+    "fields": [
+      {
+        "owner": "DFMPlayerCharacter",
+        "name": "TeamCampId",
+        "offset": "0x3bbc",
+        "size": 4,
+        "property": "0x783ce58700"
+      },
+      {
+        "owner": "GPCharacterBase",
+        "name": "bIsAILab",
+        "offset": "0xe5f",
+        "size": 1,
+        "property": "0x7840dbede0"
+      },
+      {
+        "owner": "Pawn",
+        "name": "AutoPossessAI",
+        "offset": "0x381",
+        "size": 1,
+        "property": "0x7840d94700"
+      },
+      {
+        "owner": "Pawn",
+        "name": "AIControllerClass",
+        "offset": "0x388",
+        "size": 8,
+        "property": "0x7840d94840"
+      },
+      {
+        "owner": "Pawn",
+        "name": "PlayerState",
+        "offset": "0x390",
+        "size": 8,
+        "property": "0x7840d948e0"
+      },
+      {
+        "owner": "Pawn",
+        "name": "Controller",
+        "offset": "0x3a8",
+        "size": 8,
+        "property": "0x7840d94a20"
+      },
+      {
+        "owner": "Actor",
+        "name": "RootComponent",
+        "offset": "0x180",
+        "size": 8,
+        "property": "0x7840c28440"
+      }
+    ]
+  },
+  {
+    "actor_class": "BP_DFMAICharacter_Firebat_C",
+    "actor": "0x768d085560",
+    "ancestry": [
+      {
+        "class": "BP_DFMAICharacter_Firebat_C",
+        "pointer": "0x779e222000"
+      },
+      {
+        "class": "BP_DFMCharacter_AI_C",
+        "pointer": "0x767f173880"
+      },
+      {
+        "class": "DFMAICharacter",
+        "pointer": "0x787e496a00"
+      },
+      {
+        "class": "DFMCharacter",
+        "pointer": "0x78941d9e80"
+      },
+      {
+        "class": "GPCharacter",
+        "pointer": "0x7894099e80"
+      },
+      {
+        "class": "GPCharacterBase",
+        "pointer": "0x7894099c00"
+      },
+      {
+        "class": "CharacterBase",
+        "pointer": "0x7894052680"
+      },
+      {
+        "class": "IntCharacter",
+        "pointer": "0x7894052400"
+      },
+      {
+        "class": "CHARACTER",
+        "pointer": "0x7893ed6780"
+      },
+      {
+        "class": "Pawn",
+        "pointer": "0x7893ed6c80"
+      },
+      {
+        "class": "Actor",
+        "pointer": "0x7893eb3300"
+      },
+      {
+        "class": "Object",
+        "pointer": "0x78d3210100"
+      }
+    ],
+    "fields": []
+  },
+  {
+    "actor_class": "BP_DFMCharacter_AI_DT_C",
+    "actor": "0x7679a30010",
+    "ancestry": [
+      {
+        "class": "BP_DFMCharacter_AI_DT_C",
+        "pointer": "0x779e224680"
+      },
+      {
+        "class": "BP_DFMCharacter_AI_C",
+        "pointer": "0x767f173880"
+      },
+      {
+        "class": "DFMAICharacter",
+        "pointer": "0x787e496a00"
+      },
+      {
+        "class": "DFMCharacter",
+        "pointer": "0x78941d9e80"
+      },
+      {
+        "class": "GPCharacter",
+        "pointer": "0x7894099e80"
+      },
+      {
+        "class": "GPCharacterBase",
+        "pointer": "0x7894099c00"
+      },
+      {
+        "class": "CharacterBase",
+        "pointer": "0x7894052680"
+      },
+      {
+        "class": "IntCharacter",
+        "pointer": "0x7894052400"
+      },
+      {
+        "class": "CHARACTER",
+        "pointer": "0x7893ed6780"
+      },
+      {
+        "class": "Pawn",
+        "pointer": "0x7893ed6c80"
+      },
+      {
+        "class": "Actor",
+        "pointer": "0x7893eb3300"
+      },
+      {
+        "class": "Object",
+        "pointer": "0x78d3210100"
+      }
+    ],
+    "fields": []
+  },
+  {
+    "actor_class": "BP_DFMAICharacter_ShielderLight_C",
+    "actor": "0x77158f0010",
+    "ancestry": [
+      {
+        "class": "BP_DFMAICharacter_ShielderLight_C",
+        "pointer": "0x7766187e80"
+      },
+      {
+        "class": "BP_DFMAICharacter_ShielderBase_C",
+        "pointer": "0x7766185b80"
+      },
+      {
+        "class": "BP_DFMCharacter_AI_C",
+        "pointer": "0x767f173880"
+      },
+      {
+        "class": "DFMAICharacter",
+        "pointer": "0x787e496a00"
+      },
+      {
+        "class": "DFMCharacter",
+        "pointer": "0x78941d9e80"
+      },
+      {
+        "class": "GPCharacter",
+        "pointer": "0x7894099e80"
+      },
+      {
+        "class": "GPCharacterBase",
+        "pointer": "0x7894099c00"
+      },
+      {
+        "class": "CharacterBase",
+        "pointer": "0x7894052680"
+      },
+      {
+        "class": "IntCharacter",
+        "pointer": "0x7894052400"
+      },
+      {
+        "class": "CHARACTER",
+        "pointer": "0x7893ed6780"
+      },
+      {
+        "class": "Pawn",
+        "pointer": "0x7893ed6c80"
+      },
+      {
+        "class": "Actor",
+        "pointer": "0x7893eb3300"
+      },
+      {
+        "class": "Object",
+        "pointer": "0x78d3210100"
+      }
+    ],
+    "fields": []
+  },
+  {
+    "actor_class": "BP_DFMCharacter_AI_DT_RPG_C",
+    "actor": "0x7769e65560",
+    "ancestry": [
+      {
+        "class": "BP_DFMCharacter_AI_DT_RPG_C",
+        "pointer": "0x76da883c00"
+      },
+      {
+        "class": "BP_DFMAICharacter_RPG_C",
+        "pointer": "0x789f9bc480"
+      },
+      {
+        "class": "BP_DFMCharacter_AI_C",
+        "pointer": "0x767f173880"
+      },
+      {
+        "class": "DFMAICharacter",
+        "pointer": "0x787e496a00"
+      },
+      {
+        "class": "DFMCharacter",
+        "pointer": "0x78941d9e80"
+      },
+      {
+        "class": "GPCharacter",
+        "pointer": "0x7894099e80"
+      },
+      {
+        "class": "GPCharacterBase",
+        "pointer": "0x7894099c00"
+      },
+      {
+        "class": "CharacterBase",
+        "pointer": "0x7894052680"
+      },
+      {
+        "class": "IntCharacter",
+        "pointer": "0x7894052400"
+      },
+      {
+        "class": "CHARACTER",
+        "pointer": "0x7893ed6780"
+      },
+      {
+        "class": "Pawn",
+        "pointer": "0x7893ed6c80"
+      },
+      {
+        "class": "Actor",
+        "pointer": "0x7893eb3300"
+      },
+      {
+        "class": "Object",
+        "pointer": "0x78d3210100"
+      }
+    ],
+    "fields": []
+  },
+  {
+    "actor_class": "BP_DFMCharacter_AI_Crocodile_C",
+    "actor": "0x764db4aab0",
+    "ancestry": [
+      {
+        "class": "BP_DFMCharacter_AI_Crocodile_C",
+        "pointer": "0x77999e2380"
+      },
+      {
+        "class": "BP_DFMCharacter_AI_Animal_C",
+        "pointer": "0x76d32e3c00"
+      },
+      {
+        "class": "DFMAIAnimalCharacter",
+        "pointer": "0x787e6e9480"
+      },
+      {
+        "class": "DFMAICharacter",
+        "pointer": "0x787e496a00"
+      },
+      {
+        "class": "DFMCharacter",
+        "pointer": "0x78941d9e80"
+      },
+      {
+        "class": "GPCharacter",
+        "pointer": "0x7894099e80"
+      },
+      {
+        "class": "GPCharacterBase",
+        "pointer": "0x7894099c00"
+      },
+      {
+        "class": "CharacterBase",
+        "pointer": "0x7894052680"
+      },
+      {
+        "class": "IntCharacter",
+        "pointer": "0x7894052400"
+      },
+      {
+        "class": "CHARACTER",
+        "pointer": "0x7893ed6780"
+      },
+      {
+        "class": "Pawn",
+        "pointer": "0x7893ed6c80"
+      },
+      {
+        "class": "Actor",
+        "pointer": "0x7893eb3300"
+      },
+      {
+        "class": "Object",
+        "pointer": "0x78d3210100"
+      }
+    ],
+    "fields": []
+  }
+]

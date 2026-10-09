@@ -1,0 +1,180 @@
+{
+  "0x20aa87a0": {
+    "pointer": "0x77f5c4f6e0",
+    "relative_address": "0x20aa87a0",
+    "first_96_bytes": "886fb0f37800000080d5778878000000607d6cbe770000000b00280039ff38000000000034c501003872b0f3780000000000000000000000c0d9fba17700000060d3fba177000000a060fba1770000007069265e78000000001efaa477000000",
+    "vtable": "0x78f3b06f88",
+    "index_candidate_at_0x24": 116020,
+    "object_slot_pointer": "0x77f5c4f6e0",
+    "object_slot_matches": true
+  },
+  "0x20738a18": {
+    "pointer": "0x6463",
+    "relative_address": "0x20738a18",
+    "error": "read 0x6000: 0 bytes"
+  },
+  "object_globals": {
+    "start": "0x2076b8e0",
+    "words": [
+      {
+        "offset": "0x2076b8e0",
+        "u64": "0x491600000101"
+      },
+      {
+        "offset": "0x2076b8e8",
+        "u64": "0x10f62808060002"
+      },
+      {
+        "offset": "0x2076b8f0",
+        "u64": "0x0"
+      },
+      {
+        "offset": "0x2076b8f8",
+        "u64": "0x1877200018773"
+      },
+      {
+        "offset": "0x2076b900",
+        "u64": "0x18773"
+      },
+      {
+        "offset": "0x2076b908",
+        "u64": "0x35a5500000007"
+      },
+      {
+        "offset": "0x2076b910",
+        "u64": "0x4"
+      },
+      {
+        "offset": "0x2076b918",
+        "u64": "0x786f491d00"
+      },
+      {
+        "offset": "0x2076b920",
+        "u64": "0x0"
+      },
+      {
+        "offset": "0x2076b928",
+        "u64": "0x0"
+      },
+      {
+        "offset": "0x2076b930",
+        "u64": "0x70000"
+      },
+      {
+        "offset": "0x2076b938",
+        "u64": "0x4000"
+      },
+      {
+        "offset": "0x2076b940",
+        "u64": "0x0"
+      },
+      {
+        "offset": "0x2076b948",
+        "u64": "0x0"
+      },
+      {
+        "offset": "0x2076b950",
+        "u64": "0x0"
+      },
+      {
+        "offset": "0x2076b958",
+        "u64": "0x0"
+      }
+    ]
+  },
+  "object_chunks_pointer": "0x786f491d00",
+  "first_chunk": "0x7869570000",
+  "first_items": [
+    {
+      "slot": 0,
+      "pointer": "0x7869970000",
+      "tail": "00000040000000000000000000000000"
+    },
+    {
+      "slot": 1,
+      "pointer": "0x78d2000100",
+      "tail": "0000004200000000000000002c040000"
+    },
+    {
+      "slot": 2,
+      "pointer": "0x7869970090",
+      "tail": "00000040000000000000000022040000"
+    },
+    {
+      "slot": 3,
+      "pointer": "0x78d200d080",
+      "tail": "00000042000000000000000000000000"
+    },
+    {
+      "slot": 4,
+      "pointer": "0x7869970120",
+      "tail": "00000040000000000000000000000000"
+    },
+    {
+      "slot": 5,
+      "pointer": "0x78d200d300",
+      "tail": "00000042000000000000000000000000"
+    },
+    {
+      "slot": 6,
+      "pointer": "0x78d200ce00",
+      "tail": "00000042000000000000000000000000"
+    },
+    {
+      "slot": 7,
+      "pointer": "0x78d200cb80",
+      "tail": "00000042000000000000000000000000"
+    }
+  ],
+  "object_error": "read 0x6000: 0 bytes",
+  "first_items_index_validation": [
+    {
+      "slot": 0,
+      "internal_index": 0,
+      "matches": true
+    },
+    {
+      "slot": 1,
+      "internal_index": 1,
+      "matches": true
+    },
+    {
+      "slot": 2,
+      "internal_index": 2,
+      "matches": true
+    },
+    {
+      "slot": 3,
+      "internal_index": 3,
+      "matches": true
+    },
+    {
+      "slot": 4,
+      "internal_index": 4,
+      "matches": true
+    },
+    {
+      "slot": 5,
+      "internal_index": 5,
+      "matches": true
+    },
+    {
+      "slot": 6,
+      "internal_index": 6,
+      "matches": true
+    },
+    {
+      "slot": 7,
+      "internal_index": 7,
+      "matches": true
+    }
+  ],
+  "chunked_array_fields": {
+    "relative_address": "0x2076b908",
+    "max_chunks": 7,
+    "num_elements": 219733,
+    "num_chunks": 4,
+    "chunks_pointer": "0x786f491d00",
+    "max_elements": 458752
+  }
+}

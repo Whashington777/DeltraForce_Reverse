@@ -1,0 +1,221 @@
+{
+  "captured_utc": "2026-10-08T11:44:02.985047+00:00",
+  "pid": 22846,
+  "base": "0x78d6c43000",
+  "world": "0x7764e14980",
+  "level": "0x76d5dee860",
+  "local_team_id": 1,
+  "roster_relations": {
+    "self": 1,
+    "ally": 2,
+    "other_team": 10
+  },
+  "entity_relations": {
+    "npc": 9,
+    "other_team": 3,
+    "self": 1
+  },
+  "npc_classes": {
+    "BP_DFMCharacter_AI_DT_C": 7,
+    "BP_DFMAICharacter_Firebat_C": 1,
+    "BP_DFMCharacter_AI_Crocodile_C": 1
+  },
+  "checks": {
+    "world_stable": true,
+    "game_state_stable": true,
+    "roster_header_stable": true,
+    "actor_array_header_stable": true
+  },
+  "roster": [
+    {
+      "player_state": "0x76831fc720",
+      "team_id": 1,
+      "relation": "self",
+      "pawn_pointer_at_capture": "0x771085c010"
+    },
+    {
+      "player_state": "0x766ea338f0",
+      "team_id": 1,
+      "relation": "ally",
+      "pawn_pointer_at_capture": "0x0"
+    },
+    {
+      "player_state": "0x7686abc720",
+      "team_id": 2,
+      "relation": "other_team",
+      "pawn_pointer_at_capture": "0x0"
+    },
+    {
+      "player_state": "0x76bfa58e40",
+      "team_id": 1,
+      "relation": "ally",
+      "pawn_pointer_at_capture": "0x0"
+    },
+    {
+      "player_state": "0x76632f8e40",
+      "team_id": 5,
+      "relation": "other_team",
+      "pawn_pointer_at_capture": "0x0"
+    },
+    {
+      "player_state": "0x76632f71d0",
+      "team_id": 5,
+      "relation": "other_team",
+      "pawn_pointer_at_capture": "0x0"
+    },
+    {
+      "player_state": "0x76e2a6aab0",
+      "team_id": 5,
+      "relation": "other_team",
+      "pawn_pointer_at_capture": "0x0"
+    },
+    {
+      "player_state": "0x79cc4cc720",
+      "team_id": 3,
+      "relation": "other_team",
+      "pawn_pointer_at_capture": "0x0"
+    },
+    {
+      "player_state": "0x77141fe390",
+      "team_id": 3,
+      "relation": "other_team",
+      "pawn_pointer_at_capture": "0x0"
+    },
+    {
+      "player_state": "0x77160d5560",
+      "team_id": 3,
+      "relation": "other_team",
+      "pawn_pointer_at_capture": "0x0"
+    },
+    {
+      "player_state": "0x79cc4ce390",
+      "team_id": 4,
+      "relation": "other_team",
+      "pawn_pointer_at_capture": "0x76d0c9c010"
+    },
+    {
+      "player_state": "0x77141fc720",
+      "team_id": 4,
+      "relation": "other_team",
+      "pawn_pointer_at_capture": "0x768a5fc010"
+    },
+    {
+      "player_state": "0x7771ea5560",
+      "team_id": 4,
+      "relation": "other_team",
+      "pawn_pointer_at_capture": "0x76ceb08020"
+    }
+  ],
+  "entities": [
+    {
+      "actor": "0x76336aaab0",
+      "class": "BP_DFMCharacter_AI_DT_C",
+      "kind": "npc",
+      "object_index": 171016,
+      "relation": "npc"
+    },
+    {
+      "actor": "0x7636925560",
+      "class": "BP_DFMCharacter_AI_DT_C",
+      "kind": "npc",
+      "object_index": 175178,
+      "relation": "npc"
+    },
+    {
+      "actor": "0x7647b35560",
+      "class": "BP_DFMCharacter_AI_DT_C",
+      "kind": "npc",
+      "object_index": 258328,
+      "relation": "npc"
+    },
+    {
+      "actor": "0x7666da0010",
+      "class": "BP_DFMAICharacter_Firebat_C",
+      "kind": "npc",
+      "object_index": 258174,
+      "relation": "npc"
+    },
+    {
+      "actor": "0x766a905560",
+      "class": "BP_DFMCharacter_AI_DT_C",
+      "kind": "npc",
+      "object_index": 158574,
+      "relation": "npc"
+    },
+    {
+      "actor": "0x768a5fc010",
+      "class": "BP_DFMCharacter_C",
+      "kind": "participant_character",
+      "object_index": 145689,
+      "player_state": "0x77141fc720",
+      "relation": "other_team",
+      "reverse_pawn_matches": true
+    },
+    {
+      "actor": "0x76ce31aab0",
+      "class": "BP_DFMCharacter_AI_DT_C",
+      "kind": "npc",
+      "object_index": 163740,
+      "relation": "npc"
+    },
+    {
+      "actor": "0x76ceb08020",
+      "class": "BP_DFMCharacter_C",
+      "kind": "participant_character",
+      "object_index": 138510,
+      "player_state": "0x7771ea5560",
+      "relation": "other_team",
+      "reverse_pawn_matches": true
+    },
+    {
+      "actor": "0x76d0c9c010",
+      "class": "BP_DFMCharacter_C",
+      "kind": "participant_character",
+      "object_index": 151365,
+      "player_state": "0x79cc4ce390",
+      "relation": "other_team",
+      "reverse_pawn_matches": true
+    },
+    {
+      "actor": "0x76d261aab0",
+      "class": "BP_DFMCharacter_AI_DT_C",
+      "kind": "npc",
+      "object_index": 244356,
+      "relation": "npc"
+    },
+    {
+      "actor": "0x771085c010",
+      "class": "BP_DFMCharacter_C",
+      "kind": "participant_character",
+      "object_index": 173485,
+      "player_state": "0x76831fc720",
+      "relation": "self",
+      "reverse_pawn_matches": true
+    },
+    {
+      "actor": "0x771b65aab0",
+      "class": "BP_DFMCharacter_AI_DT_C",
+      "kind": "npc",
+      "object_index": 263054,
+      "relation": "npc"
+    },
+    {
+      "actor": "0x77a61a5560",
+      "class": "BP_DFMCharacter_AI_Crocodile_C",
+      "kind": "npc",
+      "object_index": 273036,
+      "relation": "npc"
+    }
+  ],
+  "classification": {
+    "participants": "Pawn.PlayerState matches the verified roster; compare reflected TeamID with local TeamID",
+    "npc": "class ancestry contains verified DFMAICharacter",
+    "unknown": "unmatched PlayerState or invalid/negative team fields"
+  },
+  "limits": [
+    "Snapshot covers current PersistentLevel only, not all streamed levels.",
+    "Pointers can disappear or be replaced during a match.",
+    "Actor presence does not establish life status or visibility.",
+    "NPC category does not establish whether it is hostile."
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "png_count": 10,
+  "frames": [
+    {
+      "frame": 1,
+      "path": "analysis/visual-burst-captures/1791557737653859845/screens/frame_01.png",
+      "size": [
+        3000,
+        2120
+      ],
+      "sha256": "543b337ed91d04b49a328f2b05e19698b20553e912cb5244bf973ccdc41e2bd4",
+      "device_command_start_ns": 1791557737204937732,
+      "device_command_finish_ns": 1791557739827485231
+    },
+    {
+      "frame": 2,
+      "path": "analysis/visual-burst-captures/1791557737653859845/screens/frame_02.png",
+      "size": [
+        3000,
+        2120
+      ],
+      "sha256": "ad58aea9d76529cd67e76a524e4a43db4aa4c718e4f876c598f8f6c54c302815",
+      "device_command_start_ns": 1791557739847033721,
+      "device_command_finish_ns": 1791557742377206740
+    },
+    {
+      "frame": 3,
+      "path": "analysis/visual-burst-captures/1791557737653859845/screens/frame_03.png",
+      "size": [
+        3000,
+        2120
+      ],
+      "sha256": "bcf2fb9efe0a63798528ef725141a8a4e21e783f300d5d7db20a1fd571d59973",
+      "device_command_start_ns": 1791557742388272001,
+      "device_command_finish_ns": 1791557745137972469
+    },
+    {
+      "frame": 4,
+      "path": "analysis/visual-burst-captures/1791557737653859845/screens/frame_04.png",
+      "size": [
+        3000,
+        2120
+      ],
+      "sha256": "04f8a0c888ea051d0cb7e120d15682fc74c1ddc242308d5cea6b7ca0f51694fb",
+      "device_command_start_ns": 1791557745157767312,
+      "device_command_finish_ns": 1791557747789950801
+    },
+    {
+      "frame": 5,
+      "path": "analysis/visual-burst-captures/1791557737653859845/screens/frame_05.png",
+      "size": [
+        3000,
+        2120
+      ],
+      "sha256": "dfa6dce837ac3cf58107f2ec9f484ce9bcd88f7f0ffe1f7ecc7e522e9b36d58b",
+      "device_command_start_ns": 1791557747808867207,
+      "device_command_finish_ns": 1791557750392559342
+    },
+    {
+      "frame": 6,
+      "path": "analysis/visual-burst-captures/1791557737653859845/screens/frame_06.png",
+      "size": [
+        3000,
+        2120
+      ],
+      "sha256": "07803e488dce569a76bb653d58d495a2c252e1ec3b070f5246d2a3f47338110c",
+      "device_command_start_ns": 1791557750401473560,
+      "device_command_finish_ns": 1791557752758717674
+    },
+    {
+      "frame": 7,
+      "path": "analysis/visual-burst-captures/1791557737653859845/screens/frame_07.png",
+      "size": [
+        3000,
+        2120
+      ],
+      "sha256": "0d8a2536c863dfc6d0b1d88129ecc43386011ae7e10efd2c2388e9cd514eb49a",
+      "device_command_start_ns": 1791557752770488351,
+      "device_command_finish_ns": 1791557755462844704
+    },
+    {
+      "frame": 8,
+      "path": "analysis/visual-burst-captures/1791557737653859845/screens/frame_08.png",
+      "size": [
+        3000,
+        2120
+      ],
+      "sha256": "559bbbb2d1d3a295d78924299778ded3166711d889a0423411c7d70cd7a0259b",
+      "device_command_start_ns": 1791557755474325017,
+      "device_command_finish_ns": 1791557758102673453
+    },
+    {
+      "frame": 9,
+      "path": "analysis/visual-burst-captures/1791557737653859845/screens/frame_09.png",
+      "size": [
+        3000,
+        2120
+      ],
+      "sha256": "04d6beb7d80703d88e1d28999ca7647d20f09a170e614052c38bbfa83310ce21",
+      "device_command_start_ns": 1791557758113592828,
+      "device_command_finish_ns": 1791557760754463817
+    },
+    {
+      "frame": 10,
+      "path": "analysis/visual-burst-captures/1791557737653859845/screens/frame_10.png",
+      "size": [
+        3000,
+        2120
+      ],
+      "sha256": "a22a4e424f692ab35fdb54e90a2ae2686aac2998c95b7031c6725a97c99066fa",
+      "device_command_start_ns": 1791557760774403296,
+      "device_command_finish_ns": 1791557763661651524
+    }
+  ],
+  "captures": [
+    {
+      "index": 0,
+      "folder": "analysis/combined-vector-captures/1791557744355739646",
+      "batch_start_ns": 1791557744355967800,
+      "batch_finish_ns": 1791557744732551155,
+      "screen_command_overlaps": [
+        3
+      ],
+      "camera_bytes_stable": false,
+      "candidates": 2
+    },
+    {
+      "index": 1,
+      "folder": "analysis/combined-vector-captures/1791557748181839892",
+      "batch_start_ns": 1791557748182115979,
+      "batch_finish_ns": 1791557748570633276,
+      "screen_command_overlaps": [
+        5
+      ],
+      "camera_bytes_stable": true,
+      "candidates": 5
+    },
+    {
+      "index": 2,
+      "folder": "analysis/combined-vector-captures/1791557751681938475",
+      "batch_start_ns": 1791557751682120329,
+      "batch_finish_ns": 1791557752103359277,
+      "screen_command_overlaps": [
+        6
+      ],
+      "camera_bytes_stable": false,
+      "candidates": 1
+    },
+    {
+      "index": 3,
+      "folder": "analysis/combined-vector-captures/1791557755164167744",
+      "batch_start_ns": 1791557755164538866,
+      "batch_finish_ns": 1791557755558180918,
+      "screen_command_overlaps": [
+        7,
+        8
+      ],
+      "camera_bytes_stable": true,
+      "candidates": 7
+    },
+    {
+      "index": 4,
+      "folder": "analysis/combined-vector-captures/1791557758668496455",
+      "batch_start_ns": 1791557758668668362,
+      "batch_finish_ns": 1791557759047952417,
+      "screen_command_overlaps": [
+        9
+      ],
+      "camera_bytes_stable": true,
+      "candidates": 8
+    },
+    {
+      "index": 5,
+      "folder": "analysis/combined-vector-captures/1791557762083775879",
+      "batch_start_ns": 1791557762084022576,
+      "batch_finish_ns": 1791557762466133613,
+      "screen_command_overlaps": [
+        10
+      ],
+      "camera_bytes_stable": true,
+      "candidates": 7
+    },
+    {
+      "index": 6,
+      "folder": "analysis/combined-vector-captures/1791557765550274818",
+      "batch_start_ns": 1791557765550479002,
+      "batch_finish_ns": 1791557765966153339,
+      "screen_command_overlaps": [],
+      "camera_bytes_stable": false,
+      "candidates": 7
+    },
+    {
+      "index": 7,
+      "folder": "analysis/combined-vector-captures/1791557769000678877",
+      "batch_start_ns": 1791557769000832924,
+      "batch_finish_ns": 1791557769377417721,
+      "screen_command_overlaps": [],
+      "camera_bytes_stable": false,
+      "candidates": 3
+    },
+    {
+      "index": 8,
+      "folder": "analysis/combined-vector-captures/1791557772317841923",
+      "batch_start_ns": 1791557772318023007,
+      "batch_finish_ns": 1791557772706359527,
+      "screen_command_overlaps": [],
+      "camera_bytes_stable": true,
+      "candidates": 6
+    },
+    {
+      "index": 9,
+      "folder": "analysis/combined-vector-captures/1791557776143088147",
+      "batch_start_ns": 1791557776143271936,
+      "batch_finish_ns": 1791557776552829643,
+      "screen_command_overlaps": [],
+      "camera_bytes_stable": false,
+      "candidates": 2
+    }
+  ],
+  "selected_memory_index": 4,
+  "selected_screen": 9,
+  "selected_mesh": "0x6e8d0a2ec0",
+  "asset": "0x6ecfdc85f0",
+  "points": {
+    "31": {
+      "projection": {
+        "x": 1425.7936678680985,
+        "y": 1054.80946006131,
+        "depth": 220.5288535307597,
+        "in_viewport": true
+      },
+      "manually_observed_region": [
+        1350,
+        990,
+        1520,
+        1125
+      ],
+      "inside_region": true
+    },
+    "10": {
+      "projection": {
+        "x": 1374.0750773586578,
+        "y": 1195.6070175920318,
+        "depth": 199.11054669700474,
+        "in_viewport": true
+      },
+      "manually_observed_region": [
+        1315,
+        1130,
+        1450,
+        1235
+      ],
+      "inside_region": true
+    },
+    "38": {
+      "projection": {
+        "x": 1624.0678819188884,
+        "y": 1170.5246819077317,
+        "depth": 203.3063051759943,
+        "in_viewport": true
+      },
+      "manually_observed_region": [
+        1530,
+        1100,
+        1670,
+        1235
+      ],
+      "inside_region": true
+    },
+    "60": {
+      "projection": {
+        "x": 1582.3985964067,
+        "y": 1869.9724979655075,
+        "depth": 248.5127353129589,
+        "in_viewport": true
+      },
+      "manually_observed_region": [
+        1510,
+        1800,
+        1670,
+        1960
+      ],
+      "inside_region": true
+    },
+    "64": {
+      "projection": {
+        "x": 1154.0598944322073,
+        "y": 1932.5135941537837,
+        "depth": 230.89697716058163,
+        "in_viewport": true
+      },
+      "manually_observed_region": [
+        1090,
+        1820,
+        1235,
+        2030
+      ],
+      "inside_region": true
+    },
+    "1": {
+      "projection": {
+        "x": 1368.5911395435162,
+        "y": 1426.024758462206,
+        "depth": 239.16914756286258,
+        "in_viewport": true
+      },
+      "manually_observed_region": [
+        1270,
+        1340,
+        1490,
+        1500
+      ],
+      "inside_region": true
+    }
+  },
+  "diagnostic_image": "analysis/visual-burst-captures/1791557737653859845/candidate-frame-09.png",
+  "all_selected_points_in_broad_observed_regions": true,
+  "remote_world_transform_verified": false,
+  "world_bones_verified": false,
+  "second_scene": {
+    "memory_index": 3,
+    "frame_08": "Qualitative upper-body agreement; feet partly occluded",
+    "frame_07": "Rejected visual pairing: large screen displacement despite timing overlap"
+  },
+  "conclusion": "Single saved scene gives visual support for unmodified hierarchy candidate; full source/pose verification remains incomplete.",
+  "limitations": [
+    "Host memory timestamps and device screenshot timestamps are from different clocks; no measured clock-error bound.",
+    "Screenshot command interval includes PNG encoding; overlapping intervals do not prove same rendered frame.",
+    "Anatomical regions are broad retrospective observations made with candidate projections known; not independent quantitative ground truth.",
+    "Current historical asset no longer passes resident object validation; name-to-index mapping for that asset not captured.",
+    "No camera or transform parameter was fitted to this image."
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "pid": 21490,
+  "key": "0x53d1d34b",
+  "real_payload_cases": 15,
+  "all_passed": true,
+  "code_source": "analysis/session-refresh-history/pid-21490/unpacker.bin",
+  "checks": [
+    {
+      "vector": "0x6eb5255ba8",
+      "slot": 5,
+      "matches": true,
+      "xyz": [
+        -19571.40625,
+        1744.0,
+        -144.208984375
+      ]
+    },
+    {
+      "vector": "0x6eb5255b88",
+      "slot": 5,
+      "matches": true,
+      "xyz": [
+        -19571.40625,
+        1744.0,
+        -144.208984375
+      ]
+    },
+    {
+      "vector": "0x6ebef58d08",
+      "slot": 4,
+      "matches": true,
+      "xyz": [
+        -19571.40625,
+        1744.0,
+        -144.208984375
+      ]
+    },
+    {
+      "vector": "0x6ebe586208",
+      "slot": 4,
+      "matches": true,
+      "xyz": [
+        -20484.40625,
+        -9012.875,
+        475.490234375
+      ]
+    },
+    {
+      "vector": "0x6ebe5861e8",
+      "slot": 4,
+      "matches": true,
+      "xyz": [
+        -20484.40625,
+        -9012.875,
+        475.490234375
+      ]
+    },
+    {
+      "vector": "0x6e299c5e88",
+      "slot": 1,
+      "matches": true,
+      "xyz": [
+        -20484.40625,
+        -9012.875,
+        475.490234375
+      ]
+    },
+    {
+      "vector": "0x6fb3cd1be8",
+      "slot": 3,
+      "matches": true,
+      "xyz": [
+        -16490.3125,
+        7052.625,
+        -1051.0
+      ]
+    },
+    {
+      "vector": "0x6fb3cd1bc8",
+      "slot": 4,
+      "matches": true,
+      "xyz": [
+        -16490.3125,
+        7052.625,
+        -1051.0
+      ]
+    },
+    {
+      "vector": "0x6dfd34ea08",
+      "slot": 4,
+      "matches": true,
+      "xyz": [
+        -16490.3125,
+        7052.625,
+        -1051.0
+      ]
+    },
+    {
+      "vector": "0x6ea1ab0f28",
+      "slot": 0,
+      "matches": true,
+      "xyz": [
+        -20240.90625,
+        -8502.8125,
+        -94.708984375
+      ]
+    },
+    {
+      "vector": "0x6ea1ab0f08",
+      "slot": 7,
+      "matches": true,
+      "xyz": [
+        -20240.90625,
+        -8502.8125,
+        -94.708984375
+      ]
+    },
+    {
+      "vector": "0x6ea17f75c8",
+      "slot": 1,
+      "matches": true,
+      "xyz": [
+        -20240.90625,
+        -8502.8125,
+        -94.708984375
+      ]
+    },
+    {
+      "vector": "0x6ea19ae188",
+      "slot": 1,
+      "matches": true,
+      "xyz": [
+        -20576.5,
+        -10126.875,
+        -187.208984375
+      ]
+    },
+    {
+      "vector": "0x6ea19ae168",
+      "slot": 7,
+      "matches": true,
+      "xyz": [
+        -20576.5,
+        -10126.875,
+        -187.208984375
+      ]
+    },
+    {
+      "vector": "0x6e3ebbd2c8",
+      "slot": 3,
+      "matches": true,
+      "xyz": [
+        -20576.5,
+        -10126.875,
+        -187.208984375
+      ]
+    }
+  ],
+  "limits": [
+    "Offline arithmetic equivalence does not independently establish world coordinates."
+  ]
+}

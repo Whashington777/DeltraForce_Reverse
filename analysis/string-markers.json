@@ -1,0 +1,138 @@
+{
+  "GWorld": [
+    {
+      "encoding": "ascii",
+      "file_offsets": [],
+      "limit": 20
+    },
+    {
+      "encoding": "utf-16le",
+      "file_offsets": [],
+      "limit": 20
+    }
+  ],
+  "GUObjectArray": [
+    {
+      "encoding": "ascii",
+      "file_offsets": [],
+      "limit": 20
+    },
+    {
+      "encoding": "utf-16le",
+      "file_offsets": [],
+      "limit": 20
+    }
+  ],
+  "GNames": [
+    {
+      "encoding": "ascii",
+      "file_offsets": [],
+      "limit": 20
+    },
+    {
+      "encoding": "utf-16le",
+      "file_offsets": [],
+      "limit": 20
+    }
+  ],
+  "NamePoolData": [
+    {
+      "encoding": "ascii",
+      "file_offsets": [],
+      "limit": 20
+    },
+    {
+      "encoding": "utf-16le",
+      "file_offsets": [],
+      "limit": 20
+    }
+  ],
+  "ByteProperty": [
+    {
+      "encoding": "ascii",
+      "file_offsets": [],
+      "limit": 20
+    },
+    {
+      "encoding": "utf-16le",
+      "file_offsets": [],
+      "limit": 20
+    }
+  ],
+  "None": [
+    {
+      "encoding": "ascii",
+      "file_offsets": [
+        "0x1f668a07"
+      ],
+      "limit": 20
+    },
+    {
+      "encoding": "utf-16le",
+      "file_offsets": [
+        "0x174b120"
+      ],
+      "limit": 20
+    }
+  ],
+  "Unreal Engine": [
+    {
+      "encoding": "ascii",
+      "file_offsets": [],
+      "limit": 20
+    },
+    {
+      "encoding": "utf-16le",
+      "file_offsets": [],
+      "limit": 20
+    }
+  ],
+  "++UE4": [
+    {
+      "encoding": "ascii",
+      "file_offsets": [],
+      "limit": 20
+    },
+    {
+      "encoding": "utf-16le",
+      "file_offsets": [],
+      "limit": 20
+    }
+  ],
+  "FNamePool": [
+    {
+      "encoding": "ascii",
+      "file_offsets": [],
+      "limit": 20
+    },
+    {
+      "encoding": "utf-16le",
+      "file_offsets": [],
+      "limit": 20
+    }
+  ],
+  "PersistentLevel": [
+    {
+      "encoding": "ascii",
+      "file_offsets": [],
+      "limit": 20
+    },
+    {
+      "encoding": "utf-16le",
+      "file_offsets": [],
+      "limit": 20
+    }
+  ],
+  "LocalPlayers": [
+    {
+      "encoding": "ascii",
+      "file_offsets": [],
+      "limit": 20
+    },
+    {
+      "encoding": "utf-16le",
+      "file_offsets": [],
+      "limit": 20
+    }
+  ]
+}

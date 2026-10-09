@@ -1,0 +1,442 @@
+{
+  "pid": 22846,
+  "base": "0x78d6c43000",
+  "mode": "Breakthrough",
+  "local_player_state": "0x77c0ba24a0",
+  "local_player_state_class": "BP_BattleFieldPlayerState_C",
+  "local_camp": 0,
+  "local_team_id": 0,
+  "chain": {
+    "world": "0x20AA87A0",
+    "game_instance": "0x190",
+    "local_players": "0x38",
+    "local_player_controller": "0x30",
+    "controller_player_state": "0x378",
+    "player_state_team_id": "0x658",
+    "player_state_camp": "0x65C"
+  },
+  "controller_fields": [
+    {
+      "owner_class": "PlayerController",
+      "name": "Player",
+      "offset": "0x3e8"
+    },
+    {
+      "owner_class": "PlayerController",
+      "name": "AcknowledgedPawn",
+      "offset": "0x3f0"
+    },
+    {
+      "owner_class": "Controller",
+      "name": "PlayerState",
+      "offset": "0x378"
+    },
+    {
+      "owner_class": "Controller",
+      "name": "Pawn",
+      "offset": "0x3a0"
+    }
+  ],
+  "relation_counts": {
+    "self": 1,
+    "ally": 23,
+    "opponent": 24
+  },
+  "same_squad_including_self": 4,
+  "checks": {
+    "local_player_state_in_roster": true,
+    "all_camps_known": true,
+    "world_stable": true,
+    "roster_header_stable": true
+  },
+  "rows": [
+    {
+      "slot": 0,
+      "player_state": "0x77c0ba24a0",
+      "camp": 0,
+      "team_id": 0,
+      "relation": "self",
+      "same_squad": true
+    },
+    {
+      "slot": 1,
+      "player_state": "0x77c9fc6dc0",
+      "camp": 0,
+      "team_id": 6,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 2,
+      "player_state": "0x77c0f024a0",
+      "camp": 0,
+      "team_id": 6,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 3,
+      "player_state": "0x77c0ba9250",
+      "camp": 0,
+      "team_id": 4,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 4,
+      "player_state": "0x789f659250",
+      "camp": 0,
+      "team_id": 6,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 5,
+      "player_state": "0x776dab0010",
+      "camp": 0,
+      "team_id": 6,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 6,
+      "player_state": "0x789f65db70",
+      "camp": 0,
+      "team_id": 8,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 7,
+      "player_state": "0x783a3cb6e0",
+      "camp": 0,
+      "team_id": 8,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 8,
+      "player_state": "0x776dab9250",
+      "camp": 0,
+      "team_id": 8,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 9,
+      "player_state": "0x77a0fe6dc0",
+      "camp": 0,
+      "team_id": 8,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 10,
+      "player_state": "0x77964b6dc0",
+      "camp": 0,
+      "team_id": 10,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 11,
+      "player_state": "0x7792de0010",
+      "camp": 0,
+      "team_id": 0,
+      "relation": "ally",
+      "same_squad": true
+    },
+    {
+      "slot": 12,
+      "player_state": "0x776e360010",
+      "camp": 0,
+      "team_id": 0,
+      "relation": "ally",
+      "same_squad": true
+    },
+    {
+      "slot": 13,
+      "player_state": "0x77a37d24a0",
+      "camp": 0,
+      "team_id": 2,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 14,
+      "player_state": "0x77a51524a0",
+      "camp": 0,
+      "team_id": 2,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 15,
+      "player_state": "0x77c9fc9250",
+      "camp": 0,
+      "team_id": 0,
+      "relation": "ally",
+      "same_squad": true
+    },
+    {
+      "slot": 16,
+      "player_state": "0x77c1910010",
+      "camp": 0,
+      "team_id": 2,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 17,
+      "player_state": "0x789f65b6e0",
+      "camp": 0,
+      "team_id": 2,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 18,
+      "player_state": "0x77c1914930",
+      "camp": 0,
+      "team_id": 4,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 19,
+      "player_state": "0x78a051db70",
+      "camp": 0,
+      "team_id": 4,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 20,
+      "player_state": "0x77c0ba4930",
+      "camp": 1,
+      "team_id": 9,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 21,
+      "player_state": "0x7755c50010",
+      "camp": 0,
+      "team_id": 4,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 22,
+      "player_state": "0x7718294930",
+      "camp": 1,
+      "team_id": 9,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 23,
+      "player_state": "0x77146c24a0",
+      "camp": 1,
+      "team_id": 11,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 24,
+      "player_state": "0x77146c4930",
+      "camp": 1,
+      "team_id": 9,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 25,
+      "player_state": "0x77146c9250",
+      "camp": 1,
+      "team_id": 11,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 26,
+      "player_state": "0x77179f9250",
+      "camp": 0,
+      "team_id": 10,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 27,
+      "player_state": "0x77557b4930",
+      "camp": 1,
+      "team_id": 11,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 28,
+      "player_state": "0x7716aab6e0",
+      "camp": 1,
+      "team_id": 11,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 29,
+      "player_state": "0x7716aa24a0",
+      "camp": 0,
+      "team_id": 10,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 30,
+      "player_state": "0x7716aa0010",
+      "camp": 0,
+      "team_id": 10,
+      "relation": "ally",
+      "same_squad": false
+    },
+    {
+      "slot": 31,
+      "player_state": "0x7717dcdb70",
+      "camp": 1,
+      "team_id": 1,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 32,
+      "player_state": "0x7717dc9250",
+      "camp": 1,
+      "team_id": 1,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 33,
+      "player_state": "0x778f404930",
+      "camp": 1,
+      "team_id": 3,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 34,
+      "player_state": "0x7717dc24a0",
+      "camp": 1,
+      "team_id": 1,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 35,
+      "player_state": "0x7717dc0010",
+      "camp": 1,
+      "team_id": 1,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 36,
+      "player_state": "0x77111e4930",
+      "camp": 1,
+      "team_id": 3,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 37,
+      "player_state": "0x77111e24a0",
+      "camp": 1,
+      "team_id": 3,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 38,
+      "player_state": "0x7718296dc0",
+      "camp": 1,
+      "team_id": 5,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 39,
+      "player_state": "0x7712b89250",
+      "camp": 1,
+      "team_id": 3,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 40,
+      "player_state": "0x7712b84930",
+      "camp": 1,
+      "team_id": 5,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 41,
+      "player_state": "0x7712b80010",
+      "camp": 1,
+      "team_id": 5,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 42,
+      "player_state": "0x771079b6e0",
+      "camp": 1,
+      "team_id": 5,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 43,
+      "player_state": "0x77107924a0",
+      "camp": 1,
+      "team_id": 7,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 44,
+      "player_state": "0x7710790010",
+      "camp": 1,
+      "team_id": 7,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 45,
+      "player_state": "0x770f45db70",
+      "camp": 1,
+      "team_id": 7,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 46,
+      "player_state": "0x770f459250",
+      "camp": 1,
+      "team_id": 7,
+      "relation": "opponent",
+      "same_squad": false
+    },
+    {
+      "slot": 47,
+      "player_state": "0x770f456dc0",
+      "camp": 1,
+      "team_id": 9,
+      "relation": "opponent",
+      "same_squad": false
+    }
+  ],
+  "limitations": [
+    "Current Breakthrough match only; other modes unverified.",
+    "Sides inferred from reflected Camp and 24/24 partition; on-screen team labels not independently checked."
+  ]
+}

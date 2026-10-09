@@ -1,0 +1,56 @@
+{
+  "pid": 7615,
+  "payload_count": 9,
+  "unique_payload_count": 4,
+  "candidate_count": 61047,
+  "previous_key_passes_bounds": true,
+  "previous_key_xyz": [
+    [
+      -76865.3125,
+      -11930.8125,
+      2151.791015625
+    ],
+    [
+      -103470.59375,
+      -11312.0,
+      4070.890625
+    ],
+    [
+      -105141.5,
+      -8666.875,
+      3989.08984375
+    ],
+    [
+      -105141.5,
+      -8666.875,
+      3989.08984375
+    ],
+    [
+      -103470.59375,
+      -11312.0,
+      4070.890625
+    ],
+    [
+      -76865.3125,
+      -11930.8125,
+      2151.791015625
+    ],
+    [
+      -103470.5390625,
+      -11309.2900390625,
+      4070.890625
+    ],
+    [
+      -76865.3125,
+      -11930.8125,
+      2151.791015625
+    ],
+    [
+      -105141.5,
+      -8666.875,
+      3989.08984375
+    ]
+  ],
+  "coordinate_validation": false,
+  "conclusion": "Saved payloads do not identify a unique key; no coherent state/slot snapshot or independent position reference."
+}

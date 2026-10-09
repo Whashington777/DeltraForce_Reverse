@@ -1,0 +1,10 @@
+{
+  "pid": 21490,
+  "dispatch": "0x7034249140",
+  "dispatch_unchanged": true,
+  "unpacker": "0x7034249a80",
+  "bytes_match_verified_code": true,
+  "direct_call_sites": [
+    "0x70342494c4"
+  ]
+}

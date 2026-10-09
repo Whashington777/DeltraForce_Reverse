@@ -1,0 +1,197 @@
+{
+  "world": "0x77402c12c0",
+  "pawn": "0x76c63f8020",
+  "pawn_valid": true,
+  "pawn_fields": [
+    {
+      "owner": "DFMCharacter",
+      "name": "DFMMovementComp",
+      "offset": "0x2680",
+      "size": 8,
+      "property": "0x7840e94980"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "ActionInterruptedByMovement",
+      "offset": "0x2820",
+      "size": 16,
+      "property": "0x7840e92d60"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "bForceUseActorLocationForInteractPoint",
+      "offset": "0x2e20",
+      "size": 1,
+      "property": "0x7840e8e840"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "bNearlyUseCapsuleLocation",
+      "offset": "0x382c",
+      "size": 1,
+      "property": "0x7840e8cb80"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "SocketWorldLocationOffset",
+      "offset": "0x3830",
+      "size": 12,
+      "property": "0x7840e8cc20"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "GPCharacterMovement",
+      "offset": "0x1b38",
+      "size": 8,
+      "property": "0x7840dd9980"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "MovementVelocityScaler",
+      "offset": "0x1b40",
+      "size": 4,
+      "property": "0x7840dabf00"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "LastCrouchInDifferentLocationTime",
+      "offset": "0x1c24",
+      "size": 4,
+      "property": "0x7840dac480"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "LastProneInDifferentLocationTime",
+      "offset": "0x1c28",
+      "size": 4,
+      "property": "0x7840dac500"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "LastCrouchLocation",
+      "offset": "0x1c2c",
+      "size": 12,
+      "property": "0x7840dda060"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "LastProneLocation",
+      "offset": "0x1c38",
+      "size": 12,
+      "property": "0x7840dda100"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "MovementInput",
+      "offset": "0x1cfc",
+      "size": 8,
+      "property": "0x7840dd7c20"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "LastFrameWorldPosition",
+      "offset": "0x1d10",
+      "size": 16,
+      "property": "0x7840dd7d60"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "bUseConstMovementSpeed",
+      "offset": "0x1d3c",
+      "size": 1,
+      "property": "0x7840dd7f40"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "PreWeaponPosition",
+      "offset": "0x2040",
+      "size": 8,
+      "property": "0x7840dab580"
+    },
+    {
+      "owner": "GPCharacterBase",
+      "name": "bUseDetachedRagdollMovement",
+      "offset": "0xe5e",
+      "size": 1,
+      "property": "0x7840dbed40"
+    },
+    {
+      "owner": "GPCharacterBase",
+      "name": "bEnableMovementOptimize",
+      "offset": "0x148c",
+      "size": 1,
+      "property": "0x7840dba6a0"
+    },
+    {
+      "owner": "GPCharacterBase",
+      "name": "CurrentOverrideMovementInfo",
+      "offset": "0x16f0",
+      "size": 2,
+      "property": "0x7840dbb0a0"
+    },
+    {
+      "owner": "IntCharacter",
+      "name": "AutonomousMovementInfo",
+      "offset": "0xa1c",
+      "size": 56,
+      "property": "0x7840d9c900"
+    },
+    {
+      "owner": "CHARACTER",
+      "name": "CharacterMovement",
+      "offset": "0x3d8",
+      "size": 8,
+      "property": "0x7840d993e0"
+    },
+    {
+      "owner": "CHARACTER",
+      "name": "BasedMovement",
+      "offset": "0x3e8",
+      "size": 48,
+      "property": "0x7840d99520"
+    },
+    {
+      "owner": "CHARACTER",
+      "name": "ReplicatedBasedMovement",
+      "offset": "0x418",
+      "size": 48,
+      "property": "0x7840d99980"
+    },
+    {
+      "owner": "CHARACTER",
+      "name": "ReplicatedMovementMode",
+      "offset": "0x478",
+      "size": 1,
+      "property": "0x7840d99b60"
+    },
+    {
+      "owner": "CHARACTER",
+      "name": "MovementModeChangedDelegate",
+      "offset": "0x4c0",
+      "size": 16,
+      "property": "0x7840d9a420"
+    },
+    {
+      "owner": "CHARACTER",
+      "name": "OnCharacterMovementUpdated",
+      "offset": "0x4d0",
+      "size": 16,
+      "property": "0x7840d9a4c0"
+    },
+    {
+      "owner": "Actor",
+      "name": "bReplicateMovement",
+      "offset": "0x90",
+      "size": 1,
+      "property": "0x7840c2b0a0"
+    },
+    {
+      "owner": "Actor",
+      "name": "ReplicatedMovement",
+      "offset": "0x9c",
+      "size": 56,
+      "property": "0x7840c2a240"
+    }
+  ],
+  "movement_components": []
+}

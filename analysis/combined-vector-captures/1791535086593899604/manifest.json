@@ -1,0 +1,269 @@
+{
+  "pid": 24536,
+  "process_start": "493421",
+  "world": "0x6e5bd04060",
+  "game_state_class": "?",
+  "records": "0x6f1bcc0000",
+  "state": "0x7210d32000",
+  "key": "0x0",
+  "count": 167,
+  "count_after": 175,
+  "header_stable": false,
+  "page_count": 125,
+  "batch_seconds": 0.21498403799978405,
+  "total_seconds": 5.035909782999624,
+  "camera": {
+    "xyz": [
+      9506.0390625,
+      4553.35107421875,
+      -21.500595092773438
+    ],
+    "handler": "0xffff",
+    "rotation": [
+      -4.692226409912109,
+      15.71884536743164,
+      -0.15517421066761017
+    ],
+    "fov": 116.99486541748047,
+    "aspect": 1.3333300352096558
+  },
+  "players": [
+    {
+      "ps": "0x6d9f8be390",
+      "pawn": "0x6ddc2b8020",
+      "mesh": "0x6d9f86a300",
+      "root": "0x6e187c8080",
+      "self": true,
+      "team": 1,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            9504.3486328125,
+            4550.1708984375,
+            -86.63903045654297
+          ],
+          "handler": "0xffff",
+          "decode_error": "Expected one record for 0x6d9f86a454, found 0",
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            9504.3486328125,
+            4550.1708984375,
+            -86.63903045654297
+          ],
+          "handler": "0xffff",
+          "decode_error": "Expected one record for 0x6e187c81d4, found 0",
+          "extents": [
+            49.312355041503906,
+            49.312355041503906,
+            86.0
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            9504.3486328125,
+            4550.1708984375,
+            -86.63903045654297
+          ],
+          "handler": "0xffff",
+          "decode_error": "Expected one record for 0x6e187c81f4, found 0"
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            9504.3486328125,
+            4550.1708984375,
+            -172.6388397216797
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x6d9f86a52c, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x6da93ae390",
+      "pawn": "0x6df4514030",
+      "mesh": "0x6f09911780",
+      "root": "0x702a0f9a00",
+      "self": false,
+      "team": 1,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            6222.77099609375,
+            7107.0888671875,
+            -1029.4158935546875
+          ],
+          "handler": "0x3011002",
+          "decode_error": "Selected payload is empty; key/epoch not validated",
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            3426.317138671875,
+            9471.3095703125,
+            -1284.0802001953125
+          ],
+          "handler": "0x3010001",
+          "decode_error": "Selected payload is empty; key/epoch not validated",
+          "extents": [
+            51.70258331298828,
+            51.70258331298828,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            3422.480712890625,
+            9475.0146484375,
+            -1284.0802001953125
+          ],
+          "handler": "0x3010000",
+          "decode_error": "Selected payload is empty; key/epoch not validated"
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            3604.511962890625,
+            9292.9833984375,
+            -1102.0489501953125
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x6f099119ac, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x6f3c2d5560",
+      "pawn": "0x6d8ee98020",
+      "mesh": "0x6d6fa4ba40",
+      "root": "0x6ef1fcc040",
+      "self": false,
+      "team": 5,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            34056.09375,
+            18434.8125,
+            3048.599609375
+          ],
+          "handler": "0xffff",
+          "decode_error": "Expected one record for 0x6d6fa4bb94, found 0",
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            7059.00390625,
+            5431.14111328125,
+            -1352.99951171875
+          ],
+          "handler": "0x3010010",
+          "decode_error": "Expected one record for 0x6ef1fcc194, found 0",
+          "extents": [
+            40.12778854370117,
+            40.12778854370117,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            34056.09375,
+            18434.8125,
+            3048.599609375
+          ],
+          "handler": "0x301000f",
+          "decode_error": "Expected one record for 0x6ef1fcc1b4, found 0"
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            34056.09375,
+            18434.8125,
+            2962.599609375
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x6d6fa4bc6c, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x6d98551c80",
+      "pawn": "0x6da60dc010",
+      "mesh": "0x6fcc2fd180",
+      "root": "0x6fb79e8080",
+      "self": false,
+      "team": 5,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            36303.3125,
+            14958.0,
+            3048.599609375
+          ],
+          "handler": "0xffff",
+          "decode_error": "Native record guard disables this entry",
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            8183.4130859375,
+            4848.14599609375,
+            -1167.11669921875
+          ],
+          "handler": "0x301001f",
+          "decode_error": "Expected one record for 0x6fb79e81d4, found 0",
+          "extents": [
+            45.4249382019043,
+            45.4249382019043,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            8177.1044921875,
+            4847.07080078125,
+            -1166.93798828125
+          ],
+          "handler": "0x301001e",
+          "decode_error": "Expected one record for 0x6fb79e81f4, found 0"
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            8092.7431640625,
+            4980.12939453125,
+            -1293.9349365234375
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x6fcc2fd3ac, found 0"
+        }
+      }
+    }
+  ],
+  "screen_verified": false,
+  "limits": [
+    "Batched pages are not frame-atomic.",
+    "Current key is process-specific."
+  ]
+}

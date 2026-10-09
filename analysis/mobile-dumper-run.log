@@ -1,0 +1,538 @@
+
+Process ID: 22846
+[0mProcess Name: com.proxima.dfm
+[0mMemory Access: pread
+[0mOutput Directory: /data/local/tmp/trace-dump
+[0mDump UE Library: No
+[0mSuspend Game: No
+[0m==========================
+[0mUsing Custom UE Profile Override (com.proxima.dfm).
+[0m=== MobileDumper-7 v1.2.0 ===
+[0mInitializing Process Memory...
+[0mExtracting Game Info...
+[0mLog File: /data/local/tmp/trace-dump/MobileDumper-7/com.proxima.dfm_v1.202.37117.5601_20261008-173947/MobileDumper-7.log
+[0m=== Dumper Info ===
+[0mDumper Name: MobileDumper-7
+[0mDumper Version: 1.2.0
+[0m==================
+[0m=== Profile Info ===
+[0mGame: com.proxima.dfm
+[0mVersion: 1.202.37117.5601
+[0mOutput: /data/local/tmp/trace-dump/MobileDumper-7
+[0m==================
+[0mInitializing Unreal Module...
+[0m=== Unreal Module ===
+[0mPath: /data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so
+[0mStart: 0x78D6C43000
+[0mEnd: 0x78F9BEB000
+[0mBase: 0x78D6C43000
+[0mSegments (283):
+[0m[00]: 0x00000078d6c43000 - 0x00000078def0c000 | 0x00000000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[01]: 0x00000078def0c000 - 0x00000078def0d000 | 0x082c9000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[02]: 0x00000078def0d000 - 0x00000078def14000 | 0x082ca000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[03]: 0x00000078def14000 - 0x00000078def15000 | 0x082d1000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[04]: 0x00000078def15000 - 0x00000078def1d000 | 0x082d2000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[05]: 0x00000078def1d000 - 0x00000078def1e000 | 0x082da000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[06]: 0x00000078def1e000 - 0x00000078def96000 | 0x082db000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[07]: 0x00000078def96000 - 0x00000078def98000 | 0x08353000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[08]: 0x00000078def98000 - 0x00000078def99000 | 0x08355000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[09]: 0x00000078def99000 - 0x00000078def9d000 | 0x08356000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[10]: 0x00000078def9d000 - 0x00000078def9e000 | 0x0835a000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[11]: 0x00000078def9e000 - 0x00000078defa0000 | 0x0835b000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[12]: 0x00000078defa0000 - 0x00000078defa2000 | 0x0835d000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[13]: 0x00000078defa2000 - 0x00000078defa5000 | 0x0835f000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[14]: 0x00000078defa5000 - 0x00000078defa6000 | 0x08362000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[15]: 0x00000078defa6000 - 0x00000078defa8000 | 0x08363000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[16]: 0x00000078defa8000 - 0x00000078defba000 | 0x08365000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[17]: 0x00000078defba000 - 0x00000078defbc000 | 0x08377000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[18]: 0x00000078defbc000 - 0x00000078defd1000 | 0x08379000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[19]: 0x00000078defd1000 - 0x00000078defd2000 | 0x0838e000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[20]: 0x00000078defd2000 - 0x00000078defd3000 | 0x0838f000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[21]: 0x00000078defd3000 - 0x00000078defd5000 | 0x08390000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[22]: 0x00000078defd5000 - 0x00000078deff2000 | 0x08392000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[23]: 0x00000078deff2000 - 0x00000078deff3000 | 0x083af000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[24]: 0x00000078deff3000 - 0x00000078deffd000 | 0x083b0000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[25]: 0x00000078deffd000 - 0x00000078df000000 | 0x083ba000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[26]: 0x00000078df000000 - 0x00000078df01f000 | 0x083bd000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[27]: 0x00000078df01f000 - 0x00000078df021000 | 0x083dc000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[28]: 0x00000078df021000 - 0x00000078df022000 | 0x083de000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[29]: 0x00000078df022000 - 0x00000078df023000 | 0x083df000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[30]: 0x00000078df023000 - 0x00000078df038000 | 0x083e0000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[31]: 0x00000078df038000 - 0x00000078df03b000 | 0x083f5000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[32]: 0x00000078df03b000 - 0x00000078df25f000 | 0x083f8000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[33]: 0x00000078df25f000 - 0x00000078df260000 | 0x0861c000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[34]: 0x00000078df260000 - 0x00000078df293000 | 0x0861d000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[35]: 0x00000078df293000 - 0x00000078df294000 | 0x08650000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[36]: 0x00000078df294000 - 0x00000078df2d4000 | 0x08651000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[37]: 0x00000078df2d4000 - 0x00000078df2d6000 | 0x08691000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[38]: 0x00000078df2d6000 - 0x00000078df770000 | 0x08693000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[39]: 0x00000078df770000 - 0x00000078df771000 | 0x08b2d000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[40]: 0x00000078df771000 - 0x00000078e0870000 | 0x08b2e000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[41]: 0x00000078e0870000 - 0x00000078e0872000 | 0x09c2d000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[42]: 0x00000078e0872000 - 0x00000078e0885000 | 0x09c2f000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[43]: 0x00000078e0885000 - 0x00000078e0886000 | 0x09c42000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[44]: 0x00000078e0886000 - 0x00000078e0994000 | 0x09c43000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[45]: 0x00000078e0994000 - 0x00000078e0995000 | 0x09d51000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[46]: 0x00000078e0995000 - 0x00000078e0bba000 | 0x09d52000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[47]: 0x00000078e0bba000 - 0x00000078e0bbb000 | 0x09f77000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[48]: 0x00000078e0bbb000 - 0x00000078e182a000 | 0x09f78000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[49]: 0x00000078e182a000 - 0x00000078e182b000 | 0x0abe7000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[50]: 0x00000078e182b000 - 0x00000078e1a02000 | 0x0abe8000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[51]: 0x00000078e1a02000 - 0x00000078e1a03000 | 0x0adbf000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[52]: 0x00000078e1a03000 - 0x00000078e1c2c000 | 0x0adc0000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[53]: 0x00000078e1c2c000 - 0x00000078e1c2d000 | 0x0afe9000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[54]: 0x00000078e1c2d000 - 0x00000078e1c33000 | 0x0afea000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[55]: 0x00000078e1c33000 - 0x00000078e1c35000 | 0x0aff0000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[56]: 0x00000078e1c35000 - 0x00000078e1fc7000 | 0x0aff2000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[57]: 0x00000078e1fc7000 - 0x00000078e1fc8000 | 0x0b384000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[58]: 0x00000078e1fc8000 - 0x00000078e1fce000 | 0x0b385000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[59]: 0x00000078e1fce000 - 0x00000078e1fcf000 | 0x0b38b000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[60]: 0x00000078e1fcf000 - 0x00000078e2045000 | 0x0b38c000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[61]: 0x00000078e2045000 - 0x00000078e2048000 | 0x0b402000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[62]: 0x00000078e2048000 - 0x00000078e204a000 | 0x0b405000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[63]: 0x00000078e204a000 - 0x00000078e204b000 | 0x0b407000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[64]: 0x00000078e204b000 - 0x00000078e2053000 | 0x0b408000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[65]: 0x00000078e2053000 - 0x00000078e2054000 | 0x0b410000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[66]: 0x00000078e2054000 - 0x00000078e212c000 | 0x0b411000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[67]: 0x00000078e212c000 - 0x00000078e212d000 | 0x0b4e9000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[68]: 0x00000078e212d000 - 0x00000078e220b000 | 0x0b4ea000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[69]: 0x00000078e220b000 - 0x00000078e220c000 | 0x0b5c8000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[70]: 0x00000078e220c000 - 0x00000078e22a3000 | 0x0b5c9000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[71]: 0x00000078e22a3000 - 0x00000078e22a6000 | 0x0b660000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[72]: 0x00000078e22a6000 - 0x00000078e22c6000 | 0x0b663000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[73]: 0x00000078e22c6000 - 0x00000078e22c7000 | 0x0b683000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[74]: 0x00000078e22c7000 - 0x00000078e22df000 | 0x0b684000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[75]: 0x00000078e22df000 - 0x00000078e22e0000 | 0x0b69c000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[76]: 0x00000078e22e0000 - 0x00000078e239c000 | 0x0b69d000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[77]: 0x00000078e239c000 - 0x00000078e239d000 | 0x0b759000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[78]: 0x00000078e239d000 - 0x00000078e248a000 | 0x0b75a000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[79]: 0x00000078e248a000 - 0x00000078e248b000 | 0x0b847000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[80]: 0x00000078e248b000 - 0x00000078e2692000 | 0x0b848000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[81]: 0x00000078e2692000 - 0x00000078e2693000 | 0x0ba4f000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[82]: 0x00000078e2693000 - 0x00000078e2ae7000 | 0x0ba50000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[83]: 0x00000078e2ae7000 - 0x00000078e2ae8000 | 0x0bea4000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[84]: 0x00000078e2ae8000 - 0x00000078e70d1000 | 0x0bea5000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[85]: 0x00000078e70d1000 - 0x00000078e70d2000 | 0x1048e000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[86]: 0x00000078e70d2000 - 0x00000078e732e000 | 0x1048f000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[87]: 0x00000078e732e000 - 0x00000078e732f000 | 0x106eb000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[88]: 0x00000078e732f000 - 0x00000078e7333000 | 0x106ec000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[89]: 0x00000078e7333000 - 0x00000078e7334000 | 0x106f0000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[90]: 0x00000078e7334000 - 0x00000078e7354000 | 0x106f1000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[91]: 0x00000078e7354000 - 0x00000078e7356000 | 0x10711000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[92]: 0x00000078e7356000 - 0x00000078e7365000 | 0x10713000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[93]: 0x00000078e7365000 - 0x00000078e7366000 | 0x10722000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[94]: 0x00000078e7366000 - 0x00000078e7385000 | 0x10723000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[95]: 0x00000078e7385000 - 0x00000078e7386000 | 0x10742000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[96]: 0x00000078e7386000 - 0x00000078e73de000 | 0x10743000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[97]: 0x00000078e73de000 - 0x00000078e73df000 | 0x1079b000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[98]: 0x00000078e73df000 - 0x00000078e73e2000 | 0x1079c000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[99]: 0x00000078e73e2000 - 0x00000078e73e3000 | 0x1079f000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[100]: 0x00000078e73e3000 - 0x00000078e73ea000 | 0x107a0000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[101]: 0x00000078e73ea000 - 0x00000078e73eb000 | 0x107a7000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[102]: 0x00000078e73eb000 - 0x00000078e73ef000 | 0x107a8000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[103]: 0x00000078e73ef000 - 0x00000078e73f0000 | 0x107ac000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[104]: 0x00000078e73f0000 - 0x00000078e73f3000 | 0x107ad000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[105]: 0x00000078e73f3000 - 0x00000078e73f4000 | 0x107b0000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[106]: 0x00000078e73f4000 - 0x00000078e73f9000 | 0x107b1000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[107]: 0x00000078e73f9000 - 0x00000078e73fc000 | 0x107b6000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[108]: 0x00000078e73fc000 - 0x00000078e73fe000 | 0x107b9000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[109]: 0x00000078e73fe000 - 0x00000078e73ff000 | 0x107bb000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[110]: 0x00000078e73ff000 - 0x00000078e740c000 | 0x107bc000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[111]: 0x00000078e740c000 - 0x00000078e7410000 | 0x107c9000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[112]: 0x00000078e7410000 - 0x00000078e7411000 | 0x107cd000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[113]: 0x00000078e7411000 - 0x00000078e7414000 | 0x107ce000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[114]: 0x00000078e7414000 - 0x00000078e7418000 | 0x107d1000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[115]: 0x00000078e7418000 - 0x00000078e7419000 | 0x107d5000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[116]: 0x00000078e7419000 - 0x00000078e741a000 | 0x107d6000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[117]: 0x00000078e741a000 - 0x00000078e741b000 | 0x107d7000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[118]: 0x00000078e741b000 - 0x00000078e7451000 | 0x107d8000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[119]: 0x00000078e7451000 - 0x00000078e7452000 | 0x1080e000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[120]: 0x00000078e7452000 - 0x00000078e748a000 | 0x1080f000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[121]: 0x00000078e748a000 - 0x00000078e748b000 | 0x10847000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[122]: 0x00000078e748b000 - 0x00000078e74bf000 | 0x10848000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[123]: 0x00000078e74bf000 - 0x00000078e74c0000 | 0x1087c000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[124]: 0x00000078e74c0000 - 0x00000078e74e5000 | 0x1087d000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[125]: 0x00000078e74e5000 - 0x00000078e74e6000 | 0x108a2000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[126]: 0x00000078e74e6000 - 0x00000078e74fd000 | 0x108a3000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[127]: 0x00000078e74fd000 - 0x00000078e74fe000 | 0x108ba000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[128]: 0x00000078e74fe000 - 0x00000078e7500000 | 0x108bb000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[129]: 0x00000078e7500000 - 0x00000078e7501000 | 0x108bd000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[130]: 0x00000078e7501000 - 0x00000078e7506000 | 0x108be000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[131]: 0x00000078e7506000 - 0x00000078e7508000 | 0x108c3000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[132]: 0x00000078e7508000 - 0x00000078e75a9000 | 0x108c5000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[133]: 0x00000078e75a9000 - 0x00000078e75aa000 | 0x10966000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[134]: 0x00000078e75aa000 - 0x00000078e75ab000 | 0x10967000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[135]: 0x00000078e75ab000 - 0x00000078e75ad000 | 0x10968000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[136]: 0x00000078e75ad000 - 0x00000078e7625000 | 0x1096a000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[137]: 0x00000078e7625000 - 0x00000078e7626000 | 0x109e2000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[138]: 0x00000078e7626000 - 0x00000078e77e1000 | 0x109e3000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[139]: 0x00000078e77e1000 - 0x00000078e77e2000 | 0x10b9e000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[140]: 0x00000078e77e2000 - 0x00000078e7864000 | 0x10b9f000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[141]: 0x00000078e7864000 - 0x00000078e7865000 | 0x10c21000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[142]: 0x00000078e7865000 - 0x00000078e786f000 | 0x10c22000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[143]: 0x00000078e786f000 - 0x00000078e7870000 | 0x10c2c000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[144]: 0x00000078e7870000 - 0x00000078e7888000 | 0x10c2d000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[145]: 0x00000078e7888000 - 0x00000078e7889000 | 0x10c45000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[146]: 0x00000078e7889000 - 0x00000078e788d000 | 0x10c46000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[147]: 0x00000078e788d000 - 0x00000078e788e000 | 0x10c4a000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[148]: 0x00000078e788e000 - 0x00000078e78ab000 | 0x10c4b000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[149]: 0x00000078e78ab000 - 0x00000078e78ac000 | 0x10c68000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[150]: 0x00000078e78ac000 - 0x00000078e7a0e000 | 0x10c69000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[151]: 0x00000078e7a0e000 - 0x00000078e7a13000 | 0x10dcb000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[152]: 0x00000078e7a13000 - 0x00000078e7a14000 | 0x10dd0000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[153]: 0x00000078e7a14000 - 0x00000078e7a1b000 | 0x10dd1000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[154]: 0x00000078e7a1b000 - 0x00000078e7a1e000 | 0x10dd8000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[155]: 0x00000078e7a1e000 - 0x00000078e7a20000 | 0x10ddb000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[156]: 0x00000078e7a20000 - 0x00000078e7aa4000 | 0x10ddd000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[157]: 0x00000078e7aa4000 - 0x00000078e7aa6000 | 0x10e61000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[158]: 0x00000078e7aa6000 - 0x00000078e7b12000 | 0x10e63000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[159]: 0x00000078e7b12000 - 0x00000078e7b13000 | 0x10ecf000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[160]: 0x00000078e7b13000 - 0x00000078e7b20000 | 0x10ed0000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[161]: 0x00000078e7b20000 - 0x00000078e7b22000 | 0x10edd000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[162]: 0x00000078e7b22000 - 0x00000078e7b23000 | 0x10edf000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[163]: 0x00000078e7b23000 - 0x00000078e7b24000 | 0x10ee0000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[164]: 0x00000078e7b24000 - 0x00000078e7b26000 | 0x10ee1000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[165]: 0x00000078e7b26000 - 0x00000078e7b27000 | 0x10ee3000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[166]: 0x00000078e7b27000 - 0x00000078e7b29000 | 0x10ee4000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[167]: 0x00000078e7b29000 - 0x00000078e7b2a000 | 0x10ee6000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[168]: 0x00000078e7b2a000 - 0x00000078e7b9a000 | 0x10ee7000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[169]: 0x00000078e7b9a000 - 0x00000078e7b9c000 | 0x10f57000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[170]: 0x00000078e7b9c000 - 0x00000078e7ba8000 | 0x10f59000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[171]: 0x00000078e7ba8000 - 0x00000078e7ba9000 | 0x10f65000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[172]: 0x00000078e7ba9000 - 0x00000078e7cc3000 | 0x10f66000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[173]: 0x00000078e7cc3000 - 0x00000078e7cc4000 | 0x11080000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[174]: 0x00000078e7cc4000 - 0x00000078e7cc5000 | 0x11081000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[175]: 0x00000078e7cc5000 - 0x00000078e7cc7000 | 0x11082000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[176]: 0x00000078e7cc7000 - 0x00000078e7cd8000 | 0x11084000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[177]: 0x00000078e7cd8000 - 0x00000078e7cd9000 | 0x11095000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[178]: 0x00000078e7cd9000 - 0x00000078e7cdc000 | 0x11096000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[179]: 0x00000078e7cdc000 - 0x00000078e7cdd000 | 0x11099000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[180]: 0x00000078e7cdd000 - 0x00000078e7d58000 | 0x1109a000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[181]: 0x00000078e7d58000 - 0x00000078e7d5a000 | 0x11115000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[182]: 0x00000078e7d5a000 - 0x00000078e7e02000 | 0x11117000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[183]: 0x00000078e7e02000 - 0x00000078e7e03000 | 0x111bf000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[184]: 0x00000078e7e03000 - 0x00000078e7e45000 | 0x111c0000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[185]: 0x00000078e7e45000 - 0x00000078e7e46000 | 0x11202000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[186]: 0x00000078e7e46000 - 0x00000078e7f31000 | 0x11203000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[187]: 0x00000078e7f31000 - 0x00000078e7f33000 | 0x112ee000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[188]: 0x00000078e7f33000 - 0x00000078e8026000 | 0x112f0000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[189]: 0x00000078e8026000 - 0x00000078e8027000 | 0x113e3000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[190]: 0x00000078e8027000 - 0x00000078e8028000 | 0x113e4000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[191]: 0x00000078e8028000 - 0x00000078e802a000 | 0x113e5000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[192]: 0x00000078e802a000 - 0x00000078e80aa000 | 0x113e7000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[193]: 0x00000078e80aa000 - 0x00000078e80ac000 | 0x11467000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[194]: 0x00000078e80ac000 - 0x00000078e8174000 | 0x11469000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[195]: 0x00000078e8174000 - 0x00000078e8175000 | 0x11531000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[196]: 0x00000078e8175000 - 0x00000078e81e8000 | 0x11532000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[197]: 0x00000078e81e8000 - 0x00000078e81e9000 | 0x115a5000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[198]: 0x00000078e81e9000 - 0x00000078e8375000 | 0x115a6000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[199]: 0x00000078e8375000 - 0x00000078e8376000 | 0x11732000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[200]: 0x00000078e8376000 - 0x00000078e83bd000 | 0x11733000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[201]: 0x00000078e83bd000 - 0x00000078e83be000 | 0x1177a000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[202]: 0x00000078e83be000 - 0x00000078e83ef000 | 0x1177b000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[203]: 0x00000078e83ef000 - 0x00000078e83f0000 | 0x117ac000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[204]: 0x00000078e83f0000 - 0x00000078e8500000 | 0x117ad000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[205]: 0x00000078e8500000 - 0x00000078e8501000 | 0x118bd000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[206]: 0x00000078e8501000 - 0x00000078e8566000 | 0x118be000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[207]: 0x00000078e8566000 - 0x00000078e8567000 | 0x11923000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[208]: 0x00000078e8567000 - 0x00000078e859a000 | 0x11924000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[209]: 0x00000078e859a000 - 0x00000078e859b000 | 0x11957000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[210]: 0x00000078e859b000 - 0x00000078e86c0000 | 0x11958000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[211]: 0x00000078e86c0000 - 0x00000078e86c1000 | 0x11a7d000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[212]: 0x00000078e86c1000 - 0x00000078e8773000 | 0x11a7e000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[213]: 0x00000078e8773000 - 0x00000078e8774000 | 0x11b30000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[214]: 0x00000078e8774000 - 0x00000078e89cb000 | 0x11b31000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[215]: 0x00000078e89cb000 - 0x00000078e89cc000 | 0x11d88000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[216]: 0x00000078e89cc000 - 0x00000078e89cd000 | 0x11d89000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[217]: 0x00000078e89cd000 - 0x00000078e89ce000 | 0x11d8a000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[218]: 0x00000078e89ce000 - 0x00000078e8ba5000 | 0x11d8b000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[219]: 0x00000078e8ba5000 - 0x00000078e8ba6000 | 0x11f62000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[220]: 0x00000078e8ba6000 - 0x00000078e8c15000 | 0x11f63000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[221]: 0x00000078e8c15000 - 0x00000078e8c16000 | 0x11fd2000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[222]: 0x00000078e8c16000 - 0x00000078e8ccc000 | 0x11fd3000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[223]: 0x00000078e8ccc000 - 0x00000078e8ccd000 | 0x12089000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[224]: 0x00000078e8ccd000 - 0x00000078e8d2d000 | 0x1208a000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[225]: 0x00000078e8d2d000 - 0x00000078e8d2e000 | 0x120ea000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[226]: 0x00000078e8d2e000 - 0x00000078e8df5000 | 0x120eb000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[227]: 0x00000078e8df5000 - 0x00000078e8df6000 | 0x121b2000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[228]: 0x00000078e8df6000 - 0x00000078e8f57000 | 0x121b3000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[229]: 0x00000078e8f57000 - 0x00000078e8f58000 | 0x12314000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[230]: 0x00000078e8f58000 - 0x00000078e8fcd000 | 0x12315000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[231]: 0x00000078e8fcd000 - 0x00000078e8fce000 | 0x1238a000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[232]: 0x00000078e8fce000 - 0x00000078e9272000 | 0x1238b000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[233]: 0x00000078e9272000 - 0x00000078e9273000 | 0x1262f000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[234]: 0x00000078e9273000 - 0x00000078e97c8000 | 0x12630000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[235]: 0x00000078e97c8000 - 0x00000078e97c9000 | 0x12b85000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[236]: 0x00000078e97c9000 - 0x00000078ea00a000 | 0x12b86000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[237]: 0x00000078ea00a000 - 0x00000078ea00b000 | 0x133c7000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[238]: 0x00000078ea00b000 - 0x00000078ea08c000 | 0x133c8000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[239]: 0x00000078ea08c000 - 0x00000078ea08d000 | 0x13449000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[240]: 0x00000078ea08d000 - 0x00000078eab34000 | 0x1344a000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[241]: 0x00000078eab34000 - 0x00000078eab36000 | 0x13ef1000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[242]: 0x00000078eab36000 - 0x00000078eab3f000 | 0x13ef3000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[243]: 0x00000078eab3f000 - 0x00000078eab40000 | 0x13efc000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[244]: 0x00000078eab40000 - 0x00000078f02ee000 | 0x13efd000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[245]: 0x00000078f02ee000 - 0x00000078f02ef000 | 0x196ab000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[246]: 0x00000078f02ef000 - 0x00000078f1075000 | 0x196ac000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[247]: 0x00000078f1075000 - 0x00000078f1076000 | 0x1a432000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[248]: 0x00000078f1076000 - 0x00000078f1094000 | 0x1a433000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[249]: 0x00000078f1094000 - 0x00000078f1095000 | 0x1a451000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[250]: 0x00000078f1095000 - 0x00000078f10f2000 | 0x1a452000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[251]: 0x00000078f10f2000 - 0x00000078f10f4000 | 0x1a4af000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[252]: 0x00000078f10f4000 - 0x00000078f130e000 | 0x1a4b1000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[253]: 0x00000078f130e000 - 0x00000078f1310000 | 0x1a6cb000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[254]: 0x00000078f1310000 - 0x00000078f1879000 | 0x1a6cd000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[255]: 0x00000078f1879000 - 0x00000078f187a000 | 0x1ac36000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[256]: 0x00000078f187a000 - 0x00000078f1944000 | 0x1ac37000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[257]: 0x00000078f1944000 - 0x00000078f1945000 | 0x1ad01000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[258]: 0x00000078f1945000 - 0x00000078f19f5000 | 0x1ad02000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[259]: 0x00000078f19f5000 - 0x00000078f19f6000 | 0x1adb2000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[260]: 0x00000078f19f6000 - 0x00000078f1cc1000 | 0x1adb3000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[261]: 0x00000078f1cc1000 - 0x00000078f1cc2000 | 0x1b07e000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[262]: 0x00000078f1cc2000 - 0x00000078f1f20000 | 0x1b07f000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[263]: 0x00000078f1f20000 - 0x00000078f1f21000 | 0x1b2dd000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[264]: 0x00000078f1f21000 - 0x00000078f1f25000 | 0x1b2de000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[265]: 0x00000078f1f25000 - 0x00000078f1f26000 | 0x1b2e2000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[266]: 0x00000078f1f26000 - 0x00000078f1f27000 | 0x1b2e3000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[267]: 0x00000078f1f27000 - 0x00000078f1f28000 | 0x1b2e4000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[268]: 0x00000078f1f28000 - 0x00000078f22dc000 | 0x1b2e5000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[269]: 0x00000078f22dc000 - 0x00000078f22dd000 | 0x1b699000 | RWX | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[270]: 0x00000078f22dd000 - 0x00000078f294f000 | 0x1b69a000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[271]: 0x00000078f294f000 - 0x00000078f2952000 | 0x00000000 | ---
+[0m[272]: 0x00000078f2952000 - 0x00000078f6228000 | 0x1bd0b000 | RW- | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[273]: 0x00000078f6228000 - 0x00000078f622b000 | 0x00000000 | RW- | [[anon:.bss]]
+[0m[274]: 0x00000078f622b000 - 0x00000078f689c000 | 0x1f5e0000 | RW- | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[275]: 0x00000078f689c000 - 0x00000078f7757000 | 0x00000000 | -W- | [[anon:.bss]]
+[0m[276]: 0x00000078f7757000 - 0x00000078f7758000 | 0x00000000 | RW- | [[anon:.bss]]
+[0m[277]: 0x00000078f7758000 - 0x00000078f775b000 | 0x00000000 | ---
+[0m[278]: 0x00000078f775b000 - 0x00000078f775f000 | 0x1fc54000 | R-X | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[279]: 0x00000078f775f000 - 0x00000078f7763000 | 0x1fc54000 | RW- | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[280]: 0x00000078f7763000 - 0x00000078f7768000 | 0x1fc54000 | RW- | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m[281]: 0x00000078f7768000 - 0x00000078f776b000 | 0x00000000 | ---
+[0m[282]: 0x00000078f776b000 - 0x00000078f9beb000 | 0x1fc58000 | RW- | [/data/app/~~0C-KiGCEqkCjq6q-fuLx9A==/com.proxima.dfm-9zn5e9XEP3VeUipzGrTv3g==/lib/arm64/libUE4.so]
+[0m==================
+[0mInitializing UEAnalyzerKitty...
+[0m=== UEAnalyzerKitty ===
+[0mGame build is likely using UTF16 FName strings.
+[0m==================
+[0mInitializing Decrypt Callbacks...
+[0m==================
+[0mInitializing Objects...
+[0m=== Objects ===
+[0m[1m[33mInitObjects: IProfile::GetGObjects() returned invalid address (0x0), falling back to UEAnalyzerKitty...
+[0mInitObjects: UEAnalyzerKitty returned 50 GObjects candidate(s).
+[0mInitObjects: Testing GObjects candidate 0x78F69C65D8 (KittyUEAnalyzer confidence 76.3%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F69C65D8
+[0mInitObjects: [Dereference] Skipped - 0x78F69C65D8 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F73AE8F8 (KittyUEAnalyzer confidence 75.3%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F73AE8F8
+[0mInitObjects: [Dereference] Skipped - 0x78F73AE8F8 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F70786B0 (KittyUEAnalyzer confidence 72.6%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F70786B0
+[0mInitObjects: Dereferencing 0x78F70786B0 -> 0x78941D9E80
+[0mDetectObjectsLayout: Examining 0x78941D9E80 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x78941D9E80
+[0mInitObjects: Testing GObjects candidate 0x78F6CF8760 (KittyUEAnalyzer confidence 70.8%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F6CF8760
+[0mInitObjects: Dereferencing 0x78F6CF8760 -> 0x7894099E80
+[0mDetectObjectsLayout: Examining 0x7894099E80 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x7894099E80
+[0mInitObjects: Testing GObjects candidate 0x78F68D3B00 (KittyUEAnalyzer confidence 68.6%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F68D3B00
+[0mInitObjects: Dereferencing 0x78F68D3B00 -> 0x78D321BC80
+[0mDetectObjectsLayout: Examining 0x78D321BC80 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x78D321BC80
+[0mInitObjects: Testing GObjects candidate 0x78F7701568 (KittyUEAnalyzer confidence 66.4%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F7701568
+[0mInitObjects: Dereferencing 0x78F7701568 -> 0x7893EB3300
+[0mDetectObjectsLayout: Examining 0x7893EB3300 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x7893EB3300
+[0mInitObjects: Testing GObjects candidate 0x78F6D02280 (KittyUEAnalyzer confidence 65.0%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F6D02280
+[0mInitObjects: Dereferencing 0x78F6D02280 -> 0x78636D7380
+[0mDetectObjectsLayout: Examining 0x78636D7380 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x78636D7380
+[0mInitObjects: Testing GObjects candidate 0x78F70853E0 (KittyUEAnalyzer confidence 64.8%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F70853E0
+[0mInitObjects: Dereferencing 0x78F70853E0 -> 0x78636D86A0
+[0mDetectObjectsLayout: Examining 0x78636D86A0 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x78636D86A0
+[0mInitObjects: Testing GObjects candidate 0x78F734E980 (KittyUEAnalyzer confidence 64.1%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F734E980
+[0mInitObjects: [Dereference] Skipped - 0x78F734E980 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F69C65E8 (KittyUEAnalyzer confidence 63.5%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F69C65E8
+[0mInitObjects: [Dereference] Skipped - 0x78F69C65E8 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F7254A08 (KittyUEAnalyzer confidence 63.0%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F7254A08
+[0mInitObjects: Dereferencing 0x78F7254A08 -> 0x787E22A380
+[0mDetectObjectsLayout: Examining 0x787E22A380 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x787E22A380
+[0mInitObjects: Testing GObjects candidate 0x78F708EC58 (KittyUEAnalyzer confidence 62.5%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F708EC58
+[0mInitObjects: Dereferencing 0x78F708EC58 -> 0x787E65AB00
+[0mDetectObjectsLayout: Examining 0x787E65AB00 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x787E65AB00
+[0mInitObjects: Testing GObjects candidate 0x78F70881F8 (KittyUEAnalyzer confidence 61.6%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F70881F8
+[0mInitObjects: Dereferencing 0x78F70881F8 -> 0x787E760880
+[0mDetectObjectsLayout: Examining 0x787E760880 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x787E760880
+[0mInitObjects: Testing GObjects candidate 0x78F6D0ED68 (KittyUEAnalyzer confidence 61.3%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F6D0ED68
+[0mInitObjects: Dereferencing 0x78F6D0ED68 -> 0x78940CC180
+[0mDetectObjectsLayout: Examining 0x78940CC180 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x78940CC180
+[0mInitObjects: Testing GObjects candidate 0x78F73D45D8 (KittyUEAnalyzer confidence 60.8%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F73D45D8
+[0mInitObjects: [Dereference] Skipped - 0x78F73D45D8 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F68D1D28 (KittyUEAnalyzer confidence 60.3%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F68D1D28
+[0mInitObjects: [Dereference] Skipped - 0x78F68D1D28 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F6D0E220 (KittyUEAnalyzer confidence 59.3%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F6D0E220
+[0mInitObjects: Dereferencing 0x78F6D0E220 -> 0x78940CD800
+[0mDetectObjectsLayout: Examining 0x78940CD800 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x78940CD800
+[0mInitObjects: Testing GObjects candidate 0x78F734EE98 (KittyUEAnalyzer confidence 59.0%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F734EE98
+[0mInitObjects: [Dereference] Skipped - 0x78F734EE98 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F7343028 (KittyUEAnalyzer confidence 58.9%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F7343028
+[0mInitObjects: [Dereference] Skipped - 0x78F7343028 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F6CF9FA0 (KittyUEAnalyzer confidence 58.7%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F6CF9FA0
+[0mInitObjects: Dereferencing 0x78F6CF9FA0 -> 0x7894099C00
+[0mDetectObjectsLayout: Examining 0x7894099C00 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x7894099C00
+[0mInitObjects: Testing GObjects candidate 0x78F6D25F58 (KittyUEAnalyzer confidence 58.6%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F6D25F58
+[0mInitObjects: Dereferencing 0x78F6D25F58 -> 0x7894112E00
+[0mDetectObjectsLayout: Examining 0x7894112E00 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x7894112E00
+[0mInitObjects: Testing GObjects candidate 0x78F7726CF8 (KittyUEAnalyzer confidence 57.2%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F7726CF8
+[0mInitObjects: Dereferencing 0x78F7726CF8 -> 0x7893FE8D00
+[0mDetectObjectsLayout: Examining 0x7893FE8D00 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x7893FE8D00
+[0mInitObjects: Testing GObjects candidate 0x78F6D20E10 (KittyUEAnalyzer confidence 57.1%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F6D20E10
+[0mInitObjects: Dereferencing 0x78F6D20E10 -> 0x7894102900
+[0mDetectObjectsLayout: Examining 0x7894102900 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x7894102900
+[0mInitObjects: Testing GObjects candidate 0x78F73AE900 (KittyUEAnalyzer confidence 56.8%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F73AE900
+[0mInitObjects: [Dereference] Skipped - 0x78F73AE900 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F6E7F128 (KittyUEAnalyzer confidence 56.4%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F6E7F128
+[0mInitObjects: [Dereference] Skipped - 0x78F6E7F128 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F76885E0 (KittyUEAnalyzer confidence 56.4%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F76885E0
+[0mInitObjects: Dereferencing 0x78F76885E0 -> 0x7893ED8080
+[0mDetectObjectsLayout: Examining 0x7893ED8080 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x7893ED8080
+[0mInitObjects: Testing GObjects candidate 0x78F708D4D0 (KittyUEAnalyzer confidence 56.3%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F708D4D0
+[0mInitObjects: Dereferencing 0x78F708D4D0 -> 0x787E649C00
+[0mDetectObjectsLayout: Examining 0x787E649C00 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x787E649C00
+[0mInitObjects: Testing GObjects candidate 0x78F73AAC60 (KittyUEAnalyzer confidence 56.1%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F73AAC60
+[0mInitObjects: Dereferencing 0x78F73AAC60 -> 0x7893EDBA00
+[0mDetectObjectsLayout: Examining 0x7893EDBA00 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x7893EDBA00
+[0mInitObjects: Testing GObjects candidate 0x78F772CA88 (KittyUEAnalyzer confidence 56.1%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F772CA88
+[0mInitObjects: Dereferencing 0x78F772CA88 -> 0x7893F6D580
+[0mDetectObjectsLayout: Examining 0x7893F6D580 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x7893F6D580
+[0mInitObjects: Testing GObjects candidate 0x78F734EE80 (KittyUEAnalyzer confidence 56.0%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F734EE80
+[0mInitObjects: [Dereference] Skipped - 0x78F734EE80 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F706C040 (KittyUEAnalyzer confidence 55.9%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F706C040
+[0mInitObjects: Dereferencing 0x78F706C040 -> 0x787E649700
+[0mDetectObjectsLayout: Examining 0x787E649700 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x787E649700
+[0mInitObjects: Testing GObjects candidate 0x78F734EF40 (KittyUEAnalyzer confidence 55.7%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F734EF40
+[0mInitObjects: [Dereference] Skipped - 0x78F734EF40 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F68CF568 (KittyUEAnalyzer confidence 55.6%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F68CF568
+[0mInitObjects: [Dereference] Skipped - 0x78F68CF568 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F706B278 (KittyUEAnalyzer confidence 55.1%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F706B278
+[0mInitObjects: Dereferencing 0x78F706B278 -> 0x787E496A00
+[0mDetectObjectsLayout: Examining 0x787E496A00 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x787E496A00
+[0mInitObjects: Testing GObjects candidate 0x78F734EF48 (KittyUEAnalyzer confidence 55.0%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F734EF48
+[0mInitObjects: [Dereference] Skipped - 0x78F734EF48 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F72FE7F0 (KittyUEAnalyzer confidence 54.6%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F72FE7F0
+[0mInitObjects: [Dereference] Skipped - 0x78F72FE7F0 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F7373640 (KittyUEAnalyzer confidence 54.4%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F7373640
+[0mInitObjects: [Dereference] Skipped - 0x78F7373640 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F73AF0A0 (KittyUEAnalyzer confidence 54.2%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F73AF0A0
+[0mInitObjects: Dereferencing 0x78F73AF0A0 -> 0x78D3210100
+[0mDetectObjectsLayout: Examining 0x78D3210100 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x78D3210100
+[0mInitObjects: Testing GObjects candidate 0x78F6975F30 (KittyUEAnalyzer confidence 54.2%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F6975F30
+[0mInitObjects: Dereferencing 0x78F6975F30 -> 0x7893F95380
+[0mDetectObjectsLayout: Examining 0x7893F95380 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x7893F95380
+[0mInitObjects: Testing GObjects candidate 0x78F734EF08 (KittyUEAnalyzer confidence 54.1%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F734EF08
+[0mInitObjects: [Dereference] Skipped - 0x78F734EF08 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F6D04448 (KittyUEAnalyzer confidence 53.9%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F6D04448
+[0mInitObjects: Dereferencing 0x78F6D04448 -> 0x78940BD300
+[0mDetectObjectsLayout: Examining 0x78940BD300 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x78940BD300
+[0mInitObjects: Testing GObjects candidate 0x78F7707E08 (KittyUEAnalyzer confidence 53.9%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F7707E08
+[0mInitObjects: Dereferencing 0x78F7707E08 -> 0x7893ED6780
+[0mDetectObjectsLayout: Examining 0x7893ED6780 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x7893ED6780
+[0mInitObjects: Testing GObjects candidate 0x78F73AE908 (KittyUEAnalyzer confidence 53.2%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F73AE908
+[0mInitObjects: [Dereference] Skipped - 0x78F73AE908 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F77039A0 (KittyUEAnalyzer confidence 53.2%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F77039A0
+[0mInitObjects: Dereferencing 0x78F77039A0 -> 0x78D2767900
+[0mDetectObjectsLayout: Examining 0x78D2767900 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x78D2767900
+[0mInitObjects: Testing GObjects candidate 0x78F7084FE0 (KittyUEAnalyzer confidence 52.5%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F7084FE0
+[0mInitObjects: Dereferencing 0x78F7084FE0 -> 0x787E761F00
+[0mDetectObjectsLayout: Examining 0x787E761F00 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x787E761F00
+[0mInitObjects: Testing GObjects candidate 0x78F7703958 (KittyUEAnalyzer confidence 52.4%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F7703958
+[0mInitObjects: Dereferencing 0x78F7703958 -> 0x78D276E700
+[0mDetectObjectsLayout: Examining 0x78D276E700 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x78D276E700
+[0mInitObjects: Testing GObjects candidate 0x78F7373650 (KittyUEAnalyzer confidence 51.8%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F7373650
+[0mInitObjects: [Dereference] Skipped - 0x78F7373650 does not hold a readable pointer.
+[0mInitObjects: Testing GObjects candidate 0x78F7709418 (KittyUEAnalyzer confidence 51.7%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F7709418
+[0mInitObjects: Dereferencing 0x78F7709418 -> 0x78D27F7B80
+[0mDetectObjectsLayout: Examining 0x78D27F7B80 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x78D27F7B80
+[0mInitObjects: Testing GObjects candidate 0x78F737BA48 (KittyUEAnalyzer confidence 51.5%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F737BA48
+[0mInitObjects: Dereferencing 0x78F737BA48 -> 0x787D842080
+[0mDetectObjectsLayout: Examining 0x787D842080 for an object array.
+[0mInitObjects: [Dereference] Resolve failed - no layout could be derived at 0x787D842080
+[0mInitObjects: Testing GObjects candidate 0x78F73D45E8 (KittyUEAnalyzer confidence 51.5%)...
+[0mInitObjects: [Direct] Resolve failed - no layout could be derived at 0x78F73D45E8
+[0mInitObjects: [Dereference] Skipped - 0x78F73D45E8 does not hold a readable pointer.
+[0m[1m[31mInitObjects: Failed to find a valid GObjects!
+[0mDuration: 15.75 sec
+[0m[1m[31mDump failed!
+[0m[1m[31mFailure reason: "Failed to find a valid GObjects!"
+[0m

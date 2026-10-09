@@ -1,0 +1,20 @@
+{
+  "checks": [
+    {
+      "capture": "analysis/combined-vector-captures/1791537936968061044/manifest.json",
+      "world": "0x6ddc2aa4c0",
+      "quaternion_error": 1.2929244876352768e-07,
+      "translation_error_cm": 0.0,
+      "passed": true
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791538613790895662/manifest.json",
+      "world": "0x6f2a9f0080",
+      "quaternion_error": 6.718377654202357e-08,
+      "translation_error_cm": 0.0,
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "scope": "Local player, unit scales, yaw-only rotation, plain vectors; remote transforms not verified."
+}

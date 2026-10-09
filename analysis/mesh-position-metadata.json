@@ -1,0 +1,824 @@
+[
+  {
+    "pawn": "0x768a5f0040",
+    "self": true,
+    "mesh": "0x7726a15d40",
+    "mesh_class": "DFMSkeletalMeshComponent",
+    "mesh_fields": [
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bUseCustomBounds",
+        "offset": "0xfe9",
+        "size": 1,
+        "property": "0x783e324200"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bBoundsCalcUseOwnerTrans",
+        "offset": "0xfea",
+        "size": 1,
+        "property": "0x783e3242a0"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bDisableParentTransform",
+        "offset": "0xfeb",
+        "size": 1,
+        "property": "0x783e324340"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bForceCalcBoundsDynamic",
+        "offset": "0xfec",
+        "size": 1,
+        "property": "0x783e3243e0"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bCalcBoundsDynamicUseCommonPhysAsset",
+        "offset": "0xfed",
+        "size": 1,
+        "property": "0x783e324480"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "BoundsCommonPhysicsAsset",
+        "offset": "0xff0",
+        "size": 8,
+        "property": "0x783e324520"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "CustomBounds",
+        "offset": "0x10c0",
+        "size": 80,
+        "property": "0x783e331840"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "mBoundsScale",
+        "offset": "0x1110",
+        "size": 4,
+        "property": "0x783e309c00"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bTestSkipLocalPlayerUpdateTransform",
+        "offset": "0x1138",
+        "size": 1,
+        "property": "0x783e324d40"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "RootBoneTranslation",
+        "offset": "0x9c0",
+        "size": 12,
+        "property": "0x783e90b3c0"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "LineCheckBoundsScale",
+        "offset": "0x9cc",
+        "size": 12,
+        "property": "0x783e90b460"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "CachedBoneSpaceTransforms",
+        "offset": "0xa08",
+        "size": 16,
+        "property": "0x783e90b6e0"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "CachedComponentSpaceTransforms",
+        "offset": "0xa18",
+        "size": 16,
+        "property": "0x783e90b820"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "KinematicBonesUpdateType",
+        "offset": "0xa4c",
+        "size": 1,
+        "property": "0x783e90b8c0"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "PhysicsTransformUpdateMode",
+        "offset": "0xa4d",
+        "size": 1,
+        "property": "0x783e90b960"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bDeferKinematicBoneUpdate",
+        "offset": "0xa53",
+        "size": 1,
+        "property": "0x783e909a20"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bShowPrePhysBones",
+        "offset": "0xa54",
+        "size": 1,
+        "property": "0x783e909fc0"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bRequiredBonesUpToDate",
+        "offset": "0xa54",
+        "size": 1,
+        "property": "0x783e90a060"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bIncludeComponentLocationIntoBounds",
+        "offset": "0xa55",
+        "size": 1,
+        "property": "0x783e90a1a0"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bEnableLineCheckWithBounds",
+        "offset": "0xa55",
+        "size": 1,
+        "property": "0x783e90a240"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bSkipBoundsUpdateWhenInterpolating",
+        "offset": "0xa56",
+        "size": 1,
+        "property": "0x783e907e00"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bUseBoundsFromMasterPoseComponent",
+        "offset": "0x8b6",
+        "size": 1,
+        "property": "0x783e904840"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bDisplayBones",
+        "offset": "0x8b6",
+        "size": 1,
+        "property": "0x783e904980"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bPerBoneMotionBlur",
+        "offset": "0x8b7",
+        "size": 1,
+        "property": "0x783e904b60"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bComponentUseFixedSkelBounds",
+        "offset": "0x8b7",
+        "size": 1,
+        "property": "0x783e904c00"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bConsiderAllBodiesForBounds",
+        "offset": "0x8b7",
+        "size": 1,
+        "property": "0x783e904ca0"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bConsiderValidBodiesForBounds",
+        "offset": "0x8b7",
+        "size": 1,
+        "property": "0x783e904d40"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bCachedLocalBoundsUpToDate",
+        "offset": "0x8c0",
+        "size": 1,
+        "property": "0x783e902d60"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "CachedWorldSpaceBounds",
+        "offset": "0x8e8",
+        "size": 28,
+        "property": "0x783e902ea0"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "CachedWorldToLocalTransform",
+        "offset": "0x910",
+        "size": 64,
+        "property": "0x783e902f40"
+      },
+      {
+        "owner": "PrimitiveComponent",
+        "name": "bDFMSimulationUpdateTransformFromGameThread",
+        "offset": "0x25b",
+        "size": 1,
+        "property": "0x783e67c220"
+      },
+      {
+        "owner": "PrimitiveComponent",
+        "name": "bSkipCalcLocalBounds",
+        "offset": "0x25b",
+        "size": 1,
+        "property": "0x783e67c360"
+      },
+      {
+        "owner": "PrimitiveComponent",
+        "name": "BoundsScale",
+        "offset": "0x2fc",
+        "size": 4,
+        "property": "0x783e63b180"
+      },
+      {
+        "owner": "SceneComponent",
+        "name": "RelativeLocation",
+        "offset": "0x168",
+        "size": 16,
+        "property": "0x783f3ebaa0"
+      },
+      {
+        "owner": "SceneComponent",
+        "name": "bAbsoluteLocation",
+        "offset": "0x19c",
+        "size": 1,
+        "property": "0x783f3ebdc0"
+      },
+      {
+        "owner": "SceneComponent",
+        "name": "bSkipUpdateTransformsWhenHidden",
+        "offset": "0x19c",
+        "size": 1,
+        "property": "0x783f3ec0e0"
+      },
+      {
+        "owner": "SceneComponent",
+        "name": "bShouldSnapLocationWhenAttached",
+        "offset": "0x19d",
+        "size": 1,
+        "property": "0x783f3ec220"
+      },
+      {
+        "owner": "SceneComponent",
+        "name": "bBoundsChangeTriggersStreamingDataRebuild",
+        "offset": "0x19d",
+        "size": 1,
+        "property": "0x783f3ec400"
+      }
+    ]
+  },
+  {
+    "pawn": "0x761cfe4030",
+    "self": false,
+    "mesh": "0x77a51ed180",
+    "mesh_class": "DFMSkeletalMeshComponent",
+    "mesh_fields": [
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bUseCustomBounds",
+        "offset": "0xfe9",
+        "size": 1,
+        "property": "0x783e324200"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bBoundsCalcUseOwnerTrans",
+        "offset": "0xfea",
+        "size": 1,
+        "property": "0x783e3242a0"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bDisableParentTransform",
+        "offset": "0xfeb",
+        "size": 1,
+        "property": "0x783e324340"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bForceCalcBoundsDynamic",
+        "offset": "0xfec",
+        "size": 1,
+        "property": "0x783e3243e0"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bCalcBoundsDynamicUseCommonPhysAsset",
+        "offset": "0xfed",
+        "size": 1,
+        "property": "0x783e324480"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "BoundsCommonPhysicsAsset",
+        "offset": "0xff0",
+        "size": 8,
+        "property": "0x783e324520"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "CustomBounds",
+        "offset": "0x10c0",
+        "size": 80,
+        "property": "0x783e331840"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "mBoundsScale",
+        "offset": "0x1110",
+        "size": 4,
+        "property": "0x783e309c00"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bTestSkipLocalPlayerUpdateTransform",
+        "offset": "0x1138",
+        "size": 1,
+        "property": "0x783e324d40"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "RootBoneTranslation",
+        "offset": "0x9c0",
+        "size": 12,
+        "property": "0x783e90b3c0"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "LineCheckBoundsScale",
+        "offset": "0x9cc",
+        "size": 12,
+        "property": "0x783e90b460"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "CachedBoneSpaceTransforms",
+        "offset": "0xa08",
+        "size": 16,
+        "property": "0x783e90b6e0"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "CachedComponentSpaceTransforms",
+        "offset": "0xa18",
+        "size": 16,
+        "property": "0x783e90b820"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "KinematicBonesUpdateType",
+        "offset": "0xa4c",
+        "size": 1,
+        "property": "0x783e90b8c0"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "PhysicsTransformUpdateMode",
+        "offset": "0xa4d",
+        "size": 1,
+        "property": "0x783e90b960"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bDeferKinematicBoneUpdate",
+        "offset": "0xa53",
+        "size": 1,
+        "property": "0x783e909a20"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bShowPrePhysBones",
+        "offset": "0xa54",
+        "size": 1,
+        "property": "0x783e909fc0"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bRequiredBonesUpToDate",
+        "offset": "0xa54",
+        "size": 1,
+        "property": "0x783e90a060"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bIncludeComponentLocationIntoBounds",
+        "offset": "0xa55",
+        "size": 1,
+        "property": "0x783e90a1a0"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bEnableLineCheckWithBounds",
+        "offset": "0xa55",
+        "size": 1,
+        "property": "0x783e90a240"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bSkipBoundsUpdateWhenInterpolating",
+        "offset": "0xa56",
+        "size": 1,
+        "property": "0x783e907e00"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bUseBoundsFromMasterPoseComponent",
+        "offset": "0x8b6",
+        "size": 1,
+        "property": "0x783e904840"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bDisplayBones",
+        "offset": "0x8b6",
+        "size": 1,
+        "property": "0x783e904980"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bPerBoneMotionBlur",
+        "offset": "0x8b7",
+        "size": 1,
+        "property": "0x783e904b60"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bComponentUseFixedSkelBounds",
+        "offset": "0x8b7",
+        "size": 1,
+        "property": "0x783e904c00"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bConsiderAllBodiesForBounds",
+        "offset": "0x8b7",
+        "size": 1,
+        "property": "0x783e904ca0"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bConsiderValidBodiesForBounds",
+        "offset": "0x8b7",
+        "size": 1,
+        "property": "0x783e904d40"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bCachedLocalBoundsUpToDate",
+        "offset": "0x8c0",
+        "size": 1,
+        "property": "0x783e902d60"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "CachedWorldSpaceBounds",
+        "offset": "0x8e8",
+        "size": 28,
+        "property": "0x783e902ea0"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "CachedWorldToLocalTransform",
+        "offset": "0x910",
+        "size": 64,
+        "property": "0x783e902f40"
+      },
+      {
+        "owner": "PrimitiveComponent",
+        "name": "bDFMSimulationUpdateTransformFromGameThread",
+        "offset": "0x25b",
+        "size": 1,
+        "property": "0x783e67c220"
+      },
+      {
+        "owner": "PrimitiveComponent",
+        "name": "bSkipCalcLocalBounds",
+        "offset": "0x25b",
+        "size": 1,
+        "property": "0x783e67c360"
+      },
+      {
+        "owner": "PrimitiveComponent",
+        "name": "BoundsScale",
+        "offset": "0x2fc",
+        "size": 4,
+        "property": "0x783e63b180"
+      },
+      {
+        "owner": "SceneComponent",
+        "name": "RelativeLocation",
+        "offset": "0x168",
+        "size": 16,
+        "property": "0x783f3ebaa0"
+      },
+      {
+        "owner": "SceneComponent",
+        "name": "bAbsoluteLocation",
+        "offset": "0x19c",
+        "size": 1,
+        "property": "0x783f3ebdc0"
+      },
+      {
+        "owner": "SceneComponent",
+        "name": "bSkipUpdateTransformsWhenHidden",
+        "offset": "0x19c",
+        "size": 1,
+        "property": "0x783f3ec0e0"
+      },
+      {
+        "owner": "SceneComponent",
+        "name": "bShouldSnapLocationWhenAttached",
+        "offset": "0x19d",
+        "size": 1,
+        "property": "0x783f3ec220"
+      },
+      {
+        "owner": "SceneComponent",
+        "name": "bBoundsChangeTriggersStreamingDataRebuild",
+        "offset": "0x19d",
+        "size": 1,
+        "property": "0x783f3ec400"
+      }
+    ]
+  },
+  {
+    "pawn": "0x783c100040",
+    "self": false,
+    "mesh": "0x763c457480",
+    "mesh_class": "DFMSkeletalMeshComponent",
+    "mesh_fields": [
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bUseCustomBounds",
+        "offset": "0xfe9",
+        "size": 1,
+        "property": "0x783e324200"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bBoundsCalcUseOwnerTrans",
+        "offset": "0xfea",
+        "size": 1,
+        "property": "0x783e3242a0"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bDisableParentTransform",
+        "offset": "0xfeb",
+        "size": 1,
+        "property": "0x783e324340"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bForceCalcBoundsDynamic",
+        "offset": "0xfec",
+        "size": 1,
+        "property": "0x783e3243e0"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bCalcBoundsDynamicUseCommonPhysAsset",
+        "offset": "0xfed",
+        "size": 1,
+        "property": "0x783e324480"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "BoundsCommonPhysicsAsset",
+        "offset": "0xff0",
+        "size": 8,
+        "property": "0x783e324520"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "CustomBounds",
+        "offset": "0x10c0",
+        "size": 80,
+        "property": "0x783e331840"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "mBoundsScale",
+        "offset": "0x1110",
+        "size": 4,
+        "property": "0x783e309c00"
+      },
+      {
+        "owner": "GPSkeletalMeshComponent",
+        "name": "bTestSkipLocalPlayerUpdateTransform",
+        "offset": "0x1138",
+        "size": 1,
+        "property": "0x783e324d40"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "RootBoneTranslation",
+        "offset": "0x9c0",
+        "size": 12,
+        "property": "0x783e90b3c0"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "LineCheckBoundsScale",
+        "offset": "0x9cc",
+        "size": 12,
+        "property": "0x783e90b460"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "CachedBoneSpaceTransforms",
+        "offset": "0xa08",
+        "size": 16,
+        "property": "0x783e90b6e0"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "CachedComponentSpaceTransforms",
+        "offset": "0xa18",
+        "size": 16,
+        "property": "0x783e90b820"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "KinematicBonesUpdateType",
+        "offset": "0xa4c",
+        "size": 1,
+        "property": "0x783e90b8c0"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "PhysicsTransformUpdateMode",
+        "offset": "0xa4d",
+        "size": 1,
+        "property": "0x783e90b960"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bDeferKinematicBoneUpdate",
+        "offset": "0xa53",
+        "size": 1,
+        "property": "0x783e909a20"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bShowPrePhysBones",
+        "offset": "0xa54",
+        "size": 1,
+        "property": "0x783e909fc0"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bRequiredBonesUpToDate",
+        "offset": "0xa54",
+        "size": 1,
+        "property": "0x783e90a060"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bIncludeComponentLocationIntoBounds",
+        "offset": "0xa55",
+        "size": 1,
+        "property": "0x783e90a1a0"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bEnableLineCheckWithBounds",
+        "offset": "0xa55",
+        "size": 1,
+        "property": "0x783e90a240"
+      },
+      {
+        "owner": "SkeletalMeshComponent",
+        "name": "bSkipBoundsUpdateWhenInterpolating",
+        "offset": "0xa56",
+        "size": 1,
+        "property": "0x783e907e00"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bUseBoundsFromMasterPoseComponent",
+        "offset": "0x8b6",
+        "size": 1,
+        "property": "0x783e904840"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bDisplayBones",
+        "offset": "0x8b6",
+        "size": 1,
+        "property": "0x783e904980"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bPerBoneMotionBlur",
+        "offset": "0x8b7",
+        "size": 1,
+        "property": "0x783e904b60"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bComponentUseFixedSkelBounds",
+        "offset": "0x8b7",
+        "size": 1,
+        "property": "0x783e904c00"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bConsiderAllBodiesForBounds",
+        "offset": "0x8b7",
+        "size": 1,
+        "property": "0x783e904ca0"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bConsiderValidBodiesForBounds",
+        "offset": "0x8b7",
+        "size": 1,
+        "property": "0x783e904d40"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "bCachedLocalBoundsUpToDate",
+        "offset": "0x8c0",
+        "size": 1,
+        "property": "0x783e902d60"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "CachedWorldSpaceBounds",
+        "offset": "0x8e8",
+        "size": 28,
+        "property": "0x783e902ea0"
+      },
+      {
+        "owner": "SkinnedMeshComponent",
+        "name": "CachedWorldToLocalTransform",
+        "offset": "0x910",
+        "size": 64,
+        "property": "0x783e902f40"
+      },
+      {
+        "owner": "PrimitiveComponent",
+        "name": "bDFMSimulationUpdateTransformFromGameThread",
+        "offset": "0x25b",
+        "size": 1,
+        "property": "0x783e67c220"
+      },
+      {
+        "owner": "PrimitiveComponent",
+        "name": "bSkipCalcLocalBounds",
+        "offset": "0x25b",
+        "size": 1,
+        "property": "0x783e67c360"
+      },
+      {
+        "owner": "PrimitiveComponent",
+        "name": "BoundsScale",
+        "offset": "0x2fc",
+        "size": 4,
+        "property": "0x783e63b180"
+      },
+      {
+        "owner": "SceneComponent",
+        "name": "RelativeLocation",
+        "offset": "0x168",
+        "size": 16,
+        "property": "0x783f3ebaa0"
+      },
+      {
+        "owner": "SceneComponent",
+        "name": "bAbsoluteLocation",
+        "offset": "0x19c",
+        "size": 1,
+        "property": "0x783f3ebdc0"
+      },
+      {
+        "owner": "SceneComponent",
+        "name": "bSkipUpdateTransformsWhenHidden",
+        "offset": "0x19c",
+        "size": 1,
+        "property": "0x783f3ec0e0"
+      },
+      {
+        "owner": "SceneComponent",
+        "name": "bShouldSnapLocationWhenAttached",
+        "offset": "0x19d",
+        "size": 1,
+        "property": "0x783f3ec220"
+      },
+      {
+        "owner": "SceneComponent",
+        "name": "bBoundsChangeTriggersStreamingDataRebuild",
+        "offset": "0x19d",
+        "size": 1,
+        "property": "0x783f3ec400"
+      }
+    ]
+  }
+]

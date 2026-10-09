@@ -1,0 +1,192 @@
+[
+  {
+    "file": "new-match-position-comparison.json",
+    "sample": 0,
+    "pawn": "0x767d26c010",
+    "delta_from_local": [
+      -578.87890625,
+      229.865234375,
+      -1242.3140869140625
+    ],
+    "horizontal_distance": 622.8473441185007,
+    "camera_yaw": -156.33529663085938,
+    "root_minus_rep": null
+  },
+  {
+    "file": "new-match-position-comparison.json",
+    "sample": 0,
+    "pawn": "0x767895c010",
+    "delta_from_local": [
+      1653.7578125,
+      1039.7890625,
+      -1222.7949829101562
+    ],
+    "horizontal_distance": 1953.4779745109527,
+    "camera_yaw": -156.33529663085938,
+    "root_minus_rep": null
+  },
+  {
+    "file": "new-match-position-comparison.json",
+    "sample": 1,
+    "pawn": "0x767d26c010",
+    "delta_from_local": [
+      -507.744140625,
+      913.625,
+      -1233.2681884765625
+    ],
+    "horizontal_distance": 1045.2343052942817,
+    "camera_yaw": -101.84541320800781,
+    "root_minus_rep": null
+  },
+  {
+    "file": "new-match-position-comparison.json",
+    "sample": 1,
+    "pawn": "0x767895c010",
+    "delta_from_local": [
+      3053.748046875,
+      2666.748046875,
+      -1261.90673828125
+    ],
+    "horizontal_distance": 4054.247436862297,
+    "camera_yaw": -101.84541320800781,
+    "root_minus_rep": null
+  },
+  {
+    "file": "new-match-position-comparison.json",
+    "sample": 2,
+    "pawn": "0x767d26c010",
+    "delta_from_local": [
+      -469.9296875,
+      315.91796875,
+      -1220.118896484375
+    ],
+    "horizontal_distance": 566.2491273043814,
+    "camera_yaw": 31.454755783081055,
+    "root_minus_rep": null
+  },
+  {
+    "file": "new-match-position-comparison.json",
+    "sample": 2,
+    "pawn": "0x767895c010",
+    "delta_from_local": [
+      -206.30078125,
+      313.326171875,
+      -1212.0396728515625
+    ],
+    "horizontal_distance": 375.1443753092966,
+    "camera_yaw": 31.454755783081055,
+    "root_minus_rep": null
+  },
+  {
+    "file": "new-match-position-comparison.json",
+    "sample": 3,
+    "pawn": "0x767d26c010",
+    "delta_from_local": [
+      -668.13671875,
+      417.396484375,
+      -1220.1729736328125
+    ],
+    "horizontal_distance": 787.7985149202975,
+    "camera_yaw": 98.31311798095703,
+    "root_minus_rep": null
+  },
+  {
+    "file": "new-match-position-comparison.json",
+    "sample": 3,
+    "pawn": "0x767895c010",
+    "delta_from_local": [
+      -384.09375,
+      384.09375,
+      -1212.09375
+    ],
+    "horizontal_distance": 543.190590472741,
+    "camera_yaw": 98.31311798095703,
+    "root_minus_rep": null
+  },
+  {
+    "file": "teammate-held-position.json",
+    "sample": 0,
+    "pawn": "0x75e6860040",
+    "delta_from_local": [
+      87.810546875,
+      -50.576171875,
+      -829.9748840332031
+    ],
+    "horizontal_distance": 101.33430467524862,
+    "camera_yaw": -25.670528411865234,
+    "root_minus_rep": null
+  },
+  {
+    "file": "teammate-held-position.json",
+    "sample": 0,
+    "pawn": "0x75d8150040",
+    "delta_from_local": [
+      335.1591796875,
+      -95.970703125,
+      -838.4869079589844
+    ],
+    "horizontal_distance": 348.6288163464185,
+    "camera_yaw": -25.670528411865234,
+    "root_minus_rep": null
+  },
+  {
+    "file": "teammate-held-paired.json",
+    "sample": 0,
+    "pawn": "0x75e6860040",
+    "delta_from_local": [
+      32.56640625,
+      -78.1796875,
+      -828.9318389892578
+    ],
+    "horizontal_distance": 84.69140661033855,
+    "camera_yaw": 108.63578796386719,
+    "root_minus_rep": null
+  },
+  {
+    "file": "teammate-held-paired.json",
+    "sample": 0,
+    "pawn": "0x75d8150040",
+    "delta_from_local": [
+      135.958984375,
+      -211.759765625,
+      -830.9066925048828
+    ],
+    "horizontal_distance": 251.64865143655436,
+    "camera_yaw": 108.63578796386719,
+    "root_minus_rep": null
+  },
+  {
+    "file": "teammate-stationary.json",
+    "sample": 0,
+    "pawn": "0x75e6860040",
+    "delta_from_local": [
+      -0.21875,
+      0.21875,
+      -828.21875
+    ],
+    "horizontal_distance": 0.30935921676911454,
+    "camera_yaw": -153.77098083496094,
+    "root_minus_rep": [
+      -373.9375,
+      373.9375,
+      -373.9375
+    ]
+  },
+  {
+    "file": "teammate-stationary.json",
+    "sample": 0,
+    "pawn": "0x75d8150040",
+    "delta_from_local": [
+      -45.359375,
+      -5.224609375,
+      -828.8704833984375
+    ],
+    "horizontal_distance": 45.65927554738427,
+    "camera_yaw": -153.77098083496094,
+    "root_minus_rep": [
+      -411.9375,
+      411.9375,
+      -411.9375
+    ]
+  }
+]

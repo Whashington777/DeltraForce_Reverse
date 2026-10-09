@@ -1,0 +1,16 @@
+{
+  "pid": 21490,
+  "start": "718694",
+  "previous_pid": 24536,
+  "previous_start": "493421",
+  "process_restart_confirmed": true,
+  "base": "0x6fe723b000",
+  "state_candidate": "0x7210d32000",
+  "state_address_same_as_previous": true,
+  "world": "0x6f1b999280",
+  "mode": "BP_GameState_IrisSafeHouse_C",
+  "roster": 1,
+  "protected_count": 0,
+  "unpacker_equal_to_previous": false,
+  "key_verified": false
+}

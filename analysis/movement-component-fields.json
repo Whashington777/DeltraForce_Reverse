@@ -1,0 +1,154 @@
+{
+  "pointer": "0x7679e62ec0",
+  "valid": true,
+  "class": "SOLPlayerMovementComponent",
+  "fields": [
+    {
+      "owner": "DFMCharacterMovementComponent",
+      "name": "LastStartFallingPosition",
+      "offset": "0x1524",
+      "size": 12,
+      "property": "0x783d368940"
+    },
+    {
+      "owner": "GPCharacterMovementComponent",
+      "name": "MAXPOSITIONERRORSQUARED",
+      "offset": "0x8a0",
+      "size": 4,
+      "property": "0x783e3e1a80"
+    },
+    {
+      "owner": "GPCharacterMovementComponent",
+      "name": "DiveHighestPosition",
+      "offset": "0x950",
+      "size": 12,
+      "property": "0x783e3d5ec0"
+    },
+    {
+      "owner": "GPCharacterMovementComponent",
+      "name": "bLieDownMaintainsBaseLocation",
+      "offset": "0x99c",
+      "size": 1,
+      "property": "0x783e3d6460"
+    },
+    {
+      "owner": "GPCharacterMovementComponent",
+      "name": "IEPositionLerpDuration",
+      "offset": "0xbd0",
+      "size": 4,
+      "property": "0x783e3af080"
+    },
+    {
+      "owner": "GPCharacterMovementComponent",
+      "name": "IEPositionLerpCurve",
+      "offset": "0xbd8",
+      "size": 8,
+      "property": "0x783e3d42a0"
+    },
+    {
+      "owner": "GPCharacterMovementComponent",
+      "name": "MaxCheckPositionDifference",
+      "offset": "0x1040",
+      "size": 4,
+      "property": "0x783e3ae080"
+    },
+    {
+      "owner": "GPCharacterMovementComponent",
+      "name": "PckLoseMaxCheckPositionDifference",
+      "offset": "0x1044",
+      "size": 4,
+      "property": "0x783e3ae100"
+    },
+    {
+      "owner": "GPCharacterMovementComponent",
+      "name": "PositionConfirmInterval",
+      "offset": "0x1098",
+      "size": 4,
+      "property": "0x783e3ac800"
+    },
+    {
+      "owner": "GPCharacterMovementComponent",
+      "name": "ClientPositionErrorThreshold",
+      "offset": "0x109c",
+      "size": 4,
+      "property": "0x783e3ac880"
+    },
+    {
+      "owner": "GPCharacterMovementComponent",
+      "name": "LastClientAckedLocation",
+      "offset": "0x10f8",
+      "size": 12,
+      "property": "0x783e3d34e0"
+    },
+    {
+      "owner": "GPCharacterMovementComponent",
+      "name": "TargetClientAckedLocation",
+      "offset": "0x1104",
+      "size": 12,
+      "property": "0x783e3d3580"
+    },
+    {
+      "owner": "GPCharacterMovementComponent",
+      "name": "CurClientLocation",
+      "offset": "0x1110",
+      "size": 12,
+      "property": "0x783e3d3620"
+    },
+    {
+      "owner": "GPCharacterMovementComponent",
+      "name": "IsInconsistentLocation",
+      "offset": "0x1358",
+      "size": 1,
+      "property": "0x783e3d38a0"
+    },
+    {
+      "owner": "CharacterMovementComponent",
+      "name": "LastUpdateLocation",
+      "offset": "0x2a0",
+      "size": 16,
+      "property": "0x783e9c5100"
+    },
+    {
+      "owner": "CharacterMovementComponent",
+      "name": "NetworkSimulatedSmoothLocationTime",
+      "offset": "0x30c",
+      "size": 4,
+      "property": "0x783e9a8000"
+    },
+    {
+      "owner": "CharacterMovementComponent",
+      "name": "ListenServerNetworkSimulatedSmoothLocationTime",
+      "offset": "0x314",
+      "size": 4,
+      "property": "0x783e9a8100"
+    },
+    {
+      "owner": "CharacterMovementComponent",
+      "name": "bServerAcceptClientAuthoritativePosition",
+      "offset": "0x3dc",
+      "size": 1,
+      "property": "0x783e9c3260"
+    },
+    {
+      "owner": "CharacterMovementComponent",
+      "name": "bCrouchMaintainsBaseLocation",
+      "offset": "0x3dc",
+      "size": 1,
+      "property": "0x783e9c34e0"
+    },
+    {
+      "owner": "MovementComponent",
+      "name": "UpdatedComponent",
+      "offset": "0xf8",
+      "size": 8,
+      "property": "0x7843242400"
+    },
+    {
+      "owner": "MovementComponent",
+      "name": "bAutoRegisterUpdatedComponent",
+      "offset": "0x130",
+      "size": 1,
+      "property": "0x7843242900"
+    }
+  ]
+}

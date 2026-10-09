@@ -1,0 +1,7 @@
+{
+  "pid": 21490,
+  "base": "0x6fe723b000",
+  "trampoline": "0x6f631f7e88",
+  "callback": "0x70341ee000",
+  "descriptor": "0x70d9ff14e0"
+}

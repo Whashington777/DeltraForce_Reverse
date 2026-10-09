@@ -1,0 +1,10 @@
+{
+  "types": 555,
+  "classes": 44,
+  "structs": 511,
+  "properties": 5702,
+  "functions": 1586,
+  "geometry_checks_passed": 14,
+  "coordinate_solution_verified": false,
+  "scope": "Selected reflected types and dependencies; not a complete SDK"
+}

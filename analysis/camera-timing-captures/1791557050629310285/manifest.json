@@ -1,0 +1,541 @@
+{
+  "pid": 10651,
+  "base": "0x6fe7831000",
+  "world": "0x6de66dade0",
+  "pc": "0x70ceaea060",
+  "camera": "0x6e5e858010",
+  "host_screen_start_ns": 1791557050629681293,
+  "screen_returncode": 0,
+  "screen_stdout": "",
+  "screen_stderr": "",
+  "device_screencap_interval_ns": [
+    "Fri",
+    "Oct",
+    "9",
+    "19:44:11",
+    "+05",
+    "2026",
+    "1791557055451655075"
+  ],
+  "samples": [
+    {
+      "host_start_ns": 1791557050630141227,
+      "host_end_ns": 1791557050741575803,
+      "control_rotation": [
+        1.0710289478302002,
+        252.59439086914062,
+        0.0
+      ],
+      "pawn": "0x6d95c1c010",
+      "manager": "0x6e5e858010",
+      "caches": {
+        "CameraCache": {
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x0"
+        },
+        "LastFrameCameraCache": {
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x0"
+        },
+        "ViewTarget": {
+          "location": [
+            14407.2958984375,
+            -6994.38671875,
+            -190.70443725585938
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            1.0710288286209106,
+            -107.40563201904297,
+            -1.1423554013845205e-07
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x6d95c1c010"
+        },
+        "PendingViewTarget": {
+          "location": [
+            -158068.0,
+            364319.0,
+            0.0
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x0"
+        },
+        "CameraCachePrivate": {
+          "location": [
+            14407.2958984375,
+            -6994.38671875,
+            -190.70443725585938
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            1.0710288286209106,
+            -107.40563201904297,
+            -1.1423554013845205e-07
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x4446d06e"
+        },
+        "LastFrameCameraCachePrivate": {
+          "location": [
+            14407.2958984375,
+            -6994.38671875,
+            -190.70443725585938
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            1.0710288286209106,
+            -107.40563201904297,
+            -1.1423554013845205e-07
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x4446cfe6"
+        }
+      }
+    },
+    {
+      "host_start_ns": 1791557050760156040,
+      "host_end_ns": 1791557050854405588,
+      "control_rotation": [
+        1.0710289478302002,
+        252.59439086914062,
+        0.0
+      ],
+      "pawn": "0x6d95c1c010",
+      "manager": "0x6e5e858010",
+      "caches": {
+        "CameraCache": {
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x0"
+        },
+        "LastFrameCameraCache": {
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x0"
+        },
+        "ViewTarget": {
+          "location": [
+            14407.2958984375,
+            -6994.38671875,
+            -190.70443725585938
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            1.0710288286209106,
+            -107.40563201904297,
+            -1.1423554013845205e-07
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x6d95c1c010"
+        },
+        "PendingViewTarget": {
+          "location": [
+            -158068.0,
+            364319.0,
+            0.0
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x0"
+        },
+        "CameraCachePrivate": {
+          "location": [
+            14407.2958984375,
+            -6994.38671875,
+            -190.70443725585938
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            1.0710288286209106,
+            -107.40563201904297,
+            -1.1423554013845205e-07
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x4446d7e6"
+        },
+        "LastFrameCameraCachePrivate": {
+          "location": [
+            14407.2958984375,
+            -6994.38671875,
+            -190.70443725585938
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            1.0710288286209106,
+            -107.40563201904297,
+            -1.1423554013845205e-07
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x4446d75d"
+        }
+      }
+    },
+    {
+      "host_start_ns": 1791557050872469036,
+      "host_end_ns": 1791557050979621116,
+      "control_rotation": [
+        1.0710289478302002,
+        252.59439086914062,
+        0.0
+      ],
+      "pawn": "0x6d95c1c010",
+      "manager": "0x6e5e858010",
+      "caches": {
+        "CameraCache": {
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x0"
+        },
+        "LastFrameCameraCache": {
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x0"
+        },
+        "ViewTarget": {
+          "location": [
+            14407.2958984375,
+            -6994.38671875,
+            -190.70443725585938
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            1.0710288286209106,
+            -107.40563201904297,
+            -1.1423554013845205e-07
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x6d95c1c010"
+        },
+        "PendingViewTarget": {
+          "location": [
+            -158068.0,
+            364319.0,
+            0.0
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x0"
+        },
+        "CameraCachePrivate": {
+          "location": [
+            14407.2958984375,
+            -6994.38671875,
+            -190.70443725585938
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            1.0710288286209106,
+            -107.40563201904297,
+            -1.1423554013845205e-07
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x4446dfe9"
+        },
+        "LastFrameCameraCachePrivate": {
+          "location": [
+            14407.2958984375,
+            -6994.38671875,
+            -190.70443725585938
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            1.0710288286209106,
+            -107.40563201904297,
+            -1.1423554013845205e-07
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x4446df60"
+        }
+      }
+    },
+    {
+      "host_start_ns": 1791557050996909085,
+      "host_end_ns": 1791557051100733661,
+      "control_rotation": [
+        1.0710289478302002,
+        252.59439086914062,
+        0.0
+      ],
+      "pawn": "0x6d95c1c010",
+      "manager": "0x6e5e858010",
+      "caches": {
+        "CameraCache": {
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x0"
+        },
+        "LastFrameCameraCache": {
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x0"
+        },
+        "ViewTarget": {
+          "location": [
+            14407.2958984375,
+            -6994.38671875,
+            -190.70443725585938
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            1.0710288286209106,
+            -107.40563201904297,
+            -1.1423554013845205e-07
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x6d95c1c010"
+        },
+        "PendingViewTarget": {
+          "location": [
+            -158068.0,
+            364319.0,
+            0.0
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x0"
+        },
+        "CameraCachePrivate": {
+          "location": [
+            14407.2958984375,
+            -6994.38671875,
+            -190.70443725585938
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            1.0710288286209106,
+            -107.40563201904297,
+            -1.1423554013845205e-07
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x4446e760"
+        },
+        "LastFrameCameraCachePrivate": {
+          "location": [
+            14407.2958984375,
+            -6994.38671875,
+            -190.70443725585938
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            1.0710288286209106,
+            -107.40563201904297,
+            -1.1423554013845205e-07
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x4446e6d8"
+        }
+      }
+    },
+    {
+      "host_start_ns": 1791557051118160808,
+      "host_end_ns": 1791557051240434017,
+      "control_rotation": [
+        1.0710289478302002,
+        252.59439086914062,
+        0.0
+      ],
+      "pawn": "0x6d95c1c010",
+      "manager": "0x6e5e858010",
+      "caches": {
+        "CameraCache": {
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x0"
+        },
+        "LastFrameCameraCache": {
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x0"
+        },
+        "ViewTarget": {
+          "location": [
+            14407.2958984375,
+            -6994.38671875,
+            -190.70443725585938
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            1.0710288286209106,
+            -107.40563201904297,
+            -1.1423554013845205e-07
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x6d95c1c010"
+        },
+        "PendingViewTarget": {
+          "location": [
+            -158068.0,
+            364319.0,
+            0.0
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x0"
+        },
+        "CameraCachePrivate": {
+          "location": [
+            14407.2958984375,
+            -6994.38671875,
+            -190.70443725585938
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            1.0710288286209106,
+            -107.40563201904297,
+            -1.1423554013845205e-07
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x4446f071"
+        },
+        "LastFrameCameraCachePrivate": {
+          "location": [
+            14407.2958984375,
+            -6994.38671875,
+            -190.70443725585938
+          ],
+          "location_handler": "0xffff",
+          "rotation": [
+            1.0710288286209106,
+            -107.40563201904297,
+            -1.1423554013845205e-07
+          ],
+          "fov": 90.0,
+          "leading_qword": "0x4446efe9"
+        }
+      }
+    }
+  ],
+  "limits": [
+    "Device timestamps bracket acquisition and PNG encoding, not an exact render-frame timestamp.",
+    "Cached offsets are comparison targets; current reflection must be audited before claiming a source change."
+  ]
+}

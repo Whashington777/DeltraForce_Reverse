@@ -1,0 +1,201 @@
+{
+  "pid": 22846,
+  "base": "0x78d6c43000",
+  "attach_parent_metadata": [
+    {
+      "owner": "SceneComponent",
+      "name": "AttachParent",
+      "offset": "0x108",
+      "size": 8,
+      "property": "0x783f3ee0c0"
+    },
+    {
+      "owner": "SceneComponent",
+      "name": "bUseAttachParentBound",
+      "offset": "0x19d",
+      "size": 1,
+      "property": "0x783f3ec4a0"
+    }
+  ],
+  "rows": [
+    {
+      "actor": "0x771085c010",
+      "class": "BP_DFMCharacter_C",
+      "role": "self",
+      "root": "0x777498b380",
+      "root_class": "IntCapsuleComponent",
+      "relative_xyz": [
+        -26911.732421875,
+        4905.6669921875,
+        -351.6467590332031
+      ],
+      "enc_handler": 65535,
+      "attach_parent": "0x0",
+      "finite": true,
+      "capsule_half_height": 86.0,
+      "capsule_radius": 40.0
+    },
+    {
+      "actor": "0x76ceb20040",
+      "class": "BP_DFMCharacter_C",
+      "role": "ally",
+      "root": "0x774376d9c0",
+      "root_class": "IntCapsuleComponent",
+      "relative_xyz": [
+        -26875.78515625,
+        3356.514404296875,
+        -1524.67724609375
+      ],
+      "enc_handler": 50397304,
+      "attach_parent": "0x0",
+      "finite": true,
+      "capsule_half_height": 85.98999786376953,
+      "capsule_radius": 39.9900016784668
+    },
+    {
+      "actor": "0x7660154030",
+      "class": "BP_DFMCharacter_C",
+      "role": "ally",
+      "root": "0x766c033400",
+      "root_class": "IntCapsuleComponent",
+      "relative_xyz": [
+        -26609.595703125,
+        2912.70849609375,
+        -1193.708740234375
+      ],
+      "enc_handler": 50397184,
+      "attach_parent": "0x0",
+      "finite": true,
+      "capsule_half_height": 85.98999786376953,
+      "capsule_radius": 39.9900016784668
+    },
+    {
+      "actor": "0x767f5c4030",
+      "class": "BP_DFMCharacter_C",
+      "role": "other_team",
+      "root": "0x766a9e7a20",
+      "root_class": "IntCapsuleComponent",
+      "relative_xyz": [
+        -23173.0,
+        -22993.3125,
+        1257.099609375
+      ],
+      "enc_handler": 50397199,
+      "attach_parent": "0x0",
+      "finite": true,
+      "capsule_half_height": 85.98999786376953,
+      "capsule_radius": 39.9900016784668
+    },
+    {
+      "actor": "0x7647378020",
+      "class": "BP_DFMCharacter_C",
+      "role": "other_team",
+      "root": "0x77e6aee680",
+      "root_class": "IntCapsuleComponent",
+      "relative_xyz": [
+        -22372.40625,
+        -24946.375,
+        1316.2998046875
+      ],
+      "enc_handler": 50397229,
+      "attach_parent": "0x0",
+      "finite": true,
+      "capsule_half_height": 85.98999786376953,
+      "capsule_radius": 39.9900016784668
+    },
+    {
+      "actor": "0x78a09e4030",
+      "class": "BP_DFMCharacter_C",
+      "role": "other_team",
+      "root": "0x77c9c80760",
+      "root_class": "IntCapsuleComponent",
+      "relative_xyz": [
+        -23711.90625,
+        -23281.1875,
+        1163.099609375
+      ],
+      "enc_handler": 50397214,
+      "attach_parent": "0x0",
+      "finite": true,
+      "capsule_half_height": 85.98999786376953,
+      "capsule_radius": 39.9900016784668
+    },
+    {
+      "actor": "0x76d0c9c010",
+      "class": "BP_DFMCharacter_C",
+      "role": "other_team",
+      "root": "0x766b5e1420",
+      "root_class": "IntCapsuleComponent",
+      "relative_xyz": [
+        -15395.1806640625,
+        11906.609375,
+        -2408.85791015625
+      ],
+      "enc_handler": 50397259,
+      "attach_parent": "0x0",
+      "finite": true,
+      "capsule_half_height": 86.0,
+      "capsule_radius": 40.0
+    },
+    {
+      "actor": "0x768a5fc010",
+      "class": "BP_DFMCharacter_C",
+      "role": "other_team",
+      "root": "0x77e6bb6d60",
+      "root_class": "IntCapsuleComponent",
+      "relative_xyz": [
+        -10512.8701171875,
+        17588.09765625,
+        -2627.33544921875
+      ],
+      "enc_handler": 50397274,
+      "attach_parent": "0x0",
+      "finite": true,
+      "capsule_half_height": 85.98999786376953,
+      "capsule_radius": 40.0
+    },
+    {
+      "actor": "0x76ceb08020",
+      "class": "BP_DFMCharacter_C",
+      "role": "other_team",
+      "root": "0x7720daf9a0",
+      "root_class": "IntCapsuleComponent",
+      "relative_xyz": [
+        -18150.421875,
+        9668.8232421875,
+        -2015.6668701171875
+      ],
+      "enc_handler": 50397289,
+      "attach_parent": "0x0",
+      "finite": true,
+      "capsule_half_height": 86.0,
+      "capsule_radius": 40.0
+    },
+    {
+      "actor": "0x77a61a5560",
+      "class": "BP_DFMCharacter_AI_Crocodile_C",
+      "role": "npc_candidate_from_previous_snapshot",
+      "root": "0x7714e9b380",
+      "root_class": "IntCapsuleComponent",
+      "relative_xyz": [
+        -13819.0,
+        -3893.570068359375,
+        -1055.0
+      ],
+      "enc_handler": 65535,
+      "attach_parent": "0x0",
+      "finite": true,
+      "capsule_half_height": 40.0,
+      "capsule_radius": 40.0
+    }
+  ],
+  "checks": {
+    "world_stable": true,
+    "roster_header_stable": true
+  },
+  "limits": [
+    "XYZ interpretation verified only for observed handler 0xFFFF.",
+    "RelativeLocation is not world position when an attachment requires parent transform.",
+    "Prior NPC candidates can disappear; this is not a complete NPC scan."
+  ]
+}

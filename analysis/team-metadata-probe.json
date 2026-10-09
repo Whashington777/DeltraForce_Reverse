@@ -1,0 +1,49 @@
+{
+  "pid": 22846,
+  "player": "0x77c0ba24a0",
+  "class": "0x776d80eb00",
+  "class_name": "BP_BattleFieldPlayerState_C",
+  "links": [
+    {
+      "offset": "0x40",
+      "pointer": "0x787e113d00",
+      "name": "BattleFieldPlayerState",
+      "class": "Class",
+      "links": [
+        {
+          "offset": "0x40",
+          "pointer": "0x787e65ad80",
+          "name": "BattleFieldPlayerStateBase",
+          "class": "Class"
+        },
+        {
+          "offset": "0x50",
+          "pointer": "0x786421b2f0",
+          "name": "UpdateFootStepAudioStyleID",
+          "class": "Function"
+        }
+      ]
+    },
+    {
+      "offset": "0xe0",
+      "pointer": "0x78d3210100",
+      "name": "Object",
+      "class": "Class",
+      "links": [
+        {
+          "offset": "0x50",
+          "pointer": "0x78636df650",
+          "name": "ExecuteUbergraph",
+          "class": "Function"
+        }
+      ]
+    },
+    {
+      "offset": "0x138",
+      "pointer": "0x785cfa0010",
+      "name": "Default__BP_BattleFieldPlayerState_C",
+      "class": "BP_BattleFieldPlayerState_C",
+      "links": []
+    }
+  ]
+}

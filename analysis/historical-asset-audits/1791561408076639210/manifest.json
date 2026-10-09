@@ -1,0 +1,18 @@
+{
+  "pid": 10651,
+  "process_start": "2455946",
+  "historical_capture": "analysis/combined-vector-captures/1791557758668496455",
+  "mesh": "0x6e8d0a2ec0",
+  "asset": "0x6ecfdc85f0",
+  "asset_address_mapped": true,
+  "historical_asset_identity_verified": false,
+  "world_bones_verified": false,
+  "current_object_identity": null,
+  "current_header_hex": "801f2a8a6e0000003c00000040000000c02101bc6d0000003400000038000000702001bc6d0000003300000038000000502917996e0000002300000028000000f02917996e0000002300000028000000e02001bc6d0000003400000038000000",
+  "current_class_candidate": "?",
+  "error": "Invalid current-build bone-map header",
+  "limits": [
+    "Historical asset object identity was not captured; address equality alone cannot prove residue belongs to that historical asset.",
+    "Any remaining table is only a forensic candidate and must not label verified world bones."
+  ]
+}

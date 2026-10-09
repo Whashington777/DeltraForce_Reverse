@@ -1,0 +1,106 @@
+{
+  "source": "analysis/own-reflection/classes.json",
+  "current_build": "1.202.37117.5601",
+  "fields": {
+    "CHARACTER.CapsuleComponent": {
+      "offset": "0x3e0",
+      "size": 8,
+      "type": "CapsuleComponent",
+      "validation": "current-build reflected metadata, not live pose/hitbox validation"
+    },
+    "GPCharacter.CharacterCapsuleTransformFormID": {
+      "offset": "0x1bb4",
+      "size": 4,
+      "type": "GPCharacter",
+      "validation": "current-build reflected metadata, not live pose/hitbox validation"
+    },
+    "GPCharacter.CharacterCollisionManager": {
+      "offset": "0x1fb0",
+      "size": 56,
+      "type": "GPCollisionManager",
+      "validation": "current-build reflected metadata, not live pose/hitbox validation"
+    },
+    "GPCharacter.AimCapsuleComponent": {
+      "offset": "0x2070",
+      "size": 8,
+      "type": "CapsuleComponent",
+      "validation": "current-build reflected metadata, not live pose/hitbox validation"
+    },
+    "GPCharacter.bCustomAimCapsuleParams": {
+      "offset": "0x2079",
+      "size": 1,
+      "type": null,
+      "validation": "current-build reflected metadata, not live pose/hitbox validation"
+    },
+    "GPCharacter.CustomAimCapsuleRadius": {
+      "offset": "0x207c",
+      "size": 4,
+      "type": "GPCharacter",
+      "validation": "current-build reflected metadata, not live pose/hitbox validation"
+    },
+    "GPCharacter.CustomAimCapsuleHalfHeight": {
+      "offset": "0x2080",
+      "size": 4,
+      "type": "GPCharacter",
+      "validation": "current-build reflected metadata, not live pose/hitbox validation"
+    },
+    "GPCharacter.CustomAimCapsuleCrouchedHalfHeight": {
+      "offset": "0x2084",
+      "size": 4,
+      "type": "GPCharacter",
+      "validation": "current-build reflected metadata, not live pose/hitbox validation"
+    },
+    "GPCharacter.CustomAimCapsuleLieDownHalfHeight": {
+      "offset": "0x2088",
+      "size": 4,
+      "type": "GPCharacter",
+      "validation": "current-build reflected metadata, not live pose/hitbox validation"
+    },
+    "GPCharacter.CustomAimCapsuleSwimHalfHeight": {
+      "offset": "0x208c",
+      "size": 4,
+      "type": "GPCharacter",
+      "validation": "current-build reflected metadata, not live pose/hitbox validation"
+    },
+    "GPCollisionManager.CapsuleComp": {
+      "offset": "0x0",
+      "size": 8,
+      "type": "PrimitiveComponent",
+      "validation": "current-build reflected metadata, not live pose/hitbox validation"
+    },
+    "GPCollisionManager.ProneComp": {
+      "offset": "0x8",
+      "size": 8,
+      "type": "PrimitiveComponent",
+      "validation": "current-build reflected metadata, not live pose/hitbox validation"
+    },
+    "GPCollisionManager.ActivateProneCollisionState": {
+      "offset": "0x10",
+      "size": 16,
+      "type": null,
+      "validation": "current-build reflected metadata, not live pose/hitbox validation"
+    },
+    "GPCollisionManager.ActivateCapsuleCollisionState": {
+      "offset": "0x20",
+      "size": 16,
+      "type": null,
+      "validation": "current-build reflected metadata, not live pose/hitbox validation"
+    },
+    "DFMPlayerCharacter.CharacterPhysicsCapsuleComponent": {
+      "offset": "0x3af8",
+      "size": 8,
+      "type": "PhysicsCapsuleComponent",
+      "validation": "current-build reflected metadata, not live pose/hitbox validation"
+    }
+  },
+  "root_vs_mesh_pairs": 30,
+  "maximum_center_delta_cm": 96.60826936137506,
+  "center_limit": "Snapshots are not atomic; delta does not prove a particular cause. Root capsule center and mesh center must not be treated as interchangeable.",
+  "collision_model_limits": [
+    "Movement collision, aim capsule and physics capsule are distinct fields. Their game roles cannot be confirmed from names alone.",
+    "ProneComp is declared PrimitiveComponent; do not assume it is CapsuleComponent.",
+    "Normal root capsule does not guarantee animated body bounds or posture correctness.",
+    "Saved captures do not contain the secondary component fields; live audit requires user authorization."
+  ],
+  "next_audit": "Use trace_external --collision 1 with the validated process arguments. This reports candidates and does not automatically select them for HUD."
+}

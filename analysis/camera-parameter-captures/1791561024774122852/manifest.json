@@ -1,0 +1,62 @@
+{
+  "pid": 10651,
+  "process_start": "2455946",
+  "process_stable": true,
+  "camera": "0x6d015a8010",
+  "pov": "0x6d015aad80",
+  "fields": {
+    "Location": {
+      "value": [
+        -69171.0,
+        10176.1689453125,
+        64.48870086669922
+      ],
+      "bytes_stable": true
+    },
+    "Rotation": {
+      "value": [
+        7.226018905639648,
+        -171.26718139648438,
+        0.5452377200126648
+      ],
+      "bytes_stable": true
+    },
+    "FOV": {
+      "value": 55.0,
+      "bytes_stable": true
+    },
+    "AspectRatio": {
+      "value": 1.7777780294418335,
+      "bytes_stable": true
+    },
+    "bConstrainAspectRatio": {
+      "value": false,
+      "bytes_stable": true
+    },
+    "ProjectionMode": {
+      "value": "00",
+      "bytes_stable": true
+    },
+    "OffCenterProjectionOffset": {
+      "value": [
+        0.0,
+        0.0
+      ],
+      "bytes_stable": true
+    }
+  },
+  "projection_inputs_stable": true,
+  "identity_stable": true,
+  "batch_intervals_ns": [
+    [
+      1791561024774396732,
+      1791561024903327602
+    ],
+    [
+      1791561024903733527,
+      1791561025039174895
+    ]
+  ],
+  "layout": "analysis/camera-layout-audits/1791560833671504661/manifest.json",
+  "scope": "Current lobby camera only; not proof of historical match projection settings."
+}

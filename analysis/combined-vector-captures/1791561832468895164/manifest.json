@@ -1,0 +1,5092 @@
+{
+  "pid": 10651,
+  "process_start": "2455946",
+  "world": "0x6d50345bc0",
+  "game_state_class": "?",
+  "records": "0x6e52fcc000",
+  "state": "0x7210d32000",
+  "key": "0x53d1d34b",
+  "count": 98,
+  "count_after": 98,
+  "header_stable": true,
+  "page_count": 157,
+  "batch_seconds": 0.3535676300016348,
+  "batch_started_ns": 1791561832469164393,
+  "batch_finished_ns": 1791561832822731192,
+  "total_seconds": 10.506782055002986,
+  "camera": {
+    "xyz": [
+      3164.73046875,
+      6770.990234375,
+      -392.6989440917969
+    ],
+    "handler": "0xffff",
+    "rotation": [
+      -7.301698684692383,
+      -33.393009185791016,
+      2.7679302547767293e-06
+    ],
+    "fov": 90.0,
+    "aspect": 1.3333300352096558,
+    "projection_parameters": {
+      "constrain_aspect_ratio": false,
+      "projection_mode_raw": 0,
+      "off_center_projection_offset": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "camera_bytes_stable": false,
+  "camera_projection_inputs_stable": false,
+  "camera_projection_layout": {
+    "pid": 10651,
+    "process_start": "2455946",
+    "base": "0x6fe7831000",
+    "process_stable": true,
+    "manager": "0x6d015a8010",
+    "cache_property": {
+      "property": 478400000800,
+      "offset": 11616,
+      "size": 2640
+    },
+    "cache_type_name": "CameraCacheEntry",
+    "pov_property": {
+      "property": 478411577472,
+      "offset": 16,
+      "size": 2624
+    },
+    "view_type_name": "MinimalViewInfo",
+    "fields": {
+      "Location": {
+        "property": 478411370784,
+        "offset": 0,
+        "size": 16
+      },
+      "Rotation": {
+        "property": 478411370944,
+        "offset": 16,
+        "size": 12
+      },
+      "FOV": {
+        "property": 478411252608,
+        "offset": 28,
+        "size": 4
+      },
+      "AspectRatio": {
+        "property": 478411253248,
+        "offset": 48,
+        "size": 4
+      },
+      "bConstrainAspectRatio": {
+        "property": 478411371104,
+        "offset": 52,
+        "size": 1
+      },
+      "ProjectionMode": {
+        "property": 478411371424,
+        "offset": 53,
+        "size": 1
+      },
+      "OffCenterProjectionOffset": {
+        "property": 478411144640,
+        "offset": 2544,
+        "size": 8
+      }
+    },
+    "constrain_aspect_bool": {
+      "byte_offset": 0,
+      "mask": 1,
+      "native": "0x6ff824c8fc",
+      "cases_passed": 256
+    },
+    "scope": "Current reflection layout and bool interpretation; actual historical viewport parameters are audited separately.",
+    "audit_source": "analysis/camera-layout-audits/1791560833671504661/manifest.json"
+  },
+  "screen_capture": null,
+  "players": [
+    {
+      "ps": "0x6df2d01c80",
+      "pawn": "0x6fab38c010",
+      "mesh": "0x6dcc924600",
+      "root": "0x6d95d42da0",
+      "self": true,
+      "team": 2,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            3161.577880859375,
+            6773.0673828125,
+            -432.3214111328125
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            3161.577880859375,
+            6773.0673828125,
+            -432.3214111328125
+          ],
+          "encoding": "plain",
+          "distance_m": 0.3980192521042033,
+          "extents": [
+            77.0,
+            77.0,
+            132.0
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            3161.577880859375,
+            6773.0673828125,
+            -432.3214111328125
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            3161.577880859375,
+            6773.0673828125,
+            -432.3214111328125
+          ],
+          "encoding": "plain",
+          "distance_m": 0.3980192521042033,
+          "extents": [
+            55.41175842285156,
+            55.41175842285156,
+            60.0
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            3161.577880859375,
+            6773.0673828125,
+            -432.3214111328125
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            3161.577880859375,
+            6773.0673828125,
+            -432.3214111328125
+          ],
+          "encoding": "plain",
+          "distance_m": 0.3980192521042033
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -62.478546142578125
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -62.478546142578125
+          ],
+          "encoding": "plain",
+          "distance_m": 74.81368404580672
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -33.393009185791016,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "0000008000000000421993be0135753f3f9945458aa8d3452429d8c30000803f0000803f0000803fffff000000000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6d95d42da0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -90.00018310546875,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 65,
+          "raw_transform_hex": "00000000000000001e6561bf8ec2f23e3f9945458aa8d3456566f7c30000803f0000803f0000803fffff000000000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 0,
+          "pointer": 484624609360,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 475002290432
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 484624609360,
+            "count": 80,
+            "capacity": 85,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 475002290432
+          },
+          {
+            "selector": 1,
+            "pointer": 475000139792,
+            "count": 80,
+            "capacity": 85,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 475002290432
+          }
+        ],
+        "captured_header": {
+          "selector": 0,
+          "pointer": 484624609360,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 475002290432
+        },
+        "mesh_identity": {
+          "index": 151967,
+          "class": 479200797824,
+          "entry": 474991929064,
+          "serial": 555641
+        },
+        "last_pose_tick": 744256,
+        "payload_available": true,
+        "captured_identity_matches": true,
+        "transforms_hex": "f20435bf0000000000000000f404353f0000000000000000000000000000803fffff7f3fffff7f3f0000000000000000150747bf350c02be3820c93df9ac1b3fd5d8823e00c024bcf9518d420000803fffff7f3fffff7f3f0000000000000000e40f66bf14e0f3bdbf39cb3d1613d23e3da59fbee40ad33fc86e9b420000803fffff7f3fffff7f3f000008000000000010bc78bf422e2cbd11ea133e97ed3a3e70d610c0b6e02f4127d5b1420000803fffff7f3fffff7f3f000000120000000067b17abfb96a67bd0ca6fb3db26b1a3e83762ac011d2be4128fbbb420000803fffff7f3fffff7f3f03000000000000005d2a183e61647f3d23db933d26fa7b3f3043ecc0a8b91a4216a1c7420000803fffff7f3fffff7f3f00110000000000001647013f7241e0beca1c823ec8ef323ff01ab8c1737e1042a0daca420000803fffff7f3feeff7f3f00000e0000000000e4d8fa3ea6a353bf12da8cbe1908eb3c022210c27b431a4242359c420000803fffff7f3ffeff7f3f00000c0000005046f325fb3e717156bf16d575be86f5023c5a7dd1c13b07594244a6a4420000803feeff7f3ffeff7f3fffff0002000000022424f63ea66c47bf2ce1cdbee24399bc5ba7e6c1944eab410886ef420000803fefff7f3fffff7f3f00000100000001059901ce3ecb7060bf556685be951723bd89d1acc10d35764220dea8420000803feeff7f3f0700803f000090070000500620aa583dd0df3e3eeb047bbf21ed003de0a281c1d0620742ef9d0243fcff7f3fe4ff7f3f1700803fefce6aad522a903cc6730f3e0c68283ee8586fbff315903e72d03ac1bd090842402703430500803fe8ff7f3f1600803f758865b3ac2bdd9976b9333ebd7a1b3e9f034fbf8c630a3f0cf40cc1f7d50e42a17304430500803fe8ff7f3f1500803f872894f415c4d131f1d884be5e40c83d49ce6bbf34e68bbe3d766ec1ea4d85427420ab420000803fcfff7f3f0500803f4d32c30c5a943a700000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f27243a9c43825bcf0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f95526f65249b48fb0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fcdac82cdebb53ba00000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f8964c56202496a200000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f29a1cbd32152bdd40000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f59274d70f0a469a80000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0d73e56ad071ad260000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f298a4249d9fafeef5e8de8ba947f6abfd6faacbe987a5d3e6c8164c157332442e24c06430900803fedff7f3f0800803f89288f8d1b7723553db62cbfb4f122bf7074b2bd6419ba3ea1f927c164842642749f04430900803fedff7f3f0800803f39ce19b9ecff6995c19b67bf929e4bbe3a64fc3dd148b63e2abd30c19baf1c4279da02430800803fefff7f3f0800803f9d73a5d39e93e9a30000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0545a2d4ffbfffff0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f5b6b116a9fe38c170000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f4f31c41080e192570000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fabaa86ed6a85ce647a777ebf7eea85bc146539bd02f2c83d5e3f8bc0b2723242aedcc8420000803fffff7f3fffff7f3f8908a48d521f776703236cbfa01f8d3ce82a503c0a70c53e2b7494c0c00e4e426582cb420000803fffff7f3fffff7f3fdd5205603fdee87d0c743fbe4ca6a43cc852f1bb156d7b3f7dcc82c0e7a36542c8fbe042efff7f3f1000803f0700803f698640fdf595c255b4a47cbf036de33c5a43993daaa70f3e786caabe980c1f423b5bc4420000803fffff7f3fffff7f3f25a1658d2768960fa8561fbf8486ca3d4417fd3ee545193fc9247641a8e51c42c467bf420000803fffff7f3fffff7f3f35444436e03ed2275eda583ce354d4bebef84b3f4eefe03ede16e441d3944f42021598420800803fffff7f3f0700803f9599d6566c255a4297c24039aa55e0bed7b6483f651be13ecfd0864100fa8142e4baa6420800803feeff7f3f0700803f8d31a4105ca094803f9fce3c2776e9be56fa433fd40ae83e6cddb1414dc61942a11af3420800803fefff7f3f0800803f1b45719c3e97cf957739893dc456fdbe4da6483f8510bd3ea89f364186108e42ecd1ad420800803feeff7f3f0700803f6986669de0605e989eea043e6cd978bf2662ff3d213c1a3ea92f0441464b4542067a04430600803ff1ff7f3f0900803f9d70e162d3aa1221e0e27cbc5d5b78bf3cd64f3e7306073eec4682400d4f4142affb05430e00803ff3ff7f3f0800803f1fc8a4119684488679b9a4be025a6cbffbdd4b3eaae2883d6c68213fe7894242a0e806430e00803ff3ff7f3f0800803f3b13a1baf077684d96805b3f0289d9bb38a2d73ef45b973e04913c40a3b994427919b5421000803feeff7f3f0f00803f6b6a4a34ecc9f3530000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fad4a686dab927ab60000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fab62c1a2d0e128220000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fbb20cdb01e99b96a0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f6379e5950a29e4ba0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0b29a4108cbc4bef0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f4d31c514bcc02f7e0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f5f988854bccc47470000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f8d88c5932c240bc99574983d48a005bf54d23d3f6875d43e2e08cb40ed105f42635f09430700803ff1ff7f3f0700803f0000400200004002348991bdab7107bf263a543f9fa02a3ef0a26840460c684221a00b430500803ff5ff7f3f0700803fef2818418dc8d606925f68be3997f6be4c45563fdb7501be5079403f184d6c42e6cb0b43f6ff7f3ff9ff7f3f0700803ff86e0d462963cbc50000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f35422e44294902b90000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fdd992e84a971e5a20000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f97644344abaaa82d0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803ff7fdfe850f1425eab4b924bec5bc123e3d393c3fa984243f516c1a41dff1304001928a420000803fffff7f3fffff7f3f6546f1848781c4d44d180fbfaf60f33e5831053f5cb5df3e02229040b5f021426d274e420000803fffff7f3fffff7f3fb89c2e4425e8299991ec98bdd4c8f23d559f353f2ed0303f0275984015ba1542acdd2f41efff7f3feeff7f3fffff7f3f0500324591086f61e0db98bc4030a03c67d7263f9b0a423fb33c09426ad6cb416078783fefff7f3fefff7f3f0000803fb9a93e448b086d9d5c4f3fbf18c3fe3eecc4aabeda3d93bec9a90ec1c71f5cc05d808a420000803fffff7f3fffff7f3fc01922852b54a1e23e504cbe2b08b43d7ed64abf20de11bf9cefa5c10f779d41f0f410420000803fffff7f3fffff7f3f597b1285370e9481152026bf5447863ef0320bbf1e1aedbe18c11bc1724a79c170f99941efff7f3feeff7f3fffff7f3f0000000000003e44e89d4bbf11081b3fe108a2bccf587ebc666211c248f60840381bbb3fefff7f3fefff7f3f0000803fafb5b9dd9e513e440000403400000000000000000000803f0000000000000000000000000000803fffff7f3fffff7f3faaaeb215fff7b284f800853e9bd7c1bd3af96b3f862e8b3e9d656fc1150d854214dbaa420000803fffff7f3fffff7f3fe75a7d3d57361000aefbcebe5660603f937e843e3d86193da41cadc1088e75427baba8420000803fffff7f3fffff7f3ff9808a627d67f9672b6f8c3dbf7dfebee932483feb47bd3e13f135411ee78d4262c7ad420000803fffff7f3fffff7f3f252c018001c000c00000403400000000000000000000803f0000000000000000000000000000803fffff7f3fffff7f3fad4852a2c4ecbcb10000403400000000000000000000803f0000000000000000000000000000803fffff7f3fffff7f3f0000e380150d19880000403400000000000000000000803f0000000000000000000000000000803fffff7f3fffff7f3f000000000000f2404e0a8dbd9870ea3de300363f6cc0303fadd1924093b11b42c08f3d410000803fffff7f3fffff7f3f0000f330c930f330106a263fe60e88be11fb0a3f0ec9eb3ec72320c1650963c1529b9e410000803fffff7f3fffff7f3f603002300a00e930e4d8fa3ea5a353bf16da8cbe0008eb3c56fe0fc2137c1a4243079c420000803fffff7f3ffeff7f3f01000000ea8cac3c4004473c7005d4beb8f94b3fc93ae13e187ee34141b24f42931298420800803fffff7f3f0700803f01000000000000005f31ff3d4c95a4bd45872f3f1771363f66b67d40c2f953428a34a040efff7f3fefff7f3fffff7f3fb1df9442000000004e945d3fd964c7be435c0b3e6766913ea64050c195dd9dc15e979b40efff7f3fefff7f3fffff7f3f000080bf000000006b0983be6849c43d7c0a6cbf005f8cbe198e6fc19d708442249eaa420000803fd0ff7f3f0500803fc072c4db6f000000",
+        "finite_fields": true,
+        "unit_quaternions": true,
+        "after_header": {
+          "selector": 0,
+          "pointer": 484624609360,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 475002290432
+        },
+        "dead_after": 0,
+        "identity_stable": true,
+        "component_input_changes": [
+          {
+            "component": "root",
+            "offset": "0x168",
+            "captured_hex": "3f9945458aa8d3452429d8c3ffff0000",
+            "after_hex": "0e3b49450a76d2453936d4c3ffff0000"
+          },
+          {
+            "component": "mesh",
+            "offset": "0x168",
+            "captured_hex": "000000000000000008ea79c2ffff0000",
+            "after_hex": "000000000000000068e677c2ffff0000"
+          }
+        ],
+        "component_inputs_stable": false,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": false,
+        "validity_checks": {
+          "epoch_stable": true,
+          "captured_identity": true,
+          "identity_stable": true,
+          "component_inputs_stable": false,
+          "component_flags_stable": true,
+          "header_discovered": true,
+          "header_unchanged": true,
+          "payload_available": true,
+          "no_master_pose": true,
+          "alive_before_and_after": true,
+          "finite_fields": true,
+          "unit_quaternions": true
+        },
+        "rejection_reasons": [
+          "component_inputs_stable"
+        ],
+        "unchecked_payload_checks": [],
+        "asset_map_reference": "0x6e9857c100",
+        "asset_map_valid_for_buffer": true
+      }
+    },
+    {
+      "ps": "0x6eb88ae390",
+      "pawn": "0x6f57ac4030",
+      "mesh": "0x6fb1015d40",
+      "root": "0x6e97888d40",
+      "self": false,
+      "team": 2,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -16811.208984375,
+            6701.8037109375,
+            -1835.023681640625
+          ],
+          "handler": "0x301100b",
+          "record": "0x6e52fd7a40",
+          "slot": 0,
+          "xyz": [
+            -21175.09375,
+            -24686.0,
+            1691.490234375
+          ],
+          "vector_pointer_cache": "0x6fb1015e88",
+          "encoding": "protected",
+          "distance_m": 398.285465732413,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -16907.208984375,
+            6797.8037109375,
+            -1931.023681640625
+          ],
+          "handler": "0x301001f",
+          "record": "0x6e52fd0a80",
+          "slot": 7,
+          "xyz": [
+            -21175.09375,
+            -24686.0,
+            1691.490234375
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 398.285465732413,
+          "extents": [
+            47.035037994384766,
+            47.035037994384766,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -16907.208984375,
+            6797.8037109375,
+            -1931.023681640625
+          ],
+          "handler": "0x301001e",
+          "record": "0x6e52fd1d20",
+          "slot": 5,
+          "xyz": [
+            -21175.09375,
+            -24686.0,
+            1691.490234375
+          ],
+          "vector_pointer_cache": "0x6e97888ea8",
+          "encoding": "protected",
+          "distance_m": 398.285465732413
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 74.8036709902283
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -78.74996948242188,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "000000000000000000000000000000005bde82c62e8ecf45c2dfddc40000803f0000803f0000803f0210010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6e97888d40",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -90.00019073486328,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "000000000000000000000000000000005bde82c62e8ecf45c2dfddc40000803f0000803f0000803f0a10010300000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 472712999984
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 472712999984
+          },
+          {
+            "selector": 1,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 472712999984
+          }
+        ],
+        "captured_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 472712999984
+        },
+        "mesh_identity": {
+          "index": 270455,
+          "class": 479200797824,
+          "entry": 472668375848,
+          "serial": 557634
+        },
+        "last_pose_tick": 736473,
+        "payload_available": false,
+        "captured_identity_matches": false,
+        "after_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 472712999984
+        },
+        "dead_after": 0,
+        "identity_stable": false,
+        "component_input_changes": [],
+        "component_inputs_stable": true,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": false,
+        "validity_checks": {
+          "epoch_stable": true,
+          "captured_identity": false,
+          "identity_stable": false,
+          "component_inputs_stable": true,
+          "component_flags_stable": true,
+          "header_discovered": true,
+          "header_unchanged": true,
+          "payload_available": false,
+          "no_master_pose": true,
+          "alive_before_and_after": true
+        },
+        "rejection_reasons": [
+          "captured_identity",
+          "identity_stable",
+          "payload_available"
+        ],
+        "unchecked_payload_checks": [
+          "finite_fields",
+          "unit_quaternions"
+        ],
+        "asset_map_reference": "0x6e0fe3f430",
+        "asset_map_valid_for_buffer": false
+      }
+    },
+    {
+      "ps": "0x6e0d28e390",
+      "pawn": "0x6d1c958020",
+      "mesh": "0x6fb1011780",
+      "root": "0x6db6c260a0",
+      "self": false,
+      "team": 2,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            3123.984619140625,
+            6814.259765625,
+            -1306.899658203125
+          ],
+          "handler": "0x3011011",
+          "record": "0x6e52fda8d0",
+          "slot": 7,
+          "xyz": [
+            -22825.90625,
+            -6933.8125,
+            -170.009765625
+          ],
+          "vector_pointer_cache": "0x6fb10118c8",
+          "encoding": "protected",
+          "distance_m": 293.8340357249947,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            2959.889892578125,
+            6972.189453125,
+            -1455.602783203125
+          ],
+          "handler": "0x301002e",
+          "record": "0x6e52fd2fc0",
+          "slot": 3,
+          "xyz": [
+            -22825.90625,
+            -6933.8125,
+            -170.009765625
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 293.8340357249947,
+          "extents": [
+            49.20724105834961,
+            49.20724105834961,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            2956.383544921875,
+            6975.1826171875,
+            -1457.827880859375
+          ],
+          "handler": "0x301002d",
+          "record": "0x6e52fd4bb0",
+          "slot": 1,
+          "xyz": [
+            -22825.90625,
+            -6933.8125,
+            -170.009765625
+          ],
+          "vector_pointer_cache": "0x6db6c26208",
+          "encoding": "protected",
+          "distance_m": 293.8340357249947
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 74.8036709902283
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -164.53123474121094,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "00000000000000000000000000000000a308354536d8db457eb5bdc40000803f0000803f0000803f0310010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6db6c260a0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -90.00016784667969,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 33,
+          "raw_transform_hex": "00000000000000000000000000000000262a3645c678db45fe5ebdc40000803f0000803f0000803f1010010300000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 1,
+          "pointer": 468205854880,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 472712957648
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 479615815792,
+            "count": 80,
+            "capacity": 85,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 472712957648
+          },
+          {
+            "selector": 1,
+            "pointer": 468205854880,
+            "count": 80,
+            "capacity": 85,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 472712957648
+          }
+        ],
+        "captured_header": {
+          "selector": 1,
+          "pointer": 468205854880,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 472712957648
+        },
+        "mesh_identity": {
+          "index": 139071,
+          "class": 479200797824,
+          "entry": 474991619560,
+          "serial": 558286
+        },
+        "last_pose_tick": 744229,
+        "payload_available": true,
+        "captured_identity_matches": true,
+        "transforms_hex": "f20435bf0000000000000000f404353f0000000000000000000000000000803fffff7f3fffff7f3f00000000ff00000094d43cbf149a423ca575663d4a3a2c3f0e2d46bf003c53bf98c9ad420000803fffff7f3fffff7f3f00000000ff000000858f41bf335facbdaa9cc83c4608263fd037c5bda06a0dbe4d33bc420000803fffff7f3fffff7f3f00000000ff000000526d52bfb7280cbe2a4a4c3d13f20c3fbb38c0bfc49efe3fbc2fd9420000803fffff7f3fffff7f3f00000000ff00000094775abf338e2fbe8ba80c3e3209f23ee8ac76c0f956dd40e699f2420000803fffff7f3fffff7f3f01000000ff00000091c1ee3e6ff4093eec6b523eda8c593fface1cc16c325641076707430000803fffff7f3fffff7f3f01000000ff0000001237f53edc9d04bf6f5b993e996d243f3556afc18bf6db40b4e707430000803fffff7f3fffff7f3f01000000ff000000ee63003f972252bf7d7180bee718debdb061eec194af2141789bda420000803fffff7f3fffff7f3f01000000ff0000003560f93e9fa957bf9f2727be867b26be946ca6c111b8c5415befea420000803fffff7f3fffff7f3f02000000ff0000005099b23e130f6fbf15eba0bd6665333c6efdafc1ec9e0d429e2ccb420000803ffeff7f3ffeff7f3f02000000ff0000005f3a433f9ec523bf8b2e08bd1ce2b7bd627a96c170dfdf4123d7ee420000803fffff7f3fffff7f3f02000000ff000000c45a5c3ef4e239bf40cb25bfd68babbd841e12c1d8f43c42a652d1420000803ffeff7f3ffeff7f3f02000000ff000000f173313dd8f442bfc7c722bf8d00f13d442ea2c0ccc240423d03d5420000803ffeff7f3ffeff7f3f03000000ff00000009560ebe403e3abf8cc51dbfb1fc883ef485cebfacfc4342f71fd4420000803ffeff7f3ffeff7f3f03000000ff000000402df73ba8723e3c85d297bd5d457fbf286a94c14a3113423b10f4420000803fffff7f3fffff7f3f03000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f03000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f04000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f04000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f04000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f04000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f05000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f05000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f05000000ff000000ce81183ed8fb79bf53d6b13d5871043ec8fd63c0533a4942dacbc6420000803ffeff7f3ffeff7f3f05000000ff0000005c7408bf969555bf3212103e1e6a49bb40bb983ede9e4d420f79c4420000803ffeff7f3ffeff7f3f06000000ff000000c0b370bf988394bee255f73dd35f06be629ace3fa2ab42425676c5420000803ffeff7f3ffeff7f3f06000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f06000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f06000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f07000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f07000000ff000000260870bfd626a9bd9403ea3ce847ac3e99fbf0c099818f4168bf0b430000803fffff7f3fffff7f3f07000000ff00000088eb63bf173473bd326a403dcee4e53eabd307c16176ba41733010430000803fffff7f3fffff7f3f07000000ff000000485beebd5837d33b9c7e9a3d3c857d3f110c0cc1d4dedc4136ab1b430000803fffff7f3fffff7f3f08000000ff000000e96453bf0edc8ebe76f2253e07dbec3ede154cc01dd583417adf06430000803fffff7f3fffff7f3f08000000ff0000007da7f7be250a92be0faf263f11b8023f5b2ff640ac43c74154bb06430000803fffff7f3fffff7f3f08000000ff000000dfae81bc758b07bfba934f3f09d77e3e03f2e840f5d04c42e8a4fa420000803fffff7f3fffff7f3f08000000ff0000000883e63d200541bd68b8773fac17623e58b815c14ec36c4265d701430000803fffff7f3fffff7f3f09000000ff000000f78e1fbe6a5eee3d0fc65d3f4192eb3ec2cec24184fb28423d21c5420000803ffeff7f3ffeff7f3f09000000ff0000000030773de291723e7ac3583fdceff13ede0d52c149b273424af502430000803fffff7f3fffff7f3f09000000ff0000001d2023bfe68f0ebfdd9cda3eb825a33ea0c096411c4b5f426f17bf420000803ffeff7f3ffeff7f3f09000000ff0000004c833fbffed8b4be66cbff3e3086833eb45c9741903c7142ba6bbd420000803ffeff7f3ffeff7f3f0a000000ff000000764d58bf006e6a3a149f063f3c32c8bdd4cd9e4179797c42b768b9420000803ffeff7f3ffeff7f3f0a000000ff000000fb44123ffde2ab3e40a01d3d70763f3f44b89bc1c3b0884235dc03430000803fffff7f3fffff7f3f0a000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0a000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0b000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0b000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0b000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0b000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f01000000ff0000001b55d0bdc779873e86c54e3f1358043fcb4cc9416ff265427f00b5420000803ffeff7f3ffeff7f3f01000000ff000000eda40e3e2b9d723efccd723f6b8f21bec241ba4161f87242225bb1420000803ffeff7f3ffeff7f3f02000000ff000000a632843e54e8163e361c453faf8910bfb8e3a3410f127042dc7ab3420000803ffeff7f3ffeff7f3f02000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f03000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f03000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f04000000ff0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f04000000ff000000f820d6be26ebfd3eb0fce43e21a01d3fff0d0d418c45c8be8e01a9420000803fffff7f3fffff7f3f05000000ff0000006e011cbf4f59473f981c793d717a0b3e93185541e3cca740d87e2c420000803fffff7f3fffff7f3f05000000ff0000002d2511bfbd86133ff81fa63e9270fb3e66fd8b4039a002c25758fb410000803fffff7f3fffff7f3f06000000ff0000008092e8be21b30a3f4121073f9df6f03e60dba03ee2636ec161b925420000803ffeff7f3ffeff7f3f06000000ff000000bf1934bf483c043f2d50d6bed48b80be341b2ac11edec3bfb6e1ac420000803fffff7f3fffff7f3f07000000ff000000505ff3bea050be3ec89a2abfeb35e0be685677c19ee1a04100114b420000803fffff7f3fffff7f3f07000000ff000000c21a45bf64741a3f92ef27bea2a702bed8960cc16bf02c41f4f93b410000803fffff7f3fffff7f3f08000000ff0000007bf946bfd394203f51ff96bc23f13abdc8fa68c1f4fcda40a8ac973f0000803ffeff7f3ffeff7f3f08000000ff0000000000403400000000000000000000803f0000000000000000000000000000803fffff7f3fffff7f3f09000000ff00000041bd5cbb615388bc7c3a973d9c437f3fba4488c136761042438efa420000803fffff7f3fffff7f3f09000000ff0000006a2043bf3ea9233fc953053d4222c53dae6f89c17cd6d8413b16f5420000803fffff7f3fffff7f3f0a000000ff00000098a2633dd54d6b3e2ee1583fe39bf33ea0606ec1b91f6f42bdfb04430000803fffff7f3fffff7f3f0a000000ff0000000000403400000000000000000000803f0000000000000000000000000000803fffff7f3fffff7f3f0b000000ff0000000000403400000000000000000000803f0000000000000000000000000000803fffff7f3fffff7f3f0b000000ff0000000000403400000000000000000000803f0000000000000000000000000000803fffff7f3fffff7f3f10000000100000003d6711bf33f9113f008ba53e60d4fe3e995d95400fc0fec13043f9410000803fffff7f3fffff7f3f48000000100000003cea443f3c871abfbdec283eed8b043e863f0cc1bbea3c4174423f410000803fffff7f3fffff7f3f0000000000000000a23c003f491252bfae0b81be2802e2bd1ba2ebc1649e20419984dc420000803fffff7f3fffff7f3f0000000000000000feb243bcdfd907bf96984f3fe8307c3e034de340c24e4842f583fb420000803fffff7f3fffff7f3f0000000000000000869af6be1c14dc3e7cebdf3e2347203f337ecd4004ee20c238038a410000803fffff7f3fffff7f3f00000000000000001662493fb9691dbff8e1abbc9c8752bd627a40c1ae67c141e47032400000803fffff7f3fffff7f3f0000000000000000449cf1bbcee747bc78b6993d78407f3f033f8fc130bb1a42da46fa420000803fffff7f3fffff7f3f0000000000000000",
+        "finite_fields": true,
+        "unit_quaternions": true,
+        "after_header": {
+          "selector": 1,
+          "pointer": 468205854880,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 472712957648
+        },
+        "dead_after": 0,
+        "identity_stable": true,
+        "component_input_changes": [
+          {
+            "component": "root",
+            "offset": "0x168",
+            "captured_hex": "23c6384576f9d9457e3ab6c42d000103",
+            "after_hex": "15ab3c45d4b0d8459922b5c42d000103"
+          },
+          {
+            "component": "root",
+            "offset": "0x178",
+            "captured_hex": "00000000ff8724c300000000",
+            "after_hex": "00000000fdef25c300000000"
+          }
+        ],
+        "component_inputs_stable": false,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": false,
+        "validity_checks": {
+          "epoch_stable": true,
+          "captured_identity": true,
+          "identity_stable": true,
+          "component_inputs_stable": false,
+          "component_flags_stable": true,
+          "header_discovered": true,
+          "header_unchanged": true,
+          "payload_available": true,
+          "no_master_pose": true,
+          "alive_before_and_after": true,
+          "finite_fields": true,
+          "unit_quaternions": true
+        },
+        "rejection_reasons": [
+          "component_inputs_stable"
+        ],
+        "unchecked_payload_checks": [],
+        "asset_map_reference": "0x6e0fe34ed0",
+        "asset_map_valid_for_buffer": true
+      }
+    },
+    {
+      "ps": "0x6d58005560",
+      "pawn": "0x6ce65c4030",
+      "mesh": "0x6ee934ba40",
+      "root": "0x6ef40f1a80",
+      "self": false,
+      "team": 4,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            2816.08837890625,
+            7128.32568359375,
+            -1630.195556640625
+          ],
+          "handler": "0x3011008",
+          "record": "0x6e52ff7a70",
+          "slot": 4,
+          "xyz": [
+            14025.40625,
+            -9032.875,
+            -193.310546875
+          ],
+          "vector_pointer_cache": "0x6ee934bb88",
+          "encoding": "protected",
+          "distance_m": 191.76970316102117,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            3136.08837890625,
+            6808.32568359375,
+            -1310.195556640625
+          ],
+          "handler": "0x3010001",
+          "record": "0x6e52ff5530",
+          "slot": 7,
+          "xyz": [
+            14025.40625,
+            -9032.875,
+            -193.310546875
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 191.76970316102117,
+          "extents": [
+            51.124576568603516,
+            51.124576568603516,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            3134.581787109375,
+            6809.31884765625,
+            -1310.420654296875
+          ],
+          "handler": "0x3010000",
+          "record": "0x6e52ff67d0",
+          "slot": 3,
+          "xyz": [
+            14025.40625,
+            -9032.875,
+            -193.310546875
+          ],
+          "vector_pointer_cache": "0x6ef40f1be8",
+          "encoding": "protected",
+          "distance_m": 191.76970316102117
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 74.8036709902283
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -70.31250762939453,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "00000000000000000000000000000000cf493f454d1ad745760cadc40000803f0000803f0000803f0610010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6ef40f1a80",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -90.00018310546875,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 33,
+          "raw_transform_hex": "00000000000000000000000000000000cf493f454d1ad745760cadc40000803f0000803f0000803f0710010300000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 0,
+          "pointer": 472812429536,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 472733413952
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 472812429536,
+            "count": 80,
+            "capacity": 85,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 472733413952
+          },
+          {
+            "selector": 1,
+            "pointer": 472812482576,
+            "count": 80,
+            "capacity": 85,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 472733413952
+          }
+        ],
+        "captured_header": {
+          "selector": 0,
+          "pointer": 472812429536,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 472733413952
+        },
+        "mesh_identity": {
+          "index": 129849,
+          "class": 479200797824,
+          "entry": 478866738520,
+          "serial": 601042
+        },
+        "last_pose_tick": 744226,
+        "payload_available": true,
+        "captured_identity_matches": true,
+        "transforms_hex": "f20435bf0000000000000000f604353f0000000000000000000000000000803ffeff7f3ffeff7f3f0000803f000000001f5e39bf0c201a3dc60365bd11b82f3ff0497cc0008a243f9f1aa9420000803ffeff7f3ffeff7f3f0000803f0000000016d54dbf42e43dbd9663863d58d1163f085383c03056853fbd9eb7420000803ffeff7f3ffeff7f3f000000000000803faeda5bbf8dda0cbe01ce1d3efc07f03e780582c04455af4061aed3420000803ffeff7f3ffeff7f3f000000000000803f71e063bff46100be81ae0b3e5a27d53e03a3aac00f504b41cc20eb420000803ffeff7f3ffeff7f3f000000000000803fa1f9cf3ec9b72e3e0943353e6e4d613f2c4f28c12e7aac4136a202430000803ffeff7f3ffeff7f3f000000000000803f1e4cbc3e5a56fabd343dbd3ebf31583f901dc4c1084866410b2005430000803ffeff7f3ffeff7f3f000000000000803fb051f93ecff151bf154b33bef21f7a3ee2d62cc280e20e3ef06bf0420000803ffeff7f3f0700803f000000000000803f7458083f5c9156bf04b0333d8a7ddf3d9af30dc2c18487419aade7420000803feeff7f3f0700803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f89310d3f48304ebf00c8433e344cd23d17defec15873c64192dfe3420000803feeff7f3f0f00803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f1c90933e50e4673c7cfc4f3e2b886fbf74e6d9c1a0140b42d7bdde420000803fcdff7f3f0e00803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f6c4774bf0a3a263cfabd343dc662973e5cb7fac078f3d341034406430000803ffeff7f3ffeff7f3f000000000000803fdcf854bfcf848a3b49faa7bde17c0c3ff794f0c02046014250320a430000803ffeff7f3ffeff7f3f000000000000803f0ff87abaee5a87bd53b447bd92227f3f7a150fc137cd0742ec431643f0ff7f3f1000803f0700803f000000000000803fffc064bfdfb08dbd5ec4683ec703c33e26096dc0a431c041d49e01430000803ffeff7f3ffeff7f3f000000000000803fe7f925bfc8bce43da299313f440c963ee8b126419afee5410afcf7420000803ffeff7f3ffeff7f3f000000000000803f2fc0be3d52be15befa2b723fe2448c3e0e702a4116500f423e3ec4420800803ffeff7f3f0700803f000000000000803f1ece7d3e36e9fb3e7242523f4095173efc4fa5c0a6a23442edfbcd420800803feeff7f3f0700803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f984d443e83c64c3f327dce3e2a48cd3eba0248c1f91a464293ccd2420800803feeff7f3f0700803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f58bec83d6474fe3e6c3ffdbee6ca343fc0198ac1787365425be2cb421000803feeff7f3f0f00803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fcd94b133d081063f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f4feeb4bdf85f6a330000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f005eb433589b053f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f44a00f3471732b3f5b030fbf991b243f4bf59f3ed2d7d83ebc43b940888038bf5fd0a6420000803ffeff7f3ffeff7f3f7b4da0bea153a634316920bf9a0a3d3fbeed053ebb21593e3440a140f8109ec1d6e437420000803ffeff7f3ffeff7f3f000000000100000028fcdbbead7d0a3ff6a7e33ef0f2113f0024d9bcab675cc26d1dd441f0ff7f3feeff7f3ffeff7f3f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000007d332ebf292e2a3f594a8dbefabb0cbe39c159c1b0a3ec3f87aaa5420000803ffeff7f3ffeff7f3f0000000000000000aa88cdbec567ef3e17611dbf1004fcbe2df340c1da79124244476d420000803ffeff7f3ffeff7f3f0000008000000000c5493bbf31422a3fba97fcbde837aebd5aa086c0b2bcda41b620a441f0ff7f3feeff7f3ffeff7f3f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000903400000000000000000000803f0000000000000000000000000000803ffeff7f3ffeff7f3f0000000000000000716994be56f244bc88db19be92f3713fb686cfc1d1c3ff412a7dde420000803ffeff7f3ffeff7f3f00000000000000002d5718bf8e4d463f19213ebe025bdabd287aebc1f6b7ac419ddfe3420800803ffeff7f3ffeff7f3f000000000000000048a1213eda1d513f25cfd63e04e1b93e783d56c111364042e854d2420000803ffeff7f3ffeff7f3f0000000000000000000090b40000000000000000000080bf0000000000000000000000000000803ffeff7f3ffeff7f3f00000000000000000000903400000000000000000000803f00000000d21d62aa0efec8340000803ffeff7f3ffeff7f3f10cccf786f0000000000903400000000000000000000803f0000000000000000000000000000803ffeff7f3ffeff7f3f80d7477e6f00000024d2e6bef857093ffadaed3e0e990a3fbaecaa40a45e56c21bcaeb410000803ffeff7f3ffeff7f3f80d7477e6f0000009e273a3f5ad52cbfcfd1cf3d73af923dfce294bf5b31f14121faac410000803ffeff7f3ffeff7f3f404587786f0000004adffa3e71d350bfe9a42abefb43843edcbd2cc20058623ca327f0420000803ffeff7f3f0700803f80d7477e6f00000090b5dd3d34441abe5fc3713f4e038b3e589e27415e900f425d0ec4420800803ffeff7f3f0700803f40075a866f000000cc8bb1beae7bd43e0cf00b3fb0a9233f58059c40028f62c2faad5941f0ff7f3feeff7f3f0700803fc0a4fbdb6f000000478b3b3f19f22cbf089d47bdc0f489bdde7a0dc0522e31421af96e41f0ff7f3feeff7f3ffeff7f3f404287786f00000065df92bea2c15dbcd2814fbe8faa6f3f9329dac192bf0942da2bde420000803fccff7f3f0e00803fc072c4db6f000000",
+        "finite_fields": true,
+        "unit_quaternions": true,
+        "after_header": {
+          "selector": 0,
+          "pointer": 472812429536,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 472733413952
+        },
+        "dead_after": 0,
+        "identity_stable": true,
+        "component_input_changes": [],
+        "component_inputs_stable": true,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": true,
+        "validity_checks": {
+          "epoch_stable": true,
+          "captured_identity": true,
+          "identity_stable": true,
+          "component_inputs_stable": true,
+          "component_flags_stable": true,
+          "header_discovered": true,
+          "header_unchanged": true,
+          "payload_available": true,
+          "no_master_pose": true,
+          "alive_before_and_after": true,
+          "finite_fields": true,
+          "unit_quaternions": true
+        },
+        "rejection_reasons": [],
+        "unchecked_payload_checks": [],
+        "asset_map_reference": "0x6e111b7240",
+        "asset_map_valid_for_buffer": true
+      }
+    },
+    {
+      "ps": "0x6d4bb01c80",
+      "pawn": "0x6cd83bc010",
+      "mesh": "0x6df50a5d40",
+      "root": "0x6e14d09a00",
+      "self": false,
+      "team": 4,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            2965.889892578125,
+            6966.189453125,
+            -1449.602783203125
+          ],
+          "handler": "0x301102b",
+          "record": "0x6e53002b60",
+          "slot": 1,
+          "xyz": [
+            29030.8125,
+            5995.125,
+            1406.8896484375
+          ],
+          "vector_pointer_cache": "0x6df50a5e88",
+          "encoding": "protected",
+          "distance_m": 259.40213677061865,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            2843.889892578125,
+            7088.189453125,
+            -1571.602783203125
+          ],
+          "handler": "0x301003d",
+          "record": "0x6e53000620",
+          "slot": 4,
+          "xyz": [
+            29030.8125,
+            5995.125,
+            1406.8896484375
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 259.40213677061865,
+          "extents": [
+            52.76483917236328,
+            52.76483917236328,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            2842.383544921875,
+            7089.1826171875,
+            -1571.827880859375
+          ],
+          "handler": "0x301003c",
+          "record": "0x6e530018c0",
+          "slot": 0,
+          "xyz": [
+            29030.8125,
+            5995.125,
+            1406.8896484375
+          ],
+          "vector_pointer_cache": "0x6e14d09b68",
+          "encoding": "protected",
+          "distance_m": 259.40213677061865
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 74.8036709902283
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -113.90621185302734,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "00000000000000000000000000000000a3062d4536d9df457eb9cdc40000803f0000803f0000803f2910010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6e14d09a00",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -90.00018310546875,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 33,
+          "raw_transform_hex": "00000000000000000000000000000000a3062d4536d9df457eb9cdc40000803f0000803f0000803f2a10010300000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 1,
+          "pointer": 475909025936,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 472712999984
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 474999132272,
+            "count": 80,
+            "capacity": 85,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 472712999984
+          },
+          {
+            "selector": 1,
+            "pointer": 475909025936,
+            "count": 80,
+            "capacity": 85,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 472712999984
+          }
+        ],
+        "captured_header": {
+          "selector": 1,
+          "pointer": 475909025936,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 472712999984
+        },
+        "mesh_identity": {
+          "index": 217186,
+          "class": 479200797824,
+          "entry": 474194282800,
+          "serial": 602203
+        },
+        "last_pose_tick": 744228,
+        "payload_available": true,
+        "captured_identity_matches": true,
+        "transforms_hex": "f10435bf0000000000000000f504353f0000000000000000000000000000803ffeff7f3ffeff7f3f000000800000803f596142bf8fcfc3bc5b7aff3c4b49263fab569cbf00df6c3fc0f8ad420000803ffeff7f3ffeff7f3f0000000000000000a3e342bfbe548cbbce1ed53c78db253f396a98bf805903405e56bc420000803ffeff7f3ffeff7f3f2f0052006f007500db1d52bfc2f3adbcfcac713df65b113fc8664abff03c8d404c60d9420000803ffeff7f3ffeff7f3fbdf90ebc81fd7f3fe57959bf118b4dbd3c7b0a3ee1e8013f8726b1be050515417a3af3420000803ffeff7f3ffeff7f3f0000000000000000840d023fb2dcc13dfc24d23dd196593f6ac340c09a458241be7508430000803ffeff7f3ffeff7f3f000000400000803ff22cec3e5e6d07bfae915e3eaba62d3f247d92c1409d3f41955c09430000803ffeff7f3fedff7f3f0000000000000000608ad73e0b335bbf1c2f90bea7fdcfbd822bdcc1b8078a414375e1420000803ffeff7f3ffdff7f3f5f0067007a002e00a747ce3ea8f662bfdec027bef45621be485e7ac12ceaee41c913f1420000803fedff7f3ffdff7f3fbdf90e3c81fd7f3fe106d23e17275fbfff6e5dbe0a4f22beda09b2c1caf3bb41aaace3420000803fedff7f3ffdff7f3f1022c96d6e000000ad85343f85f133bf908a12bdce0ab0bd9a6322c138d80e42bea0f842f0ff7f3fedff7f3f0600803f000000c00000803f27adcf3ec468c6bef3e04abf4406753ebbe829c16e091542467cfc42ecff7f3fe3ff7f3f1600803f0000000000000000d188ac3efee0ecbe61ef32bf9087db3e1e8401c1eaac2142245b0043f6ff7f3febff7f3f1600803fc0d02a746d000000be48df3dc1c307bfd282f4bed123313f9496d5c063c12e4284a30043f6ff7f3febff7f3f1500803f000000000000803f5210c03b7e595fba6d592a3c4ffb7fbf5e9105c15d5d3142ebdcfd42f0ff7f3fceff7f3f0400803f01000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000800000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f50adfe6c6d0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f03000018000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000800000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00010000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fa0d835976e000000ea05d33e94da66bf38a6ab3c7284033e6bb745c14ec13442fcdff8420100803febff7f3f0700803f000000000000803ffb904abe73c979bf2d4f973dcc6e6d3de77c1bc1e20541429ec9f6420200803fe9ff7f3f0700803f66af0100000000000c2b27bf395940bf0ed6bf3de32487bc8800ddc0851c3c42e04df6420200803fe9ff7f3f0700803f000060c00000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f4072aabb6f0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000005b9470bfd314babc5fdfb63cbf40ae3eae37323f3869a041128f0c430000803ffeff7f3ffeff7f3f000000800000803ff52064bfb2aa393bc03b32bbfd4fe83e2b21003f8ec9cb411d0911430000803ffeff7f3ffeff7f3f00c8f90770000000e434e7bdd43639ba1c2c7dbb865c7e3fd78c083f4ca0ed41668b1c43efff7f3f1000803f0700803f606a6c0e6e00000074ba55bf16ce19beb9511b3e69e2013ffc0c8040864c8f41b42607430000803ffeff7f3ffeff7f3f000000008be97f3fdf88e2beed3096bef795223f5ba40f3f79c3934193d7c241ad8b05430000803ffeff7f3ffeff7f3f0000000000000000b429aabdb5b106bf4a20453fc3cdb33e7b75974151ca49421bb1fe420800803ffeff7f3f0700803f000000800000803f949add3d38206cbdce846e3f130aaf3e38319c40e68979429aef03430800803fedff7f3f0700803f04000000080000007b930a3dfe629fbe1efd633f41e4a83e94af4341261964428400ff420800803fedff7f3f0700803fc052f8b76f000000d468b23d421f703ee4fc4c3f70560b3f40eadabfb0bf8742f53006430800803fedff7f3f0700803f000000000000803fe08e9cbdbd8c3cbfc0350c3f5b6ec73ebe9014c0c2098d42698107430600803fefff7f3f0800803f00e0143f0000103cfd9a37becb8a2cbf4788223fb331aa3e38a5adc073f8914275c309430e00803ff1ff7f3f0700803f000000800000803ffa21e0bead3a20bf2be7243fa45f283d92a4fec0b2c49642468e0a430e00803ff1ff7f3f0700803f0000b04100000000544c193f56fb933eaf7305bd02073f3f48c1d3c0209a9842bf2a07431000803fedff7f3f0f00803f390044005f0067000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000000055cf7d3f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f20d714066f0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000040c00000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f408d14066f0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f5f00530074006f000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fa09f14066f0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000800000803f801ae1bc4b34e63e0b88373fc636083f9048a3c0dc129a42482703430700803fefff7f3f0600803f706c14066f000000f040313ed797d03ebe325f3f048e563ee3bbddc02d3da042f10001430500803ff3ff7f3f0600803fb0172a746d00000021c1c43ef46d7e3eb9fd593f7c0683becec918c1bb5aa342c66d0143f6ff7f3ff7ff7f3f0600803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f30bbcd6e710000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000800000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f5047cd6e710000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fc052ab126e000000346a4dbe2f62d53eb85c133f7fa02c3f577e0841eb36ba3f74d1aa420000803ffeff7f3ffeff7f3f60facd6e71000000de2dbbbe58f5193f8ac7f93ebe32043fab040141a1dbd741e83950420000803ffeff7f3ffeff7f3fe041cd6e71000000809353bb2b9e9b3dc01c103f9caf523f0092d0bc1140ed41bcbe4441efff7f3fedff7f3ffeff7f3fc0d6cd6e7100000001f805bd343e5a3dc5cd123f141d513f34e95a40eeafee40b0e11b40efff7f3fedff7f3ffeff7f3f5008cd6e71000000aff31bbf5e99d13ead24f8be0aa0f3be91c52fc1a09848bde474ab420000803ffeff7f3ffeff7f3f10decd6e71000000f72827bebef96d3c5ad542bf35ac20bfe02999c1fbbdb93f053632420000803ffeff7f3ffeff7f3f10d8cd6e71000000081af7be59c3a73e6ad61dbf385c07bfa8344bc102bf14c2f2910642efff7f3fedff7f3ffeff7f3f70f0cd6e71000000262b3abf18980b3f5e2582be8330a9be83fc8cc1d62d25c1dc75e440efff7f3fedff7f3ffeff7f3ff013cd6e710000000000903400000000000000000000803f0000000000000000000000000000803ffeff7f3ffeff7f3ff0b2cd6e710000001fd409bcaf9181b93d7832bcccf97f3f203605c1097e2c423344fe420000803ffeff7f3ffeff7f3f80fecd6e71000000ff7f34bfd007343f15e2073d9fecad3dde9620c1cff908427705f9420000803ffeff7f3ffeff7f3f10bacd6e71000000adb1af3d6784713eba394d3febe30a3f3c21febf8a698442767c06430000803ffeff7f3ffeff7f3fc0d0648e6e0000000000903400000000000000000000803f0000000000000000000000000000803ffeff7f3ffeff7f3fb011cd6e710000000000903400000000000000000000803f0000000000000000000000000000803ffeff7f3ffeff7f3f40d2cd6e710000000000903400000000000000000000803f0000000000000000000000000000803ffeff7f3ffeff7f3f1006cd6e710000001d9082bcf5d6b63d9dde0f3fe478523fe9246bbefc21f3414ef148410000803ffeff7f3ffeff7f3fc0bbcd6e710000003382f93e8800aabe25ee1c3f649c063fb7594bc1b01512c20f7707420000803ffeff7f3ffeff7f3f80a4cd6e71000000b208d83ec3485bbfa1738fbea618cabdff9cdbc18a848a41ac48e1420000803ffeff7f3ffdff7f3fe00bcd6e710000003558a6bdd8e906bf8e2d453f1a24b33ec0e99541b05c494247d9fe420800803ffeff7f3f0700803ff097cd6e71000000fcdebf3d50d350bd05f60e3fbc99523f0384a240005b304222eae240efff7f3feeff7f3ffeff7f3fa0a2cd6e7100000030571a3f97aeddbe08fcff3efd72e43e5bb148c19d1433c274639e41efff7f3feeff7f3ffeff7f3fb005cd6e71000000f7efc3bb3e06db3af7b236bca9fa7f3f4fae05c1ac3331421eb2fd42f0ff7f3fd0ff7f3f0500803f60eecd6e71000000",
+        "finite_fields": true,
+        "unit_quaternions": true,
+        "after_header": {
+          "selector": 1,
+          "pointer": 475909025936,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 472712999984
+        },
+        "dead_after": 0,
+        "identity_stable": true,
+        "component_input_changes": [
+          {
+            "component": "root",
+            "offset": "0x168",
+            "captured_hex": "23a631457689dd457e7ac4c43c000103",
+            "after_hex": "4fe933458dcadc4576cdc3c43c000103"
+          },
+          {
+            "component": "root",
+            "offset": "0x178",
+            "captured_hex": "00000000fbcfe3c200000000",
+            "after_hex": "00000000f89fe6c200000000"
+          }
+        ],
+        "component_inputs_stable": false,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": false,
+        "validity_checks": {
+          "epoch_stable": true,
+          "captured_identity": true,
+          "identity_stable": true,
+          "component_inputs_stable": false,
+          "component_flags_stable": true,
+          "header_discovered": true,
+          "header_unchanged": true,
+          "payload_available": true,
+          "no_master_pose": true,
+          "alive_before_and_after": true,
+          "finite_fields": true,
+          "unit_quaternions": true
+        },
+        "rejection_reasons": [
+          "component_inputs_stable"
+        ],
+        "unchecked_payload_checks": [],
+        "asset_map_reference": "0x6e0fe3f430",
+        "asset_map_valid_for_buffer": true
+      }
+    },
+    {
+      "ps": "0x6d4bb0aab0",
+      "pawn": "0x6cd7b3c010",
+      "mesh": "0x6d576e8bc0",
+      "root": "0x6e11a70100",
+      "self": false,
+      "team": 4,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            2870.383544921875,
+            7061.1826171875,
+            -1543.827880859375
+          ],
+          "handler": "0x301101d",
+          "record": "0x6e52ffd790",
+          "slot": 6,
+          "xyz": [
+            19987.6875,
+            -5246.6875,
+            -205.609375
+          ],
+          "vector_pointer_cache": "0x6d576e8d08",
+          "encoding": "protected",
+          "distance_m": 206.75383041420042,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            3148.383544921875,
+            6783.1826171875,
+            -1265.827880859375
+          ],
+          "handler": "0x3010010",
+          "record": "0x6e52ffb250",
+          "slot": 3,
+          "xyz": [
+            19987.6875,
+            -5246.6875,
+            -205.609375
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 206.75383041420042,
+          "extents": [
+            56.28207778930664,
+            56.28207778930664,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            3146.877197265625,
+            6784.17578125,
+            -1266.052978515625
+          ],
+          "handler": "0x301000f",
+          "record": "0x6e52ffc4f0",
+          "slot": 7,
+          "xyz": [
+            19987.6875,
+            -5246.6875,
+            -205.609375
+          ],
+          "vector_pointer_cache": "0x6e11a70268",
+          "encoding": "protected",
+          "distance_m": 206.75383041420042
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 74.8036709902283
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -129.37496948242188,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "0000000000000000000000000000000089ee2c4528e1df45b2c0cdc40000803f0000803f0000803f1b10010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6e11a70100",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -90.00019836425781,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 33,
+          "raw_transform_hex": "0000000000000000000000000000000089ee2c4528e1df45b2c0cdc40000803f0000803f0000803f1c10010300000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 1,
+          "pointer": 476736348320,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 479822981472
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 476852441136,
+            "count": 80,
+            "capacity": 85,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 479822981472
+          },
+          {
+            "selector": 1,
+            "pointer": 476736348320,
+            "count": 80,
+            "capacity": 85,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 479822981472
+          }
+        ],
+        "captured_header": {
+          "selector": 1,
+          "pointer": 476736348320,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 479822981472
+        },
+        "mesh_identity": {
+          "index": 249977,
+          "class": 479200797824,
+          "entry": 474195069784,
+          "serial": 601706
+        },
+        "last_pose_tick": 744216,
+        "payload_available": true,
+        "captured_identity_matches": true,
+        "transforms_hex": "f20435bf0000000000000000f404353f0000000000000000000000000000803fffff7f3fffff7f3f000080bf000000004cd83ebf825ca63cff47ca3bd88a2a3fe57b44be00c34b3ffda4b0420000803fffff7f3fffff7f3f000000000000000009963ebfef382cbda47a9ebcbc812a3fc256b43d14b9cd3f9d15bf420000803fffff7f3fffff7f3f000000000000000046424fbf4a26a3bd7e7a733ca3d3143f2a319bbf3ebe4d404039dc420000803fffff7f3fffff7f3f5624853e0000803f178859bf63b5fcbd795beb3d45c1ff3e167b30c02dadf040fe53f6420000803fffff7f3fffff7f3f000080bf0000000052ddfe3ef79eae3ddc81223ec72f593f7ff4f7c05e715f41b2a409430000803fffff7f3fffff7f3f000000000000000031c6f13ea8fa0cbfb7356f3e50be253fb60aa5c1e3da1141367309430000803fffff7f3fffff7f3f0000000000000000e600e53e6b2058bff3208bbe96b3ecbd0013e4c168e4744126c1de420000803fffff7f3f0700803f00554a470000803f26fddb3e4ef55ebf20df2cbed5772cbe4ef48cc194b0e3415d68ef420000803feeff7f3f0700803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000000000000000d235353fddf032bf184a1abd6caac1bd482673c1be36fb411f63f342efff7f3feeff7f3f0700803f00000080000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00b88847ffff7f3f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00b88847000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000000000000000def2c3bad71e8b3bc3d6c13b31fe7fbf930358c16708204200e9f842eeff7f3fceff7f3f0f00803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00b88847000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f02388ec6ffff7f3f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000080bf0000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fa54ffa3dc662b13d0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00554a47000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0050424600b8b3450000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f40bb02ce700000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000803f000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000000000000000de9d70bfa89c1dbc6c19823c1d8dae3ec9be9dc06a5a90411d220e430000803fffff7f3fffff7f3f000080bf6f07000095a964bf87ac6a3c6aafa13cbedfe53e706c9fc0b2bbbb410a9d12430000803fffff7f3fffff7f3f0000000001000000a2b2f1bd8695c73cd9958bba63227e3faacd8bc00082de41f50f1e43efff7f3f1000803f0700803f00b888472a1d58cff5bd54bfa10263bec3bc053e1a7efc3e0cc158bf50b88241c21d09430000803fffff7f3fffff7f3f000000000000008076dafabed7fc84be4bf91d3f4dec0e3f9e50314101adb941f22009430000803fffff7f3fffff7f3f000080bf0000803fc5ab8cbd785d06bf7819493f7218a43ecebb5d41ae5f4642b96300430000803fffff7f3f0700803fc40c313e48d6793e29bbd03d1e7a6cbd029e713fc8369e3e609187bf461f72423bbb04430000803feeff7f3f0700803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f1458f078ffffffff773cb13d6860683e8eae4e3f5bab093f68908ec0e4bc7b42e7ce05430000803feeff7f3f0700803f499a033f000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000096430000fa43b3341a3fd542953e01c8b3bc39253e3f2e2318c154868e422fe106430800803ffeff7f3f0f00803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000803f0000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fe91515400000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f58d23d3e09faa23d0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00008044000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000080400000803e0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000c8420000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000803f0000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fcd94b133d081063f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f4feeb4bdf85f6a330000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803ffe5eb433589b053f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f44a00f3471732b3fb84303bf541f1c3f7c87bb3e1f16f63e74851841d40bd73ef015ad420000803fffff7f3fffff7f3f7b4da0bea153a634ac951abf01933b3fda99383e1b8a833efcd00f41ed2532c1c8a738420800803fffff7f3fffff7f3f00000000010000000cd5dfbeb9c9fe3e4d85e43e6c081a3f50e05640573d2dc22f93af41ffff7f3feeff7f3fffff7f3f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000004fdf30bfed71133ff82cbdbe3dd76ebed06d20c16a0c5a3f6381ae420000803fffff7f3fffff7f3f00000000000000008a0710bfacacfa3ee0940bbf30f3c3be98874ac18bddd741c7e459420000803fffff7f3fffff7f3f0000008000000000aa1e49bfeb981d3fbf4ab9bc345d6b3d7ca41ac161ec0142b4ba6441efff7f3fffff7f3fffff7f3f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000403400000000000000000000803f0000000000000000000000000000803fffff7f3fffff7f3f600000000000803fe5110f39973e66bb405de1bb0dfe7f3f50c24cc1e68e2542ea68ff420000803fffff7f3fffff7f3f000000000000803ffc0f35bf9125333ffc32183d99b8be3d46bc66c1932902424ad9f9420000803fffff7f3fffff7f3f00000000000000004bc0b13da00e693eb05c4e3ff7100a3f9b3ed6c076c98042447f07430000803fffff7f3fffff7f3f00000000000000000000403400000000000000000000803f0000000000000000000000000000803fffff7f3fffff7f3f00000000000000000000403400000000000000000000803f0000000000000000000000000000803fffff7f3fffff7f3f10cccf786f0000000000403400000000000000000000803f0000000000000000000000000000803fffff7f3fffff7f3f80d7477e6f000000a99ae0beba85013fbcbce23e27a1183fa0fd3940e2292ec2f649b7410000803fffff7f3fffff7f3f80d7477e6f0000003dbf48bf280a1e3f050692bcc37f773d279d16c1cc950642c1256a410000803fffff7f3fffff7f3f404587786f00000020d2e43ee21658bf926c8bbee6e9eebdf211e1c1cac671417ea7e0420000803fffff7f3f0700803f80d7477e6f000000879296bd3cda05bf54fc483f71c5a53e18e158415ed7414273cb00430000803fffff7f3f0700803f40075a866f000000551e8ebebfbb8a3edf11093f260f403f20417a40132936c26a71dd40fbff7f3fefff7f3f0100803fc0a4fbdb6f0000001d7243bf0ceb153f5a58303e0012583e68b84fc1f8ef424220174741efff7f3fffff7f3fffff7f3f404287786f000000e684d63aafa98cbb7655cbbb0cfe7f3ff0d14ac1b00c28422f8dfe42eeff7f3fcfff7f3f0f00803fc072c4db6f000000",
+        "finite_fields": true,
+        "unit_quaternions": true,
+        "after_header": {
+          "selector": 0,
+          "pointer": 476852441136,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 479822981472
+        },
+        "dead_after": 0,
+        "identity_stable": true,
+        "component_input_changes": [
+          {
+            "component": "root",
+            "offset": "0x168",
+            "captured_hex": "09ae44456801d445b2419ec40f000103",
+            "after_hex": "52c64845d9a7d245681d9dc40f000103"
+          },
+          {
+            "component": "root",
+            "offset": "0x178",
+            "captured_hex": "00000000fe5f01c300000000",
+            "after_hex": "00000000ff370bc300000000"
+          },
+          {
+            "component": "mesh",
+            "offset": "0x168",
+            "captured_hex": "00000000000000000000acc2ffff0000",
+            "after_hex": "51663dc280e616bfd4daaac2ffff0000"
+          },
+          {
+            "component": "mesh",
+            "offset": "0x178",
+            "captured_hex": "000000001a00b4c200000000",
+            "after_hex": "000000001900b4c200000000"
+          }
+        ],
+        "component_inputs_stable": false,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": false,
+        "validity_checks": {
+          "epoch_stable": true,
+          "captured_identity": true,
+          "identity_stable": true,
+          "component_inputs_stable": false,
+          "component_flags_stable": true,
+          "header_discovered": true,
+          "header_unchanged": false,
+          "payload_available": true,
+          "no_master_pose": true,
+          "alive_before_and_after": true,
+          "finite_fields": true,
+          "unit_quaternions": true
+        },
+        "rejection_reasons": [
+          "component_inputs_stable",
+          "header_unchanged"
+        ],
+        "unchecked_payload_checks": [],
+        "asset_map_reference": "0x6fb7ada960",
+        "asset_map_valid_for_buffer": true
+      }
+    },
+    {
+      "ps": "0x6d13d71c80",
+      "pawn": "0x6d3f5f0040",
+      "mesh": "0x6e8d93ba40",
+      "root": "0x6f05743400",
+      "self": false,
+      "team": 5,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -23588.525390625,
+            -4428.39599609375,
+            -1275.992431640625
+          ],
+          "handler": "0x3011025",
+          "record": "0x6e52fe75b0",
+          "slot": 1,
+          "xyz": [
+            -21224.84375,
+            -4127.1875,
+            -210.193603515625
+          ],
+          "vector_pointer_cache": "0x6e8d93bb88",
+          "encoding": "protected",
+          "distance_m": 267.14320442438367,
+          "extents": [
+            330.0,
+            330.0,
+            55.0
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -23320.525390625,
+            -4696.39599609375,
+            -1007.992431640625
+          ],
+          "handler": "0x301004c",
+          "record": "0x6e52fe21e0",
+          "slot": 5,
+          "xyz": [
+            -21224.84375,
+            -4127.1875,
+            -140.193603515625
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 267.1489036939813,
+          "extents": [
+            55.18026351928711,
+            55.18026351928711,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -20359.650390625,
+            -12540.248046875,
+            -1121.313720703125
+          ],
+          "handler": "0x301004b",
+          "record": "0x6e52fe1890",
+          "slot": 7,
+          "xyz": [
+            -21224.84375,
+            -4127.1875,
+            -140.193603515625
+          ],
+          "vector_pointer_cache": "0x6f05743568",
+          "encoding": "protected",
+          "distance_m": 267.1489036939813
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 74.8036709902283
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -32.34379959106445,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "00000000000000000000000000000000fd3a9ec69e9945c615ca7dc40000803f0000803f0000803f2110010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6f05743400",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -130.78016662597656,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 33,
+          "raw_transform_hex": "00000000000000000000000000000000fd3a9ec69e9945c615ca7dc40000803f0000803f0000803f2410010300000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          },
+          {
+            "selector": 1,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          }
+        ],
+        "captured_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "mesh_identity": {
+          "index": 232449,
+          "class": 479200797824,
+          "entry": 474194649112,
+          "serial": 564055
+        },
+        "last_pose_tick": 731283,
+        "payload_available": false,
+        "captured_identity_matches": true,
+        "after_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "dead_after": 1,
+        "identity_stable": true,
+        "component_input_changes": [],
+        "component_inputs_stable": true,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": false,
+        "validity_checks": {
+          "epoch_stable": true,
+          "captured_identity": true,
+          "identity_stable": true,
+          "component_inputs_stable": true,
+          "component_flags_stable": true,
+          "header_discovered": true,
+          "header_unchanged": true,
+          "payload_available": false,
+          "no_master_pose": true,
+          "alive_before_and_after": false
+        },
+        "rejection_reasons": [
+          "payload_available",
+          "alive_before_and_after"
+        ],
+        "unchecked_payload_checks": [
+          "finite_fields",
+          "unit_quaternions"
+        ]
+      }
+    },
+    {
+      "ps": "0x6e26c75560",
+      "pawn": "0x6e340b0040",
+      "mesh": "0x6d2e19ba40",
+      "root": "0x6eaf640760",
+      "self": false,
+      "team": 5,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -23588.525390625,
+            -4428.39599609375,
+            -1275.992431640625
+          ],
+          "handler": "0x3011037",
+          "record": "0x6e52fedc20",
+          "slot": 2,
+          "xyz": [
+            -22760.4609375,
+            -7968.9765625,
+            -275.80078125
+          ],
+          "vector_pointer_cache": "0x6d2e19bb88",
+          "encoding": "protected",
+          "distance_m": 298.22740246398416,
+          "extents": [
+            330.0,
+            330.0,
+            55.0
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -23230.525390625,
+            -4786.39599609375,
+            -917.992431640625
+          ],
+          "handler": "0x301005b",
+          "record": "0x6e52fe4720",
+          "slot": 7,
+          "xyz": [
+            -22760.4375,
+            -7969.0,
+            -189.859619140625
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 298.2319215156416,
+          "extents": [
+            56.53736877441406,
+            56.53736877441406,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -21233.34765625,
+            -6885.05322265625,
+            -196.85662841796875
+          ],
+          "handler": "0x301005a",
+          "record": "0x6e52fe3dd0",
+          "slot": 1,
+          "xyz": [
+            -22760.4375,
+            -7969.0,
+            -189.859619140625
+          ],
+          "vector_pointer_cache": "0x6eaf6408c8",
+          "encoding": "protected",
+          "distance_m": 298.2319215156416
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 74.8036709902283
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -46.406272888183594,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "0000000000000000000000000000000062c2a5c6ada9d7c54cb334c30000803f0000803f0000803f2210010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6eaf640760",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -90.00013732910156,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 33,
+          "raw_transform_hex": "0000000000000000000000000000000062c2a5c6ada9d7c54cb334c30000803f0000803f0000803f3610010300000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          },
+          {
+            "selector": 1,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          }
+        ],
+        "captured_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "mesh_identity": {
+          "index": 285151,
+          "class": 479200797824,
+          "entry": 472668728552,
+          "serial": 564257
+        },
+        "last_pose_tick": 731402,
+        "payload_available": false,
+        "captured_identity_matches": true,
+        "after_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "dead_after": 1,
+        "identity_stable": true,
+        "component_input_changes": [],
+        "component_inputs_stable": true,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": false,
+        "validity_checks": {
+          "epoch_stable": true,
+          "captured_identity": true,
+          "identity_stable": true,
+          "component_inputs_stable": true,
+          "component_flags_stable": true,
+          "header_discovered": true,
+          "header_unchanged": true,
+          "payload_available": false,
+          "no_master_pose": true,
+          "alive_before_and_after": false
+        },
+        "rejection_reasons": [
+          "payload_available",
+          "alive_before_and_after"
+        ],
+        "unchecked_payload_checks": [
+          "finite_fields",
+          "unit_quaternions"
+        ]
+      }
+    },
+    {
+      "ps": "0x6d562838f0",
+      "pawn": "0x6efbbbc010",
+      "mesh": "0x6de80eba40",
+      "root": "0x6d1cecad20",
+      "self": false,
+      "team": 5,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -23588.525390625,
+            -4428.39599609375,
+            -1275.992431640625
+          ],
+          "handler": "0x301102f",
+          "record": "0x6e52feb6e0",
+          "slot": 0,
+          "xyz": [
+            -23118.59375,
+            -4828.9375,
+            -130.552978515625
+          ],
+          "vector_pointer_cache": "0x6de80ebb88",
+          "encoding": "protected",
+          "distance_m": 287.3047469043838,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -23562.525390625,
+            -4454.39599609375,
+            -1249.992431640625
+          ],
+          "handler": "0x301006a",
+          "record": "0x6e52fe6310",
+          "slot": 3,
+          "xyz": [
+            -23118.59375,
+            -4828.9375,
+            -60.55297088623047
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 287.31198658917265,
+          "extents": [
+            54.132713317871094,
+            54.132713317871094,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -23562.525390625,
+            -4454.39599609375,
+            -1249.992431640625
+          ],
+          "handler": "0x3010069",
+          "record": "0x6e52fea440",
+          "slot": 3,
+          "xyz": [
+            -23118.59375,
+            -4828.9375,
+            -60.55297088623047
+          ],
+          "vector_pointer_cache": "0x6d1cecae88",
+          "encoding": "protected",
+          "distance_m": 287.31198658917265
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 74.8036709902283
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            118.1249771118164,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "00000000000000000000000000000000fd5cb8c66b138ac5c2bea0c40000803f0000803f0000803f2310010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6d1cecad20",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -121.23560333251953,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 33,
+          "raw_transform_hex": "00000000000000000000000000000000fd5cb8c66b138ac5c2bea0c40000803f0000803f0000803f2e10010300000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 0,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          },
+          {
+            "selector": 1,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          }
+        ],
+        "captured_header": {
+          "selector": 0,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "mesh_identity": {
+          "index": 234513,
+          "class": 479200797824,
+          "entry": 474194698648,
+          "serial": 565055
+        },
+        "last_pose_tick": 731505,
+        "payload_available": false,
+        "captured_identity_matches": true,
+        "after_header": {
+          "selector": 0,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "dead_after": 1,
+        "identity_stable": true,
+        "component_input_changes": [],
+        "component_inputs_stable": true,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": false,
+        "validity_checks": {
+          "epoch_stable": true,
+          "captured_identity": true,
+          "identity_stable": true,
+          "component_inputs_stable": true,
+          "component_flags_stable": true,
+          "header_discovered": true,
+          "header_unchanged": true,
+          "payload_available": false,
+          "no_master_pose": true,
+          "alive_before_and_after": false
+        },
+        "rejection_reasons": [
+          "payload_available",
+          "alive_before_and_after"
+        ],
+        "unchecked_payload_checks": [
+          "finite_fields",
+          "unit_quaternions"
+        ]
+      }
+    }
+  ],
+  "skeletal_asset_maps": [
+    {
+      "asset": "0x6e9857c100",
+      "identity": {
+        "index": 165273,
+        "entry": 474992248408,
+        "class": 480587497344,
+        "serial": 560304
+      },
+      "discovery_header": {
+        "storage": 473009565088,
+        "elements": 80,
+        "free": 0,
+        "hash_storage": 475167114752,
+        "hash_count": 64,
+        "raw_header_hex": "a02d91216e0000005000000051000000ffffffffffffffffffff00000000000000000000000000005000000060000000ffffffff00000000000000000000000000c62aa26e0000004000000000000000"
+      },
+      "usable": true,
+      "captured_identity_matches": true,
+      "header": {
+        "storage": 473009565088,
+        "elements": 80,
+        "free": 0,
+        "hash_storage": 475167114752,
+        "hash_count": 64,
+        "raw_header_hex": "a02d91216e0000005000000051000000ffffffffffffffffffff00000000000000000000000000005000000060000000ffffffff00000000000000000000000000c62aa26e0000004000000000000000"
+      },
+      "entries": [
+        {
+          "name_id": "0x3338f",
+          "name_number": 0,
+          "bone_index": 0,
+          "map_entry": 0,
+          "name": "root"
+        },
+        {
+          "name_id": "0x33657",
+          "name_number": 0,
+          "bone_index": 1,
+          "map_entry": 1,
+          "name": "Hips"
+        },
+        {
+          "name_id": "0x5a2a1",
+          "name_number": 0,
+          "bone_index": 2,
+          "map_entry": 2,
+          "name": "Spine"
+        },
+        {
+          "name_id": "0x396798",
+          "name_number": 0,
+          "bone_index": 3,
+          "map_entry": 3,
+          "name": "Spine1"
+        },
+        {
+          "name_id": "0x1029a",
+          "name_number": 0,
+          "bone_index": 4,
+          "map_entry": 4,
+          "name": "Spine2"
+        },
+        {
+          "name_id": "0x3a5516",
+          "name_number": 0,
+          "bone_index": 5,
+          "map_entry": 5,
+          "name": "RightShoulder"
+        },
+        {
+          "name_id": "0x5fdbd6",
+          "name_number": 0,
+          "bone_index": 6,
+          "map_entry": 6,
+          "name": "RightArm"
+        },
+        {
+          "name_id": "0x396476",
+          "name_number": 0,
+          "bone_index": 7,
+          "map_entry": 7,
+          "name": "RightForeArm"
+        },
+        {
+          "name_id": "0x617459",
+          "name_number": 3,
+          "bone_index": 8,
+          "map_entry": 8,
+          "name": "RightForeArmTwist"
+        },
+        {
+          "name_id": "0x617459",
+          "name_number": 2,
+          "bone_index": 9,
+          "map_entry": 9,
+          "name": "RightForeArmTwist"
+        },
+        {
+          "name_id": "0x2b8fcb",
+          "name_number": 0,
+          "bone_index": 10,
+          "map_entry": 10,
+          "name": "RightHand"
+        },
+        {
+          "name_id": "0x5fdbdb",
+          "name_number": 0,
+          "bone_index": 11,
+          "map_entry": 11,
+          "name": "RightHandThumb1"
+        },
+        {
+          "name_id": "0x5fdbe4",
+          "name_number": 0,
+          "bone_index": 12,
+          "map_entry": 12,
+          "name": "RightHandThumb2"
+        },
+        {
+          "name_id": "0x6174cd",
+          "name_number": 0,
+          "bone_index": 13,
+          "map_entry": 13,
+          "name": "RightHandThumb3"
+        },
+        {
+          "name_id": "0xda826",
+          "name_number": 0,
+          "bone_index": 14,
+          "map_entry": 14,
+          "name": "Weapon_RightHand_Joint"
+        },
+        {
+          "name_id": "0x6174df",
+          "name_number": 0,
+          "bone_index": 15,
+          "map_entry": 15,
+          "name": "RightInHandRing"
+        },
+        {
+          "name_id": "0x6174b5",
+          "name_number": 0,
+          "bone_index": 16,
+          "map_entry": 16,
+          "name": "RightHandRing1"
+        },
+        {
+          "name_id": "0x6174bd",
+          "name_number": 0,
+          "bone_index": 17,
+          "map_entry": 17,
+          "name": "RightHandRing2"
+        },
+        {
+          "name_id": "0x6174c5",
+          "name_number": 0,
+          "bone_index": 18,
+          "map_entry": 18,
+          "name": "RightHandRing3"
+        },
+        {
+          "name_id": "0x6174d6",
+          "name_number": 0,
+          "bone_index": 19,
+          "map_entry": 19,
+          "name": "RightInHandPinky"
+        },
+        {
+          "name_id": "0x61749a",
+          "name_number": 0,
+          "bone_index": 20,
+          "map_entry": 20,
+          "name": "RightHandPinky1"
+        },
+        {
+          "name_id": "0x6174a3",
+          "name_number": 0,
+          "bone_index": 21,
+          "map_entry": 21,
+          "name": "RightHandPinky2"
+        },
+        {
+          "name_id": "0x6174ac",
+          "name_number": 0,
+          "bone_index": 22,
+          "map_entry": 22,
+          "name": "RightHandPinky3"
+        },
+        {
+          "name_id": "0x617475",
+          "name_number": 0,
+          "bone_index": 23,
+          "map_entry": 23,
+          "name": "RightHandMiddle1"
+        },
+        {
+          "name_id": "0x61747e",
+          "name_number": 0,
+          "bone_index": 24,
+          "map_entry": 24,
+          "name": "RightHandMiddle2"
+        },
+        {
+          "name_id": "0x617487",
+          "name_number": 0,
+          "bone_index": 25,
+          "map_entry": 25,
+          "name": "RightHandMiddle3"
+        },
+        {
+          "name_id": "0x617463",
+          "name_number": 0,
+          "bone_index": 26,
+          "map_entry": 26,
+          "name": "RightHandIndex1"
+        },
+        {
+          "name_id": "0x61746c",
+          "name_number": 0,
+          "bone_index": 27,
+          "map_entry": 27,
+          "name": "RightHandIndex2"
+        },
+        {
+          "name_id": "0x8d37b",
+          "name_number": 0,
+          "bone_index": 28,
+          "map_entry": 28,
+          "name": "RightHandIndex3"
+        },
+        {
+          "name_id": "0x617451",
+          "name_number": 0,
+          "bone_index": 29,
+          "map_entry": 29,
+          "name": "RightArmTwist"
+        },
+        {
+          "name_id": "0x3aa043",
+          "name_number": 0,
+          "bone_index": 30,
+          "map_entry": 30,
+          "name": "Neck"
+        },
+        {
+          "name_id": "0x203c7",
+          "name_number": 0,
+          "bone_index": 31,
+          "map_entry": 31,
+          "name": "Head"
+        },
+        {
+          "name_id": "0x5a29b",
+          "name_number": 0,
+          "bone_index": 32,
+          "map_entry": 32,
+          "name": "Head_Joint"
+        },
+        {
+          "name_id": "0x3a6e56",
+          "name_number": 0,
+          "bone_index": 33,
+          "map_entry": 33,
+          "name": "LeftShoulder"
+        },
+        {
+          "name_id": "0x5fdb6d",
+          "name_number": 0,
+          "bone_index": 34,
+          "map_entry": 34,
+          "name": "LeftArm"
+        },
+        {
+          "name_id": "0x39646f",
+          "name_number": 0,
+          "bone_index": 35,
+          "map_entry": 35,
+          "name": "LeftForeArm"
+        },
+        {
+          "name_id": "0x617237",
+          "name_number": 3,
+          "bone_index": 36,
+          "map_entry": 36,
+          "name": "LeftForeArmTwist"
+        },
+        {
+          "name_id": "0x617237",
+          "name_number": 2,
+          "bone_index": 37,
+          "map_entry": 37,
+          "name": "LeftForeArmTwist"
+        },
+        {
+          "name_id": "0x2c25c9",
+          "name_number": 0,
+          "bone_index": 38,
+          "map_entry": 38,
+          "name": "LeftHand"
+        },
+        {
+          "name_id": "0x5fdb72",
+          "name_number": 0,
+          "bone_index": 39,
+          "map_entry": 39,
+          "name": "LeftHandThumb1"
+        },
+        {
+          "name_id": "0x5fdb7a",
+          "name_number": 0,
+          "bone_index": 40,
+          "map_entry": 40,
+          "name": "LeftHandThumb2"
+        },
+        {
+          "name_id": "0x6172a8",
+          "name_number": 0,
+          "bone_index": 41,
+          "map_entry": 41,
+          "name": "LeftHandThumb3"
+        },
+        {
+          "name_id": "0xda81a",
+          "name_number": 0,
+          "bone_index": 42,
+          "map_entry": 42,
+          "name": "Weapon_LeftHand_Joint"
+        },
+        {
+          "name_id": "0x6172b9",
+          "name_number": 0,
+          "bone_index": 43,
+          "map_entry": 43,
+          "name": "LeftInHandRing"
+        },
+        {
+          "name_id": "0x617283",
+          "name_number": 0,
+          "bone_index": 44,
+          "map_entry": 44,
+          "name": "LeftHandRing1"
+        },
+        {
+          "name_id": "0x61728b",
+          "name_number": 0,
+          "bone_index": 45,
+          "map_entry": 45,
+          "name": "LeftHandRing2"
+        },
+        {
+          "name_id": "0x617293",
+          "name_number": 0,
+          "bone_index": 46,
+          "map_entry": 46,
+          "name": "LeftHandRing3"
+        },
+        {
+          "name_id": "0x6172b0",
+          "name_number": 0,
+          "bone_index": 47,
+          "map_entry": 47,
+          "name": "LeftInHandPinky"
+        },
+        {
+          "name_id": "0x61726b",
+          "name_number": 0,
+          "bone_index": 48,
+          "map_entry": 48,
+          "name": "LeftHandPinky1"
+        },
+        {
+          "name_id": "0x617273",
+          "name_number": 0,
+          "bone_index": 49,
+          "map_entry": 49,
+          "name": "LeftHandPinky2"
+        },
+        {
+          "name_id": "0x61727b",
+          "name_number": 0,
+          "bone_index": 50,
+          "map_entry": 50,
+          "name": "LeftHandPinky3"
+        },
+        {
+          "name_id": "0x617250",
+          "name_number": 0,
+          "bone_index": 51,
+          "map_entry": 51,
+          "name": "LeftHandMiddle1"
+        },
+        {
+          "name_id": "0x617259",
+          "name_number": 0,
+          "bone_index": 52,
+          "map_entry": 52,
+          "name": "LeftHandMiddle2"
+        },
+        {
+          "name_id": "0x617262",
+          "name_number": 0,
+          "bone_index": 53,
+          "map_entry": 53,
+          "name": "LeftHandMiddle3"
+        },
+        {
+          "name_id": "0x617240",
+          "name_number": 0,
+          "bone_index": 54,
+          "map_entry": 54,
+          "name": "LeftHandIndex1"
+        },
+        {
+          "name_id": "0x617248",
+          "name_number": 0,
+          "bone_index": 55,
+          "map_entry": 55,
+          "name": "LeftHandIndex2"
+        },
+        {
+          "name_id": "0x8d373",
+          "name_number": 0,
+          "bone_index": 56,
+          "map_entry": 56,
+          "name": "LeftHandIndex3"
+        },
+        {
+          "name_id": "0x617230",
+          "name_number": 0,
+          "bone_index": 57,
+          "map_entry": 57,
+          "name": "LeftArmTwist"
+        },
+        {
+          "name_id": "0x39dbdd",
+          "name_number": 0,
+          "bone_index": 58,
+          "map_entry": 58,
+          "name": "LeftUpLeg"
+        },
+        {
+          "name_id": "0x39647d",
+          "name_number": 0,
+          "bone_index": 59,
+          "map_entry": 59,
+          "name": "LeftLeg"
+        },
+        {
+          "name_id": "0x39cb36",
+          "name_number": 0,
+          "bone_index": 60,
+          "map_entry": 60,
+          "name": "LeftFoot"
+        },
+        {
+          "name_id": "0x5fdb8a",
+          "name_number": 0,
+          "bone_index": 61,
+          "map_entry": 61,
+          "name": "LeftToeBase"
+        },
+        {
+          "name_id": "0x5fdbfc",
+          "name_number": 0,
+          "bone_index": 62,
+          "map_entry": 62,
+          "name": "RightUpLeg"
+        },
+        {
+          "name_id": "0x396482",
+          "name_number": 0,
+          "bone_index": 63,
+          "map_entry": 63,
+          "name": "RightLeg"
+        },
+        {
+          "name_id": "0x39cb3b",
+          "name_number": 0,
+          "bone_index": 64,
+          "map_entry": 64,
+          "name": "RightFoot"
+        },
+        {
+          "name_id": "0x5fdbf5",
+          "name_number": 0,
+          "bone_index": 65,
+          "map_entry": 65,
+          "name": "RightToeBase"
+        },
+        {
+          "name_id": "0x5ffca4",
+          "name_number": 0,
+          "bone_index": 66,
+          "map_entry": 66,
+          "name": "b_IK_Hand_Root"
+        },
+        {
+          "name_id": "0x3a5cb3",
+          "name_number": 0,
+          "bone_index": 67,
+          "map_entry": 67,
+          "name": "b_IK_Gun"
+        },
+        {
+          "name_id": "0x60f4ec",
+          "name_number": 0,
+          "bone_index": 68,
+          "map_entry": 68,
+          "name": "b_IK_Hand_R"
+        },
+        {
+          "name_id": "0x60f4e5",
+          "name_number": 0,
+          "bone_index": 69,
+          "map_entry": 69,
+          "name": "b_IK_Hand_L"
+        },
+        {
+          "name_id": "0x1029e",
+          "name_number": 0,
+          "bone_index": 70,
+          "map_entry": 70,
+          "name": "Camera_Root"
+        },
+        {
+          "name_id": "0x39f393",
+          "name_number": 0,
+          "bone_index": 71,
+          "map_entry": 71,
+          "name": "Camera_Joint"
+        },
+        {
+          "name_id": "0x60f4dd",
+          "name_number": 0,
+          "bone_index": 72,
+          "map_entry": 72,
+          "name": "b_IK_Foot_Root"
+        },
+        {
+          "name_id": "0x60f4cf",
+          "name_number": 0,
+          "bone_index": 73,
+          "map_entry": 73,
+          "name": "b_IK_Foot_L"
+        },
+        {
+          "name_id": "0x60f4d6",
+          "name_number": 0,
+          "bone_index": 74,
+          "map_entry": 74,
+          "name": "b_IK_Foot_R"
+        },
+        {
+          "name_id": "0x617608",
+          "name_number": 0,
+          "bone_index": 75,
+          "map_entry": 75,
+          "name": "VB RightArm_RightForeArm"
+        },
+        {
+          "name_id": "0x6175fc",
+          "name_number": 0,
+          "bone_index": 76,
+          "map_entry": 76,
+          "name": "VB LeftArm_LeftForeArm"
+        },
+        {
+          "name_id": "0x6175df",
+          "name_number": 0,
+          "bone_index": 77,
+          "map_entry": 77,
+          "name": "VB b_IK_Foot_L_LeftToeBase"
+        },
+        {
+          "name_id": "0x6175ed",
+          "name_number": 0,
+          "bone_index": 78,
+          "map_entry": 78,
+          "name": "VB b_IK_Foot_R_RightToeBase"
+        },
+        {
+          "name_id": "0x617615",
+          "name_number": 0,
+          "bone_index": 79,
+          "map_entry": 79,
+          "name": "VB Spine_b_IK_Gun"
+        }
+      ],
+      "hash_entries_complete": true,
+      "identity_stable": true,
+      "header_stable": true,
+      "names_unambiguous": true
+    },
+    {
+      "asset": "0x6e111b7240",
+      "identity": {
+        "index": 121749,
+        "entry": 478866544120,
+        "class": 480587497344,
+        "serial": 601148
+      },
+      "discovery_header": {
+        "storage": 469214372064,
+        "elements": 80,
+        "free": 0,
+        "hash_storage": 481777961984,
+        "hash_count": 64,
+        "raw_header_hex": "e0205b3f6d0000005000000051000000ffffffffffffffffffff00000000000000000000000000005000000060000000ffffffff000000000000000000000000004c342c700000004000000000000000"
+      },
+      "usable": true,
+      "captured_identity_matches": true,
+      "header": {
+        "storage": 469214372064,
+        "elements": 80,
+        "free": 0,
+        "hash_storage": 481777961984,
+        "hash_count": 64,
+        "raw_header_hex": "e0205b3f6d0000005000000051000000ffffffffffffffffffff00000000000000000000000000005000000060000000ffffffff000000000000000000000000004c342c700000004000000000000000"
+      },
+      "entries": [
+        {
+          "name_id": "0x3338f",
+          "name_number": 0,
+          "bone_index": 0,
+          "map_entry": 0,
+          "name": "root"
+        },
+        {
+          "name_id": "0x33657",
+          "name_number": 0,
+          "bone_index": 1,
+          "map_entry": 1,
+          "name": "Hips"
+        },
+        {
+          "name_id": "0x5a2a1",
+          "name_number": 0,
+          "bone_index": 2,
+          "map_entry": 2,
+          "name": "Spine"
+        },
+        {
+          "name_id": "0x396798",
+          "name_number": 0,
+          "bone_index": 3,
+          "map_entry": 3,
+          "name": "Spine1"
+        },
+        {
+          "name_id": "0x1029a",
+          "name_number": 0,
+          "bone_index": 4,
+          "map_entry": 4,
+          "name": "Spine2"
+        },
+        {
+          "name_id": "0x3a5516",
+          "name_number": 0,
+          "bone_index": 5,
+          "map_entry": 5,
+          "name": "RightShoulder"
+        },
+        {
+          "name_id": "0x5fdbd6",
+          "name_number": 0,
+          "bone_index": 6,
+          "map_entry": 6,
+          "name": "RightArm"
+        },
+        {
+          "name_id": "0x396476",
+          "name_number": 0,
+          "bone_index": 7,
+          "map_entry": 7,
+          "name": "RightForeArm"
+        },
+        {
+          "name_id": "0x617459",
+          "name_number": 3,
+          "bone_index": 8,
+          "map_entry": 8,
+          "name": "RightForeArmTwist"
+        },
+        {
+          "name_id": "0x617459",
+          "name_number": 2,
+          "bone_index": 9,
+          "map_entry": 9,
+          "name": "RightForeArmTwist"
+        },
+        {
+          "name_id": "0x2b8fcb",
+          "name_number": 0,
+          "bone_index": 10,
+          "map_entry": 10,
+          "name": "RightHand"
+        },
+        {
+          "name_id": "0x5fdbdb",
+          "name_number": 0,
+          "bone_index": 11,
+          "map_entry": 11,
+          "name": "RightHandThumb1"
+        },
+        {
+          "name_id": "0x5fdbe4",
+          "name_number": 0,
+          "bone_index": 12,
+          "map_entry": 12,
+          "name": "RightHandThumb2"
+        },
+        {
+          "name_id": "0x6174cd",
+          "name_number": 0,
+          "bone_index": 13,
+          "map_entry": 13,
+          "name": "RightHandThumb3"
+        },
+        {
+          "name_id": "0xda826",
+          "name_number": 0,
+          "bone_index": 14,
+          "map_entry": 14,
+          "name": "Weapon_RightHand_Joint"
+        },
+        {
+          "name_id": "0x6174df",
+          "name_number": 0,
+          "bone_index": 15,
+          "map_entry": 15,
+          "name": "RightInHandRing"
+        },
+        {
+          "name_id": "0x6174b5",
+          "name_number": 0,
+          "bone_index": 16,
+          "map_entry": 16,
+          "name": "RightHandRing1"
+        },
+        {
+          "name_id": "0x6174bd",
+          "name_number": 0,
+          "bone_index": 17,
+          "map_entry": 17,
+          "name": "RightHandRing2"
+        },
+        {
+          "name_id": "0x6174c5",
+          "name_number": 0,
+          "bone_index": 18,
+          "map_entry": 18,
+          "name": "RightHandRing3"
+        },
+        {
+          "name_id": "0x6174d6",
+          "name_number": 0,
+          "bone_index": 19,
+          "map_entry": 19,
+          "name": "RightInHandPinky"
+        },
+        {
+          "name_id": "0x61749a",
+          "name_number": 0,
+          "bone_index": 20,
+          "map_entry": 20,
+          "name": "RightHandPinky1"
+        },
+        {
+          "name_id": "0x6174a3",
+          "name_number": 0,
+          "bone_index": 21,
+          "map_entry": 21,
+          "name": "RightHandPinky2"
+        },
+        {
+          "name_id": "0x6174ac",
+          "name_number": 0,
+          "bone_index": 22,
+          "map_entry": 22,
+          "name": "RightHandPinky3"
+        },
+        {
+          "name_id": "0x617475",
+          "name_number": 0,
+          "bone_index": 23,
+          "map_entry": 23,
+          "name": "RightHandMiddle1"
+        },
+        {
+          "name_id": "0x61747e",
+          "name_number": 0,
+          "bone_index": 24,
+          "map_entry": 24,
+          "name": "RightHandMiddle2"
+        },
+        {
+          "name_id": "0x617487",
+          "name_number": 0,
+          "bone_index": 25,
+          "map_entry": 25,
+          "name": "RightHandMiddle3"
+        },
+        {
+          "name_id": "0x617463",
+          "name_number": 0,
+          "bone_index": 26,
+          "map_entry": 26,
+          "name": "RightHandIndex1"
+        },
+        {
+          "name_id": "0x61746c",
+          "name_number": 0,
+          "bone_index": 27,
+          "map_entry": 27,
+          "name": "RightHandIndex2"
+        },
+        {
+          "name_id": "0x8d37b",
+          "name_number": 0,
+          "bone_index": 28,
+          "map_entry": 28,
+          "name": "RightHandIndex3"
+        },
+        {
+          "name_id": "0x617451",
+          "name_number": 0,
+          "bone_index": 29,
+          "map_entry": 29,
+          "name": "RightArmTwist"
+        },
+        {
+          "name_id": "0x3aa043",
+          "name_number": 0,
+          "bone_index": 30,
+          "map_entry": 30,
+          "name": "Neck"
+        },
+        {
+          "name_id": "0x203c7",
+          "name_number": 0,
+          "bone_index": 31,
+          "map_entry": 31,
+          "name": "Head"
+        },
+        {
+          "name_id": "0x5a29b",
+          "name_number": 0,
+          "bone_index": 32,
+          "map_entry": 32,
+          "name": "Head_Joint"
+        },
+        {
+          "name_id": "0x3a6e56",
+          "name_number": 0,
+          "bone_index": 33,
+          "map_entry": 33,
+          "name": "LeftShoulder"
+        },
+        {
+          "name_id": "0x5fdb6d",
+          "name_number": 0,
+          "bone_index": 34,
+          "map_entry": 34,
+          "name": "LeftArm"
+        },
+        {
+          "name_id": "0x39646f",
+          "name_number": 0,
+          "bone_index": 35,
+          "map_entry": 35,
+          "name": "LeftForeArm"
+        },
+        {
+          "name_id": "0x617237",
+          "name_number": 3,
+          "bone_index": 36,
+          "map_entry": 36,
+          "name": "LeftForeArmTwist"
+        },
+        {
+          "name_id": "0x617237",
+          "name_number": 2,
+          "bone_index": 37,
+          "map_entry": 37,
+          "name": "LeftForeArmTwist"
+        },
+        {
+          "name_id": "0x2c25c9",
+          "name_number": 0,
+          "bone_index": 38,
+          "map_entry": 38,
+          "name": "LeftHand"
+        },
+        {
+          "name_id": "0x5fdb72",
+          "name_number": 0,
+          "bone_index": 39,
+          "map_entry": 39,
+          "name": "LeftHandThumb1"
+        },
+        {
+          "name_id": "0x5fdb7a",
+          "name_number": 0,
+          "bone_index": 40,
+          "map_entry": 40,
+          "name": "LeftHandThumb2"
+        },
+        {
+          "name_id": "0x6172a8",
+          "name_number": 0,
+          "bone_index": 41,
+          "map_entry": 41,
+          "name": "LeftHandThumb3"
+        },
+        {
+          "name_id": "0xda81a",
+          "name_number": 0,
+          "bone_index": 42,
+          "map_entry": 42,
+          "name": "Weapon_LeftHand_Joint"
+        },
+        {
+          "name_id": "0x6172b9",
+          "name_number": 0,
+          "bone_index": 43,
+          "map_entry": 43,
+          "name": "LeftInHandRing"
+        },
+        {
+          "name_id": "0x617283",
+          "name_number": 0,
+          "bone_index": 44,
+          "map_entry": 44,
+          "name": "LeftHandRing1"
+        },
+        {
+          "name_id": "0x61728b",
+          "name_number": 0,
+          "bone_index": 45,
+          "map_entry": 45,
+          "name": "LeftHandRing2"
+        },
+        {
+          "name_id": "0x617293",
+          "name_number": 0,
+          "bone_index": 46,
+          "map_entry": 46,
+          "name": "LeftHandRing3"
+        },
+        {
+          "name_id": "0x6172b0",
+          "name_number": 0,
+          "bone_index": 47,
+          "map_entry": 47,
+          "name": "LeftInHandPinky"
+        },
+        {
+          "name_id": "0x61726b",
+          "name_number": 0,
+          "bone_index": 48,
+          "map_entry": 48,
+          "name": "LeftHandPinky1"
+        },
+        {
+          "name_id": "0x617273",
+          "name_number": 0,
+          "bone_index": 49,
+          "map_entry": 49,
+          "name": "LeftHandPinky2"
+        },
+        {
+          "name_id": "0x61727b",
+          "name_number": 0,
+          "bone_index": 50,
+          "map_entry": 50,
+          "name": "LeftHandPinky3"
+        },
+        {
+          "name_id": "0x617250",
+          "name_number": 0,
+          "bone_index": 51,
+          "map_entry": 51,
+          "name": "LeftHandMiddle1"
+        },
+        {
+          "name_id": "0x617259",
+          "name_number": 0,
+          "bone_index": 52,
+          "map_entry": 52,
+          "name": "LeftHandMiddle2"
+        },
+        {
+          "name_id": "0x617262",
+          "name_number": 0,
+          "bone_index": 53,
+          "map_entry": 53,
+          "name": "LeftHandMiddle3"
+        },
+        {
+          "name_id": "0x617240",
+          "name_number": 0,
+          "bone_index": 54,
+          "map_entry": 54,
+          "name": "LeftHandIndex1"
+        },
+        {
+          "name_id": "0x617248",
+          "name_number": 0,
+          "bone_index": 55,
+          "map_entry": 55,
+          "name": "LeftHandIndex2"
+        },
+        {
+          "name_id": "0x8d373",
+          "name_number": 0,
+          "bone_index": 56,
+          "map_entry": 56,
+          "name": "LeftHandIndex3"
+        },
+        {
+          "name_id": "0x617230",
+          "name_number": 0,
+          "bone_index": 57,
+          "map_entry": 57,
+          "name": "LeftArmTwist"
+        },
+        {
+          "name_id": "0x39dbdd",
+          "name_number": 0,
+          "bone_index": 58,
+          "map_entry": 58,
+          "name": "LeftUpLeg"
+        },
+        {
+          "name_id": "0x39647d",
+          "name_number": 0,
+          "bone_index": 59,
+          "map_entry": 59,
+          "name": "LeftLeg"
+        },
+        {
+          "name_id": "0x39cb36",
+          "name_number": 0,
+          "bone_index": 60,
+          "map_entry": 60,
+          "name": "LeftFoot"
+        },
+        {
+          "name_id": "0x5fdb8a",
+          "name_number": 0,
+          "bone_index": 61,
+          "map_entry": 61,
+          "name": "LeftToeBase"
+        },
+        {
+          "name_id": "0x5fdbfc",
+          "name_number": 0,
+          "bone_index": 62,
+          "map_entry": 62,
+          "name": "RightUpLeg"
+        },
+        {
+          "name_id": "0x396482",
+          "name_number": 0,
+          "bone_index": 63,
+          "map_entry": 63,
+          "name": "RightLeg"
+        },
+        {
+          "name_id": "0x39cb3b",
+          "name_number": 0,
+          "bone_index": 64,
+          "map_entry": 64,
+          "name": "RightFoot"
+        },
+        {
+          "name_id": "0x5fdbf5",
+          "name_number": 0,
+          "bone_index": 65,
+          "map_entry": 65,
+          "name": "RightToeBase"
+        },
+        {
+          "name_id": "0x5ffca4",
+          "name_number": 0,
+          "bone_index": 66,
+          "map_entry": 66,
+          "name": "b_IK_Hand_Root"
+        },
+        {
+          "name_id": "0x3a5cb3",
+          "name_number": 0,
+          "bone_index": 67,
+          "map_entry": 67,
+          "name": "b_IK_Gun"
+        },
+        {
+          "name_id": "0x60f4ec",
+          "name_number": 0,
+          "bone_index": 68,
+          "map_entry": 68,
+          "name": "b_IK_Hand_R"
+        },
+        {
+          "name_id": "0x60f4e5",
+          "name_number": 0,
+          "bone_index": 69,
+          "map_entry": 69,
+          "name": "b_IK_Hand_L"
+        },
+        {
+          "name_id": "0x1029e",
+          "name_number": 0,
+          "bone_index": 70,
+          "map_entry": 70,
+          "name": "Camera_Root"
+        },
+        {
+          "name_id": "0x39f393",
+          "name_number": 0,
+          "bone_index": 71,
+          "map_entry": 71,
+          "name": "Camera_Joint"
+        },
+        {
+          "name_id": "0x60f4dd",
+          "name_number": 0,
+          "bone_index": 72,
+          "map_entry": 72,
+          "name": "b_IK_Foot_Root"
+        },
+        {
+          "name_id": "0x60f4cf",
+          "name_number": 0,
+          "bone_index": 73,
+          "map_entry": 73,
+          "name": "b_IK_Foot_L"
+        },
+        {
+          "name_id": "0x60f4d6",
+          "name_number": 0,
+          "bone_index": 74,
+          "map_entry": 74,
+          "name": "b_IK_Foot_R"
+        },
+        {
+          "name_id": "0x617608",
+          "name_number": 0,
+          "bone_index": 75,
+          "map_entry": 75,
+          "name": "VB RightArm_RightForeArm"
+        },
+        {
+          "name_id": "0x6175fc",
+          "name_number": 0,
+          "bone_index": 76,
+          "map_entry": 76,
+          "name": "VB LeftArm_LeftForeArm"
+        },
+        {
+          "name_id": "0x6175df",
+          "name_number": 0,
+          "bone_index": 77,
+          "map_entry": 77,
+          "name": "VB b_IK_Foot_L_LeftToeBase"
+        },
+        {
+          "name_id": "0x6175ed",
+          "name_number": 0,
+          "bone_index": 78,
+          "map_entry": 78,
+          "name": "VB b_IK_Foot_R_RightToeBase"
+        },
+        {
+          "name_id": "0x617615",
+          "name_number": 0,
+          "bone_index": 79,
+          "map_entry": 79,
+          "name": "VB Spine_b_IK_Gun"
+        }
+      ],
+      "hash_entries_complete": true,
+      "identity_stable": true,
+      "header_stable": true,
+      "names_unambiguous": true
+    },
+    {
+      "asset": "0x6fb7ada960",
+      "identity": {
+        "index": 249359,
+        "entry": 474195054952,
+        "class": 480587497344,
+        "serial": 601811
+      },
+      "discovery_header": {
+        "storage": 469214390016,
+        "elements": 80,
+        "free": 0,
+        "hash_storage": 475044846080,
+        "hash_count": 64,
+        "raw_header_hex": "00675b3f6d0000005000000051000000ffffffffffffffffffff00000000000000000000000000005000000060000000ffffffff000000000000000000000000001ae19a6e0000004000000000000000"
+      },
+      "usable": true,
+      "captured_identity_matches": true,
+      "header": {
+        "storage": 469214390016,
+        "elements": 80,
+        "free": 0,
+        "hash_storage": 475044846080,
+        "hash_count": 64,
+        "raw_header_hex": "00675b3f6d0000005000000051000000ffffffffffffffffffff00000000000000000000000000005000000060000000ffffffff000000000000000000000000001ae19a6e0000004000000000000000"
+      },
+      "entries": [
+        {
+          "name_id": "0x3338f",
+          "name_number": 0,
+          "bone_index": 0,
+          "map_entry": 0,
+          "name": "root"
+        },
+        {
+          "name_id": "0x33657",
+          "name_number": 0,
+          "bone_index": 1,
+          "map_entry": 1,
+          "name": "Hips"
+        },
+        {
+          "name_id": "0x5a2a1",
+          "name_number": 0,
+          "bone_index": 2,
+          "map_entry": 2,
+          "name": "Spine"
+        },
+        {
+          "name_id": "0x396798",
+          "name_number": 0,
+          "bone_index": 3,
+          "map_entry": 3,
+          "name": "Spine1"
+        },
+        {
+          "name_id": "0x1029a",
+          "name_number": 0,
+          "bone_index": 4,
+          "map_entry": 4,
+          "name": "Spine2"
+        },
+        {
+          "name_id": "0x3a5516",
+          "name_number": 0,
+          "bone_index": 5,
+          "map_entry": 5,
+          "name": "RightShoulder"
+        },
+        {
+          "name_id": "0x5fdbd6",
+          "name_number": 0,
+          "bone_index": 6,
+          "map_entry": 6,
+          "name": "RightArm"
+        },
+        {
+          "name_id": "0x396476",
+          "name_number": 0,
+          "bone_index": 7,
+          "map_entry": 7,
+          "name": "RightForeArm"
+        },
+        {
+          "name_id": "0x617459",
+          "name_number": 3,
+          "bone_index": 8,
+          "map_entry": 8,
+          "name": "RightForeArmTwist"
+        },
+        {
+          "name_id": "0x617459",
+          "name_number": 2,
+          "bone_index": 9,
+          "map_entry": 9,
+          "name": "RightForeArmTwist"
+        },
+        {
+          "name_id": "0x2b8fcb",
+          "name_number": 0,
+          "bone_index": 10,
+          "map_entry": 10,
+          "name": "RightHand"
+        },
+        {
+          "name_id": "0x5fdbdb",
+          "name_number": 0,
+          "bone_index": 11,
+          "map_entry": 11,
+          "name": "RightHandThumb1"
+        },
+        {
+          "name_id": "0x5fdbe4",
+          "name_number": 0,
+          "bone_index": 12,
+          "map_entry": 12,
+          "name": "RightHandThumb2"
+        },
+        {
+          "name_id": "0x6174cd",
+          "name_number": 0,
+          "bone_index": 13,
+          "map_entry": 13,
+          "name": "RightHandThumb3"
+        },
+        {
+          "name_id": "0xda826",
+          "name_number": 0,
+          "bone_index": 14,
+          "map_entry": 14,
+          "name": "Weapon_RightHand_Joint"
+        },
+        {
+          "name_id": "0x6174df",
+          "name_number": 0,
+          "bone_index": 15,
+          "map_entry": 15,
+          "name": "RightInHandRing"
+        },
+        {
+          "name_id": "0x6174b5",
+          "name_number": 0,
+          "bone_index": 16,
+          "map_entry": 16,
+          "name": "RightHandRing1"
+        },
+        {
+          "name_id": "0x6174bd",
+          "name_number": 0,
+          "bone_index": 17,
+          "map_entry": 17,
+          "name": "RightHandRing2"
+        },
+        {
+          "name_id": "0x6174c5",
+          "name_number": 0,
+          "bone_index": 18,
+          "map_entry": 18,
+          "name": "RightHandRing3"
+        },
+        {
+          "name_id": "0x6174d6",
+          "name_number": 0,
+          "bone_index": 19,
+          "map_entry": 19,
+          "name": "RightInHandPinky"
+        },
+        {
+          "name_id": "0x61749a",
+          "name_number": 0,
+          "bone_index": 20,
+          "map_entry": 20,
+          "name": "RightHandPinky1"
+        },
+        {
+          "name_id": "0x6174a3",
+          "name_number": 0,
+          "bone_index": 21,
+          "map_entry": 21,
+          "name": "RightHandPinky2"
+        },
+        {
+          "name_id": "0x6174ac",
+          "name_number": 0,
+          "bone_index": 22,
+          "map_entry": 22,
+          "name": "RightHandPinky3"
+        },
+        {
+          "name_id": "0x617475",
+          "name_number": 0,
+          "bone_index": 23,
+          "map_entry": 23,
+          "name": "RightHandMiddle1"
+        },
+        {
+          "name_id": "0x61747e",
+          "name_number": 0,
+          "bone_index": 24,
+          "map_entry": 24,
+          "name": "RightHandMiddle2"
+        },
+        {
+          "name_id": "0x617487",
+          "name_number": 0,
+          "bone_index": 25,
+          "map_entry": 25,
+          "name": "RightHandMiddle3"
+        },
+        {
+          "name_id": "0x617463",
+          "name_number": 0,
+          "bone_index": 26,
+          "map_entry": 26,
+          "name": "RightHandIndex1"
+        },
+        {
+          "name_id": "0x61746c",
+          "name_number": 0,
+          "bone_index": 27,
+          "map_entry": 27,
+          "name": "RightHandIndex2"
+        },
+        {
+          "name_id": "0x8d37b",
+          "name_number": 0,
+          "bone_index": 28,
+          "map_entry": 28,
+          "name": "RightHandIndex3"
+        },
+        {
+          "name_id": "0x617451",
+          "name_number": 0,
+          "bone_index": 29,
+          "map_entry": 29,
+          "name": "RightArmTwist"
+        },
+        {
+          "name_id": "0x3aa043",
+          "name_number": 0,
+          "bone_index": 30,
+          "map_entry": 30,
+          "name": "Neck"
+        },
+        {
+          "name_id": "0x203c7",
+          "name_number": 0,
+          "bone_index": 31,
+          "map_entry": 31,
+          "name": "Head"
+        },
+        {
+          "name_id": "0x5a29b",
+          "name_number": 0,
+          "bone_index": 32,
+          "map_entry": 32,
+          "name": "Head_Joint"
+        },
+        {
+          "name_id": "0x3a6e56",
+          "name_number": 0,
+          "bone_index": 33,
+          "map_entry": 33,
+          "name": "LeftShoulder"
+        },
+        {
+          "name_id": "0x5fdb6d",
+          "name_number": 0,
+          "bone_index": 34,
+          "map_entry": 34,
+          "name": "LeftArm"
+        },
+        {
+          "name_id": "0x39646f",
+          "name_number": 0,
+          "bone_index": 35,
+          "map_entry": 35,
+          "name": "LeftForeArm"
+        },
+        {
+          "name_id": "0x617237",
+          "name_number": 3,
+          "bone_index": 36,
+          "map_entry": 36,
+          "name": "LeftForeArmTwist"
+        },
+        {
+          "name_id": "0x617237",
+          "name_number": 2,
+          "bone_index": 37,
+          "map_entry": 37,
+          "name": "LeftForeArmTwist"
+        },
+        {
+          "name_id": "0x2c25c9",
+          "name_number": 0,
+          "bone_index": 38,
+          "map_entry": 38,
+          "name": "LeftHand"
+        },
+        {
+          "name_id": "0x5fdb72",
+          "name_number": 0,
+          "bone_index": 39,
+          "map_entry": 39,
+          "name": "LeftHandThumb1"
+        },
+        {
+          "name_id": "0x5fdb7a",
+          "name_number": 0,
+          "bone_index": 40,
+          "map_entry": 40,
+          "name": "LeftHandThumb2"
+        },
+        {
+          "name_id": "0x6172a8",
+          "name_number": 0,
+          "bone_index": 41,
+          "map_entry": 41,
+          "name": "LeftHandThumb3"
+        },
+        {
+          "name_id": "0xda81a",
+          "name_number": 0,
+          "bone_index": 42,
+          "map_entry": 42,
+          "name": "Weapon_LeftHand_Joint"
+        },
+        {
+          "name_id": "0x6172b9",
+          "name_number": 0,
+          "bone_index": 43,
+          "map_entry": 43,
+          "name": "LeftInHandRing"
+        },
+        {
+          "name_id": "0x617283",
+          "name_number": 0,
+          "bone_index": 44,
+          "map_entry": 44,
+          "name": "LeftHandRing1"
+        },
+        {
+          "name_id": "0x61728b",
+          "name_number": 0,
+          "bone_index": 45,
+          "map_entry": 45,
+          "name": "LeftHandRing2"
+        },
+        {
+          "name_id": "0x617293",
+          "name_number": 0,
+          "bone_index": 46,
+          "map_entry": 46,
+          "name": "LeftHandRing3"
+        },
+        {
+          "name_id": "0x6172b0",
+          "name_number": 0,
+          "bone_index": 47,
+          "map_entry": 47,
+          "name": "LeftInHandPinky"
+        },
+        {
+          "name_id": "0x61726b",
+          "name_number": 0,
+          "bone_index": 48,
+          "map_entry": 48,
+          "name": "LeftHandPinky1"
+        },
+        {
+          "name_id": "0x617273",
+          "name_number": 0,
+          "bone_index": 49,
+          "map_entry": 49,
+          "name": "LeftHandPinky2"
+        },
+        {
+          "name_id": "0x61727b",
+          "name_number": 0,
+          "bone_index": 50,
+          "map_entry": 50,
+          "name": "LeftHandPinky3"
+        },
+        {
+          "name_id": "0x617250",
+          "name_number": 0,
+          "bone_index": 51,
+          "map_entry": 51,
+          "name": "LeftHandMiddle1"
+        },
+        {
+          "name_id": "0x617259",
+          "name_number": 0,
+          "bone_index": 52,
+          "map_entry": 52,
+          "name": "LeftHandMiddle2"
+        },
+        {
+          "name_id": "0x617262",
+          "name_number": 0,
+          "bone_index": 53,
+          "map_entry": 53,
+          "name": "LeftHandMiddle3"
+        },
+        {
+          "name_id": "0x617240",
+          "name_number": 0,
+          "bone_index": 54,
+          "map_entry": 54,
+          "name": "LeftHandIndex1"
+        },
+        {
+          "name_id": "0x617248",
+          "name_number": 0,
+          "bone_index": 55,
+          "map_entry": 55,
+          "name": "LeftHandIndex2"
+        },
+        {
+          "name_id": "0x8d373",
+          "name_number": 0,
+          "bone_index": 56,
+          "map_entry": 56,
+          "name": "LeftHandIndex3"
+        },
+        {
+          "name_id": "0x617230",
+          "name_number": 0,
+          "bone_index": 57,
+          "map_entry": 57,
+          "name": "LeftArmTwist"
+        },
+        {
+          "name_id": "0x39dbdd",
+          "name_number": 0,
+          "bone_index": 58,
+          "map_entry": 58,
+          "name": "LeftUpLeg"
+        },
+        {
+          "name_id": "0x39647d",
+          "name_number": 0,
+          "bone_index": 59,
+          "map_entry": 59,
+          "name": "LeftLeg"
+        },
+        {
+          "name_id": "0x39cb36",
+          "name_number": 0,
+          "bone_index": 60,
+          "map_entry": 60,
+          "name": "LeftFoot"
+        },
+        {
+          "name_id": "0x5fdb8a",
+          "name_number": 0,
+          "bone_index": 61,
+          "map_entry": 61,
+          "name": "LeftToeBase"
+        },
+        {
+          "name_id": "0x5fdbfc",
+          "name_number": 0,
+          "bone_index": 62,
+          "map_entry": 62,
+          "name": "RightUpLeg"
+        },
+        {
+          "name_id": "0x396482",
+          "name_number": 0,
+          "bone_index": 63,
+          "map_entry": 63,
+          "name": "RightLeg"
+        },
+        {
+          "name_id": "0x39cb3b",
+          "name_number": 0,
+          "bone_index": 64,
+          "map_entry": 64,
+          "name": "RightFoot"
+        },
+        {
+          "name_id": "0x5fdbf5",
+          "name_number": 0,
+          "bone_index": 65,
+          "map_entry": 65,
+          "name": "RightToeBase"
+        },
+        {
+          "name_id": "0x5ffca4",
+          "name_number": 0,
+          "bone_index": 66,
+          "map_entry": 66,
+          "name": "b_IK_Hand_Root"
+        },
+        {
+          "name_id": "0x3a5cb3",
+          "name_number": 0,
+          "bone_index": 67,
+          "map_entry": 67,
+          "name": "b_IK_Gun"
+        },
+        {
+          "name_id": "0x60f4ec",
+          "name_number": 0,
+          "bone_index": 68,
+          "map_entry": 68,
+          "name": "b_IK_Hand_R"
+        },
+        {
+          "name_id": "0x60f4e5",
+          "name_number": 0,
+          "bone_index": 69,
+          "map_entry": 69,
+          "name": "b_IK_Hand_L"
+        },
+        {
+          "name_id": "0x1029e",
+          "name_number": 0,
+          "bone_index": 70,
+          "map_entry": 70,
+          "name": "Camera_Root"
+        },
+        {
+          "name_id": "0x39f393",
+          "name_number": 0,
+          "bone_index": 71,
+          "map_entry": 71,
+          "name": "Camera_Joint"
+        },
+        {
+          "name_id": "0x60f4dd",
+          "name_number": 0,
+          "bone_index": 72,
+          "map_entry": 72,
+          "name": "b_IK_Foot_Root"
+        },
+        {
+          "name_id": "0x60f4cf",
+          "name_number": 0,
+          "bone_index": 73,
+          "map_entry": 73,
+          "name": "b_IK_Foot_L"
+        },
+        {
+          "name_id": "0x60f4d6",
+          "name_number": 0,
+          "bone_index": 74,
+          "map_entry": 74,
+          "name": "b_IK_Foot_R"
+        },
+        {
+          "name_id": "0x617608",
+          "name_number": 0,
+          "bone_index": 75,
+          "map_entry": 75,
+          "name": "VB RightArm_RightForeArm"
+        },
+        {
+          "name_id": "0x6175fc",
+          "name_number": 0,
+          "bone_index": 76,
+          "map_entry": 76,
+          "name": "VB LeftArm_LeftForeArm"
+        },
+        {
+          "name_id": "0x6175df",
+          "name_number": 0,
+          "bone_index": 77,
+          "map_entry": 77,
+          "name": "VB b_IK_Foot_L_LeftToeBase"
+        },
+        {
+          "name_id": "0x6175ed",
+          "name_number": 0,
+          "bone_index": 78,
+          "map_entry": 78,
+          "name": "VB b_IK_Foot_R_RightToeBase"
+        },
+        {
+          "name_id": "0x617615",
+          "name_number": 0,
+          "bone_index": 79,
+          "map_entry": 79,
+          "name": "VB Spine_b_IK_Gun"
+        }
+      ],
+      "hash_entries_complete": true,
+      "identity_stable": true,
+      "header_stable": true,
+      "names_unambiguous": true
+    },
+    {
+      "asset": "0x6e0fe3f430",
+      "identity": {
+        "index": 270532,
+        "entry": 472668377696,
+        "class": 480587497344,
+        "serial": 560479
+      },
+      "discovery_header": {
+        "storage": 475023178272,
+        "elements": 80,
+        "free": 0,
+        "hash_storage": 475077042432,
+        "hash_count": 64,
+        "raw_header_hex": "207a96996e0000005000000051000000ffffffffffffffffffff00000000000000000000000000005000000060000000ffffffff0000000000000000000000000061cc9c6e0000004000000000000000"
+      },
+      "usable": true,
+      "captured_identity_matches": true,
+      "header": {
+        "storage": 475023178272,
+        "elements": 80,
+        "free": 0,
+        "hash_storage": 475077042432,
+        "hash_count": 64,
+        "raw_header_hex": "207a96996e0000005000000051000000ffffffffffffffffffff00000000000000000000000000005000000060000000ffffffff0000000000000000000000000061cc9c6e0000004000000000000000"
+      },
+      "entries": [
+        {
+          "name_id": "0x3338f",
+          "name_number": 0,
+          "bone_index": 0,
+          "map_entry": 0,
+          "name": "root"
+        },
+        {
+          "name_id": "0x33657",
+          "name_number": 0,
+          "bone_index": 1,
+          "map_entry": 1,
+          "name": "Hips"
+        },
+        {
+          "name_id": "0x5a2a1",
+          "name_number": 0,
+          "bone_index": 2,
+          "map_entry": 2,
+          "name": "Spine"
+        },
+        {
+          "name_id": "0x396798",
+          "name_number": 0,
+          "bone_index": 3,
+          "map_entry": 3,
+          "name": "Spine1"
+        },
+        {
+          "name_id": "0x1029a",
+          "name_number": 0,
+          "bone_index": 4,
+          "map_entry": 4,
+          "name": "Spine2"
+        },
+        {
+          "name_id": "0x3a5516",
+          "name_number": 0,
+          "bone_index": 5,
+          "map_entry": 5,
+          "name": "RightShoulder"
+        },
+        {
+          "name_id": "0x5fdbd6",
+          "name_number": 0,
+          "bone_index": 6,
+          "map_entry": 6,
+          "name": "RightArm"
+        },
+        {
+          "name_id": "0x396476",
+          "name_number": 0,
+          "bone_index": 7,
+          "map_entry": 7,
+          "name": "RightForeArm"
+        },
+        {
+          "name_id": "0x617459",
+          "name_number": 3,
+          "bone_index": 8,
+          "map_entry": 8,
+          "name": "RightForeArmTwist"
+        },
+        {
+          "name_id": "0x617459",
+          "name_number": 2,
+          "bone_index": 9,
+          "map_entry": 9,
+          "name": "RightForeArmTwist"
+        },
+        {
+          "name_id": "0x2b8fcb",
+          "name_number": 0,
+          "bone_index": 10,
+          "map_entry": 10,
+          "name": "RightHand"
+        },
+        {
+          "name_id": "0x5fdbdb",
+          "name_number": 0,
+          "bone_index": 11,
+          "map_entry": 11,
+          "name": "RightHandThumb1"
+        },
+        {
+          "name_id": "0x5fdbe4",
+          "name_number": 0,
+          "bone_index": 12,
+          "map_entry": 12,
+          "name": "RightHandThumb2"
+        },
+        {
+          "name_id": "0x6174cd",
+          "name_number": 0,
+          "bone_index": 13,
+          "map_entry": 13,
+          "name": "RightHandThumb3"
+        },
+        {
+          "name_id": "0xda826",
+          "name_number": 0,
+          "bone_index": 14,
+          "map_entry": 14,
+          "name": "Weapon_RightHand_Joint"
+        },
+        {
+          "name_id": "0x6174df",
+          "name_number": 0,
+          "bone_index": 15,
+          "map_entry": 15,
+          "name": "RightInHandRing"
+        },
+        {
+          "name_id": "0x6174b5",
+          "name_number": 0,
+          "bone_index": 16,
+          "map_entry": 16,
+          "name": "RightHandRing1"
+        },
+        {
+          "name_id": "0x6174bd",
+          "name_number": 0,
+          "bone_index": 17,
+          "map_entry": 17,
+          "name": "RightHandRing2"
+        },
+        {
+          "name_id": "0x6174c5",
+          "name_number": 0,
+          "bone_index": 18,
+          "map_entry": 18,
+          "name": "RightHandRing3"
+        },
+        {
+          "name_id": "0x6174d6",
+          "name_number": 0,
+          "bone_index": 19,
+          "map_entry": 19,
+          "name": "RightInHandPinky"
+        },
+        {
+          "name_id": "0x61749a",
+          "name_number": 0,
+          "bone_index": 20,
+          "map_entry": 20,
+          "name": "RightHandPinky1"
+        },
+        {
+          "name_id": "0x6174a3",
+          "name_number": 0,
+          "bone_index": 21,
+          "map_entry": 21,
+          "name": "RightHandPinky2"
+        },
+        {
+          "name_id": "0x6174ac",
+          "name_number": 0,
+          "bone_index": 22,
+          "map_entry": 22,
+          "name": "RightHandPinky3"
+        },
+        {
+          "name_id": "0x617475",
+          "name_number": 0,
+          "bone_index": 23,
+          "map_entry": 23,
+          "name": "RightHandMiddle1"
+        },
+        {
+          "name_id": "0x61747e",
+          "name_number": 0,
+          "bone_index": 24,
+          "map_entry": 24,
+          "name": "RightHandMiddle2"
+        },
+        {
+          "name_id": "0x617487",
+          "name_number": 0,
+          "bone_index": 25,
+          "map_entry": 25,
+          "name": "RightHandMiddle3"
+        },
+        {
+          "name_id": "0x617463",
+          "name_number": 0,
+          "bone_index": 26,
+          "map_entry": 26,
+          "name": "RightHandIndex1"
+        },
+        {
+          "name_id": "0x61746c",
+          "name_number": 0,
+          "bone_index": 27,
+          "map_entry": 27,
+          "name": "RightHandIndex2"
+        },
+        {
+          "name_id": "0x8d37b",
+          "name_number": 0,
+          "bone_index": 28,
+          "map_entry": 28,
+          "name": "RightHandIndex3"
+        },
+        {
+          "name_id": "0x617451",
+          "name_number": 0,
+          "bone_index": 29,
+          "map_entry": 29,
+          "name": "RightArmTwist"
+        },
+        {
+          "name_id": "0x3aa043",
+          "name_number": 0,
+          "bone_index": 30,
+          "map_entry": 30,
+          "name": "Neck"
+        },
+        {
+          "name_id": "0x203c7",
+          "name_number": 0,
+          "bone_index": 31,
+          "map_entry": 31,
+          "name": "Head"
+        },
+        {
+          "name_id": "0x5a29b",
+          "name_number": 0,
+          "bone_index": 32,
+          "map_entry": 32,
+          "name": "Head_Joint"
+        },
+        {
+          "name_id": "0x3a6e56",
+          "name_number": 0,
+          "bone_index": 33,
+          "map_entry": 33,
+          "name": "LeftShoulder"
+        },
+        {
+          "name_id": "0x5fdb6d",
+          "name_number": 0,
+          "bone_index": 34,
+          "map_entry": 34,
+          "name": "LeftArm"
+        },
+        {
+          "name_id": "0x39646f",
+          "name_number": 0,
+          "bone_index": 35,
+          "map_entry": 35,
+          "name": "LeftForeArm"
+        },
+        {
+          "name_id": "0x617237",
+          "name_number": 3,
+          "bone_index": 36,
+          "map_entry": 36,
+          "name": "LeftForeArmTwist"
+        },
+        {
+          "name_id": "0x617237",
+          "name_number": 2,
+          "bone_index": 37,
+          "map_entry": 37,
+          "name": "LeftForeArmTwist"
+        },
+        {
+          "name_id": "0x2c25c9",
+          "name_number": 0,
+          "bone_index": 38,
+          "map_entry": 38,
+          "name": "LeftHand"
+        },
+        {
+          "name_id": "0x5fdb72",
+          "name_number": 0,
+          "bone_index": 39,
+          "map_entry": 39,
+          "name": "LeftHandThumb1"
+        },
+        {
+          "name_id": "0x5fdb7a",
+          "name_number": 0,
+          "bone_index": 40,
+          "map_entry": 40,
+          "name": "LeftHandThumb2"
+        },
+        {
+          "name_id": "0x6172a8",
+          "name_number": 0,
+          "bone_index": 41,
+          "map_entry": 41,
+          "name": "LeftHandThumb3"
+        },
+        {
+          "name_id": "0xda81a",
+          "name_number": 0,
+          "bone_index": 42,
+          "map_entry": 42,
+          "name": "Weapon_LeftHand_Joint"
+        },
+        {
+          "name_id": "0x6172b9",
+          "name_number": 0,
+          "bone_index": 43,
+          "map_entry": 43,
+          "name": "LeftInHandRing"
+        },
+        {
+          "name_id": "0x617283",
+          "name_number": 0,
+          "bone_index": 44,
+          "map_entry": 44,
+          "name": "LeftHandRing1"
+        },
+        {
+          "name_id": "0x61728b",
+          "name_number": 0,
+          "bone_index": 45,
+          "map_entry": 45,
+          "name": "LeftHandRing2"
+        },
+        {
+          "name_id": "0x617293",
+          "name_number": 0,
+          "bone_index": 46,
+          "map_entry": 46,
+          "name": "LeftHandRing3"
+        },
+        {
+          "name_id": "0x6172b0",
+          "name_number": 0,
+          "bone_index": 47,
+          "map_entry": 47,
+          "name": "LeftInHandPinky"
+        },
+        {
+          "name_id": "0x61726b",
+          "name_number": 0,
+          "bone_index": 48,
+          "map_entry": 48,
+          "name": "LeftHandPinky1"
+        },
+        {
+          "name_id": "0x617273",
+          "name_number": 0,
+          "bone_index": 49,
+          "map_entry": 49,
+          "name": "LeftHandPinky2"
+        },
+        {
+          "name_id": "0x61727b",
+          "name_number": 0,
+          "bone_index": 50,
+          "map_entry": 50,
+          "name": "LeftHandPinky3"
+        },
+        {
+          "name_id": "0x617250",
+          "name_number": 0,
+          "bone_index": 51,
+          "map_entry": 51,
+          "name": "LeftHandMiddle1"
+        },
+        {
+          "name_id": "0x617259",
+          "name_number": 0,
+          "bone_index": 52,
+          "map_entry": 52,
+          "name": "LeftHandMiddle2"
+        },
+        {
+          "name_id": "0x617262",
+          "name_number": 0,
+          "bone_index": 53,
+          "map_entry": 53,
+          "name": "LeftHandMiddle3"
+        },
+        {
+          "name_id": "0x617240",
+          "name_number": 0,
+          "bone_index": 54,
+          "map_entry": 54,
+          "name": "LeftHandIndex1"
+        },
+        {
+          "name_id": "0x617248",
+          "name_number": 0,
+          "bone_index": 55,
+          "map_entry": 55,
+          "name": "LeftHandIndex2"
+        },
+        {
+          "name_id": "0x8d373",
+          "name_number": 0,
+          "bone_index": 56,
+          "map_entry": 56,
+          "name": "LeftHandIndex3"
+        },
+        {
+          "name_id": "0x617230",
+          "name_number": 0,
+          "bone_index": 57,
+          "map_entry": 57,
+          "name": "LeftArmTwist"
+        },
+        {
+          "name_id": "0x39dbdd",
+          "name_number": 0,
+          "bone_index": 58,
+          "map_entry": 58,
+          "name": "LeftUpLeg"
+        },
+        {
+          "name_id": "0x39647d",
+          "name_number": 0,
+          "bone_index": 59,
+          "map_entry": 59,
+          "name": "LeftLeg"
+        },
+        {
+          "name_id": "0x39cb36",
+          "name_number": 0,
+          "bone_index": 60,
+          "map_entry": 60,
+          "name": "LeftFoot"
+        },
+        {
+          "name_id": "0x5fdb8a",
+          "name_number": 0,
+          "bone_index": 61,
+          "map_entry": 61,
+          "name": "LeftToeBase"
+        },
+        {
+          "name_id": "0x5fdbfc",
+          "name_number": 0,
+          "bone_index": 62,
+          "map_entry": 62,
+          "name": "RightUpLeg"
+        },
+        {
+          "name_id": "0x396482",
+          "name_number": 0,
+          "bone_index": 63,
+          "map_entry": 63,
+          "name": "RightLeg"
+        },
+        {
+          "name_id": "0x39cb3b",
+          "name_number": 0,
+          "bone_index": 64,
+          "map_entry": 64,
+          "name": "RightFoot"
+        },
+        {
+          "name_id": "0x5fdbf5",
+          "name_number": 0,
+          "bone_index": 65,
+          "map_entry": 65,
+          "name": "RightToeBase"
+        },
+        {
+          "name_id": "0x5ffca4",
+          "name_number": 0,
+          "bone_index": 66,
+          "map_entry": 66,
+          "name": "b_IK_Hand_Root"
+        },
+        {
+          "name_id": "0x3a5cb3",
+          "name_number": 0,
+          "bone_index": 67,
+          "map_entry": 67,
+          "name": "b_IK_Gun"
+        },
+        {
+          "name_id": "0x60f4ec",
+          "name_number": 0,
+          "bone_index": 68,
+          "map_entry": 68,
+          "name": "b_IK_Hand_R"
+        },
+        {
+          "name_id": "0x60f4e5",
+          "name_number": 0,
+          "bone_index": 69,
+          "map_entry": 69,
+          "name": "b_IK_Hand_L"
+        },
+        {
+          "name_id": "0x1029e",
+          "name_number": 0,
+          "bone_index": 70,
+          "map_entry": 70,
+          "name": "Camera_Root"
+        },
+        {
+          "name_id": "0x39f393",
+          "name_number": 0,
+          "bone_index": 71,
+          "map_entry": 71,
+          "name": "Camera_Joint"
+        },
+        {
+          "name_id": "0x60f4dd",
+          "name_number": 0,
+          "bone_index": 72,
+          "map_entry": 72,
+          "name": "b_IK_Foot_Root"
+        },
+        {
+          "name_id": "0x60f4cf",
+          "name_number": 0,
+          "bone_index": 73,
+          "map_entry": 73,
+          "name": "b_IK_Foot_L"
+        },
+        {
+          "name_id": "0x60f4d6",
+          "name_number": 0,
+          "bone_index": 74,
+          "map_entry": 74,
+          "name": "b_IK_Foot_R"
+        },
+        {
+          "name_id": "0x617608",
+          "name_number": 0,
+          "bone_index": 75,
+          "map_entry": 75,
+          "name": "VB RightArm_RightForeArm"
+        },
+        {
+          "name_id": "0x6175fc",
+          "name_number": 0,
+          "bone_index": 76,
+          "map_entry": 76,
+          "name": "VB LeftArm_LeftForeArm"
+        },
+        {
+          "name_id": "0x6175df",
+          "name_number": 0,
+          "bone_index": 77,
+          "map_entry": 77,
+          "name": "VB b_IK_Foot_L_LeftToeBase"
+        },
+        {
+          "name_id": "0x6175ed",
+          "name_number": 0,
+          "bone_index": 78,
+          "map_entry": 78,
+          "name": "VB b_IK_Foot_R_RightToeBase"
+        },
+        {
+          "name_id": "0x617615",
+          "name_number": 0,
+          "bone_index": 79,
+          "map_entry": 79,
+          "name": "VB Spine_b_IK_Gun"
+        }
+      ],
+      "hash_entries_complete": true,
+      "identity_stable": true,
+      "header_stable": true,
+      "names_unambiguous": true
+    },
+    {
+      "asset": "0x6e0fe34ed0",
+      "identity": {
+        "index": 270529,
+        "entry": 472668377624,
+        "class": 480587497344,
+        "serial": 560485
+      },
+      "discovery_header": {
+        "storage": 475023204384,
+        "elements": 80,
+        "free": 0,
+        "hash_storage": 475077039104,
+        "hash_count": 64,
+        "raw_header_hex": "20e096996e0000005000000051000000ffffffffffffffffffff00000000000000000000000000005000000060000000ffffffff0000000000000000000000000054cc9c6e0000004000000000000000"
+      },
+      "usable": true,
+      "captured_identity_matches": true,
+      "header": {
+        "storage": 475023204384,
+        "elements": 80,
+        "free": 0,
+        "hash_storage": 475077039104,
+        "hash_count": 64,
+        "raw_header_hex": "20e096996e0000005000000051000000ffffffffffffffffffff00000000000000000000000000005000000060000000ffffffff0000000000000000000000000054cc9c6e0000004000000000000000"
+      },
+      "entries": [
+        {
+          "name_id": "0x3338f",
+          "name_number": 0,
+          "bone_index": 0,
+          "map_entry": 0,
+          "name": "root"
+        },
+        {
+          "name_id": "0x33657",
+          "name_number": 0,
+          "bone_index": 1,
+          "map_entry": 1,
+          "name": "Hips"
+        },
+        {
+          "name_id": "0x5a2a1",
+          "name_number": 0,
+          "bone_index": 2,
+          "map_entry": 2,
+          "name": "Spine"
+        },
+        {
+          "name_id": "0x396798",
+          "name_number": 0,
+          "bone_index": 3,
+          "map_entry": 3,
+          "name": "Spine1"
+        },
+        {
+          "name_id": "0x1029a",
+          "name_number": 0,
+          "bone_index": 4,
+          "map_entry": 4,
+          "name": "Spine2"
+        },
+        {
+          "name_id": "0x3a5516",
+          "name_number": 0,
+          "bone_index": 5,
+          "map_entry": 5,
+          "name": "RightShoulder"
+        },
+        {
+          "name_id": "0x5fdbd6",
+          "name_number": 0,
+          "bone_index": 6,
+          "map_entry": 6,
+          "name": "RightArm"
+        },
+        {
+          "name_id": "0x396476",
+          "name_number": 0,
+          "bone_index": 7,
+          "map_entry": 7,
+          "name": "RightForeArm"
+        },
+        {
+          "name_id": "0x617459",
+          "name_number": 3,
+          "bone_index": 8,
+          "map_entry": 8,
+          "name": "RightForeArmTwist"
+        },
+        {
+          "name_id": "0x617459",
+          "name_number": 2,
+          "bone_index": 9,
+          "map_entry": 9,
+          "name": "RightForeArmTwist"
+        },
+        {
+          "name_id": "0x2b8fcb",
+          "name_number": 0,
+          "bone_index": 10,
+          "map_entry": 10,
+          "name": "RightHand"
+        },
+        {
+          "name_id": "0x5fdbdb",
+          "name_number": 0,
+          "bone_index": 11,
+          "map_entry": 11,
+          "name": "RightHandThumb1"
+        },
+        {
+          "name_id": "0x5fdbe4",
+          "name_number": 0,
+          "bone_index": 12,
+          "map_entry": 12,
+          "name": "RightHandThumb2"
+        },
+        {
+          "name_id": "0x6174cd",
+          "name_number": 0,
+          "bone_index": 13,
+          "map_entry": 13,
+          "name": "RightHandThumb3"
+        },
+        {
+          "name_id": "0xda826",
+          "name_number": 0,
+          "bone_index": 14,
+          "map_entry": 14,
+          "name": "Weapon_RightHand_Joint"
+        },
+        {
+          "name_id": "0x6174df",
+          "name_number": 0,
+          "bone_index": 15,
+          "map_entry": 15,
+          "name": "RightInHandRing"
+        },
+        {
+          "name_id": "0x6174b5",
+          "name_number": 0,
+          "bone_index": 16,
+          "map_entry": 16,
+          "name": "RightHandRing1"
+        },
+        {
+          "name_id": "0x6174bd",
+          "name_number": 0,
+          "bone_index": 17,
+          "map_entry": 17,
+          "name": "RightHandRing2"
+        },
+        {
+          "name_id": "0x6174c5",
+          "name_number": 0,
+          "bone_index": 18,
+          "map_entry": 18,
+          "name": "RightHandRing3"
+        },
+        {
+          "name_id": "0x6174d6",
+          "name_number": 0,
+          "bone_index": 19,
+          "map_entry": 19,
+          "name": "RightInHandPinky"
+        },
+        {
+          "name_id": "0x61749a",
+          "name_number": 0,
+          "bone_index": 20,
+          "map_entry": 20,
+          "name": "RightHandPinky1"
+        },
+        {
+          "name_id": "0x6174a3",
+          "name_number": 0,
+          "bone_index": 21,
+          "map_entry": 21,
+          "name": "RightHandPinky2"
+        },
+        {
+          "name_id": "0x6174ac",
+          "name_number": 0,
+          "bone_index": 22,
+          "map_entry": 22,
+          "name": "RightHandPinky3"
+        },
+        {
+          "name_id": "0x617475",
+          "name_number": 0,
+          "bone_index": 23,
+          "map_entry": 23,
+          "name": "RightHandMiddle1"
+        },
+        {
+          "name_id": "0x61747e",
+          "name_number": 0,
+          "bone_index": 24,
+          "map_entry": 24,
+          "name": "RightHandMiddle2"
+        },
+        {
+          "name_id": "0x617487",
+          "name_number": 0,
+          "bone_index": 25,
+          "map_entry": 25,
+          "name": "RightHandMiddle3"
+        },
+        {
+          "name_id": "0x617463",
+          "name_number": 0,
+          "bone_index": 26,
+          "map_entry": 26,
+          "name": "RightHandIndex1"
+        },
+        {
+          "name_id": "0x61746c",
+          "name_number": 0,
+          "bone_index": 27,
+          "map_entry": 27,
+          "name": "RightHandIndex2"
+        },
+        {
+          "name_id": "0x8d37b",
+          "name_number": 0,
+          "bone_index": 28,
+          "map_entry": 28,
+          "name": "RightHandIndex3"
+        },
+        {
+          "name_id": "0x617451",
+          "name_number": 0,
+          "bone_index": 29,
+          "map_entry": 29,
+          "name": "RightArmTwist"
+        },
+        {
+          "name_id": "0x3aa043",
+          "name_number": 0,
+          "bone_index": 30,
+          "map_entry": 30,
+          "name": "Neck"
+        },
+        {
+          "name_id": "0x203c7",
+          "name_number": 0,
+          "bone_index": 31,
+          "map_entry": 31,
+          "name": "Head"
+        },
+        {
+          "name_id": "0x5a29b",
+          "name_number": 0,
+          "bone_index": 32,
+          "map_entry": 32,
+          "name": "Head_Joint"
+        },
+        {
+          "name_id": "0x3a6e56",
+          "name_number": 0,
+          "bone_index": 33,
+          "map_entry": 33,
+          "name": "LeftShoulder"
+        },
+        {
+          "name_id": "0x5fdb6d",
+          "name_number": 0,
+          "bone_index": 34,
+          "map_entry": 34,
+          "name": "LeftArm"
+        },
+        {
+          "name_id": "0x39646f",
+          "name_number": 0,
+          "bone_index": 35,
+          "map_entry": 35,
+          "name": "LeftForeArm"
+        },
+        {
+          "name_id": "0x617237",
+          "name_number": 3,
+          "bone_index": 36,
+          "map_entry": 36,
+          "name": "LeftForeArmTwist"
+        },
+        {
+          "name_id": "0x617237",
+          "name_number": 2,
+          "bone_index": 37,
+          "map_entry": 37,
+          "name": "LeftForeArmTwist"
+        },
+        {
+          "name_id": "0x2c25c9",
+          "name_number": 0,
+          "bone_index": 38,
+          "map_entry": 38,
+          "name": "LeftHand"
+        },
+        {
+          "name_id": "0x5fdb72",
+          "name_number": 0,
+          "bone_index": 39,
+          "map_entry": 39,
+          "name": "LeftHandThumb1"
+        },
+        {
+          "name_id": "0x5fdb7a",
+          "name_number": 0,
+          "bone_index": 40,
+          "map_entry": 40,
+          "name": "LeftHandThumb2"
+        },
+        {
+          "name_id": "0x6172a8",
+          "name_number": 0,
+          "bone_index": 41,
+          "map_entry": 41,
+          "name": "LeftHandThumb3"
+        },
+        {
+          "name_id": "0xda81a",
+          "name_number": 0,
+          "bone_index": 42,
+          "map_entry": 42,
+          "name": "Weapon_LeftHand_Joint"
+        },
+        {
+          "name_id": "0x6172b9",
+          "name_number": 0,
+          "bone_index": 43,
+          "map_entry": 43,
+          "name": "LeftInHandRing"
+        },
+        {
+          "name_id": "0x617283",
+          "name_number": 0,
+          "bone_index": 44,
+          "map_entry": 44,
+          "name": "LeftHandRing1"
+        },
+        {
+          "name_id": "0x61728b",
+          "name_number": 0,
+          "bone_index": 45,
+          "map_entry": 45,
+          "name": "LeftHandRing2"
+        },
+        {
+          "name_id": "0x617293",
+          "name_number": 0,
+          "bone_index": 46,
+          "map_entry": 46,
+          "name": "LeftHandRing3"
+        },
+        {
+          "name_id": "0x6172b0",
+          "name_number": 0,
+          "bone_index": 47,
+          "map_entry": 47,
+          "name": "LeftInHandPinky"
+        },
+        {
+          "name_id": "0x61726b",
+          "name_number": 0,
+          "bone_index": 48,
+          "map_entry": 48,
+          "name": "LeftHandPinky1"
+        },
+        {
+          "name_id": "0x617273",
+          "name_number": 0,
+          "bone_index": 49,
+          "map_entry": 49,
+          "name": "LeftHandPinky2"
+        },
+        {
+          "name_id": "0x61727b",
+          "name_number": 0,
+          "bone_index": 50,
+          "map_entry": 50,
+          "name": "LeftHandPinky3"
+        },
+        {
+          "name_id": "0x617250",
+          "name_number": 0,
+          "bone_index": 51,
+          "map_entry": 51,
+          "name": "LeftHandMiddle1"
+        },
+        {
+          "name_id": "0x617259",
+          "name_number": 0,
+          "bone_index": 52,
+          "map_entry": 52,
+          "name": "LeftHandMiddle2"
+        },
+        {
+          "name_id": "0x617262",
+          "name_number": 0,
+          "bone_index": 53,
+          "map_entry": 53,
+          "name": "LeftHandMiddle3"
+        },
+        {
+          "name_id": "0x617240",
+          "name_number": 0,
+          "bone_index": 54,
+          "map_entry": 54,
+          "name": "LeftHandIndex1"
+        },
+        {
+          "name_id": "0x617248",
+          "name_number": 0,
+          "bone_index": 55,
+          "map_entry": 55,
+          "name": "LeftHandIndex2"
+        },
+        {
+          "name_id": "0x8d373",
+          "name_number": 0,
+          "bone_index": 56,
+          "map_entry": 56,
+          "name": "LeftHandIndex3"
+        },
+        {
+          "name_id": "0x617230",
+          "name_number": 0,
+          "bone_index": 57,
+          "map_entry": 57,
+          "name": "LeftArmTwist"
+        },
+        {
+          "name_id": "0x39dbdd",
+          "name_number": 0,
+          "bone_index": 58,
+          "map_entry": 58,
+          "name": "LeftUpLeg"
+        },
+        {
+          "name_id": "0x39647d",
+          "name_number": 0,
+          "bone_index": 59,
+          "map_entry": 59,
+          "name": "LeftLeg"
+        },
+        {
+          "name_id": "0x39cb36",
+          "name_number": 0,
+          "bone_index": 60,
+          "map_entry": 60,
+          "name": "LeftFoot"
+        },
+        {
+          "name_id": "0x5fdb8a",
+          "name_number": 0,
+          "bone_index": 61,
+          "map_entry": 61,
+          "name": "LeftToeBase"
+        },
+        {
+          "name_id": "0x5fdbfc",
+          "name_number": 0,
+          "bone_index": 62,
+          "map_entry": 62,
+          "name": "RightUpLeg"
+        },
+        {
+          "name_id": "0x396482",
+          "name_number": 0,
+          "bone_index": 63,
+          "map_entry": 63,
+          "name": "RightLeg"
+        },
+        {
+          "name_id": "0x39cb3b",
+          "name_number": 0,
+          "bone_index": 64,
+          "map_entry": 64,
+          "name": "RightFoot"
+        },
+        {
+          "name_id": "0x5fdbf5",
+          "name_number": 0,
+          "bone_index": 65,
+          "map_entry": 65,
+          "name": "RightToeBase"
+        },
+        {
+          "name_id": "0x5ffca4",
+          "name_number": 0,
+          "bone_index": 66,
+          "map_entry": 66,
+          "name": "b_IK_Hand_Root"
+        },
+        {
+          "name_id": "0x3a5cb3",
+          "name_number": 0,
+          "bone_index": 67,
+          "map_entry": 67,
+          "name": "b_IK_Gun"
+        },
+        {
+          "name_id": "0x60f4ec",
+          "name_number": 0,
+          "bone_index": 68,
+          "map_entry": 68,
+          "name": "b_IK_Hand_R"
+        },
+        {
+          "name_id": "0x60f4e5",
+          "name_number": 0,
+          "bone_index": 69,
+          "map_entry": 69,
+          "name": "b_IK_Hand_L"
+        },
+        {
+          "name_id": "0x1029e",
+          "name_number": 0,
+          "bone_index": 70,
+          "map_entry": 70,
+          "name": "Camera_Root"
+        },
+        {
+          "name_id": "0x39f393",
+          "name_number": 0,
+          "bone_index": 71,
+          "map_entry": 71,
+          "name": "Camera_Joint"
+        },
+        {
+          "name_id": "0x60f4dd",
+          "name_number": 0,
+          "bone_index": 72,
+          "map_entry": 72,
+          "name": "b_IK_Foot_Root"
+        },
+        {
+          "name_id": "0x60f4cf",
+          "name_number": 0,
+          "bone_index": 73,
+          "map_entry": 73,
+          "name": "b_IK_Foot_L"
+        },
+        {
+          "name_id": "0x60f4d6",
+          "name_number": 0,
+          "bone_index": 74,
+          "map_entry": 74,
+          "name": "b_IK_Foot_R"
+        },
+        {
+          "name_id": "0x617608",
+          "name_number": 0,
+          "bone_index": 75,
+          "map_entry": 75,
+          "name": "VB RightArm_RightForeArm"
+        },
+        {
+          "name_id": "0x6175fc",
+          "name_number": 0,
+          "bone_index": 76,
+          "map_entry": 76,
+          "name": "VB LeftArm_LeftForeArm"
+        },
+        {
+          "name_id": "0x6175df",
+          "name_number": 0,
+          "bone_index": 77,
+          "map_entry": 77,
+          "name": "VB b_IK_Foot_L_LeftToeBase"
+        },
+        {
+          "name_id": "0x6175ed",
+          "name_number": 0,
+          "bone_index": 78,
+          "map_entry": 78,
+          "name": "VB b_IK_Foot_R_RightToeBase"
+        },
+        {
+          "name_id": "0x617615",
+          "name_number": 0,
+          "bone_index": 79,
+          "map_entry": 79,
+          "name": "VB Spine_b_IK_Gun"
+        }
+      ],
+      "hash_entries_complete": true,
+      "identity_stable": true,
+      "header_stable": true,
+      "names_unambiguous": true
+    }
+  ],
+  "skeletal_asset_map_errors": {
+    "0x0": "Asset identity/class unavailable"
+  },
+  "name_decode_process_stable": true,
+  "screen_verified": false,
+  "limits": [
+    "Batched pages are not frame-atomic.",
+    "Current key is process-specific."
+  ]
+}

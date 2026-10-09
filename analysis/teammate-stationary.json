@@ -1,0 +1,365 @@
+[
+  {
+    "sequence": 0,
+    "time": 33002.635764591,
+    "world": "0x7662255bc0",
+    "game_state_class": "BP_GameState_PVPVE_C",
+    "local_team": 1,
+    "local_player_state": "0x7638c5e390",
+    "camera": {
+      "location": [
+        -16653.154296875,
+        -23066.73828125,
+        1002.2238159179688
+      ],
+      "handler": "0xffff",
+      "rotation": [
+        -0.6384588479995728,
+        -153.77098083496094,
+        1.671144502779498e-07
+      ],
+      "fov": 90.0,
+      "axis_constraint": 1
+    },
+    "roster_count": 13,
+    "positions": [
+      {
+        "player_state": "0x7638c5e390",
+        "pawn": "0x75e78cc010",
+        "team_id": 1,
+        "camp": 0,
+        "role": "self",
+        "source": "root_relative_location",
+        "xyz": [
+          -16630.470703125,
+          -23060.333984375,
+          938.9968872070312
+        ],
+        "handler": "0xffff",
+        "pawn_reverse_matches": true,
+        "screen_candidate": null,
+        "root_raw": [
+          -16630.470703125,
+          -23060.333984375,
+          938.9968872070312,
+          65535
+        ],
+        "handler_and_finiteness_pass": true,
+        "world_position_verified": false
+      },
+      {
+        "player_state": "0x75ff7671d0",
+        "pawn": "0x75e6860040",
+        "team_id": 1,
+        "camp": 0,
+        "role": "ally",
+        "source": "replicated_location",
+        "xyz": [
+          -16630.689453125,
+          -23060.115234375,
+          110.77813720703125
+        ],
+        "handler": "0xffff",
+        "pawn_reverse_matches": true,
+        "screen_candidate": null,
+        "root_raw": [
+          -17004.626953125,
+          -22686.177734375,
+          -263.15936279296875,
+          50397184
+        ],
+        "handler_and_finiteness_pass": true,
+        "world_position_verified": false
+      },
+      {
+        "player_state": "0x760ab85560",
+        "pawn": "0x75d8150040",
+        "team_id": 1,
+        "camp": 0,
+        "role": "ally",
+        "source": "replicated_location",
+        "xyz": [
+          -16675.830078125,
+          -23065.55859375,
+          110.12640380859375
+        ],
+        "handler": "0xffff",
+        "pawn_reverse_matches": true,
+        "screen_candidate": {
+          "x": 941.5124915857513,
+          "y": 46012.20783541936,
+          "depth": 29.758978037141187,
+          "in_viewport": false
+        },
+        "root_raw": [
+          -17087.767578125,
+          -22653.62109375,
+          -301.81109619140625,
+          50397199
+        ],
+        "handler_and_finiteness_pass": true,
+        "world_position_verified": false
+      },
+      {
+        "player_state": "0x76d84338f0",
+        "pawn": "0x75f101c010",
+        "team_id": 3,
+        "camp": 106,
+        "role": "other_team",
+        "source": "replicated_location",
+        "xyz": [
+          -17088.64453125,
+          -22637.8984375,
+          -271.72393798828125
+        ],
+        "handler": "0xffff",
+        "pawn_reverse_matches": true,
+        "screen_candidate": {
+          "x": -2520.990594794187,
+          "y": 9919.345134821333,
+          "depth": 215.30275170569294,
+          "in_viewport": false
+        },
+        "root_raw": [
+          -16734.70703125,
+          -22991.8359375,
+          82.21356201171875,
+          50397319
+        ],
+        "handler_and_finiteness_pass": true,
+        "world_position_verified": false
+      },
+      {
+        "player_state": "0x7778590010",
+        "pawn": "0x766b56c010",
+        "team_id": 3,
+        "camp": 106,
+        "role": "other_team",
+        "source": "replicated_location",
+        "xyz": [
+          -17088.64453125,
+          -22637.8984375,
+          -271.72393798828125
+        ],
+        "handler": "0xffff",
+        "pawn_reverse_matches": true,
+        "screen_candidate": {
+          "x": -2520.990594794187,
+          "y": 9919.345134821333,
+          "depth": 215.30275170569294,
+          "in_viewport": false
+        },
+        "root_raw": [
+          -17166.70703125,
+          -22559.8359375,
+          -349.78643798828125,
+          50397334
+        ],
+        "handler_and_finiteness_pass": true,
+        "world_position_verified": false
+      },
+      {
+        "player_state": "0x75c591aab0",
+        "pawn": "0x75d5698020",
+        "team_id": 4,
+        "camp": 106,
+        "role": "other_team",
+        "source": "replicated_location",
+        "xyz": [
+          -16960.76953125,
+          -22765.7734375,
+          -143.84893798828125
+        ],
+        "handler": "0xffff",
+        "pawn_reverse_matches": true,
+        "screen_candidate": {
+          "x": -2410.9705872549625,
+          "y": 12085.92648532135,
+          "depth": 155.68881717269275,
+          "in_viewport": false
+        },
+        "root_raw": [
+          -16860.70703125,
+          -22865.8359375,
+          -43.78643798828125,
+          50397214
+        ],
+        "handler_and_finiteness_pass": true,
+        "world_position_verified": false
+      },
+      {
+        "player_state": "0x7778598e40",
+        "pawn": "0x7636fa0040",
+        "team_id": 2,
+        "camp": 0,
+        "role": "other_team",
+        "source": "replicated_location",
+        "xyz": [
+          -15930.533203125,
+          -22914.779296875,
+          99.57562255859375
+        ],
+        "handler": "0xffff",
+        "pawn_reverse_matches": true,
+        "screen_candidate": null,
+        "root_raw": [
+          -16188.470703125,
+          -22656.841796875,
+          -158.36187744140625,
+          50397304
+        ],
+        "handler_and_finiteness_pass": true,
+        "world_position_verified": false
+      },
+      {
+        "player_state": "0x75cc701c80",
+        "pawn": "0x75dbcf0040",
+        "team_id": 4,
+        "camp": 106,
+        "role": "other_team",
+        "source": "replicated_location",
+        "xyz": [
+          -16704.76953125,
+          -23021.7734375,
+          112.15106201171875
+        ],
+        "handler": "0xffff",
+        "pawn_reverse_matches": true,
+        "screen_candidate": {
+          "x": -1106.18828946317,
+          "y": 37780.49837353389,
+          "depth": 36.34440082510285,
+          "in_viewport": false
+        },
+        "root_raw": [
+          -16976.70703125,
+          -22749.8359375,
+          -159.78643798828125,
+          50397229
+        ],
+        "handler_and_finiteness_pass": true,
+        "world_position_verified": false
+      },
+      {
+        "player_state": "0x79cf5438f0",
+        "pawn": "0x75d8d98020",
+        "team_id": 4,
+        "camp": 106,
+        "role": "other_team",
+        "source": "replicated_location",
+        "xyz": [
+          -16395.3984375,
+          -24077.642578125,
+          -178.70135498046875
+        ],
+        "handler": "0xffff",
+        "pawn_reverse_matches": true,
+        "screen_candidate": {
+          "x": 8194.53154058332,
+          "y": 8788.918034268689,
+          "depth": 228.70921094894547,
+          "in_viewport": false
+        },
+        "root_raw": [
+          -16965.3203125,
+          -23310.619140625,
+          -53.3104248046875,
+          50397244
+        ],
+        "handler_and_finiteness_pass": true,
+        "world_position_verified": false
+      },
+      {
+        "player_state": "0x7666a18e40",
+        "pawn": "0x75f090c010",
+        "team_id": 5,
+        "camp": 106,
+        "role": "other_team",
+        "source": "replicated_location",
+        "xyz": [
+          -17098.302734375,
+          -22698.328125,
+          -273.356201171875
+        ],
+        "handler": "0xffff",
+        "pawn_reverse_matches": true,
+        "screen_candidate": {
+          "x": -1654.5807538395406,
+          "y": 8676.172849767794,
+          "depth": 250.69000589072067,
+          "in_viewport": false
+        },
+        "root_raw": [
+          -16795.412109375,
+          -23058.431640625,
+          72.04559326171875,
+          50397259
+        ],
+        "handler_and_finiteness_pass": true,
+        "world_position_verified": false
+      },
+      {
+        "player_state": "0x76d0e31c80",
+        "pawn": "0x770fde4030",
+        "team_id": 5,
+        "camp": 106,
+        "role": "other_team",
+        "source": "replicated_location",
+        "xyz": [
+          -16900.86328125,
+          -23005.01953125,
+          -15.13372802734375
+        ],
+        "handler": "0xffff",
+        "pawn_reverse_matches": true,
+        "screen_candidate": {
+          "x": 301.15710296465795,
+          "y": 8442.686412483774,
+          "depth": 206.25059745143597,
+          "in_viewport": false
+        },
+        "root_raw": [
+          -17094.92578125,
+          -22810.95703125,
+          -209.19622802734375,
+          50397274
+        ],
+        "handler_and_finiteness_pass": true,
+        "world_position_verified": false
+      },
+      {
+        "player_state": "0x75eec61c80",
+        "pawn": "0x75d2708020",
+        "team_id": 5,
+        "camp": 106,
+        "role": "other_team",
+        "source": "replicated_location",
+        "xyz": [
+          -17028.98828125,
+          -22876.89453125,
+          -143.25872802734375
+        ],
+        "handler": "0xffff",
+        "pawn_reverse_matches": true,
+        "screen_candidate": {
+          "x": -397.12795793741543,
+          "y": 7503.633119858007,
+          "depth": 265.98107926602563,
+          "in_viewport": false
+        },
+        "root_raw": [
+          -17018.92578125,
+          -22886.95703125,
+          -133.19622802734375,
+          50397289
+        ],
+        "handler_and_finiteness_pass": true,
+        "world_position_verified": false
+      }
+    ],
+    "pixel_alignment_verified": false,
+    "cached_world_equality": true,
+    "cached_roster_equality": true,
+    "epoch_stability_verified": false
+  }
+]

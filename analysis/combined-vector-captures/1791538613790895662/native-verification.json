@@ -1,0 +1,252 @@
+{
+  "pid": 21490,
+  "key": "0x53d1d34b",
+  "real_payload_cases": 24,
+  "all_passed": true,
+  "code_source": "analysis/session-refresh-history/pid-21490/unpacker.bin",
+  "checks": [
+    {
+      "vector": "0x6e91c29b68",
+      "slot": 2,
+      "matches": true,
+      "xyz": [
+        -20723.09375,
+        -7079.6875,
+        365.890625
+      ]
+    },
+    {
+      "vector": "0x6e91c29b48",
+      "slot": 2,
+      "matches": true,
+      "xyz": [
+        -20723.09375,
+        -7079.6875,
+        365.890625
+      ]
+    },
+    {
+      "vector": "0x6d61814748",
+      "slot": 0,
+      "matches": true,
+      "xyz": [
+        -20723.09375,
+        -7079.6875,
+        365.890625
+      ]
+    },
+    {
+      "vector": "0x6d555ec808",
+      "slot": 3,
+      "matches": true,
+      "xyz": [
+        -20742.8125,
+        -25433.6875,
+        1691.4892578125
+      ]
+    },
+    {
+      "vector": "0x6d555ec7e8",
+      "slot": 0,
+      "matches": true,
+      "xyz": [
+        -20742.8125,
+        -25433.6875,
+        1691.4892578125
+      ]
+    },
+    {
+      "vector": "0x6d59098d08",
+      "slot": 3,
+      "matches": true,
+      "xyz": [
+        -20742.8125,
+        -25433.6875,
+        1691.4892578125
+      ]
+    },
+    {
+      "vector": "0x6e91e12f08",
+      "slot": 2,
+      "matches": true,
+      "xyz": [
+        -29696.8125,
+        -8751.375,
+        -180.109375
+      ]
+    },
+    {
+      "vector": "0x6e91e12ee8",
+      "slot": 4,
+      "matches": true,
+      "xyz": [
+        -29696.8125,
+        -8751.375,
+        -180.109375
+      ]
+    },
+    {
+      "vector": "0x6e11770188",
+      "slot": 0,
+      "matches": true,
+      "xyz": [
+        -29696.8125,
+        -8751.375,
+        -180.109375
+      ]
+    },
+    {
+      "vector": "0x6eee073568",
+      "slot": 2,
+      "matches": true,
+      "xyz": [
+        -29093.5,
+        -14037.0,
+        289.990234375
+      ]
+    },
+    {
+      "vector": "0x6eee073548",
+      "slot": 6,
+      "matches": true,
+      "xyz": [
+        -29093.5,
+        -14037.0,
+        289.990234375
+      ]
+    },
+    {
+      "vector": "0x6e8e6dbb88",
+      "slot": 3,
+      "matches": true,
+      "xyz": [
+        -29093.5,
+        -14037.0,
+        289.990234375
+      ]
+    },
+    {
+      "vector": "0x6d84f77528",
+      "slot": 3,
+      "matches": true,
+      "xyz": [
+        -26728.40625,
+        -1959.875,
+        -182.708984375
+      ]
+    },
+    {
+      "vector": "0x6d84f77508",
+      "slot": 6,
+      "matches": true,
+      "xyz": [
+        -26728.40625,
+        -1959.875,
+        -182.708984375
+      ]
+    },
+    {
+      "vector": "0x6e94478d08",
+      "slot": 4,
+      "matches": true,
+      "xyz": [
+        -26728.40625,
+        -1959.875,
+        -182.708984375
+      ]
+    },
+    {
+      "vector": "0x6e10484228",
+      "slot": 4,
+      "matches": true,
+      "xyz": [
+        -22269.1875,
+        -6714.5,
+        -170.009765625
+      ]
+    },
+    {
+      "vector": "0x6e10484208",
+      "slot": 6,
+      "matches": true,
+      "xyz": [
+        -22269.1875,
+        -6714.5,
+        -170.009765625
+      ]
+    },
+    {
+      "vector": "0x6dfd380188",
+      "slot": 2,
+      "matches": true,
+      "xyz": [
+        -22269.1875,
+        -6714.5,
+        -170.009765625
+      ]
+    },
+    {
+      "vector": "0x6e11a881e8",
+      "slot": 7,
+      "matches": true,
+      "xyz": [
+        -21940.8125,
+        -6756.375,
+        -132.708984375
+      ]
+    },
+    {
+      "vector": "0x6e11a881c8",
+      "slot": 2,
+      "matches": true,
+      "xyz": [
+        -21940.8125,
+        -6756.375,
+        -132.708984375
+      ]
+    },
+    {
+      "vector": "0x6e460375c8",
+      "slot": 3,
+      "matches": true,
+      "xyz": [
+        -21940.8125,
+        -6756.375,
+        -132.708984375
+      ]
+    },
+    {
+      "vector": "0x6d60b42f08",
+      "slot": 2,
+      "matches": true,
+      "xyz": [
+        -22019.5,
+        -5897.5,
+        -54.41015625
+      ]
+    },
+    {
+      "vector": "0x6d60b42ee8",
+      "slot": 0,
+      "matches": true,
+      "xyz": [
+        -22019.5,
+        -5897.5,
+        -54.41015625
+      ]
+    },
+    {
+      "vector": "0x6e3d7518c8",
+      "slot": 7,
+      "matches": true,
+      "xyz": [
+        -22019.5,
+        -5897.5,
+        -54.41015625
+      ]
+    }
+  ],
+  "limits": [
+    "Offline arithmetic equivalence does not independently establish world coordinates."
+  ]
+}

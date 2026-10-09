@@ -1,0 +1,1070 @@
+{
+  "pid": 22846,
+  "world": "0x756162e4a0",
+  "game_state_class": "?",
+  "records": "0x7735ae3000",
+  "state": "0x7afee77000",
+  "key": "0x765d0871",
+  "count": 252,
+  "count_after": 252,
+  "header_stable": true,
+  "page_count": 211,
+  "batch_seconds": 3.515907392000372,
+  "total_seconds": 10.72701325199887,
+  "camera": {
+    "xyz": [
+      -25777.037109375,
+      -2162.681640625,
+      -126.02371215820312
+    ],
+    "handler": "0xffff",
+    "rotation": [
+      -0.5783258080482483,
+      18.125194549560547,
+      -2.55713281660519e-08
+    ],
+    "fov": 90.0,
+    "aspect": 1.3333300352096558
+  },
+  "players": [
+    {
+      "ps": "0x7576998e40",
+      "pawn": "0x7619f64030",
+      "mesh": "0x76ce5aa300",
+      "root": "0x768bb41420",
+      "self": true,
+      "team": 1,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -25785.43359375,
+            -2160.678466796875,
+            -190.00888061523438
+          ],
+          "handler": "0xffff",
+          "decode_error": "Expected one record for 0x76ce5aa454, found 0",
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -25780.01171875,
+            -2162.046630859375,
+            -190.00888061523438
+          ],
+          "handler": "0xffff",
+          "decode_error": "Expected one record for 0x768bb41574, found 0",
+          "extents": [
+            50.45893859863281,
+            50.45893859863281,
+            86.0
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -25780.01171875,
+            -2162.046630859375,
+            -190.00888061523438
+          ],
+          "handler": "0xffff",
+          "decode_error": "Expected one record for 0x768bb41594, found 0"
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -25785.43359375,
+            -2160.678466796875,
+            -276.0087890625
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x76ce5aa52c, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x76d84338f0",
+      "pawn": "0x7591b58020",
+      "mesh": "0x75893b4600",
+      "root": "0x7717f9b380",
+      "self": false,
+      "team": 5,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -5579.74951171875,
+            -13170.91796875,
+            -989.8929443359375
+          ],
+          "handler": "0x301106b",
+          "record": "0x7735b40200",
+          "slot": 6,
+          "xyz": [
+            -20537.65625,
+            -13306.0625,
+            -250.486572265625
+          ],
+          "vector_pointer_cache": "0x75893b4748",
+          "distance_m": 123.14281942939928,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -5797.74951171875,
+            -12952.91796875,
+            -1207.8929443359375
+          ],
+          "handler": "0x30100a6",
+          "record": "0x7735b3dcc0",
+          "slot": 1,
+          "xyz": [
+            -20537.65625,
+            -13306.0625,
+            -180.486572265625
+          ],
+          "vector_pointer_cache": "0x0",
+          "distance_m": 123.13773384702243,
+          "extents": [
+            44.595611572265625,
+            44.595611572265625,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -5797.74951171875,
+            -12952.91796875,
+            -1207.8929443359375
+          ],
+          "handler": "0x30100a5",
+          "record": "0x7735b3ef60",
+          "slot": 2,
+          "xyz": [
+            -20537.65625,
+            -13306.0625,
+            -180.486572265625
+          ],
+          "vector_pointer_cache": "0x7717f9b4e8",
+          "distance_m": 123.13773384702243
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -5693.59326171875,
+            -13057.07421875,
+            -1103.7366943359375
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x75893b482c, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x77c787c720",
+      "pawn": "0x7603418020",
+      "mesh": "0x77befb2ec0",
+      "root": "0x7743489a00",
+      "self": false,
+      "team": 5,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -5533.74951171875,
+            -13216.91796875,
+            -943.8929443359375
+          ],
+          "handler": "0x3011041",
+          "record": "0x7735b296d0",
+          "slot": 0,
+          "xyz": [
+            -8753.46875,
+            -17940.1875,
+            -135.310791015625
+          ],
+          "vector_pointer_cache": "0x77befb3008",
+          "distance_m": 232.10593639085576,
+          "extents": [
+            330.0,
+            330.0,
+            55.0
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -5747.74951171875,
+            -13002.91796875,
+            -1157.8929443359375
+          ],
+          "handler": "0x301006a",
+          "record": "0x7735b27190",
+          "slot": 2,
+          "xyz": [
+            -8753.46875,
+            -17940.1875,
+            -65.31078338623047
+          ],
+          "vector_pointer_cache": "0x0",
+          "distance_m": 232.10671185656093,
+          "extents": [
+            47.023284912109375,
+            47.023284912109375,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            5683.59326171875,
+            -9960.103515625,
+            -1576.035888671875
+          ],
+          "handler": "0x3010069",
+          "record": "0x7735b28430",
+          "slot": 6,
+          "xyz": [
+            -8753.46875,
+            -17940.1875,
+            -65.31078338623047
+          ],
+          "vector_pointer_cache": "0x7743489b68",
+          "distance_m": 232.10671185656093
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            5737.74951171875,
+            -10014.259765625,
+            -1521.879638671875
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x77befb30ec, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x77939b0010",
+      "pawn": "0x75aa920040",
+      "mesh": "0x7643a9ba40",
+      "root": "0x7716b9c040",
+      "self": false,
+      "team": 5,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -5811.74951171875,
+            -12938.91796875,
+            -1221.8929443359375
+          ],
+          "handler": "0x3011010",
+          "record": "0x7735b14790",
+          "slot": 0,
+          "xyz": [
+            -8419.65625,
+            -17781.125,
+            -132.830322265625
+          ],
+          "vector_pointer_cache": "0x7643a9bb88",
+          "distance_m": 233.49828470405168,
+          "extents": [
+            330.0,
+            330.0,
+            55.0
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -5823.74951171875,
+            -12926.91796875,
+            -1233.8929443359375
+          ],
+          "handler": "0x301001f",
+          "record": "0x7735b12ba0",
+          "slot": 4,
+          "xyz": [
+            -8419.65625,
+            -17781.125,
+            -62.83031463623047
+          ],
+          "vector_pointer_cache": "0x0",
+          "distance_m": 233.4991299069213,
+          "extents": [
+            52.76483154296875,
+            52.76483154296875,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            5523.50244140625,
+            -9860.4111328125,
+            -1689.483154296875
+          ],
+          "handler": "0x301001e",
+          "record": "0x7735b12250",
+          "slot": 3,
+          "xyz": [
+            -8419.65625,
+            -17781.125,
+            -62.83031463623047
+          ],
+          "vector_pointer_cache": "0x7716b9c1a8",
+          "distance_m": 233.4991299069213
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            5909.65869140625,
+            -10246.5673828125,
+            -1303.326904296875
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x7643a9bc6c, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x792f828e40",
+      "pawn": "0x7592cac010",
+      "mesh": "0x763dc64600",
+      "root": "0x761cb6b380",
+      "self": false,
+      "team": 3,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -25824.93359375,
+            -2069.626953125,
+            -1160.1651611328125
+          ],
+          "handler": "0x3011004",
+          "record": "0x7735b706f0",
+          "slot": 1,
+          "xyz": [
+            -9126.0,
+            4388.8125,
+            -832.310546875
+          ],
+          "vector_pointer_cache": "0x763dc64748",
+          "distance_m": 179.0748316724942,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -26042.93359375,
+            -1851.626953125,
+            -1378.1651611328125
+          ],
+          "handler": "0x3010010",
+          "record": "0x7735b73580",
+          "slot": 6,
+          "xyz": [
+            -9219.6875,
+            4372.5,
+            -835.009765625
+          ],
+          "vector_pointer_cache": "0x0",
+          "distance_m": 178.14518977144542,
+          "extents": [
+            48.50834274291992,
+            48.50834274291992,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -26040.814453125,
+            -1853.45166015625,
+            -1378.1651611328125
+          ],
+          "handler": "0x301000f",
+          "record": "0x7735b72c30",
+          "slot": 2,
+          "xyz": [
+            -9126.0,
+            4388.8125,
+            -832.310546875
+          ],
+          "vector_pointer_cache": "0x761cb6b4e8",
+          "distance_m": 179.0748316724942
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -26064.783203125,
+            -1829.48291015625,
+            -1402.1339111328125
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x763dc6482c, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x75aa438e40",
+      "pawn": "0x757e588020",
+      "mesh": "0x762e34d180",
+      "root": "0x75f85a8080",
+      "self": false,
+      "team": 1,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            14967.8125,
+            7892.375,
+            -79.29320526123047
+          ],
+          "handler": "0xffff",
+          "decode_error": "Expected one record for 0x762e34d2d4, found 0",
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -16220.451171875,
+            3694.488525390625,
+            -1914.15625
+          ],
+          "handler": "0x30100d3",
+          "record": "0x7735b6d860",
+          "slot": 3,
+          "xyz": [
+            14967.8125,
+            7892.375,
+            -79.29320526123047
+          ],
+          "vector_pointer_cache": "0x0",
+          "distance_m": 419.6723862106057,
+          "extents": [
+            55.467735290527344,
+            55.467735290527344,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -16220.451171875,
+            3694.488525390625,
+            -1914.15625
+          ],
+          "handler": "0x30100d2",
+          "record": "0x7735b6cf10",
+          "slot": 3,
+          "xyz": [
+            14967.8125,
+            7892.375,
+            -79.29320526123047
+          ],
+          "vector_pointer_cache": "0x75f85a81e8",
+          "distance_m": 419.6723862106057
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -16218.294921875,
+            3692.332275390625,
+            -1912.0
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x762e34d3ac, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x786e4f1c80",
+      "pawn": "0x7574b8c010",
+      "mesh": "0x7592214600",
+      "root": "0x75acda2da0",
+      "self": false,
+      "team": 3,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -25800.6796875,
+            -2135.32275390625,
+            -1160.1651611328125
+          ],
+          "handler": "0x301102d",
+          "record": "0x7735b53ea0",
+          "slot": 2,
+          "xyz": [
+            -9237.6875,
+            4727.5,
+            -835.609375
+          ],
+          "vector_pointer_cache": "0x7592214748",
+          "distance_m": 179.3120744274767,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -25774.93359375,
+            -2119.626953125,
+            -1110.1651611328125
+          ],
+          "handler": "0x301004c",
+          "record": "0x7735b51960",
+          "slot": 7,
+          "xyz": [
+            -9237.6875,
+            4727.5,
+            -835.609375
+          ],
+          "vector_pointer_cache": "0x0",
+          "distance_m": 179.3120744274767,
+          "extents": [
+            44.595619201660156,
+            44.595619201660156,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -25774.814453125,
+            -2119.45166015625,
+            -1112.1651611328125
+          ],
+          "handler": "0x301004b",
+          "record": "0x7735b52c00",
+          "slot": 2,
+          "xyz": [
+            -9237.6875,
+            4727.5,
+            -835.609375
+          ],
+          "vector_pointer_cache": "0x75acda2f08",
+          "distance_m": 179.3120744274767
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -26043.501953125,
+            -1896.0771484375,
+            -1402.1339111328125
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x759221482c, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x7580458e40",
+      "pawn": "0x757e908020",
+      "mesh": "0x7657c75d40",
+      "root": "0x771611ad20",
+      "self": false,
+      "team": 3,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -25949.15234375,
+            -1979.772705078125,
+            -1206.1651611328125
+          ],
+          "handler": "0x3011044",
+          "record": "0x7735b67b40",
+          "slot": 3,
+          "xyz": [
+            -9980.09375,
+            8624.1875,
+            -994.609375
+          ],
+          "vector_pointer_cache": "0x7657c75e88",
+          "distance_m": 191.4822201693839,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -26109.15234375,
+            -1819.772705078125,
+            -1366.1651611328125
+          ],
+          "handler": "0x30100c4",
+          "record": "0x7735b6a080",
+          "slot": 3,
+          "xyz": [
+            -9980.09375,
+            8624.1875,
+            -994.609375
+          ],
+          "vector_pointer_cache": "0x0",
+          "distance_m": 191.4822201693839,
+          "extents": [
+            43.71714401245117,
+            43.71714401245117,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -26106.533203125,
+            -1820.721435546875,
+            -1366.1651611328125
+          ],
+          "handler": "0x30100c3",
+          "record": "0x7735b69730",
+          "slot": 2,
+          "xyz": [
+            -9980.09375,
+            8624.1875,
+            -994.609375
+          ],
+          "vector_pointer_cache": "0x771611ae88",
+          "distance_m": 191.4822201693839
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -26014.376953125,
+            -1912.877685546875,
+            -1274.0089111328125
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x7657c75f6c, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x758045c720",
+      "pawn": "0x7592114030",
+      "mesh": "0x76310f1780",
+      "root": "0x761cb62740",
+      "self": false,
+      "team": 2,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -15630.30859375,
+            3399.3173828125,
+            -1729.580322265625
+          ],
+          "handler": "0x3011021",
+          "record": "0x7735b4bc40",
+          "slot": 7,
+          "xyz": [
+            -3209.0,
+            -24302.3125,
+            131.890625
+          ],
+          "vector_pointer_cache": "0x76310f18c8",
+          "distance_m": 316.15598576728365,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -15662.30859375,
+            3431.3173828125,
+            -1761.580322265625
+          ],
+          "handler": "0x301003d",
+          "record": "0x7735b4ead0",
+          "slot": 3,
+          "xyz": [
+            -3209.0,
+            -24302.3125,
+            131.890625
+          ],
+          "vector_pointer_cache": "0x0",
+          "distance_m": 316.15598576728365,
+          "extents": [
+            47.03501510620117,
+            47.03501510620117,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -15657.10546875,
+            3430.151611328125,
+            -1762.207763671875
+          ],
+          "handler": "0x301003c",
+          "record": "0x7735b4fd70",
+          "slot": 6,
+          "xyz": [
+            -3209.0,
+            -24302.3125,
+            131.890625
+          ],
+          "vector_pointer_cache": "0x761cb628a8",
+          "distance_m": 316.15598576728365
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -15705.07421875,
+            3478.120361328125,
+            -1810.176513671875
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x76310f19ac, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x75a3078e40",
+      "pawn": "0x762cf74030",
+      "mesh": "0x758bfee8c0",
+      "root": "0x7791df1420",
+      "self": false,
+      "team": 4,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -5556.607421875,
+            -14087.6455078125,
+            -1313.125244140625
+          ],
+          "handler": "0x301105f",
+          "record": "0x7735b37fa0",
+          "slot": 3,
+          "xyz": [
+            -21401.84375,
+            -6318.75,
+            -259.859619140625
+          ],
+          "vector_pointer_cache": "0x758bfeea08",
+          "distance_m": 60.359865133808,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -5130.607421875,
+            -14513.6455078125,
+            -887.1253051757812
+          ],
+          "handler": "0x3010097",
+          "record": "0x7735b3ae30",
+          "slot": 3,
+          "xyz": [
+            -21401.84375,
+            -6318.75,
+            -189.859619140625
+          ],
+          "vector_pointer_cache": "0x0",
+          "distance_m": 60.348401936370585,
+          "extents": [
+            47.0350456237793,
+            47.0350456237793,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -5130.607421875,
+            -14513.6455078125,
+            -887.1253051757812
+          ],
+          "handler": "0x3010096",
+          "record": "0x7735b3ca20",
+          "slot": 5,
+          "xyz": [
+            -21401.84375,
+            -6318.75,
+            -189.859619140625
+          ],
+          "vector_pointer_cache": "0x7791df1588",
+          "distance_m": 60.348401936370585
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -5216.576171875,
+            -14427.6767578125,
+            -973.093994140625
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x758bfeeaec, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x75a307aab0",
+      "pawn": "0x7656fb0040",
+      "mesh": "0x7643b02ec0",
+      "root": "0x75abb88d40",
+      "self": false,
+      "team": 4,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -5184.607421875,
+            -14459.6455078125,
+            -941.125244140625
+          ],
+          "handler": "0x3011050",
+          "record": "0x7735b30690",
+          "slot": 7,
+          "xyz": [
+            -19891.625,
+            -6566.25,
+            -259.859619140625
+          ],
+          "vector_pointer_cache": "0x7643b03008",
+          "distance_m": 73.51693821349222,
+          "extents": [
+            330.0,
+            330.0,
+            55.0
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -5372.607421875,
+            -14271.6455078125,
+            -1129.125244140625
+          ],
+          "handler": "0x3010079",
+          "record": "0x7735b2e150",
+          "slot": 2,
+          "xyz": [
+            -19891.625,
+            -6566.25,
+            -189.859619140625
+          ],
+          "vector_pointer_cache": "0x0",
+          "distance_m": 73.50752683629533,
+          "extents": [
+            49.88900375366211,
+            49.88900375366211,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -5372.607421875,
+            -14271.6455078125,
+            -1129.125244140625
+          ],
+          "handler": "0x3010078",
+          "record": "0x7735b2f3f0",
+          "slot": 4,
+          "xyz": [
+            -19891.625,
+            -6566.25,
+            -189.859619140625
+          ],
+          "vector_pointer_cache": "0x75abb88ea8",
+          "distance_m": 73.50752683629533
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -5088.451171875,
+            -14555.8017578125,
+            -844.9690551757812
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x7643b030ec, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x75a307e390",
+      "pawn": "0x75d5898020",
+      "mesh": "0x7838911780",
+      "root": "0x77980b4720",
+      "self": false,
+      "team": 1,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -26462.36328125,
+            -2499.927001953125,
+            -1040.248779296875
+          ],
+          "handler": "0x3011009",
+          "record": "0x7735ae9fc0",
+          "slot": 2,
+          "xyz": [
+            -21064.0,
+            -1244.375,
+            -189.810546875
+          ],
+          "vector_pointer_cache": "0x78389118c8",
+          "distance_m": 48.020906531265126,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -25847.76953125,
+            -2037.42041015625,
+            -1162.1651611328125
+          ],
+          "handler": "0x3010001",
+          "record": "0x7735ae3000",
+          "slot": 4,
+          "xyz": [
+            -21064.0,
+            -1244.375,
+            -189.810546875
+          ],
+          "vector_pointer_cache": "0x0",
+          "distance_m": 48.020906531265126,
+          "extents": [
+            56.48627471923828,
+            56.48627471923828,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -25847.76953125,
+            -2037.42041015625,
+            -1162.1651611328125
+          ],
+          "handler": "0x3010000",
+          "record": "0x7735ae67e0",
+          "slot": 7,
+          "xyz": [
+            -21064.0,
+            -1244.375,
+            -189.810546875
+          ],
+          "vector_pointer_cache": "0x77980b4888",
+          "distance_m": 48.020906531265126
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -25959.61328125,
+            -1925.57666015625,
+            -1274.0089111328125
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x78389119ac, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x75a3071c80",
+      "pawn": "0x75d01d4030",
+      "mesh": "0x7592374600",
+      "root": "0x75bc61ad20",
+      "self": false,
+      "team": 4,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -5230.607421875,
+            -14413.6455078125,
+            -987.125244140625
+          ],
+          "handler": "0x3011056",
+          "record": "0x7735b32bd0",
+          "slot": 1,
+          "xyz": [
+            -20076.3125,
+            -8385.875,
+            -61.46312713623047
+          ],
+          "vector_pointer_cache": "0x7592374748",
+          "distance_m": 84.39820183466068,
+          "extents": [
+            330.0,
+            330.0,
+            55.0
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -5436.607421875,
+            -14207.6455078125,
+            -1193.125244140625
+          ],
+          "handler": "0x3010088",
+          "record": "0x7735b35110",
+          "slot": 6,
+          "xyz": [
+            -20076.3125,
+            -8385.875,
+            8.536872863769531
+          ],
+          "vector_pointer_cache": "0x0",
+          "distance_m": 84.40645900115956,
+          "extents": [
+            51.71550369262695,
+            51.71550369262695,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -5436.607421875,
+            -14207.6455078125,
+            -1193.125244140625
+          ],
+          "handler": "0x3010087",
+          "record": "0x7735b363b0",
+          "slot": 1,
+          "xyz": [
+            -20076.3125,
+            -8385.875,
+            8.536872863769531
+          ],
+          "vector_pointer_cache": "0x75bc61ae88",
+          "distance_m": 84.40645900115956
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -5216.576171875,
+            -14427.6767578125,
+            -973.093994140625
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x759237482c, found 0"
+        }
+      }
+    }
+  ],
+  "screen_verified": false,
+  "limits": [
+    "Batched pages are not frame-atomic.",
+    "Current key is process-specific."
+  ]
+}

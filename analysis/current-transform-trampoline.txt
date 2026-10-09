@@ -1,0 +1,40 @@
+0x77d505cd08: stp x30, x29, [sp, #-0x20]
+0x77d505cd0c: stp x28, x29, [sp, #-0x30]
+0x77d505cd10: stp x26, x27, [sp, #-0x40]
+0x77d505cd14: stp x24, x25, [sp, #-0x50]
+0x77d505cd18: stp x22, x23, [sp, #-0x60]
+0x77d505cd1c: stp x20, x21, [sp, #-0x70]
+0x77d505cd20: stp x18, x19, [sp, #-0x80]
+0x77d505cd24: stp x16, x17, [sp, #-0x90]
+0x77d505cd28: stp x14, x15, [sp, #-0xa0]
+0x77d505cd2c: stp x12, x13, [sp, #-0xb0]
+0x77d505cd30: stp x10, x11, [sp, #-0xc0]
+0x77d505cd34: stp x8, x9, [sp, #-0xd0]
+0x77d505cd38: stp x6, x7, [sp, #-0xe0]
+0x77d505cd3c: stp x4, x5, [sp, #-0xf0]
+0x77d505cd40: stp x2, x3, [sp, #-0x100]
+0x77d505cd44: stp x0, x1, [sp, #-0x110]
+0x77d505cd48: stp q30, q31, [sp, #-0x130]
+0x77d505cd4c: stp q28, q29, [sp, #-0x150]
+0x77d505cd50: stp q26, q27, [sp, #-0x170]
+0x77d505cd54: stp q24, q25, [sp, #-0x190]
+0x77d505cd58: stp q22, q23, [sp, #-0x1b0]
+0x77d505cd5c: stp q20, q21, [sp, #-0x1d0]
+0x77d505cd60: stp q18, q19, [sp, #-0x1f0]
+0x77d505cd64: stp q16, q17, [sp, #-0x210]
+0x77d505cd68: stp q14, q15, [sp, #-0x230]
+0x77d505cd6c: stp q12, q13, [sp, #-0x250]
+0x77d505cd70: stp q10, q11, [sp, #-0x270]
+0x77d505cd74: stp q8, q9, [sp, #-0x290]
+0x77d505cd78: stp q6, q7, [sp, #-0x2b0]
+0x77d505cd7c: stp q4, q5, [sp, #-0x2d0]
+0x77d505cd80: stp q2, q3, [sp, #-0x2f0]
+0x77d505cd84: stp q0, q1, [sp, #-0x310]
+0x77d505cd88: mrs x1, nzcv
+0x77d505cd8c: stur x1, [sp, #-0x10]
+0x77d505cd90: sub sp, sp, #0x310
+0x77d505cd94: ldr x0, #0x77d505cd00
+0x77d505cd98: mov x1, sp
+0x77d505cd9c: adr x30, #0x77d505cdb0
+0x77d505cda0: ldr x16, #0x77d505cda8
+0x77d505cda4: br x16

@@ -1,0 +1,33 @@
+{
+  "pid": 24536,
+  "base": "0x6feb64c000",
+  "world_class": "World",
+  "game_state_class": "BP_GameState_IrisSafeHouse_C",
+  "roster_count": 1,
+  "world_unchanged": true,
+  "types": [],
+  "checks": [],
+  "errors": [
+    {
+      "type_pointer": "0x6f9f4f6c80",
+      "error": "unsupported operand type(s) for >>: 'str' and 'int'"
+    },
+    {
+      "type_pointer": "0x6f3c535480",
+      "error": "unsupported operand type(s) for >>: 'str' and 'int'"
+    },
+    {
+      "type_pointer": "0x6f3c53af80",
+      "error": "unsupported operand type(s) for >>: 'str' and 'int'"
+    },
+    {
+      "type_pointer": "0x6f3c539e00",
+      "error": "unsupported operand type(s) for >>: 'str' and 'int'"
+    },
+    {
+      "type_pointer": "0x6f9f58d580",
+      "error": "unsupported operand type(s) for >>: 'str' and 'int'"
+    }
+  ],
+  "coordinates_verified": false
+}

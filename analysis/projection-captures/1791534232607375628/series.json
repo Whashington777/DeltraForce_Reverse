@@ -1,0 +1,6223 @@
+{
+  "pid": 24536,
+  "state": "0x7210d32000",
+  "key_candidate": "0x53d1d34b",
+  "world": "0x6f0a34db80",
+  "samples": [
+    {
+      "sample": 0,
+      "begin": 5.45900002180133e-05,
+      "end": 0.09921715900054551,
+      "camera": {
+        "xyz": [
+          -17032.013671875,
+          7392.09912109375,
+          -1086.22412109375
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1121.736083984375
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10378.90625,
+                8789.3125,
+                -1031.41015625
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 67.98459249267052
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10378.90625,
+                8789.3125,
+                -1031.41015625
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 67.98459249267052
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9889.1875,
+                6534.625,
+                -876.509765625
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 71.97166643954942
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9889.1875,
+                6534.625,
+                -876.509765625
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 71.97166643954942
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                10523.1875,
+                6649.8125,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 275.8331616559119
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                10523.1875,
+                6649.8125,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 275.8331616559119
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 307.2897118862101
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 307.2712875060953
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                5527.8125,
+                7055.6875,
+                -147.609375
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 225.81849510737771
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                5527.8125,
+                7055.6875,
+                -147.609375
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 225.81849510737771
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 1,
+      "begin": 0.09931640100057848,
+      "end": 0.1954994039997473,
+      "camera": {
+        "xyz": [
+          -17055.26171875,
+          7392.03955078125,
+          -1085.012939453125
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1121.8214111328125
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10433.5,
+                8812.0,
+                -1044.009765625
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 67.72421811841939
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10433.5,
+                8812.0,
+                -1044.009765625
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 67.72421811841939
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9926.40625,
+                6495.3125,
+                -884.41015625
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 71.87832856609735
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9926.40625,
+                6495.3125,
+                -884.41015625
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 71.87832856609735
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                10545.6875,
+                6702.625,
+                -80.708984375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 276.27817804398353
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                10545.6875,
+                6702.625,
+                -80.708984375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 276.27817804398353
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 307.52161306808586
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 307.50322621514175
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                5578.5,
+                7086.125,
+                -147.609375
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 226.55230713814902
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                5578.5,
+                7086.125,
+                -147.609375
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 226.55230713814902
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 2,
+      "begin": 0.19568987300044682,
+      "end": 0.2928081520003616,
+      "camera": {
+        "xyz": [
+          -17084.572265625,
+          7391.9658203125,
+          -1083.5601806640625
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1121.925537109375
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10487.3125,
+                8836.5,
+                -1057.509765625
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 67.53606002391876
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10487.3125,
+                8836.5,
+                -1057.509765625
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 67.53606002391876
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9907.09375,
+                6416.0,
+                -819.509765625
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 72.48339792418606
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9907.09375,
+                6416.0,
+                -819.509765625
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 72.48339792418606
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                10568.1875,
+                6755.3125,
+                -76.41015625
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 276.7841760790004
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                10568.1875,
+                6755.3125,
+                -76.41015625
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 276.7841760790004
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 307.8140131423041
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 307.79567207580936
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                5636.59375,
+                7097.1875,
+                -147.609375
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 227.42345597548683
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                5636.59375,
+                7097.1875,
+                -147.609375
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 227.42345597548683
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 3,
+      "begin": 0.29295491100037907,
+      "end": 0.40073851000033756,
+      "camera": {
+        "xyz": [
+          -17119.791015625,
+          7395.16552734375,
+          -1083.2364501953125
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1122.025634765625
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10541.09375,
+                8861.0,
+                -1071.810546875
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 67.40034047780172
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10541.09375,
+                8861.0,
+                -1071.810546875
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 67.40034047780172
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9907.09375,
+                6416.0,
+                -819.509765625
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 72.83633622008124
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9907.09375,
+                6416.0,
+                -819.509765625
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 72.83633622008124
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                10590.6875,
+                6808.0,
+                -76.41015625
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 277.3497939619922
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                10590.6875,
+                6808.0,
+                -76.41015625
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 277.3497939619922
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 308.1648593823177
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 308.14654550184054
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                5694.8125,
+                7087.3125,
+                -147.91015625
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 228.35843368217402
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                5694.8125,
+                7087.3125,
+                -147.91015625
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 228.35843368217402
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 4,
+      "begin": 0.4007975989998158,
+      "end": 0.5127889519999371,
+      "camera": {
+        "xyz": [
+          -17163.482421875,
+          7401.150390625,
+          -1087.7744140625
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1122.1422119140625
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10583.3125,
+                8902.3125,
+                -1087.509765625
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 67.49231359896505
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10583.3125,
+                8902.3125,
+                -1087.509765625
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 67.49231359896505
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9897.59375,
+                6394.5,
+                -816.91015625
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 73.40289547912073
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9897.59375,
+                6394.5,
+                -816.91015625
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 73.40289547912073
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                10613.1875,
+                6860.8125,
+                -76.41015625
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 278.0032759963129
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                10613.1875,
+                6860.8125,
+                -76.41015625
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 278.0032759963129
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 308.601101940333
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 308.58272571518916
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                5752.8125,
+                7076.0,
+                -148.208984375
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 229.3785253504655
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                5752.8125,
+                7076.0,
+                -148.208984375
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 229.3785253504655
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 5,
+      "begin": 0.5128878040004565,
+      "end": 0.6116067419998217,
+      "camera": {
+        "xyz": [
+          -17200.796875,
+          7407.18505859375,
+          -1093.558837890625
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1122.2421875
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10621.5,
+                8947.5,
+                -1102.91015625
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 67.57203928790307
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10621.5,
+                8947.5,
+                -1102.91015625
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 67.57203928790307
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9886.0,
+                6368.5,
+                -814.009765625
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 73.93461141932121
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9886.0,
+                6368.5,
+                -814.009765625
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 73.93461141932121
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                10635.6875,
+                6913.5,
+                -76.41015625
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 278.594360807476
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                10635.6875,
+                6913.5,
+                -76.41015625
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 278.594360807476
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 308.97403394951203
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 308.9555675707691
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                5810.8125,
+                7064.625,
+                -148.509765625
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 230.3355446235604
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                5810.8125,
+                7064.625,
+                -148.509765625
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 230.3355446235604
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 6,
+      "begin": 0.6116913380001279,
+      "end": 0.7030295129998194,
+      "camera": {
+        "xyz": [
+          -17236.078125,
+          7413.07421875,
+          -1099.2840576171875
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1122.3369140625
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10646.1875,
+                8976.8125,
+                -1114.109375
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 67.72898615197565
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10646.1875,
+                8976.8125,
+                -1114.109375
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 67.72898615197565
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9866.40625,
+                6324.8125,
+                -810.208984375
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 74.55195605189222
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9866.40625,
+                6324.8125,
+                -810.208984375
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 74.55195605189222
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                10658.6875,
+                6966.0,
+                -76.41015625
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 279.1709325214304
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                10658.6875,
+                6966.0,
+                -76.41015625
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 279.1709325214304
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 309.3266971274431
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 309.30814074491815
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                5868.5,
+                7051.6875,
+                -148.810546875
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 231.26943822938213
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                5868.5,
+                7051.6875,
+                -148.810546875
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 231.26943822938213
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 7,
+      "begin": 0.7030749659998037,
+      "end": 0.7944872570005828,
+      "camera": {
+        "xyz": [
+          -17270.2734375,
+          7419.53125,
+          -1104.4002685546875
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1122.428955078125
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10668.90625,
+                9003.8125,
+                -1124.810546875
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 67.88844703096716
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10668.90625,
+                9003.8125,
+                -1124.810546875
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 67.88844703096716
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9846.6875,
+                6279.0,
+                -802.509765625
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 75.1675312747688
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9846.6875,
+                6279.0,
+                -802.509765625
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 75.1675312747688
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                10681.6875,
+                7018.5,
+                -76.41015625
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 279.73732500079404
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                10681.6875,
+                7018.5,
+                -76.41015625
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 279.73732500079404
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 309.6681802209929
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 309.6495451670408
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                5926.1875,
+                7038.8125,
+                -149.109375
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 232.19244765557588
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                5926.1875,
+                7038.8125,
+                -149.109375
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 232.19244765557588
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 8,
+      "begin": 0.7945889540005737,
+      "end": 0.892632052999943,
+      "camera": {
+        "xyz": [
+          -17304.19140625,
+          7426.6162109375,
+          -1109.4464111328125
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1122.5206298828125
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10691.5,
+                9030.8125,
+                -1136.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 68.04547831762265
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10691.5,
+                9030.8125,
+                -1136.609375
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 68.04547831762265
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9824.09375,
+                6229.125,
+                -800.109375
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 75.81657836465105
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9824.09375,
+                6229.125,
+                -800.109375
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 75.81657836465105
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                10705.5,
+                7070.625,
+                -76.91015625
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 280.30977034938815
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                10705.5,
+                7070.625,
+                -76.91015625
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 280.30977034938815
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 310.0067202307225
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 309.9880078571951
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                5983.5,
+                7024.5,
+                -149.109375
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 233.1095269830895
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                5983.5,
+                7024.5,
+                -149.109375
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 233.1095269830895
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 9,
+      "begin": 0.8927830000002359,
+      "end": 0.9887160059997768,
+      "camera": {
+        "xyz": [
+          -17341.15625,
+          7434.53173828125,
+          -1114.7322998046875
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1122.62060546875
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10714.09375,
+                9057.8125,
+                -1145.41015625
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 68.23044697284969
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10714.09375,
+                9057.8125,
+                -1145.41015625
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 68.23044697284969
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9803.6875,
+                6183.125,
+                -795.310546875
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 76.47318761375581
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9803.6875,
+                6183.125,
+                -795.310546875
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 76.47318761375581
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                10729.40625,
+                7122.8125,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 280.9111398108715
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                10729.40625,
+                7122.8125,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 280.9111398108715
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 310.37557915985093
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 310.35678683607324
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6040.8125,
+                7010.125,
+                -149.609375
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 234.05726777125693
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6040.8125,
+                7010.125,
+                -149.609375
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 234.05726777125693
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 10,
+      "begin": 0.9887684120003541,
+      "end": 1.0783153610000227,
+      "camera": {
+        "xyz": [
+          -17375.015625,
+          7441.86572265625,
+          -1119.0828857421875
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1122.7122802734375
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10736.8125,
+                9084.8125,
+                -1153.208984375
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 68.38580220524716
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10736.8125,
+                9084.8125,
+                -1153.208984375
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 68.38580220524716
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9783.8125,
+                6137.625,
+                -789.208984375
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 77.09489317616821
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9783.8125,
+                6137.625,
+                -789.208984375
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 77.09489317616821
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                10755.09375,
+                7174.0,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 281.50325167664073
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                10755.09375,
+                7174.0,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 281.50325167664073
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 310.7132953493093
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 310.6944394355889
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6097.8125,
+                6994.1875,
+                -149.91015625
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 234.97092836272813
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6097.8125,
+                6994.1875,
+                -149.91015625
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 234.97092836272813
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 11,
+      "begin": 1.0784665780001887,
+      "end": 1.1804146929998751,
+      "camera": {
+        "xyz": [
+          -17411.953125,
+          7449.86962890625,
+          -1123.1644287109375
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1122.812255859375
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10759.5,
+                9111.8125,
+                -1159.91015625
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 68.57006412100982
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10759.5,
+                9111.8125,
+                -1159.91015625
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 68.57006412100982
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9763.6875,
+                6091.5,
+                -783.109375
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 77.75395331354277
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9763.6875,
+                6091.5,
+                -783.109375
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 77.75395331354277
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                10780.8125,
+                7225.3125,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 282.1270823351948
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                10780.8125,
+                7225.3125,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 282.1270823351948
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 311.0815250512365
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 311.06261273103064
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6154.6875,
+                6978.3125,
+                -150.208984375
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 235.9142977376288
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6154.6875,
+                6978.3125,
+                -150.208984375
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 235.9142977376288
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 12,
+      "begin": 1.1804756139999881,
+      "end": 1.277634240000225,
+      "camera": {
+        "xyz": [
+          -17448.890625,
+          7457.87353515625,
+          -1126.1754150390625
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1122.9122314453125
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10782.1875,
+                9138.8125,
+                -1167.708984375
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 68.75478994062634
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10782.1875,
+                9138.8125,
+                -1167.708984375
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 68.75478994062634
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9749.5,
+                6045.3125,
+                -799.810546875
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 78.34695826996179
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9749.5,
+                6045.3125,
+                -799.810546875
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 78.34695826996179
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                10822.5,
+                7264.625,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 282.9115710640483
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                10822.5,
+                7264.625,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 282.9115710640483
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 311.4494348164635
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 311.43048682894016
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6211.1875,
+                6961.0,
+                -150.208984375
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 236.85410924550695
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6211.1875,
+                6961.0,
+                -150.208984375
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 236.85410924550695
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 13,
+      "begin": 1.2777069530002336,
+      "end": 1.3700732050001534,
+      "camera": {
+        "xyz": [
+          -17480.01171875,
+          7464.6201171875,
+          -1129.370849609375
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1122.9964599609375
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10805.0,
+                9165.8125,
+                -1175.208984375
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 68.88536717140143
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10805.0,
+                9165.8125,
+                -1175.208984375
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 68.88536717140143
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9761.09375,
+                6015.1875,
+                -827.708984375
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 78.5961509241994
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9761.09375,
+                6015.1875,
+                -827.708984375
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 78.5961509241994
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                10867.40625,
+                7300.3125,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 283.67066361909997
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                10867.40625,
+                7300.3125,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 283.67066361909997
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 311.7596460607896
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 311.74065542651005
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6267.6875,
+                6943.625,
+                -149.91015625
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 237.7359874621822
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6267.6875,
+                6943.625,
+                -149.91015625
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 237.7359874621822
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 14,
+      "begin": 1.3701210529998207,
+      "end": 1.4687938590004705,
+      "camera": {
+        "xyz": [
+          -17516.97265625,
+          7472.52685546875,
+          -1132.595458984375
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1123.0965576171875
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10827.8125,
+                9192.6875,
+                -1184.109375
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 69.06987036508752
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10827.8125,
+                9192.6875,
+                -1184.109375
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 69.06987036508752
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9762.09375,
+                6012.5,
+                -828.109375
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 78.9699544413135
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9762.09375,
+                6012.5,
+                -828.109375
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 78.9699544413135
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                10913.5,
+                7334.3125,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 284.5004333131543
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                10913.5,
+                7334.3125,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 284.5004333131543
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 312.1279347842636
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 312.1089045688673
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6323.6875,
+                6924.6875,
+                -153.208984375
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 238.67056846453744
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6323.6875,
+                6924.6875,
+                -153.208984375
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 238.67056846453744
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 15,
+      "begin": 1.4688472970001385,
+      "end": 1.5518136030004825,
+      "camera": {
+        "xyz": [
+          -17551.16796875,
+          7478.87353515625,
+          -1134.1641845703125
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1123.1884765625
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10873.59375,
+                9246.3125,
+                -1199.708984375
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 69.07831357390252
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10873.59375,
+                9246.3125,
+                -1199.708984375
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 69.07831357390252
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9762.09375,
+                6012.5,
+                -828.109375
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 79.31809256169974
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9762.09375,
+                6012.5,
+                -828.109375
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 79.31809256169974
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                11006.5,
+                7401.375,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 285.76979842442677
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                11006.5,
+                7401.375,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 285.76979842442677
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 312.4684743987635
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 312.4494348000528
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6435.3125,
+                6885.5,
+                -150.109375
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 240.13989699718528
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6435.3125,
+                6885.5,
+                -150.109375
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 240.13989699718528
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 16,
+      "begin": 1.5518616409999595,
+      "end": 1.6356535220002115,
+      "camera": {
+        "xyz": [
+          -17582.29296875,
+          7483.873046875,
+          -1134.7220458984375
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1123.27197265625
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10873.59375,
+                9246.3125,
+                -1199.708984375
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 69.36646259955957
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10873.59375,
+                9246.3125,
+                -1199.708984375
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 69.36646259955957
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9762.09375,
+                6012.5,
+                -828.109375
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 79.63320023329705
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9762.09375,
+                6012.5,
+                -828.109375
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 79.63320023329705
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                11006.5,
+                7401.375,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 286.08118244803967
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                11006.5,
+                7401.375,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 286.08118244803967
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 312.77836522292114
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 312.7593337871291
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6435.3125,
+                6885.5,
+                -150.109375
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 240.45225822758457
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6435.3125,
+                6885.5,
+                -150.109375
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 240.45225822758457
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 17,
+      "begin": 1.6357045550003022,
+      "end": 1.7227310910002416,
+      "camera": {
+        "xyz": [
+          -17613.50390625,
+          7488.130859375,
+          -1134.9169921875
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1123.355224609375
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10873.59375,
+                9246.3125,
+                -1199.708984375
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 69.65758364887799
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10873.59375,
+                9246.3125,
+                -1199.708984375
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 69.65758364887799
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9762.09375,
+                6012.5,
+                -828.109375
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 79.94764461118898
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9762.09375,
+                6012.5,
+                -828.109375
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 79.94764461118898
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                11006.5,
+                7401.375,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 286.3932783836161
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                11006.5,
+                7401.375,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 286.3932783836161
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 313.08919399779666
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 313.0701777210347
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6435.3125,
+                6885.5,
+                -150.109375
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 240.765151244332
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6435.3125,
+                6885.5,
+                -150.109375
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 240.765151244332
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 18,
+      "begin": 1.7227743809999083,
+      "end": 1.812378677000197,
+      "camera": {
+        "xyz": [
+          -17645.119140625,
+          7489.83544921875,
+          -1134.7138671875
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1123.439208984375
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10896.5,
+                9273.125,
+                -1209.109375
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 69.8065302236964
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10896.5,
+                9273.125,
+                -1209.109375
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 69.8065302236964
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9797.8125,
+                6000.3125,
+                -835.91015625
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 79.93008431492899
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9797.8125,
+                6000.3125,
+                -835.91015625
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 79.93008431492899
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                11053.1875,
+                7434.625,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 287.1749249603084
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                11053.1875,
+                7434.625,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 287.1749249603084
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 313.40458192478104
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 313.385588674778
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6490.8125,
+                6865.125,
+                -145.810546875
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 241.6425850472576
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6490.8125,
+                6865.125,
+                -145.810546875
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 241.6425850472576
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 19,
+      "begin": 1.8124524320001,
+      "end": 1.8994105629999467,
+      "camera": {
+        "xyz": [
+          -17680.40234375,
+          7487.552734375,
+          -1134.0406494140625
+        ],
+        "rotation": [
+          -1.9367411136627197,
+          -175.17831420898438,
+          -9.331301065174102e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1123.53271484375
+      },
+      "compass": 274.8216857910156,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10919.5,
+                9299.8125,
+                -1217.310546875
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 70.00072845024584
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10919.5,
+                9299.8125,
+                -1217.310546875
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 70.00072845024584
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9843.09375,
+                5964.0,
+                -849.208984375
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 79.8910182720799
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9843.09375,
+                5964.0,
+                -849.208984375
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 79.8910182720799
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                11101.09375,
+                7466.125,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 288.00557092128753
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                11101.09375,
+                7466.125,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 288.00557092128753
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 313.7574700217028
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 313.7385110097632
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6545.6875,
+                6843.3125,
+                -143.41015625
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 242.54892771789798
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6545.6875,
+                6843.3125,
+                -143.41015625
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 242.54892771789798
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 20,
+      "begin": 1.8996209189999718,
+      "end": 2.005662087000019,
+      "camera": {
+        "xyz": [
+          -17714.375,
+          7484.61865234375,
+          -1132.9998779296875
+        ],
+        "rotation": [
+          -0.8629261255264282,
+          -173.3937530517578,
+          -1.9995245281734242e-07
+        ],
+        "fov": 90.0,
+        "timestamp": 1123.6243896484375
+      },
+      "compass": 276.6062469482422,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10942.40625,
+                9326.625,
+                -1225.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 70.18626977887492
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10942.40625,
+                9326.625,
+                -1225.609375
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 70.18626977887492
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9885.40625,
+                5923.5,
+                -861.208984375
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 79.87722668257292
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9885.40625,
+                5923.5,
+                -861.208984375
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 79.87722668257292
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                11149.0,
+                7497.625,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 288.8233921690426
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                11149.0,
+                7497.625,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 288.8233921690426
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 314.0973104787616
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 314.0783918633261
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6600.59375,
+                6821.625,
+                -139.708984375
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 243.44278438592985
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6600.59375,
+                6821.625,
+                -139.708984375
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 243.44278438592985
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 21,
+      "begin": 2.005716417000258,
+      "end": 2.092704182000489,
+      "camera": {
+        "xyz": [
+          -17751.49609375,
+          7480.18310546875,
+          -1131.5704345703125
+        ],
+        "rotation": [
+          -0.03344060480594635,
+          -172.2147216796875,
+          -8.126010975217923e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1123.724365234375
+      },
+      "compass": 277.7852783203125,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10965.40625,
+                9353.3125,
+                -1232.109375
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 70.405779006163
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10965.40625,
+                9353.3125,
+                -1232.109375
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 70.405779006163
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9922.0,
+                5877.8125,
+                -870.509765625
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 79.96046104931297
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9922.0,
+                5877.8125,
+                -870.509765625
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 79.96046104931297
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                11197.90625,
+                7527.5,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 289.6829436754681
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                11197.90625,
+                7527.5,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 289.6829436754681
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 314.4688661361754
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 314.44999715018844
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6655.0,
+                6798.3125,
+                -136.609375
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 244.36283404128739
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6655.0,
+                6798.3125,
+                -136.609375
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 244.36283404128739
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 22,
+      "begin": 2.092847054000231,
+      "end": 2.1860855699997046,
+      "camera": {
+        "xyz": [
+          -17788.896484375,
+          7475.07763671875,
+          -1129.951904296875
+        ],
+        "rotation": [
+          0.06821353733539581,
+          -171.9492950439453,
+          3.257818548263458e-08
+        ],
+        "fov": 90.0,
+        "timestamp": 1123.824462890625
+      },
+      "compass": 278.0507049560547,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -10988.3125,
+                9380.125,
+                -1238.009765625
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 70.63202141116832
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -10988.3125,
+                9380.125,
+                -1238.009765625
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 70.63202141116832
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -9958.59375,
+                5832.1875,
+                -879.109375
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 80.04726784081541
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -9958.59375,
+                5832.1875,
+                -879.109375
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 80.04726784081541
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                11246.90625,
+                7557.375,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 290.54658437486086
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                11246.90625,
+                7557.375,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 290.54658437486086
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 314.8433281656834
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 314.8245124693902
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6709.40625,
+                6775.125,
+                -132.41015625
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 245.28592705204912
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6709.40625,
+                6775.125,
+                -132.41015625
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 245.28592705204912
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 23,
+      "begin": 2.186136744000578,
+      "end": 2.282483361999766,
+      "camera": {
+        "xyz": [
+          -17823.142578125,
+          7470.22705078125,
+          -1128.1944580078125
+        ],
+        "rotation": [
+          0.19407495856285095,
+          -171.82789611816406,
+          1.399346274411073e-07
+        ],
+        "fov": 90.0,
+        "timestamp": 1123.9161376953125
+      },
+      "compass": 278.17210388183594,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -11034.1875,
+                9433.625,
+                -1245.509765625
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 70.68140168474089
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -11034.1875,
+                9433.625,
+                -1245.509765625
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 70.68140168474089
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -10031.0,
+                5740.1875,
+                -896.41015625
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 79.85251828692522
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -10031.0,
+                5740.1875,
+                -896.41015625
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 79.85251828692522
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                11346.6875,
+                7613.625,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 291.88772657370686
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                11346.6875,
+                7613.625,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 291.88772657370686
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 315.18617189211653
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 315.16741012120417
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6816.90625,
+                6725.8125,
+                -125.310546875
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 246.71682865483825
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6816.90625,
+                6725.8125,
+                -125.310546875
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 246.71682865483825
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 24,
+      "begin": 2.282662571000401,
+      "end": 2.418673866000063,
+      "camera": {
+        "xyz": [
+          -17856.890625,
+          7465.439453125,
+          -1126.168212890625
+        ],
+        "rotation": [
+          1.2889454364776611,
+          -172.36376953125,
+          3.097686089859053e-07
+        ],
+        "fov": 90.0,
+        "timestamp": 1124.0078125
+      },
+      "compass": 277.63623046875,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -11034.1875,
+                9433.625,
+                -1245.509765625
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 71.01920492727405
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -11034.1875,
+                9433.625,
+                -1245.509765625
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 71.01920492727405
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -10031.0,
+                5740.1875,
+                -896.41015625
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 80.17097176710271
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -10031.0,
+                5740.1875,
+                -896.41015625
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 80.17097176710271
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                11346.6875,
+                7613.625,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 292.2245056179782
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                11346.6875,
+                7613.625,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 292.2245056179782
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 315.52394440107366
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 315.5052412494184
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6816.90625,
+                6725.8125,
+                -125.310546875
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 247.0516173446697
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6816.90625,
+                6725.8125,
+                -125.310546875
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 247.0516173446697
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 25,
+      "begin": 2.418746189000558,
+      "end": 2.512639689000025,
+      "camera": {
+        "xyz": [
+          -17906.271484375,
+          7459.18603515625,
+          -1124.45654296875
+        ],
+        "rotation": [
+          2.489015579223633,
+          -173.3585662841797,
+          7.744777263951619e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1124.14111328125
+      },
+      "compass": 276.6414337158203,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -11057.09375,
+                9460.3125,
+                -1249.509765625
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 71.36622525666677
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -11057.09375,
+                9460.3125,
+                -1249.509765625
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 71.36622525666677
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -10067.59375,
+                5694.625,
+                -905.208984375
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 80.37823944459558
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -10067.59375,
+                5694.625,
+                -905.208984375
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 80.37823944459558
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                11397.6875,
+                7640.0,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 293.2288922653898
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                11397.6875,
+                7640.0,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 293.2288922653898
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 316.0184006640343
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 315.99975927797016
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6870.0,
+                6699.8125,
+                -122.91015625
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 248.0813116698029
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6870.0,
+                6699.8125,
+                -122.91015625
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 248.0813116698029
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 26,
+      "begin": 2.5127150380003513,
+      "end": 2.597460771000442,
+      "camera": {
+        "xyz": [
+          -17941.865234375,
+          7455.02197265625,
+          -1124.145751953125
+        ],
+        "rotation": [
+          2.489015579223633,
+          -173.3585662841797,
+          7.744777263951619e-09
+        ],
+        "fov": 90.0,
+        "timestamp": 1124.23583984375
+      },
+      "compass": 276.6414337158203,
+      "players": [
+        {
+          "ps": "0x6e22ee8e40",
+          "self": true,
+          "team": 1,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "error": "Expected one record for 0x6e9d4b81f4, found 0"
+            },
+            "mesh_bounds": {
+              "error": "Expected one record for 0x6f7ff718d4, found 0"
+            }
+          }
+        },
+        {
+          "ps": "0x6e23cd8e40",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 1,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc0000",
+              "slot": 3,
+              "xyz": [
+                -11080.0,
+                9487.125,
+                -1253.810546875
+              ],
+              "vector_pointer_cache": "0x6e1f2df4a8",
+              "distance_m": 71.57614837884617
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc4a80",
+              "slot": 6,
+              "xyz": [
+                -11080.0,
+                9487.125,
+                -1253.810546875
+              ],
+              "vector_pointer_cache": "0x6e4491a448",
+              "distance_m": 71.57614837884617
+            }
+          }
+        },
+        {
+          "ps": "0x6e23d771d0",
+          "self": false,
+          "team": 1,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcc2540",
+              "slot": 6,
+              "xyz": [
+                -10104.1875,
+                5649.0,
+                -910.708984375
+              ],
+              "vector_pointer_cache": "0x6e98b4a828",
+              "distance_m": 80.45897270496872
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcc7910",
+              "slot": 2,
+              "xyz": [
+                -10104.1875,
+                5649.0,
+                -910.708984375
+              ],
+              "vector_pointer_cache": "0x6e1d1a5e88",
+              "distance_m": 80.45897270496872
+            }
+          }
+        },
+        {
+          "ps": "0x6e23c938f0",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e97fc8e40",
+          "self": false,
+          "team": 4,
+          "inner_team_index": 2,
+          "dead": 56,
+          "identity_matches": false,
+          "vectors": {
+            "root_relative": {
+              "error": "Native record guard disables this entry"
+            },
+            "mesh_bounds": {
+              "error": "Native record guard disables this entry"
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dfe390",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 0,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcca7a0",
+              "slot": 0,
+              "xyz": [
+                11448.59375,
+                7666.375,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e1f2e7b88",
+              "distance_m": 294.0952619726978
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd2a00",
+              "slot": 0,
+              "xyz": [
+                11448.59375,
+                7666.375,
+                -86.609375
+              ],
+              "vector_pointer_cache": "0x6e19364748",
+              "distance_m": 294.0952619726978
+            }
+          }
+        },
+        {
+          "ps": "0x6e22dd0010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 1,
+          "dead": 1,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcccce0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -112.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e1dd86208",
+              "distance_m": 316.3750175913816
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd61e0",
+              "slot": 0,
+              "xyz": [
+                13668.75,
+                8278.0625,
+                -172.64866638183594
+              ],
+              "vector_pointer_cache": "0x6e47345e88",
+              "distance_m": 316.35640311351403
+            }
+          }
+        },
+        {
+          "ps": "0x6f80380010",
+          "self": false,
+          "team": 3,
+          "inner_team_index": 2,
+          "dead": 0,
+          "identity_matches": true,
+          "vectors": {
+            "root_relative": {
+              "record": "0x6f1bcd04c0",
+              "slot": 5,
+              "xyz": [
+                6923.0,
+                6673.8125,
+                -120.609375
+              ],
+              "vector_pointer_cache": "0x6ebbab08c8",
+              "distance_m": 248.97367262898834
+            },
+            "mesh_bounds": {
+              "record": "0x6f1bcd7dd0",
+              "slot": 4,
+              "xyz": [
+                6923.0,
+                6673.8125,
+                -120.609375
+              ],
+              "vector_pointer_cache": "0x6e1a4dea08",
+              "distance_m": 248.97367262898834
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "screen_verified": false,
+  "limitations": [
+    "Screenshot exposure time is unknown; select by independent HUD references, not wall time alone.",
+    "Memory page batches are not atomic."
+  ]
+}

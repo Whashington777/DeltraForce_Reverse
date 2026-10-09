@@ -1,0 +1,231 @@
+{
+  "pid": 24536,
+  "world": "0x6e5bd04060",
+  "state": "0x7210d32000",
+  "capture": "analysis/combined-vector-captures/1791534605513373454",
+  "protected_live_vectors": 24,
+  "unique_payloads": 8,
+  "searched_candidates": 39,
+  "accepted_candidates": [
+    "0x53d1d34b"
+  ],
+  "unique_key_candidate": "0x53d1d34b",
+  "additional_evidence": [
+    {
+      "capture": "analysis/combined-vector-captures/1791534049770020749",
+      "live_vectors": 21,
+      "surviving_keys": [
+        "0x53d1d34b"
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791534740658826466",
+      "live_vectors": 6,
+      "surviving_keys": [
+        "0x53d1d34b"
+      ]
+    }
+  ],
+  "coordinate_verification": false,
+  "ranked": [
+    {
+      "key": "0x53d1d34b",
+      "valid_vectors": 24,
+      "error_count": 0
+    },
+    {
+      "key": "0xfa735561",
+      "valid_vectors": 24,
+      "error_count": 0
+    },
+    {
+      "key": "0xa20bfb2d",
+      "valid_vectors": 19,
+      "error_count": 5
+    },
+    {
+      "key": "0x5bbc3889",
+      "valid_vectors": 15,
+      "error_count": 9
+    },
+    {
+      "key": "0xe13ef74a",
+      "valid_vectors": 12,
+      "error_count": 12
+    },
+    {
+      "key": "0x39f64582",
+      "valid_vectors": 8,
+      "error_count": 16
+    },
+    {
+      "key": "0x880b9ed4",
+      "valid_vectors": 8,
+      "error_count": 16
+    },
+    {
+      "key": "0xcd23b866",
+      "valid_vectors": 6,
+      "error_count": 18
+    },
+    {
+      "key": "0xe5d99803",
+      "valid_vectors": 6,
+      "error_count": 18
+    },
+    {
+      "key": "0x418cf708",
+      "valid_vectors": 5,
+      "error_count": 19
+    },
+    {
+      "key": "0x7a6a6a36",
+      "valid_vectors": 4,
+      "error_count": 20
+    },
+    {
+      "key": "0x48588904",
+      "valid_vectors": 3,
+      "error_count": 21
+    },
+    {
+      "key": "0x683c2c4e",
+      "valid_vectors": 3,
+      "error_count": 21
+    },
+    {
+      "key": "0x81bd531c",
+      "valid_vectors": 1,
+      "error_count": 23
+    },
+    {
+      "key": "0x18c3716f",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0x1d417fc9",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0x21059600",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0x3dfd4507",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0x480ba11",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0x483020b0",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0x59563780",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0x69df555c",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0x6de0a18e",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0x799190e3",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0x79aeb07d",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0x7c9b412d",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0x7e52338e",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0x8c764d38",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0x99bd1496",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0xb3699c1d",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0xc52db18a",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0xc764d38",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0xd227f49c",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0xe9219da2",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0xeb06584f",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0xeddedccb",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0xf123c8e5",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0xf492b2c",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0xf5ab1a69",
+      "valid_vectors": 0,
+      "error_count": 24
+    }
+  ],
+  "limits": [
+    "Bounded XYZ and populated selected slots are candidate constraints, not independent world-position validation.",
+    "A process key is not a permanent game offset."
+  ]
+}

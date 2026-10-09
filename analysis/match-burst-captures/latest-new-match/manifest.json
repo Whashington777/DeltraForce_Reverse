@@ -1,0 +1,54 @@
+{
+  "pid": 10651,
+  "captures": [
+    {
+      "index": 0,
+      "folder": "analysis/combined-vector-captures/1791561658670379980",
+      "candidates": 0,
+      "named_candidates": 0,
+      "camera_projection_inputs_stable": false
+    },
+    {
+      "index": 1,
+      "folder": "analysis/combined-vector-captures/1791561692652266198",
+      "candidates": 1,
+      "named_candidates": 1,
+      "camera_projection_inputs_stable": false
+    },
+    {
+      "index": 2,
+      "folder": "analysis/combined-vector-captures/1791561727427336207",
+      "candidates": 2,
+      "named_candidates": 2,
+      "camera_projection_inputs_stable": true
+    },
+    {
+      "index": 3,
+      "folder": "analysis/combined-vector-captures/1791561832468895164",
+      "candidates": 1,
+      "named_candidates": 1,
+      "camera_projection_inputs_stable": false
+    },
+    {
+      "index": 4,
+      "folder": "analysis/combined-vector-captures/1791561929589597203",
+      "candidates": 2,
+      "named_candidates": 2,
+      "camera_projection_inputs_stable": false
+    },
+    {
+      "index": 5,
+      "folder": "analysis/combined-vector-captures/1791561939784095224",
+      "candidates": 1,
+      "named_candidates": 1,
+      "camera_projection_inputs_stable": false
+    },
+    {
+      "index": 6,
+      "folder": "analysis/combined-vector-captures/1791561949348175665",
+      "candidates": 1,
+      "named_candidates": 1,
+      "camera_projection_inputs_stable": false
+    }
+  ]
+}

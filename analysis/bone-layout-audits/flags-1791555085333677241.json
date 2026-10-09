@@ -1,0 +1,59 @@
+{
+  "pid": 10651,
+  "base": "0x6fe7831000",
+  "world": "0x6df1e852a0",
+  "rows": [
+    {
+      "name": "AttachParent",
+      "pointer": "0x6f63ecd8a0",
+      "offset": 264,
+      "size": 8,
+      "raw_88": "0097d59c6f00000000000000000000000000000000000000"
+    },
+    {
+      "name": "AttachSocketName",
+      "pointer": "0x6f63e9a100",
+      "offset": 272,
+      "size": 8,
+      "raw_88": "505fdb7e6f00000001000000000000004089ec636f000000"
+    },
+    {
+      "name": "bComponentToWorldUpdated",
+      "pointer": "0x6f63ecde40",
+      "offset": 412,
+      "size": 1,
+      "raw_88": "000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "bAbsoluteLocation",
+      "pointer": "0x6f63ecdee0",
+      "offset": 412,
+      "size": 1,
+      "raw_88": "000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "bAbsoluteRotation",
+      "pointer": "0x6f63ecdf80",
+      "offset": 412,
+      "size": 1,
+      "raw_88": "000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "bAbsoluteScale",
+      "pointer": "0x6f63ece020",
+      "offset": 412,
+      "size": 1,
+      "raw_88": "000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "bVisible",
+      "pointer": "0x6f63ece0c0",
+      "offset": 412,
+      "size": 1,
+      "raw_88": "000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "limits": [
+    "Bool member tail offset is a candidate until native bit access is checked."
+  ]
+}

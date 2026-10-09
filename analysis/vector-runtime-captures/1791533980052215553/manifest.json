@@ -1,0 +1,347 @@
+{
+  "pid": 24536,
+  "base": "0x6feb64c000",
+  "state": "0x7210d32000",
+  "kind": 45,
+  "records": "0x6f1bcc0000",
+  "indices": "0x7218d7f000",
+  "count_before": 60,
+  "read_only": true,
+  "coordinates_verified": false,
+  "pages": [
+    {
+      "address": "0x6f1bcc0000",
+      "nonzero_bytes": 85
+    },
+    {
+      "address": "0x6f1bcc1000",
+      "nonzero_bytes": 87
+    },
+    {
+      "address": "0x6f1bcc2000",
+      "nonzero_bytes": 98
+    },
+    {
+      "address": "0x6f1bcc3000",
+      "nonzero_bytes": 44
+    },
+    {
+      "address": "0x6f1bcc4000",
+      "nonzero_bytes": 93
+    },
+    {
+      "address": "0x6f1bcc5000",
+      "nonzero_bytes": 98
+    },
+    {
+      "address": "0x6f1bcc6000",
+      "nonzero_bytes": 86
+    },
+    {
+      "address": "0x6f1bcc7000",
+      "nonzero_bytes": 60
+    },
+    {
+      "address": "0x6f1bcc8000",
+      "nonzero_bytes": 98
+    },
+    {
+      "address": "0x6f1bcc9000",
+      "nonzero_bytes": 98
+    },
+    {
+      "address": "0x6f1bcca000",
+      "nonzero_bytes": 48
+    },
+    {
+      "address": "0x6f1bccb000",
+      "nonzero_bytes": 93
+    },
+    {
+      "address": "0x6f1bccc000",
+      "nonzero_bytes": 93
+    },
+    {
+      "address": "0x6f1bccd000",
+      "nonzero_bytes": 93
+    },
+    {
+      "address": "0x6f1bcce000",
+      "nonzero_bytes": 44
+    },
+    {
+      "address": "0x6f1bccf000",
+      "nonzero_bytes": 98
+    },
+    {
+      "address": "0x6f1bcd0000",
+      "nonzero_bytes": 97
+    },
+    {
+      "address": "0x6f1bcd1000",
+      "nonzero_bytes": 44
+    },
+    {
+      "address": "0x6f1bcd2000",
+      "nonzero_bytes": 93
+    },
+    {
+      "address": "0x6f1bcd3000",
+      "nonzero_bytes": 93
+    },
+    {
+      "address": "0x6f1bcd4000",
+      "nonzero_bytes": 88
+    },
+    {
+      "address": "0x6f1bcd5000",
+      "nonzero_bytes": 44
+    },
+    {
+      "address": "0x6f1bcd6000",
+      "nonzero_bytes": 98
+    },
+    {
+      "address": "0x6f1bcd7000",
+      "nonzero_bytes": 98
+    },
+    {
+      "address": "0x6f1bcd8000",
+      "nonzero_bytes": 49
+    },
+    {
+      "address": "0x6f1bcd9000",
+      "nonzero_bytes": 98
+    },
+    {
+      "address": "0x6f1bcda000",
+      "nonzero_bytes": 98
+    },
+    {
+      "address": "0x6f1bcdb000",
+      "nonzero_bytes": 93
+    },
+    {
+      "address": "0x6f1bcdc000",
+      "nonzero_bytes": 49
+    },
+    {
+      "address": "0x6f1bcdd000",
+      "nonzero_bytes": 98
+    },
+    {
+      "address": "0x6f1bcde000",
+      "nonzero_bytes": 88
+    },
+    {
+      "address": "0x6f1bcdf000",
+      "nonzero_bytes": 48
+    },
+    {
+      "address": "0x6f1bce0000",
+      "nonzero_bytes": 93
+    },
+    {
+      "address": "0x6f1bce1000",
+      "nonzero_bytes": 88
+    },
+    {
+      "address": "0x6f1bce2000",
+      "nonzero_bytes": 57
+    },
+    {
+      "address": "0x7210d32000",
+      "nonzero_bytes": 1382
+    },
+    {
+      "address": "0x7210d33000",
+      "nonzero_bytes": 1225
+    },
+    {
+      "address": "0x7210d34000",
+      "nonzero_bytes": 773
+    },
+    {
+      "address": "0x7210d35000",
+      "nonzero_bytes": 1963
+    },
+    {
+      "address": "0x7210d36000",
+      "nonzero_bytes": 2979
+    },
+    {
+      "address": "0x7210d37000",
+      "nonzero_bytes": 2238
+    },
+    {
+      "address": "0x7210d38000",
+      "nonzero_bytes": 2645
+    },
+    {
+      "address": "0x7210d39000",
+      "nonzero_bytes": 2729
+    },
+    {
+      "address": "0x7210d3a000",
+      "nonzero_bytes": 2386
+    },
+    {
+      "address": "0x7210d3b000",
+      "nonzero_bytes": 2255
+    },
+    {
+      "address": "0x7210d3c000",
+      "nonzero_bytes": 2512
+    },
+    {
+      "address": "0x7210d3d000",
+      "nonzero_bytes": 2710
+    },
+    {
+      "address": "0x7210d3e000",
+      "nonzero_bytes": 2565
+    },
+    {
+      "address": "0x7210d3f000",
+      "nonzero_bytes": 2534
+    },
+    {
+      "address": "0x7210d40000",
+      "nonzero_bytes": 2843
+    },
+    {
+      "address": "0x7210d41000",
+      "nonzero_bytes": 2788
+    },
+    {
+      "address": "0x7210d42000",
+      "nonzero_bytes": 2655
+    },
+    {
+      "address": "0x7210d43000",
+      "nonzero_bytes": 2782
+    },
+    {
+      "address": "0x7210d44000",
+      "nonzero_bytes": 2673
+    },
+    {
+      "address": "0x7210d45000",
+      "nonzero_bytes": 2458
+    },
+    {
+      "address": "0x7210d46000",
+      "nonzero_bytes": 2799
+    },
+    {
+      "address": "0x7210d47000",
+      "nonzero_bytes": 2470
+    },
+    {
+      "address": "0x7210d48000",
+      "nonzero_bytes": 2479
+    },
+    {
+      "address": "0x7210d49000",
+      "nonzero_bytes": 2715
+    },
+    {
+      "address": "0x7210d4a000",
+      "nonzero_bytes": 2356
+    },
+    {
+      "address": "0x7210d4b000",
+      "nonzero_bytes": 2600
+    },
+    {
+      "address": "0x7210d4c000",
+      "nonzero_bytes": 2274
+    },
+    {
+      "address": "0x7210d4d000",
+      "nonzero_bytes": 2763
+    },
+    {
+      "address": "0x7210d4e000",
+      "nonzero_bytes": 2967
+    },
+    {
+      "address": "0x7210d4f000",
+      "nonzero_bytes": 2600
+    },
+    {
+      "address": "0x7210d50000",
+      "nonzero_bytes": 2664
+    },
+    {
+      "address": "0x7210d51000",
+      "nonzero_bytes": 2759
+    },
+    {
+      "address": "0x7210d52000",
+      "nonzero_bytes": 2325
+    },
+    {
+      "address": "0x7210d53000",
+      "nonzero_bytes": 2457
+    },
+    {
+      "address": "0x7210d54000",
+      "nonzero_bytes": 2522
+    },
+    {
+      "address": "0x7210d55000",
+      "nonzero_bytes": 2844
+    },
+    {
+      "address": "0x7210d56000",
+      "nonzero_bytes": 2461
+    },
+    {
+      "address": "0x7210d57000",
+      "nonzero_bytes": 2791
+    },
+    {
+      "address": "0x7210d58000",
+      "nonzero_bytes": 2562
+    },
+    {
+      "address": "0x7210d59000",
+      "nonzero_bytes": 2163
+    },
+    {
+      "address": "0x7210d5a000",
+      "nonzero_bytes": 2382
+    },
+    {
+      "address": "0x7210d5b000",
+      "nonzero_bytes": 2829
+    },
+    {
+      "address": "0x7210d5c000",
+      "nonzero_bytes": 2552
+    },
+    {
+      "address": "0x7210d5d000",
+      "nonzero_bytes": 1483
+    },
+    {
+      "address": "0x7210d5e000",
+      "nonzero_bytes": 512
+    },
+    {
+      "address": "0x7210d5f000",
+      "nonzero_bytes": 1420
+    },
+    {
+      "address": "0x7218d7f000",
+      "nonzero_bytes": 59
+    }
+  ],
+  "count_after": 60,
+  "record_pointer_after": "0x6f1bcc0000",
+  "indices_after": "0x7218d7f000",
+  "salt_stable": true,
+  "header_stable": true,
+  "status": "captured_nonatomic"
+}

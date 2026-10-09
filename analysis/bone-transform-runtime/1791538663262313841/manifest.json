@@ -1,0 +1,9 @@
+{
+  "pid": 21490,
+  "kind": 40,
+  "state": "0x7210d32000",
+  "records": "0x6e7236c000",
+  "count": 11,
+  "mesh_handler_matches": [],
+  "source_bones": "analysis/bone-lifecycle-captures/1791538577476695661/manifest.json"
+}

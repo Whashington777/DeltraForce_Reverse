@@ -1,0 +1,416 @@
+{
+  "pid": 22846,
+  "world": "0x7582d8a4c0",
+  "game_state_class": "BP_GameState_PVPVE_C",
+  "rows": [
+    {
+      "pawn": "0x762bbf8020",
+      "self": true,
+      "team": 1,
+      "components": [
+        {
+          "kind": "root",
+          "pointer": "0x766bffc040",
+          "class": "IntCapsuleComponent",
+          "outer": "0x762bbf8020",
+          "bounds_raw": "6e0d5fc6a7c59b45d6c390c4ffff0000e8272f42e8272f420000ac420000ac42",
+          "center": [
+            -14275.357421875,
+            4984.70654296875,
+            -1158.119873046875
+          ],
+          "handler": "0xffff",
+          "extent": [
+            43.788970947265625,
+            43.788970947265625,
+            86.0
+          ],
+          "radius": 86.0
+        },
+        {
+          "kind": "mesh",
+          "pointer": "0x7652e9ba40",
+          "class": "DFMSkeletalMeshComponent",
+          "outer": "0x762bbf8020",
+          "bounds_raw": "6e0d5fc6a7c59b45d6c390c4ffff00000000b0420000b042008014433433e942",
+          "center": [
+            -14275.357421875,
+            4984.70654296875,
+            -1158.119873046875
+          ],
+          "handler": "0xffff",
+          "extent": [
+            88.0,
+            88.0,
+            148.5
+          ],
+          "radius": 116.60000610351562
+        }
+      ]
+    },
+    {
+      "pawn": "0x77c72e4030",
+      "self": false,
+      "team": 2,
+      "components": [
+        {
+          "kind": "root",
+          "pointer": "0x75bcd50dc0",
+          "class": "IntCapsuleComponent",
+          "outer": "0x77c72e4030",
+          "bounds_raw": "0e865fc6e7b69c45d608fcc401000103c3f51f42c3f51f42e1faab42e1faab42",
+          "center": [
+            -14305.513671875,
+            5014.86279296875,
+            -2016.276123046875
+          ],
+          "handler": "0x3010001",
+          "extent": [
+            39.9900016784668,
+            39.9900016784668,
+            85.98999786376953
+          ],
+          "radius": 85.98999786376953
+        },
+        {
+          "kind": "mesh",
+          "pointer": "0x772967e8c0",
+          "class": "DFMSkeletalMeshComponent",
+          "outer": "0x77c72e4030",
+          "bounds_raw": "0e5e66c6e766aa456b6419c5011001030000b0420000b042008014433433e942",
+          "center": [
+            -14743.513671875,
+            5452.86279296875,
+            -2454.276123046875
+          ],
+          "handler": "0x3011001",
+          "extent": [
+            88.0,
+            88.0,
+            148.5
+          ],
+          "radius": 116.60000610351562
+        }
+      ]
+    },
+    {
+      "pawn": "0x7710850040",
+      "self": false,
+      "team": 4,
+      "components": [
+        {
+          "kind": "root",
+          "pointer": "0x77749360a0",
+          "class": "IntCapsuleComponent",
+          "outer": "0x7710850040",
+          "bounds_raw": "2de6c54515899a4534ad91c400010103632b4142632b4142e1faab42e1faab42",
+          "center": [
+            6332.77197265625,
+            4945.13525390625,
+            -1165.41259765625
+          ],
+          "handler": "0x3010100",
+          "extent": [
+            48.2923698425293,
+            48.2923698425293,
+            85.98999786376953
+          ],
+          "radius": 85.98999786376953
+        },
+        {
+          "kind": "mesh",
+          "pointer": "0x76c0720040",
+          "class": "DFMSkeletalMeshComponent",
+          "outer": "0x7710850040",
+          "bounds_raw": "3094a3c60087ddc500cd28c3ffff00000000b0420000b042008014433433e942",
+          "center": [
+            -20938.09375,
+            -7088.875,
+            -168.80078125
+          ],
+          "handler": "0xffff",
+          "extent": [
+            88.0,
+            88.0,
+            148.5
+          ],
+          "radius": 116.60000610351562
+        }
+      ]
+    },
+    {
+      "pawn": "0x75f91ac010",
+      "self": false,
+      "team": 4,
+      "components": [
+        {
+          "kind": "root",
+          "pointer": "0x7a65926d60",
+          "class": "IntCapsuleComponent",
+          "outer": "0x75f91ac010",
+          "bounds_raw": "234eb7457fe4a045601096c40f010103fef74c42fef74c42e1faab42e1faab42",
+          "center": [
+            5865.76708984375,
+            5148.56201171875,
+            -1200.51171875
+          ],
+          "handler": "0x301010f",
+          "extent": [
+            51.24217987060547,
+            51.24217987060547,
+            85.98999786376953
+          ],
+          "radius": 85.98999786376953
+        },
+        {
+          "kind": "mesh",
+          "pointer": "0x758d9dba40",
+          "class": "DFMSkeletalMeshComponent",
+          "outer": "0x75f91ac010",
+          "bounds_raw": "d0ae9fc600060bc600cd3dc3ffff00000000b0420000b042008014433433e942",
+          "center": [
+            -20439.40625,
+            -8897.5,
+            -189.80078125
+          ],
+          "handler": "0xffff",
+          "extent": [
+            88.0,
+            88.0,
+            148.5
+          ],
+          "radius": 116.60000610351562
+        }
+      ]
+    },
+    {
+      "pawn": "0x757a8dc010",
+      "self": false,
+      "team": 4,
+      "components": [
+        {
+          "kind": "root",
+          "pointer": "0x75bb161420",
+          "class": "IntCapsuleComponent",
+          "outer": "0x757a8dc010",
+          "bounds_raw": "190cf0458fbd8645d00c7ac4f10001033272264232722642e1faab42e1faab42",
+          "center": [
+            7681.51220703125,
+            4311.69482421875,
+            -1000.2001953125
+          ],
+          "handler": "0x30100f1",
+          "extent": [
+            41.61151885986328,
+            41.61151885986328,
+            85.98999786376953
+          ],
+          "radius": 85.98999786376953
+        },
+        {
+          "kind": "mesh",
+          "pointer": "0x771e38a300",
+          "class": "DFMSkeletalMeshComponent",
+          "outer": "0x757a8dc010",
+          "bounds_raw": "30599ec600f8bfc500b332c3ffff00000000b0420000b042008014433433e942",
+          "center": [
+            -20268.59375,
+            -6143.0,
+            -178.69921875
+          ],
+          "handler": "0xffff",
+          "extent": [
+            88.0,
+            88.0,
+            148.5
+          ],
+          "radius": 116.60000610351562
+        }
+      ]
+    },
+    {
+      "pawn": "0x75c2684030",
+      "self": false,
+      "team": 3,
+      "components": [
+        {
+          "kind": "root",
+          "pointer": "0x75c14f86e0",
+          "class": "IntCapsuleComponent",
+          "outer": "0x75c2684030",
+          "bounds_raw": "71345646155d8ec6ff496dc45b00010392e92e4292e92e42e1faab42e1faab42",
+          "center": [
+            13709.1103515625,
+            -18222.541015625,
+            -949.1561889648438
+          ],
+          "handler": "0x301005b",
+          "extent": [
+            43.72809600830078,
+            43.72809600830078,
+            85.98999786376953
+          ],
+          "radius": 85.98999786376953
+        },
+        {
+          "kind": "mesh",
+          "pointer": "0x774a775d40",
+          "class": "DFMSkeletalMeshComponent",
+          "outer": "0x75c2684030",
+          "bounds_raw": "a7ea63c6a7679b45127e06c5381001030000a5430000a54300005c4200002543",
+          "center": [
+            -14586.6630859375,
+            4972.95654296875,
+            -2151.87939453125
+          ],
+          "handler": "0x3011038",
+          "extent": [
+            330.0,
+            330.0,
+            55.0
+          ],
+          "radius": 165.0
+        }
+      ]
+    },
+    {
+      "pawn": "0x75c2680040",
+      "self": false,
+      "team": 3,
+      "components": [
+        {
+          "kind": "root",
+          "pointer": "0x75c14f53e0",
+          "class": "IntCapsuleComponent",
+          "outer": "0x75c2680040",
+          "bounds_raw": "f0735746692c8ec6449757c46a0001038de92e428de92e42e1faab42e1faab42",
+          "center": [
+            13788.984375,
+            -18198.205078125,
+            -862.363525390625
+          ],
+          "handler": "0x301006a",
+          "extent": [
+            43.72807693481445,
+            43.72807693481445,
+            85.98999786376953
+          ],
+          "radius": 85.98999786376953
+        },
+        {
+          "kind": "mesh",
+          "pointer": "0x774a778bc0",
+          "class": "DFMSkeletalMeshComponent",
+          "outer": "0x75c2680040",
+          "bounds_raw": "43a657c6469da2454c6b2ec53e1001030000a5430000a54300005c4200002543",
+          "center": [
+            -13801.5654296875,
+            5203.6591796875,
+            -2790.7060546875
+          ],
+          "handler": "0x301103e",
+          "extent": [
+            330.0,
+            330.0,
+            55.0
+          ],
+          "radius": 165.0
+        }
+      ]
+    },
+    {
+      "pawn": "0x75c03ac010",
+      "self": false,
+      "team": 1,
+      "components": [
+        {
+          "kind": "root",
+          "pointer": "0x75c14f4720",
+          "class": "IntCapsuleComponent",
+          "outer": "0x75c03ac010",
+          "bounds_raw": "e76c50c65e4bae4532a615c57900010339d35f4239d35f42e1faab42e1faab42",
+          "center": [
+            -13339.2255859375,
+            5577.4208984375,
+            -2394.38720703125
+          ],
+          "handler": "0x3010079",
+          "extent": [
+            55.95627212524414,
+            55.95627212524414,
+            85.98999786376953
+          ],
+          "radius": 85.98999786376953
+        },
+        {
+          "kind": "mesh",
+          "pointer": "0x767d7c7480",
+          "class": "DFMSkeletalMeshComponent",
+          "outer": "0x75c03ac010",
+          "bounds_raw": "0afc50c64cb3b14516481bc50a1001030000b0420000b042008014433433e942",
+          "center": [
+            -13375.009765625,
+            5686.412109375,
+            -2484.50537109375
+          ],
+          "handler": "0x301100a",
+          "extent": [
+            88.0,
+            88.0,
+            148.5
+          ],
+          "radius": 116.60000610351562
+        }
+      ]
+    },
+    {
+      "pawn": "0x76357c8020",
+      "self": false,
+      "team": 3,
+      "components": [
+        {
+          "kind": "root",
+          "pointer": "0x776d753a60",
+          "class": "IntCapsuleComponent",
+          "outer": "0x76357c8020",
+          "bounds_raw": "08a058c6703aa745d20e14c510000103c5093b42c5093b42e1faab42e1faab42",
+          "center": [
+            -13864.0078125,
+            5351.3046875,
+            -2368.92626953125
+          ],
+          "handler": "0x3010010",
+          "extent": [
+            46.75954055786133,
+            46.75954055786133,
+            85.98999786376953
+          ],
+          "radius": 85.98999786376953
+        },
+        {
+          "kind": "mesh",
+          "pointer": "0x7669400040",
+          "class": "DFMSkeletalMeshComponent",
+          "outer": "0x76357c8020",
+          "bounds_raw": "40d57c4680fd914500cd97c2ffff00000000b0420000b042008014433433e942",
+          "center": [
+            16181.3125,
+            4671.6875,
+            -75.900390625
+          ],
+          "handler": "0xffff",
+          "extent": [
+            88.0,
+            88.0,
+            148.5
+          ],
+          "radius": 116.60000610351562
+        }
+      ]
+    }
+  ],
+  "camera_raw": "13d347c61865b5458b86b2c4ffff00003ba410c1b6b39442edb23c3f0000ea420000b44200000044000000000000004aabaaaa3f",
+  "stable_world": true,
+  "stable_roster": true,
+  "world_positions_verified": false
+}

@@ -1,0 +1,73 @@
+{
+  "mode": 2,
+  "slots": [
+    {
+      "slot": "0x2070b940",
+      "pointer": "0x0"
+    },
+    {
+      "slot": "0x2070b948",
+      "pointer": "0x0"
+    },
+    {
+      "slot": "0x2070b950",
+      "pointer": "0x0"
+    },
+    {
+      "slot": "0x2070b958",
+      "pointer": "0x0"
+    },
+    {
+      "slot": "0x2070b960",
+      "pointer": "0x0"
+    },
+    {
+      "slot": "0x2070b968",
+      "pointer": "0x0"
+    },
+    {
+      "slot": "0x2070b970",
+      "pointer": "0x78f734d630",
+      "instructions": [
+        "0x78f734d630: udf #0xffff",
+        "0x78f734d634: udf #0",
+        "0x78f734d638: movk x16, #0xcfcb",
+        "0x78f734d63c: udf #0x78",
+        "0x78f734d640: eor x0, x18, #0x7ffffffff8000000",
+        "0x78f734d644: udf #0x78",
+        "0x78f734d648: udf #0",
+        "0x78f734d64c: udf #0",
+        "0x78f734d650: udf #0",
+        "0x78f734d654: udf #0",
+        "0x78f734d658: udf #0",
+        "0x78f734d65c: udf #0"
+      ]
+    },
+    {
+      "slot": "0x2070b978",
+      "pointer": "0x7a66e1f140",
+      "instructions": [
+        "0x7a66e1f140: ret ",
+        "0x7a66e1f144: ret ",
+        "0x7a66e1f148: sub sp, sp, #0x80",
+        "0x7a66e1f14c: stp x30, x25, [sp, #0x40]",
+        "0x7a66e1f150: stp x24, x23, [sp, #0x50]",
+        "0x7a66e1f154: stp x22, x21, [sp, #0x60]",
+        "0x7a66e1f158: stp x20, x19, [sp, #0x70]",
+        "0x7a66e1f15c: adrp x8, #0x7a66e1f000",
+        "0x7a66e1f160: ldr x9, [x8, #0xb70]",
+        "0x7a66e1f164: cbz x9, #0x7a66e1f1a8",
+        "0x7a66e1f168: str q0, [sp]",
+        "0x7a66e1f16c: mov x21, x0",
+        "0x7a66e1f170: ldr x8, [x8, #0xb70]",
+        "0x7a66e1f174: ldr x8, [x8, #0x10]",
+        "0x7a66e1f178: ldr x9, [x8, #0x10]",
+        "0x7a66e1f17c: ldr x8, [x8, #0x28]",
+        "0x7a66e1f180: ldr x0, [x9]",
+        "0x7a66e1f184: ldr x1, [x8]",
+        "0x7a66e1f188: bl #0x7a66e1f8a8",
+        "0x7a66e1f18c: cbz x0, #0x7a66e1f1a4"
+      ]
+    }
+  ]
+}

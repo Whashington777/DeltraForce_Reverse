@@ -1,0 +1,829 @@
+{
+  "sample_count": 98,
+  "accepted_count": 48,
+  "reason_counts": {
+    "component_inputs_stable": 42,
+    "header_unchanged": 10,
+    "captured_identity": 4,
+    "identity_stable": 4,
+    "payload_available": 4
+  },
+  "rows": [
+    {
+      "capture_index": 0,
+      "mesh": "0x6d77bf5d40",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable",
+        "header_unchanged"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 0,
+      "mesh": "0x6e0c3f2ec0",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 0,
+      "mesh": "0x6e97324600",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable",
+        "header_unchanged"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 0,
+      "mesh": "0x6e1d5a4600",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 0,
+      "mesh": "0x6d4017d180",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 0,
+      "mesh": "0x6d5aba4600",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable",
+        "header_unchanged"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 0,
+      "mesh": "0x6e8d0a2ec0",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 0,
+      "mesh": "0x6e49681780",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 0,
+      "mesh": "0x6d113fd180",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 1,
+      "mesh": "0x6d77bf5d40",
+      "accepted": false,
+      "reasons": [
+        "header_unchanged"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 1,
+      "mesh": "0x6e0c3f2ec0",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 1,
+      "mesh": "0x6e97324600",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 1,
+      "mesh": "0x6e1d5a4600",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 1,
+      "mesh": "0x6d4017d180",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 1,
+      "mesh": "0x6d5aba4600",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 1,
+      "mesh": "0x6e8d0a2ec0",
+      "accepted": false,
+      "reasons": [
+        "header_unchanged"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 1,
+      "mesh": "0x6e97320040",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 1,
+      "mesh": "0x6e49681780",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 1,
+      "mesh": "0x6d113fd180",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 2,
+      "mesh": "0x6d77bf5d40",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 2,
+      "mesh": "0x6e0c3f2ec0",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 2,
+      "mesh": "0x6e97324600",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 2,
+      "mesh": "0x6e1d5a4600",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 2,
+      "mesh": "0x6d4017d180",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 2,
+      "mesh": "0x6d5aba4600",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 2,
+      "mesh": "0x6e8d0a2ec0",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 2,
+      "mesh": "0x6e97320040",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 2,
+      "mesh": "0x6e49681780",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 2,
+      "mesh": "0x6d113fd180",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 3,
+      "mesh": "0x6d77bf5d40",
+      "accepted": false,
+      "reasons": [
+        "header_unchanged"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 3,
+      "mesh": "0x6e0c3f2ec0",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 3,
+      "mesh": "0x6e97324600",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 3,
+      "mesh": "0x6e1d5a4600",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 3,
+      "mesh": "0x6d4017d180",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 3,
+      "mesh": "0x6d5aba4600",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 3,
+      "mesh": "0x6e8d0a2ec0",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 3,
+      "mesh": "0x6e97320040",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 3,
+      "mesh": "0x6e49681780",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 3,
+      "mesh": "0x6d113fd180",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 4,
+      "mesh": "0x6d77bf5d40",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 4,
+      "mesh": "0x6e0c3f2ec0",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 4,
+      "mesh": "0x6e97324600",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 4,
+      "mesh": "0x6e1d5a4600",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 4,
+      "mesh": "0x6d4017d180",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 4,
+      "mesh": "0x6d5aba4600",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 4,
+      "mesh": "0x6e8d0a2ec0",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 4,
+      "mesh": "0x6e97320040",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 4,
+      "mesh": "0x6e49681780",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 4,
+      "mesh": "0x6d113fd180",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 5,
+      "mesh": "0x6d77bf5d40",
+      "accepted": false,
+      "reasons": [
+        "header_unchanged"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 5,
+      "mesh": "0x6e0c3f2ec0",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 5,
+      "mesh": "0x6e97324600",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 5,
+      "mesh": "0x6e1d5a4600",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 5,
+      "mesh": "0x6d4017d180",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 5,
+      "mesh": "0x6d5aba4600",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 5,
+      "mesh": "0x6e8d0a2ec0",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 5,
+      "mesh": "0x6e97320040",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 5,
+      "mesh": "0x6e49681780",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 5,
+      "mesh": "0x6d113fd180",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 6,
+      "mesh": "0x6d77bf5d40",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable",
+        "header_unchanged"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 6,
+      "mesh": "0x6e0c3f2ec0",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 6,
+      "mesh": "0x6e97324600",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 6,
+      "mesh": "0x6e1d5a4600",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 6,
+      "mesh": "0x6d4017d180",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 6,
+      "mesh": "0x6d5aba4600",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 6,
+      "mesh": "0x6e8d0a2ec0",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable",
+        "header_unchanged"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 6,
+      "mesh": "0x6e97320040",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 6,
+      "mesh": "0x6e49681780",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 6,
+      "mesh": "0x6d113fd180",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 7,
+      "mesh": "0x6d77bf5d40",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 7,
+      "mesh": "0x6e0c3f2ec0",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 7,
+      "mesh": "0x6e97324600",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 7,
+      "mesh": "0x6e1d5a4600",
+      "accepted": false,
+      "reasons": [
+        "captured_identity",
+        "identity_stable",
+        "payload_available"
+      ],
+      "unchecked": [
+        "finite_fields",
+        "unit_quaternions"
+      ]
+    },
+    {
+      "capture_index": 7,
+      "mesh": "0x6d4017d180",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 7,
+      "mesh": "0x6d5aba4600",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 7,
+      "mesh": "0x6e8d0a2ec0",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 7,
+      "mesh": "0x6e97320040",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 7,
+      "mesh": "0x6e49681780",
+      "accepted": false,
+      "reasons": [
+        "captured_identity",
+        "identity_stable",
+        "payload_available"
+      ],
+      "unchecked": [
+        "finite_fields",
+        "unit_quaternions"
+      ]
+    },
+    {
+      "capture_index": 7,
+      "mesh": "0x6d113fd180",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 8,
+      "mesh": "0x6d77bf5d40",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 8,
+      "mesh": "0x6e0c3f2ec0",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 8,
+      "mesh": "0x6e97324600",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 8,
+      "mesh": "0x6e1d5a4600",
+      "accepted": false,
+      "reasons": [
+        "captured_identity",
+        "identity_stable",
+        "payload_available"
+      ],
+      "unchecked": [
+        "finite_fields",
+        "unit_quaternions"
+      ]
+    },
+    {
+      "capture_index": 8,
+      "mesh": "0x6d4017d180",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 8,
+      "mesh": "0x6d5aba4600",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 8,
+      "mesh": "0x6e8d0a2ec0",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 8,
+      "mesh": "0x6e97320040",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 8,
+      "mesh": "0x6e49681780",
+      "accepted": false,
+      "reasons": [
+        "captured_identity",
+        "identity_stable",
+        "payload_available"
+      ],
+      "unchecked": [
+        "finite_fields",
+        "unit_quaternions"
+      ]
+    },
+    {
+      "capture_index": 8,
+      "mesh": "0x6d113fd180",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 9,
+      "mesh": "0x6d77bf5d40",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 9,
+      "mesh": "0x6e0c3f2ec0",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 9,
+      "mesh": "0x6e97324600",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 9,
+      "mesh": "0x6d4017d180",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 9,
+      "mesh": "0x6d5aba4600",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable",
+        "header_unchanged"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 9,
+      "mesh": "0x6e8d0a2ec0",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    },
+    {
+      "capture_index": 9,
+      "mesh": "0x6e97320040",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 9,
+      "mesh": "0x6d313c8bc0",
+      "accepted": false,
+      "reasons": [
+        "component_inputs_stable"
+      ],
+      "unchecked": []
+    },
+    {
+      "capture_index": 9,
+      "mesh": "0x6d113fd180",
+      "accepted": true,
+      "reasons": [],
+      "unchecked": []
+    }
+  ],
+  "limits": [
+    "Reasons are not mutually exclusive.",
+    "No replacement transform or bone payload was invented for rejected samples."
+  ]
+}

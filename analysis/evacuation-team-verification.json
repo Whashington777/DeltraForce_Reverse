@@ -1,0 +1,186 @@
+{
+  "pid": 22846,
+  "base": "0x78d6c43000",
+  "world_name": "Iris_Entry",
+  "world_class": "World",
+  "game_state_class": "BP_GameState_PVPVE_C",
+  "local_player_state_class": "BP_SOLPlayerState_C",
+  "local_team_id": 1,
+  "local_camp": 0,
+  "count": 14,
+  "relation_counts": {
+    "self": 1,
+    "ally": 2,
+    "opponent": 10,
+    "unknown": 1
+  },
+  "rows": [
+    {
+      "slot": 0,
+      "pointer": "0x76831fc720",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 1,
+      "camp": 0,
+      "inner_team_index": 0,
+      "relation": "self",
+      "ai_storage_byte": 0,
+      "pawn_pointer": "0x771085c010"
+    },
+    {
+      "slot": 1,
+      "pointer": "0x766ea338f0",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 1,
+      "camp": 0,
+      "inner_team_index": 2,
+      "relation": "ally",
+      "ai_storage_byte": 0,
+      "pawn_pointer": "0x767f5c4030"
+    },
+    {
+      "slot": 2,
+      "pointer": "0x7686abc720",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 2,
+      "camp": 0,
+      "inner_team_index": 0,
+      "relation": "opponent",
+      "ai_storage_byte": 0,
+      "pawn_pointer": "0x765a380040"
+    },
+    {
+      "slot": 3,
+      "pointer": "0x778fce20e0",
+      "class": "GPPlayerState",
+      "team_id": 1,
+      "camp": -1,
+      "inner_team_index": 1,
+      "relation": "unknown",
+      "ai_storage_byte": 0,
+      "pawn_pointer": null
+    },
+    {
+      "slot": 4,
+      "pointer": "0x76bfa58e40",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 1,
+      "camp": 0,
+      "inner_team_index": 1,
+      "relation": "ally",
+      "ai_storage_byte": 0,
+      "pawn_pointer": "0x79c6a1c010"
+    },
+    {
+      "slot": 5,
+      "pointer": "0x76632f8e40",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 5,
+      "camp": 106,
+      "inner_team_index": 0,
+      "relation": "opponent",
+      "ai_storage_byte": 0,
+      "pawn_pointer": "0x776d5e0040"
+    },
+    {
+      "slot": 6,
+      "pointer": "0x76632f71d0",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 5,
+      "camp": 106,
+      "inner_team_index": 1,
+      "relation": "opponent",
+      "ai_storage_byte": 0,
+      "pawn_pointer": "0x770bf4c010"
+    },
+    {
+      "slot": 7,
+      "pointer": "0x76e2a6aab0",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 5,
+      "camp": 106,
+      "inner_team_index": 2,
+      "relation": "opponent",
+      "ai_storage_byte": 0,
+      "pawn_pointer": "0x768b368020"
+    },
+    {
+      "slot": 8,
+      "pointer": "0x79cc4cc720",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 3,
+      "camp": 106,
+      "inner_team_index": 0,
+      "relation": "opponent",
+      "ai_storage_byte": 0,
+      "pawn_pointer": "0x7680810040"
+    },
+    {
+      "slot": 9,
+      "pointer": "0x77141fe390",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 3,
+      "camp": 106,
+      "inner_team_index": 1,
+      "relation": "opponent",
+      "ai_storage_byte": 0,
+      "pawn_pointer": "0x767fb34030"
+    },
+    {
+      "slot": 10,
+      "pointer": "0x77160d5560",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 3,
+      "camp": 106,
+      "inner_team_index": 2,
+      "relation": "opponent",
+      "ai_storage_byte": 0,
+      "pawn_pointer": "0x7656284030"
+    },
+    {
+      "slot": 11,
+      "pointer": "0x79cc4ce390",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 4,
+      "camp": 106,
+      "inner_team_index": 0,
+      "relation": "opponent",
+      "ai_storage_byte": 0,
+      "pawn_pointer": "0x76d0c9c010"
+    },
+    {
+      "slot": 12,
+      "pointer": "0x77141fc720",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 4,
+      "camp": 106,
+      "inner_team_index": 1,
+      "relation": "opponent",
+      "ai_storage_byte": 0,
+      "pawn_pointer": "0x768a5fc010"
+    },
+    {
+      "slot": 13,
+      "pointer": "0x7771ea5560",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 4,
+      "camp": 106,
+      "inner_team_index": 2,
+      "relation": "opponent",
+      "ai_storage_byte": 0,
+      "pawn_pointer": "0x76ceb08020"
+    }
+  ],
+  "checks": {
+    "local_player_present": true,
+    "local_type_expected": true,
+    "world_stable": true,
+    "game_state_stable": true,
+    "roster_header_stable": true
+  },
+  "ai_property_tail": "000000000000000000000000000000000000000000000000",
+  "limitations": [
+    "Relations inferred from reflected TeamID and observed squad grouping, without independent screen validation.",
+    "GPPlayerState entries and negative Camp/TeamID are left unknown.",
+    "This is a PlayerState roster; active Pawn status and other extraction match variants are not validated."
+  ]
+}

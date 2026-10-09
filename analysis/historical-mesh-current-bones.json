@@ -1,0 +1,23 @@
+[
+  {
+    "mesh": "0x7726a15d40",
+    "historical_pawn": "0x768a5f0040",
+    "current_world_membership_verified": false,
+    "object_valid": true,
+    "class": "GameAkComponent",
+    "buffer_index": 16,
+    "buffers": []
+  },
+  {
+    "mesh": "0x77a51ed180",
+    "historical_pawn": "0x761cfe4030",
+    "current_world_membership_verified": false,
+    "object_valid": false
+  },
+  {
+    "mesh": "0x763c457480",
+    "historical_pawn": "0x783c100040",
+    "current_world_membership_verified": false,
+    "object_valid": false
+  }
+]

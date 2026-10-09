@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-09",
+  "previous_process": {
+    "pid": 24536,
+    "start": "493421",
+    "key": "0x53d1d34b"
+  },
+  "current_process": {
+    "pid": 21490,
+    "start": "718694",
+    "libUE4_base": "0x6fe723b000",
+    "state": "0x7210d32000",
+    "key": "0x53d1d34b"
+  },
+  "process_restart_confirmed": true,
+  "key_preserved_in_this_restart": true,
+  "key_changes_every_restart": false,
+  "key_changes_every_restart_note": "This observed restart disproves an unconditional claim of change every launch. It does not establish a permanent key.",
+  "world_coordinate_path_verified": true,
+  "research_recovery_completed_after_restart": true,
+  "recovery_inputs": "No previous process address or key provided to recover_live_session.py. Layout constants are for the already verified build.",
+  "recovery_result": "session-recovery-results/1791536195407618292.json",
+  "native_unpacker_cases": 24,
+  "native_all_passed": true,
+  "cpp_python_bitwise_cases": 30,
+  "cpp_python_all_passed": true,
+  "live_android_reader": "session-refresh-history/pid-21490/native-live-validation.json",
+  "hud_check": {
+    "series": "projection-captures/1791536232836777105/series.json",
+    "screenshot": "projection-captures/1791536232836777105/screen.png",
+    "sample": 0,
+    "inner_team_index": 1,
+    "identity_matches": true,
+    "dead": 0,
+    "calculated_distance_m": 181.27527960359916,
+    "hud_distance_m": 181,
+    "camera_compass_degrees": 22.47156524658203,
+    "hud_compass_degrees": 22
+  },
+  "disabled_duplicate_record_check": {
+    "capture": "combined-vector-captures/1791535980076553392",
+    "handler": "0x6e42c40194",
+    "disabled_record": "0x6e612d0220",
+    "enabled_record": "0x6e613035a0",
+    "python_and_cpp_filter_disabled_records": true,
+    "multiple_enabled_records_still_rejected": true
+  },
+  "limits": [
+    "Recovery is a host research script, not integrated into the installed Android overlay.",
+    "Key reconstruction needs nonempty match records and sufficient independent live fields. It cannot derive a key from empty safe-house records.",
+    "Only one new-process recovery was checked in this session; no guarantee for every future launch or another build.",
+    "Screenshot and memory samples are not frame-atomic; exact body boxes and bones are not validated."
+  ]
+}

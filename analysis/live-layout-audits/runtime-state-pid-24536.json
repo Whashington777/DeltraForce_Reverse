@@ -1,0 +1,25 @@
+{
+  "pid": 24536,
+  "candidates": [
+    {
+      "state": "0x6fa7a10000",
+      "mask": "0xffffffff",
+      "context": "0x6fa78b87b0",
+      "resource": "0xffffffff",
+      "count": 40,
+      "records": "0xced587f22cf2b970",
+      "indices": "0x0"
+    },
+    {
+      "state": "0x7210d32000",
+      "mask": "0xffffffff",
+      "context": "0x6fd7fd1f40",
+      "resource": "0x0",
+      "count": 0,
+      "records": "0x6f1bcc0000",
+      "indices": "0x7218d7f000"
+    }
+  ],
+  "state_verified": false,
+  "coordinates_verified": false
+}

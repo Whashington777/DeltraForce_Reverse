@@ -1,0 +1,344 @@
+{
+  "layout": {
+    "stride": "0x30",
+    "rotation": "0x0",
+    "translation": "0x10",
+    "scale": "0x1c"
+  },
+  "evidence": [
+    "own-reflection/FIELDS.md: Transform",
+    "bone-transform-storage.json: native loads at 0x1c/0x20"
+  ],
+  "captures": [
+    {
+      "source": "analysis/bone-match-captures/1791472882061452922.json",
+      "pid": 22846,
+      "game_state_class": "BP_GameState_IrisSafeHouse_C",
+      "players": []
+    },
+    {
+      "source": "analysis/bone-match-captures/1791472988230712368.json",
+      "pid": 22846,
+      "game_state_class": "BP_GameState_PVPVE_C",
+      "players": [
+        {
+          "mesh": "0x7652e9ba40",
+          "self": true,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999999032895478,
+            1.0000002528103884
+          ],
+          "scale_range": [
+            0.999997079372406,
+            1.0000019073486328
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        },
+        {
+          "mesh": "0x7682bcba40",
+          "self": false,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999998802881338,
+            1.0000001874971893
+          ],
+          "scale_range": [
+            0.9999969601631165,
+            1.0000019073486328
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        },
+        {
+          "mesh": "0x76eb898bc0",
+          "self": false,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999999657714653,
+            1.0000002105292731
+          ],
+          "scale_range": [
+            0.9999970197677612,
+            1.0000019073486328
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        },
+        {
+          "mesh": "0x76eb89ba40",
+          "self": false,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999999241098172,
+            1.0000002132515664
+          ],
+          "scale_range": [
+            0.999997079372406,
+            1.0000019073486328
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        },
+        {
+          "mesh": "0x75c448ba40",
+          "self": false,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999999397853476,
+            1.0000002289533807
+          ],
+          "scale_range": [
+            0.9999971389770508,
+            1.0000028610229492
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        },
+        {
+          "mesh": "0x774a775d40",
+          "self": false,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999999250178071,
+            1.0000001872212794
+          ],
+          "scale_range": [
+            0.999997079372406,
+            1.0000019073486328
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        },
+        {
+          "mesh": "0x774a778bc0",
+          "self": false,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999999491223921,
+            1.000000214995477
+          ],
+          "scale_range": [
+            0.9999970197677612,
+            1.0000019073486328
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        },
+        {
+          "mesh": "0x767d7c7480",
+          "self": false,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999998971519047,
+            1.000000240837141
+          ],
+          "scale_range": [
+            0.9999998807907104,
+            1.0
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        },
+        {
+          "mesh": "0x75c448e8c0",
+          "self": false,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999999024922115,
+            1.000000230563015
+          ],
+          "scale_range": [
+            0.9999969601631165,
+            1.0000019073486328
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        }
+      ]
+    },
+    {
+      "source": "analysis/bone-match-captures/1791477355366651533.json",
+      "pid": 22846,
+      "game_state_class": "BP_GameState_IrisSafeHouse_C",
+      "players": []
+    },
+    {
+      "source": "analysis/bone-match-captures/1791477440814481420.json",
+      "pid": 22846,
+      "game_state_class": "BP_GameState_PVPVE_C",
+      "players": [
+        {
+          "mesh": "0x779e628bc0",
+          "self": true,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999999370477284,
+            1.000000231894509
+          ],
+          "scale_range": [
+            0.999997079372406,
+            1.0000027418136597
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        },
+        {
+          "mesh": "0x771e332ec0",
+          "self": false,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999999048547601,
+            1.0000001904183873
+          ],
+          "scale_range": [
+            0.9999969005584717,
+            1.0000019073486328
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        },
+        {
+          "mesh": "0x75c207a300",
+          "self": false,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999998898062981,
+            1.0000002588927883
+          ],
+          "scale_range": [
+            0.9999970197677612,
+            1.0000027418136597
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        },
+        {
+          "mesh": "0x764f8e2ec0",
+          "self": false,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999999075320156,
+            1.0000002383731827
+          ],
+          "scale_range": [
+            0.9999970197677612,
+            1.0000028610229492
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        },
+        {
+          "mesh": "0x75c2070040",
+          "self": false,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999999125464333,
+            1.0000001868365516
+          ],
+          "scale_range": [
+            0.9999969005584717,
+            1.0000028610229492
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        },
+        {
+          "mesh": "0x75c2075d40",
+          "self": false,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999998757397326,
+            1.000000216301669
+          ],
+          "scale_range": [
+            0.9999970197677612,
+            1.0000027418136597
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        },
+        {
+          "mesh": "0x7811ac2ec0",
+          "self": false,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999999251744032,
+            1.0000001956971625
+          ],
+          "scale_range": [
+            0.9999969601631165,
+            1.0000019073486328
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        },
+        {
+          "mesh": "0x764f8ee8c0",
+          "self": false,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.9999999079201333,
+            1.0000002040570046
+          ],
+          "scale_range": [
+            0.9999970197677612,
+            1.0000019073486328
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        },
+        {
+          "mesh": "0x764f8ed180",
+          "self": false,
+          "count": 80,
+          "finite_fields": true,
+          "quaternion_squared_norm_range": [
+            0.999999898927556,
+            1.0000002422468812
+          ],
+          "scale_range": [
+            0.999997079372406,
+            1.0000019073486328
+          ],
+          "master_weak_serial": 0,
+          "world_bones_verified": false
+        }
+      ]
+    },
+    {
+      "source": "analysis/bone-match-captures/1791477845651393909.json",
+      "pid": 22846,
+      "game_state_class": "BP_GameState_IrisSafeHouse_C",
+      "players": []
+    },
+    {
+      "source": "analysis/bone-match-captures/1791537266419051629.json",
+      "pid": 21490,
+      "game_state_class": "BP_GameState_IrisSafeHouse_C",
+      "players": []
+    }
+  ],
+  "limits": [
+    "Field plausibility does not prove bone names, world composition or pixel alignment.",
+    "Historical captures did not bracket individual active-buffer headers."
+  ]
+}

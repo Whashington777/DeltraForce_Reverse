@@ -1,0 +1,62 @@
+{
+  "pid": 10651,
+  "process_start": "2455946",
+  "process_stable": true,
+  "source_capture": "analysis/combined-vector-captures/1791561727427336207",
+  "pawn_class": "0x6f9cd56c80",
+  "actor_class": "0x6f9cd23300",
+  "class_source": "Current roster fallback; historical dynamic class is no longer valid",
+  "historical_class_candidate": "0x6f04d9ee80",
+  "current_pawn_for_class": "0x6f788a2f50",
+  "replicated_movement": {
+    "property": 478420572704,
+    "offset": 156,
+    "size": 56
+  },
+  "rep_type": "RepMovement",
+  "fields": {
+    "Location": {
+      "property": 478420571104,
+      "offset": 24,
+      "size": 16
+    },
+    "Rotation": {
+      "property": 478420571264,
+      "offset": 40,
+      "size": 12
+    },
+    "LinearVelocity": {
+      "property": 478420570784,
+      "offset": 0,
+      "size": 12
+    }
+  },
+  "rotation_type": "Rotator",
+  "rotation_fields": {
+    "Pitch": {
+      "property": 478966458112,
+      "offset": 0,
+      "size": 4,
+      "declared_name": "pitch"
+    },
+    "Yaw": {
+      "property": 478966458240,
+      "offset": 4,
+      "size": 4,
+      "declared_name": "Yaw"
+    },
+    "Roll": {
+      "property": 478966458368,
+      "offset": 8,
+      "size": 4,
+      "declared_name": "Roll"
+    }
+  },
+  "location_type": "EncVector",
+  "location_handler": {
+    "property": 479187451936,
+    "offset": 12,
+    "size": 4
+  },
+  "scope": "Current metadata layout; does not establish semantic validity of replicated values."
+}

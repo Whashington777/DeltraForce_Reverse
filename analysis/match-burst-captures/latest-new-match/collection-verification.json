@@ -1,0 +1,212 @@
+{
+  "captures": [
+    {
+      "folder": "analysis/combined-vector-captures/1791561658670379980",
+      "world": "0x6d50345bc0",
+      "pid": 10651,
+      "header_stable": true,
+      "usable_asset_maps": 5,
+      "usable_bone_samples": 0,
+      "projection_parameters": {
+        "constrain_aspect_ratio": false,
+        "projection_mode_raw": 0,
+        "off_center_projection_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "projection_inputs_stable": false
+    },
+    {
+      "folder": "analysis/combined-vector-captures/1791561692652266198",
+      "world": "0x6d50345bc0",
+      "pid": 10651,
+      "header_stable": true,
+      "usable_asset_maps": 5,
+      "usable_bone_samples": 1,
+      "projection_parameters": {
+        "constrain_aspect_ratio": false,
+        "projection_mode_raw": 0,
+        "off_center_projection_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "projection_inputs_stable": false
+    },
+    {
+      "folder": "analysis/combined-vector-captures/1791561727427336207",
+      "world": "0x6d50345bc0",
+      "pid": 10651,
+      "header_stable": true,
+      "usable_asset_maps": 3,
+      "usable_bone_samples": 2,
+      "projection_parameters": {
+        "constrain_aspect_ratio": false,
+        "projection_mode_raw": 0,
+        "off_center_projection_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "projection_inputs_stable": true
+    },
+    {
+      "folder": "analysis/combined-vector-captures/1791561832468895164",
+      "world": "0x6d50345bc0",
+      "pid": 10651,
+      "header_stable": true,
+      "usable_asset_maps": 5,
+      "usable_bone_samples": 1,
+      "projection_parameters": {
+        "constrain_aspect_ratio": false,
+        "projection_mode_raw": 0,
+        "off_center_projection_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "projection_inputs_stable": false
+    },
+    {
+      "folder": "analysis/combined-vector-captures/1791561849687326204",
+      "world": "0x6d50345bc0",
+      "pid": 10651,
+      "header_stable": false,
+      "usable_asset_maps": 5,
+      "usable_bone_samples": 1,
+      "projection_parameters": {
+        "constrain_aspect_ratio": false,
+        "projection_mode_raw": 0,
+        "off_center_projection_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "projection_inputs_stable": false
+    },
+    {
+      "folder": "analysis/combined-vector-captures/1791561929589597203",
+      "world": "0x6d50345bc0",
+      "pid": 10651,
+      "header_stable": true,
+      "usable_asset_maps": 5,
+      "usable_bone_samples": 2,
+      "projection_parameters": {
+        "constrain_aspect_ratio": false,
+        "projection_mode_raw": 0,
+        "off_center_projection_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "projection_inputs_stable": false
+    },
+    {
+      "folder": "analysis/combined-vector-captures/1791561939784095224",
+      "world": "0x6d50345bc0",
+      "pid": 10651,
+      "header_stable": true,
+      "usable_asset_maps": 3,
+      "usable_bone_samples": 1,
+      "projection_parameters": {
+        "constrain_aspect_ratio": false,
+        "projection_mode_raw": 0,
+        "off_center_projection_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "projection_inputs_stable": false
+    },
+    {
+      "folder": "analysis/combined-vector-captures/1791561949348175665",
+      "world": "0x6d50345bc0",
+      "pid": 10651,
+      "header_stable": true,
+      "usable_asset_maps": 3,
+      "usable_bone_samples": 1,
+      "projection_parameters": {
+        "constrain_aspect_ratio": false,
+        "projection_mode_raw": 0,
+        "off_center_projection_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "projection_inputs_stable": false
+    }
+  ],
+  "capture_count": 8,
+  "valid_screen_count": 2,
+  "distinct_current_verified_assets": [
+    "0x6d6d5d85f0",
+    "0x6e0ecee470",
+    "0x6e0fe34ed0",
+    "0x6e0fe3f430",
+    "0x6e111b7240",
+    "0x6e9313d0c0",
+    "0x6e9857c100",
+    "0x6fb7ada960"
+  ],
+  "specific_asset_table_capture_tested_in_match": true,
+  "full_pov_capture_tested_in_match": true,
+  "native_composition": {
+    "reports": [
+      {
+        "mesh": "0x6dcc924600",
+        "cases": 80,
+        "passed": true,
+        "max_error_cm": 0.0009764793758222368,
+        "report": "analysis/match-burst-captures/latest-new-match/native-candidate-verification-6dcc924600.json"
+      },
+      {
+        "mesh": "0x6de80eba40",
+        "cases": 80,
+        "passed": true,
+        "max_error_cm": 0.0009763604575709905,
+        "report": "analysis/match-burst-captures/latest-new-match/native-candidate-verification-6de80eba40.json"
+      },
+      {
+        "mesh": "0x6e0fd05d40",
+        "cases": 160,
+        "passed": true,
+        "max_error_cm": 0.0009706707714940421,
+        "report": "analysis/match-burst-captures/latest-new-match/native-candidate-verification-6e0fd05d40.json"
+      },
+      {
+        "mesh": "0x6ee934ba40",
+        "cases": 80,
+        "passed": true,
+        "max_error_cm": 0.0004882659159193281,
+        "report": "analysis/match-burst-captures/latest-new-match/native-candidate-verification-6ee934ba40.json"
+      },
+      {
+        "mesh": "0x6f02f85d40",
+        "cases": 160,
+        "passed": true,
+        "max_error_cm": 0.0009745497736730613,
+        "report": "analysis/match-burst-captures/latest-new-match/native-candidate-verification-6f02f85d40.json"
+      },
+      {
+        "mesh": "0x6fb1011780",
+        "cases": 80,
+        "passed": true,
+        "max_error_cm": 0.0009665061770647299,
+        "report": "analysis/match-burst-captures/latest-new-match/native-candidate-verification-6fb1011780.json"
+      }
+    ],
+    "total_cases": 640,
+    "all_passed": true,
+    "world_bones_verified": false
+  },
+  "best_named_geometry_capture": "analysis/combined-vector-captures/1791561727427336207",
+  "world_bones_verified": false,
+  "full_remote_world_transform_source_verified": false,
+  "limits": [
+    "Current named candidate geometry does not independently prove protected remote ComponentToWorld getter.",
+    "New screenshots do not show an independently measured remote skeletal pose.",
+    "Changing camera/pose inputs are rejected for synchronized geometry checks.",
+    "Historical missing tables/projection fields are not filled with current-match values."
+  ]
+}

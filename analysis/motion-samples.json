@@ -1,0 +1,302 @@
+[
+  {
+    "sample": 0,
+    "time_monotonic": 31056.75811195,
+    "pawn": "0x771085c010",
+    "scene": "0x777498b380",
+    "camera": "0x77bdc28010",
+    "position_raw": "877ba6c66af1bf45359febc3ffff0000",
+    "position_as_float3": [
+      -21309.763671875,
+      6142.1767578125,
+      -471.2438049316406
+    ],
+    "position_enc_handler": 65535,
+    "camera_location_raw": "a2aea6c6dc0ec0456030cac3ffff0000",
+    "camera_as_float3": [
+      -21335.31640625,
+      6145.857421875,
+      -404.3779296875
+    ],
+    "camera_enc_handler": 65535,
+    "camera_rotation": [
+      -4.021268367767334,
+      -163.26646423339844,
+      0.04149925708770752
+    ],
+    "camera_fov": 90.0,
+    "camera_aspect_ratio": 1.3333333730697632,
+    "capsule_half_height": 86.0,
+    "capsule_radius": 40.0
+  },
+  {
+    "sample": 1,
+    "time_monotonic": 31058.012038283,
+    "pawn": "0x771085c010",
+    "scene": "0x777498b380",
+    "camera": "0x77bdc28010",
+    "position_raw": "6e48a8c6df15bb4567dbfcc3ffff0000",
+    "position_as_float3": [
+      -21540.21484375,
+      5986.73388671875,
+      -505.7140808105469
+    ],
+    "position_enc_handler": 65535,
+    "camera_location_raw": "6237a8c60ebeba458ef5dcc3ffff0000",
+    "camera_as_float3": [
+      -21531.69140625,
+      5975.7568359375,
+      -441.91839599609375
+    ],
+    "camera_enc_handler": 65535,
+    "camera_rotation": [
+      1.0281414985656738,
+      -63.886268615722656,
+      0.013470985926687717
+    ],
+    "camera_fov": 90.0,
+    "camera_aspect_ratio": 1.3333333730697632,
+    "capsule_half_height": 86.0,
+    "capsule_radius": 40.0
+  },
+  {
+    "sample": 2,
+    "time_monotonic": 31059.305612669,
+    "pawn": "0x771085c010",
+    "scene": "0x777498b380",
+    "camera": "0x77bdc28010",
+    "position_raw": "151fa9c69f9eb9451575f8c3ffff0000",
+    "position_as_float3": [
+      -21647.541015625,
+      5939.82763671875,
+      -496.9147033691406
+    ],
+    "position_enc_handler": 65535,
+    "camera_location_raw": "c345a9c6cf75ba45509cd8c3ffff0000",
+    "camera_as_float3": [
+      -21666.880859375,
+      5966.72607421875,
+      -433.22119140625
+    ],
+    "camera_enc_handler": 65535,
+    "camera_rotation": [
+      -2.044849395751953,
+      38.47934341430664,
+      -0.006640056613832712
+    ],
+    "camera_fov": 90.0,
+    "camera_aspect_ratio": 1.3333333730697632,
+    "capsule_half_height": 86.0,
+    "capsule_radius": 40.0
+  },
+  {
+    "sample": 3,
+    "time_monotonic": 31060.548394288,
+    "pawn": "0x771085c010",
+    "scene": "0x777498b380",
+    "camera": "0x77bdc28010",
+    "position_raw": "e167aac6d8d1b64557a4dfc3ffff0000",
+    "position_as_float3": [
+      -21811.939453125,
+      5850.23046875,
+      -447.2839050292969
+    ],
+    "position_enc_handler": 65535,
+    "camera_location_raw": "567baac6316ab6458d0ebfc3ffff0000",
+    "camera_as_float3": [
+      -21821.66796875,
+      5837.27392578125,
+      -382.1136779785156
+    ],
+    "camera_enc_handler": 65535,
+    "camera_rotation": [
+      7.3508405685424805,
+      174.298828125,
+      -0.026031339541077614
+    ],
+    "camera_fov": 90.0,
+    "camera_aspect_ratio": 1.3333333730697632,
+    "capsule_half_height": 86.0,
+    "capsule_radius": 40.0
+  },
+  {
+    "sample": 4,
+    "time_monotonic": 31061.789692544,
+    "pawn": "0x771085c010",
+    "scene": "0x777498b380",
+    "camera": "0x77bdc28010",
+    "position_raw": "df38acc60656b54538f2adc3ffff0000",
+    "position_as_float3": [
+      -22044.435546875,
+      5802.7529296875,
+      -347.892333984375
+    ],
+    "position_enc_handler": 65535,
+    "camera_location_raw": "6031acc6505ab545ed088ec3ffff0000",
+    "camera_as_float3": [
+      -22040.6875,
+      5803.2890625,
+      -284.0697326660156
+    ],
+    "camera_enc_handler": 65535,
+    "camera_rotation": [
+      7.281958103179932,
+      -171.84024047851562,
+      5.244327894615708e-06
+    ],
+    "camera_fov": 90.0,
+    "camera_aspect_ratio": 1.3333333730697632,
+    "capsule_half_height": 86.0,
+    "capsule_radius": 40.0
+  },
+  {
+    "sample": 5,
+    "time_monotonic": 31063.068501962,
+    "pawn": "0x771085c010",
+    "scene": "0x777498b380",
+    "camera": "0x77bdc28010",
+    "position_raw": "4a27aec69c67af450fc2bac3ffff0000",
+    "position_as_float3": [
+      -22291.64453125,
+      5612.951171875,
+      -373.5160827636719
+    ],
+    "position_enc_handler": 65535,
+    "camera_location_raw": "c948aec6f75caf45733a9cc3ffff0000",
+    "camera_as_float3": [
+      -22308.392578125,
+      5611.62060546875,
+      -312.4566345214844
+    ],
+    "camera_enc_handler": 65535,
+    "camera_rotation": [
+      7.2868218421936035,
+      -171.81663513183594,
+      0.008440589532256126
+    ],
+    "camera_fov": 90.0,
+    "camera_aspect_ratio": 1.3333333730697632,
+    "capsule_half_height": 86.0,
+    "capsule_radius": 40.0
+  },
+  {
+    "sample": 6,
+    "time_monotonic": 31064.357389665,
+    "pawn": "0x771085c010",
+    "scene": "0x777498b380",
+    "camera": "0x77bdc28010",
+    "position_raw": "7281afc60fbfae453ea9b9c3ffff0000",
+    "position_as_float3": [
+      -22464.72265625,
+      5591.88232421875,
+      -371.32220458984375
+    ],
+    "position_enc_handler": 65535,
+    "camera_location_raw": "6f7cafc614b8ae457c66a4c3ffff0000",
+    "camera_as_float3": [
+      -22462.216796875,
+      5591.009765625,
+      -328.8006591796875
+    ],
+    "camera_enc_handler": 65535,
+    "camera_rotation": [
+      7.285816669464111,
+      -171.82859802246094,
+      0.008235414512455463
+    ],
+    "camera_fov": 90.0,
+    "camera_aspect_ratio": 1.3333333730697632,
+    "capsule_half_height": 60.0,
+    "capsule_radius": 40.0
+  },
+  {
+    "sample": 7,
+    "time_monotonic": 31065.668550449,
+    "pawn": "0x771085c010",
+    "scene": "0x777498b380",
+    "camera": "0x77bdc28010",
+    "position_raw": "103cb1c630a4ac454141adc3ffff0000",
+    "position_as_float3": [
+      -22686.03125,
+      5524.5234375,
+      -346.5097961425781
+    ],
+    "position_enc_handler": 65535,
+    "camera_location_raw": "6574b1c621b8ac45e7958dc3ffff0000",
+    "camera_as_float3": [
+      -22714.197265625,
+      5527.01611328125,
+      -283.1711120605469
+    ],
+    "camera_enc_handler": 65535,
+    "camera_rotation": [
+      1.3305343389511108,
+      173.39071655273438,
+      0.05118446424603462
+    ],
+    "camera_fov": 90.0,
+    "camera_aspect_ratio": 1.3333333730697632,
+    "capsule_half_height": 86.0,
+    "capsule_radius": 40.0
+  },
+  {
+    "sample": 8,
+    "time_monotonic": 31066.957267393,
+    "pawn": "0x771085c010",
+    "scene": "0x777498b380",
+    "camera": "0x77bdc28010",
+    "position_raw": "4883b5c6bbafaf45368b8dc3ffff0000",
+    "position_as_float3": [
+      -23233.640625,
+      5621.96630859375,
+      -283.08758544921875
+    ],
+    "position_enc_handler": 65535,
+    "camera_location_raw": "128eb5c65babaf4575765cc3ffff0000",
+    "camera_as_float3": [
+      -23239.03515625,
+      5621.41943359375,
+      -220.4627227783203
+    ],
+    "camera_enc_handler": 65535,
+    "camera_rotation": [
+      -1.5958462953567505,
+      -153.9674072265625,
+      -0.004293745383620262
+    ],
+    "camera_fov": 90.0,
+    "camera_aspect_ratio": 1.3333333730697632,
+    "capsule_half_height": 86.0,
+    "capsule_radius": 40.0
+  },
+  {
+    "sample": 9,
+    "time_monotonic": 31068.250208835,
+    "pawn": "0x771085c010",
+    "scene": "0x777498b380",
+    "camera": "0x77bdc28010",
+    "position_raw": "c254b7c6cf5fa645780d8fc3ffff0000",
+    "position_as_float3": [
+      -23466.37890625,
+      5323.97607421875,
+      -286.105224609375
+    ],
+    "position_enc_handler": 65535,
+    "camera_location_raw": "2b56b7c6be5ea645c3dd5dc3ffff0000",
+    "camera_as_float3": [
+      -23467.083984375,
+      5323.8427734375,
+      -221.8662567138672
+    ],
+    "camera_enc_handler": 65535,
+    "camera_rotation": [
+      -1.3810025453567505,
+      -169.38536071777344,
+      -5.993262675474398e-06
+    ],
+    "camera_fov": 17.49232292175293,
+    "camera_aspect_ratio": 1.3333333730697632,
+    "capsule_half_height": 86.0,
+    "capsule_radius": 40.0
+  }
+]

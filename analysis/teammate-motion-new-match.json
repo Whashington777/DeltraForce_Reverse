@@ -1,0 +1,488 @@
+[
+  {
+    "sample": 0,
+    "time": 31719.885112245,
+    "world": "0x767de0edc0",
+    "game_state_class": "BP_GameState_PVPVE_C",
+    "local_player_state": "0x76635b5560",
+    "local_team": 2,
+    "camera_location_candidates": [
+      -15916.1650390625,
+      -12369.2890625,
+      -117.50132751464844
+    ],
+    "camera_handler": "0xffff",
+    "rotation": [
+      -5.616660118103027,
+      -139.25572204589844,
+      -3.4957704286853186e-08
+    ],
+    "fov": 90.0,
+    "aspect": 1.3333300352096558,
+    "participants": [
+      {
+        "relation": "self",
+        "player_state": "0x76635b5560",
+        "pawn": "0x7629b5c010",
+        "root": "0x77524753e0",
+        "relative_xyz_candidates": [
+          -15828.7724609375,
+          -12503.2509765625,
+          -181.23680114746094
+        ],
+        "handler": "0xffff",
+        "transform_translation_candidates": [
+          -15828.7724609375,
+          -12503.2509765625,
+          -181.23680114746094
+        ],
+        "transform_tail": "ffff000000000000",
+        "half_height": 86.0
+      },
+      {
+        "relation": "ally",
+        "player_state": "0x7778598e40",
+        "pawn": "0x76440d8020",
+        "root": "0x761cae93a0",
+        "relative_xyz_candidates": [
+          -38196.7890625,
+          6787.7734375,
+          -892.9589233398438
+        ],
+        "handler": "0x301002d",
+        "transform_translation_candidates": [
+          -38154.6328125,
+          6745.6171875,
+          -850.8026733398438
+        ],
+        "transform_tail": "0310010300000000",
+        "half_height": 85.98999786376953
+      },
+      {
+        "relation": "ally",
+        "player_state": "0x7729711c80",
+        "pawn": "0x766b56c010",
+        "root": "0x7769b99a00",
+        "relative_xyz_candidates": [
+          -16153.755859375,
+          -12075.8505859375,
+          -1319.39306640625
+        ],
+        "handler": "0x301003c",
+        "transform_translation_candidates": [
+          -16227.724609375,
+          -12001.8818359375,
+          -1393.36181640625
+        ],
+        "transform_tail": "1410010300000000",
+        "half_height": 85.98999786376953
+      }
+    ],
+    "stable_world": true
+  },
+  {
+    "sample": 1,
+    "time": 31723.899600955,
+    "world": "0x767de0edc0",
+    "game_state_class": "BP_GameState_PVPVE_C",
+    "local_player_state": "0x76635b5560",
+    "local_team": 2,
+    "camera_location_candidates": [
+      -15968.4501953125,
+      -12267.77734375,
+      -117.66981506347656
+    ],
+    "camera_handler": "0xffff",
+    "rotation": [
+      -7.683206081390381,
+      -19.096637725830078,
+      2.553090610035724e-07
+    ],
+    "fov": 90.0,
+    "aspect": 1.3333300352096558,
+    "participants": [
+      {
+        "relation": "self",
+        "player_state": "0x76635b5560",
+        "pawn": "0x7629b5c010",
+        "root": "0x77524753e0",
+        "relative_xyz_candidates": [
+          -15821.326171875,
+          -12177.4267578125,
+          -181.23680114746094
+        ],
+        "handler": "0xffff",
+        "transform_translation_candidates": [
+          -15821.326171875,
+          -12177.4267578125,
+          -181.23680114746094
+        ],
+        "transform_tail": "ffff000000000000",
+        "half_height": 86.0
+      },
+      {
+        "relation": "ally",
+        "player_state": "0x7778598e40",
+        "pawn": "0x76440d8020",
+        "root": "0x761cae93a0",
+        "relative_xyz_candidates": [
+          -38196.7890625,
+          6787.7734375,
+          -892.9589233398438
+        ],
+        "handler": "0x301002d",
+        "transform_translation_candidates": [
+          -38154.6328125,
+          6745.6171875,
+          -850.8026733398438
+        ],
+        "transform_tail": "0310010300000000",
+        "half_height": 85.98999786376953
+      },
+      {
+        "relation": "ally",
+        "player_state": "0x7729711c80",
+        "pawn": "0x766b56c010",
+        "root": "0x7769b99a00",
+        "relative_xyz_candidates": [
+          -15658.0947265625,
+          -12009.3701171875,
+          -1315.543212890625
+        ],
+        "handler": "0x301003c",
+        "transform_translation_candidates": [
+          -15732.0634765625,
+          -11935.4013671875,
+          -1389.511962890625
+        ],
+        "transform_tail": "1410010300000000",
+        "half_height": 85.98999786376953
+      }
+    ],
+    "stable_world": true
+  },
+  {
+    "sample": 2,
+    "time": 31727.692555836,
+    "world": "0x767de0edc0",
+    "game_state_class": "BP_GameState_PVPVE_C",
+    "local_player_state": "0x76635b5560",
+    "local_team": 2,
+    "camera_location_candidates": [
+      -15226.572265625,
+      -12348.91796875,
+      -113.54473876953125
+    ],
+    "camera_handler": "0xffff",
+    "rotation": [
+      -8.197710990905762,
+      -176.94480895996094,
+      -1.8803094690156286e-06
+    ],
+    "fov": 90.0,
+    "aspect": 1.3333300352096558,
+    "participants": [
+      {
+        "relation": "self",
+        "player_state": "0x76635b5560",
+        "pawn": "0x7629b5c010",
+        "root": "0x77524753e0",
+        "relative_xyz_candidates": [
+          -15137.021484375,
+          -12219.6123046875,
+          -180.99029541015625
+        ],
+        "handler": "0xffff",
+        "transform_translation_candidates": [
+          -15137.021484375,
+          -12219.6123046875,
+          -180.99029541015625
+        ],
+        "transform_tail": "ffff000000000000",
+        "half_height": 86.0
+      },
+      {
+        "relation": "ally",
+        "player_state": "0x7778598e40",
+        "pawn": "0x76440d8020",
+        "root": "0x761cae93a0",
+        "relative_xyz_candidates": [
+          -38196.7890625,
+          6787.7734375,
+          -892.9589233398438
+        ],
+        "handler": "0x301002d",
+        "transform_translation_candidates": [
+          -38154.6328125,
+          6745.6171875,
+          -850.8026733398438
+        ],
+        "transform_tail": "0310010300000000",
+        "half_height": 85.98999786376953
+      },
+      {
+        "relation": "ally",
+        "player_state": "0x7729711c80",
+        "pawn": "0x766b56c010",
+        "root": "0x7769b99a00",
+        "relative_xyz_candidates": [
+          -15311.740234375,
+          -11582.537109375,
+          -1319.146484375
+        ],
+        "handler": "0x301003c",
+        "transform_translation_candidates": [
+          -15385.708984375,
+          -11508.568359375,
+          -1393.115234375
+        ],
+        "transform_tail": "1410010300000000",
+        "half_height": 85.98999786376953
+      }
+    ],
+    "stable_world": true
+  },
+  {
+    "sample": 3,
+    "time": 31731.573632567,
+    "world": "0x767de0edc0",
+    "game_state_class": "BP_GameState_PVPVE_C",
+    "local_player_state": "0x76635b5560",
+    "local_team": 2,
+    "camera_location_candidates": [
+      -15446.568359375,
+      -11775.4677734375,
+      -117.29933166503906
+    ],
+    "camera_handler": "0xffff",
+    "rotation": [
+      -6.212990760803223,
+      -169.6769561767578,
+      -2.94114170173998e-06
+    ],
+    "fov": 90.0,
+    "aspect": 1.3333300352096558,
+    "participants": [
+      {
+        "relation": "self",
+        "player_state": "0x76635b5560",
+        "pawn": "0x7629b5c010",
+        "root": "0x77524753e0",
+        "relative_xyz_candidates": [
+          -15443.404296875,
+          -11774.890625,
+          -180.99029541015625
+        ],
+        "handler": "0xffff",
+        "transform_translation_candidates": [
+          -15443.404296875,
+          -11774.890625,
+          -180.99029541015625
+        ],
+        "transform_tail": "ffff000000000000",
+        "half_height": 86.0
+      },
+      {
+        "relation": "ally",
+        "player_state": "0x7778598e40",
+        "pawn": "0x76440d8020",
+        "root": "0x761cae93a0",
+        "relative_xyz_candidates": [
+          -15741.560546875,
+          -11476.734375,
+          -1307.146484375
+        ],
+        "handler": "0x301002d",
+        "transform_translation_candidates": [
+          -15699.404296875,
+          -11518.890625,
+          -1264.990234375
+        ],
+        "transform_tail": "0310010300000000",
+        "half_height": 85.98999786376953
+      },
+      {
+        "relation": "ally",
+        "player_state": "0x7729711c80",
+        "pawn": "0x766b56c010",
+        "root": "0x7769b99a00",
+        "relative_xyz_candidates": [
+          -15753.560546875,
+          -11464.734375,
+          -1319.146484375
+        ],
+        "handler": "0x301003c",
+        "transform_translation_candidates": [
+          -15827.529296875,
+          -11390.765625,
+          -1393.115234375
+        ],
+        "transform_tail": "1410010300000000",
+        "half_height": 39.9900016784668
+      }
+    ],
+    "stable_world": true
+  },
+  {
+    "sample": 4,
+    "time": 31735.426057921,
+    "world": "0x767de0edc0",
+    "game_state_class": "BP_GameState_PVPVE_C",
+    "local_player_state": "0x76635b5560",
+    "local_team": 2,
+    "camera_location_candidates": [
+      -15596.1142578125,
+      -11809.1181640625,
+      -121.77131652832031
+    ],
+    "camera_handler": "0xffff",
+    "rotation": [
+      -30.619749069213867,
+      174.47898864746094,
+      -6.249372574984591e-08
+    ],
+    "fov": 90.0,
+    "aspect": 1.3333300352096558,
+    "participants": [
+      {
+        "relation": "self",
+        "player_state": "0x76635b5560",
+        "pawn": "0x7629b5c010",
+        "root": "0x77524753e0",
+        "relative_xyz_candidates": [
+          -15581.185546875,
+          -11810.560546875,
+          -180.99029541015625
+        ],
+        "handler": "0xffff",
+        "transform_translation_candidates": [
+          -15581.185546875,
+          -11810.560546875,
+          -180.99029541015625
+        ],
+        "transform_tail": "ffff000000000000",
+        "half_height": 86.0
+      },
+      {
+        "relation": "ally",
+        "player_state": "0x7778598e40",
+        "pawn": "0x76440d8020",
+        "root": "0x761cae93a0",
+        "relative_xyz_candidates": [
+          -15879.341796875,
+          -11512.404296875,
+          -1307.146484375
+        ],
+        "handler": "0x301002d",
+        "transform_translation_candidates": [
+          -15837.185546875,
+          -11554.560546875,
+          -1264.990234375
+        ],
+        "transform_tail": "0310010300000000",
+        "half_height": 85.98999786376953
+      },
+      {
+        "relation": "ally",
+        "player_state": "0x7729711c80",
+        "pawn": "0x766b56c010",
+        "root": "0x7769b99a00",
+        "relative_xyz_candidates": [
+          -15753.560546875,
+          -11464.734375,
+          -1319.146484375
+        ],
+        "handler": "0x301003c",
+        "transform_translation_candidates": [
+          -15827.529296875,
+          -11390.765625,
+          -1393.115234375
+        ],
+        "transform_tail": "1410010300000000",
+        "half_height": 39.9900016784668
+      }
+    ],
+    "stable_world": true
+  },
+  {
+    "sample": 5,
+    "time": 31739.165639353,
+    "world": "0x767de0edc0",
+    "game_state_class": "BP_GameState_PVPVE_C",
+    "local_player_state": "0x76635b5560",
+    "local_team": 2,
+    "camera_location_candidates": [
+      -15597.48046875,
+      -11807.78515625,
+      -122.83433532714844
+    ],
+    "camera_handler": "0xffff",
+    "rotation": [
+      -34.20224380493164,
+      170.3295135498047,
+      9.17406396183651e-06
+    ],
+    "fov": 90.0,
+    "aspect": 1.3333300352096558,
+    "participants": [
+      {
+        "relation": "self",
+        "player_state": "0x76635b5560",
+        "pawn": "0x7629b5c010",
+        "root": "0x77524753e0",
+        "relative_xyz_candidates": [
+          -15581.185546875,
+          -11810.560546875,
+          -180.99029541015625
+        ],
+        "handler": "0xffff",
+        "transform_translation_candidates": [
+          -15581.185546875,
+          -11810.560546875,
+          -180.99029541015625
+        ],
+        "transform_tail": "ffff000000000000",
+        "half_height": 86.0
+      },
+      {
+        "relation": "ally",
+        "player_state": "0x7778598e40",
+        "pawn": "0x76440d8020",
+        "root": "0x761cae93a0",
+        "relative_xyz_candidates": [
+          -15879.341796875,
+          -11512.404296875,
+          -1307.146484375
+        ],
+        "handler": "0x301002d",
+        "transform_translation_candidates": [
+          -15837.185546875,
+          -11554.560546875,
+          -1264.990234375
+        ],
+        "transform_tail": "0310010300000000",
+        "half_height": 85.98999786376953
+      },
+      {
+        "relation": "ally",
+        "player_state": "0x7729711c80",
+        "pawn": "0x766b56c010",
+        "root": "0x7769b99a00",
+        "relative_xyz_candidates": [
+          -15891.341796875,
+          -11500.404296875,
+          -1319.146484375
+        ],
+        "handler": "0x301003c",
+        "transform_translation_candidates": [
+          -15965.310546875,
+          -11426.435546875,
+          -1393.115234375
+        ],
+        "transform_tail": "1410010300000000",
+        "half_height": 85.98999786376953
+      }
+    ],
+    "stable_world": true
+  }
+]

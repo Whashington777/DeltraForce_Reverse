@@ -1,0 +1,1954 @@
+{
+  "pid": 10651,
+  "process_start": "2455946",
+  "world": "0x6de66dade0",
+  "game_state_class": "?",
+  "records": "0x6e52fcc000",
+  "state": "0x7210d32000",
+  "key": "0x53d1d34b",
+  "count": 177,
+  "count_after": 177,
+  "header_stable": true,
+  "page_count": 180,
+  "batch_seconds": 0.3892669130000286,
+  "batch_started_ns": 1791557137441205571,
+  "batch_finished_ns": 1791557137829957799,
+  "total_seconds": 9.965573853998649,
+  "camera": {
+    "xyz": [
+      14407.2900390625,
+      -6994.392578125,
+      -190.70462036132812
+    ],
+    "handler": "0xffff",
+    "rotation": [
+      1.0570242404937744,
+      -107.05106353759766,
+      -1.3846003810158436e-07
+    ],
+    "fov": 90.0,
+    "aspect": 1.3333300352096558
+  },
+  "camera_bytes_stable": true,
+  "screen_capture": {
+    "host_command_start_ns": 1791557137440750557,
+    "host_monotonic_start_ns": 29448674437441,
+    "host_command_end_ns": 1791557141333843445,
+    "host_monotonic_end_ns": 29452567530250,
+    "returncode": 0,
+    "error": "",
+    "image_bytes": 5363932,
+    "limits": "Command intervals bracket acquisition/encoding/transport; the exact rendered frame timestamp is unknown."
+  },
+  "players": [
+    {
+      "ps": "0x6d7e94aab0",
+      "pawn": "0x6d95c1c010",
+      "mesh": "0x6d7e92e8c0",
+      "root": "0x6ef40fece0",
+      "self": true,
+      "team": 2,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            14407.1279296875,
+            -6994.91796875,
+            -185.72113037109375
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            14407.1279296875,
+            -6994.91796875,
+            -185.72113037109375
+          ],
+          "encoding": "plain",
+          "distance_m": 0.05013729873164986,
+          "extents": [
+            198.0,
+            77.0,
+            132.0
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            14407.1279296875,
+            -6994.91796875,
+            -185.72113037109375
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            14407.1279296875,
+            -6994.91796875,
+            -185.72113037109375
+          ],
+          "encoding": "plain",
+          "distance_m": 0.05013729873164986,
+          "extents": [
+            50.133811950683594,
+            50.133811950683594,
+            40.0
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            14407.1279296875,
+            -6994.91796875,
+            -185.72113037109375
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            14407.1279296875,
+            -6994.91796875,
+            -185.72113037109375
+          ],
+          "encoding": "plain",
+          "distance_m": 0.05013729873164986
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -40.00016784667969
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -40.00016784667969
+          ],
+          "encoding": "plain",
+          "distance_m": 160.1606211397194
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -107.40562438964844,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "000000800000000038534ebf958b173f831c61465897dac59cb839c30000803f0000803f0000803fffff000000000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6ef40fece0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -90.00018310546875,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 65,
+          "raw_transform_hex": "00000000000000006e0d7dbf3ef11abe831c61465897dac5a7b861c30000803f0000803f0000803fffff000000000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 1,
+          "pointer": 479707500656,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 479827911792
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 475031785520,
+            "count": 80,
+            "capacity": 85,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 479827911792
+          },
+          {
+            "selector": 1,
+            "pointer": 479707500656,
+            "count": 80,
+            "capacity": 85,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 479827911792
+          }
+        ],
+        "captured_header": {
+          "selector": 0,
+          "pointer": 475031785520,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 479827911792
+        },
+        "mesh_identity": {
+          "index": 208992,
+          "class": 479200797824,
+          "entry": 474194086144,
+          "serial": 278473
+        },
+        "last_pose_tick": 486992,
+        "payload_available": true,
+        "captured_identity_matches": true,
+        "transforms_hex": "e0d836bf0000000000000000412c333f0000000000000000000000000000803f0000803f0000803f0000000000000000b2ef7bbf41238cbc871e253e45b5933d5b28ffb65016efc15a3558410000803f0000803f0000803f000000000000000097fe7bbf39eca5bd9124d63d4068ee3de10d9bbd5a8fb5c15b5d69410000803f0000803f0000803f000008000000000002237abf9bdf12bef3863f3dc1ad193e3c2204c07c2409c120a891410000803f0000803f0000803f000000190000000062b379bf2d950cbeb0848a3cc6cc2f3eb0e8b7c0d82782406897b3410000803f0000803f0000803f000000001400000053722e3eda4860bddeec1b3e50d5783fe03658c100ae8d418627df410000803f0000803f0000803f0000000000070000185ee73e7a1d9fbe4d6f903efb83493f6acbe4c11cb5544140fdca410000803f0000803fefff7f3f000003000000000062a6ec3e5e7857bf127a83be2553e03d44c237c2e3401041d497ab400000803f0000803fffff7f3f0000000000000001735cdc3e050b45bfd2ddd9be49fe4f3e5a0e0ec202f1c641a7d3cb400000803fefff7f3fffff7f3f465f415354435f36232df63ec57a47bfb37bcdbe3a9bc3bcec25ecc1aedaa341b711ef420000803ff0ff7f3f0000803f0100000100000001caec413e81b54bbfb85707bf143a683ec022f5c1680401423f6adf400000803fefff7f3f0700803f000000900700009091bb5f3d9fcf3e3e07fd7abfdc9e053d975387c1885203428e880243fcff7f3fe5ff7f3f1800803f00003f1f4419c679e922113e56ed273ee0386fbf4da2903e863b46c1f30004424e1603430500803fe9ff7f3f1700803f0598c61e8255110ad928353eed861a3e81d14ebf91a10a3fc27e18c100d20a42746504430500803fe9ff7f3f1600803f7fdf09638147466829fd21bfa546143e698c31bfb3f99fbea074b5c168d20e42568794400000803fd0ff7f3f0500803ff5f967d3802db4450000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f566a64628487cbe30000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000001d824f4a4e0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f3dc9fc7201ffa49f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f7ffff50f844982d20000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fb9cf51b284a758520000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fffffff72814d31e40000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fd49636f300a3422a0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f9794923183298212fe9855ba078a6abfd130adbe51215c3ea40870c10b142042084006430900803feeff7f3f0900803f4a053fa3448d39003f922cbf2e2323bfdc0cb5bd60c9b93e0e6d33c194692242cb9504430900803feeff7f3f0900803ff0150021035b265a7d9767bf8f934cbeba86f93d0b59b63eec123cc154961842b7cf02430800803ff0ff7f3f0900803f83d309a344cf39020000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0c22894344cd0ca00000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f36613931836d82d20000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0811b173003720340000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f92fa6f0e02554254a6ba79bfdaa30ebea6d38fbd6ad21e3e5ec137c1c0eebe41425cec410000803f0000803f0000803f2fee9d43414b4a4af7745ebf945e91bdc98310bde618fa3e09bc58c1d269f24187fefb410000803f0000803f0000803f030080128395d12a0bd792bde5708cbdafd8223d96887e3fe4a875c186f70542a7cc2c42efff7f3f1100803f0800803ffeb78f03035f265e96b572bfbdb283be3147ce3d2d5b213e7936cfc0f5b29d419ffbdf410000803f0000803f0000803f0f1d01ce036f426e771342bfa7ae013e135af73e56b2d63e0578e040ebdbdf41b9fbd1410000803f0000803f0000803f4a7c4913830db44170a7cfbd904f7bbe6e12653fd1bfb73e5109a3413e22074240896e400800803f0000803f0800803f510000034531b0b9e10134be1864dcbe684f523f69f7a83e1843d54086ba3b42a21568400800803fefff7f3f0800803fe7b60d13459ba659ef17db3cda2de8be33da433fceb3e93ebe7faa4158351542f8cff2420800803ff0ff7f3f0800803f03801a0283b1a4b00628d8bd0ad70dbfb16c4e3f9f43363ec0a5833e08425442ee3a6e400800803fefff7f3f0800803f2b1901134519c6b9c129013e120879bfd6affd3d7d6a193ef803ee407d0d4142e76004430600803ff2ff7f3f0900803f83ca267300251c2a55439dbcbf6778bf3fe04e3ef291063e0e244f40862f3d42b0df05430e00803ff4ff7f3f0800803ff694d61f44254952d692a6be2a176cbf1fc94a3e5c58883d20e650be77833e4288ca06430e00803ff4ff7f3f0800803fd7289221434b4a4ad567373f200480bce6db243f882b893efdf213c10f9b5c42c09e23401000803fefff7f3f1000803f80004031830dcad20000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f750f4b61021d91100000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f3da45ffe452d96750000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fc13c434344ef2ee20000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f037002034535b43c0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fd7fb5e7e800b29a40000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f2ab6ed1283d150680000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f7b1b83a2447372820000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fb7cb6418010509314206933d32e905bfa4643d3feb81d53ea2ceb140fcdc5a428a4609430700803ff2ff7f3f0700803f0000004800000040517797bdf48507bf57fc533f471d2d3ebae43640a9ea634216860b430500803ff6ff7f3f0700803f05e48420838a0d525a4d6bbeb845f6bef442563fae9efdbd809692bc0841684248b00b43f6ff7f3ffaff7f3f0700803f369a8e56ad47fb5f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fab94edce99f6f6430000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f902407903c49c0f30000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f4fe1bd7dcdf5f4530000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f1182e8634c182ef325362fbfed94393fcb29983de02cbcbc709e144194faf5c1de8023410000803f0000803f0000803f2389b8d5cee3a9912ae22fbfedd6353f5d9133bd902b16be889cd540022791c276c0ed400000803f0000803f0000803f008008f08488385382830cbfec583e3f0e0bbd3eb212c83d4870c440b984dfc238489241efff7f3fefff7f3f0000803f290ba580979a92a3b0dd98bce52ea03c65d7263f9c0a423fd008084226cac641c0c83e3ff0ff7f3ff0ff7f3f0000803f949bd25aaa4aa91e655d35bf5748a0bd8df184be4dcd26bf2e2414c12be5fec16a1283410000803f0000803f0000803f12294a2442b7aa82f5b622beebb117bf7ad23cbfd37190beee2934c2b6354bc2804ca6400000803f0000803f0000803fdaaaadda890de3025daf0bbf129be2bebb280ebf17d6e3be94184fc15fdf96c20fe21341efff7f3fefff7f3f0000803f0000008e10000000e09d4bbf1c081b3ff10aa2bca5597ebcee3010c2d048df3f304a9c3ff0ff7f3ff0ff7f3f0000803f38decff91ecff19c604726bc0000000000000000a0fc7f3f0000000000000000000000000000803f0000803f0000803f246e2e00800805f88cc6213f33a316be967d313f118ba03ecf9bb4c18d8b0e42ae179a400000803f0000803f0000803fe4df388edfeff7ffa2a540beedca4b3f2292073fb3f965be51b7f3c1d0d8ff415211e3400000803f0000803f0000803f81b5122d2a0012fb78d4d0bde7b80dbf74a34e3f72fc353e00f831bc40055242d6344e400000803f0000803f0000803f80558c2a63362a24e0d8363f0000000000000000412c33bf0000000000000000000000000000803f0000803f0000803f0000004381176551e0d836bf0000000000000000412c333f0000000078f3c834608b02b20000803f0000803f0000803f11000000000000fe604726bc0000000000000000a0fc7f3f0000000000000000000000000000803f0000803f0000803f0000000e12000000f68d0dbfbab63d3f470cbc3e1788ce3d8cc4c0403189dec208a396410000803f0000803f0000803f000000000000008737f40b3fe1e2e23e59e80d3f1e86e33e07695ec1e2c693c2366d12410000803f0000803f0000803f001000000053120060a6ec3e5e7857bf107a83be2353e03d07ab37c2101a1141f464a7400000803f0000803fffff7f3f464e00000000000070a7cfbd904f7bbe6e12653fd1bfb73e8519a2411d640742904968400800803f0000803f0800803f5b4e000000000000f697a0be15001f3f261d133fb096dc3e3801893fece2fac2cb634141efff7f3ff0ff7f3f0000803f584e0000000000005eeb253f75ccaf3e18dedc3edd7a063f75df2dc1af97b3c25ce0bd40efff7f3ff0ff7f3f0000803f334e0000000000004bf221bf4106193e2b7831bf0d619fbe8782b3c1adea0b4220fd86400000803fd1ff7f3f0600803f524e000000000000",
+        "finite_fields": true,
+        "unit_quaternions": true,
+        "after_header": {
+          "selector": 0,
+          "pointer": 475031785520,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 479827911792
+        },
+        "dead_after": 0,
+        "identity_stable": true,
+        "component_inputs_stable": true,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": true
+      }
+    },
+    {
+      "ps": "0x6d89bfe390",
+      "pawn": "0x6d9e8a4030",
+      "mesh": "0x6e323ed180",
+      "root": "0x6f78c840c0",
+      "self": false,
+      "team": 1,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            13986.9716796875,
+            -6574.76171875,
+            -1433.87744140625
+          ],
+          "handler": "0x3011003",
+          "record": "0x6e53022240",
+          "slot": 3,
+          "xyz": [
+            28091.0625,
+            5426.5625,
+            1195.880615234375
+          ],
+          "vector_pointer_cache": "0x6e323ed2c8",
+          "encoding": "protected",
+          "distance_m": 185.3236014195393,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            14274.9716796875,
+            -6862.76171875,
+            -1145.87744140625
+          ],
+          "handler": "0x3010010",
+          "record": "0x6e5301fd00",
+          "slot": 3,
+          "xyz": [
+            28091.0625,
+            5426.5625,
+            1265.880615234375
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 185.37728942998012,
+          "extents": [
+            54.873260498046875,
+            54.873260498046875,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            14274.9716796875,
+            -6862.76171875,
+            -1145.87744140625
+          ],
+          "handler": "0x301000f",
+          "record": "0x6e53020fa0",
+          "slot": 3,
+          "xyz": [
+            28091.0625,
+            5426.5625,
+            1265.880615234375
+          ],
+          "vector_pointer_cache": "0x6f78c84228",
+          "encoding": "protected",
+          "distance_m": 185.37728942998012
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 160.15695328774353
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            149.06248474121094,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "00000000000000000000000000000000031c5f465896d6c514bb8ec40000803f0000803f0000803f0110010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6f78c840c0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -165.93740844726562,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 33,
+          "raw_transform_hex": "00000000000000000000000000000000031c5f465896d6c514bb8ec40000803f0000803f0000803f0210010300000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 0,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          },
+          {
+            "selector": 1,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          }
+        ],
+        "captured_header": {
+          "selector": 0,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "mesh_identity": {
+          "index": 175573,
+          "class": 479200797824,
+          "entry": 474992495608,
+          "serial": 315629
+        },
+        "last_pose_tick": 467435,
+        "payload_available": false,
+        "captured_identity_matches": true,
+        "after_header": {
+          "selector": 0,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "dead_after": 1,
+        "identity_stable": true,
+        "component_inputs_stable": true,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": false
+      }
+    },
+    {
+      "ps": "0x6ed71871d0",
+      "pawn": "0x6f24ac4030",
+      "mesh": "0x6e0c3fe8c0",
+      "root": "0x6e1fc02740",
+      "self": false,
+      "team": 2,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            13938.9716796875,
+            -6526.76171875,
+            -1481.87744140625
+          ],
+          "handler": "0x3011015",
+          "record": "0x6e5302e5d0",
+          "slot": 4,
+          "xyz": [
+            9355.90625,
+            -17531.1875,
+            139.291015625
+          ],
+          "vector_pointer_cache": "0x6e0c3fea08",
+          "encoding": "protected",
+          "distance_m": 116.89714390429914,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            14326.9716796875,
+            -6914.76171875,
+            -1093.87744140625
+          ],
+          "handler": "0x301005b",
+          "record": "0x6e530301c0",
+          "slot": 0,
+          "xyz": [
+            9355.90625,
+            -17531.1875,
+            139.291015625
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 116.89714390429914,
+          "extents": [
+            40.95936584472656,
+            40.95936584472656,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            14326.9716796875,
+            -6914.76171875,
+            -1093.87744140625
+          ],
+          "handler": "0x301005a",
+          "record": "0x6e53031460",
+          "slot": 5,
+          "xyz": [
+            9355.90625,
+            -17531.1875,
+            139.291015625
+          ],
+          "vector_pointer_cache": "0x6e1fc028a8",
+          "encoding": "protected",
+          "distance_m": 116.89714390429914
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 160.15695328774353
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            178.59373474121094,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "00000000000000000000000000000000031c5f465896d6c514bb8ec40000803f0000803f0000803f1a10010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6e1fc02740",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -90.00018310546875,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 33,
+          "raw_transform_hex": "00000000000000000000000000000000031c5f465896d6c514bb8ec40000803f0000803f0000803f1410010300000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 1,
+          "pointer": 480134352944,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 470618122592
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 476340175040,
+            "count": 80,
+            "capacity": 85,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 470618122592
+          },
+          {
+            "selector": 1,
+            "pointer": 480134352944,
+            "count": 80,
+            "capacity": 85,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 470618122592
+          }
+        ],
+        "captured_header": {
+          "selector": 1,
+          "pointer": 480134352944,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 470618122592
+        },
+        "mesh_identity": {
+          "index": 116254,
+          "class": 479200797824,
+          "entry": 478866412240,
+          "serial": 325516
+        },
+        "last_pose_tick": 486982,
+        "payload_available": true,
+        "captured_identity_matches": true,
+        "transforms_hex": "f10435bf0000000000000000f504353f0000000000000000000000000000803fffff7f3fffff7f3f000000bf0000803fcec041bf847466bdcdf6593dfc23263fa0390ec000ec98bdf37cb0420000803fffff7f3fffff7f3f0000000000000000479f42bf3395cdbc7693023da1fb253f03b715c0dc40833f41dcbe420000803fffff7f3fffff7f3f3000320037005f0080a850bf971b0fbdfc4c693d9f53133fffb712c02a67564000ecdb420000803fffff7f3fffff7f3f000000000000803fd64159bf88c321bd5014fd3da245033f511a0bc0258bff4086fbf5420000803fffff7f3fffff7f3f000000000000000078a4033f038eae3dd870f13db660583fe8c997c050a96e4157df09430000803fffff7f3fffff7f3f000040400000803f8fdde93ec9ac0dbfe9934d3e80bb2a3f0aea9fc1cf912541563c0a430000803fffff7f3feeff7f3f000000000000000032f3d23e12bf5cbf44df8cbe57c9d6bd8333e1c16e8e86412a09e3420000803fffff7f3ffeff7f3f73004e0061006d004e21c93e8e7164bfb0ab1cbec30625be3c2780c148c9e9415286f2420000803feeff7f3ffeff7f3f000000000000803f5b70ee3e461d59bf3e296fbedf74c5bd0c78c9c16a0099412029e9420000803fefff7f3fffff7f3f0000000000000000e127353f7a6733bfa7f3b6bc15e4b2bd3a6d26c14ce70b42c903fa42f0ff7f3feeff7f3f0700803f000040c00000803fbe0bcd3e5f50cbbece9b4abf105a713e1b8f6bc1bf410b42de2bff42ecff7f3fe4ff7f3f1700803fffffffff00000000df8da83e594af1bedacb32bf0b44da3e5c5042c141da17426ea60143f6ff7f3fecff7f3f1700803f00000000000000009c1dd13d34d208bffb3bf7be61a52f3f27c12ac19bdb2442d9df0143f6ff7f3fecff7f3f1600803f000000000000803f5a376b3c4272233c5a650a3ca6f37fbf5f0b0bc1dda02e42f806ff42f0ff7f3fcfff7f3f0500803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000800000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fc0b52e146e0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000800000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f405b75ea6d0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000008347d23ea9da66bf68d0b73c5af1073eef6082c1fcf42a42883cfb420100803fedff7f3f0800803f000000000000803faa254fbe627079bf298f9f3dbc10763d54855ac1d32b37420113f9420200803febff7f3f0800803f00000000000000002d3b29bfeb5e3ebfc0a1c93d961191bc3ebc2dc159263242b794f8420200803febff7f3f0800803f000040c00000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000004f536fbffbca99bbdf93183cf0aeb53edc1374bf4742944148080e430000803fffff7f3fffff7f3f000000800000803f09af63bf2422693bfa2a313c02fde93e4b2f78bf2490be41b5ab12430000803fffff7f3fffff7f3f0200000008000000c0a6dfbd4eef333cb64e443bc7737e3f3a8b32bf82b9df410f351e43efff7f3f1000803f0700803f0000000000000000940056bfe0630ebef9e50d3e2c33033f2f031540bcac824148a208430000803fffff7f3fffff7f3f000000000000803fc3dfe2bea52996be6b34233fabcf0e3ff02a8841755fb241f63607430000803fffff7f3fffff7f3f000000000000000080a2e9bd3dc202bf99b0443f8da9bc3e448e8a41fe6f4142d0e100430800803fffff7f3f0700803f000000800000803f87f9b53d665d4abdb01a6c3f9eedbe3e804d7e40d65375420db404430800803feeff7f3f0700803f000000000000000032b007bde41283be59a4633f1b5fc13e8020f940dac4504219b102430800803fefff7f3f0800803f740061006e0067001b0f973da47a713e8a844d3f44ea0a3fa8ec12c0a89f86422f9a06430800803feeff7f3f0700803f000000000000803ff4609bbd5a9236bfc5bb0f3f3559d33e4cdaabc04b368842601e08430600803ff1ff7f3f0900803f0d000000625e003f64c32fbe99cd26bf76d3253f7807b63e90df04c11c718d42e66f0a430e00803ff3ff7f3f0800803f000000800000803fb054d5bea21c1dbf44c12a3fda758e3d83d92bc1ab629242ea4c0b430e00803ff3ff7f3f0800803f00000000000000000a79173fc8da913e5064cabcc8f5403f6617eac0f2639742035a07431000803feeff7f3f0f00803f7000610063006b000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000000055cf7d3f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000000095aa70ee0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000800000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fffffffff000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f63df4d7d2a5b6f8a0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000800000803fe06c75bc160aec3e1e56373f5017063f5ebe03c19b01954286a403430700803ff1ff7f3f0700803f000000000000000007cc433e5ffcd23e5c4e5e3fcc9d4b3eb03322c122289b42c78c01430500803ff5ff7f3f0700803f000000000000000067cfcd3ebb94793e1eb9573f846a86be5ce34bc13a409e42cb160243f5ff7f3ff9ff7f3f0700803f000000000000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000803f0000803f0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fd0b60b01000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0100000000000000f71d51be1411cc3e1424143f237d2e3f021aef407ee89b3f5a81ad420000803fffff7f3fffff7f3f0000000000000000c519a0bea0f5053f472d073f505c173f8aa7fe4046a9db41b7d457420000803fffff7f3fffff7f3f00000000000000004b2d3a3e3ecb7e3cc524133f44364c3f64896c40886a1e420c2f7641efff7f3feeff7f3fffff7f3f000000001759da9e2945a2bc416da83c5884263f414e423f50a80442742dbf416088d83eefff7f3fefff7f3f0000803f00000000ee0f9771609006bf5ab5ab3e02e817bfb75002bfb1ec3dc11296e6bfbaccad420000803fffff7f3fffff7f3f752d03001140040033768ebe6302063e4a033ebf0f6e18bff1e76cc19a0947c1887d39420000803fffff7f3fffff7f3fffffffff00000000837c24bfcc09d93ef28af6befd8cd6be39a314c1f08835c20e79b941efff7f3feeff7f3fffff7f3f000000000000000073964cbf9253193f34b41ebdb13908bdf8980ac2004b24bdb848803fefff7f3fefff7f3f0000803f866f1e00000000000000903400000000000000000000803f0000000000000000000000000000803fffff7f3fffff7f3f1bde107fe87d3b7e3fe15abc960d34bc08b10cbcc8f37f3f13ae04c197cc2942e850ff420000803fffff7f3fffff7f3f1ebe379f00000000591e35bf7d65333f2d9db63cd5ccb53d62861ec192240642292bfa420000803fffff7f3fffff7f3f00000000000000006567973de6f86f3e2e784d3fc9240b3fbe160ec03646834255e806430000803fffff7f3fffff7f3f00000000000000000000903400000000000000000000803f0000000000000000000000000000803fffff7f3fffff7f3f00000000000000800000903400000000000000000000803f0000000000000000000000000000803fffff7f3fffff7f3f00000000000000000000903400000000000000000000803f0000000000000000000000000000803fffff7f3fffff7f3fb580c304000000007eaf3d3e58f5ae3b3ecf123fec484c3f76c25c4019c2224203be78410000803fffff7f3fffff7f3fafb70b0100000000d9de243f9e8ed8be8d01f63e4179d63e650c15c1dd5134c2a703ba410000803fffff7f3fffff7f3f0f170a01000000001404d33e30c25cbf3ec68cbe69f9d5bdad91e0c19c0a87411ae0e2420000803fffff7f3ffeff7f3f0000000000000000fc55e8bd61d602bfe3b6443f1c71bc3e4aff88412c024142c9f500430800803fffff7f3f0700803f00000000000000001d7a9a3e39bb25be7cb5053f4bf0473f981305410c355e42a1f27f41efff7f3fefff7f3fffff7f3f00000000447bd5756b44423f6c6407bf68c08b3e9063873e0a3238c1855238c2944cea40efff7f3fefff7f3fffff7f3f00000000bd4d130807fa64bc3f1b25bc570308bc03f47f3f94a409c1f6532e42b8c2fe42f0ff7f3fd0ff7f3f0500803fbd4bc6c20000803f",
+        "finite_fields": true,
+        "unit_quaternions": true,
+        "after_header": {
+          "selector": 1,
+          "pointer": 480134352944,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 470618122592
+        },
+        "dead_after": 0,
+        "identity_stable": true,
+        "component_inputs_stable": false,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": false
+      }
+    },
+    {
+      "ps": "0x6d7e940010",
+      "pawn": "0x6d7af00040",
+      "mesh": "0x6e264a5d40",
+      "root": "0x6e1372d9c0",
+      "self": false,
+      "team": 5,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            31989.3125,
+            12190.5,
+            1836.400390625
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            31989.3125,
+            12190.5,
+            1836.400390625
+          ],
+          "encoding": "plain",
+          "distance_m": 261.01662241640327,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            18004.787109375,
+            -13946.40625,
+            -1145.2974853515625
+          ],
+          "handler": "0x301001f",
+          "record": "0x6e53024780",
+          "slot": 5,
+          "xyz": [
+            31989.3125,
+            12190.5,
+            1836.400390625
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 261.01662241640327,
+          "extents": [
+            54.134910583496094,
+            54.134910583496094,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            31989.3125,
+            12190.5,
+            1836.400390625
+          ],
+          "handler": "0x301001e",
+          "decode_error": "Expected one record for 0x6e1372db34, found 0"
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 160.15695328774353
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            118.179931640625,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "000000000000008040a45b3f4981033fa0eaf946007a3e46d08ce5440000803f0000803f0000803f0a10010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6e1372d9c0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -90.00018310546875,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 33,
+          "raw_transform_hex": "00000000000000005049793e5b4c783fa0eaf946007a3e46d0ccda440000803f0000803f0000803fffff000000000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          },
+          {
+            "selector": 1,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          }
+        ],
+        "captured_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "mesh_identity": {
+          "index": 153271,
+          "class": 479200797824,
+          "entry": 474991960360,
+          "serial": 321232
+        },
+        "last_pose_tick": 0,
+        "payload_available": false,
+        "captured_identity_matches": true,
+        "after_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "dead_after": 1,
+        "identity_stable": true,
+        "component_inputs_stable": true,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": false
+      }
+    },
+    {
+      "ps": "0x6d87efe390",
+      "pawn": "0x6dcc80c010",
+      "mesh": "0x6e96212ec0",
+      "root": "0x6d7ec21420",
+      "self": false,
+      "team": 5,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            31971.1875,
+            12405.125,
+            1817.400390625
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            31971.1875,
+            12405.125,
+            1817.400390625
+          ],
+          "encoding": "plain",
+          "distance_m": 262.46223766809885,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            18590.02734375,
+            -14206.544921875,
+            -749.2974853515625
+          ],
+          "handler": "0x301002e",
+          "record": "0x6e53025a20",
+          "slot": 5,
+          "xyz": [
+            31971.1875,
+            12405.125,
+            1817.400390625
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 262.46223766809885,
+          "extents": [
+            48.62225341796875,
+            48.62225341796875,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            31971.1875,
+            12405.125,
+            1817.400390625
+          ],
+          "handler": "0x301002d",
+          "decode_error": "Expected one record for 0x6d7ec21594, found 0"
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 160.15695328774353
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            104.28773498535156,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "000000000000008039204a3f311a1d3f60c6f94680d44146d02ce3440000803f0000803f0000803f0b10010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6d7ec21420",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -90.00018310546875,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 33,
+          "raw_transform_hex": "000000000000000040b0fe3d43037e3f60c6f94680d44146d06cd8440000803f0000803f0000803fffff000000000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          },
+          {
+            "selector": 1,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          }
+        ],
+        "captured_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "mesh_identity": {
+          "index": 142836,
+          "class": 479200797824,
+          "entry": 474991709920,
+          "serial": 321349
+        },
+        "last_pose_tick": 0,
+        "payload_available": false,
+        "captured_identity_matches": true,
+        "after_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "dead_after": 1,
+        "identity_stable": true,
+        "component_inputs_stable": true,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": false
+      }
+    },
+    {
+      "ps": "0x6e1704c720",
+      "pawn": "0x6dccc4c010",
+      "mesh": "0x6d49234600",
+      "root": "0x6e158d0dc0",
+      "self": false,
+      "team": 5,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            32230.1875,
+            12438.0,
+            2460.2998046875
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            32230.1875,
+            12438.0,
+            2460.2998046875
+          ],
+          "encoding": "plain",
+          "distance_m": 265.0096941010061,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            18753.779296875,
+            -14109.595703125,
+            -737.2974853515625
+          ],
+          "handler": "0x301003d",
+          "record": "0x6e53027610",
+          "slot": 4,
+          "xyz": [
+            32230.1875,
+            12438.0,
+            2460.2998046875
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 265.0096941010061,
+          "extents": [
+            54.9001350402832,
+            54.9001350402832,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            32230.1875,
+            12438.0,
+            2460.2998046875
+          ],
+          "handler": "0x301003c",
+          "decode_error": "Expected one record for 0x6e158d0f34, found 0"
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 160.15695328774353
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -58.89219665527344,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "00000080000000009cb3fbbef6ed5e3f60ccfb4600584246ccc419450000803f0000803f0000803f0c10010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6e158d0dc0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -90.00018310546875,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 33,
+          "raw_transform_hex": "000000000000000004a076bf104a893e60ccfb4600584246cc6414450000803f0000803f0000803fffff000000000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          },
+          {
+            "selector": 1,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          }
+        ],
+        "captured_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "mesh_identity": {
+          "index": 137304,
+          "class": 479200797824,
+          "entry": 474991577152,
+          "serial": 321460
+        },
+        "last_pose_tick": 0,
+        "payload_available": false,
+        "captured_identity_matches": true,
+        "after_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "dead_after": 1,
+        "identity_stable": true,
+        "component_inputs_stable": true,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": false
+      }
+    },
+    {
+      "ps": "0x6d5b0071d0",
+      "pawn": "0x6e28ea0040",
+      "mesh": "0x6d495fe8c0",
+      "root": "0x6d9d860100",
+      "self": false,
+      "team": 4,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            13325.650390625,
+            -17950.513671875,
+            -1202.666015625
+          ],
+          "handler": "0x301104d",
+          "record": "0x6e53017aa0",
+          "slot": 7,
+          "xyz": [
+            2007.5,
+            -19436.5,
+            69.212646484375
+          ],
+          "vector_pointer_cache": "0x6d495fea08",
+          "encoding": "protected",
+          "distance_m": 175.67822491587143,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            13789.650390625,
+            -18414.513671875,
+            -738.666015625
+          ],
+          "handler": "0x30100a6",
+          "record": "0x6e53015eb0",
+          "slot": 0,
+          "xyz": [
+            2007.5,
+            -19436.5,
+            139.212646484375
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 175.68997567114448,
+          "extents": [
+            40.96959686279297,
+            40.96959686279297,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            13789.650390625,
+            -18414.513671875,
+            -738.666015625
+          ],
+          "handler": "0x30100a5",
+          "record": "0x6e53015560",
+          "slot": 2,
+          "xyz": [
+            2007.5,
+            -19436.5,
+            139.212646484375
+          ],
+          "vector_pointer_cache": "0x6d9d860268",
+          "encoding": "protected",
+          "distance_m": 175.68997567114448
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 160.15695328774353
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -91.40626525878906,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "000000000000000000000000000000003a87574657e58fc6a0a037c40000803f0000803f0000803f4b10010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6d9d860100",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -73.12518310546875,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 33,
+          "raw_transform_hex": "000000000000000000000000000000003a87574657e58fc6a0a037c40000803f0000803f0000803f4c10010300000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          },
+          {
+            "selector": 1,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          }
+        ],
+        "captured_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "mesh_identity": {
+          "index": 174697,
+          "class": 479200797824,
+          "entry": 474992474584,
+          "serial": 314827
+        },
+        "last_pose_tick": 433897,
+        "payload_available": false,
+        "captured_identity_matches": true,
+        "after_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "dead_after": 1,
+        "identity_stable": true,
+        "component_inputs_stable": true,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": false
+      }
+    },
+    {
+      "ps": "0x6d776ac720",
+      "pawn": "0x6d495d8020",
+      "mesh": "0x6d495f5d40",
+      "root": "0x6da09dc6a0",
+      "self": false,
+      "team": 4,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            13605.650390625,
+            -18230.513671875,
+            -922.666015625
+          ],
+          "handler": "0x3011057",
+          "record": "0x6e5301b280",
+          "slot": 3,
+          "xyz": [
+            1243.40625,
+            -20951.875,
+            68.105224609375
+          ],
+          "vector_pointer_cache": "0x6d495f5e88",
+          "encoding": "protected",
+          "distance_m": 191.87655784507544,
+          "extents": [
+            330.0,
+            330.0,
+            55.0
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            13395.650390625,
+            -18020.513671875,
+            -1132.666015625
+          ],
+          "handler": "0x30100b5",
+          "record": "0x6e5301ce70",
+          "slot": 4,
+          "xyz": [
+            1243.40625,
+            -20951.875,
+            138.105224609375
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 191.8872762543264,
+          "extents": [
+            52.77802276611328,
+            52.77802276611328,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            13393.650390625,
+            -18018.513671875,
+            -1134.666015625
+          ],
+          "handler": "0x30100b4",
+          "record": "0x6e5301e110",
+          "slot": 3,
+          "xyz": [
+            1243.40625,
+            -20951.875,
+            138.105224609375
+          ],
+          "vector_pointer_cache": "0x6da09dc808",
+          "encoding": "protected",
+          "distance_m": 191.8872762543264
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 160.15695328774353
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -66.09381103515625,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "000000000000000000000000000000003a87534657e58dc6a0a077c40000803f0000803f0000803f5c10010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6da09dc6a0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -82.9682846069336,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 33,
+          "raw_transform_hex": "000000000000000000000000000000003a87534657e58dc6a0a077c40000803f0000803f0000803f5610010300000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          },
+          {
+            "selector": 1,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          }
+        ],
+        "captured_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "mesh_identity": {
+          "index": 172790,
+          "class": 479200797824,
+          "entry": 474992428816,
+          "serial": 314973
+        },
+        "last_pose_tick": 433843,
+        "payload_available": false,
+        "captured_identity_matches": true,
+        "after_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "dead_after": 1,
+        "identity_stable": true,
+        "component_inputs_stable": true,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": false
+      }
+    },
+    {
+      "ps": "0x6d5b005560",
+      "pawn": "0x6d4b1b0040",
+      "mesh": "0x6d50e21780",
+      "root": "0x6e0b4bb9e0",
+      "self": false,
+      "team": 4,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            13745.650390625,
+            -18370.513671875,
+            -782.666015625
+          ],
+          "handler": "0x3011043",
+          "record": "0x6e53010190",
+          "slot": 5,
+          "xyz": [
+            2220.78125,
+            -20501.625,
+            69.111083984375
+          ],
+          "vector_pointer_cache": "0x6d50e218c8",
+          "encoding": "protected",
+          "distance_m": 181.94060249561488,
+          "extents": [
+            330.0,
+            330.0,
+            55.0
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            13419.650390625,
+            -18044.513671875,
+            -1108.666015625
+          ],
+          "handler": "0x3010097",
+          "record": "0x6e530126d0",
+          "slot": 1,
+          "xyz": [
+            2220.78125,
+            -20501.625,
+            139.111083984375
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 181.95194490944078,
+          "extents": [
+            53.699989318847656,
+            53.699989318847656,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            13419.650390625,
+            -18044.513671875,
+            -1108.666015625
+          ],
+          "handler": "0x3010096",
+          "record": "0x6e53013970",
+          "slot": 2,
+          "xyz": [
+            2220.78125,
+            -20501.625,
+            139.111083984375
+          ],
+          "vector_pointer_cache": "0x6e0b4bbb48",
+          "encoding": "protected",
+          "distance_m": 181.95194490944078
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 160.15695328774353
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -116.71871948242188,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "000000000000000000000000000000003a87574657e58fc6a0a037c40000803f0000803f0000803f4a10010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6e0b4bb9e0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -129.3756103515625,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 33,
+          "raw_transform_hex": "000000000000000000000000000000003a87574657e58fc6a0a037c40000803f0000803f0000803f4210010300000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          },
+          {
+            "selector": 1,
+            "pointer": 0,
+            "count": 0,
+            "capacity": 0,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 0
+          }
+        ],
+        "captured_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "mesh_identity": {
+          "index": 175351,
+          "class": 479200797824,
+          "entry": 474992490280,
+          "serial": 314743
+        },
+        "last_pose_tick": 433843,
+        "payload_available": false,
+        "captured_identity_matches": true,
+        "after_header": {
+          "selector": 1,
+          "pointer": 0,
+          "count": 0,
+          "capacity": 0,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 0
+        },
+        "dead_after": 1,
+        "identity_stable": true,
+        "component_inputs_stable": true,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": false
+      }
+    },
+    {
+      "ps": "0x6e124c5560",
+      "pawn": "0x6d7e718020",
+      "mesh": "0x6ee933a300",
+      "root": "0x6d7a5d20e0",
+      "self": false,
+      "team": 2,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            14078.9716796875,
+            -6666.76171875,
+            -1341.87744140625
+          ],
+          "handler": "0x301102b",
+          "record": "0x6e52fee570",
+          "slot": 6,
+          "xyz": [
+            4793.1875,
+            -26533.8125,
+            409.990234375
+          ],
+          "vector_pointer_cache": "0x6ee933a448",
+          "encoding": "protected",
+          "distance_m": 217.84873945549475,
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            14338.9716796875,
+            -6926.76171875,
+            -1081.87744140625
+          ],
+          "handler": "0x3010001",
+          "record": "0x6e52fec030",
+          "slot": 1,
+          "xyz": [
+            4793.1875,
+            -26533.8125,
+            409.990234375
+          ],
+          "vector_pointer_cache": "0x0",
+          "encoding": "protected",
+          "distance_m": 217.84873945549475,
+          "extents": [
+            49.889015197753906,
+            49.889015197753906,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            14338.9716796875,
+            -6926.76171875,
+            -1081.87744140625
+          ],
+          "handler": "0x3010000",
+          "record": "0x6e52feb6e0",
+          "slot": 0,
+          "xyz": [
+            4793.1875,
+            -26533.8125,
+            409.990234375
+          ],
+          "vector_pointer_cache": "0x6d7a5d2248",
+          "encoding": "protected",
+          "distance_m": 217.84873945549475
+        },
+        "mesh_relative": {
+          "raw_xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "handler": "0xffff",
+          "xyz": [
+            0.0,
+            0.0,
+            -86.0
+          ],
+          "encoding": "plain",
+          "distance_m": 160.15695328774353
+        }
+      },
+      "components": {
+        "root": {
+          "attach_parent": "0x0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            16.875032424926758,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 97,
+          "raw_transform_hex": "00000000000000000000000000000000831c5d465897d2c514b79ec40000803f0000803f0000803f0010010300000000"
+        },
+        "mesh": {
+          "attach_parent": "0x6d7a5d20e0",
+          "attach_socket_name": [
+            0,
+            0
+          ],
+          "relative_rotation": [
+            0.0,
+            -90.00018310546875,
+            0.0
+          ],
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "absolute_flags_byte": 33,
+          "raw_transform_hex": "00000000000000000000000000000000831c5d465897d2c514b79ec40000803f0000803f0000803f2a10010300000000"
+        }
+      },
+      "bone_capture": {
+        "discovery_header": {
+          "selector": 1,
+          "pointer": 475106242576,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 475002267248
+        },
+        "discovery_buffers": [
+          {
+            "selector": 0,
+            "pointer": 475106214016,
+            "count": 80,
+            "capacity": 85,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 475002267248
+          },
+          {
+            "selector": 1,
+            "pointer": 475106242576,
+            "count": 80,
+            "capacity": 85,
+            "master_index": -1,
+            "master_serial": 0,
+            "asset": 475002267248
+          }
+        ],
+        "captured_header": {
+          "selector": 1,
+          "pointer": 475106242576,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 475002267248
+        },
+        "mesh_identity": {
+          "index": 125211,
+          "class": 479200797824,
+          "entry": 478866627208,
+          "serial": 288252
+        },
+        "last_pose_tick": 486959,
+        "payload_available": true,
+        "captured_identity_matches": true,
+        "transforms_hex": "368731bf2b850dbe2d850d3e3787313f0000000000000000000000000000803ffeff7f3ffeff7f3f000000000000000027702dbf7ad387bebc9e963eb6a71e3f0091254080a1873fc2dba8420000803ffeff7f3ffeff7f3f1800000000000000dbf63dbf8fc9a0bef32c803ecd66093fa1f927409863dc3fe356b7420000803ffeff7f3ffeff7f3f00000000000000002df04dbfcd2fb2be47115b3e6fcddc3e08f88ebe2acfa1401469d3420000803ffeff7f3ffeff7f3f02000000000000007b8954bf6cfab7be31144e3e8c54c03e3016afc0b4472641edb8ea420000803ffeff7f3ffeff7f3f0000004200000042a161d93e2e87ee3cba89c13e4e7b523f8bcf71c19cb87141a60b02430000803ffeff7f3ffeff7f3f00000000000000004c86f23e1524ffbe71f1873efd052d3f7ea6d3c148309a402f65fb420000803ffeff7f3ffeff7f3f0000000003000000fa87013f5df656bfbb2441becee16b3df27b10c2ec9efe40b5bfc9420000803ffeff7f3ffeff7f3f00000042000000427ccb003f025a5cbf06a2ea3c0b5c93bde5ced7c1de1dc441de53cd420000803ffeff7f3ffeff7f3f00000000000000006ecadb3ec39d66bfa22f43bdccd4333d3ce9ccc167f1c141171bd6420000803fffff7f3fffff7f3f00000000030000000759db3e605060bf6af2613e7f52bf3a53ceb5c1fdf30042dd47cf420000803ffeff7f3ffeff7f3f00000042000000427491863e8d0f31bfaca42bbfba88603d28f040c166422742e675d9420000803fffff7f3fffff7f3f0000000000000000fcb8ca3da03b3cbf5e991ebf8747833eb6b102c19c4d2f429106dc420000803fffff7f3fffff7f3f00000000030000005a17a2bdde3d37bfc5a611bf144fcb3e46c6a4c0020e36427b35da420000803fffff7f3fffff7f3fffffffff0b0000002ed4693ed0d6c03df712b13ef0ba67bf2a6478c178a22342177dce420000803ffeff7f3ffeff7f3f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f18000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f02000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000042000000420000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000030000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000042000000420000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000000000081b8943e105c6fbf8d5ba83dd39a3e3efb5d05c185ff3842c585cd420000803fffff7f3fffff7f3f0000000003000000724dcebe73fd65bff2212d3ed34a343d1b69a4c0717b41429036ca420000803fffff7f3fffff7f3f00000042000000420a6962bfdc07d7bea5be2a3ed306efbd412445c03a5c38423c9aca420000803fffff7f3fffff7f3f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000030000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803fffffffff0f0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f1800000000000000c0826ebfa7dc84bea8bcc23d016e713ea00c76c14786a44150e705430000803ffeff7f3ffeff7f3f0000000000000000fd3252bf626f47be8eeee03d5472063fddcd93c14115cf419a4e09430000803ffeff7f3ffeff7f3f0200000000000000115c70bc6f4081bcc863643e8b7d793fa5969cc1ef5ddc41f16715430000803ffeff7f3ffeff7f3f0000004200000042ec6f5fbf62b980be533c243ecdd2c53e907124c19aa4a441609301430000803ffeff7f3ffeff7f3f0000000000000000774d5dbf8cec9b3cccb5b03ea9e0ba3e10dd33403a52ec41253600430000803ffeff7f3ffeff7f3f00000000030000000b358bbec0dc8abec53e643fe5c1753e953ab941e6f00d42208bdf420000803ffeff7f3ffeff7f3f00000042000000429e4b5eba0de3f83ee6f34b3f8ee1b73e186c124189ac39421d11d2420000803ffeff7f3ffeff7f3f0000000000000000fa77ac3c4ce3333e1bb7553f8274053f327ab141bb431b423e3fcd420000803fffff7f3fffff7f3f0000000003000000c7e1863e4c352b3f055be33ee5f0083f709f2340ca1a4e429209cc420000803ffeff7f3ffeff7f3f0000004200000042d0d7d5bd2b68533eda64fd3e996b563f57928041270267423161c3420000803fffff7f3fffff7f3f00000000000000001b5fedbdffd46b3ee6c6fb3e8ee9543fb334904161477542903ebf420000803fffff7f3fffff7f3f00000000030000004c2f12be91a7573ee90df83eb744563f54e79b41c4128042c6a0bb420000803fffff7f3fffff7f3fffffffff0500000002da923ec462d73ecdf402bf6731313f5098473febf07242c05ac6420000803ffeff7f3ffeff7f3f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f18000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f02000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000042000000420000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000030000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000042000000420000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000004eece63ec6db1c3f2901dc3e92fef83ea5fb2541aef87642d443ba420000803fffff7f3fffff7f3f00000000030000004d0e373fc3aa8c3e9ff11a3f53b55d3e64f91d41b29b83427d92b8420000803fffff7f3fffff7f3f0000004200000042d6fb453f8d0805be8e9f1c3f32e2d3bddaf523417f9d8742332fbd420000803fffff7f3fffff7f3f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000030000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f000000000b0000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f00000000000000000000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f18000000000000008a719cbe582f6d3ee6f44b3fb930ef3eb9bc14419a4400419aa2a4420000803ffeff7f3ffeff7f3f0000000000000000aced55bf05a3043f563a313e439c6a3deeb8d0c0fc1a0542dee152420000803ffeff7f3ffeff7f3f0200000000000000c48f05bf96a29e3efa9c2f3f2295cd3ea5b31d41800c8ebf84ec19420000803ffeff7f3ffeff7f3f0000004200000042a6b7713d4d7bd93c6b88233ff242443fa6a6ad403959eb41d080ac3f0000803fffff7f3fffff7f3f0000000000000000547621bfb2ab573ed0182cbf98a1a6be1e6284c00415c5c01f5ea7420000803ffeff7f3ffeff7f3f00000000030000008cf7c6be2d25c93decfa55bfed08c0be1e1e8cc0adc956c1284229420000803ffeff7f3ffeff7f3f000000420000004288eb54bfc839c33e7900b7be28d93fbe315e4841e9220fc22ab24d410000803ffeff7f3ffeff7f3f000000000000000087d0c7be11b8a43efda21dbff6aa1abf901ea1c01ffd22c2e95b65420000803fffff7f3fffff7f3f00000000030000000000403400004033ca23483e11107b3f0000000000000000000000000000803ffeff7f3ffeff7f3f0000004200000042bfdc69be604ab8bd99f3b9beb617663f887873c19f97234292d4ce420000803ffeff7f3ffeff7f3f00000000000000006dc2d2beb66e623f30cb60be1ecc8bbbbbecb5c1210402429e8bcf420000803ffeff7f3ffeff7f3f000000000300000075e28d3e4a59293fd53cdf3ee3280b3f3853494064594a42e147cc420000803ffeff7f3ffeff7f3fffffffff0c000000000040b4000040b3ca2348be11107bbf0000000000000000000000000000803ffeff7f3ffeff7f3f00000000000000000100403401004033ca23483e11107b3f1dd88429aa780caa0efec8340000803ffeff7f3ffeff7f3f1800000000000000d4147b3300002033c923483e11107b3f0000000000000000000000000000803ffeff7f3ffeff7f3f00000000000000006be204bfcf389f3eb51a303f0834cd3e9036dd40062b6940c98026420000803ffeff7f3ffeff7f3f020000000000000006e1553f042ec3be88dfb03ef2dd453edb3b33413b3206c2fffb6c410000803ffeff7f3ffeff7f3f00000042000000427c7e013f86f956bf908041be2d80693daa840fc20c98ff40cba7c9420000803ffeff7f3ffeff7f3f00000000000000006ec378be4ed88ebed25b663f1eb66c3e0aa5b841ff120e42f345df420000803ffeff7f3ffeff7f3f00000000030000009979bcbe5c32643e8879473f0554e93eb680ca40976d8f40fbcacc410000803ffeff7f3ffeff7f3f0000004200000042186a633f713fd3bea4f32b3ee449e43d72dda240214ddec1987dac3f0000803ffeff7f3ffeff7f3f0000000000000000b6b86abe8896c1bd52f4b0bedcaf673fb2b574c1bb172242a411ce420000803ffeff7f3ffeff7f3f0000000003000000",
+        "finite_fields": true,
+        "unit_quaternions": true,
+        "after_header": {
+          "selector": 1,
+          "pointer": 475106242576,
+          "count": 80,
+          "capacity": 85,
+          "master_index": -1,
+          "master_serial": 0,
+          "asset": 475002267248
+        },
+        "dead_after": 0,
+        "identity_stable": true,
+        "component_inputs_stable": true,
+        "component_flag_byte_stable": true,
+        "usable_component_sample": true
+      }
+    }
+  ],
+  "screen_verified": false,
+  "limits": [
+    "Batched pages are not frame-atomic.",
+    "Current key is process-specific."
+  ]
+}

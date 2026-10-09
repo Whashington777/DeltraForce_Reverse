@@ -1,0 +1,10 @@
+*.apk
+*.idsig
+*.keystore
+*.jks
+*.so
+*.a
+**/__pycache__/
+**/.venv/
+**/build/
+*.tar.gz

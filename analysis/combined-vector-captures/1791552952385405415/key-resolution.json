@@ -1,0 +1,69 @@
+{
+  "pid": 10651,
+  "world": "0x6f43ea52a0",
+  "state": "0x7210d32000",
+  "capture": "analysis/combined-vector-captures/1791552952385405415",
+  "protected_live_vectors": 24,
+  "unique_payloads": 9,
+  "searched_candidates": 8,
+  "accepted_candidates": [
+    "0x53d1d34b"
+  ],
+  "unique_key_candidate": "0x53d1d34b",
+  "additional_evidence": [
+    {
+      "capture": "analysis/combined-vector-captures/1791552959129007602",
+      "live_vectors": 24,
+      "surviving_keys": [
+        "0x53d1d34b"
+      ]
+    }
+  ],
+  "coordinate_verification": false,
+  "ranked": [
+    {
+      "key": "0x53d1d34b",
+      "valid_vectors": 24,
+      "error_count": 0
+    },
+    {
+      "key": "0x3044d180",
+      "valid_vectors": 17,
+      "error_count": 7
+    },
+    {
+      "key": "0x80b2accf",
+      "valid_vectors": 9,
+      "error_count": 15
+    },
+    {
+      "key": "0x2c0f4c9d",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0x76cede5b",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0xb151141b",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0xcc4ec20",
+      "valid_vectors": 0,
+      "error_count": 24
+    },
+    {
+      "key": "0xd504e6e5",
+      "valid_vectors": 0,
+      "error_count": 24
+    }
+  ],
+  "limits": [
+    "Bounded XYZ and populated selected slots are candidate constraints, not independent world-position validation.",
+    "A process key is not a permanent game offset."
+  ]
+}

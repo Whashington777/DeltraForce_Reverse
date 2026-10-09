@@ -1,0 +1,406 @@
+{
+  "pid": 10651,
+  "process_start": "2455946",
+  "process_stable": true,
+  "base": "0x6fe7831000",
+  "world": "0x6df1e852a0",
+  "world_stable": true,
+  "fields": {
+    "AttachParent": {
+      "pointer": 478417836192,
+      "offset": 264,
+      "size": 8
+    },
+    "AttachSocketName": {
+      "pointer": 478417625344,
+      "offset": 272,
+      "size": 8
+    },
+    "RelativeLocation": {
+      "pointer": 478417836992,
+      "offset": 360,
+      "size": 16
+    },
+    "RelativeRotation": {
+      "pointer": 478417837152,
+      "offset": 376,
+      "size": 12
+    },
+    "RelativeScale3D": {
+      "pointer": 478417837312,
+      "offset": 388,
+      "size": 12
+    },
+    "bComponentToWorldUpdated": {
+      "pointer": 478417837632,
+      "offset": 412,
+      "size": 1
+    },
+    "bAbsoluteLocation": {
+      "pointer": 478417837792,
+      "offset": 412,
+      "size": 1
+    },
+    "bAbsoluteRotation": {
+      "pointer": 478417837952,
+      "offset": 412,
+      "size": 1
+    },
+    "bAbsoluteScale": {
+      "pointer": 478417838112,
+      "offset": 412,
+      "size": 1
+    }
+  },
+  "bools": {
+    "bAbsoluteLocation": {
+      "offset": 412,
+      "byte_offset": 0,
+      "mask": 4
+    },
+    "bAbsoluteRotation": {
+      "offset": 412,
+      "byte_offset": 0,
+      "mask": 8
+    },
+    "bAbsoluteScale": {
+      "offset": 412,
+      "byte_offset": 0,
+      "mask": 16
+    },
+    "bComponentToWorldUpdated": {
+      "offset": 412,
+      "byte_offset": 0,
+      "mask": 1
+    }
+  },
+  "native_comparator": "0x6ff824c8fc",
+  "native_bool_cases": 1024,
+  "players": [
+    {
+      "slot": 1,
+      "ps": "0x6d9e41e390",
+      "pawn": "0x6e2ec94030",
+      "mesh": "0x6e8f0ae8c0",
+      "root": "0x6e95b46700",
+      "root_fields": {
+        "parent": "0x0",
+        "socket_id": 0,
+        "socket_number": 0,
+        "flags": {
+          "bAbsoluteLocation": false,
+          "bAbsoluteRotation": false,
+          "bAbsoluteScale": false,
+          "bComponentToWorldUpdated": true
+        },
+        "rotation": [
+          0.0,
+          -6.730255126953125,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "mesh_fields": {
+        "parent": "0x6e95b46700",
+        "socket_id": 0,
+        "socket_number": 0,
+        "flags": {
+          "bAbsoluteLocation": false,
+          "bAbsoluteRotation": false,
+          "bAbsoluteScale": false,
+          "bComponentToWorldUpdated": true
+        },
+        "rotation": [
+          0.0,
+          -90.00018310546875,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "dead": 0,
+      "simple_hierarchy_candidate": true,
+      "links_and_fields_stable": true,
+      "dead_after": 0
+    },
+    {
+      "slot": 4,
+      "ps": "0x6e953e71d0",
+      "pawn": "0x6daeeec010",
+      "mesh": "0x6e8c60ba40",
+      "root": "0x6e9788f9a0",
+      "root_fields": {
+        "parent": "0x0",
+        "socket_id": 0,
+        "socket_number": 0,
+        "flags": {
+          "bAbsoluteLocation": false,
+          "bAbsoluteRotation": false,
+          "bAbsoluteScale": false,
+          "bComponentToWorldUpdated": true
+        },
+        "rotation": [
+          0.0,
+          141.33363342285156,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "mesh_fields": {
+        "parent": "0x6e9788f9a0",
+        "socket_id": 0,
+        "socket_number": 0,
+        "flags": {
+          "bAbsoluteLocation": false,
+          "bAbsoluteRotation": false,
+          "bAbsoluteScale": false,
+          "bComponentToWorldUpdated": true
+        },
+        "rotation": [
+          0.0,
+          -90.00018310546875,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "dead": 1,
+      "simple_hierarchy_candidate": true,
+      "links_and_fields_stable": true,
+      "dead_after": 1
+    },
+    {
+      "slot": 6,
+      "ps": "0x6e3d425560",
+      "pawn": "0x6e93ff8020",
+      "mesh": "0x6e929ae8c0",
+      "root": "0x6e986d5a40",
+      "root_fields": {
+        "parent": "0x0",
+        "socket_id": 0,
+        "socket_number": 0,
+        "flags": {
+          "bAbsoluteLocation": false,
+          "bAbsoluteRotation": false,
+          "bAbsoluteScale": false,
+          "bComponentToWorldUpdated": true
+        },
+        "rotation": [
+          0.0,
+          -99.13514709472656,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "mesh_fields": {
+        "parent": "0x6e986d5a40",
+        "socket_id": 0,
+        "socket_number": 0,
+        "flags": {
+          "bAbsoluteLocation": false,
+          "bAbsoluteRotation": false,
+          "bAbsoluteScale": false,
+          "bComponentToWorldUpdated": true
+        },
+        "rotation": [
+          0.0,
+          -90.00018310546875,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "dead": 1,
+      "simple_hierarchy_candidate": true,
+      "links_and_fields_stable": true,
+      "dead_after": 1
+    },
+    {
+      "slot": 7,
+      "ps": "0x6ece405560",
+      "pawn": "0x6db1558020",
+      "mesh": "0x6e3eb6a300",
+      "root": "0x6f42874d80",
+      "root_fields": {
+        "parent": "0x0",
+        "socket_id": 0,
+        "socket_number": 0,
+        "flags": {
+          "bAbsoluteLocation": false,
+          "bAbsoluteRotation": false,
+          "bAbsoluteScale": false,
+          "bComponentToWorldUpdated": true
+        },
+        "rotation": [
+          0.0,
+          170.15625,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "mesh_fields": {
+        "parent": "0x6f42874d80",
+        "socket_id": 0,
+        "socket_number": 0,
+        "flags": {
+          "bAbsoluteLocation": false,
+          "bAbsoluteRotation": false,
+          "bAbsoluteScale": false,
+          "bComponentToWorldUpdated": true
+        },
+        "rotation": [
+          0.0,
+          -90.00019073486328,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "dead": 0,
+      "simple_hierarchy_candidate": true,
+      "links_and_fields_stable": true,
+      "dead_after": 0
+    },
+    {
+      "slot": 8,
+      "ps": "0x6e4c9b71d0",
+      "pawn": "0x6e1a554030",
+      "mesh": "0x6d92602ec0",
+      "root": "0x6e99bd4720",
+      "root_fields": {
+        "parent": "0x0",
+        "socket_id": 0,
+        "socket_number": 0,
+        "flags": {
+          "bAbsoluteLocation": false,
+          "bAbsoluteRotation": false,
+          "bAbsoluteScale": false,
+          "bComponentToWorldUpdated": true
+        },
+        "rotation": [
+          0.0,
+          -48.7847785949707,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "mesh_fields": {
+        "parent": "0x6e99bd4720",
+        "socket_id": 0,
+        "socket_number": 0,
+        "flags": {
+          "bAbsoluteLocation": false,
+          "bAbsoluteRotation": false,
+          "bAbsoluteScale": false,
+          "bComponentToWorldUpdated": true
+        },
+        "rotation": [
+          0.0,
+          -90.00018310546875,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "dead": 1,
+      "simple_hierarchy_candidate": true,
+      "links_and_fields_stable": true,
+      "dead_after": 1
+    },
+    {
+      "slot": 12,
+      "ps": "0x6d91ee8e40",
+      "pawn": "0x6e316ec010",
+      "mesh": "0x6e32370040",
+      "root": "0x6d954c4720",
+      "root_fields": {
+        "parent": "0x0",
+        "socket_id": 0,
+        "socket_number": 0,
+        "flags": {
+          "bAbsoluteLocation": false,
+          "bAbsoluteRotation": false,
+          "bAbsoluteScale": false,
+          "bComponentToWorldUpdated": true
+        },
+        "rotation": [
+          0.0,
+          104.06253051757812,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "mesh_fields": {
+        "parent": "0x6d954c4720",
+        "socket_id": 0,
+        "socket_number": 0,
+        "flags": {
+          "bAbsoluteLocation": false,
+          "bAbsoluteRotation": false,
+          "bAbsoluteScale": false,
+          "bComponentToWorldUpdated": true
+        },
+        "rotation": [
+          0.0,
+          84.37408447265625,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "dead": 1,
+      "simple_hierarchy_candidate": true,
+      "links_and_fields_stable": true,
+      "dead_after": 1
+    }
+  ],
+  "remote_world_transform_verified": false,
+  "world_bones_verified": false,
+  "limits": [
+    "Non-atomic page batches; unchanged links cannot exclude object reuse.",
+    "Supported attachment and flags do not independently verify the current world transform.",
+    "FName id/number zero is required for this restricted no-socket candidate."
+  ]
+}

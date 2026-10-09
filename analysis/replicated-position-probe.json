@@ -1,0 +1,169 @@
+{
+  "replicated_movement": {
+    "name": "ReplicatedMovement",
+    "offset": "0x9c",
+    "size": 56,
+    "property": "0x7840c2a240"
+  },
+  "struct_type": {
+    "property_offset": "0x88",
+    "pointer": "0x7863752440",
+    "name": "RepMovement",
+    "class": "ScriptStruct"
+  },
+  "struct_layout": [
+    {
+      "name": "LinearVelocity",
+      "offset": "0x0",
+      "size": 12,
+      "property": "0x7840c29ac0"
+    },
+    {
+      "name": "AngularVelocity",
+      "offset": "0xc",
+      "size": 12,
+      "property": "0x7840c29b60"
+    },
+    {
+      "name": "Location",
+      "offset": "0x18",
+      "size": 16,
+      "property": "0x7840c29c00"
+    },
+    {
+      "name": "Rotation",
+      "offset": "0x28",
+      "size": 12,
+      "property": "0x7840c29ca0"
+    },
+    {
+      "name": "bSimulatedPhysicSleep",
+      "offset": "0x34",
+      "size": 1,
+      "property": "0x7840c29d40"
+    },
+    {
+      "name": "bRepPhysics",
+      "offset": "0x34",
+      "size": 1,
+      "property": "0x7840c29de0"
+    },
+    {
+      "name": "LocationQuantizationLevel",
+      "offset": "0x35",
+      "size": 1,
+      "property": "0x7840c29f20"
+    },
+    {
+      "name": "VelocityQuantizationLevel",
+      "offset": "0x36",
+      "size": 1,
+      "property": "0x7840c2a060"
+    },
+    {
+      "name": "RotationQuantizationLevel",
+      "offset": "0x37",
+      "size": 1,
+      "property": "0x7840c2a1a0"
+    }
+  ],
+  "location_actor_offset": "0xb4",
+  "rows": [
+    {
+      "pawn": "0x7629b5c010",
+      "team": 2,
+      "replicated_float_candidates": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "replicated_handler": "0xffff",
+      "relative_float_candidates": [
+        -21180.310546875,
+        -1811.037353515625,
+        -189.84994506835938
+      ],
+      "relative_handler": "0xffff"
+    },
+    {
+      "pawn": "0x7638178020",
+      "team": 3,
+      "replicated_float_candidates": [
+        -17778.544921875,
+        -10068.04296875,
+        -1274.0677490234375
+      ],
+      "replicated_handler": "0xffff",
+      "relative_float_candidates": [
+        -18321.083984375,
+        -10137.537109375,
+        -1072.0052490234375
+      ],
+      "relative_handler": "0x301004b"
+    },
+    {
+      "pawn": "0x76030cc010",
+      "team": 3,
+      "replicated_float_candidates": [
+        -16014.701171875,
+        -11566.5986328125,
+        -1393.33056640625
+      ],
+      "replicated_handler": "0xffff",
+      "relative_float_candidates": [
+        -19852.6640625,
+        -9877.8935546875,
+        -1494.0052490234375
+      ],
+      "relative_handler": "0x3010069"
+    },
+    {
+      "pawn": "0x76030c8020",
+      "team": 3,
+      "replicated_float_candidates": [
+        -16760.275390625,
+        -10629.734375,
+        -1254.1810302734375
+      ],
+      "replicated_handler": "0xffff",
+      "relative_float_candidates": [
+        -16520.212890625,
+        -10869.796875,
+        -1014.1185302734375
+      ],
+      "relative_handler": "0x301005a"
+    },
+    {
+      "pawn": "0x76781a4030",
+      "team": 2,
+      "replicated_float_candidates": [
+        -21204.712890625,
+        -344.5291748046875,
+        -1109.1734619140625
+      ],
+      "replicated_handler": "0xffff",
+      "relative_float_candidates": [
+        -21578.775390625,
+        29.5333251953125,
+        -1483.2359619140625
+      ],
+      "relative_handler": "0x3010000"
+    },
+    {
+      "pawn": "0x766b56c010",
+      "team": 2,
+      "replicated_float_candidates": [
+        -21428.546875,
+        217.0015869140625,
+        -1321.135498046875
+      ],
+      "replicated_handler": "0xffff",
+      "relative_float_candidates": [
+        -21346.5625,
+        219.49339294433594,
+        -1276.199951171875
+      ],
+      "relative_handler": "0x301003c"
+    }
+  ]
+}

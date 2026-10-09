@@ -1,0 +1,14 @@
+{
+  "pid": 21490,
+  "start": "718694",
+  "state": "0x7210d32000",
+  "key": "0x53d1d34b",
+  "candidate_captures": [
+    "analysis/combined-vector-captures/1791536175697747088",
+    "analysis/combined-vector-captures/1791536182626381105"
+  ],
+  "confirmation_capture": "analysis/combined-vector-captures/1791536194599563857",
+  "validated": false,
+  "scope": "Statistically reconstructed key and populated slots; independent HUD/native verification required.",
+  "coordinate_verification": false
+}

@@ -1,0 +1,677 @@
+{
+  "pid": 22846,
+  "base": "0x78d6c43000",
+  "world": "0x7764e14980",
+  "controller": "0x76f8eda060",
+  "pawn": "0x771085c010",
+  "scene": "0x777498b380",
+  "controller_fields": [
+    {
+      "owner": "GPPlayerController",
+      "name": "bOBCameraPanelShow",
+      "offset": "0xa98",
+      "size": 1,
+      "property": "0x783e5f31c0"
+    },
+    {
+      "owner": "PlayerController",
+      "name": "PlayerCameraManager",
+      "offset": "0x408",
+      "size": 8,
+      "property": "0x783e6a6640"
+    },
+    {
+      "owner": "PlayerController",
+      "name": "PlayerCameraManagerClass",
+      "offset": "0x410",
+      "size": 8,
+      "property": "0x783e6a66e0"
+    },
+    {
+      "owner": "PlayerController",
+      "name": "bAutoManageActiveCameraTarget",
+      "offset": "0x418",
+      "size": 1,
+      "property": "0x783e6a3e40"
+    },
+    {
+      "owner": "PlayerController",
+      "name": "TargetViewRotation",
+      "offset": "0x41c",
+      "size": 12,
+      "property": "0x783e6a3ee0"
+    },
+    {
+      "owner": "PlayerController",
+      "name": "SmoothTargetViewRotationSpeed",
+      "offset": "0x434",
+      "size": 4,
+      "property": "0x783e693800"
+    },
+    {
+      "owner": "PlayerController",
+      "name": "LastSpectatorSyncRotation",
+      "offset": "0x474",
+      "size": 12,
+      "property": "0x783e6a42a0"
+    },
+    {
+      "owner": "Controller",
+      "name": "ControlRotation",
+      "offset": "0x3d8",
+      "size": 12,
+      "property": "0x783e68c040"
+    },
+    {
+      "owner": "Actor",
+      "name": "bFindCameraComponentWhenViewTarget",
+      "offset": "0x92",
+      "size": 1,
+      "property": "0x7840c290c0"
+    }
+  ],
+  "scene_class": "IntCapsuleComponent",
+  "scene_fields": [
+    {
+      "owner": "CapsuleComponent",
+      "name": "CapsuleHalfHeight",
+      "offset": "0x5c0",
+      "size": 4,
+      "property": "0x783e2c4100"
+    },
+    {
+      "owner": "CapsuleComponent",
+      "name": "CapsuleRadius",
+      "offset": "0x5c4",
+      "size": 4,
+      "property": "0x783e2c4180"
+    },
+    {
+      "owner": "PrimitiveComponent",
+      "name": "bDFMSimulationUpdateTransformFromGameThread",
+      "offset": "0x25b",
+      "size": 1,
+      "property": "0x783e67c220"
+    },
+    {
+      "owner": "PrimitiveComponent",
+      "name": "LODShadowBiasScale",
+      "offset": "0x28c",
+      "size": 4,
+      "property": "0x783e63ac00"
+    },
+    {
+      "owner": "PrimitiveComponent",
+      "name": "PreferredWorldScaleType",
+      "offset": "0x2b0",
+      "size": 1,
+      "property": "0x783e677ea0"
+    },
+    {
+      "owner": "PrimitiveComponent",
+      "name": "BoundsScale",
+      "offset": "0x2fc",
+      "size": 4,
+      "property": "0x783e63b180"
+    },
+    {
+      "owner": "SceneComponent",
+      "name": "RelativeLocation",
+      "offset": "0x168",
+      "size": 16,
+      "property": "0x783f3ebaa0"
+    },
+    {
+      "owner": "SceneComponent",
+      "name": "RelativeRotation",
+      "offset": "0x178",
+      "size": 12,
+      "property": "0x783f3ebb40"
+    },
+    {
+      "owner": "SceneComponent",
+      "name": "RelativeScale3D",
+      "offset": "0x184",
+      "size": 12,
+      "property": "0x783f3ebbe0"
+    },
+    {
+      "owner": "SceneComponent",
+      "name": "bAbsoluteLocation",
+      "offset": "0x19c",
+      "size": 1,
+      "property": "0x783f3ebdc0"
+    },
+    {
+      "owner": "SceneComponent",
+      "name": "bAbsoluteRotation",
+      "offset": "0x19c",
+      "size": 1,
+      "property": "0x783f3ebe60"
+    },
+    {
+      "owner": "SceneComponent",
+      "name": "bAbsoluteScale",
+      "offset": "0x19c",
+      "size": 1,
+      "property": "0x783f3ebf00"
+    },
+    {
+      "owner": "SceneComponent",
+      "name": "bSkipUpdateTransformsWhenHidden",
+      "offset": "0x19c",
+      "size": 1,
+      "property": "0x783f3ec0e0"
+    },
+    {
+      "owner": "SceneComponent",
+      "name": "bShouldSnapLocationWhenAttached",
+      "offset": "0x19d",
+      "size": 1,
+      "property": "0x783f3ec220"
+    },
+    {
+      "owner": "SceneComponent",
+      "name": "bShouldSnapRotationWhenAttached",
+      "offset": "0x19d",
+      "size": 1,
+      "property": "0x783f3ec2c0"
+    }
+  ],
+  "pawn_fields": [
+    {
+      "owner": "DFMPlayerCharacter",
+      "name": "CharacterPhysicsCapsuleComponent",
+      "offset": "0x3af8",
+      "size": 8,
+      "property": "0x783cea8f80"
+    },
+    {
+      "owner": "DFMPlayerCharacter",
+      "name": "DeathCloseEyeEffectName",
+      "offset": "0x3b0c",
+      "size": 8,
+      "property": "0x783ce5a500"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "FashionDefaultWithLocalMesh",
+      "offset": "0x26d8",
+      "size": 1,
+      "property": "0x7840e94f20"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "AddFractureBuffHeight",
+      "offset": "0x27a0",
+      "size": 4,
+      "property": "0x7840e7c480"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "AddDoubleFractureBuffHeight",
+      "offset": "0x27a4",
+      "size": 4,
+      "property": "0x7840e7c500"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "LeastHurtHeight",
+      "offset": "0x29bc",
+      "size": 4,
+      "property": "0x7840e7a600"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "LeastFractureHeight",
+      "offset": "0x29c0",
+      "size": 4,
+      "property": "0x7840e7a680"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "LeastDieHeight",
+      "offset": "0x29c4",
+      "size": 4,
+      "property": "0x7840e7a700"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "TriggerLandedStiffHeight",
+      "offset": "0x29c8",
+      "size": 4,
+      "property": "0x7840e7a780"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "CustomTriggerLandedStiffHeight",
+      "offset": "0x29cc",
+      "size": 4,
+      "property": "0x7840e7a800"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "DamageFallHeight",
+      "offset": "0x29e0",
+      "size": 8,
+      "property": "0x7840e93da0"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "DamageHealthFallHeight",
+      "offset": "0x29e8",
+      "size": 8,
+      "property": "0x7840e91500"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "DamageHealthFallHeightCustom",
+      "offset": "0x29f0",
+      "size": 8,
+      "property": "0x7840e915a0"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "DamageFallHeightCustom",
+      "offset": "0x29f8",
+      "size": 8,
+      "property": "0x7840e91640"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "CachedOutlineMeshComponents",
+      "offset": "0x2e30",
+      "size": 16,
+      "property": "0x7840e8ec00"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "CheckDroyBodyBoxHeight",
+      "offset": "0x3088",
+      "size": 4,
+      "property": "0x7840e78800"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "CheckDroyBodyBoxForwardHeight",
+      "offset": "0x308c",
+      "size": 4,
+      "property": "0x7840e78880"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "SecondCheckDroyBodyBoxHeight",
+      "offset": "0x3094",
+      "size": 4,
+      "property": "0x7840e78980"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "SecondCheckCapsuleRadiu",
+      "offset": "0x309c",
+      "size": 4,
+      "property": "0x7840e78a80"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "SecondCheckCapsuleHigh",
+      "offset": "0x30a0",
+      "size": 4,
+      "property": "0x7840e78b00"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "bKillMeshWhenDead",
+      "offset": "0x3111",
+      "size": 1,
+      "property": "0x7840e8d6c0"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "MeshComponentArr",
+      "offset": "0x32f0",
+      "size": 16,
+      "property": "0x7840e8bfa0"
+    },
+    {
+      "owner": "DFMCharacter",
+      "name": "bNearlyUseCapsuleLocation",
+      "offset": "0x382c",
+      "size": 1,
+      "property": "0x7840e8cb80"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "bOnCharacterMeshLoadCompleteFPP",
+      "offset": "0x1b54",
+      "size": 1,
+      "property": "0x7840dd9b60"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "bOnCharacterMeshLoadCompleteTPP",
+      "offset": "0x1b55",
+      "size": 1,
+      "property": "0x7840dd9c00"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "CharacterCapsuleTransformFormID",
+      "offset": "0x1bb4",
+      "size": 4,
+      "property": "0x7840dac000"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "bForceHideFPPMesh",
+      "offset": "0x1c18",
+      "size": 1,
+      "property": "0x7840dd9f20"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "bTppMeshRefreshBones",
+      "offset": "0x1c19",
+      "size": 1,
+      "property": "0x7840dd9fc0"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "AimCapsuleComponent",
+      "offset": "0x2070",
+      "size": 8,
+      "property": "0x7840dd6c80"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "bCustomAimCapsuleParams",
+      "offset": "0x2079",
+      "size": 1,
+      "property": "0x7840dd6d20"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "CustomAimCapsuleRadius",
+      "offset": "0x207c",
+      "size": 4,
+      "property": "0x7840da9500"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "CustomAimCapsuleHalfHeight",
+      "offset": "0x2080",
+      "size": 4,
+      "property": "0x7840da9580"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "CustomAimCapsuleCrouchedHalfHeight",
+      "offset": "0x2084",
+      "size": 4,
+      "property": "0x7840da9600"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "CustomAimCapsuleLieDownHalfHeight",
+      "offset": "0x2088",
+      "size": 4,
+      "property": "0x7840da9680"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "CustomAimCapsuleSwimHalfHeight",
+      "offset": "0x208c",
+      "size": 4,
+      "property": "0x7840da9700"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "ExtraAttachMeshes",
+      "offset": "0x20a0",
+      "size": 16,
+      "property": "0x7840dd6fa0"
+    },
+    {
+      "owner": "GPCharacter",
+      "name": "ExtraAttachWeaponMeshes",
+      "offset": "0x20b0",
+      "size": 16,
+      "property": "0x7840dd70e0"
+    },
+    {
+      "owner": "GPCharacterBase",
+      "name": "CapsuleRadius",
+      "offset": "0xe64",
+      "size": 4,
+      "property": "0x7840da6d00"
+    },
+    {
+      "owner": "GPCharacterBase",
+      "name": "CapsuleHalfHeight",
+      "offset": "0xe68",
+      "size": 4,
+      "property": "0x7840da6d80"
+    },
+    {
+      "owner": "GPCharacterBase",
+      "name": "OnFppMeshLoadSuccess",
+      "offset": "0x16c0",
+      "size": 16,
+      "property": "0x7840dbad80"
+    },
+    {
+      "owner": "CharacterBase",
+      "name": "FPPMesh",
+      "offset": "0xaa8",
+      "size": 8,
+      "property": "0x7840d9dbc0"
+    },
+    {
+      "owner": "CharacterBase",
+      "name": "FPPMeshLowBody",
+      "offset": "0xab0",
+      "size": 8,
+      "property": "0x7840d9dc60"
+    },
+    {
+      "owner": "CharacterBase",
+      "name": "AllMesh",
+      "offset": "0xab8",
+      "size": 16,
+      "property": "0x7840d9dda0"
+    },
+    {
+      "owner": "CHARACTER",
+      "name": "Mesh",
+      "offset": "0x3d0",
+      "size": 8,
+      "property": "0x7840d99340"
+    },
+    {
+      "owner": "CHARACTER",
+      "name": "CapsuleComponent",
+      "offset": "0x3e0",
+      "size": 8,
+      "property": "0x7840d99480"
+    },
+    {
+      "owner": "CHARACTER",
+      "name": "CrouchedEyeHeight",
+      "offset": "0x47c",
+      "size": 4,
+      "property": "0x7840c8fa80"
+    },
+    {
+      "owner": "Pawn",
+      "name": "BaseEyeHeight",
+      "offset": "0x37c",
+      "size": 4,
+      "property": "0x7840c8e200"
+    }
+  ],
+  "camera": "0x77bdc28010",
+  "camera_class": "BP_TestPlayerCameraManager_C",
+  "camera_fields": [
+    {
+      "owner": "GPPlayerCameraManager",
+      "name": "SwitchViewTargetCurve",
+      "offset": "0x4d58",
+      "size": 8,
+      "property": "0x783e5ef920"
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "name": "SwitchViewTargetFovCurve",
+      "offset": "0x4d60",
+      "size": 8,
+      "property": "0x783e5ef9c0"
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "name": "FOVDeltaBySpeedCurve",
+      "offset": "0x4eb0",
+      "size": 8,
+      "property": "0x783e5efc40"
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "name": "FPPCameraFOV",
+      "offset": "0x4fd0",
+      "size": 4,
+      "property": "0x783e5ccd80"
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "name": "ReferenceFPPCameraFov",
+      "offset": "0x4fd4",
+      "size": 4,
+      "property": "0x783e5cce00"
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "name": "ReferenceAspectForFixedVerticalFov",
+      "offset": "0x4fd8",
+      "size": 4,
+      "property": "0x783e5cce80"
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "name": "FovAdjustMode",
+      "offset": "0x5160",
+      "size": 1,
+      "property": "0x783e5ee7a0"
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "name": "FovAdjustMode_Mobile",
+      "offset": "0x5161",
+      "size": 1,
+      "property": "0x783e5ee8e0"
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "name": "DefaultInteractFOV",
+      "offset": "0x51a0",
+      "size": 4,
+      "property": "0x783e5cd180"
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "name": "BasicFovForScale",
+      "offset": "0x51a4",
+      "size": 4,
+      "property": "0x783e5cd200"
+    },
+    {
+      "owner": "GPPlayerCameraManager",
+      "name": "ChangeSceneFovData",
+      "offset": "0x51a8",
+      "size": 32,
+      "property": "0x783e5eea20"
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "name": "DefaultFOV",
+      "offset": "0x388",
+      "size": 4,
+      "property": "0x783e284080"
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "name": "CameraCache",
+      "offset": "0x3e0",
+      "size": 2640,
+      "property": "0x783e9db8c0"
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "name": "LastFrameCameraCache",
+      "offset": "0xe30",
+      "size": 2640,
+      "property": "0x783e9db960"
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "name": "ViewTarget",
+      "offset": "0x1880",
+      "size": 2656,
+      "property": "0x783e9d90c0"
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "name": "PendingViewTarget",
+      "offset": "0x22e0",
+      "size": 2656,
+      "property": "0x783e9d9160"
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "name": "CameraCachePrivate",
+      "offset": "0x2d60",
+      "size": 2640,
+      "property": "0x783e9d9200"
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "name": "LastFrameCameraCachePrivate",
+      "offset": "0x37b0",
+      "size": 2640,
+      "property": "0x783e9d92a0"
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "name": "ViewTargetOffset",
+      "offset": "0x4230",
+      "size": 12,
+      "property": "0x783e9d9660"
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "name": "CachedCameraShakeMod",
+      "offset": "0x4260",
+      "size": 8,
+      "property": "0x783e9d9840"
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "name": "PostProcessBlendCache",
+      "offset": "0x42a8",
+      "size": 16,
+      "property": "0x783e9d9a20"
+    },
+    {
+      "owner": "PlayerCameraManager",
+      "name": "bClientSimulatingViewTarget",
+      "offset": "0x42f0",
+      "size": 1,
+      "property": "0x783e9d9f20"
+    },
+    {
+      "owner": "Actor",
+      "name": "bFindCameraComponentWhenViewTarget",
+      "offset": "0x92",
+      "size": 1,
+      "property": "0x7840c290c0"
+    }
+  ]
+}

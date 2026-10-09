@@ -1,0 +1,13 @@
+{
+  "pid": 24536,
+  "base": "0x6feb64c000",
+  "state": "0x7210d32000",
+  "kind": 45,
+  "records": "0x6f1bcc0000",
+  "indices": "0x7218d7f000",
+  "count_before": 0,
+  "read_only": true,
+  "coordinates_verified": false,
+  "pages": [],
+  "status": "empty_runtime_storage"
+}

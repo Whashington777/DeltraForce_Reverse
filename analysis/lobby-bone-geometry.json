@@ -1,0 +1,25 @@
+{
+  "pid": 22846,
+  "base": "0x78d6c43000",
+  "samples": [
+    {
+      "component": "0x775540d560",
+      "class": "GPSkeletalMeshComponent",
+      "status": "no active bone array in this capture",
+      "index": 0,
+      "num": 0
+    },
+    {
+      "component": "0x775540eab0",
+      "class": "GPSkeletalMeshComponent",
+      "status": "no active bone array in this capture",
+      "index": 0,
+      "num": 0
+    }
+  ],
+  "camera": {
+    "pointer": "0x75e84d8010",
+    "class": "BP_TestPlayerCameraManager_C",
+    "cache": "a8ed584500000000000000000000000000ac8ac700a00c46000066c4ffff00000000b4c20000000000000080000070420000b4420000803f0000204100409c453b8ee33f020000000000803f0000000000000000000000000000000000000000"
+  }
+}

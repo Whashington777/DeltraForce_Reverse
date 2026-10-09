@@ -1,0 +1,560 @@
+{
+  "layout_provenance": {
+    "reflection": "analysis/own-reflection/classes.json",
+    "reflection_pid": 22846,
+    "capture_pid": 10651,
+    "version": "1.202.37117.5601",
+    "current_process_layout_revalidated": true,
+    "current_layout_source": "analysis/actor-layout-audits/1791563381956487941/manifest.json",
+    "reason": "Current roster fallback; historical dynamic class is no longer valid"
+  },
+  "offset_candidates": {
+    "replicated_movement": 156,
+    "location": 24,
+    "rotation": 40,
+    "yaw": 4,
+    "handler": 12
+  },
+  "remote_samples": 24,
+  "rotation_near_equal_count": 23,
+  "usable_bone_remote_samples": 7,
+  "usable_bone_rotation_near_equal_count": 6,
+  "rotation_outliers": [
+    {
+      "capture": "analysis/combined-vector-captures/1791561832468895164",
+      "mesh": "0x6ee934ba40",
+      "root_yaw_deg": -70.31250762939453,
+      "replicated_yaw_candidate_deg": 285.46875,
+      "angular_difference_deg": 4.218742370605469,
+      "near_equal_rotation": false,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 19406.221179966487,
+      "usable_bone_buffer": true,
+      "relative_position_recovered": [
+        14025.40625,
+        -9032.875,
+        -193.310546875
+      ],
+      "replicated_position_candidate": [
+        3022.939697265625,
+        6908.11328125,
+        -1389.990478515625
+      ]
+    }
+  ],
+  "independent_position_source_verified": false,
+  "independent_rotation_source_verified": false,
+  "world_bones_verified": false,
+  "rows": [
+    {
+      "capture": "analysis/combined-vector-captures/1791561658670379980",
+      "mesh": "0x6fb1015d40",
+      "root_yaw_deg": 170.15625,
+      "replicated_yaw_candidate_deg": 170.15625,
+      "angular_difference_deg": 0.0,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 6736.674516627142,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        -21761.6875,
+        -16272.875,
+        -30.509765625
+      ],
+      "replicated_position_candidate": [
+        -15508.3076171875,
+        -18583.345703125,
+        -999.9161376953125
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561658670379980",
+      "mesh": "0x6fb1011780",
+      "root_yaw_deg": 85.7812271118164,
+      "replicated_yaw_candidate_deg": 85.78125,
+      "angular_difference_deg": 2.288818359375e-05,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 6927.160074731905,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        -20462.90625,
+        -13607.1875,
+        -169.310546875
+      ],
+      "replicated_position_candidate": [
+        -15615.80859375,
+        -18462.453125,
+        -1127.218017578125
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561658670379980",
+      "mesh": "0x6e9d06e8c0",
+      "root_yaw_deg": 0.0,
+      "replicated_yaw_candidate_deg": 0.0,
+      "angular_difference_deg": 0.0,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 31357.315677688122,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        15943.8125,
+        -7459.625,
+        -208.41015625
+      ],
+      "replicated_position_candidate": [
+        -13075.365234375,
+        -19318.142578125,
+        -946.0625
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561658670379980",
+      "mesh": "0x6e8d93ba40",
+      "root_yaw_deg": -92.8125,
+      "replicated_yaw_candidate_deg": 267.1875,
+      "angular_difference_deg": 0.0,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 16849.96284582422,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        -23162.8125,
+        -3876.125,
+        432.58984375
+      ],
+      "replicated_position_candidate": [
+        -15320.1435546875,
+        -18732.70703125,
+        -869.6244506835938
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561658670379980",
+      "mesh": "0x6d2e19ba40",
+      "root_yaw_deg": 94.21874237060547,
+      "replicated_yaw_candidate_deg": 94.21875,
+      "angular_difference_deg": 7.62939453125e-06,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 13844.408096509058,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        -20858.3125,
+        -6058.5,
+        -189.810546875
+      ],
+      "replicated_position_candidate": [
+        -15325.1552734375,
+        -18730.88671875,
+        -869.8263549804688
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561658670379980",
+      "mesh": "0x6de80eba40",
+      "root_yaw_deg": -160.31251525878906,
+      "replicated_yaw_candidate_deg": 199.6875,
+      "angular_difference_deg": 1.52587890625e-05,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 13533.141269547637,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        -20738.40625,
+        -5832.875,
+        -136.708984375
+      ],
+      "replicated_position_candidate": [
+        -15709.0302734375,
+        -18347.01171875,
+        -1253.701416015625
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561692652266198",
+      "mesh": "0x6fb1015d40",
+      "root_yaw_deg": -77.34371185302734,
+      "replicated_yaw_candidate_deg": 282.65625,
+      "angular_difference_deg": 3.814697265625e-05,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 8205.271524267255,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        -26194.8125,
+        -15350.0,
+        -13.41015625
+      ],
+      "replicated_position_candidate": [
+        -20255.84765625,
+        -9765.2568359375,
+        -943.9052734375
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561692652266198",
+      "mesh": "0x6fb1011780",
+      "root_yaw_deg": -149.06248474121094,
+      "replicated_yaw_candidate_deg": 210.9375,
+      "angular_difference_deg": 1.52587890625e-05,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 3749.9895632287385,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        -21015.90625,
+        -6120.5,
+        -189.810546875
+      ],
+      "replicated_position_candidate": [
+        -20363.505859375,
+        -9697.7548828125,
+        -1106.34912109375
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561692652266198",
+      "mesh": "0x6e9d06e8c0",
+      "root_yaw_deg": 0.0,
+      "replicated_yaw_candidate_deg": 0.0,
+      "angular_difference_deg": 0.0,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 31357.315677688122,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        15943.8125,
+        -7459.625,
+        -208.41015625
+      ],
+      "replicated_position_candidate": [
+        -13075.365234375,
+        -19318.142578125,
+        -946.0625
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561692652266198",
+      "mesh": "0x6d2e19ba40",
+      "root_yaw_deg": -179.99998474121094,
+      "replicated_yaw_candidate_deg": 180.0,
+      "angular_difference_deg": 1.52587890625e-05,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 2742.934712878386,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        -21999.6875,
+        -7995.375,
+        -168.810546875
+      ],
+      "replicated_position_candidate": [
+        -20127.97265625,
+        -9893.1318359375,
+        -816.0302734375
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561692652266198",
+      "mesh": "0x6de80eba40",
+      "root_yaw_deg": 30.937528610229492,
+      "replicated_yaw_candidate_deg": 30.9375,
+      "angular_difference_deg": 2.86102294921875e-05,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 5536.193895252143,
+      "usable_bone_buffer": true,
+      "relative_position_recovered": [
+        -23549.5,
+        -4998.3125,
+        -163.810546875
+      ],
+      "replicated_position_candidate": [
+        -20511.84765625,
+        -9509.2568359375,
+        -1199.9052734375
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561727427336207",
+      "mesh": "0x6fb1015d40",
+      "root_yaw_deg": -47.81245040893555,
+      "replicated_yaw_candidate_deg": 312.1875,
+      "angular_difference_deg": 4.9591064453125e-05,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 14083.127211294772,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        -22757.6875,
+        -18635.625,
+        724.58984375
+      ],
+      "replicated_position_candidate": [
+        -23342.462890625,
+        -4674.45849609375,
+        -1029.929931640625
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561727427336207",
+      "mesh": "0x6fb1011780",
+      "root_yaw_deg": -16.87504768371582,
+      "replicated_yaw_candidate_deg": 343.125,
+      "angular_difference_deg": 4.76837158203125e-05,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 1021.8413890121122,
+      "usable_bone_buffer": true,
+      "relative_position_recovered": [
+        -23641.5,
+        -4604.875,
+        -152.310546875
+      ],
+      "replicated_position_candidate": [
+        -23470.587890625,
+        -4546.33349609375,
+        -1158.054931640625
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561832468895164",
+      "mesh": "0x6fb1015d40",
+      "root_yaw_deg": -78.74996948242188,
+      "replicated_yaw_candidate_deg": 281.25,
+      "angular_difference_deg": 3.0517578125e-05,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 31827.896006618146,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        -21175.09375,
+        -24686.0,
+        1691.490234375
+      ],
+      "replicated_position_candidate": [
+        -16751.146484375,
+        6641.7412109375,
+        -1774.961181640625
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561832468895164",
+      "mesh": "0x6fb1011780",
+      "root_yaw_deg": -164.53123474121094,
+      "replicated_yaw_candidate_deg": 195.46875,
+      "angular_difference_deg": 1.52587890625e-05,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 29301.609680644724,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        -22825.90625,
+        -6933.8125,
+        -170.009765625
+      ],
+      "replicated_position_candidate": [
+        2896.321044921875,
+        7035.2451171875,
+        -1517.890380859375
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561832468895164",
+      "mesh": "0x6ee934ba40",
+      "root_yaw_deg": -70.31250762939453,
+      "replicated_yaw_candidate_deg": 285.46875,
+      "angular_difference_deg": 4.218742370605469,
+      "near_equal_rotation": false,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 19406.221179966487,
+      "usable_bone_buffer": true,
+      "relative_position_recovered": [
+        14025.40625,
+        -9032.875,
+        -193.310546875
+      ],
+      "replicated_position_candidate": [
+        3022.939697265625,
+        6908.11328125,
+        -1389.990478515625
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561832468895164",
+      "mesh": "0x6df50a5d40",
+      "root_yaw_deg": -113.90621185302734,
+      "replicated_yaw_candidate_deg": 246.09375,
+      "angular_difference_deg": 3.814697265625e-05,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 26464.973212578134,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        29030.8125,
+        5995.125,
+        1406.8896484375
+      ],
+      "replicated_position_candidate": [
+        2768.446044921875,
+        7163.1201171875,
+        -1645.765380859375
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561832468895164",
+      "mesh": "0x6d576e8bc0",
+      "root_yaw_deg": -129.37496948242188,
+      "replicated_yaw_candidate_deg": 230.625,
+      "angular_difference_deg": 3.0517578125e-05,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 21275.733327916605,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        19987.6875,
+        -5246.6875,
+        -205.609375
+      ],
+      "replicated_position_candidate": [
+        2766.939697265625,
+        7164.11328125,
+        -1645.990478515625
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561929589597203",
+      "mesh": "0x6f02f85d40",
+      "root_yaw_deg": 16.875032424926758,
+      "replicated_yaw_candidate_deg": 16.875,
+      "angular_difference_deg": 3.24249267578125e-05,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 18905.337573055873,
+      "usable_bone_buffer": true,
+      "relative_position_recovered": [
+        -5027.09375,
+        -18558.0,
+        121.58984375
+      ],
+      "replicated_position_candidate": [
+        12016.560546875,
+        -10455.2509765625,
+        -1005.8387451171875
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561929589597203",
+      "mesh": "0x6e0fd05d40",
+      "root_yaw_deg": 35.15625762939453,
+      "replicated_yaw_candidate_deg": 35.15625,
+      "angular_difference_deg": 7.62939453125e-06,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 13795.891697102428,
+      "usable_bone_buffer": true,
+      "relative_position_recovered": [
+        14801.5,
+        -23652.8125,
+        409.990234375
+      ],
+      "replicated_position_candidate": [
+        11982.5654296875,
+        -10223.7099609375,
+        -1018.099609375
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561939784095224",
+      "mesh": "0x6f02f85d40",
+      "root_yaw_deg": -70.31250762939453,
+      "replicated_yaw_candidate_deg": 289.6875,
+      "angular_difference_deg": 7.62939453125e-06,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 14592.021494253831,
+      "usable_bone_buffer": true,
+      "relative_position_recovered": [
+        -707.90625,
+        -17719.1875,
+        120.890625
+      ],
+      "replicated_position_candidate": [
+        11827.67578125,
+        -10344.0107421875,
+        -1059.3814697265625
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561939784095224",
+      "mesh": "0x6e0fd05d40",
+      "root_yaw_deg": 95.62499237060547,
+      "replicated_yaw_candidate_deg": 95.625,
+      "angular_difference_deg": 7.62939453125e-06,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 12704.083422225209,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        15905.90625,
+        -22472.5,
+        400.291015625
+      ],
+      "replicated_position_candidate": [
+        11955.55078125,
+        -10471.8857421875,
+        -931.5065307617188
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561949348175665",
+      "mesh": "0x6f02f85d40",
+      "root_yaw_deg": -67.50003051757812,
+      "replicated_yaw_candidate_deg": 292.5,
+      "angular_difference_deg": 3.0517578125e-05,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 14652.429246503802,
+      "usable_bone_buffer": false,
+      "relative_position_recovered": [
+        -565.40625,
+        -18071.375,
+        120.890625
+      ],
+      "replicated_position_candidate": [
+        11827.67578125,
+        -10344.0107421875,
+        -1059.3814697265625
+      ]
+    },
+    {
+      "capture": "analysis/combined-vector-captures/1791561949348175665",
+      "mesh": "0x6e0fd05d40",
+      "root_yaw_deg": -164.53123474121094,
+      "replicated_yaw_candidate_deg": 195.46875,
+      "angular_difference_deg": 1.52587890625e-05,
+      "near_equal_rotation": true,
+      "plain_position_handler": "0xffff",
+      "position_difference_cm": 12217.54281923174,
+      "usable_bone_buffer": true,
+      "relative_position_recovered": [
+        15407.0,
+        -22142.8125,
+        138.689453125
+      ],
+      "replicated_position_candidate": [
+        11955.55078125,
+        -10471.8857421875,
+        -931.5065307617188
+      ]
+    }
+  ],
+  "limits": [
+    "Current shared Actor base field layout is verified when a matching current-layout audit is supplied; historical dynamic Pawn class identity is not restored.",
+    "Rotation agreement between two representations does not prove full component world transform.",
+    "Position values with plain handler are not established world coordinates.",
+    "Captured pages are not frame-atomic; replication update vs smoothing vs read timing is not distinguished."
+  ]
+}

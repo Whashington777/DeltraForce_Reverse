@@ -1,0 +1,59 @@
+{
+  "capture": "analysis/combined-vector-captures/1791557261299844580",
+  "hierarchy_audit": "analysis/scene-hierarchy-audits/1791555625931943747/manifest.json",
+  "pid": 10651,
+  "process_start": "2455946",
+  "world": "0x6de66dade0",
+  "candidates": [],
+  "rejected": [
+    {
+      "mesh": "0x6d7e92e8c0",
+      "reason": "Dead, changed inputs/identity/header, unsupported master pose, or invalid bone payload"
+    },
+    {
+      "mesh": "0x6e323ed180",
+      "reason": "Dead, changed inputs/identity/header, unsupported master pose, or invalid bone payload"
+    },
+    {
+      "mesh": "0x6e0c3fe8c0",
+      "reason": "Dead, changed inputs/identity/header, unsupported master pose, or invalid bone payload"
+    },
+    {
+      "mesh": "0x6e264a5d40",
+      "reason": "Dead, changed inputs/identity/header, unsupported master pose, or invalid bone payload"
+    },
+    {
+      "mesh": "0x6e96212ec0",
+      "reason": "Dead, changed inputs/identity/header, unsupported master pose, or invalid bone payload"
+    },
+    {
+      "mesh": "0x6d49234600",
+      "reason": "Dead, changed inputs/identity/header, unsupported master pose, or invalid bone payload"
+    },
+    {
+      "mesh": "0x6d495fe8c0",
+      "reason": "Dead, changed inputs/identity/header, unsupported master pose, or invalid bone payload"
+    },
+    {
+      "mesh": "0x6d495f5d40",
+      "reason": "Dead, changed inputs/identity/header, unsupported master pose, or invalid bone payload"
+    },
+    {
+      "mesh": "0x6d50e21780",
+      "reason": "Dead, changed inputs/identity/header, unsupported master pose, or invalid bone payload"
+    },
+    {
+      "mesh": "0x6ee933a300",
+      "reason": "Dead, changed inputs/identity/header, unsupported master pose, or invalid bone payload"
+    }
+  ],
+  "remote_world_transform_verified": false,
+  "world_bones_verified": false,
+  "limits": [
+    "Yaw-only, unit scale, root without parent, Mesh directly attached without socket.",
+    "Captured pages are not frame-atomic; selector equality cannot exclude a flip and return.",
+    "Protected root coordinates use the supplied candidate key.",
+    "Native composition and attachment checks do not independently prove a remote world transform.",
+    "No comparison to an independently observed rendered pose has been performed."
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "K2_SetActorTransform",
+    "function": "0x786374f6a0",
+    "native": "0x78f2297fe4",
+    "rva": "0x1b654fe4"
+  },
+  {
+    "name": "K2_SetActorRelativeTransform",
+    "function": "0x786374f4e0",
+    "native": "0x78f2297d1c",
+    "rva": "0x1b654d1c"
+  },
+  {
+    "name": "K2_SetActorRelativeLocation",
+    "function": "0x786374f320",
+    "native": "0x78f22979f4",
+    "rva": "0x1b6549f4"
+  },
+  {
+    "name": "K2_SetActorLocationAndRotation",
+    "function": "0x786374f240",
+    "native": "0x78ea1c0c48",
+    "rva": "0x1357dc48"
+  },
+  {
+    "name": "K2_SetActorLocation",
+    "function": "0x786374f160",
+    "native": "0x78f2297854",
+    "rva": "0x1b654854"
+  },
+  {
+    "name": "K2_GetActorLocation",
+    "function": "0x786374eb40",
+    "native": "0x78e81e46dc",
+    "rva": "0x115a16dc"
+  },
+  {
+    "name": "K2_AddActorWorldTransform",
+    "function": "0x786374e320",
+    "native": "0x78f2296e28",
+    "rva": "0x1b653e28"
+  },
+  {
+    "name": "K2_AddActorLocalTransform",
+    "function": "0x786374e080",
+    "native": "0x78f229692c",
+    "rva": "0x1b65392c"
+  },
+  {
+    "name": "GetTransform",
+    "function": "0x786374d7c0",
+    "native": "0x78ea2a3634",
+    "rva": "0x13660634"
+  }
+]

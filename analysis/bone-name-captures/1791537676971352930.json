@@ -1,0 +1,3487 @@
+{
+  "pid": 21490,
+  "base": "0x6fe723b000",
+  "world": "0x6ddc2aa4c0",
+  "world_stable": true,
+  "source": "native bone_name_transform: asset+0x238 map, 0x14-byte entries, value+8",
+  "players": [
+    {
+      "ps": "0x6d8f411c80",
+      "pawn": "0x6dd3344030",
+      "mesh": "0x6ddf355d40",
+      "asset": "0x6e0cf21f90",
+      "dead": 0
+    },
+    {
+      "ps": "0x6d85358e40",
+      "pawn": "0x6d93bcc010",
+      "mesh": "0x6d85f55d40",
+      "asset": "0x6ee6955aa0",
+      "dead": 1
+    },
+    {
+      "ps": "0x6d853571d0",
+      "pawn": "0x6ea3e14030",
+      "mesh": "0x6ea2915d40",
+      "asset": "0x6ee74e3730",
+      "dead": 0
+    },
+    {
+      "ps": "0x6d850c0010",
+      "pawn": "0x6d93c4c010",
+      "mesh": "0x6fae42d180",
+      "asset": "0x6ee753c8e0",
+      "dead": 0
+    },
+    {
+      "ps": "0x6d8478e390",
+      "pawn": "0x6db6ecc010",
+      "mesh": "0x6dfd387480",
+      "asset": "0x6f379e2770",
+      "dead": 0
+    },
+    {
+      "ps": "0x6ebf521c80",
+      "pawn": "0x6db6ec4030",
+      "mesh": "0x6dfd38ba40",
+      "asset": "0x6ef6886670",
+      "dead": 0
+    },
+    {
+      "ps": "0x6e270c1c80",
+      "pawn": "0x6dddc68020",
+      "mesh": "0x6db2d02ec0",
+      "asset": "0x6ef6886670",
+      "dead": 0
+    }
+  ],
+  "assets": [
+    {
+      "asset": "0x6e0cf21f90",
+      "class": "SkeletalMesh",
+      "names": [
+        {
+          "name": "root",
+          "name_number": 0,
+          "bone_index": 0,
+          "name_id": "0x3338f",
+          "map_entry": 0
+        },
+        {
+          "name": "Hips",
+          "name_number": 0,
+          "bone_index": 1,
+          "name_id": "0x33657",
+          "map_entry": 1
+        },
+        {
+          "name": "Spine",
+          "name_number": 0,
+          "bone_index": 2,
+          "name_id": "0x5a2a1",
+          "map_entry": 2
+        },
+        {
+          "name": "Spine1",
+          "name_number": 0,
+          "bone_index": 3,
+          "name_id": "0x396772",
+          "map_entry": 3
+        },
+        {
+          "name": "Spine2",
+          "name_number": 0,
+          "bone_index": 4,
+          "name_id": "0x1029a",
+          "map_entry": 4
+        },
+        {
+          "name": "RightShoulder",
+          "name_number": 0,
+          "bone_index": 5,
+          "name_id": "0x3a54f0",
+          "map_entry": 5
+        },
+        {
+          "name": "RightArm",
+          "name_number": 0,
+          "bone_index": 6,
+          "name_id": "0x5fdb38",
+          "map_entry": 6
+        },
+        {
+          "name": "RightForeArm",
+          "name_number": 0,
+          "bone_index": 7,
+          "name_id": "0x396450",
+          "map_entry": 7
+        },
+        {
+          "name": "RightForeArmTwist",
+          "name_number": 3,
+          "bone_index": 8,
+          "name_id": "0x617e85",
+          "map_entry": 8
+        },
+        {
+          "name": "RightForeArmTwist",
+          "name_number": 2,
+          "bone_index": 9,
+          "name_id": "0x617e85",
+          "map_entry": 9
+        },
+        {
+          "name": "RightHand",
+          "name_number": 0,
+          "bone_index": 10,
+          "name_id": "0x2b8fad",
+          "map_entry": 10
+        },
+        {
+          "name": "RightHandThumb1",
+          "name_number": 0,
+          "bone_index": 11,
+          "name_id": "0x5fdb3d",
+          "map_entry": 11
+        },
+        {
+          "name": "RightHandThumb2",
+          "name_number": 0,
+          "bone_index": 12,
+          "name_id": "0x5fdb46",
+          "map_entry": 12
+        },
+        {
+          "name": "RightHandThumb3",
+          "name_number": 0,
+          "bone_index": 13,
+          "name_id": "0x617ef9",
+          "map_entry": 13
+        },
+        {
+          "name": "Weapon_RightHand_Joint",
+          "name_number": 0,
+          "bone_index": 14,
+          "name_id": "0xda826",
+          "map_entry": 14
+        },
+        {
+          "name": "RightInHandRing",
+          "name_number": 0,
+          "bone_index": 15,
+          "name_id": "0x617f0b",
+          "map_entry": 15
+        },
+        {
+          "name": "RightHandRing1",
+          "name_number": 0,
+          "bone_index": 16,
+          "name_id": "0x617ee1",
+          "map_entry": 16
+        },
+        {
+          "name": "RightHandRing2",
+          "name_number": 0,
+          "bone_index": 17,
+          "name_id": "0x617ee9",
+          "map_entry": 17
+        },
+        {
+          "name": "RightHandRing3",
+          "name_number": 0,
+          "bone_index": 18,
+          "name_id": "0x617ef1",
+          "map_entry": 18
+        },
+        {
+          "name": "RightInHandPinky",
+          "name_number": 0,
+          "bone_index": 19,
+          "name_id": "0x617f02",
+          "map_entry": 19
+        },
+        {
+          "name": "RightHandPinky1",
+          "name_number": 0,
+          "bone_index": 20,
+          "name_id": "0x617ec6",
+          "map_entry": 20
+        },
+        {
+          "name": "RightHandPinky2",
+          "name_number": 0,
+          "bone_index": 21,
+          "name_id": "0x617ecf",
+          "map_entry": 21
+        },
+        {
+          "name": "RightHandPinky3",
+          "name_number": 0,
+          "bone_index": 22,
+          "name_id": "0x617ed8",
+          "map_entry": 22
+        },
+        {
+          "name": "RightHandMiddle1",
+          "name_number": 0,
+          "bone_index": 23,
+          "name_id": "0x617ea1",
+          "map_entry": 23
+        },
+        {
+          "name": "RightHandMiddle2",
+          "name_number": 0,
+          "bone_index": 24,
+          "name_id": "0x617eaa",
+          "map_entry": 24
+        },
+        {
+          "name": "RightHandMiddle3",
+          "name_number": 0,
+          "bone_index": 25,
+          "name_id": "0x617eb3",
+          "map_entry": 25
+        },
+        {
+          "name": "RightHandIndex1",
+          "name_number": 0,
+          "bone_index": 26,
+          "name_id": "0x617e8f",
+          "map_entry": 26
+        },
+        {
+          "name": "RightHandIndex2",
+          "name_number": 0,
+          "bone_index": 27,
+          "name_id": "0x617e98",
+          "map_entry": 27
+        },
+        {
+          "name": "RightHandIndex3",
+          "name_number": 0,
+          "bone_index": 28,
+          "name_id": "0x8d37b",
+          "map_entry": 28
+        },
+        {
+          "name": "RightArmTwist",
+          "name_number": 0,
+          "bone_index": 29,
+          "name_id": "0x617e7d",
+          "map_entry": 29
+        },
+        {
+          "name": "Neck",
+          "name_number": 0,
+          "bone_index": 30,
+          "name_id": "0x3aa01d",
+          "map_entry": 30
+        },
+        {
+          "name": "Head",
+          "name_number": 0,
+          "bone_index": 31,
+          "name_id": "0x203c7",
+          "map_entry": 31
+        },
+        {
+          "name": "Head_Joint",
+          "name_number": 0,
+          "bone_index": 32,
+          "name_id": "0x5a29b",
+          "map_entry": 32
+        },
+        {
+          "name": "LeftShoulder",
+          "name_number": 0,
+          "bone_index": 33,
+          "name_id": "0x3a6e30",
+          "map_entry": 33
+        },
+        {
+          "name": "LeftArm",
+          "name_number": 0,
+          "bone_index": 34,
+          "name_id": "0x5fdacf",
+          "map_entry": 34
+        },
+        {
+          "name": "LeftForeArm",
+          "name_number": 0,
+          "bone_index": 35,
+          "name_id": "0x396449",
+          "map_entry": 35
+        },
+        {
+          "name": "LeftForeArmTwist",
+          "name_number": 3,
+          "bone_index": 36,
+          "name_id": "0x617c63",
+          "map_entry": 36
+        },
+        {
+          "name": "LeftForeArmTwist",
+          "name_number": 2,
+          "bone_index": 37,
+          "name_id": "0x617c63",
+          "map_entry": 37
+        },
+        {
+          "name": "LeftHand",
+          "name_number": 0,
+          "bone_index": 38,
+          "name_id": "0x2c25aa",
+          "map_entry": 38
+        },
+        {
+          "name": "LeftHandThumb1",
+          "name_number": 0,
+          "bone_index": 39,
+          "name_id": "0x5fdad4",
+          "map_entry": 39
+        },
+        {
+          "name": "LeftHandThumb2",
+          "name_number": 0,
+          "bone_index": 40,
+          "name_id": "0x5fdadc",
+          "map_entry": 40
+        },
+        {
+          "name": "LeftHandThumb3",
+          "name_number": 0,
+          "bone_index": 41,
+          "name_id": "0x617cd4",
+          "map_entry": 41
+        },
+        {
+          "name": "Weapon_LeftHand_Joint",
+          "name_number": 0,
+          "bone_index": 42,
+          "name_id": "0xda81a",
+          "map_entry": 42
+        },
+        {
+          "name": "LeftInHandRing",
+          "name_number": 0,
+          "bone_index": 43,
+          "name_id": "0x617ce5",
+          "map_entry": 43
+        },
+        {
+          "name": "LeftHandRing1",
+          "name_number": 0,
+          "bone_index": 44,
+          "name_id": "0x617caf",
+          "map_entry": 44
+        },
+        {
+          "name": "LeftHandRing2",
+          "name_number": 0,
+          "bone_index": 45,
+          "name_id": "0x617cb7",
+          "map_entry": 45
+        },
+        {
+          "name": "LeftHandRing3",
+          "name_number": 0,
+          "bone_index": 46,
+          "name_id": "0x617cbf",
+          "map_entry": 46
+        },
+        {
+          "name": "LeftInHandPinky",
+          "name_number": 0,
+          "bone_index": 47,
+          "name_id": "0x617cdc",
+          "map_entry": 47
+        },
+        {
+          "name": "LeftHandPinky1",
+          "name_number": 0,
+          "bone_index": 48,
+          "name_id": "0x617c97",
+          "map_entry": 48
+        },
+        {
+          "name": "LeftHandPinky2",
+          "name_number": 0,
+          "bone_index": 49,
+          "name_id": "0x617c9f",
+          "map_entry": 49
+        },
+        {
+          "name": "LeftHandPinky3",
+          "name_number": 0,
+          "bone_index": 50,
+          "name_id": "0x617ca7",
+          "map_entry": 50
+        },
+        {
+          "name": "LeftHandMiddle1",
+          "name_number": 0,
+          "bone_index": 51,
+          "name_id": "0x617c7c",
+          "map_entry": 51
+        },
+        {
+          "name": "LeftHandMiddle2",
+          "name_number": 0,
+          "bone_index": 52,
+          "name_id": "0x617c85",
+          "map_entry": 52
+        },
+        {
+          "name": "LeftHandMiddle3",
+          "name_number": 0,
+          "bone_index": 53,
+          "name_id": "0x617c8e",
+          "map_entry": 53
+        },
+        {
+          "name": "LeftHandIndex1",
+          "name_number": 0,
+          "bone_index": 54,
+          "name_id": "0x617c6c",
+          "map_entry": 54
+        },
+        {
+          "name": "LeftHandIndex2",
+          "name_number": 0,
+          "bone_index": 55,
+          "name_id": "0x617c74",
+          "map_entry": 55
+        },
+        {
+          "name": "LeftHandIndex3",
+          "name_number": 0,
+          "bone_index": 56,
+          "name_id": "0x8d373",
+          "map_entry": 56
+        },
+        {
+          "name": "LeftArmTwist",
+          "name_number": 0,
+          "bone_index": 57,
+          "name_id": "0x617c5c",
+          "map_entry": 57
+        },
+        {
+          "name": "LeftUpLeg",
+          "name_number": 0,
+          "bone_index": 58,
+          "name_id": "0x39dbb7",
+          "map_entry": 58
+        },
+        {
+          "name": "LeftLeg",
+          "name_number": 0,
+          "bone_index": 59,
+          "name_id": "0x396457",
+          "map_entry": 59
+        },
+        {
+          "name": "LeftFoot",
+          "name_number": 0,
+          "bone_index": 60,
+          "name_id": "0x39cb10",
+          "map_entry": 60
+        },
+        {
+          "name": "LeftToeBase",
+          "name_number": 0,
+          "bone_index": 61,
+          "name_id": "0x5fdaec",
+          "map_entry": 61
+        },
+        {
+          "name": "RightUpLeg",
+          "name_number": 0,
+          "bone_index": 62,
+          "name_id": "0x5fdb5e",
+          "map_entry": 62
+        },
+        {
+          "name": "RightLeg",
+          "name_number": 0,
+          "bone_index": 63,
+          "name_id": "0x39645c",
+          "map_entry": 63
+        },
+        {
+          "name": "RightFoot",
+          "name_number": 0,
+          "bone_index": 64,
+          "name_id": "0x39cb15",
+          "map_entry": 64
+        },
+        {
+          "name": "RightToeBase",
+          "name_number": 0,
+          "bone_index": 65,
+          "name_id": "0x5fdb57",
+          "map_entry": 65
+        },
+        {
+          "name": "b_IK_Hand_Root",
+          "name_number": 0,
+          "bone_index": 66,
+          "name_id": "0x604087",
+          "map_entry": 66
+        },
+        {
+          "name": "b_IK_Gun",
+          "name_number": 0,
+          "bone_index": 67,
+          "name_id": "0x3a5c8d",
+          "map_entry": 67
+        },
+        {
+          "name": "b_IK_Hand_R",
+          "name_number": 0,
+          "bone_index": 68,
+          "name_id": "0x60ff54",
+          "map_entry": 68
+        },
+        {
+          "name": "b_IK_Hand_L",
+          "name_number": 0,
+          "bone_index": 69,
+          "name_id": "0x60ff4d",
+          "map_entry": 69
+        },
+        {
+          "name": "Camera_Root",
+          "name_number": 0,
+          "bone_index": 70,
+          "name_id": "0x1029e",
+          "map_entry": 70
+        },
+        {
+          "name": "Camera_Joint",
+          "name_number": 0,
+          "bone_index": 71,
+          "name_id": "0x39f36d",
+          "map_entry": 71
+        },
+        {
+          "name": "b_IK_Foot_Root",
+          "name_number": 0,
+          "bone_index": 72,
+          "name_id": "0x60ff45",
+          "map_entry": 72
+        },
+        {
+          "name": "b_IK_Foot_L",
+          "name_number": 0,
+          "bone_index": 73,
+          "name_id": "0x60ff37",
+          "map_entry": 73
+        },
+        {
+          "name": "b_IK_Foot_R",
+          "name_number": 0,
+          "bone_index": 74,
+          "name_id": "0x60ff3e",
+          "map_entry": 74
+        },
+        {
+          "name": "VB RightArm_RightForeArm",
+          "name_number": 0,
+          "bone_index": 75,
+          "name_id": "0x618034",
+          "map_entry": 75
+        },
+        {
+          "name": "VB LeftArm_LeftForeArm",
+          "name_number": 0,
+          "bone_index": 76,
+          "name_id": "0x618028",
+          "map_entry": 76
+        },
+        {
+          "name": "VB b_IK_Foot_L_LeftToeBase",
+          "name_number": 0,
+          "bone_index": 77,
+          "name_id": "0x61800b",
+          "map_entry": 77
+        },
+        {
+          "name": "VB b_IK_Foot_R_RightToeBase",
+          "name_number": 0,
+          "bone_index": 78,
+          "name_id": "0x618019",
+          "map_entry": 78
+        },
+        {
+          "name": "VB Spine_b_IK_Gun",
+          "name_number": 0,
+          "bone_index": 79,
+          "name_id": "0x618041",
+          "map_entry": 79
+        }
+      ],
+      "header_stable": true,
+      "hash_entries_complete": true,
+      "element_count": 80,
+      "free_count": 0,
+      "hash_bucket_count": 64
+    },
+    {
+      "asset": "0x6ee6955aa0",
+      "class": "SkeletalMesh",
+      "names": [
+        {
+          "name": "root",
+          "name_number": 0,
+          "bone_index": 0,
+          "name_id": "0x3338f",
+          "map_entry": 0
+        },
+        {
+          "name": "Hips",
+          "name_number": 0,
+          "bone_index": 1,
+          "name_id": "0x33657",
+          "map_entry": 1
+        },
+        {
+          "name": "Spine",
+          "name_number": 0,
+          "bone_index": 2,
+          "name_id": "0x5a2a1",
+          "map_entry": 2
+        },
+        {
+          "name": "Spine1",
+          "name_number": 0,
+          "bone_index": 3,
+          "name_id": "0x396772",
+          "map_entry": 3
+        },
+        {
+          "name": "Spine2",
+          "name_number": 0,
+          "bone_index": 4,
+          "name_id": "0x1029a",
+          "map_entry": 4
+        },
+        {
+          "name": "RightShoulder",
+          "name_number": 0,
+          "bone_index": 5,
+          "name_id": "0x3a54f0",
+          "map_entry": 5
+        },
+        {
+          "name": "RightArm",
+          "name_number": 0,
+          "bone_index": 6,
+          "name_id": "0x5fdb38",
+          "map_entry": 6
+        },
+        {
+          "name": "RightForeArm",
+          "name_number": 0,
+          "bone_index": 7,
+          "name_id": "0x396450",
+          "map_entry": 7
+        },
+        {
+          "name": "RightForeArmTwist",
+          "name_number": 3,
+          "bone_index": 8,
+          "name_id": "0x617e85",
+          "map_entry": 8
+        },
+        {
+          "name": "RightForeArmTwist",
+          "name_number": 2,
+          "bone_index": 9,
+          "name_id": "0x617e85",
+          "map_entry": 9
+        },
+        {
+          "name": "RightHand",
+          "name_number": 0,
+          "bone_index": 10,
+          "name_id": "0x2b8fad",
+          "map_entry": 10
+        },
+        {
+          "name": "RightHandThumb1",
+          "name_number": 0,
+          "bone_index": 11,
+          "name_id": "0x5fdb3d",
+          "map_entry": 11
+        },
+        {
+          "name": "RightHandThumb2",
+          "name_number": 0,
+          "bone_index": 12,
+          "name_id": "0x5fdb46",
+          "map_entry": 12
+        },
+        {
+          "name": "RightHandThumb3",
+          "name_number": 0,
+          "bone_index": 13,
+          "name_id": "0x617ef9",
+          "map_entry": 13
+        },
+        {
+          "name": "Weapon_RightHand_Joint",
+          "name_number": 0,
+          "bone_index": 14,
+          "name_id": "0xda826",
+          "map_entry": 14
+        },
+        {
+          "name": "RightInHandRing",
+          "name_number": 0,
+          "bone_index": 15,
+          "name_id": "0x617f0b",
+          "map_entry": 15
+        },
+        {
+          "name": "RightHandRing1",
+          "name_number": 0,
+          "bone_index": 16,
+          "name_id": "0x617ee1",
+          "map_entry": 16
+        },
+        {
+          "name": "RightHandRing2",
+          "name_number": 0,
+          "bone_index": 17,
+          "name_id": "0x617ee9",
+          "map_entry": 17
+        },
+        {
+          "name": "RightHandRing3",
+          "name_number": 0,
+          "bone_index": 18,
+          "name_id": "0x617ef1",
+          "map_entry": 18
+        },
+        {
+          "name": "RightInHandPinky",
+          "name_number": 0,
+          "bone_index": 19,
+          "name_id": "0x617f02",
+          "map_entry": 19
+        },
+        {
+          "name": "RightHandPinky1",
+          "name_number": 0,
+          "bone_index": 20,
+          "name_id": "0x617ec6",
+          "map_entry": 20
+        },
+        {
+          "name": "RightHandPinky2",
+          "name_number": 0,
+          "bone_index": 21,
+          "name_id": "0x617ecf",
+          "map_entry": 21
+        },
+        {
+          "name": "RightHandPinky3",
+          "name_number": 0,
+          "bone_index": 22,
+          "name_id": "0x617ed8",
+          "map_entry": 22
+        },
+        {
+          "name": "RightHandMiddle1",
+          "name_number": 0,
+          "bone_index": 23,
+          "name_id": "0x617ea1",
+          "map_entry": 23
+        },
+        {
+          "name": "RightHandMiddle2",
+          "name_number": 0,
+          "bone_index": 24,
+          "name_id": "0x617eaa",
+          "map_entry": 24
+        },
+        {
+          "name": "RightHandMiddle3",
+          "name_number": 0,
+          "bone_index": 25,
+          "name_id": "0x617eb3",
+          "map_entry": 25
+        },
+        {
+          "name": "RightHandIndex1",
+          "name_number": 0,
+          "bone_index": 26,
+          "name_id": "0x617e8f",
+          "map_entry": 26
+        },
+        {
+          "name": "RightHandIndex2",
+          "name_number": 0,
+          "bone_index": 27,
+          "name_id": "0x617e98",
+          "map_entry": 27
+        },
+        {
+          "name": "RightHandIndex3",
+          "name_number": 0,
+          "bone_index": 28,
+          "name_id": "0x8d37b",
+          "map_entry": 28
+        },
+        {
+          "name": "RightArmTwist",
+          "name_number": 0,
+          "bone_index": 29,
+          "name_id": "0x617e7d",
+          "map_entry": 29
+        },
+        {
+          "name": "Neck",
+          "name_number": 0,
+          "bone_index": 30,
+          "name_id": "0x3aa01d",
+          "map_entry": 30
+        },
+        {
+          "name": "Head",
+          "name_number": 0,
+          "bone_index": 31,
+          "name_id": "0x203c7",
+          "map_entry": 31
+        },
+        {
+          "name": "Head_Joint",
+          "name_number": 0,
+          "bone_index": 32,
+          "name_id": "0x5a29b",
+          "map_entry": 32
+        },
+        {
+          "name": "LeftShoulder",
+          "name_number": 0,
+          "bone_index": 33,
+          "name_id": "0x3a6e30",
+          "map_entry": 33
+        },
+        {
+          "name": "LeftArm",
+          "name_number": 0,
+          "bone_index": 34,
+          "name_id": "0x5fdacf",
+          "map_entry": 34
+        },
+        {
+          "name": "LeftForeArm",
+          "name_number": 0,
+          "bone_index": 35,
+          "name_id": "0x396449",
+          "map_entry": 35
+        },
+        {
+          "name": "LeftForeArmTwist",
+          "name_number": 3,
+          "bone_index": 36,
+          "name_id": "0x617c63",
+          "map_entry": 36
+        },
+        {
+          "name": "LeftForeArmTwist",
+          "name_number": 2,
+          "bone_index": 37,
+          "name_id": "0x617c63",
+          "map_entry": 37
+        },
+        {
+          "name": "LeftHand",
+          "name_number": 0,
+          "bone_index": 38,
+          "name_id": "0x2c25aa",
+          "map_entry": 38
+        },
+        {
+          "name": "LeftHandThumb1",
+          "name_number": 0,
+          "bone_index": 39,
+          "name_id": "0x5fdad4",
+          "map_entry": 39
+        },
+        {
+          "name": "LeftHandThumb2",
+          "name_number": 0,
+          "bone_index": 40,
+          "name_id": "0x5fdadc",
+          "map_entry": 40
+        },
+        {
+          "name": "LeftHandThumb3",
+          "name_number": 0,
+          "bone_index": 41,
+          "name_id": "0x617cd4",
+          "map_entry": 41
+        },
+        {
+          "name": "Weapon_LeftHand_Joint",
+          "name_number": 0,
+          "bone_index": 42,
+          "name_id": "0xda81a",
+          "map_entry": 42
+        },
+        {
+          "name": "LeftInHandRing",
+          "name_number": 0,
+          "bone_index": 43,
+          "name_id": "0x617ce5",
+          "map_entry": 43
+        },
+        {
+          "name": "LeftHandRing1",
+          "name_number": 0,
+          "bone_index": 44,
+          "name_id": "0x617caf",
+          "map_entry": 44
+        },
+        {
+          "name": "LeftHandRing2",
+          "name_number": 0,
+          "bone_index": 45,
+          "name_id": "0x617cb7",
+          "map_entry": 45
+        },
+        {
+          "name": "LeftHandRing3",
+          "name_number": 0,
+          "bone_index": 46,
+          "name_id": "0x617cbf",
+          "map_entry": 46
+        },
+        {
+          "name": "LeftInHandPinky",
+          "name_number": 0,
+          "bone_index": 47,
+          "name_id": "0x617cdc",
+          "map_entry": 47
+        },
+        {
+          "name": "LeftHandPinky1",
+          "name_number": 0,
+          "bone_index": 48,
+          "name_id": "0x617c97",
+          "map_entry": 48
+        },
+        {
+          "name": "LeftHandPinky2",
+          "name_number": 0,
+          "bone_index": 49,
+          "name_id": "0x617c9f",
+          "map_entry": 49
+        },
+        {
+          "name": "LeftHandPinky3",
+          "name_number": 0,
+          "bone_index": 50,
+          "name_id": "0x617ca7",
+          "map_entry": 50
+        },
+        {
+          "name": "LeftHandMiddle1",
+          "name_number": 0,
+          "bone_index": 51,
+          "name_id": "0x617c7c",
+          "map_entry": 51
+        },
+        {
+          "name": "LeftHandMiddle2",
+          "name_number": 0,
+          "bone_index": 52,
+          "name_id": "0x617c85",
+          "map_entry": 52
+        },
+        {
+          "name": "LeftHandMiddle3",
+          "name_number": 0,
+          "bone_index": 53,
+          "name_id": "0x617c8e",
+          "map_entry": 53
+        },
+        {
+          "name": "LeftHandIndex1",
+          "name_number": 0,
+          "bone_index": 54,
+          "name_id": "0x617c6c",
+          "map_entry": 54
+        },
+        {
+          "name": "LeftHandIndex2",
+          "name_number": 0,
+          "bone_index": 55,
+          "name_id": "0x617c74",
+          "map_entry": 55
+        },
+        {
+          "name": "LeftHandIndex3",
+          "name_number": 0,
+          "bone_index": 56,
+          "name_id": "0x8d373",
+          "map_entry": 56
+        },
+        {
+          "name": "LeftArmTwist",
+          "name_number": 0,
+          "bone_index": 57,
+          "name_id": "0x617c5c",
+          "map_entry": 57
+        },
+        {
+          "name": "LeftUpLeg",
+          "name_number": 0,
+          "bone_index": 58,
+          "name_id": "0x39dbb7",
+          "map_entry": 58
+        },
+        {
+          "name": "LeftLeg",
+          "name_number": 0,
+          "bone_index": 59,
+          "name_id": "0x396457",
+          "map_entry": 59
+        },
+        {
+          "name": "LeftFoot",
+          "name_number": 0,
+          "bone_index": 60,
+          "name_id": "0x39cb10",
+          "map_entry": 60
+        },
+        {
+          "name": "LeftToeBase",
+          "name_number": 0,
+          "bone_index": 61,
+          "name_id": "0x5fdaec",
+          "map_entry": 61
+        },
+        {
+          "name": "RightUpLeg",
+          "name_number": 0,
+          "bone_index": 62,
+          "name_id": "0x5fdb5e",
+          "map_entry": 62
+        },
+        {
+          "name": "RightLeg",
+          "name_number": 0,
+          "bone_index": 63,
+          "name_id": "0x39645c",
+          "map_entry": 63
+        },
+        {
+          "name": "RightFoot",
+          "name_number": 0,
+          "bone_index": 64,
+          "name_id": "0x39cb15",
+          "map_entry": 64
+        },
+        {
+          "name": "RightToeBase",
+          "name_number": 0,
+          "bone_index": 65,
+          "name_id": "0x5fdb57",
+          "map_entry": 65
+        },
+        {
+          "name": "b_IK_Hand_Root",
+          "name_number": 0,
+          "bone_index": 66,
+          "name_id": "0x604087",
+          "map_entry": 66
+        },
+        {
+          "name": "b_IK_Gun",
+          "name_number": 0,
+          "bone_index": 67,
+          "name_id": "0x3a5c8d",
+          "map_entry": 67
+        },
+        {
+          "name": "b_IK_Hand_R",
+          "name_number": 0,
+          "bone_index": 68,
+          "name_id": "0x60ff54",
+          "map_entry": 68
+        },
+        {
+          "name": "b_IK_Hand_L",
+          "name_number": 0,
+          "bone_index": 69,
+          "name_id": "0x60ff4d",
+          "map_entry": 69
+        },
+        {
+          "name": "Camera_Root",
+          "name_number": 0,
+          "bone_index": 70,
+          "name_id": "0x1029e",
+          "map_entry": 70
+        },
+        {
+          "name": "Camera_Joint",
+          "name_number": 0,
+          "bone_index": 71,
+          "name_id": "0x39f36d",
+          "map_entry": 71
+        },
+        {
+          "name": "b_IK_Foot_Root",
+          "name_number": 0,
+          "bone_index": 72,
+          "name_id": "0x60ff45",
+          "map_entry": 72
+        },
+        {
+          "name": "b_IK_Foot_L",
+          "name_number": 0,
+          "bone_index": 73,
+          "name_id": "0x60ff37",
+          "map_entry": 73
+        },
+        {
+          "name": "b_IK_Foot_R",
+          "name_number": 0,
+          "bone_index": 74,
+          "name_id": "0x60ff3e",
+          "map_entry": 74
+        },
+        {
+          "name": "VB RightArm_RightForeArm",
+          "name_number": 0,
+          "bone_index": 75,
+          "name_id": "0x618034",
+          "map_entry": 75
+        },
+        {
+          "name": "VB LeftArm_LeftForeArm",
+          "name_number": 0,
+          "bone_index": 76,
+          "name_id": "0x618028",
+          "map_entry": 76
+        },
+        {
+          "name": "VB b_IK_Foot_L_LeftToeBase",
+          "name_number": 0,
+          "bone_index": 77,
+          "name_id": "0x61800b",
+          "map_entry": 77
+        },
+        {
+          "name": "VB b_IK_Foot_R_RightToeBase",
+          "name_number": 0,
+          "bone_index": 78,
+          "name_id": "0x618019",
+          "map_entry": 78
+        },
+        {
+          "name": "VB Spine_b_IK_Gun",
+          "name_number": 0,
+          "bone_index": 79,
+          "name_id": "0x618041",
+          "map_entry": 79
+        }
+      ],
+      "header_stable": true,
+      "hash_entries_complete": true,
+      "element_count": 80,
+      "free_count": 0,
+      "hash_bucket_count": 64
+    },
+    {
+      "asset": "0x6ee74e3730",
+      "class": "SkeletalMesh",
+      "names": [
+        {
+          "name": "root",
+          "name_number": 0,
+          "bone_index": 0,
+          "name_id": "0x3338f",
+          "map_entry": 0
+        },
+        {
+          "name": "Hips",
+          "name_number": 0,
+          "bone_index": 1,
+          "name_id": "0x33657",
+          "map_entry": 1
+        },
+        {
+          "name": "Spine",
+          "name_number": 0,
+          "bone_index": 2,
+          "name_id": "0x5a2a1",
+          "map_entry": 2
+        },
+        {
+          "name": "Spine1",
+          "name_number": 0,
+          "bone_index": 3,
+          "name_id": "0x396772",
+          "map_entry": 3
+        },
+        {
+          "name": "Spine2",
+          "name_number": 0,
+          "bone_index": 4,
+          "name_id": "0x1029a",
+          "map_entry": 4
+        },
+        {
+          "name": "RightShoulder",
+          "name_number": 0,
+          "bone_index": 5,
+          "name_id": "0x3a54f0",
+          "map_entry": 5
+        },
+        {
+          "name": "RightArm",
+          "name_number": 0,
+          "bone_index": 6,
+          "name_id": "0x5fdb38",
+          "map_entry": 6
+        },
+        {
+          "name": "RightForeArm",
+          "name_number": 0,
+          "bone_index": 7,
+          "name_id": "0x396450",
+          "map_entry": 7
+        },
+        {
+          "name": "RightForeArmTwist",
+          "name_number": 3,
+          "bone_index": 8,
+          "name_id": "0x617e85",
+          "map_entry": 8
+        },
+        {
+          "name": "RightForeArmTwist",
+          "name_number": 2,
+          "bone_index": 9,
+          "name_id": "0x617e85",
+          "map_entry": 9
+        },
+        {
+          "name": "RightHand",
+          "name_number": 0,
+          "bone_index": 10,
+          "name_id": "0x2b8fad",
+          "map_entry": 10
+        },
+        {
+          "name": "RightHandThumb1",
+          "name_number": 0,
+          "bone_index": 11,
+          "name_id": "0x5fdb3d",
+          "map_entry": 11
+        },
+        {
+          "name": "RightHandThumb2",
+          "name_number": 0,
+          "bone_index": 12,
+          "name_id": "0x5fdb46",
+          "map_entry": 12
+        },
+        {
+          "name": "RightHandThumb3",
+          "name_number": 0,
+          "bone_index": 13,
+          "name_id": "0x617ef9",
+          "map_entry": 13
+        },
+        {
+          "name": "Weapon_RightHand_Joint",
+          "name_number": 0,
+          "bone_index": 14,
+          "name_id": "0xda826",
+          "map_entry": 14
+        },
+        {
+          "name": "RightInHandRing",
+          "name_number": 0,
+          "bone_index": 15,
+          "name_id": "0x617f0b",
+          "map_entry": 15
+        },
+        {
+          "name": "RightHandRing1",
+          "name_number": 0,
+          "bone_index": 16,
+          "name_id": "0x617ee1",
+          "map_entry": 16
+        },
+        {
+          "name": "RightHandRing2",
+          "name_number": 0,
+          "bone_index": 17,
+          "name_id": "0x617ee9",
+          "map_entry": 17
+        },
+        {
+          "name": "RightHandRing3",
+          "name_number": 0,
+          "bone_index": 18,
+          "name_id": "0x617ef1",
+          "map_entry": 18
+        },
+        {
+          "name": "RightInHandPinky",
+          "name_number": 0,
+          "bone_index": 19,
+          "name_id": "0x617f02",
+          "map_entry": 19
+        },
+        {
+          "name": "RightHandPinky1",
+          "name_number": 0,
+          "bone_index": 20,
+          "name_id": "0x617ec6",
+          "map_entry": 20
+        },
+        {
+          "name": "RightHandPinky2",
+          "name_number": 0,
+          "bone_index": 21,
+          "name_id": "0x617ecf",
+          "map_entry": 21
+        },
+        {
+          "name": "RightHandPinky3",
+          "name_number": 0,
+          "bone_index": 22,
+          "name_id": "0x617ed8",
+          "map_entry": 22
+        },
+        {
+          "name": "RightHandMiddle1",
+          "name_number": 0,
+          "bone_index": 23,
+          "name_id": "0x617ea1",
+          "map_entry": 23
+        },
+        {
+          "name": "RightHandMiddle2",
+          "name_number": 0,
+          "bone_index": 24,
+          "name_id": "0x617eaa",
+          "map_entry": 24
+        },
+        {
+          "name": "RightHandMiddle3",
+          "name_number": 0,
+          "bone_index": 25,
+          "name_id": "0x617eb3",
+          "map_entry": 25
+        },
+        {
+          "name": "RightHandIndex1",
+          "name_number": 0,
+          "bone_index": 26,
+          "name_id": "0x617e8f",
+          "map_entry": 26
+        },
+        {
+          "name": "RightHandIndex2",
+          "name_number": 0,
+          "bone_index": 27,
+          "name_id": "0x617e98",
+          "map_entry": 27
+        },
+        {
+          "name": "RightHandIndex3",
+          "name_number": 0,
+          "bone_index": 28,
+          "name_id": "0x8d37b",
+          "map_entry": 28
+        },
+        {
+          "name": "RightArmTwist",
+          "name_number": 0,
+          "bone_index": 29,
+          "name_id": "0x617e7d",
+          "map_entry": 29
+        },
+        {
+          "name": "Neck",
+          "name_number": 0,
+          "bone_index": 30,
+          "name_id": "0x3aa01d",
+          "map_entry": 30
+        },
+        {
+          "name": "Head",
+          "name_number": 0,
+          "bone_index": 31,
+          "name_id": "0x203c7",
+          "map_entry": 31
+        },
+        {
+          "name": "Head_Joint",
+          "name_number": 0,
+          "bone_index": 32,
+          "name_id": "0x5a29b",
+          "map_entry": 32
+        },
+        {
+          "name": "LeftShoulder",
+          "name_number": 0,
+          "bone_index": 33,
+          "name_id": "0x3a6e30",
+          "map_entry": 33
+        },
+        {
+          "name": "LeftArm",
+          "name_number": 0,
+          "bone_index": 34,
+          "name_id": "0x5fdacf",
+          "map_entry": 34
+        },
+        {
+          "name": "LeftForeArm",
+          "name_number": 0,
+          "bone_index": 35,
+          "name_id": "0x396449",
+          "map_entry": 35
+        },
+        {
+          "name": "LeftForeArmTwist",
+          "name_number": 3,
+          "bone_index": 36,
+          "name_id": "0x617c63",
+          "map_entry": 36
+        },
+        {
+          "name": "LeftForeArmTwist",
+          "name_number": 2,
+          "bone_index": 37,
+          "name_id": "0x617c63",
+          "map_entry": 37
+        },
+        {
+          "name": "LeftHand",
+          "name_number": 0,
+          "bone_index": 38,
+          "name_id": "0x2c25aa",
+          "map_entry": 38
+        },
+        {
+          "name": "LeftHandThumb1",
+          "name_number": 0,
+          "bone_index": 39,
+          "name_id": "0x5fdad4",
+          "map_entry": 39
+        },
+        {
+          "name": "LeftHandThumb2",
+          "name_number": 0,
+          "bone_index": 40,
+          "name_id": "0x5fdadc",
+          "map_entry": 40
+        },
+        {
+          "name": "LeftHandThumb3",
+          "name_number": 0,
+          "bone_index": 41,
+          "name_id": "0x617cd4",
+          "map_entry": 41
+        },
+        {
+          "name": "Weapon_LeftHand_Joint",
+          "name_number": 0,
+          "bone_index": 42,
+          "name_id": "0xda81a",
+          "map_entry": 42
+        },
+        {
+          "name": "LeftInHandRing",
+          "name_number": 0,
+          "bone_index": 43,
+          "name_id": "0x617ce5",
+          "map_entry": 43
+        },
+        {
+          "name": "LeftHandRing1",
+          "name_number": 0,
+          "bone_index": 44,
+          "name_id": "0x617caf",
+          "map_entry": 44
+        },
+        {
+          "name": "LeftHandRing2",
+          "name_number": 0,
+          "bone_index": 45,
+          "name_id": "0x617cb7",
+          "map_entry": 45
+        },
+        {
+          "name": "LeftHandRing3",
+          "name_number": 0,
+          "bone_index": 46,
+          "name_id": "0x617cbf",
+          "map_entry": 46
+        },
+        {
+          "name": "LeftInHandPinky",
+          "name_number": 0,
+          "bone_index": 47,
+          "name_id": "0x617cdc",
+          "map_entry": 47
+        },
+        {
+          "name": "LeftHandPinky1",
+          "name_number": 0,
+          "bone_index": 48,
+          "name_id": "0x617c97",
+          "map_entry": 48
+        },
+        {
+          "name": "LeftHandPinky2",
+          "name_number": 0,
+          "bone_index": 49,
+          "name_id": "0x617c9f",
+          "map_entry": 49
+        },
+        {
+          "name": "LeftHandPinky3",
+          "name_number": 0,
+          "bone_index": 50,
+          "name_id": "0x617ca7",
+          "map_entry": 50
+        },
+        {
+          "name": "LeftHandMiddle1",
+          "name_number": 0,
+          "bone_index": 51,
+          "name_id": "0x617c7c",
+          "map_entry": 51
+        },
+        {
+          "name": "LeftHandMiddle2",
+          "name_number": 0,
+          "bone_index": 52,
+          "name_id": "0x617c85",
+          "map_entry": 52
+        },
+        {
+          "name": "LeftHandMiddle3",
+          "name_number": 0,
+          "bone_index": 53,
+          "name_id": "0x617c8e",
+          "map_entry": 53
+        },
+        {
+          "name": "LeftHandIndex1",
+          "name_number": 0,
+          "bone_index": 54,
+          "name_id": "0x617c6c",
+          "map_entry": 54
+        },
+        {
+          "name": "LeftHandIndex2",
+          "name_number": 0,
+          "bone_index": 55,
+          "name_id": "0x617c74",
+          "map_entry": 55
+        },
+        {
+          "name": "LeftHandIndex3",
+          "name_number": 0,
+          "bone_index": 56,
+          "name_id": "0x8d373",
+          "map_entry": 56
+        },
+        {
+          "name": "LeftArmTwist",
+          "name_number": 0,
+          "bone_index": 57,
+          "name_id": "0x617c5c",
+          "map_entry": 57
+        },
+        {
+          "name": "LeftUpLeg",
+          "name_number": 0,
+          "bone_index": 58,
+          "name_id": "0x39dbb7",
+          "map_entry": 58
+        },
+        {
+          "name": "LeftLeg",
+          "name_number": 0,
+          "bone_index": 59,
+          "name_id": "0x396457",
+          "map_entry": 59
+        },
+        {
+          "name": "LeftFoot",
+          "name_number": 0,
+          "bone_index": 60,
+          "name_id": "0x39cb10",
+          "map_entry": 60
+        },
+        {
+          "name": "LeftToeBase",
+          "name_number": 0,
+          "bone_index": 61,
+          "name_id": "0x5fdaec",
+          "map_entry": 61
+        },
+        {
+          "name": "RightUpLeg",
+          "name_number": 0,
+          "bone_index": 62,
+          "name_id": "0x5fdb5e",
+          "map_entry": 62
+        },
+        {
+          "name": "RightLeg",
+          "name_number": 0,
+          "bone_index": 63,
+          "name_id": "0x39645c",
+          "map_entry": 63
+        },
+        {
+          "name": "RightFoot",
+          "name_number": 0,
+          "bone_index": 64,
+          "name_id": "0x39cb15",
+          "map_entry": 64
+        },
+        {
+          "name": "RightToeBase",
+          "name_number": 0,
+          "bone_index": 65,
+          "name_id": "0x5fdb57",
+          "map_entry": 65
+        },
+        {
+          "name": "b_IK_Hand_Root",
+          "name_number": 0,
+          "bone_index": 66,
+          "name_id": "0x604087",
+          "map_entry": 66
+        },
+        {
+          "name": "b_IK_Gun",
+          "name_number": 0,
+          "bone_index": 67,
+          "name_id": "0x3a5c8d",
+          "map_entry": 67
+        },
+        {
+          "name": "b_IK_Hand_R",
+          "name_number": 0,
+          "bone_index": 68,
+          "name_id": "0x60ff54",
+          "map_entry": 68
+        },
+        {
+          "name": "b_IK_Hand_L",
+          "name_number": 0,
+          "bone_index": 69,
+          "name_id": "0x60ff4d",
+          "map_entry": 69
+        },
+        {
+          "name": "Camera_Root",
+          "name_number": 0,
+          "bone_index": 70,
+          "name_id": "0x1029e",
+          "map_entry": 70
+        },
+        {
+          "name": "Camera_Joint",
+          "name_number": 0,
+          "bone_index": 71,
+          "name_id": "0x39f36d",
+          "map_entry": 71
+        },
+        {
+          "name": "b_IK_Foot_Root",
+          "name_number": 0,
+          "bone_index": 72,
+          "name_id": "0x60ff45",
+          "map_entry": 72
+        },
+        {
+          "name": "b_IK_Foot_L",
+          "name_number": 0,
+          "bone_index": 73,
+          "name_id": "0x60ff37",
+          "map_entry": 73
+        },
+        {
+          "name": "b_IK_Foot_R",
+          "name_number": 0,
+          "bone_index": 74,
+          "name_id": "0x60ff3e",
+          "map_entry": 74
+        },
+        {
+          "name": "VB RightArm_RightForeArm",
+          "name_number": 0,
+          "bone_index": 75,
+          "name_id": "0x618034",
+          "map_entry": 75
+        },
+        {
+          "name": "VB LeftArm_LeftForeArm",
+          "name_number": 0,
+          "bone_index": 76,
+          "name_id": "0x618028",
+          "map_entry": 76
+        },
+        {
+          "name": "VB b_IK_Foot_L_LeftToeBase",
+          "name_number": 0,
+          "bone_index": 77,
+          "name_id": "0x61800b",
+          "map_entry": 77
+        },
+        {
+          "name": "VB b_IK_Foot_R_RightToeBase",
+          "name_number": 0,
+          "bone_index": 78,
+          "name_id": "0x618019",
+          "map_entry": 78
+        },
+        {
+          "name": "VB Spine_b_IK_Gun",
+          "name_number": 0,
+          "bone_index": 79,
+          "name_id": "0x618041",
+          "map_entry": 79
+        }
+      ],
+      "header_stable": true,
+      "hash_entries_complete": true,
+      "element_count": 80,
+      "free_count": 0,
+      "hash_bucket_count": 64
+    },
+    {
+      "asset": "0x6ee753c8e0",
+      "class": "SkeletalMesh",
+      "names": [
+        {
+          "name": "root",
+          "name_number": 0,
+          "bone_index": 0,
+          "name_id": "0x3338f",
+          "map_entry": 0
+        },
+        {
+          "name": "Hips",
+          "name_number": 0,
+          "bone_index": 1,
+          "name_id": "0x33657",
+          "map_entry": 1
+        },
+        {
+          "name": "Spine",
+          "name_number": 0,
+          "bone_index": 2,
+          "name_id": "0x5a2a1",
+          "map_entry": 2
+        },
+        {
+          "name": "Spine1",
+          "name_number": 0,
+          "bone_index": 3,
+          "name_id": "0x396772",
+          "map_entry": 3
+        },
+        {
+          "name": "Spine2",
+          "name_number": 0,
+          "bone_index": 4,
+          "name_id": "0x1029a",
+          "map_entry": 4
+        },
+        {
+          "name": "RightShoulder",
+          "name_number": 0,
+          "bone_index": 5,
+          "name_id": "0x3a54f0",
+          "map_entry": 5
+        },
+        {
+          "name": "RightArm",
+          "name_number": 0,
+          "bone_index": 6,
+          "name_id": "0x5fdb38",
+          "map_entry": 6
+        },
+        {
+          "name": "RightForeArm",
+          "name_number": 0,
+          "bone_index": 7,
+          "name_id": "0x396450",
+          "map_entry": 7
+        },
+        {
+          "name": "RightForeArmTwist",
+          "name_number": 3,
+          "bone_index": 8,
+          "name_id": "0x617e85",
+          "map_entry": 8
+        },
+        {
+          "name": "RightForeArmTwist",
+          "name_number": 2,
+          "bone_index": 9,
+          "name_id": "0x617e85",
+          "map_entry": 9
+        },
+        {
+          "name": "RightHand",
+          "name_number": 0,
+          "bone_index": 10,
+          "name_id": "0x2b8fad",
+          "map_entry": 10
+        },
+        {
+          "name": "RightHandThumb1",
+          "name_number": 0,
+          "bone_index": 11,
+          "name_id": "0x5fdb3d",
+          "map_entry": 11
+        },
+        {
+          "name": "RightHandThumb2",
+          "name_number": 0,
+          "bone_index": 12,
+          "name_id": "0x5fdb46",
+          "map_entry": 12
+        },
+        {
+          "name": "RightHandThumb3",
+          "name_number": 0,
+          "bone_index": 13,
+          "name_id": "0x617ef9",
+          "map_entry": 13
+        },
+        {
+          "name": "Weapon_RightHand_Joint",
+          "name_number": 0,
+          "bone_index": 14,
+          "name_id": "0xda826",
+          "map_entry": 14
+        },
+        {
+          "name": "RightInHandRing",
+          "name_number": 0,
+          "bone_index": 15,
+          "name_id": "0x617f0b",
+          "map_entry": 15
+        },
+        {
+          "name": "RightHandRing1",
+          "name_number": 0,
+          "bone_index": 16,
+          "name_id": "0x617ee1",
+          "map_entry": 16
+        },
+        {
+          "name": "RightHandRing2",
+          "name_number": 0,
+          "bone_index": 17,
+          "name_id": "0x617ee9",
+          "map_entry": 17
+        },
+        {
+          "name": "RightHandRing3",
+          "name_number": 0,
+          "bone_index": 18,
+          "name_id": "0x617ef1",
+          "map_entry": 18
+        },
+        {
+          "name": "RightInHandPinky",
+          "name_number": 0,
+          "bone_index": 19,
+          "name_id": "0x617f02",
+          "map_entry": 19
+        },
+        {
+          "name": "RightHandPinky1",
+          "name_number": 0,
+          "bone_index": 20,
+          "name_id": "0x617ec6",
+          "map_entry": 20
+        },
+        {
+          "name": "RightHandPinky2",
+          "name_number": 0,
+          "bone_index": 21,
+          "name_id": "0x617ecf",
+          "map_entry": 21
+        },
+        {
+          "name": "RightHandPinky3",
+          "name_number": 0,
+          "bone_index": 22,
+          "name_id": "0x617ed8",
+          "map_entry": 22
+        },
+        {
+          "name": "RightHandMiddle1",
+          "name_number": 0,
+          "bone_index": 23,
+          "name_id": "0x617ea1",
+          "map_entry": 23
+        },
+        {
+          "name": "RightHandMiddle2",
+          "name_number": 0,
+          "bone_index": 24,
+          "name_id": "0x617eaa",
+          "map_entry": 24
+        },
+        {
+          "name": "RightHandMiddle3",
+          "name_number": 0,
+          "bone_index": 25,
+          "name_id": "0x617eb3",
+          "map_entry": 25
+        },
+        {
+          "name": "RightHandIndex1",
+          "name_number": 0,
+          "bone_index": 26,
+          "name_id": "0x617e8f",
+          "map_entry": 26
+        },
+        {
+          "name": "RightHandIndex2",
+          "name_number": 0,
+          "bone_index": 27,
+          "name_id": "0x617e98",
+          "map_entry": 27
+        },
+        {
+          "name": "RightHandIndex3",
+          "name_number": 0,
+          "bone_index": 28,
+          "name_id": "0x8d37b",
+          "map_entry": 28
+        },
+        {
+          "name": "RightArmTwist",
+          "name_number": 0,
+          "bone_index": 29,
+          "name_id": "0x617e7d",
+          "map_entry": 29
+        },
+        {
+          "name": "Neck",
+          "name_number": 0,
+          "bone_index": 30,
+          "name_id": "0x3aa01d",
+          "map_entry": 30
+        },
+        {
+          "name": "Head",
+          "name_number": 0,
+          "bone_index": 31,
+          "name_id": "0x203c7",
+          "map_entry": 31
+        },
+        {
+          "name": "Head_Joint",
+          "name_number": 0,
+          "bone_index": 32,
+          "name_id": "0x5a29b",
+          "map_entry": 32
+        },
+        {
+          "name": "LeftShoulder",
+          "name_number": 0,
+          "bone_index": 33,
+          "name_id": "0x3a6e30",
+          "map_entry": 33
+        },
+        {
+          "name": "LeftArm",
+          "name_number": 0,
+          "bone_index": 34,
+          "name_id": "0x5fdacf",
+          "map_entry": 34
+        },
+        {
+          "name": "LeftForeArm",
+          "name_number": 0,
+          "bone_index": 35,
+          "name_id": "0x396449",
+          "map_entry": 35
+        },
+        {
+          "name": "LeftForeArmTwist",
+          "name_number": 3,
+          "bone_index": 36,
+          "name_id": "0x617c63",
+          "map_entry": 36
+        },
+        {
+          "name": "LeftForeArmTwist",
+          "name_number": 2,
+          "bone_index": 37,
+          "name_id": "0x617c63",
+          "map_entry": 37
+        },
+        {
+          "name": "LeftHand",
+          "name_number": 0,
+          "bone_index": 38,
+          "name_id": "0x2c25aa",
+          "map_entry": 38
+        },
+        {
+          "name": "LeftHandThumb1",
+          "name_number": 0,
+          "bone_index": 39,
+          "name_id": "0x5fdad4",
+          "map_entry": 39
+        },
+        {
+          "name": "LeftHandThumb2",
+          "name_number": 0,
+          "bone_index": 40,
+          "name_id": "0x5fdadc",
+          "map_entry": 40
+        },
+        {
+          "name": "LeftHandThumb3",
+          "name_number": 0,
+          "bone_index": 41,
+          "name_id": "0x617cd4",
+          "map_entry": 41
+        },
+        {
+          "name": "Weapon_LeftHand_Joint",
+          "name_number": 0,
+          "bone_index": 42,
+          "name_id": "0xda81a",
+          "map_entry": 42
+        },
+        {
+          "name": "LeftInHandRing",
+          "name_number": 0,
+          "bone_index": 43,
+          "name_id": "0x617ce5",
+          "map_entry": 43
+        },
+        {
+          "name": "LeftHandRing1",
+          "name_number": 0,
+          "bone_index": 44,
+          "name_id": "0x617caf",
+          "map_entry": 44
+        },
+        {
+          "name": "LeftHandRing2",
+          "name_number": 0,
+          "bone_index": 45,
+          "name_id": "0x617cb7",
+          "map_entry": 45
+        },
+        {
+          "name": "LeftHandRing3",
+          "name_number": 0,
+          "bone_index": 46,
+          "name_id": "0x617cbf",
+          "map_entry": 46
+        },
+        {
+          "name": "LeftInHandPinky",
+          "name_number": 0,
+          "bone_index": 47,
+          "name_id": "0x617cdc",
+          "map_entry": 47
+        },
+        {
+          "name": "LeftHandPinky1",
+          "name_number": 0,
+          "bone_index": 48,
+          "name_id": "0x617c97",
+          "map_entry": 48
+        },
+        {
+          "name": "LeftHandPinky2",
+          "name_number": 0,
+          "bone_index": 49,
+          "name_id": "0x617c9f",
+          "map_entry": 49
+        },
+        {
+          "name": "LeftHandPinky3",
+          "name_number": 0,
+          "bone_index": 50,
+          "name_id": "0x617ca7",
+          "map_entry": 50
+        },
+        {
+          "name": "LeftHandMiddle1",
+          "name_number": 0,
+          "bone_index": 51,
+          "name_id": "0x617c7c",
+          "map_entry": 51
+        },
+        {
+          "name": "LeftHandMiddle2",
+          "name_number": 0,
+          "bone_index": 52,
+          "name_id": "0x617c85",
+          "map_entry": 52
+        },
+        {
+          "name": "LeftHandMiddle3",
+          "name_number": 0,
+          "bone_index": 53,
+          "name_id": "0x617c8e",
+          "map_entry": 53
+        },
+        {
+          "name": "LeftHandIndex1",
+          "name_number": 0,
+          "bone_index": 54,
+          "name_id": "0x617c6c",
+          "map_entry": 54
+        },
+        {
+          "name": "LeftHandIndex2",
+          "name_number": 0,
+          "bone_index": 55,
+          "name_id": "0x617c74",
+          "map_entry": 55
+        },
+        {
+          "name": "LeftHandIndex3",
+          "name_number": 0,
+          "bone_index": 56,
+          "name_id": "0x8d373",
+          "map_entry": 56
+        },
+        {
+          "name": "LeftArmTwist",
+          "name_number": 0,
+          "bone_index": 57,
+          "name_id": "0x617c5c",
+          "map_entry": 57
+        },
+        {
+          "name": "LeftUpLeg",
+          "name_number": 0,
+          "bone_index": 58,
+          "name_id": "0x39dbb7",
+          "map_entry": 58
+        },
+        {
+          "name": "LeftLeg",
+          "name_number": 0,
+          "bone_index": 59,
+          "name_id": "0x396457",
+          "map_entry": 59
+        },
+        {
+          "name": "LeftFoot",
+          "name_number": 0,
+          "bone_index": 60,
+          "name_id": "0x39cb10",
+          "map_entry": 60
+        },
+        {
+          "name": "LeftToeBase",
+          "name_number": 0,
+          "bone_index": 61,
+          "name_id": "0x5fdaec",
+          "map_entry": 61
+        },
+        {
+          "name": "RightUpLeg",
+          "name_number": 0,
+          "bone_index": 62,
+          "name_id": "0x5fdb5e",
+          "map_entry": 62
+        },
+        {
+          "name": "RightLeg",
+          "name_number": 0,
+          "bone_index": 63,
+          "name_id": "0x39645c",
+          "map_entry": 63
+        },
+        {
+          "name": "RightFoot",
+          "name_number": 0,
+          "bone_index": 64,
+          "name_id": "0x39cb15",
+          "map_entry": 64
+        },
+        {
+          "name": "RightToeBase",
+          "name_number": 0,
+          "bone_index": 65,
+          "name_id": "0x5fdb57",
+          "map_entry": 65
+        },
+        {
+          "name": "b_IK_Hand_Root",
+          "name_number": 0,
+          "bone_index": 66,
+          "name_id": "0x604087",
+          "map_entry": 66
+        },
+        {
+          "name": "b_IK_Gun",
+          "name_number": 0,
+          "bone_index": 67,
+          "name_id": "0x3a5c8d",
+          "map_entry": 67
+        },
+        {
+          "name": "b_IK_Hand_R",
+          "name_number": 0,
+          "bone_index": 68,
+          "name_id": "0x60ff54",
+          "map_entry": 68
+        },
+        {
+          "name": "b_IK_Hand_L",
+          "name_number": 0,
+          "bone_index": 69,
+          "name_id": "0x60ff4d",
+          "map_entry": 69
+        },
+        {
+          "name": "Camera_Root",
+          "name_number": 0,
+          "bone_index": 70,
+          "name_id": "0x1029e",
+          "map_entry": 70
+        },
+        {
+          "name": "Camera_Joint",
+          "name_number": 0,
+          "bone_index": 71,
+          "name_id": "0x39f36d",
+          "map_entry": 71
+        },
+        {
+          "name": "b_IK_Foot_Root",
+          "name_number": 0,
+          "bone_index": 72,
+          "name_id": "0x60ff45",
+          "map_entry": 72
+        },
+        {
+          "name": "b_IK_Foot_L",
+          "name_number": 0,
+          "bone_index": 73,
+          "name_id": "0x60ff37",
+          "map_entry": 73
+        },
+        {
+          "name": "b_IK_Foot_R",
+          "name_number": 0,
+          "bone_index": 74,
+          "name_id": "0x60ff3e",
+          "map_entry": 74
+        },
+        {
+          "name": "VB RightArm_RightForeArm",
+          "name_number": 0,
+          "bone_index": 75,
+          "name_id": "0x618034",
+          "map_entry": 75
+        },
+        {
+          "name": "VB LeftArm_LeftForeArm",
+          "name_number": 0,
+          "bone_index": 76,
+          "name_id": "0x618028",
+          "map_entry": 76
+        },
+        {
+          "name": "VB b_IK_Foot_L_LeftToeBase",
+          "name_number": 0,
+          "bone_index": 77,
+          "name_id": "0x61800b",
+          "map_entry": 77
+        },
+        {
+          "name": "VB b_IK_Foot_R_RightToeBase",
+          "name_number": 0,
+          "bone_index": 78,
+          "name_id": "0x618019",
+          "map_entry": 78
+        },
+        {
+          "name": "VB Spine_b_IK_Gun",
+          "name_number": 0,
+          "bone_index": 79,
+          "name_id": "0x618041",
+          "map_entry": 79
+        }
+      ],
+      "header_stable": true,
+      "hash_entries_complete": true,
+      "element_count": 80,
+      "free_count": 0,
+      "hash_bucket_count": 64
+    },
+    {
+      "asset": "0x6f379e2770",
+      "class": "SkeletalMesh",
+      "names": [
+        {
+          "name": "root",
+          "name_number": 0,
+          "bone_index": 0,
+          "name_id": "0x3338f",
+          "map_entry": 0
+        },
+        {
+          "name": "Hips",
+          "name_number": 0,
+          "bone_index": 1,
+          "name_id": "0x33657",
+          "map_entry": 1
+        },
+        {
+          "name": "Spine",
+          "name_number": 0,
+          "bone_index": 2,
+          "name_id": "0x5a2a1",
+          "map_entry": 2
+        },
+        {
+          "name": "Spine1",
+          "name_number": 0,
+          "bone_index": 3,
+          "name_id": "0x396772",
+          "map_entry": 3
+        },
+        {
+          "name": "Spine2",
+          "name_number": 0,
+          "bone_index": 4,
+          "name_id": "0x1029a",
+          "map_entry": 4
+        },
+        {
+          "name": "RightShoulder",
+          "name_number": 0,
+          "bone_index": 5,
+          "name_id": "0x3a54f0",
+          "map_entry": 5
+        },
+        {
+          "name": "RightArm",
+          "name_number": 0,
+          "bone_index": 6,
+          "name_id": "0x5fdb38",
+          "map_entry": 6
+        },
+        {
+          "name": "RightForeArm",
+          "name_number": 0,
+          "bone_index": 7,
+          "name_id": "0x396450",
+          "map_entry": 7
+        },
+        {
+          "name": "RightForeArmTwist",
+          "name_number": 3,
+          "bone_index": 8,
+          "name_id": "0x617e85",
+          "map_entry": 8
+        },
+        {
+          "name": "RightForeArmTwist",
+          "name_number": 2,
+          "bone_index": 9,
+          "name_id": "0x617e85",
+          "map_entry": 9
+        },
+        {
+          "name": "RightHand",
+          "name_number": 0,
+          "bone_index": 10,
+          "name_id": "0x2b8fad",
+          "map_entry": 10
+        },
+        {
+          "name": "RightHandThumb1",
+          "name_number": 0,
+          "bone_index": 11,
+          "name_id": "0x5fdb3d",
+          "map_entry": 11
+        },
+        {
+          "name": "RightHandThumb2",
+          "name_number": 0,
+          "bone_index": 12,
+          "name_id": "0x5fdb46",
+          "map_entry": 12
+        },
+        {
+          "name": "RightHandThumb3",
+          "name_number": 0,
+          "bone_index": 13,
+          "name_id": "0x617ef9",
+          "map_entry": 13
+        },
+        {
+          "name": "Weapon_RightHand_Joint",
+          "name_number": 0,
+          "bone_index": 14,
+          "name_id": "0xda826",
+          "map_entry": 14
+        },
+        {
+          "name": "RightInHandRing",
+          "name_number": 0,
+          "bone_index": 15,
+          "name_id": "0x617f0b",
+          "map_entry": 15
+        },
+        {
+          "name": "RightHandRing1",
+          "name_number": 0,
+          "bone_index": 16,
+          "name_id": "0x617ee1",
+          "map_entry": 16
+        },
+        {
+          "name": "RightHandRing2",
+          "name_number": 0,
+          "bone_index": 17,
+          "name_id": "0x617ee9",
+          "map_entry": 17
+        },
+        {
+          "name": "RightHandRing3",
+          "name_number": 0,
+          "bone_index": 18,
+          "name_id": "0x617ef1",
+          "map_entry": 18
+        },
+        {
+          "name": "RightInHandPinky",
+          "name_number": 0,
+          "bone_index": 19,
+          "name_id": "0x617f02",
+          "map_entry": 19
+        },
+        {
+          "name": "RightHandPinky1",
+          "name_number": 0,
+          "bone_index": 20,
+          "name_id": "0x617ec6",
+          "map_entry": 20
+        },
+        {
+          "name": "RightHandPinky2",
+          "name_number": 0,
+          "bone_index": 21,
+          "name_id": "0x617ecf",
+          "map_entry": 21
+        },
+        {
+          "name": "RightHandPinky3",
+          "name_number": 0,
+          "bone_index": 22,
+          "name_id": "0x617ed8",
+          "map_entry": 22
+        },
+        {
+          "name": "RightHandMiddle1",
+          "name_number": 0,
+          "bone_index": 23,
+          "name_id": "0x617ea1",
+          "map_entry": 23
+        },
+        {
+          "name": "RightHandMiddle2",
+          "name_number": 0,
+          "bone_index": 24,
+          "name_id": "0x617eaa",
+          "map_entry": 24
+        },
+        {
+          "name": "RightHandMiddle3",
+          "name_number": 0,
+          "bone_index": 25,
+          "name_id": "0x617eb3",
+          "map_entry": 25
+        },
+        {
+          "name": "RightHandIndex1",
+          "name_number": 0,
+          "bone_index": 26,
+          "name_id": "0x617e8f",
+          "map_entry": 26
+        },
+        {
+          "name": "RightHandIndex2",
+          "name_number": 0,
+          "bone_index": 27,
+          "name_id": "0x617e98",
+          "map_entry": 27
+        },
+        {
+          "name": "RightHandIndex3",
+          "name_number": 0,
+          "bone_index": 28,
+          "name_id": "0x8d37b",
+          "map_entry": 28
+        },
+        {
+          "name": "RightArmTwist",
+          "name_number": 0,
+          "bone_index": 29,
+          "name_id": "0x617e7d",
+          "map_entry": 29
+        },
+        {
+          "name": "Neck",
+          "name_number": 0,
+          "bone_index": 30,
+          "name_id": "0x3aa01d",
+          "map_entry": 30
+        },
+        {
+          "name": "Head",
+          "name_number": 0,
+          "bone_index": 31,
+          "name_id": "0x203c7",
+          "map_entry": 31
+        },
+        {
+          "name": "Head_Joint",
+          "name_number": 0,
+          "bone_index": 32,
+          "name_id": "0x5a29b",
+          "map_entry": 32
+        },
+        {
+          "name": "LeftShoulder",
+          "name_number": 0,
+          "bone_index": 33,
+          "name_id": "0x3a6e30",
+          "map_entry": 33
+        },
+        {
+          "name": "LeftArm",
+          "name_number": 0,
+          "bone_index": 34,
+          "name_id": "0x5fdacf",
+          "map_entry": 34
+        },
+        {
+          "name": "LeftForeArm",
+          "name_number": 0,
+          "bone_index": 35,
+          "name_id": "0x396449",
+          "map_entry": 35
+        },
+        {
+          "name": "LeftForeArmTwist",
+          "name_number": 3,
+          "bone_index": 36,
+          "name_id": "0x617c63",
+          "map_entry": 36
+        },
+        {
+          "name": "LeftForeArmTwist",
+          "name_number": 2,
+          "bone_index": 37,
+          "name_id": "0x617c63",
+          "map_entry": 37
+        },
+        {
+          "name": "LeftHand",
+          "name_number": 0,
+          "bone_index": 38,
+          "name_id": "0x2c25aa",
+          "map_entry": 38
+        },
+        {
+          "name": "LeftHandThumb1",
+          "name_number": 0,
+          "bone_index": 39,
+          "name_id": "0x5fdad4",
+          "map_entry": 39
+        },
+        {
+          "name": "LeftHandThumb2",
+          "name_number": 0,
+          "bone_index": 40,
+          "name_id": "0x5fdadc",
+          "map_entry": 40
+        },
+        {
+          "name": "LeftHandThumb3",
+          "name_number": 0,
+          "bone_index": 41,
+          "name_id": "0x617cd4",
+          "map_entry": 41
+        },
+        {
+          "name": "Weapon_LeftHand_Joint",
+          "name_number": 0,
+          "bone_index": 42,
+          "name_id": "0xda81a",
+          "map_entry": 42
+        },
+        {
+          "name": "LeftInHandRing",
+          "name_number": 0,
+          "bone_index": 43,
+          "name_id": "0x617ce5",
+          "map_entry": 43
+        },
+        {
+          "name": "LeftHandRing1",
+          "name_number": 0,
+          "bone_index": 44,
+          "name_id": "0x617caf",
+          "map_entry": 44
+        },
+        {
+          "name": "LeftHandRing2",
+          "name_number": 0,
+          "bone_index": 45,
+          "name_id": "0x617cb7",
+          "map_entry": 45
+        },
+        {
+          "name": "LeftHandRing3",
+          "name_number": 0,
+          "bone_index": 46,
+          "name_id": "0x617cbf",
+          "map_entry": 46
+        },
+        {
+          "name": "LeftInHandPinky",
+          "name_number": 0,
+          "bone_index": 47,
+          "name_id": "0x617cdc",
+          "map_entry": 47
+        },
+        {
+          "name": "LeftHandPinky1",
+          "name_number": 0,
+          "bone_index": 48,
+          "name_id": "0x617c97",
+          "map_entry": 48
+        },
+        {
+          "name": "LeftHandPinky2",
+          "name_number": 0,
+          "bone_index": 49,
+          "name_id": "0x617c9f",
+          "map_entry": 49
+        },
+        {
+          "name": "LeftHandPinky3",
+          "name_number": 0,
+          "bone_index": 50,
+          "name_id": "0x617ca7",
+          "map_entry": 50
+        },
+        {
+          "name": "LeftHandMiddle1",
+          "name_number": 0,
+          "bone_index": 51,
+          "name_id": "0x617c7c",
+          "map_entry": 51
+        },
+        {
+          "name": "LeftHandMiddle2",
+          "name_number": 0,
+          "bone_index": 52,
+          "name_id": "0x617c85",
+          "map_entry": 52
+        },
+        {
+          "name": "LeftHandMiddle3",
+          "name_number": 0,
+          "bone_index": 53,
+          "name_id": "0x617c8e",
+          "map_entry": 53
+        },
+        {
+          "name": "LeftHandIndex1",
+          "name_number": 0,
+          "bone_index": 54,
+          "name_id": "0x617c6c",
+          "map_entry": 54
+        },
+        {
+          "name": "LeftHandIndex2",
+          "name_number": 0,
+          "bone_index": 55,
+          "name_id": "0x617c74",
+          "map_entry": 55
+        },
+        {
+          "name": "LeftHandIndex3",
+          "name_number": 0,
+          "bone_index": 56,
+          "name_id": "0x8d373",
+          "map_entry": 56
+        },
+        {
+          "name": "LeftArmTwist",
+          "name_number": 0,
+          "bone_index": 57,
+          "name_id": "0x617c5c",
+          "map_entry": 57
+        },
+        {
+          "name": "LeftUpLeg",
+          "name_number": 0,
+          "bone_index": 58,
+          "name_id": "0x39dbb7",
+          "map_entry": 58
+        },
+        {
+          "name": "LeftLeg",
+          "name_number": 0,
+          "bone_index": 59,
+          "name_id": "0x396457",
+          "map_entry": 59
+        },
+        {
+          "name": "LeftFoot",
+          "name_number": 0,
+          "bone_index": 60,
+          "name_id": "0x39cb10",
+          "map_entry": 60
+        },
+        {
+          "name": "LeftToeBase",
+          "name_number": 0,
+          "bone_index": 61,
+          "name_id": "0x5fdaec",
+          "map_entry": 61
+        },
+        {
+          "name": "RightUpLeg",
+          "name_number": 0,
+          "bone_index": 62,
+          "name_id": "0x5fdb5e",
+          "map_entry": 62
+        },
+        {
+          "name": "RightLeg",
+          "name_number": 0,
+          "bone_index": 63,
+          "name_id": "0x39645c",
+          "map_entry": 63
+        },
+        {
+          "name": "RightFoot",
+          "name_number": 0,
+          "bone_index": 64,
+          "name_id": "0x39cb15",
+          "map_entry": 64
+        },
+        {
+          "name": "RightToeBase",
+          "name_number": 0,
+          "bone_index": 65,
+          "name_id": "0x5fdb57",
+          "map_entry": 65
+        },
+        {
+          "name": "b_IK_Hand_Root",
+          "name_number": 0,
+          "bone_index": 66,
+          "name_id": "0x604087",
+          "map_entry": 66
+        },
+        {
+          "name": "b_IK_Gun",
+          "name_number": 0,
+          "bone_index": 67,
+          "name_id": "0x3a5c8d",
+          "map_entry": 67
+        },
+        {
+          "name": "b_IK_Hand_R",
+          "name_number": 0,
+          "bone_index": 68,
+          "name_id": "0x60ff54",
+          "map_entry": 68
+        },
+        {
+          "name": "b_IK_Hand_L",
+          "name_number": 0,
+          "bone_index": 69,
+          "name_id": "0x60ff4d",
+          "map_entry": 69
+        },
+        {
+          "name": "Camera_Root",
+          "name_number": 0,
+          "bone_index": 70,
+          "name_id": "0x1029e",
+          "map_entry": 70
+        },
+        {
+          "name": "Camera_Joint",
+          "name_number": 0,
+          "bone_index": 71,
+          "name_id": "0x39f36d",
+          "map_entry": 71
+        },
+        {
+          "name": "b_IK_Foot_Root",
+          "name_number": 0,
+          "bone_index": 72,
+          "name_id": "0x60ff45",
+          "map_entry": 72
+        },
+        {
+          "name": "b_IK_Foot_L",
+          "name_number": 0,
+          "bone_index": 73,
+          "name_id": "0x60ff37",
+          "map_entry": 73
+        },
+        {
+          "name": "b_IK_Foot_R",
+          "name_number": 0,
+          "bone_index": 74,
+          "name_id": "0x60ff3e",
+          "map_entry": 74
+        },
+        {
+          "name": "VB RightArm_RightForeArm",
+          "name_number": 0,
+          "bone_index": 75,
+          "name_id": "0x618034",
+          "map_entry": 75
+        },
+        {
+          "name": "VB LeftArm_LeftForeArm",
+          "name_number": 0,
+          "bone_index": 76,
+          "name_id": "0x618028",
+          "map_entry": 76
+        },
+        {
+          "name": "VB b_IK_Foot_L_LeftToeBase",
+          "name_number": 0,
+          "bone_index": 77,
+          "name_id": "0x61800b",
+          "map_entry": 77
+        },
+        {
+          "name": "VB b_IK_Foot_R_RightToeBase",
+          "name_number": 0,
+          "bone_index": 78,
+          "name_id": "0x618019",
+          "map_entry": 78
+        },
+        {
+          "name": "VB Spine_b_IK_Gun",
+          "name_number": 0,
+          "bone_index": 79,
+          "name_id": "0x618041",
+          "map_entry": 79
+        }
+      ],
+      "header_stable": true,
+      "hash_entries_complete": true,
+      "element_count": 80,
+      "free_count": 0,
+      "hash_bucket_count": 64
+    },
+    {
+      "asset": "0x6ef6886670",
+      "class": "SkeletalMesh",
+      "names": [
+        {
+          "name": "root",
+          "name_number": 0,
+          "bone_index": 0,
+          "name_id": "0x3338f",
+          "map_entry": 0
+        },
+        {
+          "name": "Hips",
+          "name_number": 0,
+          "bone_index": 1,
+          "name_id": "0x33657",
+          "map_entry": 1
+        },
+        {
+          "name": "Spine",
+          "name_number": 0,
+          "bone_index": 2,
+          "name_id": "0x5a2a1",
+          "map_entry": 2
+        },
+        {
+          "name": "Spine1",
+          "name_number": 0,
+          "bone_index": 3,
+          "name_id": "0x396772",
+          "map_entry": 3
+        },
+        {
+          "name": "Spine2",
+          "name_number": 0,
+          "bone_index": 4,
+          "name_id": "0x1029a",
+          "map_entry": 4
+        },
+        {
+          "name": "RightShoulder",
+          "name_number": 0,
+          "bone_index": 5,
+          "name_id": "0x3a54f0",
+          "map_entry": 5
+        },
+        {
+          "name": "RightArm",
+          "name_number": 0,
+          "bone_index": 6,
+          "name_id": "0x5fdb38",
+          "map_entry": 6
+        },
+        {
+          "name": "RightForeArm",
+          "name_number": 0,
+          "bone_index": 7,
+          "name_id": "0x396450",
+          "map_entry": 7
+        },
+        {
+          "name": "RightForeArmTwist",
+          "name_number": 3,
+          "bone_index": 8,
+          "name_id": "0x617e85",
+          "map_entry": 8
+        },
+        {
+          "name": "RightForeArmTwist",
+          "name_number": 2,
+          "bone_index": 9,
+          "name_id": "0x617e85",
+          "map_entry": 9
+        },
+        {
+          "name": "RightHand",
+          "name_number": 0,
+          "bone_index": 10,
+          "name_id": "0x2b8fad",
+          "map_entry": 10
+        },
+        {
+          "name": "RightHandThumb1",
+          "name_number": 0,
+          "bone_index": 11,
+          "name_id": "0x5fdb3d",
+          "map_entry": 11
+        },
+        {
+          "name": "RightHandThumb2",
+          "name_number": 0,
+          "bone_index": 12,
+          "name_id": "0x5fdb46",
+          "map_entry": 12
+        },
+        {
+          "name": "RightHandThumb3",
+          "name_number": 0,
+          "bone_index": 13,
+          "name_id": "0x617ef9",
+          "map_entry": 13
+        },
+        {
+          "name": "Weapon_RightHand_Joint",
+          "name_number": 0,
+          "bone_index": 14,
+          "name_id": "0xda826",
+          "map_entry": 14
+        },
+        {
+          "name": "RightInHandRing",
+          "name_number": 0,
+          "bone_index": 15,
+          "name_id": "0x617f0b",
+          "map_entry": 15
+        },
+        {
+          "name": "RightHandRing1",
+          "name_number": 0,
+          "bone_index": 16,
+          "name_id": "0x617ee1",
+          "map_entry": 16
+        },
+        {
+          "name": "RightHandRing2",
+          "name_number": 0,
+          "bone_index": 17,
+          "name_id": "0x617ee9",
+          "map_entry": 17
+        },
+        {
+          "name": "RightHandRing3",
+          "name_number": 0,
+          "bone_index": 18,
+          "name_id": "0x617ef1",
+          "map_entry": 18
+        },
+        {
+          "name": "RightInHandPinky",
+          "name_number": 0,
+          "bone_index": 19,
+          "name_id": "0x617f02",
+          "map_entry": 19
+        },
+        {
+          "name": "RightHandPinky1",
+          "name_number": 0,
+          "bone_index": 20,
+          "name_id": "0x617ec6",
+          "map_entry": 20
+        },
+        {
+          "name": "RightHandPinky2",
+          "name_number": 0,
+          "bone_index": 21,
+          "name_id": "0x617ecf",
+          "map_entry": 21
+        },
+        {
+          "name": "RightHandPinky3",
+          "name_number": 0,
+          "bone_index": 22,
+          "name_id": "0x617ed8",
+          "map_entry": 22
+        },
+        {
+          "name": "RightHandMiddle1",
+          "name_number": 0,
+          "bone_index": 23,
+          "name_id": "0x617ea1",
+          "map_entry": 23
+        },
+        {
+          "name": "RightHandMiddle2",
+          "name_number": 0,
+          "bone_index": 24,
+          "name_id": "0x617eaa",
+          "map_entry": 24
+        },
+        {
+          "name": "RightHandMiddle3",
+          "name_number": 0,
+          "bone_index": 25,
+          "name_id": "0x617eb3",
+          "map_entry": 25
+        },
+        {
+          "name": "RightHandIndex1",
+          "name_number": 0,
+          "bone_index": 26,
+          "name_id": "0x617e8f",
+          "map_entry": 26
+        },
+        {
+          "name": "RightHandIndex2",
+          "name_number": 0,
+          "bone_index": 27,
+          "name_id": "0x617e98",
+          "map_entry": 27
+        },
+        {
+          "name": "RightHandIndex3",
+          "name_number": 0,
+          "bone_index": 28,
+          "name_id": "0x8d37b",
+          "map_entry": 28
+        },
+        {
+          "name": "RightArmTwist",
+          "name_number": 0,
+          "bone_index": 29,
+          "name_id": "0x617e7d",
+          "map_entry": 29
+        },
+        {
+          "name": "Neck",
+          "name_number": 0,
+          "bone_index": 30,
+          "name_id": "0x3aa01d",
+          "map_entry": 30
+        },
+        {
+          "name": "Head",
+          "name_number": 0,
+          "bone_index": 31,
+          "name_id": "0x203c7",
+          "map_entry": 31
+        },
+        {
+          "name": "Head_Joint",
+          "name_number": 0,
+          "bone_index": 32,
+          "name_id": "0x5a29b",
+          "map_entry": 32
+        },
+        {
+          "name": "LeftShoulder",
+          "name_number": 0,
+          "bone_index": 33,
+          "name_id": "0x3a6e30",
+          "map_entry": 33
+        },
+        {
+          "name": "LeftArm",
+          "name_number": 0,
+          "bone_index": 34,
+          "name_id": "0x5fdacf",
+          "map_entry": 34
+        },
+        {
+          "name": "LeftForeArm",
+          "name_number": 0,
+          "bone_index": 35,
+          "name_id": "0x396449",
+          "map_entry": 35
+        },
+        {
+          "name": "LeftForeArmTwist",
+          "name_number": 3,
+          "bone_index": 36,
+          "name_id": "0x617c63",
+          "map_entry": 36
+        },
+        {
+          "name": "LeftForeArmTwist",
+          "name_number": 2,
+          "bone_index": 37,
+          "name_id": "0x617c63",
+          "map_entry": 37
+        },
+        {
+          "name": "LeftHand",
+          "name_number": 0,
+          "bone_index": 38,
+          "name_id": "0x2c25aa",
+          "map_entry": 38
+        },
+        {
+          "name": "LeftHandThumb1",
+          "name_number": 0,
+          "bone_index": 39,
+          "name_id": "0x5fdad4",
+          "map_entry": 39
+        },
+        {
+          "name": "LeftHandThumb2",
+          "name_number": 0,
+          "bone_index": 40,
+          "name_id": "0x5fdadc",
+          "map_entry": 40
+        },
+        {
+          "name": "LeftHandThumb3",
+          "name_number": 0,
+          "bone_index": 41,
+          "name_id": "0x617cd4",
+          "map_entry": 41
+        },
+        {
+          "name": "Weapon_LeftHand_Joint",
+          "name_number": 0,
+          "bone_index": 42,
+          "name_id": "0xda81a",
+          "map_entry": 42
+        },
+        {
+          "name": "LeftInHandRing",
+          "name_number": 0,
+          "bone_index": 43,
+          "name_id": "0x617ce5",
+          "map_entry": 43
+        },
+        {
+          "name": "LeftHandRing1",
+          "name_number": 0,
+          "bone_index": 44,
+          "name_id": "0x617caf",
+          "map_entry": 44
+        },
+        {
+          "name": "LeftHandRing2",
+          "name_number": 0,
+          "bone_index": 45,
+          "name_id": "0x617cb7",
+          "map_entry": 45
+        },
+        {
+          "name": "LeftHandRing3",
+          "name_number": 0,
+          "bone_index": 46,
+          "name_id": "0x617cbf",
+          "map_entry": 46
+        },
+        {
+          "name": "LeftInHandPinky",
+          "name_number": 0,
+          "bone_index": 47,
+          "name_id": "0x617cdc",
+          "map_entry": 47
+        },
+        {
+          "name": "LeftHandPinky1",
+          "name_number": 0,
+          "bone_index": 48,
+          "name_id": "0x617c97",
+          "map_entry": 48
+        },
+        {
+          "name": "LeftHandPinky2",
+          "name_number": 0,
+          "bone_index": 49,
+          "name_id": "0x617c9f",
+          "map_entry": 49
+        },
+        {
+          "name": "LeftHandPinky3",
+          "name_number": 0,
+          "bone_index": 50,
+          "name_id": "0x617ca7",
+          "map_entry": 50
+        },
+        {
+          "name": "LeftHandMiddle1",
+          "name_number": 0,
+          "bone_index": 51,
+          "name_id": "0x617c7c",
+          "map_entry": 51
+        },
+        {
+          "name": "LeftHandMiddle2",
+          "name_number": 0,
+          "bone_index": 52,
+          "name_id": "0x617c85",
+          "map_entry": 52
+        },
+        {
+          "name": "LeftHandMiddle3",
+          "name_number": 0,
+          "bone_index": 53,
+          "name_id": "0x617c8e",
+          "map_entry": 53
+        },
+        {
+          "name": "LeftHandIndex1",
+          "name_number": 0,
+          "bone_index": 54,
+          "name_id": "0x617c6c",
+          "map_entry": 54
+        },
+        {
+          "name": "LeftHandIndex2",
+          "name_number": 0,
+          "bone_index": 55,
+          "name_id": "0x617c74",
+          "map_entry": 55
+        },
+        {
+          "name": "LeftHandIndex3",
+          "name_number": 0,
+          "bone_index": 56,
+          "name_id": "0x8d373",
+          "map_entry": 56
+        },
+        {
+          "name": "LeftArmTwist",
+          "name_number": 0,
+          "bone_index": 57,
+          "name_id": "0x617c5c",
+          "map_entry": 57
+        },
+        {
+          "name": "LeftUpLeg",
+          "name_number": 0,
+          "bone_index": 58,
+          "name_id": "0x39dbb7",
+          "map_entry": 58
+        },
+        {
+          "name": "LeftLeg",
+          "name_number": 0,
+          "bone_index": 59,
+          "name_id": "0x396457",
+          "map_entry": 59
+        },
+        {
+          "name": "LeftFoot",
+          "name_number": 0,
+          "bone_index": 60,
+          "name_id": "0x39cb10",
+          "map_entry": 60
+        },
+        {
+          "name": "LeftToeBase",
+          "name_number": 0,
+          "bone_index": 61,
+          "name_id": "0x5fdaec",
+          "map_entry": 61
+        },
+        {
+          "name": "RightUpLeg",
+          "name_number": 0,
+          "bone_index": 62,
+          "name_id": "0x5fdb5e",
+          "map_entry": 62
+        },
+        {
+          "name": "RightLeg",
+          "name_number": 0,
+          "bone_index": 63,
+          "name_id": "0x39645c",
+          "map_entry": 63
+        },
+        {
+          "name": "RightFoot",
+          "name_number": 0,
+          "bone_index": 64,
+          "name_id": "0x39cb15",
+          "map_entry": 64
+        },
+        {
+          "name": "RightToeBase",
+          "name_number": 0,
+          "bone_index": 65,
+          "name_id": "0x5fdb57",
+          "map_entry": 65
+        },
+        {
+          "name": "b_IK_Hand_Root",
+          "name_number": 0,
+          "bone_index": 66,
+          "name_id": "0x604087",
+          "map_entry": 66
+        },
+        {
+          "name": "b_IK_Gun",
+          "name_number": 0,
+          "bone_index": 67,
+          "name_id": "0x3a5c8d",
+          "map_entry": 67
+        },
+        {
+          "name": "b_IK_Hand_R",
+          "name_number": 0,
+          "bone_index": 68,
+          "name_id": "0x60ff54",
+          "map_entry": 68
+        },
+        {
+          "name": "b_IK_Hand_L",
+          "name_number": 0,
+          "bone_index": 69,
+          "name_id": "0x60ff4d",
+          "map_entry": 69
+        },
+        {
+          "name": "Camera_Root",
+          "name_number": 0,
+          "bone_index": 70,
+          "name_id": "0x1029e",
+          "map_entry": 70
+        },
+        {
+          "name": "Camera_Joint",
+          "name_number": 0,
+          "bone_index": 71,
+          "name_id": "0x39f36d",
+          "map_entry": 71
+        },
+        {
+          "name": "b_IK_Foot_Root",
+          "name_number": 0,
+          "bone_index": 72,
+          "name_id": "0x60ff45",
+          "map_entry": 72
+        },
+        {
+          "name": "b_IK_Foot_L",
+          "name_number": 0,
+          "bone_index": 73,
+          "name_id": "0x60ff37",
+          "map_entry": 73
+        },
+        {
+          "name": "b_IK_Foot_R",
+          "name_number": 0,
+          "bone_index": 74,
+          "name_id": "0x60ff3e",
+          "map_entry": 74
+        },
+        {
+          "name": "VB RightArm_RightForeArm",
+          "name_number": 0,
+          "bone_index": 75,
+          "name_id": "0x618034",
+          "map_entry": 75
+        },
+        {
+          "name": "VB LeftArm_LeftForeArm",
+          "name_number": 0,
+          "bone_index": 76,
+          "name_id": "0x618028",
+          "map_entry": 76
+        },
+        {
+          "name": "VB b_IK_Foot_L_LeftToeBase",
+          "name_number": 0,
+          "bone_index": 77,
+          "name_id": "0x61800b",
+          "map_entry": 77
+        },
+        {
+          "name": "VB b_IK_Foot_R_RightToeBase",
+          "name_number": 0,
+          "bone_index": 78,
+          "name_id": "0x618019",
+          "map_entry": 78
+        },
+        {
+          "name": "VB Spine_b_IK_Gun",
+          "name_number": 0,
+          "bone_index": 79,
+          "name_id": "0x618041",
+          "map_entry": 79
+        }
+      ],
+      "header_stable": true,
+      "hash_entries_complete": true,
+      "element_count": 80,
+      "free_count": 0,
+      "hash_bucket_count": 64
+    }
+  ],
+  "world_bones_verified": false
+}

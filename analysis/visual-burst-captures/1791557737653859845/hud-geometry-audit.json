@@ -1,0 +1,183 @@
+{
+  "manual_png_observations": {
+    "5": {
+      "compass_deg": 283,
+      "near_m": 5,
+      "far_m": 68
+    },
+    "6": {
+      "compass_deg": 288,
+      "near_m": 5,
+      "far_m": 78
+    },
+    "7": {
+      "compass_deg": 302,
+      "near_m": 3,
+      "far_m": 89
+    },
+    "8": {
+      "compass_deg": 292,
+      "near_m": 2,
+      "far_m": 88
+    },
+    "9": {
+      "compass_label": "NW",
+      "near_m": 2,
+      "far_m": 88
+    },
+    "10": {
+      "compass_label": "NW",
+      "near_m": 2,
+      "far_m": 88
+    }
+  },
+  "pairs": [
+    {
+      "capture_index": 1,
+      "frame": 5,
+      "observations": {
+        "compass_deg": 283,
+        "near_m": 5,
+        "far_m": 68
+      },
+      "observed_compass_basis_candidate_deg": 288.3723602294922,
+      "compass_error_deg": 5.3723602294921875,
+      "command_intervals_overlap": true,
+      "camera_bytes_stable": true,
+      "decoded_distances_m": {
+        "near": 4.914517556335821,
+        "far": 72.35510733996644
+      },
+      "absolute_distance_errors_m": {
+        "near_m": 0.08548244366417901,
+        "far_m": 4.3551073399664375
+      },
+      "raw_camera_far_projection": null,
+      "numeric_hud_agreement": false
+    },
+    {
+      "capture_index": 1,
+      "frame": 6,
+      "observations": {
+        "compass_deg": 288,
+        "near_m": 5,
+        "far_m": 78
+      },
+      "observed_compass_basis_candidate_deg": 288.3723602294922,
+      "compass_error_deg": 0.3723602294921875,
+      "command_intervals_overlap": false,
+      "camera_bytes_stable": true,
+      "decoded_distances_m": {
+        "near": 4.914517556335821,
+        "far": 72.35510733996644
+      },
+      "absolute_distance_errors_m": {
+        "near_m": 0.08548244366417901,
+        "far_m": 5.6448926600335625
+      },
+      "raw_camera_far_projection": null,
+      "numeric_hud_agreement": false
+    },
+    {
+      "capture_index": 3,
+      "frame": 7,
+      "observations": {
+        "compass_deg": 302,
+        "near_m": 3,
+        "far_m": 89
+      },
+      "observed_compass_basis_candidate_deg": 291.8977966308594,
+      "compass_error_deg": 10.102203369140625,
+      "command_intervals_overlap": true,
+      "camera_bytes_stable": true,
+      "decoded_distances_m": {
+        "near": 2.468495233403541,
+        "far": 87.73757151564843
+      },
+      "absolute_distance_errors_m": {
+        "near_m": 0.5315047665964592,
+        "far_m": 1.2624284843515738
+      },
+      "raw_camera_far_projection": null,
+      "numeric_hud_agreement": false
+    },
+    {
+      "capture_index": 3,
+      "frame": 8,
+      "observations": {
+        "compass_deg": 292,
+        "near_m": 2,
+        "far_m": 88
+      },
+      "observed_compass_basis_candidate_deg": 291.8977966308594,
+      "compass_error_deg": 0.102203369140625,
+      "command_intervals_overlap": true,
+      "camera_bytes_stable": true,
+      "decoded_distances_m": {
+        "near": 2.468495233403541,
+        "far": 87.73757151564843
+      },
+      "absolute_distance_errors_m": {
+        "near_m": 0.4684952334035408,
+        "far_m": 0.26242848435157384
+      },
+      "raw_camera_far_projection": null,
+      "numeric_hud_agreement": true
+    },
+    {
+      "capture_index": 4,
+      "frame": 9,
+      "observations": {
+        "compass_label": "NW",
+        "near_m": 2,
+        "far_m": 88
+      },
+      "observed_compass_basis_candidate_deg": 315.6024627685547,
+      "compass_error_deg": null,
+      "command_intervals_overlap": true,
+      "camera_bytes_stable": true,
+      "decoded_distances_m": {
+        "near": 2.4771393313537162,
+        "far": 87.72723354863138
+      },
+      "absolute_distance_errors_m": {
+        "near_m": 0.4771393313537162,
+        "far_m": 0.272766451368625
+      },
+      "raw_camera_far_projection": null,
+      "numeric_hud_agreement": null
+    },
+    {
+      "capture_index": 5,
+      "frame": 10,
+      "observations": {
+        "compass_label": "NW",
+        "near_m": 2,
+        "far_m": 88
+      },
+      "observed_compass_basis_candidate_deg": 315.6024627685547,
+      "compass_error_deg": null,
+      "command_intervals_overlap": true,
+      "camera_bytes_stable": true,
+      "decoded_distances_m": {
+        "near": 2.4771393313537162,
+        "far": 87.72723354863138
+      },
+      "absolute_distance_errors_m": {
+        "near_m": 0.4771393313537162,
+        "far_m": 0.272766451368625
+      },
+      "raw_camera_far_projection": null,
+      "numeric_hud_agreement": null
+    }
+  ],
+  "conclusion": "Capture 3 / frame 8 agrees with integer compass and both teammate distances; neighbouring frame 7 fails compass comparison.",
+  "limits": [
+    "The +90 degree relation is an observed HUD compass basis; it is not applied to camera projection.",
+    "HUD integer display rounding is not reverse-engineered; <=0.5 is a consistency comparison, not a verified implementation rule.",
+    "Teammates assigned by retained team membership and relative position/distance; exact PlayerName field not captured.",
+    "Overlapping host/device command timestamps do not prove frame synchronization.",
+    "A far teammate behind the perspective camera still has a native screen-edge indicator; that indicator is not an ordinary projected 3D point.",
+    "This does not verify every camera parameter or all world bone transforms."
+  ]
+}

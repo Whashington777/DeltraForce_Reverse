@@ -1,0 +1,1923 @@
+{
+  "pid": 22846,
+  "base": "0x78d6c43000",
+  "world": "0x7764e14980",
+  "level": "0x76d5dee860",
+  "level_class": "Level",
+  "level_actor_array_offset": "0x98",
+  "count": 628,
+  "class_counts": {
+    "BP_PropertyReplicationActor_C": 2,
+    "BP_PropertyReplicationCharacterHealth_C": 2,
+    "DefaultPhysicsVolume": 2,
+    "Iris_Entry_C": 1,
+    "PlayerStart": 7,
+    "GamePlayValidAreaActor": 1,
+    "DFMWorldSettings": 1,
+    "BP_SOLTeamSystem_C": 1,
+    "DFMQuestAIManager": 1,
+    "SOLSetting_C": 1,
+    "SOLPlayerQuestSystem": 1,
+    "BP_CharacterLODSystem_C": 1,
+    "InteractorOpenWorldRefLinkManager": 1,
+    "BP_DFMHudLevelSubsystem_C": 1,
+    "BP_MarkerManager_C": 1,
+    "DFMQuestSubtitleSubsystem": 1,
+    "BP_GPTODToPerformManager_C": 1,
+    "BP_DFMLootingLevelSubSystem_C": 1,
+    "BP_DFMPlayerController_C": 1,
+    "BP_TestPlayerCameraManager_C": 1,
+    "CameraActor": 1,
+    "?": 1,
+    "GPTweenUpdateManager": 1,
+    "BP_DFMCharacter_C": 14,
+    "BP_SOLPlayerState_C": 13,
+    "SkillSubsystem": 1,
+    "IKEndEffectorTarget": 32,
+    "BP_WeaponMeleeNoModular_C": 2,
+    "BP_EmptyHand_C": 12,
+    "BP_RTICapture_C": 1,
+    "AssembleWeaponMgr": 1,
+    "TriggerSphere": 4,
+    "BP_WeaponModular_C301Launcher_C": 2,
+    "BP_WeaponThrow_ToyCar_C": 2,
+    "BP_WeaponBaseLeftThrow_C201Smoke_C": 2,
+    "BP_GameState_PVPVE_C": 1,
+    "DFMHudDataReplicator": 1,
+    "BP_Canvas_C": 1,
+    "MovementReplicationActor": 1,
+    "LowRepPriorityGameState": 1,
+    "BP_Interactor_Container_SafeBox_C": 1,
+    "BP_Interact_Computer_C": 2,
+    "DesReplicationActor": 6,
+    "DFMSceneActorReplicator": 1,
+    "CrackedInfoManager": 1,
+    "BP_RTILight_RTIMap_Weapon_1_C": 1,
+    "GPPlayerState": 1,
+    "BP_AbilityTemp_Assault_C303_SilenceZone_C": 1,
+    "BP_AbilityTemp_KickIce_C": 1,
+    "BP_AbilityLogicTemplate_RemoteControlCar_C": 1,
+    "BP_AbilityLogicTemplate_ToyCar_C": 1,
+    "BP_AbilityTemp_Scout_PullOutArrow_C": 1,
+    "BP_AbilityTemp_Assault_Buff_C": 1,
+    "GPSubtitleLevelSubsystem": 1,
+    "GPSequenceDefaultProxy": 3,
+    "BP_DFMAICharacter_Firebat_C": 2,
+    "BP_FlameDetect_C": 2,
+    "BP_DFMCharacter_AI_DT_C": 20,
+    "BP_DFMAICharacter_ShielderLight_C": 2,
+    "BP_DFMCharacter_AI_DT_RPG_C": 1,
+    "BP_InventoryPickup_Container_C": 1,
+    "BP_Inventory_DeadBody_C": 10,
+    "BP_Inventory_CarryBody_C": 10,
+    "DFMOutLineItemManager": 1,
+    "BP_AbilityTemp_SelfCure_C": 1,
+    "LightShadowVolume": 1,
+    "BP_WeaponModular_C": 2,
+    "BP_WeaponModular_3p_C": 14,
+    "WeaponPhysicsBulletReal_BP_C": 1,
+    "BP_AbilityTemplate_Rush_C": 1,
+    "BP_WeaponMeleeNoModular_Inspect_C": 1,
+    "BP_WeaponHUDUN_C": 1,
+    "BP_WeaponModular_Bow_C": 2,
+    "WeaponPhysicsBulletRPG_BP_C": 1,
+    "BP_DFMCharacter_AI_Crocodile_C": 2,
+    "BP_Inventory_DeadBody_Fake_Crocodile_C": 2,
+    "DFMAbilityLevelActorManager": 1,
+    "BP_Interactor_ContractNPC_C": 1,
+    "BP_Landmine_C": 27,
+    "BP_FXProxy_Exit_C": 2,
+    "BP_AbilityBullet_AirCannon_C": 1,
+    "BP_InventoryPickup_C": 7,
+    "BP_WeaponThrowC4_C": 1,
+    "BP_ProjectileC4_C": 1,
+    "BP_BowArrow_C": 1,
+    "BP_WeaponBullet_FireArrow_C": 2,
+    "BP_FireArrowActor_C": 2,
+    "BP_WeaponBaseThrow_C": 1,
+    "BP_CameraEffect_WaterWaterBubbles_C": 8
+  },
+  "players": [
+    {
+      "slot": 0,
+      "player_state": "0x76831fc720",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 1,
+      "camp": 0,
+      "pawn": "0x771085c010",
+      "pawn_valid": true,
+      "pawn_class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 1,
+      "player_state": "0x766ea338f0",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 1,
+      "camp": 0,
+      "pawn": "0x767f5c4030",
+      "pawn_valid": true,
+      "pawn_class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 2,
+      "player_state": "0x7686abc720",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 2,
+      "camp": 0,
+      "pawn": "0x765a380040",
+      "pawn_valid": true,
+      "pawn_class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 3,
+      "player_state": "0x778fce20e0",
+      "class": "GPPlayerState",
+      "team_id": 1,
+      "camp": -1,
+      "pawn": "0x0",
+      "pawn_valid": false,
+      "pawn_class": null
+    },
+    {
+      "slot": 4,
+      "player_state": "0x76bfa58e40",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 1,
+      "camp": 0,
+      "pawn": "0x79c6a1c010",
+      "pawn_valid": true,
+      "pawn_class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 5,
+      "player_state": "0x76632f8e40",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 5,
+      "camp": 106,
+      "pawn": "0x7773dbc010",
+      "pawn_valid": true,
+      "pawn_class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 6,
+      "player_state": "0x76632f71d0",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 5,
+      "camp": 106,
+      "pawn": "0x770bf4c010",
+      "pawn_valid": true,
+      "pawn_class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 7,
+      "player_state": "0x76e2a6aab0",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 5,
+      "camp": 106,
+      "pawn": "0x768b368020",
+      "pawn_valid": true,
+      "pawn_class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 8,
+      "player_state": "0x79cc4cc720",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 3,
+      "camp": 106,
+      "pawn": "0x7680810040",
+      "pawn_valid": true,
+      "pawn_class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 9,
+      "player_state": "0x77141fe390",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 3,
+      "camp": 106,
+      "pawn": "0x767fb34030",
+      "pawn_valid": true,
+      "pawn_class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 10,
+      "player_state": "0x77160d5560",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 3,
+      "camp": 106,
+      "pawn": "0x7656284030",
+      "pawn_valid": true,
+      "pawn_class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 11,
+      "player_state": "0x79cc4ce390",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 4,
+      "camp": 106,
+      "pawn": "0x76d0c9c010",
+      "pawn_valid": true,
+      "pawn_class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 12,
+      "player_state": "0x77141fc720",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 4,
+      "camp": 106,
+      "pawn": "0x768a5fc010",
+      "pawn_valid": true,
+      "pawn_class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 13,
+      "player_state": "0x7771ea5560",
+      "class": "BP_SOLPlayerState_C",
+      "team_id": 4,
+      "camp": 106,
+      "pawn": "0x76ceb08020",
+      "pawn_valid": true,
+      "pawn_class": "BP_DFMCharacter_C"
+    }
+  ],
+  "actors": [
+    {
+      "slot": 0,
+      "actor": "0x780a091f90",
+      "object_index": 199369,
+      "class": "BP_PropertyReplicationActor_C"
+    },
+    {
+      "slot": 1,
+      "actor": "0x7796421f90",
+      "object_index": 187270,
+      "class": "BP_PropertyReplicationCharacterHealth_C"
+    },
+    {
+      "slot": 2,
+      "actor": "0x774363ec50",
+      "object_index": 164040,
+      "class": "DefaultPhysicsVolume"
+    },
+    {
+      "slot": 5,
+      "actor": "0x774363ec50",
+      "object_index": 164040,
+      "class": "DefaultPhysicsVolume"
+    },
+    {
+      "slot": 6,
+      "actor": "0x7796421f90",
+      "object_index": 187270,
+      "class": "BP_PropertyReplicationCharacterHealth_C"
+    },
+    {
+      "slot": 7,
+      "actor": "0x780a091f90",
+      "object_index": 199369,
+      "class": "BP_PropertyReplicationActor_C"
+    },
+    {
+      "slot": 8,
+      "actor": "0x79cc5b1900",
+      "object_index": 222622,
+      "class": "Iris_Entry_C"
+    },
+    {
+      "slot": 9,
+      "actor": "0x76d5ded4b0",
+      "object_index": 199628,
+      "class": "PlayerStart"
+    },
+    {
+      "slot": 10,
+      "actor": "0x76d5de0400",
+      "object_index": 199624,
+      "class": "PlayerStart"
+    },
+    {
+      "slot": 11,
+      "actor": "0x76cf7ea960",
+      "object_index": 199549,
+      "class": "PlayerStart"
+    },
+    {
+      "slot": 12,
+      "actor": "0x77185e5aa0",
+      "object_index": 199551,
+      "class": "PlayerStart"
+    },
+    {
+      "slot": 13,
+      "actor": "0x780fd3fc10",
+      "object_index": 199612,
+      "class": "PlayerStart"
+    },
+    {
+      "slot": 14,
+      "actor": "0x76d5dec4f0",
+      "object_index": 199620,
+      "class": "PlayerStart"
+    },
+    {
+      "slot": 15,
+      "actor": "0x77209e13c0",
+      "object_index": 199616,
+      "class": "PlayerStart"
+    },
+    {
+      "slot": 16,
+      "actor": "0x77d2c23f80",
+      "object_index": 199636,
+      "class": "GamePlayValidAreaActor"
+    },
+    {
+      "slot": 17,
+      "actor": "0x7764e1db80",
+      "object_index": 199637,
+      "class": "DFMWorldSettings"
+    },
+    {
+      "slot": 287,
+      "actor": "0x77209e7240",
+      "object_index": 216180,
+      "class": "BP_SOLTeamSystem_C"
+    },
+    {
+      "slot": 288,
+      "actor": "0x78c911d0c0",
+      "object_index": 216175,
+      "class": "DFMQuestAIManager"
+    },
+    {
+      "slot": 289,
+      "actor": "0x7765e34060",
+      "object_index": 216172,
+      "class": "SOLSetting_C"
+    },
+    {
+      "slot": 290,
+      "actor": "0x78aefbd580",
+      "object_index": 216167,
+      "class": "SOLPlayerQuestSystem"
+    },
+    {
+      "slot": 291,
+      "actor": "0x7773f2e4a0",
+      "object_index": 216164,
+      "class": "BP_CharacterLODSystem_C"
+    },
+    {
+      "slot": 292,
+      "actor": "0x78577b46f0",
+      "object_index": 216159,
+      "class": "InteractorOpenWorldRefLinkManager"
+    },
+    {
+      "slot": 293,
+      "actor": "0x786f34bb90",
+      "object_index": 216156,
+      "class": "BP_DFMHudLevelSubsystem_C"
+    },
+    {
+      "slot": 294,
+      "actor": "0x773bc78080",
+      "object_index": 216152,
+      "class": "BP_MarkerManager_C"
+    },
+    {
+      "slot": 295,
+      "actor": "0x78577b0400",
+      "object_index": 216147,
+      "class": "DFMQuestSubtitleSubsystem"
+    },
+    {
+      "slot": 296,
+      "actor": "0x78a0527910",
+      "object_index": 216144,
+      "class": "BP_GPTODToPerformManager_C"
+    },
+    {
+      "slot": 297,
+      "actor": "0x76fae2d580",
+      "object_index": 216140,
+      "class": "BP_DFMLootingLevelSubSystem_C"
+    },
+    {
+      "slot": 298,
+      "actor": "0x76f8eda060",
+      "object_index": 216131,
+      "class": "BP_DFMPlayerController_C"
+    },
+    {
+      "slot": 299,
+      "actor": "0x77bdc28010",
+      "object_index": 216072,
+      "class": "BP_TestPlayerCameraManager_C"
+    },
+    {
+      "slot": 300,
+      "actor": "0x77ab14a060",
+      "object_index": 215990,
+      "class": "CameraActor"
+    },
+    {
+      "slot": 301,
+      "actor": "0x7718c220e0",
+      "object_index": 215976,
+      "class": "?"
+    },
+    {
+      "slot": 302,
+      "actor": "0x77a6d69a80",
+      "object_index": 215787,
+      "class": "GPTweenUpdateManager"
+    },
+    {
+      "slot": 303,
+      "actor": "0x771085c010",
+      "object_index": 173485,
+      "class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 304,
+      "actor": "0x76831fc720",
+      "object_index": 109506,
+      "class": "BP_SOLPlayerState_C"
+    },
+    {
+      "slot": 305,
+      "actor": "0x77517f6700",
+      "object_index": 178412,
+      "class": "SkillSubsystem"
+    },
+    {
+      "slot": 306,
+      "actor": "0x780bb41900",
+      "object_index": 178397,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 307,
+      "actor": "0x77a6d64680",
+      "object_index": 178395,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 308,
+      "actor": "0x771e324600",
+      "object_index": 109153,
+      "class": "BP_WeaponMeleeNoModular_C"
+    },
+    {
+      "slot": 309,
+      "actor": "0x776e9ed180",
+      "object_index": 152833,
+      "class": "BP_EmptyHand_C"
+    },
+    {
+      "slot": 310,
+      "actor": "0x77ca664600",
+      "object_index": 152718,
+      "class": "BP_EmptyHand_C"
+    },
+    {
+      "slot": 311,
+      "actor": "0x773bfa7480",
+      "object_index": 152605,
+      "class": "BP_WeaponMeleeNoModular_C"
+    },
+    {
+      "slot": 312,
+      "actor": "0x771e38a300",
+      "object_index": 152570,
+      "class": "BP_EmptyHand_C"
+    },
+    {
+      "slot": 313,
+      "actor": "0x771831eac0",
+      "object_index": 136644,
+      "class": "BP_RTICapture_C"
+    },
+    {
+      "slot": 314,
+      "actor": "0x780f27ccd0",
+      "object_index": 136639,
+      "class": "AssembleWeaponMgr"
+    },
+    {
+      "slot": 316,
+      "actor": "0x77128a4300",
+      "object_index": 136619,
+      "class": "TriggerSphere"
+    },
+    {
+      "slot": 317,
+      "actor": "0x77128a2000",
+      "object_index": 136553,
+      "class": "TriggerSphere"
+    },
+    {
+      "slot": 318,
+      "actor": "0x767117cb80",
+      "object_index": 136546,
+      "class": "TriggerSphere"
+    },
+    {
+      "slot": 319,
+      "actor": "0x77128a2380",
+      "object_index": 136538,
+      "class": "TriggerSphere"
+    },
+    {
+      "slot": 320,
+      "actor": "0x785d652ec0",
+      "object_index": 136335,
+      "class": "BP_WeaponModular_C301Launcher_C"
+    },
+    {
+      "slot": 321,
+      "actor": "0x771470e8c0",
+      "object_index": 135899,
+      "class": "BP_WeaponThrow_ToyCar_C"
+    },
+    {
+      "slot": 322,
+      "actor": "0x77266e2ec0",
+      "object_index": 135186,
+      "class": "BP_WeaponBaseLeftThrow_C201Smoke_C"
+    },
+    {
+      "slot": 323,
+      "actor": "0x772ee86280",
+      "object_index": 134279,
+      "class": "BP_GameState_PVPVE_C"
+    },
+    {
+      "slot": 324,
+      "actor": "0x77a3fa85d0",
+      "object_index": 133538,
+      "class": "DFMHudDataReplicator"
+    },
+    {
+      "slot": 325,
+      "actor": "0x767d7c0040",
+      "object_index": 130464,
+      "class": "BP_EmptyHand_C"
+    },
+    {
+      "slot": 326,
+      "actor": "0x767d7c7480",
+      "object_index": 127754,
+      "class": "BP_WeaponModular_C301Launcher_C"
+    },
+    {
+      "slot": 327,
+      "actor": "0x76c5bd1be0",
+      "object_index": 127563,
+      "class": "BP_Canvas_C"
+    },
+    {
+      "slot": 328,
+      "actor": "0x767d7c4600",
+      "object_index": 205387,
+      "class": "BP_WeaponThrow_ToyCar_C"
+    },
+    {
+      "slot": 329,
+      "actor": "0x771470ba40",
+      "object_index": 205100,
+      "class": "BP_WeaponBaseLeftThrow_C201Smoke_C"
+    },
+    {
+      "slot": 331,
+      "actor": "0x767f5c4030",
+      "object_index": 201990,
+      "class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 332,
+      "actor": "0x7674b4d280",
+      "object_index": 201871,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 333,
+      "actor": "0x7674b4d600",
+      "object_index": 201867,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 334,
+      "actor": "0x77494f40c0",
+      "object_index": 201796,
+      "class": "MovementReplicationActor"
+    },
+    {
+      "slot": 335,
+      "actor": "0x7674b4e080",
+      "object_index": 201710,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 336,
+      "actor": "0x7674b4e400",
+      "object_index": 201703,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 337,
+      "actor": "0x7729b74ae0",
+      "object_index": 201648,
+      "class": "LowRepPriorityGameState"
+    },
+    {
+      "slot": 339,
+      "actor": "0x772c292ae0",
+      "object_index": 201638,
+      "class": "BP_Interactor_Container_SafeBox_C"
+    },
+    {
+      "slot": 340,
+      "actor": "0x777a2d6ad0",
+      "object_index": 201620,
+      "class": "BP_Interact_Computer_C"
+    },
+    {
+      "slot": 341,
+      "actor": "0x777a2d5580",
+      "object_index": 201546,
+      "class": "BP_Interact_Computer_C"
+    },
+    {
+      "slot": 342,
+      "actor": "0x770ee05600",
+      "object_index": 201257,
+      "class": "DesReplicationActor"
+    },
+    {
+      "slot": 343,
+      "actor": "0x77abb20200",
+      "object_index": 201245,
+      "class": "DFMSceneActorReplicator"
+    },
+    {
+      "slot": 344,
+      "actor": "0x76fabf0ba0",
+      "object_index": 201241,
+      "class": "DesReplicationActor"
+    },
+    {
+      "slot": 345,
+      "actor": "0x76fabf6b40",
+      "object_index": 201208,
+      "class": "DesReplicationActor"
+    },
+    {
+      "slot": 346,
+      "actor": "0x77b6328b20",
+      "object_index": 201200,
+      "class": "DesReplicationActor"
+    },
+    {
+      "slot": 347,
+      "actor": "0x772d946b40",
+      "object_index": 201193,
+      "class": "DesReplicationActor"
+    },
+    {
+      "slot": 348,
+      "actor": "0x77bd395600",
+      "object_index": 201187,
+      "class": "DesReplicationActor"
+    },
+    {
+      "slot": 349,
+      "actor": "0x766ea338f0",
+      "object_index": 201157,
+      "class": "BP_SOLPlayerState_C"
+    },
+    {
+      "slot": 350,
+      "actor": "0x7686abc720",
+      "object_index": 198661,
+      "class": "BP_SOLPlayerState_C"
+    },
+    {
+      "slot": 351,
+      "actor": "0x76caad5bc0",
+      "object_index": 188910,
+      "class": "CrackedInfoManager"
+    },
+    {
+      "slot": 352,
+      "actor": "0x766b79c100",
+      "object_index": 265658,
+      "class": "BP_RTILight_RTIMap_Weapon_1_C"
+    },
+    {
+      "slot": 353,
+      "actor": "0x778fce20e0",
+      "object_index": 266121,
+      "class": "GPPlayerState"
+    },
+    {
+      "slot": 354,
+      "actor": "0x76b849aab0",
+      "object_index": 266155,
+      "class": "BP_AbilityTemp_Assault_C303_SilenceZone_C"
+    },
+    {
+      "slot": 355,
+      "actor": "0x793afc20e0",
+      "object_index": 266161,
+      "class": "BP_AbilityTemp_KickIce_C"
+    },
+    {
+      "slot": 356,
+      "actor": "0x776999c940",
+      "object_index": 266166,
+      "class": "BP_AbilityLogicTemplate_RemoteControlCar_C"
+    },
+    {
+      "slot": 357,
+      "actor": "0x772fafe020",
+      "object_index": 266171,
+      "class": "BP_AbilityLogicTemplate_ToyCar_C"
+    },
+    {
+      "slot": 358,
+      "actor": "0x793afc7090",
+      "object_index": 266174,
+      "class": "BP_AbilityTemp_Scout_PullOutArrow_C"
+    },
+    {
+      "slot": 359,
+      "actor": "0x7755759280",
+      "object_index": 266179,
+      "class": "BP_AbilityTemp_Assault_Buff_C"
+    },
+    {
+      "slot": 360,
+      "actor": "0x79c6a1c010",
+      "object_index": 268980,
+      "class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 361,
+      "actor": "0x776618cf00",
+      "object_index": 269138,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 362,
+      "actor": "0x77128a1c80",
+      "object_index": 269140,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 363,
+      "actor": "0x76bfa58e40",
+      "object_index": 269143,
+      "class": "BP_SOLPlayerState_C"
+    },
+    {
+      "slot": 366,
+      "actor": "0x76632f8e40",
+      "object_index": 272596,
+      "class": "BP_SOLPlayerState_C"
+    },
+    {
+      "slot": 367,
+      "actor": "0x76632f71d0",
+      "object_index": 272678,
+      "class": "BP_SOLPlayerState_C"
+    },
+    {
+      "slot": 368,
+      "actor": "0x76e2a6aab0",
+      "object_index": 273387,
+      "class": "BP_SOLPlayerState_C"
+    },
+    {
+      "slot": 369,
+      "actor": "0x79cc4cc720",
+      "object_index": 273443,
+      "class": "BP_SOLPlayerState_C"
+    },
+    {
+      "slot": 370,
+      "actor": "0x77141fe390",
+      "object_index": 273448,
+      "class": "BP_SOLPlayerState_C"
+    },
+    {
+      "slot": 371,
+      "actor": "0x77160d5560",
+      "object_index": 273455,
+      "class": "BP_SOLPlayerState_C"
+    },
+    {
+      "slot": 372,
+      "actor": "0x79cc4ce390",
+      "object_index": 273460,
+      "class": "BP_SOLPlayerState_C"
+    },
+    {
+      "slot": 373,
+      "actor": "0x77141fc720",
+      "object_index": 273465,
+      "class": "BP_SOLPlayerState_C"
+    },
+    {
+      "slot": 374,
+      "actor": "0x7771ea5560",
+      "object_index": 107569,
+      "class": "BP_SOLPlayerState_C"
+    },
+    {
+      "slot": 375,
+      "actor": "0x7771bdad50",
+      "object_index": 208950,
+      "class": "GPSubtitleLevelSubsystem"
+    },
+    {
+      "slot": 376,
+      "actor": "0x76c51ed6f0",
+      "object_index": 221437,
+      "class": "GPSequenceDefaultProxy"
+    },
+    {
+      "slot": 377,
+      "actor": "0x76c51e0510",
+      "object_index": 221391,
+      "class": "GPSequenceDefaultProxy"
+    },
+    {
+      "slot": 378,
+      "actor": "0x77660f2990",
+      "object_index": 221386,
+      "class": "GPSequenceDefaultProxy"
+    },
+    {
+      "slot": 391,
+      "actor": "0x768d085560",
+      "object_index": 206725,
+      "class": "BP_DFMAICharacter_Firebat_C"
+    },
+    {
+      "slot": 392,
+      "actor": "0x76cb864060",
+      "object_index": 204209,
+      "class": "BP_FlameDetect_C"
+    },
+    {
+      "slot": 397,
+      "actor": "0x7679a30010",
+      "object_index": 228675,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 398,
+      "actor": "0x77158f0010",
+      "object_index": 225136,
+      "class": "BP_DFMAICharacter_ShielderLight_C"
+    },
+    {
+      "slot": 400,
+      "actor": "0x7769e65560",
+      "object_index": 220802,
+      "class": "BP_DFMCharacter_AI_DT_RPG_C"
+    },
+    {
+      "slot": 406,
+      "actor": "0x774a7bd560",
+      "object_index": 184228,
+      "class": "BP_InventoryPickup_Container_C"
+    },
+    {
+      "slot": 411,
+      "actor": "0x7811bc0010",
+      "object_index": 222896,
+      "class": "BP_DFMAICharacter_Firebat_C"
+    },
+    {
+      "slot": 412,
+      "actor": "0x76fa95d180",
+      "object_index": 221440,
+      "class": "BP_EmptyHand_C"
+    },
+    {
+      "slot": 413,
+      "actor": "0x76c765ade0",
+      "object_index": 221072,
+      "class": "BP_FlameDetect_C"
+    },
+    {
+      "slot": 414,
+      "actor": "0x768b368020",
+      "object_index": 219287,
+      "class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 415,
+      "actor": "0x779f6af200",
+      "object_index": 205909,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 416,
+      "actor": "0x77502b9a80",
+      "object_index": 205907,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 417,
+      "actor": "0x7713df0040",
+      "object_index": 149216,
+      "class": "BP_Inventory_DeadBody_C"
+    },
+    {
+      "slot": 419,
+      "actor": "0x7717d28020",
+      "object_index": 140489,
+      "class": "BP_Inventory_CarryBody_C"
+    },
+    {
+      "slot": 422,
+      "actor": "0x774373bd10",
+      "object_index": 129410,
+      "class": "DFMOutLineItemManager"
+    },
+    {
+      "slot": 424,
+      "actor": "0x78a51bc480",
+      "object_index": 116313,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 425,
+      "actor": "0x77cfd1cf00",
+      "object_index": 116309,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 426,
+      "actor": "0x765c167090",
+      "object_index": 247218,
+      "class": "BP_AbilityTemp_SelfCure_C"
+    },
+    {
+      "slot": 427,
+      "actor": "0x7789efd0c0",
+      "object_index": 215502,
+      "class": "LightShadowVolume"
+    },
+    {
+      "slot": 428,
+      "actor": "0x771f3b5d40",
+      "object_index": 213086,
+      "class": "BP_WeaponModular_C"
+    },
+    {
+      "slot": 429,
+      "actor": "0x7736f37480",
+      "object_index": 211004,
+      "class": "BP_WeaponModular_3p_C"
+    },
+    {
+      "slot": 430,
+      "actor": "0x7669c25560",
+      "object_index": 139481,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 431,
+      "actor": "0x792f83d030",
+      "object_index": 138396,
+      "class": "WeaponPhysicsBulletReal_BP_C"
+    },
+    {
+      "slot": 433,
+      "actor": "0x776d5e0040",
+      "object_index": 136579,
+      "class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 434,
+      "actor": "0x7731cdcf00",
+      "object_index": 136084,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 435,
+      "actor": "0x771517fc80",
+      "object_index": 136082,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 436,
+      "actor": "0x792f6530d0",
+      "object_index": 131699,
+      "class": "BP_AbilityTemplate_Rush_C"
+    },
+    {
+      "slot": 437,
+      "actor": "0x7683202ae0",
+      "object_index": 130348,
+      "class": "BP_Inventory_DeadBody_C"
+    },
+    {
+      "slot": 438,
+      "actor": "0x776e0daac0",
+      "object_index": 130342,
+      "class": "BP_Inventory_CarryBody_C"
+    },
+    {
+      "slot": 439,
+      "actor": "0x76fae8d560",
+      "object_index": 130123,
+      "class": "BP_Inventory_DeadBody_C"
+    },
+    {
+      "slot": 440,
+      "actor": "0x76fa1a2ae0",
+      "object_index": 130113,
+      "class": "BP_Inventory_CarryBody_C"
+    },
+    {
+      "slot": 441,
+      "actor": "0x77a51b0040",
+      "object_index": 125959,
+      "class": "BP_WeaponModular_C"
+    },
+    {
+      "slot": 442,
+      "actor": "0x765615d180",
+      "object_index": 125513,
+      "class": "BP_WeaponModular_3p_C"
+    },
+    {
+      "slot": 443,
+      "actor": "0x770bf4c010",
+      "object_index": 117987,
+      "class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 444,
+      "actor": "0x77e6d9c100",
+      "object_index": 173245,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 445,
+      "actor": "0x77995c3180",
+      "object_index": 173235,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 446,
+      "actor": "0x778a335560",
+      "object_index": 248158,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 447,
+      "actor": "0x7718f05560",
+      "object_index": 247490,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 449,
+      "actor": "0x789f62d560",
+      "object_index": 218547,
+      "class": "BP_Inventory_DeadBody_C"
+    },
+    {
+      "slot": 450,
+      "actor": "0x7662ceaac0",
+      "object_index": 218538,
+      "class": "BP_Inventory_CarryBody_C"
+    },
+    {
+      "slot": 453,
+      "actor": "0x76f4962ae0",
+      "object_index": 162083,
+      "class": "BP_Inventory_DeadBody_C"
+    },
+    {
+      "slot": 454,
+      "actor": "0x793e7aaac0",
+      "object_index": 162031,
+      "class": "BP_Inventory_CarryBody_C"
+    },
+    {
+      "slot": 457,
+      "actor": "0x76d0c9c010",
+      "object_index": 151365,
+      "class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 458,
+      "actor": "0x779e622ec0",
+      "object_index": 151255,
+      "class": "BP_WeaponModular_3p_C"
+    },
+    {
+      "slot": 459,
+      "actor": "0x7730f17480",
+      "object_index": 151233,
+      "class": "BP_WeaponMeleeNoModular_Inspect_C"
+    },
+    {
+      "slot": 460,
+      "actor": "0x7682bc4600",
+      "object_index": 151197,
+      "class": "BP_WeaponHUDUN_C"
+    },
+    {
+      "slot": 461,
+      "actor": "0x76f3957780",
+      "object_index": 149947,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 462,
+      "actor": "0x76f395cf00",
+      "object_index": 149941,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 463,
+      "actor": "0x768a5fc010",
+      "object_index": 145689,
+      "class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 464,
+      "actor": "0x78a28b0b00",
+      "object_index": 143377,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 465,
+      "actor": "0x78a51bd600",
+      "object_index": 143314,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 466,
+      "actor": "0x77a5f7ba40",
+      "object_index": 212837,
+      "class": "BP_EmptyHand_C"
+    },
+    {
+      "slot": 467,
+      "actor": "0x76ceb08020",
+      "object_index": 138510,
+      "class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 468,
+      "actor": "0x76fa652ec0",
+      "object_index": 138193,
+      "class": "BP_WeaponModular_3p_C"
+    },
+    {
+      "slot": 469,
+      "actor": "0x774c79a300",
+      "object_index": 138172,
+      "class": "BP_WeaponModular_Bow_C"
+    },
+    {
+      "slot": 470,
+      "actor": "0x765e9eba40",
+      "object_index": 137660,
+      "class": "BP_WeaponModular_Bow_C"
+    },
+    {
+      "slot": 471,
+      "actor": "0x776e313180",
+      "object_index": 136911,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 472,
+      "actor": "0x776e310e80",
+      "object_index": 136909,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 473,
+      "actor": "0x776f245560",
+      "object_index": 201786,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 474,
+      "actor": "0x77189d0010",
+      "object_index": 195784,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 475,
+      "actor": "0x77c72d5560",
+      "object_index": 195131,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 476,
+      "actor": "0x780c51a300",
+      "object_index": 230174,
+      "class": "BP_EmptyHand_C"
+    },
+    {
+      "slot": 478,
+      "actor": "0x771e385d40",
+      "object_index": 219313,
+      "class": "BP_WeaponModular_3p_C"
+    },
+    {
+      "slot": 480,
+      "actor": "0x7673405560",
+      "object_index": 190426,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 481,
+      "actor": "0x7680810040",
+      "object_index": 189292,
+      "class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 482,
+      "actor": "0x767fb34030",
+      "object_index": 188227,
+      "class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 483,
+      "actor": "0x774a920e80",
+      "object_index": 187486,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 484,
+      "actor": "0x774a92f200",
+      "object_index": 187478,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 485,
+      "actor": "0x7743f95100",
+      "object_index": 128174,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 486,
+      "actor": "0x7743f95b80",
+      "object_index": 128172,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 487,
+      "actor": "0x765a380040",
+      "object_index": 127399,
+      "class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 488,
+      "actor": "0x7743f91580",
+      "object_index": 118808,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 489,
+      "actor": "0x779f204a00",
+      "object_index": 118805,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 490,
+      "actor": "0x7656284030",
+      "object_index": 117012,
+      "class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 491,
+      "actor": "0x77ae464300",
+      "object_index": 116611,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 492,
+      "actor": "0x77ae461900",
+      "object_index": 116609,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 497,
+      "actor": "0x764c365560",
+      "object_index": 142330,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 499,
+      "actor": "0x764f1c5560",
+      "object_index": 208498,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 500,
+      "actor": "0x791d082ec0",
+      "object_index": 208101,
+      "class": "BP_EmptyHand_C"
+    },
+    {
+      "slot": 501,
+      "actor": "0x7654935d40",
+      "object_index": 208009,
+      "class": "BP_WeaponModular_3p_C"
+    },
+    {
+      "slot": 503,
+      "actor": "0x773b6b2230",
+      "object_index": 207255,
+      "class": "WeaponPhysicsBulletRPG_BP_C"
+    },
+    {
+      "slot": 505,
+      "actor": "0x764db4aab0",
+      "object_index": 204677,
+      "class": "BP_DFMCharacter_AI_Crocodile_C"
+    },
+    {
+      "slot": 506,
+      "actor": "0x7729674600",
+      "object_index": 174662,
+      "class": "BP_EmptyHand_C"
+    },
+    {
+      "slot": 507,
+      "actor": "0x7709fad560",
+      "object_index": 203630,
+      "class": "BP_Inventory_DeadBody_Fake_Crocodile_C"
+    },
+    {
+      "slot": 518,
+      "actor": "0x7662ce5580",
+      "object_index": 257920,
+      "class": "BP_Inventory_DeadBody_C"
+    },
+    {
+      "slot": 519,
+      "actor": "0x770ebf5580",
+      "object_index": 257915,
+      "class": "BP_Inventory_CarryBody_C"
+    },
+    {
+      "slot": 527,
+      "actor": "0x780b4f7a20",
+      "object_index": 255202,
+      "class": "DFMAbilityLevelActorManager"
+    },
+    {
+      "slot": 533,
+      "actor": "0x764c360010",
+      "object_index": 246917,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 538,
+      "actor": "0x766a905560",
+      "object_index": 158574,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 539,
+      "actor": "0x76dee6ba40",
+      "object_index": 226649,
+      "class": "BP_WeaponModular_3p_C"
+    },
+    {
+      "slot": 540,
+      "actor": "0x7715ad0010",
+      "object_index": 244564,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 542,
+      "actor": "0x7725c08890",
+      "object_index": 234201,
+      "class": "BP_Interactor_ContractNPC_C"
+    },
+    {
+      "slot": 543,
+      "actor": "0x78106edc90",
+      "object_index": 230503,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 544,
+      "actor": "0x7718012b60",
+      "object_index": 147303,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 545,
+      "actor": "0x7717fbf040",
+      "object_index": 147152,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 546,
+      "actor": "0x766b5807f0",
+      "object_index": 146451,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 547,
+      "actor": "0x76d5ea56b0",
+      "object_index": 146430,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 548,
+      "actor": "0x766b58dc90",
+      "object_index": 146405,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 549,
+      "actor": "0x766b580400",
+      "object_index": 146394,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 550,
+      "actor": "0x77209e3f10",
+      "object_index": 146381,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 551,
+      "actor": "0x766b58e470",
+      "object_index": 146344,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 552,
+      "actor": "0x766b581ba0",
+      "object_index": 145796,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 553,
+      "actor": "0x766b583340",
+      "object_index": 145705,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 554,
+      "actor": "0x766b58c4f0",
+      "object_index": 145700,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 555,
+      "actor": "0x766b587a20",
+      "object_index": 145313,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 556,
+      "actor": "0x766b582b60",
+      "object_index": 145301,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 557,
+      "actor": "0x766b580010",
+      "object_index": 145240,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 558,
+      "actor": "0x76cf7e6a60",
+      "object_index": 145216,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 559,
+      "actor": "0x780a75d560",
+      "object_index": 255781,
+      "class": "BP_Inventory_DeadBody_C"
+    },
+    {
+      "slot": 560,
+      "actor": "0x772b7b2ae0",
+      "object_index": 255775,
+      "class": "BP_Inventory_CarryBody_C"
+    },
+    {
+      "slot": 561,
+      "actor": "0x776a263f10",
+      "object_index": 259365,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 562,
+      "actor": "0x766b7995b0",
+      "object_index": 259041,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 563,
+      "actor": "0x776a262380",
+      "object_index": 258915,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 564,
+      "actor": "0x784ca39d90",
+      "object_index": 257898,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 565,
+      "actor": "0x77904b7a20",
+      "object_index": 257891,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 566,
+      "actor": "0x776a2689e0",
+      "object_index": 257450,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 567,
+      "actor": "0x77747917b0",
+      "object_index": 258636,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 568,
+      "actor": "0x77209e4ed0",
+      "object_index": 248159,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 569,
+      "actor": "0x7717d3e860",
+      "object_index": 247975,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 570,
+      "actor": "0x766b171ba0",
+      "object_index": 247963,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 571,
+      "actor": "0x77a0b64ae0",
+      "object_index": 247946,
+      "class": "BP_Landmine_C"
+    },
+    {
+      "slot": 572,
+      "actor": "0x77bff30010",
+      "object_index": 141041,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 573,
+      "actor": "0x76c0594600",
+      "object_index": 101895,
+      "class": "BP_WeaponModular_3p_C"
+    },
+    {
+      "slot": 574,
+      "actor": "0x764db15560",
+      "object_index": 262932,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 575,
+      "actor": "0x78102c3b70",
+      "object_index": 261655,
+      "class": "BP_FXProxy_Exit_C"
+    },
+    {
+      "slot": 576,
+      "actor": "0x7675b1aab0",
+      "object_index": 257063,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 577,
+      "actor": "0x766b525d40",
+      "object_index": 220608,
+      "class": "BP_EmptyHand_C"
+    },
+    {
+      "slot": 578,
+      "actor": "0x770fdd5d40",
+      "object_index": 138662,
+      "class": "BP_WeaponModular_3p_C"
+    },
+    {
+      "slot": 579,
+      "actor": "0x766c0aaac0",
+      "object_index": 256081,
+      "class": "BP_Inventory_CarryBody_C"
+    },
+    {
+      "slot": 580,
+      "actor": "0x780bf10040",
+      "object_index": 255974,
+      "class": "BP_Inventory_DeadBody_C"
+    },
+    {
+      "slot": 581,
+      "actor": "0x768a575560",
+      "object_index": 249651,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 582,
+      "actor": "0x7789438020",
+      "object_index": 246540,
+      "class": "BP_Inventory_DeadBody_C"
+    },
+    {
+      "slot": 583,
+      "actor": "0x779e09aac0",
+      "object_index": 246528,
+      "class": "BP_Inventory_CarryBody_C"
+    },
+    {
+      "slot": 584,
+      "actor": "0x7773dbc010",
+      "object_index": 227169,
+      "class": "BP_DFMCharacter_C"
+    },
+    {
+      "slot": 585,
+      "actor": "0x774172a500",
+      "object_index": 217077,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 586,
+      "actor": "0x7743f98900",
+      "object_index": 217069,
+      "class": "IKEndEffectorTarget"
+    },
+    {
+      "slot": 587,
+      "actor": "0x785d1baac0",
+      "object_index": 184488,
+      "class": "BP_Inventory_CarryBody_C"
+    },
+    {
+      "slot": 588,
+      "actor": "0x7930255d40",
+      "object_index": 246767,
+      "class": "BP_EmptyHand_C"
+    },
+    {
+      "slot": 589,
+      "actor": "0x77273a4d80",
+      "object_index": 183545,
+      "class": "BP_AbilityBullet_AirCannon_C"
+    },
+    {
+      "slot": 590,
+      "actor": "0x7685b95560",
+      "object_index": 171802,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 591,
+      "actor": "0x76a8792070",
+      "object_index": 189833,
+      "class": "BP_InventoryPickup_C"
+    },
+    {
+      "slot": 592,
+      "actor": "0x785d086050",
+      "object_index": 168638,
+      "class": "BP_InventoryPickup_C"
+    },
+    {
+      "slot": 593,
+      "actor": "0x77295d8bc0",
+      "object_index": 168209,
+      "class": "BP_WeaponThrowC4_C"
+    },
+    {
+      "slot": 594,
+      "actor": "0x765e065580",
+      "object_index": 167992,
+      "class": "BP_Inventory_DeadBody_C"
+    },
+    {
+      "slot": 595,
+      "actor": "0x764f8e2ec0",
+      "object_index": 164065,
+      "class": "BP_ProjectileC4_C"
+    },
+    {
+      "slot": 596,
+      "actor": "0x77c3ccfab0",
+      "object_index": 160364,
+      "class": "BP_BowArrow_C"
+    },
+    {
+      "slot": 597,
+      "actor": "0x789ee82230",
+      "object_index": 157495,
+      "class": "BP_WeaponBullet_FireArrow_C"
+    },
+    {
+      "slot": 598,
+      "actor": "0x7770028080",
+      "object_index": 153042,
+      "class": "BP_FireArrowActor_C"
+    },
+    {
+      "slot": 599,
+      "actor": "0x7655d8e8c0",
+      "object_index": 146586,
+      "class": "BP_WeaponBaseThrow_C"
+    },
+    {
+      "slot": 600,
+      "actor": "0x76425b4060",
+      "object_index": 127839,
+      "class": "BP_InventoryPickup_C"
+    },
+    {
+      "slot": 601,
+      "actor": "0x7672e25560",
+      "object_index": 102856,
+      "class": "BP_DFMAICharacter_ShielderLight_C"
+    },
+    {
+      "slot": 602,
+      "actor": "0x76cb4faab0",
+      "object_index": 140409,
+      "class": "BP_WeaponBullet_FireArrow_C"
+    },
+    {
+      "slot": 603,
+      "actor": "0x76737910f0",
+      "object_index": 140349,
+      "class": "BP_FireArrowActor_C"
+    },
+    {
+      "slot": 604,
+      "actor": "0x7767354610",
+      "object_index": 139754,
+      "class": "BP_FXProxy_Exit_C"
+    },
+    {
+      "slot": 605,
+      "actor": "0x7725b7d260",
+      "object_index": 138148,
+      "class": "BP_CameraEffect_WaterWaterBubbles_C"
+    },
+    {
+      "slot": 606,
+      "actor": "0x76543faab0",
+      "object_index": 136866,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 607,
+      "actor": "0x77532b9280",
+      "object_index": 135557,
+      "class": "BP_CameraEffect_WaterWaterBubbles_C"
+    },
+    {
+      "slot": 608,
+      "actor": "0x768d0e8040",
+      "object_index": 104306,
+      "class": "BP_InventoryPickup_C"
+    },
+    {
+      "slot": 609,
+      "actor": "0x769d2e4060",
+      "object_index": 131227,
+      "class": "BP_InventoryPickup_C"
+    },
+    {
+      "slot": 610,
+      "actor": "0x76faec6050",
+      "object_index": 207804,
+      "class": "BP_InventoryPickup_C"
+    },
+    {
+      "slot": 611,
+      "actor": "0x76667e0010",
+      "object_index": 203966,
+      "class": "BP_DFMCharacter_AI_DT_C"
+    },
+    {
+      "slot": 612,
+      "actor": "0x76b7e66e00",
+      "object_index": 203808,
+      "class": "BP_CameraEffect_WaterWaterBubbles_C"
+    },
+    {
+      "slot": 613,
+      "actor": "0x76859c5560",
+      "object_index": 203720,
+      "class": "BP_DFMCharacter_AI_Crocodile_C"
+    },
+    {
+      "slot": 614,
+      "actor": "0x7727278bc0",
+      "object_index": 198399,
+      "class": "BP_EmptyHand_C"
+    },
+    {
+      "slot": 615,
+      "actor": "0x7686aed560",
+      "object_index": 202027,
+      "class": "BP_Inventory_DeadBody_Fake_Crocodile_C"
+    },
+    {
+      "slot": 616,
+      "actor": "0x768e962070",
+      "object_index": 143218,
+      "class": "BP_InventoryPickup_C"
+    },
+    {
+      "slot": 617,
+      "actor": "0x76caadb270",
+      "object_index": 191221,
+      "class": "BP_CameraEffect_WaterWaterBubbles_C"
+    },
+    {
+      "slot": 619,
+      "actor": "0x777cd99280",
+      "object_index": 123047,
+      "class": "BP_CameraEffect_WaterWaterBubbles_C"
+    },
+    {
+      "slot": 620,
+      "actor": "0x7655d87480",
+      "object_index": 160318,
+      "class": "BP_WeaponModular_3p_C"
+    },
+    {
+      "slot": 621,
+      "actor": "0x7655d87480",
+      "object_index": 160318,
+      "class": "BP_WeaponModular_3p_C"
+    },
+    {
+      "slot": 622,
+      "actor": "0x7655d87480",
+      "object_index": 160318,
+      "class": "BP_WeaponModular_3p_C"
+    },
+    {
+      "slot": 623,
+      "actor": "0x7655d87480",
+      "object_index": 160318,
+      "class": "BP_WeaponModular_3p_C"
+    },
+    {
+      "slot": 624,
+      "actor": "0x7655d87480",
+      "object_index": 160318,
+      "class": "BP_WeaponModular_3p_C"
+    },
+    {
+      "slot": 625,
+      "actor": "0x76caadb270",
+      "object_index": 191221,
+      "class": "BP_CameraEffect_WaterWaterBubbles_C"
+    },
+    {
+      "slot": 626,
+      "actor": "0x76caadb270",
+      "object_index": 191221,
+      "class": "BP_CameraEffect_WaterWaterBubbles_C"
+    },
+    {
+      "slot": 627,
+      "actor": "0x76caadb270",
+      "object_index": 191221,
+      "class": "BP_CameraEffect_WaterWaterBubbles_C"
+    }
+  ],
+  "checks": {
+    "world_stable": true,
+    "roster_header_stable": true,
+    "actor_array_header_stable": true
+  }
+}

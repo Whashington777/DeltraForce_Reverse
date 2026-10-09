@@ -1,0 +1,27 @@
+{
+  "status": "living-player world coordinates and camera validated against game HUD",
+  "pid": 22846,
+  "key": "0x765d0871",
+  "key_scope": "Current process only; rederive after restart.",
+  "native_payload_cases": 79,
+  "native_slot_matches": 79,
+  "matches_observed": 2,
+  "screen_source": "analysis/projection-captures/1791478646173444779/manifest.json",
+  "living_player_identity_matches": true,
+  "dead_flag": 0,
+  "root_attach_parent": "0x0",
+  "measured_distance_m": 169.291494988477,
+  "hud_distance_m": 168,
+  "measured_compass_heading_degrees": 122.91389846801758,
+  "hud_compass_heading_degrees": 123,
+  "projected_center_pixels": [
+    1239.8525710053043,
+    820.7811617212399
+  ],
+  "horizontal_marker_agreement": "Visually agrees with teammate marker near x=1240 of 3000 pixels.",
+  "limitations": [
+    "Screen and memory are not frame-atomic; latest screenshot brackets span 3.56 seconds and camera moved during that interval.",
+    "HUD marker is above the character; vertical body-box edges and bone world transforms are not pixel-validated.",
+    "NPC classification and GUI are outside this validation."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "pid": 10651,
+  "process_start": "2455946",
+  "base": "0x6fe7831000",
+  "process_stable": true,
+  "manager": "0x6d015a8010",
+  "cache_property": {
+    "property": 478400000800,
+    "offset": 11616,
+    "size": 2640
+  },
+  "cache_type_name": "CameraCacheEntry",
+  "pov_property": {
+    "property": 478411577472,
+    "offset": 16,
+    "size": 2624
+  },
+  "view_type_name": "MinimalViewInfo",
+  "fields": {
+    "Location": {
+      "property": 478411370784,
+      "offset": 0,
+      "size": 16
+    },
+    "Rotation": {
+      "property": 478411370944,
+      "offset": 16,
+      "size": 12
+    },
+    "FOV": {
+      "property": 478411252608,
+      "offset": 28,
+      "size": 4
+    },
+    "AspectRatio": {
+      "property": 478411253248,
+      "offset": 48,
+      "size": 4
+    },
+    "bConstrainAspectRatio": {
+      "property": 478411371104,
+      "offset": 52,
+      "size": 1
+    },
+    "ProjectionMode": {
+      "property": 478411371424,
+      "offset": 53,
+      "size": 1
+    },
+    "OffCenterProjectionOffset": {
+      "property": 478411144640,
+      "offset": 2544,
+      "size": 8
+    }
+  },
+  "constrain_aspect_bool": {
+    "byte_offset": 0,
+    "mask": 1,
+    "native": "0x6ff824c8fc",
+    "cases_passed": 256
+  },
+  "scope": "Current reflection layout and bool interpretation; actual historical viewport parameters are audited separately."
+}

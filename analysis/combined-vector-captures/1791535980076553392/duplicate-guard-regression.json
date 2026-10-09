@@ -1,0 +1,6 @@
+{
+  "real_disabled_duplicate_snapshot_passes": true,
+  "synthetic_second_enabled_record_is_rejected": true,
+  "game_memory_modified": false,
+  "failure": "No unique coordinate record"
+}

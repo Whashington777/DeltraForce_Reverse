@@ -1,0 +1,90 @@
+{
+  "pid": 10651,
+  "process_start": "2455946",
+  "retained_data": {
+    "valid_png_count": 20,
+    "successful_memory_captures": 20,
+    "player_samples": 198,
+    "guard_accepted_player_samples": 54
+  },
+  "confirmed": {
+    "native_composition_cases": 320,
+    "max_native_difference_cm": 0.000975585739070084,
+    "constrain_aspect_bool_native_cases": 256,
+    "retained_camera_samples_constrain_disabled": 10,
+    "selected_hud_frame": 8,
+    "hud_compass_difference_deg": 0.102203369140625,
+    "hud_distances_m": {
+      "compass_deg": 292,
+      "near_m": 2,
+      "far_m": 88
+    },
+    "decoded_distances_m": {
+      "near": 2.468495233403541,
+      "far": 87.73757151564843
+    },
+    "current_lobby_projection_read_verified": true
+  },
+  "visual_support": {
+    "frames": [
+      8,
+      9
+    ],
+    "scope": "Qualitative candidate skeletal agreement; not exact ground-truth joint error."
+  },
+  "not_verified": {
+    "historical_asset_names": true,
+    "full_remote_component_to_world_source": true,
+    "world_bones_across_animations_and_scene_changes": true,
+    "complete_historical_camera_projection": true
+  },
+  "missing_data": {
+    "historical_asset_map": "No captured table for 0x6ECFDC85F0; current exact address has invalid identity and map.",
+    "historical_off_center_samples": 10,
+    "exact_frame_synchronization": "Not retained; host/device intervals alone do not establish one frame.",
+    "viewport_and_fov_axis": "Viewport bounds and local-player FOV axis constraint were not retained."
+  },
+  "collection_changes": {
+    "specific_skeletal_asset_table_capture": "implemented; not tested in a live match",
+    "extended_projection_capture": "implemented; independent projection reading tested on real lobby camera",
+    "field_change_and_rejection_diagnostics": "implemented; saved 198 sample decisions audited"
+  },
+  "complete": false,
+  "world_bones_verified": false,
+  "full_projection_verified": false,
+  "scope_limit": "No further screenshot analysis can recover memory pages that were never saved; lobby camera values cannot fill historical match gaps.",
+  "sources": {
+    "first_burst": {
+      "path": "analysis/visual-burst-captures/1791557737653859845/manifest.json",
+      "sha256": "e051ebb8e8f1926e55a47d3131e609a622d6ceb6eb44beee6f04f6296838aff5"
+    },
+    "second_burst": {
+      "path": "analysis/visual-burst-captures/1791557967362005884/manifest.json",
+      "sha256": "8c3be425e022f8ad4946b86050e5fa409ac86b21a56b1ee41c929ce51012380f"
+    },
+    "native_composition": {
+      "path": "analysis/visual-burst-captures/1791557737653859845/native-candidate-verification.json",
+      "sha256": "58f7d02ba28db5d2566d0e6a239de48466edc098ede49cf27f1695660a8ba5dd"
+    },
+    "hud_geometry": {
+      "path": "analysis/visual-burst-captures/1791557737653859845/hud-geometry-audit.json",
+      "sha256": "ee7962a0a4b3d523a8b73aeee9defd6f5ba5b7acf823735e799216480a92ffc6"
+    },
+    "projection_fields": {
+      "path": "analysis/visual-burst-captures/1791557737653859845/camera-projection-input-audit.json",
+      "sha256": "1c3912b45aab1c8077f60d48f11e2f7881dbddffa8500997931603becb6ca0a5"
+    },
+    "projection_layout": {
+      "path": "analysis/camera-layout-audits/1791560833671504661/manifest.json",
+      "sha256": "5d67adc0aa374063b4872dffe4cc7827de9ca8f70a17f1f46400022d9753148f"
+    },
+    "lobby_camera": {
+      "path": "analysis/camera-parameter-captures/1791561024774122852/manifest.json",
+      "sha256": "8f3d99a6b0e9f7fe49f64051792ca4be3166340019b64f14b41fcc3298e26b34"
+    },
+    "historical_asset_residue": {
+      "path": "analysis/historical-asset-audits/1791561408076639210/manifest.json",
+      "sha256": "fb36e17d166807e8191e778d7fb097c848ffff08d9ceb36c5714eeb89cc77975"
+    }
+  }
+}

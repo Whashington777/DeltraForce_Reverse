@@ -1,0 +1,501 @@
+{
+  "pid": 21490,
+  "process_start": "718694",
+  "world": "0x6f1b999280",
+  "game_state_class": "?",
+  "records": "0x6e6122c000",
+  "state": "0x7210d32000",
+  "key": "0x0",
+  "count": 380,
+  "count_after": 380,
+  "header_stable": true,
+  "page_count": 267,
+  "batch_seconds": 0.41662922499926935,
+  "total_seconds": 6.267083599999751,
+  "camera": {
+    "xyz": [
+      -28118.873046875,
+      2723.05078125,
+      -231.31536865234375
+    ],
+    "handler": "0xffff",
+    "rotation": [
+      5.030889987945557,
+      143.89500427246094,
+      -0.578731894493103
+    ],
+    "fov": 90.0,
+    "aspect": 1.3333333730697632
+  },
+  "players": [
+    {
+      "ps": "0x6e1f328e40",
+      "pawn": "0x6e34e6c010",
+      "mesh": "0x6fa33dd180",
+      "root": "0x6e80912740",
+      "self": true,
+      "team": 1,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -28181.564453125,
+            2743.020263671875,
+            -280.5014343261719
+          ],
+          "handler": "0xffff",
+          "decode_error": "Expected one record for 0x6fa33dd2d4, found 0",
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -28125.37890625,
+            2726.837646484375,
+            -287.1255187988281
+          ],
+          "handler": "0xffff",
+          "decode_error": "Expected one record for 0x6e80912894, found 0",
+          "extents": [
+            55.87958526611328,
+            55.87958526611328,
+            86.0
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -28125.37890625,
+            2726.837646484375,
+            -287.1255187988281
+          ],
+          "handler": "0xffff",
+          "decode_error": "Expected one record for 0x6e809128b4, found 0"
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -28181.564453125,
+            2743.020263671875,
+            -374.42877197265625
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x6fa33dd3ac, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x6e3a7dc720",
+      "pawn": "0x6e9a29c010",
+      "mesh": "0x6ebef58bc0",
+      "root": "0x6eb5255a40",
+      "self": false,
+      "team": 1,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -28356.9296875,
+            2994.47412109375,
+            -1405.568603515625
+          ],
+          "handler": "0x30110a1",
+          "decode_error": "Selected payload is empty; key/epoch not validated",
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -28256.9296875,
+            2894.47412109375,
+            -1305.568603515625
+          ],
+          "handler": "0x301015a",
+          "decode_error": "Selected payload is empty; key/epoch not validated",
+          "extents": [
+            56.28207778930664,
+            56.28207778930664,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -28252.0625,
+            2893.306396484375,
+            -1306.381591796875
+          ],
+          "handler": "0x3010159",
+          "decode_error": "Selected payload is empty; key/epoch not validated"
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -28454.03125,
+            3095.275146484375,
+            -1508.350341796875
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x6ebef58dec, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x6e3ab1aab0",
+      "pawn": "0x6e3a9ac010",
+      "mesh": "0x6e299c5d40",
+      "root": "0x6ebe5860a0",
+      "self": false,
+      "team": 1,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -28177.416015625,
+            2915.629638671875,
+            -1326.2166748046875
+          ],
+          "handler": "0x301100b",
+          "decode_error": "Selected payload is empty; key/epoch not validated",
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -28268.9296875,
+            2906.47412109375,
+            -1317.568603515625
+          ],
+          "handler": "0x3010001",
+          "decode_error": "Selected payload is empty; key/epoch not validated",
+          "extents": [
+            39.9900016784668,
+            39.9900016784668,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -28266.0625,
+            2907.306396484375,
+            -1320.381591796875
+          ],
+          "handler": "0x3010000",
+          "decode_error": "Selected payload is empty; key/epoch not validated"
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -28370.568359375,
+            3113.010498046875,
+            -1522.75
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x6e299c5f6c, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x6ebf600010",
+      "pawn": "0x6e10de8020",
+      "mesh": "0x6e29652ec0",
+      "root": "0x6e111aece0",
+      "self": false,
+      "team": 3,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -20532.935546875,
+            7587.27880859375,
+            -1536.7027587890625
+          ],
+          "handler": "0x3011020",
+          "decode_error": "Selected payload is empty; key/epoch not validated",
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            11119.900390625,
+            5798.2783203125,
+            -1384.1500244140625
+          ],
+          "handler": "0x301002e",
+          "decode_error": "Selected payload is empty; key/epoch not validated",
+          "extents": [
+            50.515769958496094,
+            50.515769958496094,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            11121.0458984375,
+            5793.548828125,
+            -1384.1500244140625
+          ],
+          "handler": "0x301002d",
+          "decode_error": "Selected payload is empty; key/epoch not validated"
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -20692.779296875,
+            7747.12255859375,
+            -1696.5465087890625
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x6e296530ec, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x6ebf525560",
+      "pawn": "0x6eaa754030",
+      "mesh": "0x6eb4460040",
+      "root": "0x6e110f3400",
+      "self": false,
+      "team": 3,
+      "dead": 1,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -19277.91015625,
+            7775.65283203125,
+            -1599.032470703125
+          ],
+          "handler": "0x3011026",
+          "decode_error": "Selected payload is empty; key/epoch not validated",
+          "extents": [
+            330.0,
+            330.0,
+            55.0
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            12659.916015625,
+            4609.490234375,
+            -1020.7952880859375
+          ],
+          "handler": "0x301003d",
+          "decode_error": "Selected payload is empty; key/epoch not validated",
+          "extents": [
+            53.26176071166992,
+            53.26176071166992,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            16471.345703125,
+            4686.626953125,
+            -1010.0247192382812
+          ],
+          "handler": "0x301003c",
+          "decode_error": "Selected payload is empty; key/epoch not validated"
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -19403.87890625,
+            7901.62158203125,
+            -1725.001220703125
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x6eb446026c, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x6e017fe390",
+      "pawn": "0x6e1e61c010",
+      "mesh": "0x6e42c40040",
+      "root": "0x6f15886700",
+      "self": false,
+      "team": 5,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -27975.46484375,
+            2738.73046875,
+            -1143.4951171875
+          ],
+          "handler": "0x301101e",
+          "decode_error": "Expected one record for 0x6e42c40194, found 2",
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -28374.11328125,
+            2946.681396484375,
+            -1320.1861572265625
+          ],
+          "handler": "0x301004c",
+          "decode_error": "Selected payload is empty; key/epoch not validated",
+          "extents": [
+            49.876564025878906,
+            49.876564025878906,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -28369.041015625,
+            2945.220458984375,
+            -1321.3330078125
+          ],
+          "handler": "0x301004b",
+          "decode_error": "Selected payload is empty; key/epoch not validated"
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -28357.43359375,
+            3120.69921875,
+            -1525.4638671875
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x6e42c4026c, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x6e45edc720",
+      "pawn": "0x6ebe874030",
+      "mesh": "0x6e3e447480",
+      "root": "0x6e93f40dc0",
+      "self": false,
+      "team": 5,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -28207.46484375,
+            2970.73046875,
+            -1375.4951171875
+          ],
+          "handler": "0x3011050",
+          "decode_error": "Selected payload is empty; key/epoch not validated",
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -28076.80859375,
+            2738.4833984375,
+            -1158.3067626953125
+          ],
+          "handler": "0x30100d3",
+          "decode_error": "Selected payload is empty; key/epoch not validated",
+          "extents": [
+            55.18025207519531,
+            55.18025207519531,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -28072.427734375,
+            2738.571044921875,
+            -1159.0555419921875
+          ],
+          "handler": "0x30100d2",
+          "decode_error": "Selected payload is empty; key/epoch not validated"
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -28101.43359375,
+            2864.69921875,
+            -1269.4638671875
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x6e3e4476ac, found 0"
+        }
+      }
+    },
+    {
+      "ps": "0x6e45edaab0",
+      "pawn": "0x6e1b288020",
+      "mesh": "0x6e2a307480",
+      "root": "0x6f15b6ad20",
+      "self": false,
+      "team": 5,
+      "dead": 0,
+      "identity_matches": true,
+      "vectors": {
+        "mesh_bounds": {
+          "raw_xyz": [
+            -28207.46484375,
+            2970.73046875,
+            -1375.4951171875
+          ],
+          "handler": "0x3011015",
+          "decode_error": "Selected payload is empty; key/epoch not validated",
+          "extents": [
+            88.0,
+            88.0,
+            148.5
+          ]
+        },
+        "root_bounds": {
+          "raw_xyz": [
+            -28514.11328125,
+            3086.681396484375,
+            -1460.1861572265625
+          ],
+          "handler": "0x301001f",
+          "decode_error": "Selected payload is empty; key/epoch not validated",
+          "extents": [
+            56.28207778930664,
+            56.28207778930664,
+            85.98999786376953
+          ]
+        },
+        "root_relative": {
+          "raw_xyz": [
+            -28509.041015625,
+            3085.220458984375,
+            -1461.3330078125
+          ],
+          "handler": "0x301001e",
+          "decode_error": "Selected payload is empty; key/epoch not validated"
+        },
+        "mesh_transform": {
+          "raw_xyz": [
+            -28229.30859375,
+            2992.57421875,
+            -1397.3388671875
+          ],
+          "handler": "0x3f800000",
+          "decode_error": "Expected one record for 0x6e2a3076ac, found 0"
+        }
+      }
+    }
+  ],
+  "screen_verified": false,
+  "limits": [
+    "Batched pages are not frame-atomic.",
+    "Current key is process-specific."
+  ]
+}

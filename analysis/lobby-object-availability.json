@@ -1,0 +1,20 @@
+{
+  "pid": 22846,
+  "world": "0x7582d8a4c0",
+  "world_class": "World",
+  "game_state": "0x793190dde0",
+  "game_state_class": "BP_GameState_IrisSafeHouse_C",
+  "controller": "0x77411eb050",
+  "player_state": "0x7683aae390",
+  "player_state_valid": true,
+  "pawn": "0x7668b895b0",
+  "pawn_valid": true,
+  "roster_count": 1,
+  "valid_player_pawns": [
+    {
+      "player_state": "0x7683aae390",
+      "pawn": "0x7668b895b0",
+      "class": "Pawn"
+    }
+  ]
+}
